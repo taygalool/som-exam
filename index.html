@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>National Secondary Examination System</title>
+    <!-- TELEGRAM WEB APP SDK -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <!-- TAILWIND CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans min-h-screen flex flex-col">
+
+    <!-- TOP HEADER -->
+    <header class="bg-blue-900 text-white shadow-md">
+        <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-yellow-400 text-blue-900 font-bold px-3 py-1 rounded text-sm tracking-wider">SOM EXAMS</div>
+                <h1 class="text-xl font-bold tracking-tight hidden sm:block">National Secondary Examination System</h1>
+            </div>
+            <div class="flex items-center space-x-3">
+                <span id="user-greeting" class="text-xs bg-blue-800 px-3 py-1.5 rounded-full font-medium text-yellow-300"></span>
+                <button id="btn-home-nav" onclick="goHome()" class="hidden bg-blue-800 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition flex items-center space-x-1">
+                    <span>Ku Laabashada Hore</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main class="flex-grow max-w-6xl w-full mx-auto p-4 sm:p-6 flex flex-col justify-center">
+
+        <!-- 1. HOME SCREEN (EXAM SELECTION) -->
+        <section id="screen-home" class="space-y-6">
+            <div class="text-center max-w-2xl mx-auto space-y-2">
+                <h2 class="text-3xl font-extrabold text-slate-900">Dooro Maaddada Imtixaanka</h2>
+                <p class="text-slate-600">Dooro maaddada aad rabto inaad ka jawaabto si aad u bilaawdo imtixaanka.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
+                <!-- Biology Card -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center font-bold text-lg mb-4">BIO</div>
+                        <h3 class="text-lg font-bold text-slate-900">Biology Grade 12</h3>
+                        <p class="text-sm text-slate-500 mt-1">Nervous system, genetics, matching terms, & True/False sections.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
+                        <span class="text-xs text-slate-400 font-semibold">100 Marks</span>
+                        <button onclick="startExam('biology')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
+                            Bilaaw Imtixaanka &rarr;
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Chemistry Card -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center font-bold text-lg mb-4">CHE</div>
+                        <h3 class="text-lg font-bold text-slate-900">Chemistry Form 4</h3>
+                        <p class="text-sm text-slate-500 mt-1">Electrolysis, organic chemistry, stoichiometry, & matching concepts.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
+                        <span class="text-xs text-slate-400 font-semibold">100 Marks</span>
+                        <button onclick="startExam('chemistry')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
+                            Bilaaw Imtixaanka &rarr;
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Business Card -->
+                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 bg-amber-100 text-amber-600 rounded-lg flex items-center justify-center font-bold text-lg mb-4">BUS</div>
+                        <h3 class="text-lg font-bold text-slate-900">Business Studies</h3>
+                        <p class="text-sm text-slate-500 mt-1">Economics, financial accounting, assets vs liabilities classification.</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
+                        <span class="text-xs text-slate-400 font-semibold">100 Marks</span>
+                        <button onclick="startExam('business')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
+                            Bilaaw Imtixaanka &rarr;
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. EXAM INTERFACE SCREEN -->
+        <section id="screen-exam" class="hidden flex-col flex-grow bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden min-h-[500px]">
+            <!-- Header -->
+            <div class="bg-slate-50 px-6 py-4 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div>
+                    <h2 id="exam-title" class="font-bold text-slate-900 text-lg">Subject Title</h2>
+                    <p id="section-title" class="text-xs font-semibold text-blue-600 uppercase tracking-wider mt-0.5">Section Name</p>
+                </div>
+                <div class="flex items-center space-x-2" id="section-tabs-container"></div>
+            </div>
+
+            <!-- Question Canvas -->
+            <div class="flex-grow p-6 sm:p-8 custom-scrollbar overflow-y-auto" id="question-canvas"></div>
+
+            <!-- Bottom Navigation Bar -->
+            <div class="bg-slate-50 px-6 py-4 border-t border-slate-200 flex items-center justify-between">
+                <button id="btn-prev" onclick="navigateQuestion(-1)" class="bg-white border border-slate-300 hover:bg-slate-100 text-slate-700 px-4 py-2 rounded-lg text-sm font-semibold transition disabled:opacity-40">
+                    &larr; U Bixii Hore
+                </button>
+                <div id="question-counter" class="text-xs font-medium text-slate-500">
+                    Suaasha 1
+                </div>
+                <div class="flex space-x-2">
+                    <button id="btn-next" onclick="navigateQuestion(1)" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg text-sm font-semibold transition">
+                        Midka Xiga &rarr;
+                    </button>
+                    <button id="btn-submit" onclick="confirmSubmit()" class="hidden bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-lg text-sm font-semibold transition">
+                        Gudbi Imtixaanka
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. FULL RESULT SCREEN -->
+        <section id="screen-result" class="hidden space-y-6">
+            <div class="bg-white p-8 rounded-xl border border-slate-200 shadow-sm text-center space-y-4">
+                <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-2xl font-bold">✓</div>
+                <h2 class="text-2xl font-bold text-slate-900">Waad Dhamaysay Imtixaanka!</h2>
+                <p class="text-slate-600 max-w-lg mx-auto">Natiijadaada iyo saxida jawaabaha oo faahfaahsan ayaa hoos ku qoran:</p>
+                <div class="inline-flex items-center px-6 py-3 bg-slate-50 border border-slate-200 rounded-xl space-x-6">
+                    <div>
+                        <span class="block text-xs uppercase text-slate-400 font-bold">Dhibcaha Objective-ka</span>
+                        <span id="score-text" class="text-2xl font-extrabold text-blue-600">0 / 0</span>
+                    </div>
+                    <div class="h-8 w-px bg-slate-200"></div>
+                    <div>
+                        <span class="block text-xs uppercase text-slate-400 font-bold">Xaalada</span>
+                        <span class="text-sm font-bold text-emerald-600">Waa La Gudbiyay</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 sm:p-8 rounded-xl border border-slate-200 shadow-sm space-y-6">
+                <h3 class="text-xl font-bold text-slate-900 border-b border-slate-200 pb-3">Natiijada Iyo Jawaabaha Saxda Ah</h3>
+                <div id="result-breakdown-container" class="space-y-6"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <script>
+        // INITIALIZE TELEGRAM WEBAPP
+        let tg = null;
+        if (window.Telegram && window.Telegram.WebApp) {
+            tg = window.Telegram.WebApp;
+            tg.ready();
+            tg.expand(); // Opens full height inside Telegram
+            
+            if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
+                document.getElementById('user-greeting').innerText = `👤 ${tg.initDataUnsafe.user.first_name}`;
+            }
+        }
+
+        // EXAM DATASET
+        const EXAMS = {
+            biology: {
+                title: "Biology Secondary Exam (2020)",
+                sections: [
+                    {
+                        name: "PART A: Multiple Choice",
+                        type: "mcq",
+                        questions: [
+                            { id: "b_mcq_1", prompt: "Which neuron transmits impulses from CNS to effector organs?", choices: ["Sensory neuron", "Motor neuron", "Relay neuron", "Cranial neuron"], correct: 1 },
+                            { id: "b_mcq_2", prompt: "Which gland secretes the hormone thyroxin?", choices: ["Adrenal gland", "Pituitary gland", "Thyroid gland", "Pancreas"], correct: 2 }
+                        ]
+                    },
+                    {
+                        name: "PART B: True or False",
+                        type: "tf",
+                        questions: [
+                            { id: "b_tf_1", prompt: "The cerebellum is the primary part controlling body temperature.", correct: false },
+                            { id: "b_tf_2", prompt: "Spermatogenesis requires a temperature slightly lower than body temp.", correct: true }
+                        ]
+                    },
+                    {
+                        name: "PART C: Matching Questions",
+                        type: "matching",
+                        questions: [
+                            {
+                                id: "b_match_1",
+                                prompt: "Match organ system to its primary function:",
+                                options: ["Gas exchange", "Pumping blood", "Filtering metabolic waste"],
+                                pairs: [
+                                    { id: "m1", term: "Heart", correct: "Pumping blood" },
+                                    { id: "m2", term: "Lungs", correct: "Gas exchange" },
+                                    { id: "m3", term: "Kidney", correct: "Filtering metabolic waste" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            chemistry: {
+                title: "Chemistry Form Four Exam",
+                sections: [
+                    {
+                        name: "Part One: Multiple Choice",
+                        type: "mcq",
+                        questions: [
+                            { id: "c_mcq_1", prompt: "Aluminum is extracted by which process?", choices: ["Roasting in air", "Heating with carbon", "Electrolysis of molten alumina"], correct: 2 }
+                        ]
+                    }
+                ]
+            },
+            business: {
+                title: "Business Studies Exam",
+                sections: [
+                    {
+                        name: "Part One: Matching Concepts",
+                        type: "matching",
+                        questions: [
+                            {
+                                id: "bus_match_1",
+                                prompt: "Match items to correct classification:",
+                                options: ["Asset", "Liability"],
+                                pairs: [
+                                    { id: "bm1", term: "Bank Loan", correct: "Liability" },
+                                    { id: "bm2", term: "Cash at Hand", correct: "Asset" }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        };
+
+        // APP STATE
+        let currentSubjectKey = null;
+        let activeSectionIndex = 0;
+        let activeQuestionIndex = 0;
+        let userAnswers = {};
+
+        const screenHome = document.getElementById('screen-home');
+        const screenExam = document.getElementById('screen-exam');
+        const screenResult = document.getElementById('screen-result');
+        const btnHomeNav = document.getElementById('btn-home-nav');
+        const canvas = document.getElementById('question-canvas');
+
+        function startExam(subjectKey) {
+            currentSubjectKey = subjectKey;
+            activeSectionIndex = 0;
+            activeQuestionIndex = 0;
+            userAnswers = {};
+
+            screenHome.classList.add('hidden');
+            screenResult.classList.add('hidden');
+            screenExam.classList.remove('hidden');
+            screenExam.classList.add('flex');
+            btnHomeNav.classList.remove('hidden');
+
+            document.getElementById('exam-title').innerText = EXAMS[subjectKey].title;
+            renderSectionTabs();
+            loadQuestion();
+        }
+
+        function goHome() {
+            if (screenExam.classList.contains('flex') && !confirm("Ma ziadaa inaad ka baxdo imtixaanka?")) return;
+            screenExam.classList.add('hidden');
+            screenExam.classList.remove('flex');
+            screenResult.classList.add('hidden');
+            screenHome.classList.remove('hidden');
+            btnHomeNav.classList.add('hidden');
+        }
+
+        function renderSectionTabs() {
+            const container = document.getElementById('section-tabs-container');
+            container.innerHTML = '';
+            EXAMS[currentSubjectKey].sections.forEach((sec, idx) => {
+                const btn = document.createElement('button');
+                btn.className = `px-3 py-1 text-xs font-semibold rounded ${idx === activeSectionIndex ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-700'}`;
+                btn.innerText = `Part ${String.fromCharCode(65 + idx)}`;
+                btn.onclick = () => { activeSectionIndex = idx; activeQuestionIndex = 0; renderSectionTabs(); loadQuestion(); };
+                container.appendChild(btn);
+            });
+        }
+
+        function loadQuestion() {
+            const currentSection = EXAMS[currentSubjectKey].sections[activeSectionIndex];
+            const q = currentSection.questions[activeQuestionIndex];
+            document.getElementById('section-title').innerText = currentSection.name;
+
+            canvas.innerHTML = '';
+            const card = document.createElement('div');
+            card.className = 'space-y-6 max-w-3xl mx-auto';
+
+            const qHeader = document.createElement('div');
+            qHeader.className = 'text-base font-semibold text-slate-900';
+            qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mr-2 font-bold">Q${activeQuestionIndex + 1}</span> ${q.prompt}`;
+            card.appendChild(qHeader);
+
+            if (currentSection.type === 'mcq') {
+                const choicesDiv = document.createElement('div');
+                choicesDiv.className = 'space-y-2 pt-2';
+                q.choices.forEach((choice, cIdx) => {
+                    const isChecked = userAnswers[q.id] === cIdx;
+                    const label = document.createElement('label');
+                    label.className = `flex items-center p-3 rounded-lg border cursor-pointer transition ${isChecked ? 'border-blue-600 bg-blue-50' : 'border-slate-200 hover:bg-slate-50'}`;
+                    label.innerHTML = `<input type="radio" name="mcq_${q.id}" value="${cIdx}" ${isChecked ? 'checked' : ''} onchange="saveAnswer('${q.id}', ${cIdx})" class="w-4 h-4 text-blue-600"><span class="ml-3 text-sm">${choice}</span>`;
+                    choicesDiv.appendChild(label);
+                });
+                card.appendChild(choicesDiv);
+
+            } else if (currentSection.type === 'tf') {
+                const tfDiv = document.createElement('div');
+                tfDiv.className = 'grid grid-cols-2 gap-4 pt-2';
+                [{ label: "Sax (True)", val: true }, { label: "Galad (False)", val: false }].forEach(opt => {
+                    const isChecked = userAnswers[q.id] === opt.val;
+                    const btn = document.createElement('button');
+                    btn.type = 'button';
+                    btn.className = `p-3 rounded-lg border text-center font-bold text-sm ${isChecked ? 'bg-blue-600 text-white' : 'bg-white text-slate-700'}`;
+                    btn.innerText = opt.label;
+                    btn.onclick = () => { saveAnswer(q.id, opt.val); loadQuestion(); };
+                    tfDiv.appendChild(btn);
+                });
+                card.appendChild(tfDiv);
+
+            } else if (currentSection.type === 'matching') {
+                const matchDiv = document.createElement('div');
+                matchDiv.className = 'space-y-3 pt-2';
+                userAnswers[q.id] = userAnswers[q.id] || {};
+                q.pairs.forEach(pair => {
+                    const row = document.createElement('div');
+                    row.className = 'flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-slate-50 rounded-lg border border-slate-200 gap-2';
+                    row.innerHTML = `<span class="font-semibold text-sm">${pair.term}</span>`;
+                    const select = document.createElement('select');
+                    select.className = 'p-2 border rounded-md text-sm bg-white';
+                    select.innerHTML = `<option value="">-- Dooro --</option>` + q.options.map(opt => `<option value="${opt}" ${userAnswers[q.id][pair.id] === opt ? 'selected' : ''}>${opt}</option>`).join('');
+                    select.onchange = (e) => { userAnswers[q.id][pair.id] = e.target.value; };
+                    row.appendChild(select);
+                    matchDiv.appendChild(row);
+                });
+                card.appendChild(matchDiv);
+            }
+
+            canvas.appendChild(card);
+            updateNav();
+        }
+
+        function saveAnswer(qId, val) { userAnswers[qId] = val; }
+
+        function updateNav() {
+            const sec = EXAMS[currentSubjectKey].sections[activeSectionIndex];
+            const isLast = (activeSectionIndex === EXAMS[currentSubjectKey].sections.length - 1) && (activeQuestionIndex === sec.questions.length - 1);
+            
+            document.getElementById('btn-prev').disabled = (activeSectionIndex === 0 && activeQuestionIndex === 0);
+            if (isLast) {
+                document.getElementById('btn-next').classList.add('hidden');
+                document.getElementById('btn-submit').classList.remove('hidden');
+            } else {
+                document.getElementById('btn-next').classList.remove('hidden');
+                document.getElementById('btn-submit').classList.add('hidden');
+            }
+        }
+
+        function navigateQuestion(dir) {
+            const sec = EXAMS[currentSubjectKey].sections[activeSectionIndex];
+            activeQuestionIndex += dir;
+            if (activeQuestionIndex < 0 && activeSectionIndex > 0) {
+                activeSectionIndex--;
+                activeQuestionIndex = EXAMS[currentSubjectKey].sections[activeSectionIndex].questions.length - 1;
+                renderSectionTabs();
+            } else if (activeQuestionIndex >= sec.questions.length && activeSectionIndex < EXAMS[currentSubjectKey].sections.length - 1) {
+                activeSectionIndex++;
+                activeQuestionIndex = 0;
+                renderSectionTabs();
+            }
+            loadQuestion();
+        }
+
+        function confirmSubmit() {
+            if (confirm("Ma ziadaa inaad gudbiso imtixaanka?")) evaluateAndShowResults();
+        }
+
+        function evaluateAndShowResults() {
+            screenExam.classList.add('hidden');
+            screenExam.classList.remove('flex');
+            screenResult.classList.remove('hidden');
+
+            let score = 0, total = 0;
+            const container = document.getElementById('result-breakdown-container');
+            container.innerHTML = '';
+
+            EXAMS[currentSubjectKey].sections.forEach(sec => {
+                sec.questions.forEach(q => {
+                    const uVal = userAnswers[q.id];
+                    if (sec.type === 'mcq') {
+                        total++;
+                        if (uVal === q.correct) score++;
+                    } else if (sec.type === 'tf') {
+                        total++;
+                        if (uVal === q.correct) score++;
+                    } else if (sec.type === 'matching') {
+                        q.pairs.forEach(p => {
+                            total++;
+                            if (userAnswers[q.id] && userAnswers[q.id][p.id] === p.correct) score++;
+                        });
+                    }
+                });
+            });
+
+            document.getElementById('score-text').innerText = `${score} / ${total}`;
+        }
+    </script>
+</body>
+</html>
