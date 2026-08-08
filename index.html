@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,11 +18,11 @@
     <!-- TOP HEADER -->
     <header class="bg-blue-900 text-white shadow-md">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <div class="flex items-center space-x-3">
+            <div class="flex items-center space-x-3 space-x-reverse">
                 <div class="bg-yellow-400 text-blue-900 font-bold px-3 py-1 rounded text-sm tracking-wider">SOM EXAMS</div>
                 <h1 class="text-xl font-bold tracking-tight hidden sm:block">National Secondary Examination System</h1>
             </div>
-            <div class="flex items-center space-x-3">
+            <div class="flex items-center space-x-3 space-x-reverse">
                 <span id="user-greeting" class="text-xs bg-blue-800 px-3 py-1.5 rounded-full font-medium text-yellow-300"></span>
                 <button id="btn-home-nav" onclick="goHome()" class="hidden bg-blue-800 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition flex items-center space-x-1">
                     <span>Ku Laabashada Hore</span>
@@ -82,14 +82,14 @@
             <!-- Bottom Navigation Bar -->
             <div class="bg-slate-50 px-6 py-4 border-t border-slate-200 flex items-center justify-between">
                 <button id="btn-prev" onclick="navigateQuestion(-1)" class="bg-white border border-slate-300 hover:bg-slate-100 text-slate-700 px-4 py-2 rounded-lg text-sm font-semibold transition disabled:opacity-40">
-                    &larr; U Bixii Hore
+                    &rarr; U Bixii Hore
                 </button>
                 <div id="question-counter" class="text-xs font-medium text-slate-500">
                     Suaasha 1
                 </div>
-                <div class="flex space-x-2">
+                <div class="flex space-x-2 space-x-reverse">
                     <button id="btn-next" onclick="navigateQuestion(1)" class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg text-sm font-semibold transition">
-                        Midka Xiga &rarr;
+                        Midka Xiga &larr;
                     </button>
                     <button id="btn-submit" onclick="confirmSubmit()" class="hidden bg-emerald-600 hover:bg-emerald-700 text-white px-5 py-2 rounded-lg text-sm font-semibold transition">
                         Gudbi Imtixaanka
@@ -104,7 +104,7 @@
                 <div class="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-full flex items-center justify-center mx-auto text-2xl font-bold">✓</div>
                 <h2 class="text-2xl font-bold text-slate-900">Waad Dhamaysay Imtixaanka!</h2>
                 <p class="text-slate-600 max-w-lg mx-auto">Natiijadaada iyo saxida jawaabaha oo faahfaahsan ayaa hoos ku qoran:</p>
-                <div class="inline-flex items-center px-6 py-3 bg-slate-50 border border-slate-200 rounded-xl space-x-6">
+                <div class="inline-flex items-center px-6 py-3 bg-slate-50 border border-slate-200 rounded-xl space-x-6 space-x-reverse">
                     <div>
                         <span class="block text-xs uppercase text-slate-400 font-bold">Dhibcaha Objective-ka</span>
                         <span id="score-text" class="text-2xl font-extrabold text-blue-600">0 / 0</span>
@@ -127,7 +127,6 @@
 
     <!-- APPLICATION LOGIC -->
     <script>
-        // TELEGRAM INITIALIZATION
         let tg = null;
         if (window.Telegram && window.Telegram.WebApp) {
             tg = window.Telegram.WebApp;
@@ -138,7 +137,6 @@
             }
         }
 
-        // GLOBAL APP STATE
         let activeExamData = null;
         let activeSectionIndex = 0;
         let activeQuestionIndex = 0;
@@ -151,7 +149,6 @@
         const btnHomeNav = document.getElementById('btn-home-nav');
         const canvas = document.getElementById('question-canvas');
 
-        // AUTO-FETCH FROM URL PARAMETERS
         window.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);
             const region = urlParams.get('region');
@@ -164,7 +161,6 @@
             }
         });
 
-        // FETCH EXAM JSON
         async function fetchAndStartExam(region, grade, subject, year) {
             showLoading(true);
             const filePath = `./exams/${region}_${grade}_${subject}_${year}.json`;
@@ -200,7 +196,6 @@
 
             const meta = activeExamData.exam_meta || {};
             
-            // AUTOMATIC DIRECTION SETUP (RTL FOR ARABIC)
             if (meta.subject === 'arab' || (meta.title && meta.title.match(/[\u0600-\u06FF]/))) {
                 document.body.setAttribute('dir', 'rtl');
             } else {
@@ -252,7 +247,7 @@
             const card = document.createElement('div');
             card.className = 'space-y-6 max-w-3xl mx-auto';
 
-            // 1. READING PASSAGE / TEXT BLOCK
+            // 1. PASSAGE / READING TEXT
             const passageText = q.passage || currentSection.passage || currentSection.reading_text || null;
             if (passageText) {
                 const passageBox = document.createElement('div');
@@ -268,15 +263,14 @@
             qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${questionText}`;
             card.appendChild(qHeader);
 
-            // 3. DETECT QUESTION TYPE AND RENDER INPUTS
+            // 3. EXTRACT ALL POSSIBLE DATA
             const choices = q.choices || q.options || q.answers || [];
-            const items = q.items || q.sentences || q.sub_questions || q.pairs || [];
-            const sectionType = q.type || currentSection.type || (choices.length > 0 ? 'mcq' : (items.length > 0 ? 'sub_questions' : 'text'));
+            const items = q.items || q.sentences || q.sub_questions || q.subQuestions || q.pairs || q.words || q.vocabulary || q.questions || q.list || [];
+            let sectionType = q.type || currentSection.type;
 
-            userAnswers[q.id] = userAnswers[q.id] || (sectionType === 'sub_questions' || sectionType === 'table' || sectionType === 'matching' ? {} : '');
-
-            // TYPE 1: MULTIPLE CHOICE (MCQ)
-            if (sectionType === 'mcq' || (choices.length > 0 && items.length === 0)) {
+            // 4. RENDER INPUTS BASED ON DATA
+            if ((sectionType === 'mcq' || choices.length > 0) && items.length === 0) {
+                // MULTIPLE CHOICE
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
                 choices.forEach((choice, cIdx) => {
@@ -288,8 +282,8 @@
                 });
                 card.appendChild(choicesDiv);
 
-            // TYPE 2: TRUE / FALSE
             } else if (sectionType === 'tf' || sectionType === 'true_false') {
+                // TRUE / FALSE
                 const tfDiv = document.createElement('div');
                 tfDiv.className = 'grid grid-cols-2 gap-4 pt-2';
                 [{ label: "صواب (True)", val: true }, { label: "خطأ (False)", val: false }].forEach(opt => {
@@ -303,8 +297,9 @@
                 });
                 card.appendChild(tfDiv);
 
-            // TYPE 3: SUB-QUESTIONS & TABLES (e.g., Grammar sentence identification)
-            } else if (sectionType === 'table' || sectionType === 'sub_questions' || (items.length > 0 && sectionType !== 'matching')) {
+            } else if (items.length > 0 && sectionType !== 'matching') {
+                // SUB-QUESTIONS / LIST OF WORDS / GRAMMAR EXTRACTION
+                userAnswers[q.id] = userAnswers[q.id] || {};
                 const listContainer = document.createElement('div');
                 listContainer.className = 'space-y-4 pt-2';
 
@@ -312,11 +307,10 @@
                     const itemRow = document.createElement('div');
                     itemRow.className = 'p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-3';
                     
-                    const itemText = typeof item === 'string' ? item : (item.text || item.sentence || item.term || `المسألة ${idx + 1}`);
+                    const itemText = typeof item === 'string' ? item : (item.text || item.sentence || item.term || item.word || `المسألة ${idx + 1}`);
                     itemRow.innerHTML = `<div class="font-medium text-slate-800 text-sm"><span class="text-blue-600 font-bold ml-1">${idx + 1}.</span> ${itemText}</div>`;
 
-                    // Dual field inputs (e.g., Subject and Object)
-                    if (q.fields && Array.isArray(q.fields)) {
+                    if (q.fields && Array.isArray(q.fields) && q.fields.length > 0) {
                         const fieldsGrid = document.createElement('div');
                         fieldsGrid.className = 'grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1';
                         
@@ -331,7 +325,6 @@
                         });
                         itemRow.appendChild(fieldsGrid);
                     } else {
-                        // Single text input per sub-item
                         const singleVal = (userAnswers[q.id] && userAnswers[q.id][idx] && userAnswers[q.id][idx]['val']) || '';
                         const input = document.createElement('input');
                         input.type = 'text';
@@ -346,8 +339,9 @@
                 });
                 card.appendChild(listContainer);
 
-            // TYPE 4: MATCHING
-            } else if (sectionType === 'matching') {
+            } else if (sectionType === 'matching' && items.length > 0) {
+                // MATCHING
+                userAnswers[q.id] = userAnswers[q.id] || {};
                 const matchDiv = document.createElement('div');
                 matchDiv.className = 'space-y-3 pt-2';
                 const options = q.options || currentSection.options || [];
@@ -367,13 +361,13 @@
                 });
                 card.appendChild(matchDiv);
 
-            // TYPE 5: ESSAY / SHORT ANSWER / PARSING
             } else {
+                // DEFAULT FALLBACK: OPEN TEXT AREA
                 const textDiv = document.createElement('div');
                 textDiv.className = 'pt-2';
                 const val = typeof userAnswers[q.id] === 'string' ? userAnswers[q.id] : '';
                 textDiv.innerHTML = `
-                    <textarea rows="4" oninput="saveAnswer('${q.id}', this.value)" class="w-full p-3 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="اكتب إجابتك الكاملة هنا...">${val}</textarea>
+                    <textarea rows="5" oninput="saveAnswer('${q.id}', this.value)" class="w-full p-3 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="اكتب إجابتك الكاملة هنا...">${val}</textarea>
                 `;
                 card.appendChild(textDiv);
             }
@@ -382,7 +376,6 @@
             updateNav();
         }
 
-        // SAVE INPUT ANSWERS
         function saveAnswer(qId, val) { 
             userAnswers[qId] = val; 
         }
@@ -393,7 +386,6 @@
             userAnswers[qId][subIdx][fieldKey] = val;
         }
 
-        // NAVIGATION CONTROLS
         function updateNav() {
             const sec = activeExamData.sections[activeSectionIndex];
             const isLast = (activeSectionIndex === activeExamData.sections.length - 1) && (activeQuestionIndex === sec.questions.length - 1);
@@ -429,7 +421,6 @@
             if (confirm("Ma ziadaa inaad gudbiso imtixaanka?")) evaluateAndShowResults();
         }
 
-        // SCORE EVALUATION AND RESULT DISPLAY
         function evaluateAndShowResults() {
             screenExam.classList.add('hidden');
             screenExam.classList.remove('flex');
