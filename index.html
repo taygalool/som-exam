@@ -275,6 +275,24 @@
             });
         }
 
+        // Helper function to safely parse choices text (strings or objects)
+        function getChoiceText(choice) {
+            if (typeof choice === 'string') return choice;
+            if (typeof choice === 'number') return String(choice);
+            if (typeof choice === 'object' && choice !== null) {
+                if (choice.text) {
+                    const prefix = (choice.key || choice.label || choice.letter) ? `<b>${choice.key || choice.label || choice.letter}:</b> ` : '';
+                    return prefix + choice.text;
+                }
+                const keys = Object.keys(choice);
+                if (keys.length === 1) {
+                    return `<b>${keys[0]}:</b> ${choice[keys[0]]}`;
+                }
+                return choice.option || choice.value || Object.values(choice).join(' ');
+            }
+            return String(choice);
+        }
+
         function loadQuestion() {
             const currentSection = activeExamData.sections[activeSectionIndex];
             const q = currentSection.questions[activeQuestionIndex];
@@ -307,14 +325,19 @@
 
             // 4. RENDER INPUTS BASED ON DATA
             if ((sectionType === 'mcq' || choices.length > 0) && items.length === 0) {
-                // MULTIPLE CHOICE
+                // MULTIPLE CHOICE (WITH OBJECT PARSER FIX)
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
                 choices.forEach((choice, cIdx) => {
                     const isChecked = userAnswers[q.id] === cIdx;
+                    const choiceText = getChoiceText(choice);
+
                     const label = document.createElement('label');
                     label.className = `flex items-center p-3 rounded-lg border cursor-pointer transition ${isChecked ? 'border-blue-600 bg-blue-50' : 'border-slate-200 hover:bg-slate-50'}`;
-                    label.innerHTML = `<input type="radio" name="mcq_${q.id}" value="${cIdx}" ${isChecked ? 'checked' : ''} onchange="saveAnswer('${q.id}', ${cIdx})" class="w-4 h-4 text-blue-600"><span class="mx-3 text-sm">${choice}</span>`;
+                    label.innerHTML = `
+                        <input type="radio" name="mcq_${q.id}" value="${cIdx}" ${isChecked ? 'checked' : ''} onchange="saveAnswer('${q.id}', ${cIdx})" class="w-4 h-4 text-blue-600">
+                        <span class="mx-3 text-sm text-slate-800">${choiceText}</span>
+                    `;
                     choicesDiv.appendChild(label);
                 });
                 card.appendChild(choicesDiv);
