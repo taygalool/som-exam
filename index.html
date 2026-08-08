@@ -231,7 +231,7 @@
             activeExamData.sections.forEach((sec, idx) => {
                 const btn = document.createElement('button');
                 btn.className = `px-3 py-1 text-xs font-semibold rounded ${idx === activeSectionIndex ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-700'}`;
-                btn.innerText = sec.title || `Part ${String.fromCharCode(65 + idx)}`;
+                btn.innerText = sec.title || sec.name || `Part ${String.fromCharCode(65 + idx)}`;
                 btn.onclick = () => { activeSectionIndex = idx; activeQuestionIndex = 0; renderSectionTabs(); loadQuestion(); };
                 container.appendChild(btn);
             });
@@ -240,23 +240,37 @@
         function loadQuestion() {
             const currentSection = activeExamData.sections[activeSectionIndex];
             const q = currentSection.questions[activeQuestionIndex];
-            document.getElementById('section-title').innerText = currentSection.title || currentSection.name;
+            document.getElementById('section-title').innerText = currentSection.title || currentSection.name || '';
 
             canvas.innerHTML = '';
             const card = document.createElement('div');
             card.className = 'space-y-6 max-w-3xl mx-auto';
 
+            // 1. PASSAGE / READING TEXT (COMMON IN ARABIC EXAMS)
+            const passageText = q.passage || currentSection.passage || currentSection.reading_text || null;
+            if (passageText) {
+                const passageBox = document.createElement('div');
+                passageBox.className = 'bg-amber-50 border border-amber-200 p-4 rounded-lg text-slate-800 text-sm leading-relaxed mb-4';
+                passageBox.innerHTML = `<strong class="block mb-2 text-amber-900">النص / Reading Passage:</strong> ${passageText}`;
+                card.appendChild(passageBox);
+            }
+
+            // 2. QUESTION PROMPT / TEXT
+            const questionText = q.prompt || q.question || q.text || q.statement || q.title || '';
             const qHeader = document.createElement('div');
-            qHeader.className = 'text-base font-semibold text-slate-900';
-            qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${q.prompt || q.question || ''}`;
+            qHeader.className = 'text-base font-semibold text-slate-900 leading-normal';
+            qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${questionText}`;
             card.appendChild(qHeader);
 
-            const sectionType = currentSection.type || q.type;
+            // 3. QUESTION TYPE & CHOICES FLEXIBILITY
+            const choices = q.choices || q.options || q.answers || [];
+            const sectionType = q.type || currentSection.type || (choices.length > 0 ? 'mcq' : 'mcq');
 
-            if (sectionType === 'mcq') {
+            // MULTIPLE CHOICE (MCQ)
+            if (sectionType === 'mcq' || choices.length > 0) {
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
-                q.choices.forEach((choice, cIdx) => {
+                choices.forEach((choice, cIdx) => {
                     const isChecked = userAnswers[q.id] === cIdx;
                     const label = document.createElement('label');
                     label.className = `flex items-center p-3 rounded-lg border cursor-pointer transition ${isChecked ? 'border-blue-600 bg-blue-50' : 'border-slate-200 hover:bg-slate-50'}`;
@@ -265,29 +279,32 @@
                 });
                 card.appendChild(choicesDiv);
 
-            } else if (sectionType === 'tf') {
+            // TRUE / FALSE
+            } else if (sectionType === 'tf' || sectionType === 'true_false') {
                 const tfDiv = document.createElement('div');
                 tfDiv.className = 'grid grid-cols-2 gap-4 pt-2';
-                [{ label: "Sax (True)", val: true }, { label: "Galad (False)", val: false }].forEach(opt => {
+                [{ label: "صواب (True)", val: true }, { label: "خطأ (False)", val: false }].forEach(opt => {
                     const isChecked = userAnswers[q.id] === opt.val;
                     const btn = document.createElement('button');
                     btn.type = 'button';
-                    btn.className = `p-3 rounded-lg border text-center font-bold text-sm ${isChecked ? 'bg-blue-600 text-white' : 'bg-white text-slate-700'}`;
+                    btn.className = `p-3 rounded-lg border text-center font-bold text-sm ${isChecked ? 'bg-blue-600 text-white' : 'bg-white text-slate-700 hover:bg-slate-50'}`;
                     btn.innerText = opt.label;
                     btn.onclick = () => { saveAnswer(q.id, opt.val); loadQuestion(); };
                     tfDiv.appendChild(btn);
                 });
                 card.appendChild(tfDiv);
 
+            // MATCHING
             } else if (sectionType === 'matching') {
                 const matchDiv = document.createElement('div');
                 matchDiv.className = 'space-y-3 pt-2';
                 userAnswers[q.id] = userAnswers[q.id] || {};
                 const options = q.options || currentSection.options || [];
-                q.pairs.forEach(pair => {
+                const pairs = q.pairs || q.items || [];
+                pairs.forEach(pair => {
                     const row = document.createElement('div');
                     row.className = 'flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-slate-50 rounded-lg border border-slate-200 gap-2';
-                    row.innerHTML = `<span class="font-semibold text-sm">${pair.term}</span>`;
+                    row.innerHTML = `<span class="font-semibold text-sm">${pair.term || pair.left || pair.question}</span>`;
                     const select = document.createElement('select');
                     select.className = 'p-2 border rounded-md text-sm bg-white';
                     select.innerHTML = `<option value="">-- Dooro --</option>` + options.map(opt => `<option value="${opt}" ${userAnswers[q.id][pair.id] === opt ? 'selected' : ''}>${opt}</option>`).join('');
@@ -351,15 +368,18 @@
             activeExamData.sections.forEach(sec => {
                 sec.questions.forEach(q => {
                     const uVal = userAnswers[q.id];
-                    const type = sec.type || q.type;
+                    const choices = q.choices || q.options || [];
+                    const type = sec.type || q.type || (choices.length > 0 ? 'mcq' : 'mcq');
+                    const correctAnswer = q.correct !== undefined ? q.correct : q.answer;
 
-                    if (type === 'mcq' || type === 'tf') {
+                    if (type === 'mcq' || type === 'tf' || type === 'true_false') {
                         total++;
-                        if (uVal === q.correct) score++;
+                        if (uVal === correctAnswer) score++;
                     } else if (type === 'matching') {
-                        q.pairs.forEach(p => {
+                        const pairs = q.pairs || q.items || [];
+                        pairs.forEach(p => {
                             total++;
-                            if (userAnswers[q.id] && userAnswers[q.id][p.id] === p.correct) score++;
+                            if (userAnswers[q.id] && userAnswers[q.id][p.id] === (p.correct || p.answer)) score++;
                         });
                     }
                 });
