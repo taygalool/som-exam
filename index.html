@@ -47,22 +47,8 @@
                 <p class="text-slate-600">Dooro maaddada aad rabto inaad ka jawaabto si aad u bilaawdo imtixaanka.</p>
             </div>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
-                <!-- Puntland Arabic Grade 8 -->
-                <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between">
-                    <div>
-                        <div class="w-12 h-12 bg-emerald-100 text-emerald-600 rounded-lg flex items-center justify-center font-bold text-lg mb-4">ARA</div>
-                        <h3 class="text-lg font-bold text-slate-900">اللغة العربية (Puntland Grade 8)</h3>
-                        <p class="text-sm text-slate-500 mt-1">Imtixaanka rasmiga ah ee sanadkii 2018.</p>
-                    </div>
-                    <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
-                        <span class="text-xs text-slate-400 font-semibold">100 Marks</span>
-                        <button onclick="fetchAndStartExam('puntland', '8', 'arab', '2018')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
-                            Bilaaw Imtixaanka &rarr;
-                        </button>
-                    </div>
-                </div>
-            </div>
+            <!-- DYNAMIC EXAM CARDS GRID -->
+            <div id="exam-cards-grid" class="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4"></div>
         </section>
 
         <!-- 2. EXAM INTERFACE SCREEN -->
@@ -127,6 +113,28 @@
 
     <!-- APPLICATION LOGIC -->
     <script>
+        // ==========================================
+        // 📚 REGISTER ALL AVAILABLE EXAMS HERE
+        // ==========================================
+        const availableExams = [
+            {
+                file: './exams/puntland_8_arab_2018.json',
+                badge: 'ARA',
+                badgeBg: 'bg-emerald-100 text-emerald-600',
+                title: 'اللغة العربية (Puntland Grade 8)',
+                desc: 'Imtixaanka rasmiga ah ee sanadkii 2018.',
+                marks: '100 Marks'
+            },
+            {
+                file: './exams/somalia_bio_2020.json',
+                badge: 'BIO',
+                badgeBg: 'bg-blue-100 text-blue-600',
+                title: 'Biology (Somalia Grade 12)',
+                desc: 'Imtixaanka rasmiga ah ee sanadkii 2020.',
+                marks: '100 Marks'
+            }
+        ];
+
         let tg = null;
         if (window.Telegram && window.Telegram.WebApp) {
             tg = window.Telegram.WebApp;
@@ -150,20 +158,49 @@
         const canvas = document.getElementById('question-canvas');
 
         window.addEventListener('DOMContentLoaded', () => {
+            renderExamList();
+
             const urlParams = new URLSearchParams(window.location.search);
+            const file = urlParams.get('file');
             const region = urlParams.get('region');
             const grade = urlParams.get('grade');
             const subject = urlParams.get('subject');
             const year = urlParams.get('year');
 
-            if (region && grade && subject && year) {
-                fetchAndStartExam(region, grade, subject, year);
+            if (file) {
+                fetchAndStartExam(file);
+            } else if (region && grade && subject && year) {
+                fetchAndStartExam(`./exams/${region}_${grade}_${subject}_${year}.json`);
             }
         });
 
-        async function fetchAndStartExam(region, grade, subject, year) {
+        // Dynamic Card Renderer
+        function renderExamList() {
+            const grid = document.getElementById('exam-cards-grid');
+            grid.innerHTML = '';
+
+            availableExams.forEach(exam => {
+                const card = document.createElement('div');
+                card.className = 'bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between';
+                card.innerHTML = `
+                    <div>
+                        <div class="w-12 h-12 ${exam.badgeBg} rounded-lg flex items-center justify-center font-bold text-lg mb-4">${exam.badge}</div>
+                        <h3 class="text-lg font-bold text-slate-900">${exam.title}</h3>
+                        <p class="text-sm text-slate-500 mt-1">${exam.desc}</p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
+                        <span class="text-xs text-slate-400 font-semibold">${exam.marks}</span>
+                        <button onclick="fetchAndStartExam('${exam.file}')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
+                            Bilaaw Imtixaanka &rarr;
+                        </button>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        async function fetchAndStartExam(filePath) {
             showLoading(true);
-            const filePath = `./exams/${region}_${grade}_${subject}_${year}.json`;
 
             try {
                 const response = await fetch(filePath);
