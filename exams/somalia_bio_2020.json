@@ -1,0 +1,399 @@
+{
+  "metadata": {
+    "id": "SOM-BIO-2020-G12",
+    "title": "Somali Certificate for Secondary Education Examination",
+    "subject": "Biology",
+    "grade": 12,
+    "year": 2020,
+    "country": "Federal Republic of Somalia",
+    "ministry": "Ministry of Education, Culture and Higher Education",
+    "office": "Office of Examinations and Certification (SomExams)",
+    "total_marks": 100,
+    "allowed_time": "2 hours",
+    "instructions": [
+      "Write your full name, roll number, and school name in English on the answer booklet.",
+      "Write all your answers in the answer booklet. Answers on the question paper will not be marked.",
+      "Write legibly in dark blue pen only.",
+      "Answer all questions as provided in the question paper.",
+      "Adhere to examination regulations and allowed time."
+    ]
+  },
+  "sections": [
+    {
+      "id": "part_a",
+      "title": "PART A: Multiple Choice Questions",
+      "total_marks": 10,
+      "question_type": "multiple_choice",
+      "questions": [
+        {
+          "id": "A1",
+          "question_number": 1,
+          "text": "Which of the following neurons transmit nerve impulses from the central nervous system to the effector organ?",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Sensory" },
+            { "key": "b", "text": "Motor" },
+            { "key": "c", "text": "Relay" },
+            { "key": "d", "text": "Cranial" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "id": "A2",
+          "question_number": 2,
+          "text": "Which of the following glands is classified for secreting hormone thyroxin?",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Adrenal gland" },
+            { "key": "b", "text": "Pituitary gland" },
+            { "key": "c", "text": "Thyroid gland" },
+            { "key": "d", "text": "Pancreas" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "id": "A3",
+          "question_number": 3,
+          "text": "Choose the female organ that produce the ovum.",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Oviduct" },
+            { "key": "b", "text": "Ovary" },
+            { "key": "c", "text": "Uterus" },
+            { "key": "d", "text": "Fallopian tube" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "id": "A4",
+          "question_number": 4,
+          "text": "The part of the flower where the pollen grain is produced is called",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Stigma" },
+            { "key": "b", "text": "Petal" },
+            { "key": "c", "text": "Anther" },
+            { "key": "d", "text": "Filament" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "id": "A5",
+          "question_number": 5,
+          "text": "Select the part of the brain which controls the homeostatic functions",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Cerebrum" },
+            { "key": "b", "text": "Thalamus" },
+            { "key": "c", "text": "Hypothalamus" },
+            { "key": "d", "text": "Pituitary gland" }
+          ],
+          "correct_answer": "c"
+        },
+        {
+          "id": "A6",
+          "question_number": 6,
+          "text": "Which of the following statements best describes the structure of the human sperm?",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Ovoid head, short neck and nucleus" },
+            { "key": "b", "text": "Middle piece, short neck and mitochondria" },
+            { "key": "c", "text": "Short neck, nucleus and mitochondria" },
+            { "key": "d", "text": "Ovoid head, short neck, middle piece and tail" }
+          ],
+          "correct_answer": "d"
+        },
+        {
+          "id": "A7",
+          "question_number": 7,
+          "text": "Which of the following traits is identified as an example of continuous variation?",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Sex" },
+            { "key": "b", "text": "ABO blood group" },
+            { "key": "c", "text": "Tongue rolling" },
+            { "key": "d", "text": "Height" }
+          ],
+          "correct_answer": "d"
+        },
+        {
+          "id": "A8",
+          "question_number": 8,
+          "text": "When a homozygous man from blood group A marries a woman who is homozygous from blood group B, the probability of them producing an offspring of AB blood group is",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "25%" },
+            { "key": "b", "text": "50%" },
+            { "key": "c", "text": "75%" },
+            { "key": "d", "text": "100%" }
+          ],
+          "correct_answer": "d"
+        },
+        {
+          "id": "A9",
+          "question_number": 9,
+          "text": "The type of chromosomal mutation that occurs when a section of the chromatid break and fail to reconnect to any other chromatid is called...",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Duplication" },
+            { "key": "b", "text": "Deletion" },
+            { "key": "c", "text": "Inversion" },
+            { "key": "d", "text": "Translocation" }
+          ],
+          "correct_answer": "b"
+        },
+        {
+          "id": "A10",
+          "question_number": 10,
+          "text": "Which of the following glands secretes the Follicle Stimulating Hormone (FSH)",
+          "marks": 1,
+          "options": [
+            { "key": "a", "text": "Corpus luteum" },
+            { "key": "b", "text": "Adrenal gland" },
+            { "key": "c", "text": "Pituitary gland" },
+            { "key": "d", "text": "Thyroid gland" }
+          ],
+          "correct_answer": "c"
+        }
+      ]
+    },
+    {
+      "id": "part_b",
+      "title": "PART B: Short Answer & Completion",
+      "total_marks": 10,
+      "question_type": "short_answer",
+      "questions": [
+        {
+          "id": "B1",
+          "question_number": 1,
+          "text": "Name two types of reproduction.",
+          "marks": 2,
+          "sample_answer": "Sexual reproduction and Asexual reproduction"
+        },
+        {
+          "id": "B2",
+          "question_number": 2,
+          "text": "Describe the condition in which the embryo gets attached to the wall of the oviduct.",
+          "marks": 2,
+          "sample_answer": "Ectopic pregnancy (specifically tubal pregnancy)"
+        },
+        {
+          "id": "B3",
+          "question_number": 3,
+          "text": "The bacteria that causes syphilis is known as...",
+          "marks": 2,
+          "sample_answer": "Treponema pallidum"
+        },
+        {
+          "id": "B4",
+          "question_number": 4,
+          "text": "The gene that determines whether a child becomes a male or female is located on a specific pair of chromosome called...",
+          "marks": 4,
+          "sample_answer": "Sex chromosomes (or 23rd pair / XY chromosomes)"
+        }
+      ]
+    },
+    {
+      "id": "section_c",
+      "title": "SECTION C: Structured Questions",
+      "total_marks": 80,
+      "question_type": "structured",
+      "questions": [
+        {
+          "id": "C1",
+          "question_number": 1,
+          "sub_questions": [
+            {
+              "sub_id": "a",
+              "text": "Define the term 'Genetics'.",
+              "marks": 1
+            },
+            {
+              "sub_id": "b",
+              "text": "State the two types of mutation.",
+              "marks": 2
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "question_number": 2,
+          "text": "Describe the functions of the different parts of female reproductive system.",
+          "marks": 5
+        },
+        {
+          "id": "C3",
+          "question_number": 3,
+          "text": "Explain how impulses are passed from receptors to effectors via the central nervous system by drawing a well-labelled diagram.",
+          "marks": 4,
+          "requires_diagram": true
+        },
+        {
+          "id": "C4",
+          "question_number": 4,
+          "text": "Nocturnal animals such as the owl are capable of seeing fairly well at night. Analyze the retinal adaptations of the owl help it move at night.",
+          "marks": 2
+        },
+        {
+          "id": "C5",
+          "question_number": 5,
+          "text": "Using diagram illustration, analyze the genetic cross between a man with blood group A and a woman with blood group B producing offspring of all the four blood groups.",
+          "marks": 2,
+          "requires_diagram": true
+        },
+        {
+          "id": "C6",
+          "question_number": 6,
+          "text": "Describe the differences between Phenotype and Genotype.",
+          "marks": 2
+        },
+        {
+          "id": "C7",
+          "question_number": 7,
+          "text": "Discuss the effects of overproduction of thyroxine on humans.",
+          "marks": 3
+        },
+        {
+          "id": "C8",
+          "question_number": 8,
+          "text": "Differentiate between internal fertilization and external fertilization.",
+          "marks": 2
+        },
+        {
+          "id": "C9",
+          "question_number": 9,
+          "text": "Using the diagram provided, briefly explain how the segregation of the chromatids occurs.",
+          "marks": 2,
+          "has_image_ref": true,
+          "image_description": "Single chromosome showing two sister chromatids joined at the centromere"
+        },
+        {
+          "id": "C10",
+          "question_number": 10,
+          "text": "Define the following terms:",
+          "sub_questions": [
+            { "sub_id": "i", "text": "Gestation period", "marks": 1 },
+            { "sub_id": "ii", "text": "Abortion", "marks": 1 },
+            { "sub_id": "iii", "text": "Ovulation", "marks": 1 },
+            { "sub_id": "iv", "text": "Menopause", "marks": 1 }
+          ]
+        },
+        {
+          "id": "C11",
+          "question_number": 11,
+          "text": "Explain the physiological importance of the testes being outside the body.",
+          "marks": 3
+        },
+        {
+          "id": "C12",
+          "question_number": 12,
+          "text": "Predict the F1 generation produced from a cross between a purebred long winged with vestigial winged flies. Let stand 'W' for long winged and 'w' for vestigial winged flies.",
+          "marks": 4
+        },
+        {
+          "id": "C13",
+          "question_number": 13,
+          "text": "Sketch and label the male parts of a flower.",
+          "marks": 3,
+          "requires_diagram": true
+        },
+        {
+          "id": "C14",
+          "question_number": 14,
+          "text": "Mrs. Fatima claims that her child was wrongly identified at a hospital, thus taking the wrong baby. Both Fatima and her husband are blood group A while the baby's blood group is O. Evaluate whether Fatima is justified in her claim by making a genetic cross using a Punnett square.",
+          "marks": 4,
+          "requires_diagram": true
+        },
+        {
+          "id": "C15",
+          "question_number": 15,
+          "text": "Describe any two sex linked diseases.",
+          "marks": 2
+        },
+        {
+          "id": "C16",
+          "question_number": 16,
+          "text": "Describe the reflex action that will lead to the withdrawal of a hand after touching a hot object.",
+          "marks": 5
+        },
+        {
+          "id": "C17",
+          "question_number": 17,
+          "text": "Estimate the number of teeth in adult human being.",
+          "marks": 1,
+          "sample_answer": "32"
+        },
+        {
+          "id": "C18",
+          "question_number": 18,
+          "text": "Classify the following animals into carnivores, herbivores and omnivores:",
+          "sub_questions": [
+            { "sub_id": "i", "text": "Elephant", "marks": 1, "answer": "Herbivore" },
+            { "sub_id": "ii", "text": "Human being", "marks": 1, "answer": "Omnivore" },
+            { "sub_id": "iii", "text": "Cat", "marks": 1, "answer": "Carnivore" },
+            { "sub_id": "iv", "text": "Rat", "marks": 1, "answer": "Omnivore" },
+            { "sub_id": "v", "text": "Goat", "marks": 1, "answer": "Herbivore" }
+          ]
+        },
+        {
+          "id": "C19",
+          "question_number": 19,
+          "text": "Name the parasite that causes malaria to humans.",
+          "marks": 1,
+          "sample_answer": "Plasmodium (e.g. Plasmodium falciparum)"
+        },
+        {
+          "id": "C20",
+          "question_number": 20,
+          "text": "Discuss any two characteristics of living organisms.",
+          "marks": 2
+        },
+        {
+          "id": "C21",
+          "question_number": 21,
+          "text": "If the base sequence of a DNA strand is A C G, T C A, G T A. Synthesize the complementary strand of this DNA.",
+          "marks": 2,
+          "sample_answer": "T G C, A G T, C A T"
+        },
+        {
+          "id": "C22",
+          "question_number": 22,
+          "text": "A person is complaining of short sightedness. Explain the best possible correction method that can be used for this problem.",
+          "marks": 3
+        },
+        {
+          "id": "C23",
+          "question_number": 23,
+          "text": "Explain why is it difficult to cure the third stage of syphilis?",
+          "marks": 1
+        },
+        {
+          "id": "C24",
+          "question_number": 24,
+          "text": "Discuss the significance of meiosis.",
+          "marks": 3
+        },
+        {
+          "id": "C25",
+          "question_number": 25,
+          "text": "Describe the role of placenta during pregnancy to foetus.",
+          "marks": 4
+        },
+        {
+          "id": "C26",
+          "question_number": 26,
+          "text": "If a girl started ovulation at the age of 14 and continued until the age of 49, calculate the number of eggs she produced during this.",
+          "marks": 3,
+          "calculation_steps": "Duration = 49 - 14 = 35 years. Eggs per year = 12. Total eggs = 35 * 12 = 420 eggs."
+        },
+        {
+          "id": "C27",
+          "question_number": 27,
+          "text": "Draw and label the main parts of a well-designed diagram for the female reproductive system.",
+          "marks": 5,
+          "requires_diagram": true
+        }
+      ]
+    }
+  ]
+}
