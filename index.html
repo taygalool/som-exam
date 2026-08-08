@@ -67,13 +67,13 @@
 
         <!-- 2. EXAM INTERFACE SCREEN -->
         <section id="screen-exam" class="hidden flex-col flex-grow bg-white rounded-xl border border-slate-200 shadow-sm overflow-hidden min-h-[500px]">
-            <!-- Header -->
+            <!-- Header & Section Navigation -->
             <div class="bg-slate-50 px-6 py-4 border-b border-slate-200 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
                 <div>
                     <h2 id="exam-title" class="font-bold text-slate-900 text-lg">Subject Title</h2>
                     <p id="section-title" class="text-xs font-semibold text-blue-600 uppercase tracking-wider mt-0.5">Section Name</p>
                 </div>
-                <div class="flex items-center space-x-2" id="section-tabs-container"></div>
+                <div class="flex flex-wrap items-center gap-2" id="section-tabs-container"></div>
             </div>
 
             <!-- Question Canvas -->
@@ -125,8 +125,9 @@
 
     </main>
 
+    <!-- APPLICATION LOGIC -->
     <script>
-        // INITIALIZE TELEGRAM WEBAPP
+        // TELEGRAM INITIALIZATION
         let tg = null;
         if (window.Telegram && window.Telegram.WebApp) {
             tg = window.Telegram.WebApp;
@@ -137,7 +138,7 @@
             }
         }
 
-        // APP STATE
+        // GLOBAL APP STATE
         let activeExamData = null;
         let activeSectionIndex = 0;
         let activeQuestionIndex = 0;
@@ -150,7 +151,7 @@
         const btnHomeNav = document.getElementById('btn-home-nav');
         const canvas = document.getElementById('question-canvas');
 
-        // CHECK FOR URL PARAMETERS ON PAGE LOAD
+        // AUTO-FETCH FROM URL PARAMETERS
         window.addEventListener('DOMContentLoaded', () => {
             const urlParams = new URLSearchParams(window.location.search);
             const region = urlParams.get('region');
@@ -163,7 +164,7 @@
             }
         });
 
-        // FETCH EXAM FROM JSON FILE
+        // FETCH EXAM JSON
         async function fetchAndStartExam(region, grade, subject, year) {
             showLoading(true);
             const filePath = `./exams/${region}_${grade}_${subject}_${year}.json`;
@@ -199,7 +200,7 @@
 
             const meta = activeExamData.exam_meta || {};
             
-            // AUTO DETECT ARABIC / RTL
+            // AUTOMATIC DIRECTION SETUP (RTL FOR ARABIC)
             if (meta.subject === 'arab' || (meta.title && meta.title.match(/[\u0600-\u06FF]/))) {
                 document.body.setAttribute('dir', 'rtl');
             } else {
@@ -230,9 +231,14 @@
             container.innerHTML = '';
             activeExamData.sections.forEach((sec, idx) => {
                 const btn = document.createElement('button');
-                btn.className = `px-3 py-1 text-xs font-semibold rounded ${idx === activeSectionIndex ? 'bg-blue-600 text-white' : 'bg-slate-200 text-slate-700'}`;
-                btn.innerText = sec.title || sec.name || `Part ${String.fromCharCode(65 + idx)}`;
-                btn.onclick = () => { activeSectionIndex = idx; activeQuestionIndex = 0; renderSectionTabs(); loadQuestion(); };
+                btn.className = `px-3 py-1.5 text-xs font-semibold rounded-lg transition ${idx === activeSectionIndex ? 'bg-blue-600 text-white shadow-sm' : 'bg-slate-200 hover:bg-slate-300 text-slate-700'}`;
+                btn.innerText = sec.title || sec.name || `Section ${idx + 1}`;
+                btn.onclick = () => { 
+                    activeSectionIndex = idx; 
+                    activeQuestionIndex = 0; 
+                    renderSectionTabs(); 
+                    loadQuestion(); 
+                };
                 container.appendChild(btn);
             });
         }
@@ -246,7 +252,7 @@
             const card = document.createElement('div');
             card.className = 'space-y-6 max-w-3xl mx-auto';
 
-            // 1. PASSAGE / READING TEXT (COMMON IN ARABIC EXAMS)
+            // 1. READING PASSAGE / TEXT BLOCK
             const passageText = q.passage || currentSection.passage || currentSection.reading_text || null;
             if (passageText) {
                 const passageBox = document.createElement('div');
@@ -255,19 +261,22 @@
                 card.appendChild(passageBox);
             }
 
-            // 2. QUESTION PROMPT / TEXT
+            // 2. QUESTION PROMPT / HEADER
             const questionText = q.prompt || q.question || q.text || q.statement || q.title || '';
             const qHeader = document.createElement('div');
-            qHeader.className = 'text-base font-semibold text-slate-900 leading-normal';
+            qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
             qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${questionText}`;
             card.appendChild(qHeader);
 
-            // 3. QUESTION TYPE & CHOICES FLEXIBILITY
+            // 3. DETECT QUESTION TYPE AND RENDER INPUTS
             const choices = q.choices || q.options || q.answers || [];
-            const sectionType = q.type || currentSection.type || (choices.length > 0 ? 'mcq' : 'mcq');
+            const items = q.items || q.sentences || q.sub_questions || q.pairs || [];
+            const sectionType = q.type || currentSection.type || (choices.length > 0 ? 'mcq' : (items.length > 0 ? 'sub_questions' : 'text'));
 
-            // MULTIPLE CHOICE (MCQ)
-            if (sectionType === 'mcq' || choices.length > 0) {
+            userAnswers[q.id] = userAnswers[q.id] || (sectionType === 'sub_questions' || sectionType === 'table' || sectionType === 'matching' ? {} : '');
+
+            // TYPE 1: MULTIPLE CHOICE (MCQ)
+            if (sectionType === 'mcq' || (choices.length > 0 && items.length === 0)) {
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
                 choices.forEach((choice, cIdx) => {
@@ -279,7 +288,7 @@
                 });
                 card.appendChild(choicesDiv);
 
-            // TRUE / FALSE
+            // TYPE 2: TRUE / FALSE
             } else if (sectionType === 'tf' || sectionType === 'true_false') {
                 const tfDiv = document.createElement('div');
                 tfDiv.className = 'grid grid-cols-2 gap-4 pt-2';
@@ -287,40 +296,104 @@
                     const isChecked = userAnswers[q.id] === opt.val;
                     const btn = document.createElement('button');
                     btn.type = 'button';
-                    btn.className = `p-3 rounded-lg border text-center font-bold text-sm ${isChecked ? 'bg-blue-600 text-white' : 'bg-white text-slate-700 hover:bg-slate-50'}`;
+                    btn.className = `p-3 rounded-lg border text-center font-bold text-sm transition ${isChecked ? 'bg-blue-600 text-white border-blue-600' : 'bg-white text-slate-700 hover:bg-slate-50 border-slate-200'}`;
                     btn.innerText = opt.label;
                     btn.onclick = () => { saveAnswer(q.id, opt.val); loadQuestion(); };
                     tfDiv.appendChild(btn);
                 });
                 card.appendChild(tfDiv);
 
-            // MATCHING
+            // TYPE 3: SUB-QUESTIONS & TABLES (e.g., Grammar sentence identification)
+            } else if (sectionType === 'table' || sectionType === 'sub_questions' || (items.length > 0 && sectionType !== 'matching')) {
+                const listContainer = document.createElement('div');
+                listContainer.className = 'space-y-4 pt-2';
+
+                items.forEach((item, idx) => {
+                    const itemRow = document.createElement('div');
+                    itemRow.className = 'p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-3';
+                    
+                    const itemText = typeof item === 'string' ? item : (item.text || item.sentence || item.term || `المسألة ${idx + 1}`);
+                    itemRow.innerHTML = `<div class="font-medium text-slate-800 text-sm"><span class="text-blue-600 font-bold ml-1">${idx + 1}.</span> ${itemText}</div>`;
+
+                    // Dual field inputs (e.g., Subject and Object)
+                    if (q.fields && Array.isArray(q.fields)) {
+                        const fieldsGrid = document.createElement('div');
+                        fieldsGrid.className = 'grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1';
+                        
+                        q.fields.forEach(fieldKey => {
+                            const subVal = (userAnswers[q.id][idx] && userAnswers[q.id][idx][fieldKey]) || '';
+                            const inputGroup = document.createElement('div');
+                            inputGroup.innerHTML = `
+                                <label class="block text-xs font-semibold text-slate-500 mb-1">${fieldKey}</label>
+                                <input type="text" value="${subVal}" oninput="saveSubAnswer('${q.id}', ${idx}, '${fieldKey}', this.value)" class="w-full p-2 text-sm border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="اكتب ${fieldKey} هنا...">
+                            `;
+                            fieldsGrid.appendChild(inputGroup);
+                        });
+                        itemRow.appendChild(fieldsGrid);
+                    } else {
+                        // Single text input per sub-item
+                        const singleVal = (userAnswers[q.id] && userAnswers[q.id][idx] && userAnswers[q.id][idx]['val']) || '';
+                        const input = document.createElement('input');
+                        input.type = 'text';
+                        input.value = singleVal;
+                        input.className = 'w-full p-2 text-sm border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none mt-2';
+                        input.placeholder = 'اكتب الإجابة هنا...';
+                        input.oninput = (e) => saveSubAnswer(q.id, idx, 'val', e.target.value);
+                        itemRow.appendChild(input);
+                    }
+
+                    listContainer.appendChild(itemRow);
+                });
+                card.appendChild(listContainer);
+
+            // TYPE 4: MATCHING
             } else if (sectionType === 'matching') {
                 const matchDiv = document.createElement('div');
                 matchDiv.className = 'space-y-3 pt-2';
-                userAnswers[q.id] = userAnswers[q.id] || {};
                 const options = q.options || currentSection.options || [];
-                const pairs = q.pairs || q.items || [];
-                pairs.forEach(pair => {
+                items.forEach((pair, pIdx) => {
                     const row = document.createElement('div');
                     row.className = 'flex flex-col sm:flex-row sm:items-center justify-between p-3 bg-slate-50 rounded-lg border border-slate-200 gap-2';
                     row.innerHTML = `<span class="font-semibold text-sm">${pair.term || pair.left || pair.question}</span>`;
                     const select = document.createElement('select');
-                    select.className = 'p-2 border rounded-md text-sm bg-white';
-                    select.innerHTML = `<option value="">-- Dooro --</option>` + options.map(opt => `<option value="${opt}" ${userAnswers[q.id][pair.id] === opt ? 'selected' : ''}>${opt}</option>`).join('');
-                    select.onchange = (e) => { userAnswers[q.id][pair.id] = e.target.value; };
+                    select.className = 'p-2 border border-slate-300 rounded-md text-sm bg-white focus:ring-2 focus:ring-blue-500';
+                    select.innerHTML = `<option value="">-- اختر --</option>` + options.map(opt => `<option value="${opt}" ${userAnswers[q.id][pIdx] === opt ? 'selected' : ''}>${opt}</option>`).join('');
+                    select.onchange = (e) => { 
+                        userAnswers[q.id] = userAnswers[q.id] || {};
+                        userAnswers[q.id][pIdx] = e.target.value; 
+                    };
                     row.appendChild(select);
                     matchDiv.appendChild(row);
                 });
                 card.appendChild(matchDiv);
+
+            // TYPE 5: ESSAY / SHORT ANSWER / PARSING
+            } else {
+                const textDiv = document.createElement('div');
+                textDiv.className = 'pt-2';
+                const val = typeof userAnswers[q.id] === 'string' ? userAnswers[q.id] : '';
+                textDiv.innerHTML = `
+                    <textarea rows="4" oninput="saveAnswer('${q.id}', this.value)" class="w-full p-3 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="اكتب إجابتك الكاملة هنا...">${val}</textarea>
+                `;
+                card.appendChild(textDiv);
             }
 
             canvas.appendChild(card);
             updateNav();
         }
 
-        function saveAnswer(qId, val) { userAnswers[qId] = val; }
+        // SAVE INPUT ANSWERS
+        function saveAnswer(qId, val) { 
+            userAnswers[qId] = val; 
+        }
 
+        function saveSubAnswer(qId, subIdx, fieldKey, val) {
+            userAnswers[qId] = userAnswers[qId] || {};
+            userAnswers[qId][subIdx] = userAnswers[qId][subIdx] || {};
+            userAnswers[qId][subIdx][fieldKey] = val;
+        }
+
+        // NAVIGATION CONTROLS
         function updateNav() {
             const sec = activeExamData.sections[activeSectionIndex];
             const isLast = (activeSectionIndex === activeExamData.sections.length - 1) && (activeQuestionIndex === sec.questions.length - 1);
@@ -356,6 +429,7 @@
             if (confirm("Ma ziadaa inaad gudbiso imtixaanka?")) evaluateAndShowResults();
         }
 
+        // SCORE EVALUATION AND RESULT DISPLAY
         function evaluateAndShowResults() {
             screenExam.classList.add('hidden');
             screenExam.classList.remove('flex');
@@ -365,21 +439,23 @@
             const container = document.getElementById('result-breakdown-container');
             container.innerHTML = '';
 
-            activeExamData.sections.forEach(sec => {
-                sec.questions.forEach(q => {
+            activeExamData.sections.forEach((sec, sIdx) => {
+                sec.questions.forEach((q, qIdx) => {
                     const uVal = userAnswers[q.id];
                     const choices = q.choices || q.options || [];
+                    const items = q.items || q.sentences || q.pairs || [];
                     const type = sec.type || q.type || (choices.length > 0 ? 'mcq' : 'mcq');
                     const correctAnswer = q.correct !== undefined ? q.correct : q.answer;
 
                     if (type === 'mcq' || type === 'tf' || type === 'true_false') {
                         total++;
                         if (uVal === correctAnswer) score++;
-                    } else if (type === 'matching') {
-                        const pairs = q.pairs || q.items || [];
-                        pairs.forEach(p => {
+                    } else if (type === 'matching' || type === 'table' || type === 'sub_questions') {
+                        items.forEach((p, pIdx) => {
                             total++;
-                            if (userAnswers[q.id] && userAnswers[q.id][p.id] === (p.correct || p.answer)) score++;
+                            if (typeof uVal === 'object' && uVal !== null) {
+                                if (type === 'matching' && uVal[pIdx] === (p.correct || p.answer)) score++;
+                            }
                         });
                     }
                 });
