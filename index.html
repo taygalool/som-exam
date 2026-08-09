@@ -118,6 +118,14 @@
         // ==========================================
         const availableExams = [
             {
+                file: './exams/Puntland_8_science_2015.json',
+                badge: 'SCI',
+                badgeBg: 'bg-amber-100 text-amber-600',
+                title: 'Saynis (Puntland Grade 8)',
+                desc: 'Imtixaanka rasmiga ah ee sanadkii 2015.',
+                marks: '100 Marks'
+            },
+            {
                 file: './exams/puntland_8_arab_2018.json',
                 badge: 'ARA',
                 badgeBg: 'bg-emerald-100 text-emerald-600',
@@ -275,7 +283,6 @@
             });
         }
 
-        // Helper function to safely parse choices text (strings or objects)
         function getChoiceText(choice) {
             if (typeof choice === 'string') return choice;
             if (typeof choice === 'number') return String(choice);
@@ -311,21 +318,35 @@
                 card.appendChild(passageBox);
             }
 
-            // 2. QUESTION PROMPT / HEADER
+            // 2. DIAGRAM / IMAGE SUPPORT
+            if (q.diagram || q.has_diagram) {
+                const diag = q.diagram || {};
+                const imgDiv = document.createElement('div');
+                imgDiv.className = 'p-3 bg-slate-50 border border-slate-200 rounded-lg text-center space-y-2';
+                if (diag.url) {
+                    imgDiv.innerHTML += `<img src="${diag.url}" alt="Diagram" class="max-h-56 mx-auto rounded shadow-sm">`;
+                }
+                if (diag.caption) {
+                    imgDiv.innerHTML += `<p class="text-xs text-slate-500 italic font-medium">${diag.caption}</p>`;
+                }
+                card.appendChild(imgDiv);
+            }
+
+            // 3. QUESTION PROMPT / HEADER
             const questionText = q.prompt || q.question || q.text || q.statement || q.title || '';
             const qHeader = document.createElement('div');
             qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
             qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${questionText}`;
             card.appendChild(qHeader);
 
-            // 3. EXTRACT ALL POSSIBLE DATA
+            // 4. EXTRACT ALL POSSIBLE DATA
             const choices = q.choices || q.options || q.answers || [];
             const items = q.items || q.sentences || q.sub_questions || q.subQuestions || q.pairs || q.words || q.vocabulary || q.questions || q.list || [];
             let sectionType = q.type || currentSection.type;
 
-            // 4. RENDER INPUTS BASED ON DATA
+            // 5. RENDER INPUTS BASED ON DATA
             if ((sectionType === 'mcq' || choices.length > 0) && items.length === 0) {
-                // MULTIPLE CHOICE (WITH OBJECT PARSER FIX)
+                // MULTIPLE CHOICE
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
                 choices.forEach((choice, cIdx) => {
@@ -358,7 +379,7 @@
                 card.appendChild(tfDiv);
 
             } else if (items.length > 0 && sectionType !== 'matching') {
-                // SUB-QUESTIONS / LIST OF WORDS / GRAMMAR EXTRACTION
+                // SUB-QUESTIONS / LIST OF ITEMS
                 userAnswers[q.id] = userAnswers[q.id] || {};
                 const listContainer = document.createElement('div');
                 listContainer.className = 'space-y-4 pt-2';
@@ -367,7 +388,7 @@
                     const itemRow = document.createElement('div');
                     itemRow.className = 'p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-3';
                     
-                    const itemText = typeof item === 'string' ? item : (item.text || item.sentence || item.term || item.word || `المسألة ${idx + 1}`);
+                    const itemText = typeof item === 'string' ? item : (item.prompt || item.text || item.sentence || item.term || item.word || `Suaasha ${idx + 1}`);
                     itemRow.innerHTML = `<div class="font-medium text-slate-800 text-sm"><span class="text-blue-600 font-bold ml-1">${idx + 1}.</span> ${itemText}</div>`;
 
                     if (q.fields && Array.isArray(q.fields) && q.fields.length > 0) {
@@ -379,7 +400,7 @@
                             const inputGroup = document.createElement('div');
                             inputGroup.innerHTML = `
                                 <label class="block text-xs font-semibold text-slate-500 mb-1">${fieldKey}</label>
-                                <input type="text" value="${subVal}" oninput="saveSubAnswer('${q.id}', ${idx}, '${fieldKey}', this.value)" class="w-full p-2 text-sm border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="اكتب ${fieldKey} هنا...">
+                                <input type="text" value="${subVal}" oninput="saveSubAnswer('${q.id}', ${idx}, '${fieldKey}', this.value)" class="w-full p-2 text-sm border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="Qor ${fieldKey}...">
                             `;
                             fieldsGrid.appendChild(inputGroup);
                         });
@@ -390,7 +411,7 @@
                         input.type = 'text';
                         input.value = singleVal;
                         input.className = 'w-full p-2 text-sm border border-slate-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:outline-none mt-2';
-                        input.placeholder = 'اكتب الإجابة هنا...';
+                        input.placeholder = 'Qor jawaabtaada halkan...';
                         input.oninput = (e) => saveSubAnswer(q.id, idx, 'val', e.target.value);
                         itemRow.appendChild(input);
                     }
@@ -411,7 +432,7 @@
                     row.innerHTML = `<span class="font-semibold text-sm">${pair.term || pair.left || pair.question}</span>`;
                     const select = document.createElement('select');
                     select.className = 'p-2 border border-slate-300 rounded-md text-sm bg-white focus:ring-2 focus:ring-blue-500';
-                    select.innerHTML = `<option value="">-- اختر --</option>` + options.map(opt => `<option value="${opt}" ${userAnswers[q.id][pIdx] === opt ? 'selected' : ''}>${opt}</option>`).join('');
+                    select.innerHTML = `<option value="">-- Dooro --</option>` + options.map(opt => `<option value="${opt}" ${userAnswers[q.id][pIdx] === opt ? 'selected' : ''}>${opt}</option>`).join('');
                     select.onchange = (e) => { 
                         userAnswers[q.id] = userAnswers[q.id] || {};
                         userAnswers[q.id][pIdx] = e.target.value; 
@@ -422,12 +443,12 @@
                 card.appendChild(matchDiv);
 
             } else {
-                // DEFAULT FALLBACK: OPEN TEXT AREA
+                // DEFAULT FALLBACK: TEXTAREA
                 const textDiv = document.createElement('div');
                 textDiv.className = 'pt-2';
                 const val = typeof userAnswers[q.id] === 'string' ? userAnswers[q.id] : '';
                 textDiv.innerHTML = `
-                    <textarea rows="5" oninput="saveAnswer('${q.id}', this.value)" class="w-full p-3 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="اكتب إجابتك الكاملة هنا...">${val}</textarea>
+                    <textarea rows="5" oninput="saveAnswer('${q.id}', this.value)" class="w-full p-3 border border-slate-300 rounded-lg text-sm focus:ring-2 focus:ring-blue-500 focus:outline-none" placeholder="Qor jawaabtaada oo dhamaystiran...">${val}</textarea>
                 `;
                 card.appendChild(textDiv);
             }
@@ -496,7 +517,9 @@
                     const choices = q.choices || q.options || [];
                     const items = q.items || q.sentences || q.pairs || [];
                     const type = sec.type || q.type || (choices.length > 0 ? 'mcq' : 'mcq');
-                    const correctAnswer = q.correct !== undefined ? q.correct : q.answer;
+                    
+                    // Unified Correct Answer Detection
+                    const correctAnswer = q.correct_index !== undefined ? q.correct_index : (q.correct !== undefined ? q.correct : q.answer);
 
                     if (type === 'mcq' || type === 'tf' || type === 'true_false') {
                         total++;
