@@ -1,0 +1,472 @@
+{
+  "exam_meta": {
+    "title": "Imtixaanka Fasalka 8aad 2015 - Saynis",
+    "institution": "Wasaaradda Waxbarashada iyo Tacliinta Sare - Xafiiska Imtixaanaadka Puntland",
+    "grade": 8,
+    "subject": "Science",
+    "year": 2015,
+    "duration": "2 Saac iyo 10 Daqiiqo",
+    "total_pages": 7,
+    "total_marks": 100,
+    "summary_table": {
+      "part_1_marks": 30,
+      "part_2_marks": 50,
+      "part_3_marks": 20
+    }
+  },
+  "sections": [
+    {
+      "section_id": "part_1",
+      "title": "QAYBTA 1AAD: GOOBO GELI",
+      "instructions": "Ka Dooro jawaabta saxda ah",
+      "total_marks": 30,
+      "questions": [
+        {
+          "id": "q1_1",
+          "number": 1,
+          "type": "mcq",
+          "has_diagram": false,
+          "prompt": "Silsilada cuntada, dhirta waxaa loo yaqaanaa",
+          "choices": [
+            "A) Quutaha kowaad",
+            "B) Quutaha labaad",
+            "C) Quutaha sedexaad",
+            "D) Soosaare"
+          ],
+          "correct_index": 3,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_2",
+          "number": 2,
+          "type": "mcq",
+          "has_diagram": false,
+          "prompt": "Kuwaan soo socda kee ayaan loo baahnayn marka lasamaynaayo footoosintisiska",
+          "choices": [
+            "A) Ilayska qorraxda",
+            "B) Biyo",
+            "C) Kaarboon labo ogsaydh",
+            "D) Haydarojiin"
+          ],
+          "correct_index": 3,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_3",
+          "number": 3,
+          "type": "mcq",
+          "has_diagram": true,
+          "diagram": {
+            "url": "/assets/exams/saynis_2015/q1_3_circuits.png",
+            "caption": "Afar hab oo laambad iyo batari loo isku xiray (A, B, C, D)"
+          },
+          "prompt": "Sawirradaan hoose waxay ku tusayaan laambad iyo batari isku xiran, hadaba laambadee ayaa ifaysa?",
+          "choices": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ],
+          "correct_index": 0,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_4",
+          "number": 4,
+          "type": "mcq",
+          "has_diagram": false,
+          "prompt": "Xubnahaan soo socda xubintee ayaa ka qayb qaadata dheefshiidka cuntada",
+          "choices": [
+            "A) caloosha",
+            "B) Sambabka",
+            "C) Wadnaha",
+            "D) Kellida"
+          ],
+          "correct_index": 0,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_5",
+          "number": 5,
+          "type": "mcq",
+          "has_diagram": false,
+          "prompt": "Sheeg qaybta geedka ku jirta dhulka hoostiisa",
+          "choices": [
+            "A) Ubaxa",
+            "B) caleenta",
+            "C) Xididka",
+            "D) Mirta"
+          ],
+          "correct_index": 2,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_6",
+          "number": 6,
+          "type": "mcq",
+          "has_diagram": true,
+          "diagram": {
+            "url": "/assets/exams/saynis_2015/q1_6_buoyancy.png",
+            "caption": "Sedex walxood (Walaxda A, Walaxda B, Walaxda C) oo dul sabaynaya biyo"
+          },
+          "prompt": "Sawiradaan hoose waxay muujinaayaan sedex walxood oo dul sabaynaya biyo. Walaxdee ayaa ugu culays badan?",
+          "choices": [
+            "A) Walaxda A",
+            "B) Walaxda B",
+            "C) Walaxda C",
+            "D) Dhammaantood waa isku culays"
+          ],
+          "correct_index": 0,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_7",
+          "number": 7,
+          "type": "mcq",
+          "has_diagram": false,
+          "prompt": "HIV/AIDS waxaa sababa",
+          "choices": [
+            "B) fayras",
+            "C) Bakteeriya",
+            "D) Borotasuwa",
+            "E) Fanga"
+          ],
+          "correct_index": 0,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_8",
+          "number": 8,
+          "type": "mcq",
+          "has_diagram": false,
+          "prompt": "Maxaa ku dhaca biyaha marka ay karkaraan?",
+          "choices": [
+            "A) Midabkooda ayaa isbadala",
+            "B) Way cuslaadaan",
+            "C) Way uumi baxaan.",
+            "D) Xumbada ayay joojiyaan."
+          ],
+          "correct_index": 2,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_9",
+          "number": 9,
+          "type": "mcq",
+          "has_diagram": false,
+          "prompt": "Markii biyo lagu daro cusbo waxaa maxsuul ahaan soo baxa",
+          "choices": [
+            "A) Milme",
+            "B) Mile",
+            "C) Milan",
+            "D) Haraa"
+          ],
+          "correct_index": 2,
+          "max_marks": 3
+        },
+        {
+          "id": "q1_10",
+          "number": 10,
+          "type": "mcq",
+          "has_diagram": false,
+          "prompt": "Heerkulka jirka qofka caadiga ah waa",
+          "choices": [
+            "A) 55 °C",
+            "B) 25 °C",
+            "C) 37 °C",
+            "D) -10 °C"
+          ],
+          "correct_index": 2,
+          "max_marks": 3
+        }
+      ]
+    },
+    {
+      "section_id": "part_2",
+      "title": "QAYBTA 2AAD: KA JAWAAB SU'AALAHA",
+      "instructions": "Ka jawaab dhammaan su'aalaha soo socda adigoo adeegsanaya meesha loo baneeyay",
+      "total_marks": 50,
+      "questions": [
+        {
+          "id": "q2_1",
+          "number": 1,
+          "type": "diagram_group",
+          "has_diagram": true,
+          "diagram": {
+            "url": "/assets/exams/saynis_2015/q2_1_forces_cali_jaamac.png",
+            "caption": "Cali oo xiran kaba taayiro leh iyo Jaamac oo ku jiidaya xarig. Falaaraha A, B, C, D waxay muujinayaan jihada xoogagga."
+          },
+          "prompt": "Cali ayaa tijaabinaya kabaha taayirada leh ee cusub. Jama ayaa ku jiidaya xarig. Falaaraha A, B, C and D waxay muujinaayaan jihada XOOGAGGU ay u socdaan.",
+          "sub_questions": [
+            {
+              "id": "q2_1_a",
+              "type": "short_answer",
+              "prompt": "a) Falaartee ayaa muujinaysa jihada xoogga CUF-ISJIIDADKA DHULKA ee Cali? Qor xarafka falaarta",
+              "reference_answer": "C",
+              "key_concepts": ["C"],
+              "max_marks": 2
+            },
+            {
+              "id": "q2_1_b",
+              "type": "short_answer",
+              "prompt": "b) Falaartee ayaa muujinaysa jihada xoogga XARIGA ee Cali? Qor xarafka falaarta",
+              "reference_answer": "B",
+              "key_concepts": ["B"],
+              "max_marks": 2
+            },
+            {
+              "id": "q2_1_c",
+              "type": "calculation",
+              "prompt": "c) Jaamac ayaa ku jiiday cali xawaare ah 2 mitir halkii sikin kasta (2 m/s), Hadaba soo saar masaafada uu jaray cali 10 s?",
+              "unit": "mitir",
+              "formula": "Masaafada = Xawaaraha × Waqtiga",
+              "step_by_step": "2 m/s × 10 s = 20 m",
+              "reference_answer": "20 mitir",
+              "key_concepts": ["20", "20m", "20 mitir"],
+              "max_marks": 3
+            }
+          ]
+        },
+        {
+          "id": "q2_2",
+          "number": 2,
+          "type": "diagram_group",
+          "has_diagram": true,
+          "diagram": {
+            "url": "/assets/exams/saynis_2015/q2_2_circuits_a_b.png",
+            "caption": "Mareegta A (laambado tax ah) iyo Mareegta B (laambado barbaro ah)"
+          },
+          "prompt": "Axmed ayaa u soo gatay beertiisa labo xirmo oo laambado ah. Mareegahaan hoose waxay ku tusayaan labadii xirmo oo laambadaha ahaa. Ka dooro erayga saxda ah ee liiskaan hoose kadibna ku buuxi meelaha bannaana.",
+          "word_bank": ["Dhamayaan", "ifayaan", "Barbaro", "Tax (Isdabayaal)"],
+          "sub_questions": [
+            {
+              "id": "q2_2_a",
+              "type": "fill_in_blanks",
+              "prompt": "a) Laambadaha Mareegta A waa ______. Hadii laambad ka mid ah laambadaha mareegta A ay jabto laambadaha kalena waa ay ______.",
+              "blanks": [
+                { "field": "blank_1", "reference_answer": "Tax (Isdabayaal)" },
+                { "field": "blank_2", "reference_answer": "Dhamayaan" }
+              ],
+              "max_marks": 3
+            },
+            {
+              "id": "q2_2_b",
+              "type": "fill_in_blanks",
+              "prompt": "b) Laambadaha Mareegta B waa ______. Hadii laambad kamid ah mareegta B ay jabto Laambadaha kalena waa ay ______.",
+              "blanks": [
+                { "field": "blank_1", "reference_answer": "Barbaro" },
+                { "field": "blank_2", "reference_answer": "ifayaan" }
+              ],
+              "max_marks": 3
+            }
+          ]
+        },
+        {
+          "id": "q2_3",
+          "number": 3,
+          "type": "diagram_group",
+          "has_diagram": true,
+          "diagram": {
+            "url": "/assets/exams/saynis_2015/q2_3_dissolving_containers.png",
+            "caption": "Afarta weel: A (cusbo), B (ciid), C (sonkor), D (nuurad) oo lagu shubay 10 cm³ biyo ah."
+          },
+          "prompt": "Raxmo ayaa isku qastay biro budo ah iyo ciid.",
+          "sub_questions": [
+            {
+              "id": "q2_3_a",
+              "type": "short_answer",
+              "prompt": "a) Habkee ayay raxmo ku kala saari kartaa birta iyo ciida?",
+              "reference_answer": "Isticmaalka Birlab (Magnet)",
+              "key_concepts": ["birlab", "magnet"],
+              "max_marks": 2
+            },
+            {
+              "id": "q2_3_b_i",
+              "type": "short_answer",
+              "prompt": "b) i) Raxmo ayaa soo qaadatay afar weel oo ay ku jiraan afar walxood oo kala duwan isla markaana ku shubtay 10 cm³ oo biyo ah midkiiba. Jaantuskaani waxa uu muujinaayaa afartii weel kadib 10 daqiiqo. Sheeg labada walxood oo biyaha ku milmay?",
+              "reference_answer": "A (Cusbo) iyo C (Sonkor)",
+              "key_concepts": ["cusbo", "sonkor", "A", "C"],
+              "max_marks": 4
+            },
+            {
+              "id": "q2_3_b_ii",
+              "type": "short_answer",
+              "prompt": "ii) Sheeg labada walxood oo aan biyaha ku milmin",
+              "reference_answer": "B (Ciid) iyo D (Nuurad)",
+              "key_concepts": ["ciid", "nuurad", "B", "D"],
+              "max_marks": 4
+            }
+          ]
+        },
+        {
+          "id": "q2_4",
+          "number": 4,
+          "type": "diagram_group",
+          "has_diagram": true,
+          "diagram": {
+            "url": "/assets/exams/saynis_2015/q2_4_coca_cola_scale.png",
+            "caption": "Dhalo Kooko Koolo furan oo miisaan saaran: 2025 g bilowgii vs 2021 g shan cisho kadib"
+          },
+          "prompt": "Shukri ayaa dul saartay dhalo Kooko Koola ah miisaan, kadibna waxay ka furtay furkii. Shukri waxay uga tagtay dhaladii oo furan qol gudihiis iyadoo miisaankii saaran mudo gaaraysa 5 cisho. 5 cisho kadib cufkii dhaladu wuu yaraaday halka heerkii sharaabkuna uu hoos u dhacay.",
+          "sub_questions": [
+            {
+              "id": "q2_4_a",
+              "type": "calculation",
+              "prompt": "a) Daraasee sawirkan oo Soo saar cufka yaraaday 5 cisho kadib.",
+              "unit": "g",
+              "formula": "Cufka yaraaday = Cufkii bilowgii - Cufkii shan cisho kadib",
+              "step_by_step": "2025 g - 2021 g = 4 g",
+              "reference_answer": "4 g",
+              "key_concepts": ["4", "4g", "4 gram"],
+              "max_marks": 4
+            },
+            {
+              "id": "q2_4_b",
+              "type": "mcq",
+              "prompt": "b) Sharaabka Kooka Koolada waxay ka koobantahay sonkor, hawo iyo biyo. culayska yaraaday waxaa sabab u ah walax ayaa hawada ku luntay. Sheeg walaxda hawada ku luntay? Goobo gali tan saxda ah",
+              "choices": [
+                "A) Sonkor",
+                "B) hawo",
+                "C) biyo"
+              ],
+              "correct_index": 1,
+              "max_marks": 2
+            }
+          ]
+        },
+        {
+          "id": "q2_5",
+          "number": 5,
+          "type": "diagram_group",
+          "has_diagram": true,
+          "diagram": {
+            "url": "/assets/exams/saynis_2015/q2_5_horse_rider.png",
+            "caption": "Maxamed oo saaran faraskiisa isla markaana xiran koofiyada fardo fuulka"
+          },
+          "prompt": "Maxamed wuxuu saaranyahay faraskiisa. Wuxuuna xiran yahay koofiyada fardo fuulka.",
+          "sub_questions": [
+            {
+              "id": "q2_5_a",
+              "type": "short_answer",
+              "prompt": "a) Sheeg hal xubin ay koofida fardo fuulka difaacayso",
+              "reference_answer": "Madaxa / Maskaxda",
+              "key_concepts": ["madax", "maskax", "head", "brain"],
+              "max_marks": 2
+            },
+            {
+              "id": "q2_5_b",
+              "type": "short_answer",
+              "prompt": "b) Farasku waxa uu ka mid yahay xayawaanada naasleeyda ah. Sheeg waxa aad ku caddaynayso in farasku ka mid yahay xayawaanada naasleeyda ah.",
+              "reference_answer": "Wuxuu dhalaa ubad ilmo ah isla markaana nuujiyaa (ama jirkiisa oo dhogor ku leeh)",
+              "key_concepts": ["dhalaa", "nuujiyaa", "dhogor"],
+              "max_marks": 3
+            },
+            {
+              "id": "q2_5_c",
+              "type": "matching_pairs",
+              "prompt": "c) Marka uu farasku ordaayo xubnihiisa qaar ayaa xoog u shaqeeya. Isku aadi xubin kasta iyo shaqada ay qabato. Isticmaal xarriiq si aad isugu beegto",
+              "pairs": [
+                { "organ": "Wadne", "function": "Wuxuu firdhiyaa dhiiga." },
+                { "organ": "Sambab", "function": "Wuxuu soo qaataa ogsijiin." },
+                { "organ": "Calool", "function": "Waxay dheefshiidaa cuntada." },
+                { "organ": "Muruq", "function": "Wuxuu dhaqaajiyaa lafaha." }
+              ],
+              "max_marks": 4
+            }
+          ]
+        },
+        {
+          "id": "q2_6",
+          "number": 6,
+          "type": "diagram_group",
+          "has_diagram": true,
+          "diagram": {
+            "url": "/assets/exams/saynis_2015/q2_6_flower_anatomy.png",
+            "caption": "Qaybaha Ubaxa oo ku calaamadeysan xarafaha A, B, C, D, E, F"
+          },
+          "prompt": "Daraasee sawirkan hoose ee ubaxa ah.",
+          "sub_questions": [
+            {
+              "id": "q2_6_a",
+              "type": "fill_labels",
+              "prompt": "a) Magacaw qaybaha ay xarfahaani u taagan yihiin A, B, D, iyo F.",
+              "labels": [
+                { "key": "A", "reference_answer": "Caleenta Ubaxa (Petal)" },
+                { "key": "B", "reference_answer": "Bacrimin-yare / Anther" },
+                { "key": "D", "reference_answer": "Sabal (Sepal)" },
+                { "key": "F", "reference_answer": "Ururiye (Stigma)" }
+              ],
+              "max_marks": 8
+            },
+            {
+              "id": "q2_6_b",
+              "type": "short_answer",
+              "prompt": "b) Sheeg Qaybta laga helo unugyada taranka ee dhediga?",
+              "reference_answer": "C (Ugxan-sida / Ovary)",
+              "key_concepts": ["C"],
+              "max_marks": 2
+            },
+            {
+              "id": "q2_6_c",
+              "type": "short_answer",
+              "prompt": "c) Sheeg Qaybta laga helo unugyada taranka ee labka?",
+              "reference_answer": "B (Bacrimin-yare / Anther)",
+              "key_concepts": ["B"],
+              "max_marks": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "part_3",
+      "title": "QAYBTA SEDEXAAD: ISKU-AADI",
+      "instructions": "Isku aadi qayb kasta jawaabteeda saxda ah",
+      "total_marks": 20,
+      "questions": [
+        {
+          "id": "q3_1",
+          "number": 1,
+          "type": "matching_table",
+          "prompt": "Ku aadi cuduradaan A, B, C, D iyo E sida ay u faafaan ee 1-5 ee ku xusan shaxda hoose.",
+          "items": [
+            { "code": "A", "label": "Qaaxada (TB)" },
+            { "code": "B", "label": "HIV/Aydhis" },
+            { "code": "C", "label": "Daacuun" },
+            { "code": "D", "label": "Duumada" },
+            { "code": "E", "label": "Cudurka Dabaysha" }
+          ],
+          "targets": [
+            { "id": 1, "transmission": "Neefsashada", "correct_code": "A" },
+            { "id": 2, "transmission": "Qaniinyada kaneecada", "correct_code": "D" },
+            { "id": 3, "transmission": "Cunto wasakhaysan", "correct_code": "C" },
+            { "id": 4, "transmission": "Galmada jinsiga", "correct_code": "B" },
+            { "id": 5, "transmission": "Hawa oo wadata booliyo vayras", "correct_code": "E" }
+          ],
+          "max_marks": 10
+        },
+        {
+          "id": "q3_2",
+          "number": 2,
+          "type": "matching_table",
+          "prompt": "Hoos waxaa ku xusan hab-dhisyada jirka qaarkood. Isku-aadi hab-dhisyadaan A, B, C, D iyo E sida ay u shaqeeyaan 1-5 ee ku xusan shaxdan hoose.",
+          "items": [
+            { "code": "A", "system": "Habka neefsashada" },
+            { "code": "B", "system": "Habka qalfoofka" },
+            { "code": "C", "system": "Habka taranka" },
+            { "code": "D", "system": "Habka qashinsaarka" },
+            { "code": "E", "system": "Habka dheefshiidka" }
+          ],
+          "targets": [
+            { "id": 1, "function": "Dheefshiidida cuntada waawayn", "correct_code": "E" },
+            { "id": 2, "function": "Ka saarida jirka wixii qashin ah", "correct_code": "D" },
+            { "id": 3, "function": "socodka iyo dhaqaaqa", "correct_code": "B" },
+            { "id": 4, "function": "Kala badalida hawada", "correct_code": "A" },
+            { "id": 5, "function": "Soo saarida noole cusub", "correct_code": "C" }
+          ],
+          "max_marks": 10
+        }
+      ]
+    }
+  ]
+}
