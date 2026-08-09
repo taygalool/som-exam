@@ -1,250 +1,222 @@
 {
-  "exam_meta": {
-    "title": "امتحان مادة اللغة العربية - الصف الثامن (2018)",
-    "region": "puntland",
-    "grade": 8,
-    "subject": "arab",
-    "year": 2018,
-    "total_marks": 100
-  },
-  "sections": [
+  "title": "Imtixaanka Fasalka 8aad 2015 - Saynis",
+  "exam_id": "puntland_8_science_2015",
+  "year": 2015,
+  "subject": "Saynis",
+  "grade": 8,
+  "total_marks": 100,
+  "questions": [
     {
-      "title": "القسم الأول: القراءة (37 درجة)",
-      "passage": "القراءة ضرورة تفرضها الحياة المعاصرة على كل فرد منا ، للحصول على كثرة المعلومات ووفرة العلوم والاكتشافات والاختراعات ، حتى صارت القراءة اليوم تمثل الدليل الأول للتقدم لجميع العالم.\nولأهمية القراءة في حياة الإنسان كانت أول ما نزل على رسول الله ﷺ ، وأول كلمة في الإسلام تتحدث عن القراءة في قوله تعالى : (اقرأ باسم ربك الذي خلق) ومنذ ذلك الحين أصبحت أهم عامل لقيام الحضارة الإسلامية ، وانتشارها الواسع على العالم في فترة تاريخية وجيزة ولأن القراءة ضرورية وواجب ديني .\nالقراءة هواية أساسية لجميع الأشخاص النابغين في التاريخ ، ومهنة الذين تركوا آثارا واضحة في المجالات العلمية المختلفة في جميع أنحاء العالم في الوقت الحاضر والماضي.\nويُعد القراءة أنفع هواية باعتبار ما تجلبه للقارئ من معارف ، وتنمية العقل وتهذيبا للسلوك وانطلاقا للأفكار .\nولمن اشتهر بالقراءة في العصر الحديث عباس محمود العقاد ، ويقول : أفضل الكتب الفلسفة الدينية والتاريخ الطبيعي.\nوالكتب هي الوسائل لوصول غاية الحياة ، وهي النوافذ التي تطل منها على حقائق الحياة وسعادة البشر ، ولا تغني الكتب عن تجارب الحياة ، ولا تغني التجارب عن الكتب ، لأننا نحتاج إلى قسط من التجربة لكي نفهم حق الفهم ، لأن الكتب هي تجارب آلاف السنين في مختلف الأمم والعصور ، أما القراءة والمعرفة التي لا عمل وراءها ولا شعور فيها عدمها خير منها ، ويجب على القارئ أن يُراعي أمورا هامة منها :\nأ ) أن يكون جسم القارئ مستقيما حيث يكون الراس معتدلا ومائلا إلى الأمام قليلا .\nب ) أن يكون جالسا على هيئة صحيحة .\nوعلى القارئ أن يقرأ وقت نشاطه وأن يكون صاحبا للكتب يقرؤها ويطالع ما فيها من المعارف والعلوم ، وأن يقرأ تراجم العظماء وكتب الأشعار والظرفاء ، وأن لا يمل من القراءة والاطلاع لأنها سبب حصول المعارف والتفوق ، وما تفوق عالم من العلماء إلا بكثرة قراءته واطلاعه في بطون الكتب ، اعلم أيها القارئ أن الكتاب جليس لا يمل ، فأكثر مصاحبته تزدد معلوماتك لأنك كلما قرأت كثيرا لا شك أنك تستفيد كثيرا وينمو رصيدك اللغوي والمهاري والعلمي .",
-      "questions": [
-        {
-          "id": "q1_1",
-          "prompt": "1) أول كلمة في الإسلام تتحدث عن القراءة هي قوله تعالى:",
-          "choices": ["قم فأنذر", "فاصدع بما تؤمر", "اقرأ باسم ربك", "ولربك فاصبر"],
-          "correct": 2
-        },
-        {
-          "id": "q1_2",
-          "prompt": "2) 'هي تجارب آلاف السنين' ، الضمير (هي) يعود إلى:",
-          "choices": ["الدفتر", "القراءة", "الكتب", "الفلسفة"],
-          "correct": 2
-        },
-        {
-          "id": "q1_3",
-          "prompt": "3) هواية أشخاص النابغين في التاريخ هي:",
-          "choices": ["العمل", "الحضارة", "المعلومات", "القراءة"],
-          "correct": 3
-        },
-        {
-          "id": "q1_4",
-          "prompt": "4) القراءة هي أهم عامل لقيام حضارة:",
-          "choices": ["الغربية", "العربية", "الإسلامية", "اليونانية"],
-          "correct": 2
-        },
-        {
-          "id": "q1_5",
-          "prompt": "5) ممن اشتهر بالقراءة في العصر الحديث:",
-          "choices": ["جميل بثينة", "عباس محمود العقاد", "عباس الحلمي", "محمد الشابي"],
-          "correct": 1
-        },
-        {
-          "id": "q1_6",
-          "prompt": "ثانيا : أجب عن الأسئلة الآتية مستعينا بنص القطعة (10 درجات):",
-          "type": "sub_questions",
-          "items": [
-            "1. ما الدليل على أن الإسلام يهتم بالقراءة ؟",
-            "2. ما هي الكتب التي يُفضّل بها عباس محمود العقاد ؟",
-            "3. لماذا أصبحت القراءة ضرورة تفرضها الحياة على كل فرد منا ؟",
-            "4. اذكر الأمور التي تجب على القارئ مراعاتها.",
-            "5. ما هي الهواية الأساسية لأشخاص النابغين في التاريخ ؟"
-          ]
-        },
-        {
-          "id": "q1_7",
-          "prompt": "ثالثا : هات جموع المفردات التالية من النص (5 درجات):",
-          "type": "sub_questions",
-          "items": [
-            "المجال",
-            "الوسيلة",
-            "المعرفة",
-            "الكتاب",
-            "العصر"
-          ]
-        },
-        {
-          "id": "q1_8",
-          "prompt": "رابعا : هات مفردات الجموع التالية من النص (5 درجات):",
-          "type": "sub_questions",
-          "items": [
-            "الحضارات",
-            "التواريخ",
-            "الأوقات",
-            "الأيام",
-            "التجارب"
-          ]
-        },
-        {
-          "id": "q1_9",
-          "prompt": "خامسا : رتب الكلمات التالية لتكون جملا مفيدة (3 درجات):",
-          "type": "sub_questions",
-          "items": [
-            "المريض ---- الطبيب ---- فحص",
-            "صلى ---- محمد ---- المسجد ---- في ---- الفجر",
-            "يديك ---- بين ---- العربية"
-          ]
-        },
-        {
-          "id": "q1_10",
-          "prompt": "سادسا : صل ما عبارة ( أ ) بما يناسبها من عبارة ( ب ) (4 درجات):",
-          "type": "matching",
-          "options": [
-            "على رسول الله ﷺ",
-            "يُفضل الكتب الفلسفة الدينية",
-            "الوسائل لوصول غاية الحياة وسعادة البشر",
-            "أن يُراعي أمورا هامة"
-          ],
-          "items": [
-            { "term": "1. القراءة كانت أول ما نزل", "correct": "على رسول الله ﷺ" },
-            { "term": "2. عباس محمود العقاد", "correct": "يُفضل الكتب الفلسفة الدينية" },
-            { "term": "3. الكتب هي", "correct": "الوسائل لوصول غاية الحياة وسعادة البشر" },
-            { "term": "4. على القارئ", "correct": "أن يُراعي أمورا هامة" }
-          ]
-        }
+      "id": 1,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "1. Silsilada cuntada, dhirta waxaa loo yaqaanaa",
+      "options": [
+        "A) Quutaha kowaad",
+        "B) Quutaha labaad",
+        "C) Quutaha sedexaad",
+        "D) Soosaare"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": 2,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "2. Kuwaan soo socda kee ayaan loo baahnayn marka lasamaynaayo footoosintisiska?",
+      "options": [
+        "A) Ilayska qorraxda",
+        "B) Biyo",
+        "C) Kaarboon labo ogsaydh",
+        "D) Haydarojiin"
+      ],
+      "correct_index": 3
+    },
+    {
+      "id": 3,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "3. Sawirradaan hoose waxay ku tusayaan laambad iyo batari isku xiran, hadaba laambadee ayaa ifaysa?",
+      "diagram": {
+        "svg": "<svg viewBox='0 0 400 130' class='w-full max-w-md mx-auto bg-white p-2 rounded border border-slate-200'><g font-size='10' text-anchor='middle'><g transform='translate(10,10)'><rect x='10' y='60' width='60' height='30' fill='#e2e8f0' stroke='#334155' stroke-width='1.5'/><text x='20' y='78' font-weight='bold'>+</text><text x='60' y='78'>-</text><path d='M20,60 V20 H70 V40' fill='none' stroke='#334155' stroke-width='2'/><path d='M60,60 V45' fill='none' stroke='#334155' stroke-width='2'/><circle cx='70' cy='45' r='8' fill='#fef08a' stroke='#334155'/><text x='45' y='110' font-weight='bold'>A</text></g><g transform='translate(105,10)'><rect x='10' y='60' width='60' height='30' fill='#e2e8f0' stroke='#334155' stroke-width='1.5'/><text x='20' y='78' font-weight='bold'>+</text><text x='60' y='78'>-</text><path d='M20,60 V20 H70' fill='none' stroke='#334155' stroke-width='2'/><circle cx='70' cy='45' r='8' fill='#fff' stroke='#334155'/><text x='45' y='110' font-weight='bold'>B</text></g><g transform='translate(200,10)'><rect x='10' y='60' width='60' height='30' fill='#e2e8f0' stroke='#334155' stroke-width='1.5'/><text x='20' y='78' font-weight='bold'>+</text><text x='60' y='78'>-</text><path d='M20,60 V20 H40' fill='none' stroke='#334155' stroke-width='2'/><circle cx='70' cy='45' r='8' fill='#fff' stroke='#334155'/><text x='45' y='110' font-weight='bold'>C</text></g><g transform='translate(295,10)'><rect x='10' y='60' width='60' height='30' fill='#e2e8f0' stroke='#334155' stroke-width='1.5'/><text x='20' y='78' font-weight='bold'>+</text><text x='60' y='78'>-</text><path d='M60,60 V20 H70 V40' fill='none' stroke='#334155' stroke-width='2'/><circle cx='70' cy='45' r='8' fill='#fff' stroke='#334155'/><text x='45' y='110' font-weight='bold'>D</text></g></g></svg>",
+        "caption": "Afar hab oo laambad iyo batari loo isku xiray (A, B, C, D)"
+      },
+      "options": [
+        "A) A",
+        "B) B",
+        "C) C",
+        "D) D"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 4,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "4. Xubnahaan soo socda xubintee ayaa ka qayb qaadata dheefshiidka cuntada?",
+      "options": [
+        "A) Caloosha",
+        "B) Sambabka",
+        "C) Wadnaha",
+        "D) Kellida"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 5,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "5. Sheeg qaybta geedka ku jirta dhulka hoostiisa",
+      "options": [
+        "A) Ubaxa",
+        "B) Caleenta",
+        "C) Xididka",
+        "D) Mirta"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 6,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "6. Sawiradaan hoose waxay muujinaayaan sedex walxood oo dul sabaynaya biyo. Walaxdee ayaa ugu culays badan?",
+      "diagram": {
+        "svg": "<svg viewBox='0 0 320 140' class='w-full max-w-xs mx-auto bg-white p-2 rounded border border-slate-200'><rect x='20' y='40' width='280' height='80' fill='#bfdbfe' stroke='#1d4ed8' stroke-width='2' rx='4'/><line x1='20' y1='40' x2='300' y2='40' stroke='#2563eb' stroke-width='3'/><rect x='50' y='20' width='40' height='40' fill='#cbd5e1' stroke='#334155' stroke-width='2' rx='3'/><text x='70' y='15' font-size='11' font-weight='bold' text-anchor='middle'>Walaxda A</text><rect x='140' y='35' width='40' height='40' fill='#94a3b8' stroke='#334155' stroke-width='2' rx='3'/><text x='160' y='15' font-size='11' font-weight='bold' text-anchor='middle'>Walaxda B</text><rect x='230' y='65' width='40' height='40' fill='#64748b' stroke='#334155' stroke-width='2' rx='3'/><text x='250' y='15' font-size='11' font-weight='bold' text-anchor='middle'>Walaxda C</text></svg>",
+        "caption": "Sedex walxood (Walxda A, Walxda B, Walxda C) oo dul sabaynaya biyo"
+      },
+      "options": [
+        "A) Walaxda A",
+        "B) Walaxda B",
+        "C) Walaxda C",
+        "D) Dhammaantood waa isku culays"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 7,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "7. HIV/AIDS waxaa sababa",
+      "options": [
+        "A) Fayras",
+        "B) Bakteeriya",
+        "C) Borotasuwa",
+        "D) Fanga"
+      ],
+      "correct_index": 0
+    },
+    {
+      "id": 8,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "8. Maxaa ku dhaca biyaha marka ay karkaraan?",
+      "options": [
+        "A) Midabkooda ayaa isbadala",
+        "B) Way cuslaadaan",
+        "C) Way uumi baxaan",
+        "D) Xumbada ayay joojiyaan"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 9,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "9. Markii biyo lagu daro cusbo waxaa maxsuul ahaan soo baxa",
+      "options": [
+        "A) Milme",
+        "B) Mile",
+        "C) Milan",
+        "D) Haraa"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 10,
+      "section": "QAYBTA 1AAD: GOOBO GELI",
+      "question": "10. Heerkulka jirka qofka caadiga ah waa",
+      "options": [
+        "A) 55 °C",
+        "B) 25 °C",
+        "C) 37 °C",
+        "D) -10 °C"
+      ],
+      "correct_index": 2
+    },
+    {
+      "id": 11,
+      "section": "QAYBTA 2AAD: KA JAWAAB SU'AALAHA",
+      "question": "1. Cali ayaa tijaabinaya kabaha taayirada leh. Jaamac ayaa ku jiidaya xarig.\na) Falaartee ayaa muujinaysa jihada xoogga CUF-ISJIIDADKA DHULKA ee Cali?\nb) Falaartee ayaa muujinaysa jihada xoogga XARIGA ee Cali?\nc) Jaamac ayaa ku jiiday Cali xawaare ah 2 m/s. Soo saar masaafada uu jaray Cali 10 s gudaheed?",
+      "diagram": {
+        "svg": "<svg viewBox='0 0 350 160' class='w-full max-w-sm mx-auto bg-white p-2 rounded border border-slate-200'><line x1='20' y1='130' x2='330' y2='130' stroke='#475569' stroke-width='2'/><circle cx='90' cy='70' r='18' fill='#cbd5e1' stroke='#334155' stroke-width='2'/><text x='90' y='45' font-size='12' font-weight='bold' text-anchor='middle'>CALI</text><line x1='90' y1='70' x2='90' y2='15' stroke='#ef4444' stroke-width='2.5' marker-end='url(#arrow)'/><text x='90' y='10' font-weight='bold' fill='#ef4444' text-anchor='middle'>A</text><line x1='90' y1='70' x2='200' y2='70' stroke='#3b82f6' stroke-width='2.5'/><text x='140' y='65' font-weight='bold' fill='#3b82f6'>B</text><line x1='90' y1='70' x2='90' y2='125' stroke='#10b981' stroke-width='2.5'/><text x='90' y='145' font-weight='bold' fill='#10b981' text-anchor='middle'>C</text><line x1='90' y1='70' x2='30' y2='70' stroke='#f59e0b' stroke-width='2.5'/><text x='20' y='74' font-weight='bold' fill='#f59e0b'>D</text><circle cx='250' cy='60' r='18' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><text x='250' y='35' font-size='12' font-weight='bold' text-anchor='middle'>JAAMAC</text><line x1='200' y1='70' x2='250' y2='70' stroke='#334155' stroke-width='2'/></svg>",
+        "caption": "Xoogagga ku socda Cali (A: Kor, B: Xarigga, C: Cuf-isjiidka, D: Is-cillanaanta)"
+      },
+      "answer_guide": "a) C\nb) B\nc) Masaafada = Xawaare × Waqti = 2 m/s × 10 s = 20 mitir"
+    },
+    {
+      "id": 12,
+      "section": "QAYBTA 2AAD: KA JAWAAB SU'AALAHA",
+      "question": "2. Mareegaha laambadaha ee Axmed u gatay beertiisa:\na) Laambadaha Mareegta A waa ____. Haddii laambad ka mid ah jabto, kuwa kale waa ____.\nb) Laambadaha Mareegta B waa ____. Haddii laambad ka mid ah jabto, kuwa kale waa ____.",
+      "diagram": {
+        "svg": "<svg viewBox='0 0 360 140' class='w-full max-w-sm mx-auto bg-white p-2 rounded border border-slate-200'><g transform='translate(10,10)'><rect x='20' y='20' width='120' height='90' fill='none' stroke='#334155' stroke-width='2'/><line x1='70' y1='20' x2='90' y2='20' stroke='white' stroke-width='4'/><circle cx='40' cy='20' r='6' fill='#fef08a' stroke='#334155'/><circle cx='120' cy='20' r='6' fill='#fef08a' stroke='#334155'/><circle cx='20' cy='65' r='6' fill='#fef08a' stroke='#334155'/><circle cx='140' cy='65' r='6' fill='#fef08a' stroke='#334155'/><circle cx='80' cy='110' r='6' fill='#fef08a' stroke='#334155'/><text x='80' y='130' font-size='11' font-weight='bold' text-anchor='middle'>Mareegta A (Tax)</text></g><g transform='translate(190,10)'><rect x='20' y='20' width='120' height='90' fill='none' stroke='#334155' stroke-width='2'/><line x1='20' y1='40' x2='140' y2='40' stroke='#334155' stroke-width='1.5'/><line x1='20' y1='65' x2='140' y2='65' stroke='#334155' stroke-width='1.5'/><line x1='20' y1='90' x2='140' y2='90' stroke='#334155' stroke-width='1.5'/><circle cx='80' cy='40' r='5' fill='#fef08a' stroke='#334155'/><circle cx='80' cy='65' r='5' fill='#fef08a' stroke='#334155'/><circle cx='80' cy='90' r='5' fill='#fef08a' stroke='#334155'/><text x='80' y='130' font-size='11' font-weight='bold' text-anchor='middle'>Mareegta B (Barbaro)</text></g></svg>",
+        "caption": "Mareegta A (Isdabayaal / Tax) iyo Mareegta B (Barbaro)"
+      },
+      "answer_guide": "a) Tax (Isdabayaal), Dhamanyaan\nb) Barbaro, Ifanyaan"
+    },
+    {
+      "id": 13,
+      "section": "QAYBTA 2AAD: KA JAWAAB SU'AALAHA",
+      "question": "3. Raxmo waxay isku qastay biro budo ah iyo ciid:\na) Habkee ayay Raxmo ku kala saari kartaa birta iyo ciida?\nb) Waxaa la geliyay 4 walxood (A: Cusbo, B: Ciid, C: Sonkor, D: Nuurad) biyo:\ni) Sheeg labada walxood oo biyaha ku milmay?\nii) Sheeg labada walxood oo aan biyaha ku milmin?",
+      "diagram": {
+        "svg": "<svg viewBox='0 0 320 100' class='w-full max-w-xs mx-auto bg-white p-2 rounded border border-slate-200'><g transform='translate(10,10)'><rect x='10' y='20' width='50' height='60' fill='#e0f2fe' stroke='#0284c7' stroke-width='1.5' rx='3'/><text x='35' y='95' font-size='10' font-weight='bold' text-anchor='middle'>A (Cusbo)</text></g><g transform='translate(80,10)'><rect x='10' y='20' width='50' height='60' fill='#e0f2fe' stroke='#0284c7' stroke-width='1.5' rx='3'/><path d='M12 65 Q35 75 58 65 L58 78 L12 78 Z' fill='#d97706'/><text x='35' y='95' font-size='10' font-weight='bold' text-anchor='middle'>B (Ciid)</text></g><g transform='translate(150,10)'><rect x='10' y='20' width='50' height='60' fill='#e0f2fe' stroke='#0284c7' stroke-width='1.5' rx='3'/><text x='35' y='95' font-size='10' font-weight='bold' text-anchor='middle'>C (Sonkor)</text></g><g transform='translate(220,10)'><rect x='10' y='20' width='50' height='60' fill='#e0f2fe' stroke='#0284c7' stroke-width='1.5' rx='3'/><path d='M12 65 Q35 75 58 65 L58 78 L12 78 Z' fill='#cbd5e1'/><text x='35' y='95' font-size='10' font-weight='bold' text-anchor='middle'>D (Nuurad)</text></g></svg>",
+        "caption": "Milanka walxaha ee biyaha"
+      },
+      "answer_guide": "a) Isticmaalka Maagnatis (Bir-shadday)\nb-i) A (Cusbo) iyo C (Sonkor)\nb-ii) B (Ciid) iyo D (Nuurad)"
+    },
+    {
+      "id": 14,
+      "section": "QAYBTA 2AAD: KA JAWAAB SU'AALAHA",
+      "question": "4. Dhalo Kooko Koola ah oo furan oo miisaan saaran 5 cisho:\na) Soo saar cufka yaraaday 5 cisho kadib?\nb) Sheeg walaxda hawada ku luntay ee sababta ah?",
+      "diagram": {
+        "svg": "<svg viewBox='0 0 320 130' class='w-full max-w-xs mx-auto bg-white p-2 rounded border border-slate-200'><g transform='translate(20,10)'><rect x='20' y='80' width='80' height='30' fill='#cbd5e1' stroke='#334155' rx='3'/><rect x='30' y='85' width='60' height='15' fill='#000'/><text x='60' y='96' fill='#00ff66' font-family='monospace' font-size='10' text-anchor='middle'>2025 g</text><rect x='45' y='20' width='30' height='60' fill='#7f1d1d' rx='4'/><text x='60' y='123' font-size='10' font-weight='bold' text-anchor='middle'>Bilowgii</text></g><g transform='translate(180,10)'><rect x='20' y='80' width='80' height='30' fill='#cbd5e1' stroke='#334155' rx='3'/><rect x='30' y='85' width='60' height='15' fill='#000'/><text x='60' y='96' fill='#00ff66' font-family='monospace' font-size='10' text-anchor='middle'>2021 g</text><rect x='45' y='30' width='30' height='50' fill='#7f1d1d' rx='4'/><text x='60' y='123' font-size='10' font-weight='bold' text-anchor='middle'>5 cisho kadib</text></g></svg>",
+        "caption": "Isbadalka cufka dhalada sharaabka ah (2025 g -> 2021 g)"
+      },
+      "options": [
+        "A) Sonkor",
+        "B) Hawo (Kaarboon labo ogsaydh)",
+        "C) Biyo"
+      ],
+      "answer_guide": "a) Cufka yaraaday = 2025 g - 2021 g = 4 g\nb) B) Hawo (GaaS)"
+    },
+    {
+      "id": 15,
+      "section": "QAYBTA 2AAD: KA JAWAAB SU'AALAHA",
+      "question": "5. Maxamed iyo Faraskiisa:\na) Sheeg hal xubin ay koofiyada fardo fuulka difaacayso?\nb) Sheeg waxa aad ku caddaynayso in farasku ka mid yahay naasleyda?\nc) Isku aadi xubin kasta iyo shaqadeeda:\n- Wadne -> (Wuxuu firdhiyaa dhiiga)\n- Sambab -> (Wuxuu soo qaataa ogsijiin)\n- Calool -> (Waxay dheefshiidaa cuntada)\n- Muruq -> (Wuxuu dhaqaajiyaa lafaha)",
+      "answer_guide": "a) Madaxa / Maskaxda\nb) Wuxuu dhalaa ubad oo uu naas-nuojiyaa, korneeraheedana waxaa ku yaal dhogor."
+    },
+    {
+      "id": 16,
+      "section": "QAYBTA 2AAD: KA JAWAAB SU'AALAHA",
+      "question": "6. Ubaxa iyo qaybihiisa:\na) Magacaw qaybaha A, B, D, iyo F.\nb) Sheeg qaybta laga helo unugyada taranka ee dhediga?\nc) Sheeg qaybta laga helo unugyada taranka ee labka?",
+      "diagram": {
+        "svg": "<svg viewBox='0 0 300 180' class='w-full max-w-xs mx-auto bg-white p-2 rounded border border-slate-200'><path d='M80 100 Q150 20 220 100 Q150 140 80 100 Z' fill='#fef08a' stroke='#eab308' stroke-width='1.5'/><text x='150' y='40' font-size='12' font-weight='bold' text-anchor='middle'>A</text><line x1='150' y1='130' x2='150' y2='60' stroke='#15803d' stroke-width='3'/><circle cx='150' cy='55' r='5' fill='#f97316'/><text x='165' y='58' font-size='11' font-weight='bold'>F</text><line x1='120' y1='120' x2='100' y2='70' stroke='#16a34a' stroke-width='1'/><circle cx='100' cy='68' r='3' fill='#eab308'/><text x='88' y='72' font-size='11' font-weight='bold'>B</text><path d='M135 110 Q150 90 165 110 Q150 140 135 110 Z' fill='#f1f5f9' stroke='#475569'/><text x='150' y='122' font-size='10' font-weight='bold' text-anchor='middle'>C</text><path d='M110 130 Q100 110 90 120 Q110 145 125 135 Z' fill='#22c55e'/><text x='78' y='125' font-size='11' font-weight='bold'>D</text></svg>",
+        "caption": "Qaybaha ubaxa (A: Caleen-ubax/Petal, B: Santeeriyo/Stamen, C: Ugxan-side/Ovary, D: Caleen-sabardhac/Sepal, F: Stigma)"
+      },
+      "answer_guide": "a) A: Caleen-ubax (Petal), B: Santeeriyo/Aanther, D: Caleen-sabardhac (Sepal), F: Stigma\nb) C (Ugxan-side / Ovary)\nc) B (Santeeriyo / Anther)"
+    },
+    {
+      "id": 17,
+      "section": "QAYBTA SEDEXAAD: ISKU-AADI",
+      "question": "1. Ku aadi cuduradaan (A, B, C, D, E) sida ay u faafaan (1 - 5):",
+      "matching_pairs": [
+        {"item": "A. Qaaxada (TB)", "match": "1. Neefsashada / Hawada"},
+        {"item": "B. HIV/Aydhis", "match": "4. Galmada jinsiga / Dhiigga"},
+        {"item": "C. Daacuun", "match": "3. Cunto ama biyo wasakhaysan"},
+        {"item": "D. Duumada", "match": "2. Qaniinyada kaneecada"},
+        {"item": "E. Cudurka Dabaysha", "match": "5. Hawo ama cunto wadata polio virus"}
       ]
     },
     {
-      "title": "القسم الثاني : القواعد النحوية والإملائية (41 درجة)",
-      "questions": [
-        {
-          "id": "q2_1",
-          "prompt": "أولا : استخرج الفاعل والمفعول به في الجمل الآتية (10 درجات):",
-          "type": "sub_questions",
-          "fields": ["الفاعل", "المفعول به"],
-          "items": [
-            "1. شرب المريض الدواء",
-            "2. أكل علي الخبز",
-            "3. صنع النجار كرسيا",
-            "4. أبصر الرجل الهلال",
-            "5. أخذ الطالب الكتاب",
-            "6. أكل الحمار الفول",
-            "7. يزرع الفلاح القطن",
-            "8. خطف الثعلب الدجاجة",
-            "9. افترس الذئب شاة",
-            "10. حفظ التلميذ الدرس"
-          ]
-        },
-        {
-          "id": "q2_2",
-          "prompt": "ثانيا : صنف كل فعل من الأفعال التالية حسب نوعه (ماضي ، مضارع ، أمر) (7 درجات):",
-          "type": "sub_questions",
-          "fields": ["نوع الفعل"],
-          "items": [
-            "يقرأ",
-            "اشرح",
-            "ذهب",
-            "اكتب",
-            "صنع",
-            "يفهم",
-            "أركب",
-            "فرح"
-          ]
-        },
-        {
-          "id": "q2_3",
-          "prompt": "ثالثا : إعراب ما يأتي (5 درجات):\nالجملة: (الطائر جميل)",
-          "type": "sub_questions",
-          "fields": ["الإعراب الكامل"],
-          "items": [
-            "الطائر :",
-            "جميل :"
-          ]
-        },
-        {
-          "id": "q2_4",
-          "prompt": "رابعا : املأ الفراغات بما يُناسبها من القائمة التالية:\n(القمح ، الماء ، الكرة ، الحقيبة ، الحصان)",
-          "type": "sub_questions",
-          "items": [
-            "1. يلعب الولد بـ ......",
-            "2. يحصد الفلاح ......",
-            "3. ركب إبراهيم ......",
-            "4. تجري السفينة على ......",
-            "5. الدفتر في ......"
-          ]
-        },
-        {
-          "id": "q2_5",
-          "prompt": "خامسا : اجعل المعرفة نكرة في الجمل الآتية (5 درجات):",
-          "type": "sub_questions",
-          "items": [
-            "1. عاقب المدرس تلميذا",
-            "2. الكتاب في الخزانة",
-            "3. شرح المعلم الدرس",
-            "4. نصح الحاكم عاصيا",
-            "5. يصيد الثعلب دجاجة"
-          ]
-        },
-        {
-          "id": "q2_6",
-          "prompt": "سادسا : صل بين علامة الترقيم ورمزها المناسب (5 درجات):",
-          "type": "matching",
-          "options": [".", "؟", "،", "-", "!"],
-          "items": [
-            { "term": "1. النقطة", "correct": "." },
-            { "term": "2. علامة الاستفهام", "correct": "؟" },
-            { "term": "3. الفاصلة", "correct": "،" },
-            { "term": "4. الشرطة", "correct": "-" },
-            { "term": "5. علامة التعجب", "correct": "!" }
-          ]
-        },
-        {
-          "id": "q2_7",
-          "prompt": "سابعا : أكمل الفراغ بالتعريف المناسب مما يلي:\n(علامة الاستفهام ، علامة الحذف ، علامات الترقيم ، النقطة)",
-          "type": "sub_questions",
-          "items": [
-            "1. تجيء في نهاية الجملة التامة المعنى : ......",
-            "2. تتكرر ثلاث مرات لتدل على حذف جزء من الكلام : ......",
-            "3. هي رموز اصطلاحية تستخدم في أثناء الكلام : ......",
-            "4. توضع بعد الجملة الاستفهامية : ......"
-          ]
-        }
-      ]
-    },
-    {
-      "title": "القسم الثالث : الأدب والنصوص (12 درجة)",
-      "passage": "1. ولا ترج السماحة من بخيل ... فما في النار للظمآن ماء\n2. ورزقك ليس ينقصه التأني ... وليس يزيد في الرزق العناء\n3. ولا حزن يدوم ولا سرور ... ولا بؤس عليك ولا رخاء\n4. إذا ما كنت ذا قلب قنوع ... فأنت ومالك الدنيا سواء\n5. ومن نزلت بساحته المنايا ... فلا أرض تقيه ولا سماء\n6. وأرض الله واسعة ولكن ... إذا نزل القضا ضاق القضاء\n7. دع الأيام تغدر كل حين ... فما يُغني عن الموت الدواء",
-      "questions": [
-        {
-          "id": "q3_1",
-          "prompt": "أولا : صل بين الكلمة وضدها (6 درجات):",
-          "type": "matching",
-          "options": ["يزول", "سماء", "سرور", "بؤس", "الحياة", "يزيد"],
-          "items": [
-            { "term": "1. حزن", "correct": "سرور" },
-            { "term": "2. رخاء", "correct": "بؤس" },
-            { "term": "3. أرض", "correct": "سماء" },
-            { "term": "4. ينقص", "correct": "يزيد" },
-            { "term": "5. يدوم", "correct": "يزول" },
-            { "term": "6. المنايا", "correct": "الحياة" }
-          ]
-        },
-        {
-          "id": "q3_2",
-          "prompt": "ثانيا : صل بين الكلمة ومرادفها (6 درجات):",
-          "type": "matching",
-          "options": ["المخلوقات", "التعب", "الموت", "الكرم", "العلم", "التمهل"],
-          "items": [
-            { "term": "1. التأني", "correct": "التمهل" },
-            { "term": "2. المعرفة", "correct": "العلم" },
-            { "term": "3. السخاء", "correct": "الكرم" },
-            { "term": "4. المنايا", "correct": "الموت" },
-            { "term": "5. البرايا", "correct": "المخلوقات" },
-            { "term": "6. العناء", "correct": "التعب" }
-          ]
-        }
-      ]
-    },
-    {
-      "title": "القسم الرابع : الإنشاء والتعبير (10 درجات)",
-      "questions": [
-        {
-          "id": "q4_1",
-          "prompt": "اكتب فيما لا يقل عن عشرة أسطر تعبيرا في الموضوع التالي:\n(أهمية النظافة)\n\nاستعن بالأفكار التالية:\n- أنواعها\n- عناية الإسلام بها\n- أنها مقياس تقدم الدول\n- الواجب علينا تجاهها\n- كل واحد منا يحب أن يعيش في بيئة نظيفة"
-        }
+      "id": 18,
+      "section": "QAYBTA SEDEXAAD: ISKU-AADI",
+      "question": "2. Isku-aadi hab-dhisyada jirka (A - E) iyo shaqadooda ugu muhiimsan (1 - 5):",
+      "matching_pairs": [
+        {"item": "A) Habka neefsashada", "match": "4. Kala badalida hawada (Ogsijiin & Kaarboon)"},
+        {"item": "B) Habka qalfoofka", "match": "3. Socodka, dhaqaaqa iyo taageerida jirka"},
+        {"item": "C) Habka taranka", "match": "5. Soo saarida noole cusub"},
+        {"item": "D) Habka qashinsaarka", "match": "2. Ka saarida jirka wixii qashin ah"},
+        {"item": "E) Habka dheefshiidka", "match": "1. Dheefshiidida cuntada waawayn"}
       ]
     }
   ]
