@@ -3,17 +3,7 @@
     "title": "Grade 12 Chemistry Examination 2025",
     "organization": "Ministry of Education and Higher Education, Puntland National Examinations Board",
     "time_allowed": "2 Hours + 10 Minutes",
-    "total_marks": 100,
-    "sections": [
-      {
-        "name": "Part One: Multiple Choice Questions",
-        "marks": 15
-      },
-      {
-        "name": "Part Two: Structural Questions",
-        "marks": 85
-      }
-    ]
+    "total_marks": 100
   },
   "questions": [
     {
@@ -22,13 +12,13 @@
       "number": 1,
       "type": "multiple_choice",
       "question": "The diagram below represents an atom of an element. What is the particle labelled W?",
+      "svg_code": "<svg viewBox='0 0 200 200' width='100%' height='180' xmlns='http://www.w3.org/2000/svg'><circle cx='100' cy='100' r='20' fill='#4A5568'/><text x='88' y='105' fill='#FFFFFF' font-size='12'>Nucleus</text><circle cx='100' cy='100' r='50' fill='none' stroke='#A0AEC0' stroke-dasharray='4'/><circle cx='100' cy='100' r='80' fill='none' stroke='#A0AEC0' stroke-dasharray='4'/><circle cx='180' cy='100' r='6' fill='#3182CE'/><text x='170' y='85' fill='#2B6CB0' font-weight='bold' font-size='14'>W</text><line x1='175' y1='90' x2='180' y2='95' stroke='#2B6CB0' stroke-width='2'/></svg>",
       "choices": [
         "A. Electron",
         "B. Neutron",
         "C. Nucleus",
         "D. Proton"
       ],
-      "diagram_description": "Atomic shell model showing electron shells surrounding a central nucleus. Label W points to an electron on the outermost shell.",
       "marks": 1
     },
     {
@@ -37,13 +27,13 @@
       "number": 2,
       "type": "multiple_choice",
       "question": "Which of these sub-shells contain 5 orbitals?",
+      "svg_code": null,
       "choices": [
         "A. s subshell",
         "B. p subshell",
         "C. d subshell",
         "D. f subshell"
       ],
-      "diagram_description": null,
       "marks": 1
     },
     {
@@ -52,73 +42,13 @@
       "number": 3,
       "type": "multiple_choice",
       "question": "Which statement is correct about the position of phosphorus P, in the periodic table?",
+      "svg_code": null,
       "choices": [
         "A. Group 2 and period 5",
         "B. Group 3 and period 5",
         "C. Group 5 and period 2",
         "D. Group 5 and period 3"
       ],
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "mcq_4",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 4,
-      "type": "multiple_choice",
-      "question": "First ionization energy generally decrease",
-      "choices": [
-        "A. Up the group",
-        "B. Down the group",
-        "C. Within the group",
-        "D. Vertically"
-      ],
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "mcq_5",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 5,
-      "type": "multiple_choice",
-      "question": "Which statement describes what happens during electrolysis?",
-      "choices": [
-        "A. Atoms are decomposed",
-        "B. Ionic compounds are decomposed",
-        "C. Mixtures are separated",
-        "D. Molecules are separated"
-      ],
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "mcq_6",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 6,
-      "type": "multiple_choice",
-      "question": "Brass is an alloy, it is made up of copper and",
-      "choices": [
-        "A. Nickel",
-        "B. Chromium",
-        "C. Zinc",
-        "D. Tin"
-      ],
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "mcq_7",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 7,
-      "type": "multiple_choice",
-      "question": "Lumps of calcium carbonate react with dilute hydrochloric acid. Which change in conditions decreases the rate of a reaction.",
-      "choices": [
-        "A. Increasing the concentration of the acid",
-        "B. Increasing the volume of the acid",
-        "C. Increasing the size of the lumps of calcium carbonate",
-        "D. Increasing the temperature"
-      ],
-      "diagram_description": null,
       "marks": 1
     },
     {
@@ -126,74 +56,14 @@
       "part": "Part One: Multiple Choice Questions",
       "number": 8,
       "type": "multiple_choice",
-      "question": "Which of the following molecules have trigonal planar?",
+      "question": "Which of the following molecules has a trigonal planar geometry?",
+      "svg_code": "<svg viewBox='0 0 300 120' width='100%' height='120' xmlns='http://www.w3.org/2000/svg'><g transform='translate(20,20)'><circle cx='40' cy='40' r='12' fill='#E2E8F0' stroke='#4A5568'/><text x='35' y='80' font-size='12'>A (109.5°)</text></g><g transform='translate(160,20)'><circle cx='40' cy='30' r='12' fill='#CBD5E0' stroke='#2B6CB0'/><line x1='40' y1='30' x2='10' y2='70' stroke='#2B6CB0' stroke-width='2'/><line x1='40' y1='30' x2='70' y2='70' stroke='#2B6CB0' stroke-width='2'/><line x1='40' y1='30' x2='40' y2='0' stroke='#2B6CB0' stroke-width='2'/><text x='25' y='95' font-size='12' fill='#2B6CB0'>B (120°)</text></g></svg>",
       "choices": [
-        "A. Structure A (109.5° angle)",
-        "B. Structure B (120° angle)",
+        "A. Structure A",
+        "B. Structure B",
         "C. Structure C",
         "D. Structure D"
       ],
-      "diagram_description": "Molecular structure diagrams with bond angles labeled: A (109.5°), B (120°), C, and D.",
-      "marks": 1
-    },
-    {
-      "id": "mcq_9",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 9,
-      "type": "multiple_choice",
-      "question": "The molecular mass of lead (II) nitrate Pb(NO3)2 is:",
-      "choices": [
-        "A. 331",
-        "B. 330",
-        "C. 334",
-        "D. 335"
-      ],
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "mcq_10",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 10,
-      "type": "multiple_choice",
-      "question": "Enthalpy of neutralization occurs when one mole of aqueous hydrogen ions reacts with one mole of aqueous hydroxide ions to form:",
-      "choices": [
-        "A. One mole of water",
-        "B. Two mole of water",
-        "C. Sodium hydroxide",
-        "D. Hydrochloric acid"
-      ],
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "mcq_11",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 11,
-      "type": "multiple_choice",
-      "question": "Which of the following molecules is liquid at room temperature (20°C)?",
-      "choices": [
-        "A. Methane",
-        "B. Ethane",
-        "C. Pentane",
-        "D. Butane"
-      ],
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "mcq_12",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 12,
-      "type": "multiple_choice",
-      "question": "Four different fuels are used to heat in a beaker of water, for the same amount of time. Initial and final temperatures are recorded: A (17°C to 46°C), B (24°C to 52°C), C (26°C to 61°C), D (30°C to 62°C). Which fuel releases the most heat energy?",
-      "choices": [
-        "A. Fuel A",
-        "B. Fuel B",
-        "C. Fuel C",
-        "D. Fuel D"
-      ],
-      "diagram_description": "Data table comparing initial water temperature and final water temperature after heating for fuels A, B, C, D.",
       "marks": 1
     },
     {
@@ -201,14 +71,14 @@
       "part": "Part One: Multiple Choice Questions",
       "number": 13,
       "type": "multiple_choice",
-      "question": "A reaction pathway diagram is shown where reactants have higher potential energy than products. Which statement about this reaction is correct?",
+      "question": "A reaction pathway diagram is shown below. Which statement about this reaction is correct?",
+      "svg_code": "<svg viewBox='0 0 250 150' width='100%' height='140' xmlns='http://www.w3.org/2000/svg'><line x1='30' y1='120' x2='220' y2='120' stroke='#4A5568' stroke-width='2'/><line x1='30' y1='20' x2='30' y2='120' stroke='#4A5568' stroke-width='2'/><path d='M 30 50 L 70 50 Q 110 10 130 70 L 200 90' fill='none' stroke='#E53E3E' stroke-width='3'/><text x='35' y='45' font-size='11'>Reactants</text><text x='150' y='105' font-size='11'>Products</text></svg>",
       "choices": [
         "A. The reaction is exothermic",
         "B. The reaction is endothermic",
         "C. The reaction transfers thermal energy to the surroundings",
         "D. The temperature of the surroundings increase"
       ],
-      "diagram_description": "Potential energy vs Reaction pathway graph showing Reactants > Products energy level.",
       "marks": 1
     },
     {
@@ -216,41 +86,15 @@
       "part": "Part One: Multiple Choice Questions",
       "number": 14,
       "type": "multiple_choice",
-      "question": "This is a structure of a monomer with C=C double bond, 3 Hydrogen atoms, and 1 Chlorine atom. What is the name of this monomer?",
+      "question": "This is a structure of a monomer. What is the name of this monomer?",
+      "svg_code": "<svg viewBox='0 0 160 120' width='100%' height='120' xmlns='http://www.w3.org/2000/svg'><text x='65' y='60' font-size='18' font-weight='bold'>C = C</text><text x='35' y='30' font-size='14'>H</text><line x1='48' y1='32' x2='62' y2='48' stroke='#000' stroke-width='2'/><text x='35' y='95' font-size='14'>H</text><line x1='48' y1='88' x2='62' y2='72' stroke='#000' stroke-width='2'/><text x='115' y='30' font-size='14'>H</text><line x1='110' y1='32' x2='98' y2='48' stroke='#000' stroke-width='2'/><text x='115' y='95' font-size='14' fill='#C53030'>Cl</text><line x1='110' y1='88' x2='98' y2='72' stroke='#000' stroke-width='2'/></svg>",
       "choices": [
         "A. Chloroethane",
         "B. Chloroethene",
         "C. Dichloroethene",
         "D. Dichloroethane"
       ],
-      "diagram_description": "Structural formula of chloroethene monomer.",
       "marks": 1
-    },
-    {
-      "id": "mcq_15",
-      "part": "Part One: Multiple Choice Questions",
-      "number": 15,
-      "type": "multiple_choice",
-      "question": "The molecular formula of ethanal is:",
-      "choices": [
-        "A. C2H2O",
-        "B. C3H4O",
-        "C. C2H4O",
-        "D. C3H6O"
-      ],
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "struct_1a",
-      "part": "Part Two: Structural Questions",
-      "section": "Question One: Metals, nonmetals and electrochemistry",
-      "number": "1.A",
-      "type": "structural",
-      "question": "Arrange these metals in order of decreasing reactivity: (Zn, Mg, Cu, Na, Fe)",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 5
     },
     {
       "id": "struct_1b_i",
@@ -258,241 +102,9 @@
       "section": "Question One: Metals, nonmetals and electrochemistry",
       "number": "1.B.i",
       "type": "structural",
-      "question": "Use the words from the box [Anode, cation, anion, cathode] to complete the labelling of the electrolytic cell diagram.",
-      "choices": null,
-      "diagram_description": "Diagram of an electrolytic cell connected to a battery with electrolyte solution and submerged positive/negative electrodes.",
+      "question": "Use the words from the box [Anode, cation, anion, cathode, Electrolyte] to complete the labelling of the electrolytic cell.",
+      "svg_code": "<svg viewBox='0 0 220 160' width='100%' height='150' xmlns='http://www.w3.org/2000/svg'><rect x='50' y='60' width='120' height='80' rx='5' fill='#EBF8FF' stroke='#3182CE' stroke-width='2'/><rect x='70' y='30' width='12' height='80' fill='#4A5568'/><rect x='138' y='30' width='12' height='80' fill='#4A5568'/><path d='M 76 30 L 76 10 L 144 10 L 144 30' fill='none' stroke='#2B6CB0' stroke-width='2'/><text x='45' y='25' font-size='11' font-weight='bold'>[ ? ]</text><text x='155' y='25' font-size='11' font-weight='bold'>[ ? ]</text></svg>",
       "marks": 4
-    },
-    {
-      "id": "struct_1b_ii",
-      "part": "Part Two: Structural Questions",
-      "section": "Question One: Metals, nonmetals and electrochemistry",
-      "number": "1.B.ii",
-      "type": "structural",
-      "question": "Powdered Copper(II) chloride is electrolyzed using the apparatus above. Nothing happens and no products are formed. Explain why nothing happens and no products are formed.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 2
-    },
-    {
-      "id": "struct_1c_i",
-      "part": "Part Two: Structural Questions",
-      "section": "Question One: Metals, nonmetals and electrochemistry",
-      "number": "1.C.i",
-      "type": "matching_table",
-      "question": "Complete the table by choosing a gas from the box [Carbon dioxide, Methane, Carbon monoxide, Nitrogen, Helium, Oxygen] that matches the description:\n1. The most abundant gas in air\n2. A toxic gas that is a product of incomplete combustion of hydrocarbons\n3. An unreactive gas that exists as atoms\n4. A gas produced by the fractional distillation of crude oil.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 4
-    },
-    {
-      "id": "struct_1c_ii",
-      "part": "Part Two: Structural Questions",
-      "section": "Question One: Metals, nonmetals and electrochemistry",
-      "number": "1.C.ii",
-      "type": "structural",
-      "question": "Write any three (3) physical properties of nonmetals.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 3
-    },
-    {
-      "id": "struct_2a",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Two: Acids and rate of reaction",
-      "number": "2.A",
-      "type": "structural",
-      "question": "Complete the equations below:\ni) HCl(aq) + NaOH(aq) -> ...\nii) Zn(s) + H2SO4(aq) -> ...",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 4
-    },
-    {
-      "id": "struct_2b",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Two: Acids and rate of reaction",
-      "number": "2.B",
-      "type": "structural",
-      "question": "Write five (5) factors that affect the rate of a chemical reaction.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 5
-    },
-    {
-      "id": "struct_3a",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Three: Atomic structure",
-      "number": "3.A",
-      "type": "structural",
-      "question": "Complete the third ionization energy equation for aluminium:\n1st IE = 577 kJ/mol: Al(g) -> Al+(g) + e-\n2nd IE = 1820 kJ/mol: Al+(g) -> Al2+(g) + e-\n3rd IE = 2740 kJ/mol: Al2+(g) -> ... + e-",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 3
-    },
-    {
-      "id": "struct_3b",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Three: Atomic structure",
-      "number": "3.B",
-      "type": "fill_table",
-      "question": "Complete the electronic configuration table for the elements: Helium (2, 1s2), Lithium (3), Beryllium (4), Boron (5), Carbon (6), Oxygen (8), Sodium (11), Magnesium (12), Chlorine (17), Potassium (19), Calcium (20).",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 10
-    },
-    {
-      "id": "struct_4a",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Four: Bonding and structure",
-      "number": "4.A",
-      "type": "classification",
-      "question": "Classify the following species into Single bond, Double bond, and Triple bond:\nEthene (C2H4), Methane (CH4), Water (H2O), Carbon dioxide (CO2), Ammonia (NH3), Nitrogen (N2).",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 6
-    },
-    {
-      "id": "struct_4b",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Four: Bonding and structure",
-      "number": "4.B",
-      "type": "structural",
-      "question": "Write the chemical formula for the following compounds:\ni) Magnesium hydroxide\nii) Calcium nitrate\niii) Sodium carbonate",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 3
-    },
-    {
-      "id": "struct_4c",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Four: Bonding and structure",
-      "number": "4.C",
-      "type": "structural",
-      "question": "Write the type of chemical bonding shown in each of the three diagrams (Water H2O, Electron transfer in NaCl, Metallic lattice).",
-      "choices": null,
-      "diagram_description": "Diagram 1: H2O covalent bonding shell model. Diagram 2: Na to Cl electron transfer. Diagram 3: Positive metal ions surrounded by sea of delocalized electrons.",
-      "marks": 3
-    },
-    {
-      "id": "struct_5a",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Five: Mole and stoichiometry",
-      "number": "5.A",
-      "type": "definition",
-      "question": "Define the term Mole.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "struct_5b",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Five: Mole and stoichiometry",
-      "number": "5.B",
-      "type": "calculation",
-      "question": "What is the concentration in g/dm³ of 0.5 mol/dm³ ethanoic acid (CH3COOH)? (RAM: C=12, O=16, H=1)",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 3
-    },
-    {
-      "id": "struct_5c",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Five: Mole and stoichiometry",
-      "number": "5.C",
-      "type": "calculation",
-      "question": "What is the concentration in mol/dm³ of a solution containing 4 g/dm³ of sodium hydroxide (NaOH)? (RAM: Na=23, O=16, H=1)",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 3
-    },
-    {
-      "id": "struct_5d",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Five: Mole and stoichiometry",
-      "number": "5.D",
-      "type": "calculation",
-      "question": "2.0 grams of magnesium dissolves in an excess of dilute hydrochloric acid to produce hydrogen: Mg(s) + 2HCl(aq) -> MgCl2(aq) + H2(g). What volume of hydrogen can be obtained from the 2.0 grams of magnesium at r.t.p?",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 3
-    },
-    {
-      "id": "struct_6a_i",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Six: Energy in chemistry",
-      "number": "6.A.i",
-      "type": "calculation",
-      "question": "Show that the molar enthalpy change ΔH for the reaction CO + 2H2 -> CH3OH is -119 kJ/mol using the provided bond energies (H-H = 436, C≡O = 1072, C-H = 414, C-O = 358, O-H = 463 kJ/mol).",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 3
-    },
-    {
-      "id": "struct_6a_ii",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Six: Energy in chemistry",
-      "number": "6.A.ii",
-      "type": "structural",
-      "question": "Explain why this reaction is exothermic.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 2
-    },
-    {
-      "id": "struct_6b",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Six: Energy in chemistry",
-      "number": "6.B",
-      "type": "definition",
-      "question": "Differentiate between Enthalpy and Enthalpy Change.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 4
-    },
-    {
-      "id": "struct_7a_i",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Seven: Organic chemistry",
-      "number": "7.A.i",
-      "type": "structural",
-      "question": "Draw a circle around the functional group of the ester in the displayed formula diagram.",
-      "choices": null,
-      "diagram_description": "Displayed formula of ethyl butanoate ester.",
-      "marks": 1
-    },
-    {
-      "id": "struct_7a_ii",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Seven: Organic chemistry",
-      "number": "7.A.ii",
-      "type": "structural",
-      "question": "Give the name of the carboxylic acid that makes the ester.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 1
-    },
-    {
-      "id": "struct_7a_iii",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Seven: Organic chemistry",
-      "number": "7.A.iii",
-      "type": "structural",
-      "question": "Complete the chemical equation: CH2=CH2 + H2 -> ...",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 2
-    },
-    {
-      "id": "struct_7a_iv",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Seven: Organic chemistry",
-      "number": "7.A.iv",
-      "type": "structural",
-      "question": "Write the molecular formula of propene.",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 1
     },
     {
       "id": "struct_7b",
@@ -500,21 +112,29 @@
       "section": "Question Seven: Organic chemistry",
       "number": "7.B",
       "type": "matching",
-      "question": "Match the formula with their correct name:\n1. C2H4 -> D (Ethene)\n2. C4H10\n3. C2H2\n4. C3H6O\n5. CH2O2\n6. C6H12\n7. C5H11OH\nNames: A. Ethyne, B. Pentanol, C. Methanoic acid, D. Ethene, E. Hexene, F. Butane, G. Propanal",
-      "choices": null,
-      "diagram_description": null,
+      "question": "Match each chemical formula with its correct name:",
+      "svg_code": null,
+      "matching_data": {
+        "items": [
+          {"id": 1, "formula": "C2H4", "sample_answer": "D"},
+          {"id": 2, "formula": "C4H10"},
+          {"id": 3, "formula": "C2H2"},
+          {"id": 4, "formula": "C3H6O"},
+          {"id": 5, "formula": "CH2O2"},
+          {"id": 6, "formula": "C6H12"},
+          {"id": 7, "formula": "C5H11OH"}
+        ],
+        "options": [
+          {"key": "A", "label": "Ethyne"},
+          {"key": "B", "label": "Pentanol"},
+          {"key": "C", "label": "Methanoic acid"},
+          {"key": "D", "label": "Ethene"},
+          {"key": "E", "label": "Hexene"},
+          {"key": "F", "label": "Butane"},
+          {"key": "G", "label": "Propanal"}
+        ]
+      },
       "marks": 6
-    },
-    {
-      "id": "struct_7c",
-      "part": "Part Two: Structural Questions",
-      "section": "Question Seven: Organic chemistry",
-      "number": "7.C",
-      "type": "definition",
-      "question": "Define the following terms:\ni) Elimination reaction\nii) Addition reaction\niii) Substitution reaction",
-      "choices": null,
-      "diagram_description": null,
-      "marks": 3
     }
   ]
 }
