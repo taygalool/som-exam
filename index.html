@@ -37,7 +37,7 @@
         <!-- LOADING STATE -->
         <div id="screen-loading" class="hidden text-center py-12 space-y-4">
             <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-blue-600 border-t-transparent"></div>
-            <p class="text-slate-600 font-medium">Soo raraya imtixaanka...</p>
+            <p id="loading-text" class="text-slate-600 font-medium">Soo raraya imtixaanka...</p>
         </div>
 
         <!-- 1. HOME SCREEN (EXAM SELECTION) -->
@@ -113,37 +113,9 @@
 
     <!-- APPLICATION LOGIC -->
     <script>
-        // ==========================================
-        // 📚 REGISTER ALL AVAILABLE EXAMS HERE
-        // ==========================================
-        const availableExams = [
-            {
-                file: './exams/puntland_8_science_2015.json',
-                badge: 'SCI',
-                badgeBg: 'bg-amber-100 text-amber-600',
-                title: 'Saynis (Puntland Grade 8)',
-                desc: 'Imtixaanka rasmiga ah ee sanadkii 2015.',
-                marks: '100 Marks'
-            },
-            {
-                file: './exams/puntland_8_arab_2018.json',
-                badge: 'ARA',
-                badgeBg: 'bg-emerald-100 text-emerald-600',
-                title: 'اللغة العربية (Puntland Grade 8)',
-                desc: 'Imtixaanka rasmiga ah ee sanadkii 2018.',
-                marks: '100 Marks'
-            },
-            {
-                file: './exams/somalia_bio_2020.json',
-                badge: 'BIO',
-                badgeBg: 'bg-blue-100 text-blue-600',
-                title: 'Biology (Somalia Grade 12)',
-                desc: 'Imtixaanka rasmiga ah ee sanadkii 2020.',
-                marks: '100 Marks'
-            }
-        ];
-
+        let availableExams = [];
         let tg = null;
+
         if (window.Telegram && window.Telegram.WebApp) {
             tg = window.Telegram.WebApp;
             tg.ready();
@@ -166,8 +138,8 @@
         const btnHomeNav = document.getElementById('btn-home-nav');
         const canvas = document.getElementById('question-canvas');
 
-        window.addEventListener('DOMContentLoaded', () => {
-            renderExamList();
+        window.addEventListener('DOMContentLoaded', async () => {
+            await loadExamsManifest();
 
             const urlParams = new URLSearchParams(window.location.search);
             const file = urlParams.get('file');
@@ -183,23 +155,57 @@
             }
         });
 
+        // Dynamic Manifest Fetcher
+        async function loadExamsManifest() {
+            try {
+                const response = await fetch('./exams/manifest.json');
+                if (!response.ok) throw new Error('Could not load manifest.json');
+                availableExams = await response.json();
+                renderExamList();
+            } catch (err) {
+                console.warn('Manifest load failed, fallback grid rendering:', err);
+                document.getElementById('exam-cards-grid').innerHTML = `
+                    <div class="col-span-full text-center p-8 bg-white rounded-xl border border-slate-200">
+                        <p class="text-slate-500 font-medium">Lama helin liiska imtixaanaadka (manifest.json). Fadlan hubi faylka.</p>
+                    </div>`;
+            }
+        }
+
+        // Helper to generate dynamic badges for subjects
+        function getBadgeInfo(subjectName = '') {
+            const sub = subjectName.toUpperCase();
+            if (sub.includes('SAYNIS') || sub.includes('SCI')) return { badge: 'SCI', bg: 'bg-amber-100 text-amber-600' };
+            if (sub.includes('ARAB') || sub.includes('عرب')) return { badge: 'ARA', bg: 'bg-emerald-100 text-emerald-600' };
+            if (sub.includes('BIO')) return { badge: 'BIO', bg: 'bg-blue-100 text-blue-600' };
+            if (sub.includes('MATH') || sub.includes('HISEAB')) return { badge: 'MTH', bg: 'bg-purple-100 text-purple-600' };
+            if (sub.includes('PHYS')) return { badge: 'PHY', bg: 'bg-indigo-100 text-indigo-600' };
+            if (sub.includes('CHEM')) return { badge: 'CHM', bg: 'bg-rose-100 text-rose-600' };
+            if (sub.includes('ENG')) return { badge: 'ENG', bg: 'bg-sky-100 text-sky-600' };
+            return { badge: 'EXM', bg: 'bg-slate-100 text-slate-700' };
+        }
+
         // Dynamic Card Renderer
         function renderExamList() {
             const grid = document.getElementById('exam-cards-grid');
             grid.innerHTML = '';
 
             availableExams.forEach(exam => {
+                const badgeInfo = getBadgeInfo(exam.subject || exam.title || '');
+                const badge = exam.badge || badgeInfo.badge;
+                const badgeBg = exam.badgeBg || badgeInfo.bg;
+                const fileUrl = exam.file || `./exams/${exam.filename}`;
+
                 const card = document.createElement('div');
                 card.className = 'bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between';
                 card.innerHTML = `
                     <div>
-                        <div class="w-12 h-12 ${exam.badgeBg} rounded-lg flex items-center justify-center font-bold text-lg mb-4">${exam.badge}</div>
+                        <div class="w-12 h-12 ${badgeBg} rounded-lg flex items-center justify-center font-bold text-lg mb-4">${badge}</div>
                         <h3 class="text-lg font-bold text-slate-900">${exam.title}</h3>
-                        <p class="text-sm text-slate-500 mt-1">${exam.desc}</p>
+                        <p class="text-sm text-slate-500 mt-1">${exam.desc || (exam.region ? `${exam.region} - Grade ${exam.grade || 8} (${exam.year || ''})` : 'Imtixaanka rasmiga ah')}</p>
                     </div>
                     <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
-                        <span class="text-xs text-slate-400 font-semibold">${exam.marks}</span>
-                        <button onclick="fetchAndStartExam('${exam.file}')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
+                        <span class="text-xs text-slate-400 font-semibold">${exam.marks || '100 Marks'}</span>
+                        <button onclick="fetchAndStartExam('${fileUrl}')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
                             Bilaaw Imtixaanka &rarr;
                         </button>
                     </div>
@@ -209,7 +215,7 @@
         }
 
         async function fetchAndStartExam(filePath) {
-            showLoading(true);
+            showLoading(true, "Soo raraya imtixaanka...");
 
             try {
                 const response = await fetch(filePath);
@@ -224,7 +230,6 @@
             }
         }
 
-        // Schema Normalizer to support both sectioned and flat question formats
         function normalizeExamData(data) {
             let title = data.title || (data.exam_meta && data.exam_meta.title) || "Imtixaan";
             let sections = [];
@@ -246,7 +251,8 @@
             return { title, sections, raw: data };
         }
 
-        function showLoading(isLoading) {
+        function showLoading(isLoading, text = "Soo raraya...") {
+            document.getElementById('loading-text').innerText = text;
             if (isLoading) {
                 screenHome.classList.add('hidden');
                 screenExam.classList.add('hidden');
@@ -322,6 +328,27 @@
             return String(choice);
         }
 
+        // Standardized Diagram Helper (Fixes String SVG & Object SVG)
+        function renderDiagramHtml(diagram) {
+            if (!diagram) return '';
+            
+            // 1. If diagram is direct SVG string
+            if (typeof diagram === 'string' && diagram.trim().length > 0) {
+                return `<div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center space-y-2 my-3"><div class="w-full overflow-x-auto flex justify-center py-2">${diagram}</div></div>`;
+            }
+            
+            // 2. If diagram is an Object with SVG/URL
+            if (typeof diagram === 'object') {
+                if (diagram.svg) {
+                    return `<div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center space-y-2 my-3"><div class="w-full overflow-x-auto flex justify-center py-2">${diagram.svg}</div>${diagram.caption ? `<p class="text-xs text-slate-500 italic font-medium mt-1">${diagram.caption}</p>` : ''}</div>`;
+                }
+                if (diagram.url) {
+                    return `<div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center space-y-2 my-3"><img src="${diagram.url}" alt="Diagram" class="max-h-56 mx-auto rounded shadow-sm">${diagram.caption ? `<p class="text-xs text-slate-500 italic font-medium mt-1">${diagram.caption}</p>` : ''}</div>`;
+                }
+            }
+            return '';
+        }
+
         function loadQuestion() {
             const currentSection = normalizedExamData.sections[activeSectionIndex];
             const q = currentSection.questions[activeQuestionIndex];
@@ -341,22 +368,12 @@
             }
 
             // 2. DIAGRAM / INLINE SVG SUPPORT
-            if (q.diagram || q.has_diagram) {
-                const diag = q.diagram || {};
-                const imgDiv = document.createElement('div');
-                imgDiv.className = 'p-3 bg-slate-50 border border-slate-200 rounded-lg text-center space-y-2 my-3';
-                
-                if (diag.svg) {
-                    // Directly inject SVG string
-                    imgDiv.innerHTML = `<div class="w-full overflow-x-auto flex justify-center py-2">${diag.svg}</div>`;
-                } else if (diag.url) {
-                    imgDiv.innerHTML = `<img src="${diag.url}" alt="Diagram" class="max-h-56 mx-auto rounded shadow-sm">`;
+            if (q.diagram) {
+                const diagContainer = document.createElement('div');
+                diagContainer.innerHTML = renderDiagramHtml(q.diagram);
+                if (diagContainer.firstElementChild) {
+                    card.appendChild(diagContainer.firstElementChild);
                 }
-
-                if (diag.caption) {
-                    imgDiv.innerHTML += `<p class="text-xs text-slate-500 italic font-medium mt-1">${diag.caption}</p>`;
-                }
-                card.appendChild(imgDiv);
             }
 
             // 3. QUESTION PROMPT / HEADER
@@ -374,7 +391,6 @@
 
             // 5. RENDER INPUTS BASED ON DATA
             if (matchingPairs && Array.isArray(matchingPairs)) {
-                // MATCHING PAIRS (SCHEMA SPECIFIC)
                 userAnswers[q.id] = userAnswers[q.id] || {};
                 const matchDiv = document.createElement('div');
                 matchDiv.className = 'space-y-3 pt-2';
@@ -399,7 +415,6 @@
                 card.appendChild(matchDiv);
 
             } else if ((sectionType === 'mcq' || choices.length > 0) && items.length === 0) {
-                // MULTIPLE CHOICE
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
                 choices.forEach((choice, cIdx) => {
@@ -417,7 +432,6 @@
                 card.appendChild(choicesDiv);
 
             } else if (sectionType === 'tf' || sectionType === 'true_false') {
-                // TRUE / FALSE
                 const tfDiv = document.createElement('div');
                 tfDiv.className = 'grid grid-cols-2 gap-4 pt-2';
                 [{ label: "صواب (True)", val: true }, { label: "خطأ (False)", val: false }].forEach(opt => {
@@ -432,7 +446,6 @@
                 card.appendChild(tfDiv);
 
             } else if (items.length > 0 && sectionType !== 'matching') {
-                // SUB-QUESTIONS / LIST OF ITEMS
                 userAnswers[q.id] = userAnswers[q.id] || {};
                 const listContainer = document.createElement('div');
                 listContainer.className = 'space-y-4 pt-2';
@@ -474,7 +487,6 @@
                 card.appendChild(listContainer);
 
             } else {
-                // DEFAULT FALLBACK: OPEN-ENDED TEXTAREA
                 const textDiv = document.createElement('div');
                 textDiv.className = 'pt-2';
                 const val = typeof userAnswers[q.id] === 'string' ? userAnswers[q.id] : '';
@@ -552,12 +564,7 @@
                     const qBox = document.createElement('div');
                     qBox.className = 'p-5 bg-slate-50 border border-slate-200 rounded-xl space-y-3';
 
-                    // SVG Diagram Rendering in Result Review
-                    let diagramHtml = '';
-                    if (q.diagram && q.diagram.svg) {
-                        diagramHtml = `<div class="w-full max-w-sm mx-auto overflow-x-auto py-2 my-2 bg-white rounded border p-2">${q.diagram.svg}</div>`;
-                    }
-
+                    const diagramHtml = renderDiagramHtml(q.diagram);
                     const questionText = q.prompt || q.question || q.text || q.title || '';
                     
                     if (choices.length > 0) {
@@ -603,7 +610,6 @@
                         qBox.appendChild(list);
 
                     } else {
-                        // Open-Ended Written Answers
                         const guide = q.answer_guide || q.correct_answer || 'Lagu ma samayn shaxda saxida.';
                         qBox.innerHTML = `
                             <p class="font-semibold text-slate-800 text-sm">${questionText}</p>
