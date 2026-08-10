@@ -1,1 +1,479 @@
+{
+  "exam_metadata": {
+    "title": "Grade 12 ICT Examination, 2025",
+    "institution": "Ministry of Education and Higher Education",
+    "examination_board": "Puntland National Examination Board",
+    "subject": "ICT",
+    "level": "Form Four",
+    "time_allowed": "2 Hours plus 10 minutes for reading",
+    "total_marks": 100
+  },
+  "part_one_multiple_choice": {
+    "total_marks": 26,
+    "instructions": "Choose the correct answer",
+    "questions": [
+      {
+        "number": 1,
+        "question": "Which of the following is an example of application software?",
+        "options": {
+          "a": "Windows OS",
+          "b": "Adobe Photoshop",
+          "c": "BIOS",
+          "d": "CPU"
+        },
+        "answer": "b"
+      },
+      {
+        "number": 2,
+        "question": "What is the primary advantage of cloud collaboration tools?",
+        "options": {
+          "a": "High-cost infrastructure and effort needs",
+          "b": "Need for on premise servers and other important devices",
+          "c": "Real-time access to data and resources from anywhere",
+          "d": "Reduced storage capacity and processor capacity"
+        },
+        "answer": "c"
+      },
+      {
+        "number": 3,
+        "question": "You are creating a brochure for a company. Which of the following software would be most appropriate for this task?",
+        "options": {
+          "a": "Microsoft Word",
+          "b": "Microsoft Publisher",
+          "c": "PowerPoint",
+          "d": "Notepad"
+        },
+        "answer": "b"
+      },
+      {
+        "number": 4,
+        "question": "Understanding the image below, and then What does the <form> element in HTML represent?",
+        "options": {
+          "a": "It is used to collect user input.",
+          "b": "It creates a navigation menu.",
+          "c": "It defines the header section of a webpage.",
+          "d": "It is used to display images."
+        },
+        "answer": "a"
+      },
+      {
+        "number": 5,
+        "question": "In a relational database, what is the Primary key used for?",
+        "options": {
+          "a": "To link different tables together",
+          "b": "To store large amounts of data",
+          "c": "To identify records uniquely",
+          "d": "To secure the data in the database"
+        },
+        "answer": "c"
+      },
+      {
+        "number": 6,
+        "question": "Which programming construct is used to repeat a block of code multiple times in most programming languages?",
+        "options": {
+          "a": "Conditional statements",
+          "b": "Variables",
+          "c": "Functions",
+          "d": "Loops"
+        },
+        "answer": "d"
+      },
+      {
+        "number": 7,
+        "question": "The following are multimedia elements that can be integrated into a mobile application to enhance user experience EXCEPT:",
+        "options": {
+          "a": "Video and animation",
+          "b": "Music and text",
+          "c": "Graphics and sound effects",
+          "d": "Spreadsheet"
+        },
+        "answer": "d"
+      },
+      {
+        "number": 8,
+        "question": "A company wants to create a database for customer records. Which approach is most effective?",
+        "options": {
+          "a": "Spreadsheet for quick access",
+          "b": "Relational database with unique IDs and linked tables",
+          "c": "Text document for easy editing",
+          "d": "Tracking via social media for real-time insights"
+        },
+        "answer": "b"
+      },
+      {
+        "number": 9,
+        "question": "What factors should you consider when choosing a career in ICT?",
+        "options": {
+          "a": "Job demand, interests, skills, and growth",
+          "b": "Salary and job title prestige",
+          "c": "Popularity on social media",
+          "d": "Physical work environment"
+        },
+        "answer": "a"
+      },
+      {
+        "number": 10,
+        "question": "When designing a multimedia presentation, what is most important for effective communication?",
+        "options": {
+          "a": "Using too many multimedia elements every slide",
+          "b": "Adding background music to every slide",
+          "c": "High-quality but irrelevant images",
+          "d": "Relevant elements that aid understanding"
+        },
+        "answer": "d"
+      },
+      {
+        "number": 11,
+        "question": "As an ICT professional aiming for cybersecurity, what step best prepares you for success?",
+        "options": {
+          "a": "Learning programming and network security",
+          "b": "Focusing only on hardware systems",
+          "c": "Specializing in social media management",
+          "d": "Avoiding certifications and formal education"
+        },
+        "answer": "a"
+      },
+      {
+        "number": 12,
+        "question": "To create a Table object in MS Access, the correct tab you must press or click is:",
+        "options": {
+          "a": "Home and File Tab",
+          "b": "Create Tab",
+          "c": "External Data Tab",
+          "d": "Database Tools Tab"
+        },
+        "answer": "b"
+      },
+      {
+        "number": 13,
+        "question": "Which of the following database models allows relationships between data to be represented using tables?",
+        "options": {
+          "a": "Hierarchical Model",
+          "b": "Rehabilitations Model",
+          "c": "Relational Model",
+          "d": "Object-Oriented Model"
+        },
+        "answer": "c"
+      }
+    ]
+  },
+  "part_two_structural_questions": {
+    "total_marks": 74,
+    "sections": [
+      {
+        "section_id": "QUESTION_ONE",
+        "topic": "APPLICATION SOFTWARE",
+        "total_marks": 8,
+        "sub_questions": [
+          {
+            "id": "1",
+            "type": "identification",
+            "prompt": "This is (Font) Tab Group. Write the Function of Labeled Parts I, II, III, IV.",
+            "marks": 4,
+            "parts": ["I", "II", "III", "IV"]
+          },
+          {
+            "id": "2",
+            "type": "definition",
+            "prompt": "Define Spreadsheet and what the SUM (Σ) Function is used for?",
+            "marks": 2
+          },
+          {
+            "id": "3",
+            "type": "explanation",
+            "prompt": "What is the primary purpose of using slide transitions in PowerPoint?",
+            "marks": 2
+          }
+        ]
+      },
+      {
+        "section_id": "QUESTION_TWO",
+        "topic": "CAREER PROSPECTS IN ICT INDUSTRIES",
+        "total_marks": 10,
+        "sub_questions": [
+          {
+            "id": "A",
+            "type": "list_and_explain",
+            "prompt": "List and explain three main components of application letter?",
+            "marks": 3
+          },
+          {
+            "id": "B",
+            "type": "differentiation",
+            "prompt": "Differentiate Between Application letter and Business Letter?",
+            "marks": 2
+          },
+          {
+            "id": "C",
+            "type": "definition",
+            "prompt": "Define A CV, and why it is important?",
+            "marks": 2
+          },
+          {
+            "id": "D",
+            "type": "list",
+            "prompt": "There are three main various ways to Apply for a job; list them?",
+            "marks": 3
+          }
+        ]
+      },
+      {
+        "section_id": "QUESTION_THREE",
+        "topic": "INTRODUCTION TO DATABASE",
+        "total_marks": 17,
+        "sub_questions": [
+          {
+            "id": "1",
+            "type": "matching",
+            "prompt": "Match the terms with their definitions in the table below, and use the Letters to give the answer.",
+            "marks": 9,
+            "matching_table": [
+              {
+                "no": 1,
+                "term": "Field",
+                "given_answer": "F",
+                "definition_letter": "A",
+                "definition": "is a group of related records? A table has a unique name."
+              },
+              {
+                "no": 2,
+                "term": "Record",
+                "definition_letter": "B",
+                "definition": "is a database that is organized using tables connected using relationships."
+              },
+              {
+                "no": 3,
+                "term": "Software",
+                "definition_letter": "C",
+                "definition": "is a unique identifier for each record (row) in a database table."
+              },
+              {
+                "no": 4,
+                "term": "Relational Database",
+                "definition_letter": "D",
+                "definition": "is a field in a relational database table that provides a linkage between data in two tables."
+              },
+              {
+                "no": 5,
+                "term": "Table",
+                "definition_letter": "E",
+                "definition": "is a collection of related fields."
+              },
+              {
+                "no": 6,
+                "term": "Primary key",
+                "definition_letter": "F",
+                "definition": "is a single piece of information, such as a name, birth date, or phone number stored in a table."
+              },
+              {
+                "no": 7,
+                "term": "Data",
+                "definition_letter": "G",
+                "definition": "More than one record relates to more than one another table record in."
+              },
+              {
+                "no": 8,
+                "term": "Database management system",
+                "definition_letter": "H",
+                "definition": "is a collection of programs, data, and instructions that tell a computer how to perform specific tasks."
+              },
+              {
+                "no": 9,
+                "term": "Foreign key",
+                "definition_letter": "I",
+                "definition": "is simply a software tool that lets users create databases and alter, manage, report, and link data."
+              },
+              {
+                "no": 10,
+                "term": "Many to Many",
+                "definition_letter": "J",
+                "definition": "are facts or pieces of information about an object."
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "type": "explanation",
+            "prompt": "Explain each of the following access objects with its importance:",
+            "marks": 8,
+            "parts": [
+              { "name": "Table", "marks": 2 },
+              { "name": "Query", "marks": 2 },
+              { "name": "Form", "marks": 2 },
+              { "name": "Report", "marks": 2 }
+            ]
+          }
+        ]
+      },
+      {
+        "section_id": "QUESTION_FOUR",
+        "topic": "CLOUD COLLABORATION",
+        "total_marks": 9,
+        "sub_questions": [
+          {
+            "id": "1",
+            "type": "matching",
+            "prompt": "Match the application Name and its Icon, use only the letters to answer.",
+            "marks": 5,
+            "items": [
+              { "no": 1, "name": "Skype", "given_answer": "F" },
+              { "no": 2, "name": "Google Drive" },
+              { "no": 3, "name": "Zoom" },
+              { "no": 4, "name": "One Drive" },
+              { "no": 5, "name": "Dropbox" },
+              { "no": 6, "name": "Gmail" }
+            ]
+          },
+          {
+            "id": "2",
+            "type": "sequencing",
+            "prompt": "Write the steps to open a new Microsoft OneNote application.",
+            "marks": 4,
+            "steps": ["Step one", "Step Two", "Step Three", "Step Four"]
+          }
+        ]
+      },
+      {
+        "section_id": "QUESTION_FIVE",
+        "topic": "INTRODUCTION TO COMPUTER PROGRAMMING",
+        "total_marks": 10,
+        "sub_questions": [
+          {
+            "id": "1",
+            "type": "flowchart_analysis",
+            "marks": 2,
+            "parts": [
+              {
+                "label": "A",
+                "prompt": "Write the name of this symbol?",
+                "marks": 1
+              },
+              {
+                "label": "B",
+                "prompt": "After naming what is used by this symbol in programming?",
+                "marks": 1
+              }
+            ]
+          },
+          {
+            "id": "2",
+            "type": "list",
+            "prompt": "There are three main types of data modeling, try to list them.",
+            "marks": 3,
+            "items_count": 3
+          },
+          {
+            "id": "3",
+            "type": "list",
+            "prompt": "Give at least three advantages of High-Level Languages?",
+            "marks": 3,
+            "items_count": 3
+          },
+          {
+            "id": "4",
+            "type": "differentiation",
+            "prompt": "Differentiate between Programmer and programming language?",
+            "marks": 2
+          }
+        ]
+      },
+      {
+        "section_id": "QUESTION_SIX",
+        "topic": "INTRODUCTION TO MULTIMEDIA",
+        "total_marks": 10,
+        "sub_questions": [
+          {
+            "id": "1",
+            "type": "acronym_expansion",
+            "prompt": "Write the names of the image file formats in full form.",
+            "marks": 3,
+            "items": ["GIF", "JPG", "SVG"]
+          },
+          {
+            "id": "2",
+            "type": "definition",
+            "prompt": "Define the Pixel?",
+            "marks": 1
+          },
+          {
+            "id": "3",
+            "type": "calculation",
+            "prompt": "A snapshot with 3,500 pixels on the horizontal side and 4,000 pixels on the vertical side, calculate:",
+            "marks": 3,
+            "parts": [
+              {
+                "label": "A",
+                "prompt": "The total resolution of the pixels?",
+                "marks": 2
+              },
+              {
+                "label": "B",
+                "prompt": "Convert Value of pixels into megapixel?",
+                "marks": 1
+              }
+            ]
+          },
+          {
+            "id": "4",
+            "type": "sequencing",
+            "prompt": "What are the three basic steps to open the Photo Application in Microsoft?",
+            "marks": 3,
+            "steps": ["Step one", "Step Two", "Step Three"]
+          }
+        ]
+      },
+      {
+        "section_id": "QUESTION_SEVEN",
+        "topic": "WEB DESIGN AND DEVELOPMENT",
+        "total_marks": 5,
+        "sub_questions": [
+          {
+            "id": "1",
+            "type": "identification",
+            "prompt": "The image shows the basic structure of HTML element, write the names of these elements: I (<Tag>), II (Soo dhawaada), III (</Tag>).",
+            "marks": 3,
+            "parts": ["I", "II", "III"]
+          },
+          {
+            "id": "2",
+            "type": "code_output",
+            "prompt": "Understanding the HTML code, what is the Output in the Browser?",
+            "marks": 2,
+            "parts": [
+              {
+                "label": "A",
+                "prompt": "The output of heading element: <h1>The Government of Puntland</h1>",
+                "marks": 1
+              },
+              {
+                "label": "B",
+                "prompt": "The output of Paragraph Element: <p>Kani Waa Bog HTML Ah.</p>",
+                "marks": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "section_id": "QUESTION_EIGHT",
+        "topic": "DESKTOP PUBLISHING",
+        "total_marks": 5,
+        "sub_questions": [
+          {
+            "id": "1",
+            "type": "differentiation",
+            "prompt": "What is the Difference between desktop publishing and Graphic design?",
+            "marks": 2
+          },
+          {
+            "id": "2",
+            "type": "list",
+            "prompt": "Give three examples of Desktop publishing software?",
+            "marks": 3
+          }
+        ]
+      }
+    ]
+  }
+}
 
