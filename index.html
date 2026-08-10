@@ -113,7 +113,84 @@
 
     <!-- APPLICATION LOGIC -->
     <script>
-        let availableExams = [];
+        // =========================================================
+        // 📋 YOUR EXAM LIST (Exact matches to your GitHub repository)
+        // =========================================================
+        const availableExams = [
+            {
+                file: "./exams/puntland_8_arab_2018.json",
+                title: "اللغة العربية (Grade 8)",
+                subject: "Arabic",
+                region: "Puntland",
+                grade: 8,
+                year: 2018
+            },
+            {
+                file: "./exams/puntland_8_science_2015.json",
+                title: "Saynis (Grade 8)",
+                subject: "Science",
+                region: "Puntland",
+                grade: 8,
+                year: 2015
+            },
+            {
+                file: "./exams/puntland_f4_arabic_2025.json",
+                title: "اللغة العربية (Form 4)",
+                subject: "Arabic",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_chemistry_2025.json",
+                title: "Chemistry (Form 4)",
+                subject: "Chemistry",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_Geography_2025.json",
+                title: "Geography (Form 4)",
+                subject: "Geography",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_history_2025.json",
+                title: "Taariikh / History (Form 4)",
+                subject: "History",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_ICT_2025.json",
+                title: "ICT (Form 4)",
+                subject: "ICT",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_physics_2025.json",
+                title: "Physics (Form 4)",
+                subject: "Physics",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/somalia_bio_2020.json",
+                title: "Biology (National)",
+                subject: "Biology",
+                region: "Somalia",
+                grade: 12,
+                year: 2020
+            }
+        ];
+
         let tg = null;
 
         if (window.Telegram && window.Telegram.WebApp) {
@@ -138,9 +215,11 @@
         const btnHomeNav = document.getElementById('btn-home-nav');
         const canvas = document.getElementById('question-canvas');
 
-        window.addEventListener('DOMContentLoaded', async () => {
-            await loadExamsManifest();
+        window.addEventListener('DOMContentLoaded', () => {
+            // Render home screen instantly from internal array
+            renderExamList();
 
+            // Check if user opened app via dynamic direct link
             const urlParams = new URLSearchParams(window.location.search);
             const file = urlParams.get('file');
             const region = urlParams.get('region');
@@ -155,22 +234,6 @@
             }
         });
 
-        // Dynamic Manifest Fetcher
-        async function loadExamsManifest() {
-            try {
-                const response = await fetch('./exams/manifest.json');
-                if (!response.ok) throw new Error('Could not load manifest.json');
-                availableExams = await response.json();
-                renderExamList();
-            } catch (err) {
-                console.warn('Manifest load failed, fallback grid rendering:', err);
-                document.getElementById('exam-cards-grid').innerHTML = `
-                    <div class="col-span-full text-center p-8 bg-white rounded-xl border border-slate-200">
-                        <p class="text-slate-500 font-medium">Lama helin liiska imtixaanaadka (manifest.json). Fadlan hubi faylka.</p>
-                    </div>`;
-            }
-        }
-
         // Helper to generate dynamic badges for subjects
         function getBadgeInfo(subjectName = '') {
             const sub = subjectName.toUpperCase();
@@ -181,6 +244,9 @@
             if (sub.includes('PHYS')) return { badge: 'PHY', bg: 'bg-indigo-100 text-indigo-600' };
             if (sub.includes('CHEM')) return { badge: 'CHM', bg: 'bg-rose-100 text-rose-600' };
             if (sub.includes('ENG')) return { badge: 'ENG', bg: 'bg-sky-100 text-sky-600' };
+            if (sub.includes('GEO')) return { badge: 'GEO', bg: 'bg-teal-100 text-teal-600' };
+            if (sub.includes('ICT')) return { badge: 'ICT', bg: 'bg-cyan-100 text-cyan-600' };
+            if (sub.includes('HIST') || sub.includes('TAAR')) return { badge: 'HIS', bg: 'bg-orange-100 text-orange-600' };
             return { badge: 'EXM', bg: 'bg-slate-100 text-slate-700' };
         }
 
@@ -193,7 +259,7 @@
                 const badgeInfo = getBadgeInfo(exam.subject || exam.title || '');
                 const badge = exam.badge || badgeInfo.badge;
                 const badgeBg = exam.badgeBg || badgeInfo.bg;
-                const fileUrl = exam.file || `./exams/${exam.filename}`;
+                const fileUrl = exam.file;
 
                 const card = document.createElement('div');
                 card.className = 'bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between';
@@ -219,13 +285,13 @@
 
             try {
                 const response = await fetch(filePath);
-                if (!response.ok) throw new Error(`Could not load exam file: ${filePath}`);
+                if (!response.ok) throw new Error(`Faylka imtixaanka ma furmin ama ma jiro: ${filePath}`);
                 
                 rawExamData = await response.json();
                 normalizedExamData = normalizeExamData(rawExamData);
                 startExam();
             } catch (err) {
-                alert(`Khalad ayaa dhacay: ${err.message}`);
+                alert(`Imtixaankan weli si buuxda looma soo dhigin (JSON file missing or incomplete).\n\nDetails: ${err.message}`);
                 showLoading(false);
             }
         }
@@ -328,16 +394,13 @@
             return String(choice);
         }
 
-        // Standardized Diagram Helper (Fixes String SVG & Object SVG)
         function renderDiagramHtml(diagram) {
             if (!diagram) return '';
             
-            // 1. If diagram is direct SVG string
             if (typeof diagram === 'string' && diagram.trim().length > 0) {
                 return `<div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center space-y-2 my-3"><div class="w-full overflow-x-auto flex justify-center py-2">${diagram}</div></div>`;
             }
             
-            // 2. If diagram is an Object with SVG/URL
             if (typeof diagram === 'object') {
                 if (diagram.svg) {
                     return `<div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center space-y-2 my-3"><div class="w-full overflow-x-auto flex justify-center py-2">${diagram.svg}</div>${diagram.caption ? `<p class="text-xs text-slate-500 italic font-medium mt-1">${diagram.caption}</p>` : ''}</div>`;
@@ -358,7 +421,6 @@
             const card = document.createElement('div');
             card.className = 'space-y-6 max-w-3xl mx-auto';
 
-            // 1. PASSAGE / READING TEXT
             const passageText = q.passage || currentSection.passage || currentSection.reading_text || null;
             if (passageText) {
                 const passageBox = document.createElement('div');
@@ -367,7 +429,6 @@
                 card.appendChild(passageBox);
             }
 
-            // 2. DIAGRAM / INLINE SVG SUPPORT
             if (q.diagram) {
                 const diagContainer = document.createElement('div');
                 diagContainer.innerHTML = renderDiagramHtml(q.diagram);
@@ -376,20 +437,17 @@
                 }
             }
 
-            // 3. QUESTION PROMPT / HEADER
             const questionText = q.prompt || q.question || q.text || q.statement || q.title || '';
             const qHeader = document.createElement('div');
             qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
             qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${questionText}`;
             card.appendChild(qHeader);
 
-            // 4. EXTRACT ALL POSSIBLE DATA
             const choices = q.options || q.choices || q.answers || [];
             const matchingPairs = q.matching_pairs || null;
             const items = q.items || q.sentences || q.sub_questions || q.subQuestions || q.pairs || q.words || q.vocabulary || q.questions || q.list || [];
             let sectionType = q.type || currentSection.type;
 
-            // 5. RENDER INPUTS BASED ON DATA
             if (matchingPairs && Array.isArray(matchingPairs)) {
                 userAnswers[q.id] = userAnswers[q.id] || {};
                 const matchDiv = document.createElement('div');
