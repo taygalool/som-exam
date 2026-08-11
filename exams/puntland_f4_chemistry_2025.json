@@ -1,599 +1,541 @@
 {
-  "exam_metadata": {
-    "title": "Form Four Chemistry Examination",
-    "year": 2025,
-    "grade": 12,
-    "subject": "Chemistry",
-    "country_region": "Puntland State of Somalia",
-    "exam_board": "Puntland National Examination Board (P/LAND NATIONAL EXAMINATION BOARD)",
-    "publisher": "Ministry of Education and Higher Education",
-    "time_allowed": "2 Hours plus 10 minutes reading time",
-    "total_marks": 100,
-    "total_pages": 11,
-    "sections": [
-      {
-        "name": "Part One: Multiple Choice Questions",
-        "marks": 15
+  "title": "Imtixaanka Fasalka 12aad 2025 - Chemistry",
+  "exam_id": "puntland_12_chemistry_2025",
+  "year": 2025,
+  "subject": "Chemistry",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "1. The diagram below represents an atom of an element. What is the particle labelled W?",
+      "diagram": {
+        "svg": "<svg width=\"200\" height=\"200\" viewBox=\"0 0 200 200\" xmlns=\"http://www.w3.org/2000/svg\"><style>circle{stroke:black;stroke-width:1;fill:none;} .electron{fill:black;r:2;} .nucleus{fill:gold;r:10;} .label{font-family:sans-serif;font-size:12px;}</style><circle cx=\"100\" cy=\"100\" r=\"50\"/><circle cx=\"100\" cy=\"100\" r=\"70\"/><circle cx=\"100\" cy=\"100\" r=\"90\"/><circle class=\"nucleus\" cx=\"100\" cy=\"100\"/><text x=\"100\" y=\"105\" text-anchor=\"middle\" class=\"label\">W</text><circle class=\"electron\" cx=\"100\" cy=\"50\"/><circle class=\"electron\" cx=\"100\" cy=\"150\"/><circle class=\"electron\" cx=\"50\" cy=\"100\"/><circle class=\"electron\" cx=\"150\" cy=\"100\"/><circle class=\"electron\" cx=\"100\" cy=\"30\"/><circle class=\"electron\" cx=\"100\" cy=\"170\"/><circle class=\"electron\" cx=\"30\" cy=\"100\"/><circle class=\"electron\" cx=\"170\" cy=\"100\"/><line x1=\"100\" y1=\"100\" x2=\"150\" y2=\"20\" stroke=\"black\" stroke-width=\"1\"/><text x=\"155\" y=\"15\" class=\"label\">W</text></svg>",
+        "caption": "Diagram representing an atom with particle W labeled in the nucleus."
       },
-      {
-        "name": "Part Two: Structural Questions",
-        "marks": 85
-      }
-    ]
-  },
-  "part_one_multiple_choice": {
-    "instructions": "Circle the correct answer from A, B, C, D. For each question there is only one correct answer.",
-    "total_marks": 15,
-    "questions": [
-      {
-        "question_number": 1,
-        "marks": 1,
-        "question_text": "The diagram below represents an atom of an element. What is the particle labelled W?",
-        "has_diagram": true,
-        "diagram_description": "Bohr model of an atom with 4 electron shells surrounding a central nucleus. An arrow labeled 'W' points to an 'x' on the outer shell representing an electron.",
-        "options": {
-          "A": "Electron",
-          "B": "Neutron",
-          "C": "Nucleus",
-          "D": "Proton"
+      "options": [
+        "A. Electron",
+        "B. Neutron",
+        "C. Nucleus",
+        "D. Proton"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "2. Which of these sub-shells contain 5 orbitals?",
+      "diagram": null,
+      "options": [
+        "A. s subshell",
+        "B. p subshell",
+        "C. d subshell",
+        "D. f subshell"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "3. Which statement is correct about the position of phosphorus P, in the periodic table?",
+      "diagram": null,
+      "options": [
+        "A. Group 2 and period 5",
+        "B. Group 3 and period 5",
+        "C. Group 5 and period 2",
+        "D. Group 5 and period 3"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "4. First ionization energy generally decrease",
+      "diagram": null,
+      "options": [
+        "A. Up the group",
+        "B. Down the group",
+        "C. Within the group",
+        "D. Vertically"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "5. Which statement describes what happens during electrolysis?",
+      "diagram": null,
+      "options": [
+        "A. Atoms are decomposed",
+        "B. Ionic compounds are decomposed",
+        "C. Mixtures are separated",
+        "D. Molecules are separated"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "6. Brass is an alloy, it is made up of copper and",
+      "diagram": null,
+      "options": [
+        "A. Nickel",
+        "B. Chromium",
+        "C. Zinc",
+        "D. Tin"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "7. Lumps of calcium carbonate react with dilute hydrochloric acid. Which change in conditions decreases the rate of a reaction.",
+      "diagram": null,
+      "options": [
+        "A. Increasing the concentration of the acid",
+        "B. Increasing the volume of the acid",
+        "C. Increasing the size of the lumps of calcium carbonate",
+        "D. Increasing the temperature"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "8. Which of the following molecules have trigonal planar?",
+      "diagram": {
+        "svg": "<svg width=\"400\" height=\"100\" viewBox=\"0 0 400 100\" xmlns=\"http://www.w3.org/2000/svg\"><style>text{font-family:sans-serif;font-size:12px;} .atom{fill:black;r:3;} .bond{stroke:black;stroke-width:1;}</style><g transform=\"translate(50,50)\"><text x=\"0\" y=\"-40\" text-anchor=\"middle\">A</text><circle class=\"atom\" cx=\"0\" cy=\"0\"/><circle class=\"atom\" cx=\"-15\" cy=\"-15\"/><circle class=\"atom\" cx=\"15\" cy=\"-15\"/><circle class=\"atom\" cx=\"0\" cy=\"15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"-15\" y2=\"-15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"15\" y2=\"-15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"15\"/></g><g transform=\"translate(150,50)\"><text x=\"0\" y=\"-40\" text-anchor=\"middle\">B</text><circle class=\"atom\" cx=\"0\" cy=\"0\"/><circle class=\"atom\" cx=\"-15\" cy=\"-15\"/><circle class=\"atom\" cx=\"15\" cy=\"-15\"/><circle class=\"atom\" cx=\"0\" cy=\"15\"/><circle class=\"atom\" cx=\"0\" cy=\"-15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"-15\" y2=\"-15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"15\" y2=\"-15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"-15\"/></g><g transform=\"translate(250,50)\"><text x=\"0\" y=\"-40\" text-anchor=\"middle\">C</text><circle class=\"atom\" cx=\"0\" cy=\"0\"/><circle class=\"atom\" cx=\"-15\" cy=\"-15\"/><circle class=\"atom\" cx=\"15\" cy=\"-15\"/><circle class=\"atom\" cx=\"0\" cy=\"15\"/><text x=\"-20\" y=\"-20\" font-size=\"10\">109.5°</text><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"-15\" y2=\"-15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"15\" y2=\"-15\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"15\"/></g><g transform=\"translate(350,50)\"><text x=\"0\" y=\"-40\" text-anchor=\"middle\">D</text><circle class=\"atom\" cx=\"0\" cy=\"0\"/><circle class=\"atom\" cx=\"-20\" cy=\"0\"/><circle class=\"atom\" cx=\"10\" cy=\"-17.32\"/><circle class=\"atom\" cx=\"10\" cy=\"17.32\"/><text x=\"-20\" y=\"-20\" font-size=\"10\">120°</text><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"-20\" y2=\"0\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"10\" y2=\"-17.32\"/><line class=\"bond\" x1=\"0\" y1=\"0\" x2=\"10\" y2=\"17.32\"/></g></svg>",
+        "caption": "Four molecular structures with indicated bond angles."
+      },
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "9. The molecular mass of lead (II) nitrate Pb(NO3)2 is:",
+      "diagram": null,
+      "options": [
+        "A. 331",
+        "B. 330",
+        "C. 334",
+        "D. 335"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "10. Enthalpy of neutralization occurs when one mole of aqueous hydrogen ions reacts with one mole of aqueous hydroxide ions to form:",
+      "diagram": null,
+      "options": [
+        "A. One mole of water",
+        "B. Two mole of water",
+        "C. Sodium hydroxide",
+        "D. Hydrochloric acid"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "11. Which of the following molecules is liquid at room temperature (20°)?",
+      "diagram": null,
+      "options": [
+        "A. Methane",
+        "B. Ethane",
+        "C. Pentane",
+        "D. Butane"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "12. Four different fuels are used to heat in a beaker of water, for the same amount of time. The initial temperature of the water and the temperature after heating by the fuel are recorded. Which fuel releases the most heat energy? Initial temperature/ C° Temperature after heating/C° A 17 46 B 24 52 C 26 61 D 30 62",
+      "diagram": null,
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "13. A reaction pathway diagram is shown. Which statement about this reaction is correct?",
+      "diagram": {
+        "svg": "<svg width=\"400\" height=\"200\" viewBox=\"0 0 400 200\" xmlns=\"http://www.w3.org/2000/svg\"><style>line{stroke:black;stroke-width:1;} path{fill:none;stroke:blue;stroke-width:2;} text{font-family:sans-serif;font-size:12px;}</style><line x1=\"50\" y1=\"150\" x2=\"350\" y2=\"150\"/><line x1=\"50\" y1=\"150\" x2=\"50\" y2=\"50\"/><text x=\"20\" y=\"100\" transform=\"rotate(-90 20 100)\" text-anchor=\"middle\">Potential energy (kJ)</text><text x=\"200\" y=\"170\" text-anchor=\"middle\">Reaction pathway</text><path d=\"M 70 100 C 100 70, 150 70, 180 100 S 220 130, 250 130, 280 120\"/><path d=\"M 70 100 C 100 70, 150 70, 180 100 S 220 130, 250 130, 280 120\" stroke=\"green\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\">Reactants</text><text x=\"300\" y=\"130\" text-anchor=\"middle\">Products</text><line x1=\"180\" y1=\"100\" x2=\"180\" y2=\"70\" stroke=\"red\" stroke-width=\"1\" marker-end=\"url(#arrowhead)\"/><text x=\"190\" y=\"85\" text-anchor=\"start\">E<tspan baseline-shift=\"sub\" font-size=\"8\">A</tspan></text><line x1=\"200\" y1=\"100\" x2=\"200\" y2=\"130\" stroke=\"red\" stroke-width=\"1\" marker-end=\"url(#arrowhead)\"/><text x=\"210\" y=\"115\" text-anchor=\"start\">ΔH</text><defs><marker id=\"arrowhead\" markerWidth=\"10\" markerHeight=\"7\" refX=\"0\" refY=\"3.5\" orient=\"auto\"><polygon points=\"0 0, 10 3.5, 0 7\" fill=\"red\"/></marker></defs></svg>",
+        "caption": "Reaction pathway diagram showing reactants, products, activation energy (EA), and enthalpy change (ΔH)."
+      },
+      "options": [
+        "A. The reaction is exothermic",
+        "B. The reaction is endothermic",
+        "C. The reaction transfers thermal energy to the surroundings",
+        "D. The temperature of the surroundings increase."
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "14. This is a structure of a monomer. What is the name of this monomer?",
+      "diagram": {
+        "svg": "<svg width=\"150\" height=\"100\" viewBox=\"0 0 150 100\" xmlns=\"http://www.w3.org/2000/svg\"><style>line{stroke:black;stroke-width:2;} text{font-family:sans-serif;font-size:14px;}</style><line x1=\"50\" y1=\"50\" x2=\"70\" y2=\"50\"/><line x1=\"50\" y1=\"52\" x2=\"70\" y2=\"52\"/><text x=\"40\" y=\"50\" text-anchor=\"middle\">H</text><text x=\"80\" y=\"50\" text-anchor=\"middle\">Cl</text><text x=\"60\" y=\"40\" text-anchor=\"middle\">C</text><text x=\"60\" y=\"60\" text-anchor=\"middle\">C</text><text x=\"60\" y=\"75\" text-anchor=\"middle\">H</text><text x=\"60\" y=\"25\" text-anchor=\"middle\">H</text></svg>",
+        "caption": "Displayed formula of a monomer: H-C=C-Cl with H on the other carbon."
+      },
+      "options": [
+        "A. Chloroethane",
+        "B. Chloroethene",
+        "C. Dichloroethene",
+        "D. Dichloroethane"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "15. The molecular formula of ethanal is:",
+      "diagram": null,
+      "options": [
+        "A. C2H2O",
+        "B. C3H4O",
+        "C. C2H4O",
+        "D. C3H6O"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: STRUCTURAL QUESTIONS",
+      "question": "Question one: Metals, nonmetals and electrochemistry (18marks) A. Arrange these metals in order of decreasing. (Zn, Mg, Cu, Na, Fe) (5M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "The order of decreasing reactivity is: Na > Mg > Fe > Zn > Cu.",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART TWO: STRUCTURAL QUESTIONS",
+      "question": "B. The figure below shows the apparatus used during electrolysis of ionic solution. (4M) i) Use the words from the box to complete the labelling of the diagram in the figure. One example is done for you. Words: Anode, cation, anion, cathode, Electrolyte solution",
+      "diagram": {
+        "svg": "<svg width=\"300\" height=\"250\" viewBox=\"0 0 300 250\" xmlns=\"http://www.w3.org/2000/svg\"><style>line{stroke:black;stroke-width:1;} rect{fill:none;stroke:black;stroke-width:1;} circle{fill:blue;stroke:blue;r:3;} .ion-pos{fill:red;} .ion-neg{fill:blue;} .electrode{fill:lightgray;stroke:black;stroke-width:1;} text{font-family:sans-serif;font-size:12px;}</style><rect x=\"50\" y=\"100\" width=\"200\" height=\"100\" rx=\"10\" ry=\"10\"/><line x1=\"100\" y1=\"100\" x2=\"100\" y2=\"50\"/><line x1=\"200\" y1=\"100\" x2=\"200\" y2=\"50\"/><rect x=\"130\" y=\"20\" width=\"40\" height=\"20\" fill=\"yellow\" stroke=\"black\"/><text x=\"150\" y=\"32\" text-anchor=\"middle\" font-size=\"10\">BATTERY</text><line x1=\"100\" y1=\"50\" x2=\"130\" y2=\"30\"/><line x1=\"200\" y1=\"50\" x2=\"170\" y2=\"30\"/><line x1=\"130\" y1=\"30\" x2=\"130\" y2=\"20\" stroke-width=\"2\"/><line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"20\" stroke-width=\"2\"/><line x1=\"130\" y1=\"30\" x2=\"170\" y2=\"30\"/><line x1=\"130\" y1=\"30\" x2=\"130\" y2=\"20\" stroke-width=\"2\"/><line x1=\"170\" y1=\"30\" x2=\"170\" y2=\"20\" stroke-width=\"2\"/><line x1=\"130\" y1=\"30\" x2=\"170\" y2=\"30\"/><text x=\"100\" y=\"90\" text-anchor=\"middle\" font-size=\"20\">-</text><text x=\"200\" y=\"90\" text-anchor=\"middle\" font-size=\"20\">+</text><text x=\"100\" y=\"220\" text-anchor=\"middle\">Electrolyte solution</text><circle class=\"ion-neg\" cx=\"120\" cy=\"130\"/><circle class=\"ion-pos\" cx=\"130\" cy=\"140\"/><circle class=\"ion-neg\" cx=\"140\" cy=\"120\"/><circle class=\"ion-pos\" cx=\"150\" cy=\"150\"/><circle class=\"ion-neg\" cx=\"160\" cy=\"130\"/><circle class=\"ion-pos\" cx=\"170\" cy=\"140\"/><circle class=\"ion-neg\" cx=\"180\" cy=\"120\"/><circle class=\"ion-pos\" cx=\"190\" cy=\"150\"/><circle class=\"ion-neg\" cx=\"110\" cy=\"160\"/><circle class=\"ion-pos\" cx=\"120\" cy=\"170\"/><circle class=\"ion-neg\" cx=\"130\" cy=\"180\"/><circle class=\"ion-pos\" cx=\"140\" cy=\"160\"/><circle class=\"ion-neg\" cx=\"150\" cy=\"170\"/><circle class=\"ion-pos\" cx=\"160\" cy=\"180\"/><circle class=\"ion-neg\" cx=\"170\" cy=\"160\"/><circle class=\"ion-pos\" cx=\"180\" cy=\"170\"/><circle class=\"ion-neg\" cx=\"190\" cy=\"180\"/><circle class=\"ion-pos\" cx=\"200\" cy=\"160\"/><circle class=\"ion-neg\" cx=\"210\" cy=\"170\"/><circle class=\"ion-pos\" cx=\"220\" cy=\"180\"/><circle class=\"ion-neg\" cx=\"230\" cy=\"160\"/><circle class=\"ion-pos\" cx=\"240\" cy=\"170\"/><circle class=\"ion-neg\" cx=\"250\" cy=\"180\"/><circle class=\"ion-pos\" cx=\"260\" cy=\"160\"/><circle class=\"ion-neg\" cx=\"270\" cy=\"170\"/><circle class=\"ion-pos\" cx=\"280\" cy=\"180\"/><text x=\"100\" y=\"70\" text-anchor=\"middle\">Cathode</text><text x=\"200\" y=\"70\" text-anchor=\"middle\">Anode</text><text x=\"150\" y=\"115\" text-anchor=\"middle\">Anion</text><text x=\"150\" y=\"185\" text-anchor=\"middle\">Cation</text></svg>",
+        "caption": "Electrolysis apparatus with electrodes, battery, and electrolyte solution."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "The negative electrode is the Cathode. The positive electrode is the Anode. Positive ions are Cations. Negative ions are Anions.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART TWO: STRUCTURAL QUESTIONS",
+      "question": "B.ii) Powdered Copper(II)chloride is electrolyzed using the apparatus above. Nothing happen and no products are formed. Explain why nothing happens and no product are formed. (2M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "For electrolysis to occur, the ions must be mobile. In powdered (solid) copper(II)chloride, the ions are held in a fixed lattice structure and cannot move to the electrodes to conduct electricity or react. It needs to be molten or in solution for the ions to be free to move.",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART TWO: STRUCTURAL QUESTIONS",
+      "question": "C. The table below gives information about some gases. Complete the table by choosing a gas from the box that matches the information. (4M) Box: Carbon dioxide, Methane, Carbon monoxide, Nitrogen, Helium, Oxygen Information: The most abundant gas in air, A toxic gas that is a product incomplete combustion of hydrocarbons, An unreactive gas that exist as atoms, A gas produced by the fractional distillation of crude oil.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "The most abundant gas in air: Nitrogen. A toxic gas that is a product incomplete combustion of hydrocarbons: Carbon monoxide. An unreactive gas that exist as atoms: Helium. A gas produced by the fractional distillation of crude oil: Methane.",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART TWO: STRUCTURAL QUESTIONS",
+      "question": "C.ii) Write any three (3) physical properties of nonmetals. (3M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "1. They are generally dull in appearance. 2. They are brittle (break easily when hammered). 3. They are poor conductors of heat and electricity (insulators). 4. They have low melting and boiling points (many are gases or liquids at room temperature).",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "Question two: Acids and rate of reaction",
+      "question": "A. Complete the equations below: (4M) i) HCl(aq) + NaOH(aq) -> + ii) Zn(s) + H2SO4(aq) -> +",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "i) HCl(aq) + NaOH(aq) -> NaCl(aq) + H2O(l) ii) Zn(s) + H2SO4(aq) -> ZnSO4(aq) + H2(g)",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "Question two: Acids and rate of reaction",
+      "question": "B. Write five (5) factors that affect the rate of a chemical reaction. (5M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "1. Temperature 2. Concentration of reactants 3. Surface area of reactants 4. Presence of a catalyst 5. Pressure (for reactions involving gases)",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "Question three: Atomic structure",
+      "question": "A. Complete the first three ionization energies of aluminium (3M) Al(g) -> + e- (1st IE = 577 KJ/mol) Al+(g) -> + e- (2nd IE = 1820 KJ/mol) Al2+(g) -> + e- (3rd IE = 2740 KJ/mol)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Al(g) -> Al+(g) + e- (1st IE = 577 KJ/mol) Al+(g) -> Al2+(g) + e- (2nd IE = 1820 KJ/mol) Al2+(g) -> Al3+(g) + e- (3rd IE = 2740 KJ/mol)",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "Question three: Atomic structure",
+      "question": "B. Complete the table below. The first one is done for you. (10 M) Element, Atomic number, Electronic configuration Helium, 2, 1s² Lithium, 3 Beryllium, 4 Boron, 5 Carbon, 6 Oxygen, 8 Sodium, 11 Magnesium, 12 Chlorine, 17 Potassium, 19 Calcium, 20",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Helium: 2, 1s²\nLithium: 3, 1s²2s¹\nBeryllium: 4, 1s²2s²\nBoron: 5, 1s²2s²2p¹\nCarbon: 6, 1s²2s²2p²\nOxygen: 8, 1s²2s²2p⁴\nSodium: 11, 1s²2s²2p⁶3s¹\nMagnesium: 12, 1s²2s²2p⁶3s²\nChlorine: 17, 1s²2s²2p⁶3s²3p⁵\nPotassium: 19, 1s²2s²2p⁶3s²3p⁶4s¹\nCalcium: 20, 1s²2s²2p⁶3s²3p⁶4s²",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "Question four: Bonding and structure",
+      "question": "A. Classify the following species into single bond, double bond and triple bond. (6M) Species: Ethane (C2H4), Water (H2O), Methane CH4, Carbon dioxide (CO2), Ammonia (NH3), Nitrogen (N2)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "i) Single bond: Water (H2O), Methane (CH4), Ammonia (NH3)\nii) Double bond: Ethene (C2H4 - assuming typo for Ethane), Carbon dioxide (CO2)\niii) Triple bond: Nitrogen (N2)",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "Question four: Bonding and structure",
+      "question": "B. Write the chemical formula for the following compounds. (3 M) i) Magnesium hydroxide ii) Calcium nitrate iii) Sodium carbonate",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "i) Magnesium hydroxide: Mg(OH)2\nii) Calcium nitrate: Ca(NO3)2\niii) Sodium carbonate: Na2CO3",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "Question four: Bonding and structure",
+      "question": "C. Write the type of chemical bonding of the following. (3M)",
+      "diagram": {
+        "svg": "<svg width=\"400\" height=\"150\" viewBox=\"0 0 400 150\" xmlns=\"http://www.w3.org/2000/svg\"><style>circle{stroke:black;stroke-width:1;} .atom-H{fill:lightblue;r:10;} .atom-O{fill:red;r:15;} .atom-Na{fill:orange;r:15;} .atom-Cl{fill:green;r:15;} .atom-metal{fill:gray;r:10;} line{stroke:black;stroke-width:1;} text{font-family:sans-serif;font-size:12px;}</style><g transform=\"translate(70,75)\"><circle class=\"atom-O\" cx=\"0\" cy=\"0\"/><circle class=\"atom-H\" cx=\"-20\" cy=\"-15\"/><circle class=\"atom-H\" cx=\"20\" cy=\"-15\"/><line x1=\"0\" y1=\"0\" x2=\"-20\" y2=\"-15\"/><line x1=\"0\" y1=\"0\" x2=\"20\" y2=\"-15\"/><text x=\"0\" y=\"-40\" text-anchor=\"middle\">H</text><text x=\"-20\" y=\"-15\" text-anchor=\"middle\">H</text><text x=\"20\" y=\"-15\" text-anchor=\"middle\">O</text></g><g transform=\"translate(200,75)\"><circle class=\"atom-Na\" cx=\"-30\" cy=\"0\"/><circle class=\"atom-Cl\" cx=\"30\" cy=\"0\"/><text x=\"-30\" y=\"-20\" text-anchor=\"middle\">Na</text><text x=\"30\" y=\"-20\" text-anchor=\"middle\">Cl</text><text x=\"0\" y=\"-40\" text-anchor=\"middle\">one electron transferred</text></g><g transform=\"translate(330,75)\"><circle class=\"atom-metal\" cx=\"-20\" cy=\"-20\"/><circle class=\"atom-metal\" cx=\"0\" cy=\"-20\"/><circle class=\"atom-metal\" cx=\"20\" cy=\"-20\"/><circle class=\"atom-metal\" cx=\"-20\" cy=\"0\"/><circle class=\"atom-metal\" cx=\"0\" cy=\"0\"/><circle class=\"atom-metal\" cx=\"20\" cy=\"0\"/><circle class=\"atom-metal\" cx=\"-20\" cy=\"20\"/><circle class=\"atom-metal\" cx=\"0\" cy=\"20\"/><circle class=\"atom-metal\" cx=\"20\" cy=\"20\"/><circle class=\"atom-metal\" cx=\"-40\" cy=\"-40\"/><circle class=\"atom-metal\" cx=\"-20\" cy=\"-40\"/><circle class=\"atom-metal\" cx=\"0\" cy=\"-40\"/><circle class=\"atom-metal\" cx=\"20\" cy=\"-40\"/><circle class=\"atom-metal\" cx=\"40\" cy=\"-40\"/><circle class=\"atom-metal\" cx=\"-40\" cy=\"-20\"/><circle class=\"atom-metal\" cx=\"40\" cy=\"-20\"/><circle class=\"atom-metal\" cx=\"-40\" cy=\"0\"/><circle class=\"atom-metal\" cx=\"40\" cy=\"0\"/><circle class=\"atom-metal\" cx=\"-40\" cy=\"20\"/><circle class=\"atom-metal\" cx=\"40\" cy=\"20\"/><circle class=\"atom-metal\" cx=\"-40\" cy=\"40\"/><circle class=\"atom-metal\" cx=\"-20\" cy=\"40\"/><circle class=\"atom-metal\" cx=\"0\" cy=\"40\"/><circle class=\"atom-metal\" cx=\"20\" cy=\"40\"/><circle class=\"atom-metal\" cx=\"40\" cy=\"40\"/></g></svg>",
+        "caption": "Diagrams showing covalent bonding (water), ionic bonding (Na-Cl electron transfer), and metallic bonding (lattice of atoms)."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "From left to right: Covalent bonding, Ionic bonding, Metallic bonding.",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "Question five: Mole and stoichiometry:",
+      "question": "A. Define the term Mole. (1M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "The mole is the amount of substance that contains as many elementary entities (atoms, molecules, ions, electrons, etc.) as there are atoms in 12 grams of carbon-12. This number is Avogadro's number (approximately 6.022 x 10^23).",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "Question five: Mole and stoichiometry:",
+      "question": "B. What is the concentration in gr/dm³ of 0.5mol/dm³ ethanoic acid (CH3COOH)? (RAM, C = 12, O = 16, H = 1) (3M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Molar mass of CH3COOH = (2 × 12) + (4 × 1) + (2 × 16) = 24 + 4 + 32 = 60 g/mol. Concentration in g/dm³ = Moles/dm³ × Molar mass = 0.5 mol/dm³ × 60 g/mol = 30 g/dm³.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "Question five: Mole and stoichiometry:",
+      "question": "C. What is the concertation in mol/dm³ of solution containing 4 gr/dm³ of sodium hydroxide (NaOH). (RAM, Na =23 O = 16 H = 1) (3M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Molar mass of NaOH = 23 + 16 + 1 = 40 g/mol. Concentration in mol/dm³ = Mass concentration / Molar mass = 4 g/dm³ / 40 g/mol = 0.1 mol/dm³.",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "Question five: Mole and stoichiometry:",
+      "question": "D. 2.0 gram of magnesium dissolves in an excess of dilute hydrochloric acid to produce hydrogen. What volume of hydrogen can be obtained from the 2.0 gram of magnesium at r.t.p? Mg(s) + 2HCl(aq) -> MgCl2(aq) + H2(g) (3M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Molar mass of Mg = 24 g/mol. Moles of Mg = 2.0 g / 24 g/mol = 0.0833 mol. From the balanced equation, 1 mole of Mg produces 1 mole of H2. So, moles of H2 produced = 0.0833 mol. At r.t.p (room temperature and pressure), 1 mole of any gas occupies 24 dm³. Volume of H2 = 0.0833 mol × 24 dm³/mol = 2 dm³.",
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "Question six: Energy in chemistry",
+      "question": "A. This equation shows the displayed formulas for the reactants and products. The table gives the bond energies for the bonds in the reactants and products. Equation: H-H + C≡O -> H-C-O-H (with H on C and H on O) Table: Bond, Bond energy in KJ/mol H-H: 436, C≡O: 1072, C-H: 414, C-O: 358, O-H: 463 i) Show that the molar enthalpy change ∆Η for the reaction is -119 KJ/mol. (3M)",
+      "diagram": {
+        "svg": "<svg width=\"400\" height=\"100\" viewBox=\"0 0 400 100\" xmlns=\"http://www.w3.org/2000/svg\"><style>line{stroke:black;stroke-width:1.5;} text{font-family:sans-serif;font-size:14px;}</style><g transform=\"translate(50,50)\"><text x=\"0\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"0\" y1=\"-10\" x2=\"0\" y2=\"10\"/><text x=\"0\" y=\"30\" text-anchor=\"middle\">H</text></g><text x=\"100\" y=\"50\" text-anchor=\"middle\">+</text><g transform=\"translate(150,50)\"><text x=\"-10\" y=\"0\" text-anchor=\"middle\">C</text><line x1=\"0\" y1=\"-5\" x2=\"0\" y2=\"-5\" stroke-width=\"1.5\"/><line x1=\"0\" y1=\"0\" x2=\"0\" y2=\"0\" stroke-width=\"1.5\"/><line x1=\"0\" y1=\"5\" x2=\"0\" y2=\"5\" stroke-width=\"1.5\"/><text x=\"10\" y=\"0\" text-anchor=\"middle\">O</text></g><text x=\"200\" y=\"50\" text-anchor=\"middle\">→</text><g transform=\"translate(300,50)\"><text x=\"-20\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"-15\" y1=\"-10\" x2=\"-20\" y2=\"0\"/><text x=\"-20\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"-20\" y1=\"-10\" x2=\"-20\" y2=\"0\"/><text x=\"-5\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"-10\" y1=\"-10\" x2=\"-20\" y2=\"0\"/><text x=\"-20\" y=\"0\" text-anchor=\"middle\">C</text><line x1=\"-20\" y1=\"0\" x2=\"0\" y2=\"0\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\">O</text><line x1=\"0\" y1=\"0\" x2=\"10\" y2=\"-10\"/><text x=\"10\" y=\"-20\" text-anchor=\"middle\">H</text></g></svg>",
+        "caption": "Reaction showing H2 + CO forming CH3OH (methanol)."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Bonds broken (reactants):\n1 H-H bond: 436 KJ/mol\n1 C≡O bond: 1072 KJ/mol\nTotal energy absorbed = 436 + 1072 = 1508 KJ/mol\n\nBonds formed (products - CH3OH):\n3 C-H bonds: 3 × 414 = 1242 KJ/mol\n1 C-O bond: 358 KJ/mol\n1 O-H bond: 463 KJ/mol\nTotal energy released = 1242 + 358 + 463 = 2063 KJ/mol\n\nMolar enthalpy change (ΔH) = Energy absorbed - Energy released\nΔH = 1508 - 2063 = -555 KJ/mol\n\nNote: The calculated value (-555 KJ/mol) differs from the target value (-119 KJ/mol) provided in the question. The calculation is based on the given bond energies and displayed formulas.",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "Question six: Energy in chemistry",
+      "question": "A.ii) Explain why this reaction is exothermic? (2M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A reaction is exothermic when the total energy released during the formation of new bonds in the products is greater than the total energy absorbed to break the bonds in the reactants. This results in a net release of energy to the surroundings, and the enthalpy change (ΔH) is negative.",
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "Question six: Energy in chemistry",
+      "question": "B. Differentiate between enthalpy and enthalpy change. i) Enthalpy (2M) ii) Enthalpy change (2M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "i) Enthalpy: Enthalpy (H) is the total heat content of a system at constant pressure. It is a state function, and its absolute value cannot be measured directly; only changes in enthalpy can be determined.\nii) Enthalpy change: Enthalpy change (ΔH) is the amount of heat absorbed or released by a system during a chemical reaction or physical process at constant pressure. It is the difference between the enthalpy of the products and the enthalpy of the reactants (ΔH = H_products - H_reactants).",
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "Question seven: Organic chemistry",
+      "question": "A. The diagram below shows the displayed formula of an ester that is made from methanol and carboxylic acid. i) Draw a circle around the functional group of the ester. (1M)",
+      "diagram": {
+        "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><style>line{stroke:black;stroke-width:1.5;} text{font-family:sans-serif;font-size:14px;} circle{fill:none;stroke:red;stroke-width:2;}</style><g transform=\"translate(100,50)\"><text x=\"-40\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"-35\" y1=\"-10\" x2=\"-20\" y2=\"0\"/><text x=\"-20\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"-20\" y1=\"-10\" x2=\"-20\" y2=\"0\"/><text x=\"-5\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"-10\" y1=\"-10\" x2=\"-20\" y2=\"0\"/><text x=\"-20\" y=\"0\" text-anchor=\"middle\">C</text><line x1=\"-20\" y1=\"0\" x2=\"0\" y2=\"0\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\">O</text><line x1=\"0\" y1=\"0\" x2=\"20\" y2=\"0\"/><text x=\"20\" y=\"0\" text-anchor=\"middle\">C</text><line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"-15\"/><line x1=\"20\" y1=\"0\" x2=\"20\" y2=\"-17\"/><text x=\"20\" y=\"-25\" text-anchor=\"middle\">O</text><line x1=\"20\" y1=\"0\" x2=\"40\" y2=\"0\"/><text x=\"40\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"40\" y1=\"-10\" x2=\"40\" y2=\"0\"/><text x=\"55\" y=\"-20\" text-anchor=\"middle\">H</text><line x1=\"50\" y1=\"-10\" x2=\"40\" y2=\"0\"/><text x=\"40\" y=\"0\" text-anchor=\"middle\">C</text><line x1=\"40\" y1=\"0\" x2=\"40\" y2=\"10\"/><text x=\"40\" y=\"20\" text-anchor=\"middle\">H</text><circle cx=\"10\" cy=\"-5\" r=\"25\"/></g></svg>",
+        "caption": "Displayed formula of methyl ethanoate with the ester functional group circled."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "The ester functional group is -COO-. It should be circled in the diagram.",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "Question seven: Organic chemistry",
+      "question": "A.ii) Give the name of the carboxylic acid that make the ester. (1M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "The ester shown is methyl ethanoate. It is formed from methanol and ethanoic acid. Therefore, the carboxylic acid is Ethanoic acid.",
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "Question seven: Organic chemistry",
+      "question": "A.iii) Complete the equation below. (2M) H-C=C-CH3 + H2 ->",
+      "diagram": {
+        "svg": "<svg width=\"300\" height=\"100\" viewBox=\"0 0 300 100\" xmlns=\"http://www.w3.org/2000/svg\"><style>line{stroke:black;stroke-width:1.5;} text{font-family:sans-serif;font-size:14px;}</style><g transform=\"translate(50,50)\"><text x=\"-20\" y=\"0\" text-anchor=\"middle\">H</text><line x1=\"-10\" y1=\"0\" x2=\"0\" y2=\"0\"/><text x=\"0\" y=\"0\" text-anchor=\"middle\">C</text><line x1=\"0\" y1=\"-5\" x2=\"10\" y2=\"-5\"/><line x1=\"0\" y1=\"5\" x2=\"10\" y2=\"5\"/><text x=\"10\" y=\"0\" text-anchor=\"middle\">C</text><line x1=\"10\" y1=\"0\" x2=\"20\" y2=\"0\"/><text x=\"20\" y=\"0\" text-anchor=\"middle\">CH<tspan baseline-shift=\"sub\" font-size=\"10\">3</tspan></text><text x=\"0\" y=\"-20\" text-anchor=\"middle\">H</text><text x=\"10\" y=\"20\" text-anchor=\"middle\">H</text></g><text x=\"120\" y=\"50\" text-anchor=\"middle\">+ H<tspan baseline-shift=\"sub\" font-size=\"10\">2</tspan></text><text x=\"180\" y=\"50\" text-anchor=\"middle\">→</text><line x1=\"200\" y1=\"50\" x2=\"280\" y2=\"50\" stroke-dasharray=\"5,5\"/></svg>",
+        "caption": "Reaction of propene with hydrogen."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "H2C=CH-CH3 (propene) + H2 -> CH3-CH2-CH3 (propane)",
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "Question seven: Organic chemistry",
+      "question": "A.iv) Write the molecular formula of propene. (1M)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "C3H6",
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "Question seven: Organic chemistry",
+      "question": "B. Match the formulae with their name in the table below. First one is done for you. (6M) No Formula Answer Letter Name 1. C2H4 D A Ethyne 2. C4H10 B Pentanol 3. C2H2 C Methanoic 4. C3H6O D Ethene 5. CH2O2 E Hexene 6. C6H12 F Butane 7. C5H11OH G Propanal",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": [
+        {
+          "item": "1. C2H4",
+          "match": "D. Ethene"
         },
-        "correct_answer": "A",
-        "explanation": "The 'x' markings on the energy levels/shells represent electrons orbiting the nucleus."
-      },
-      {
-        "question_number": 2,
-        "marks": 1,
-        "question_text": "Which of these sub-shells contain 5 orbitals?",
-        "options": {
-          "A": "s subshell",
-          "B": "p subshell",
-          "C": "d subshell",
-          "D": "f subshell"
+        {
+          "item": "2. C4H10",
+          "match": "F. Butane"
         },
-        "correct_answer": "C",
-        "explanation": "An s subshell has 1 orbital, p has 3 orbitals, d has 5 orbitals, and f has 7 orbitals."
-      },
-      {
-        "question_number": 3,
-        "marks": 1,
-        "question_text": "Which statement is correct about the position of phosphorus P, in the periodic table?",
-        "options": {
-          "A": "Group 2 and period 5",
-          "B": "Group 3 and period 5",
-          "C": "Group 5 and period 2",
-          "D": "Group 5 and period 3"
+        {
+          "item": "3. C2H2",
+          "match": "A. Ethyne"
         },
-        "correct_answer": "D",
-        "explanation": "Phosphorus (atomic number 15) has an electron configuration of 2, 8, 5 (or 1s² 2s² 2p⁶ 3s² 3p³). Having 5 valence electrons places it in Group 5 (or Group 15), and having 3 electron shells places it in Period 3."
-      },
-      {
-        "question_number": 4,
-        "marks": 1,
-        "question_text": "First ionization energy generally decrease",
-        "options": {
-          "A": "Up the group",
-          "B": "Down the group",
-          "C": "Within the group",
-          "D": "Vertically"
+        {
+          "item": "4. C3H6O",
+          "match": "G. Propanal"
         },
-        "correct_answer": "B",
-        "explanation": "First ionization energy decreases down a group because atomic radius increases and electron shielding increases, reducing the nuclear attraction on outer electrons."
-      },
-      {
-        "question_number": 5,
-        "marks": 1,
-        "question_text": "Which statement describes what happens during electrolysis?",
-        "options": {
-          "A": "Atoms are decomposed",
-          "B": "Ionic compounds are decomposed",
-          "C": "Mixtures are separated",
-          "D": "Molecules are separated"
+        {
+          "item": "5. CH2O2",
+          "match": "C. Methanoic"
         },
-        "correct_answer": "B",
-        "explanation": "Electrolysis uses direct electric current to decompose liquid ionic compounds into their constituent elements."
-      },
-      {
-        "question_number": 6,
-        "marks": 1,
-        "question_text": "Brass is an alloy, it is made up of copper and",
-        "options": {
-          "A": "Nickel",
-          "B": "Chromium",
-          "C": "Zinc",
-          "D": "Tin"
+        {
+          "item": "6. C6H12",
+          "match": "E. Hexene"
         },
-        "correct_answer": "C",
-        "explanation": "Brass is an alloy composed primarily of copper and zinc."
-      },
-      {
-        "question_number": 7,
-        "marks": 1,
-        "question_text": "Lumps of calcium carbonate react with dilute hydrochloric acid. Which change in conditions decreases the rate of a reaction?",
-        "options": {
-          "A": "Increasing the concentration of the acid",
-          "B": "Increasing the volume of the acid",
-          "C": "Increasing the size of the lumps of calcium carbonate",
-          "D": "Increasing the temperature"
-        },
-        "correct_answer": "C",
-        "explanation": "Increasing the size of the lumps decreases the surface area available for collision, which decreases the rate of reaction."
-      },
-      {
-        "question_number": 8,
-        "marks": 1,
-        "question_text": "Which of the following molecules have trigonal planar?",
-        "has_diagram": true,
-        "diagram_description": "Four molecular geometries labeled A, B, C, D with indicated bond angles (including 109.5° and 120°).",
-        "options": {
-          "A": "A",
-          "B": "B",
-          "C": "C",
-          "D": "D"
-        },
-        "correct_answer": "B",
-        "explanation": "A trigonal planar geometry has bond angles of 120°."
-      },
-      {
-        "question_number": 9,
-        "marks": 1,
-        "question_text": "The relative molecular mass of lead (II) nitrate Pb(NO3)2 is:",
-        "options": {
-          "A": "331",
-          "B": "330",
-          "C": "334",
-          "D": "335"
-        },
-        "correct_answer": "A",
-        "explanation": "Mr = 207.2 (Pb) + 2 * [14.0 (N) + 3 * 16.0 (O)] = 207.2 + 2 * (14 + 48) = 207.2 + 124 = 331.2 ≈ 331."
-      },
-      {
-        "question_number": 10,
-        "marks": 1,
-        "question_text": "Enthalpy of neutralization occurs when one mole of aqueous hydrogen ions reacts with one mole of aqueous hydroxide ions to form:",
-        "options": {
-          "A": "One mole of water",
-          "B": "Two mole of water",
-          "C": "Sodium hydroxide",
-          "D": "Hydrochloric acid"
-        },
-        "correct_answer": "A",
-        "explanation": "H+(aq) + OH-(aq) -> H2O(l) produces exactly one mole of water."
-      },
-      {
-        "question_number": 11,
-        "marks": 1,
-        "question_text": "Which of the following molecules is liquid at room temperature (20°C)?",
-        "options": {
-          "A": "Methane",
-          "B": "Ethane",
-          "C": "Pentane",
-          "D": "Butane"
-        },
-        "correct_answer": "C",
-        "explanation": "Alkanes C1-C4 (methane, ethane, propane, butane) are gases at room temperature; pentane (C5H12) is a liquid (boiling point ~36°C)."
-      },
-      {
-        "question_number": 12,
-        "marks": 1,
-        "question_text": "Four different fuels are used to heat in a beaker of water, for the same amount of time. The initial temperature of the water and the temperature after heating by the fuel are recorded. Which fuel releases the most heat energy?",
-        "data_table": {
-          "headers": ["Fuel", "Initial temperature (°C)", "Temperature after heating (°C)"],
-          "rows": [
-            ["A", "17", "46"],
-            ["B", "24", "52"],
-            ["C", "26", "61"],
-            ["D", "30", "62"]
-          ]
-        },
-        "options": {
-          "A": "Fuel A",
-          "B": "Fuel B",
-          "C": "Fuel C",
-          "D": "Fuel D"
-        },
-        "correct_answer": "C",
-        "explanation": "Temperature rise ΔT: Fuel A = 46 - 17 = 29°C; Fuel B = 52 - 24 = 28°C; Fuel C = 61 - 26 = 35°C; Fuel D = 62 - 30 = 32°C. Fuel C causes the highest temperature rise (35°C)."
-      },
-      {
-        "question_number": 13,
-        "marks": 1,
-        "question_text": "A reaction pathway diagram is shown below with Reactants at a higher energy level than Products. Which statement about this reaction is correct?",
-        "has_diagram": true,
-        "diagram_description": "Energy profile diagram showing activation energy Ea and enthalpy change ΔH where the potential energy level of reactants is higher than that of products.",
-        "options": {
-          "A": "The reaction is exothermic",
-          "B": "The reaction is endothermic",
-          "C": "The reaction transfers thermal energy to the surroundings",
-          "D": "The temperature of the surroundings increase."
-        },
-        "correct_answer": "A",
-        "explanation": "When products have lower potential energy than reactants, heat is released to the surroundings, which defines an exothermic reaction."
-      },
-      {
-        "question_number": 14,
-        "marks": 1,
-        "question_text": "This is a structure of a monomer: H2C=CH-Cl. What is the name of this monomer?",
-        "options": {
-          "A": "Chloroethane",
-          "B": "Chloroethene",
-          "C": "Dichloroethene",
-          "D": "Dichloroethane"
-        },
-        "correct_answer": "B",
-        "explanation": "The molecule contains a double bond (ethene core) with one hydrogen substituted by chlorine, giving chloroethene (vinyl chloride)."
-      },
-      {
-        "question_number": 15,
-        "marks": 1,
-        "question_text": "The molecular formula of ethanal is:",
-        "options": {
-          "A": "C2H2O",
-          "B": "C3H4O",
-          "C": "C2H4O",
-          "D": "C3H6O"
-        },
-        "correct_answer": "C",
-        "explanation": "Ethanal is CH3CHO, which gives a condensed molecular formula of C2H4O."
-      }
-    ]
-  },
-  "part_two_structural_questions": {
-    "total_marks": 85,
-    "questions": [
-      {
-        "question_number": 1,
-        "topic": "Metals, nonmetals and electrochemistry",
-        "total_marks": 18,
-        "sub_questions": [
-          {
-            "part": "A",
-            "marks": 5,
-            "instruction": "Arrange these metals in order of decreasing reactivity: (Zn, Mg, Cu, Na, Fe)",
-            "answer_fields": [
-              "1. ____",
-              "2. ____",
-              "3. ____",
-              "4. ____",
-              "5. ____"
-            ],
-            "correct_answers": [
-              "1. Na",
-              "2. Mg",
-              "3. Zn",
-              "4. Fe",
-              "5. Cu"
-            ]
-          },
-          {
-            "part": "B.i",
-            "marks": 4,
-            "instruction": "The figure shows the apparatus used during electrolysis of ionic solution. Use the words from the box to complete the labelling of the diagram in the figure.",
-            "word_bank": ["Anode", "cation", "anion", "cathode"],
-            "has_diagram": true,
-            "diagram_description": "Electrolytic cell with a DC battery attached to two electrodes in an electrolyte solution.",
-            "correct_labels": {
-              "positive_electrode": "Anode",
-              "negative_electrode": "Cathode",
-              "negative_ions_moving_to_anode": "Anion",
-              "positive_ions_moving_to_cathode": "Cation"
-            }
-          },
-          {
-            "part": "B.ii",
-            "marks": 2,
-            "instruction": "Powdered Copper(II) chloride is electrolyzed using the apparatus above. Nothing happens and no products are formed. Explain why nothing happens and no products are formed.",
-            "sample_answer": "Powdered copper(II) chloride is in a solid state. In solid ionic compounds, the ions are locked in a fixed lattice structure and are not free to move to conduct electricity."
-          },
-          {
-            "part": "C.i",
-            "marks": 4,
-            "instruction": "The table below gives information about some gases. Complete the table by choosing a gas from the box that matches the information.",
-            "word_bank": ["Carbon dioxide", "Methane", "Carbon monoxide", "Nitrogen", "Helium", "Oxygen"],
-            "table_data": [
-              {
-                "item": 1,
-                "information": "The most abundant gas in air",
-                "correct_gas": "Nitrogen"
-              },
-              {
-                "item": 2,
-                "information": "A toxic gas that is a product of incomplete combustion of hydrocarbons",
-                "correct_gas": "Carbon monoxide"
-              },
-              {
-                "item": 3,
-                "information": "An unreactive gas that exists as atoms",
-                "correct_gas": "Helium"
-              },
-              {
-                "item": 4,
-                "information": "A gas produced by the fractional distillation of crude oil",
-                "correct_gas": "Methane"
-              }
-            ]
-          },
-          {
-            "part": "C.ii",
-            "marks": 3,
-            "instruction": "Write any three (3) physical properties of nonmetals.",
-            "sample_answers": [
-              "Poor conductors of heat and electricity",
-              "Low melting and boiling points",
-              "Brittle when solid (lacks malleability and ductility)"
-            ]
-          }
-        ]
-      },
-      {
-        "question_number": 2,
-        "topic": "Acids and rate of reaction",
-        "total_marks": 9,
-        "sub_questions": [
-          {
-            "part": "A",
-            "marks": 4,
-            "instruction": "Complete the chemical equations below:",
-            "equations": [
-              {
-                "id": "i",
-                "reactants": "HCl(aq) + NaOH(aq) ->",
-                "correct_products": "NaCl(aq) + H2O(l)"
-              },
-              {
-                "id": "ii",
-                "reactants": "Zn(s) + H2SO4(aq) ->",
-                "correct_products": "ZnSO4(aq) + H2(g)"
-              }
-            ]
-          },
-          {
-            "part": "B",
-            "marks": 5,
-            "instruction": "Write five (5) factors that affect the rate of a chemical reaction.",
-            "sample_answers": [
-              "Temperature",
-              "Concentration of reactants",
-              "Surface area / Particle size",
-              "Presence of a catalyst",
-              "Pressure (for gaseous reactions)"
-            ]
-          }
-        ]
-      },
-      {
-        "question_number": 3,
-        "topic": "Atomic structure",
-        "total_marks": 13,
-        "sub_questions": [
-          {
-            "part": "A",
-            "marks": 3,
-            "instruction": "Complete the first three ionization energies of aluminium:",
-            "table_data": [
-              {
-                "equation": "Al(g) -> Al+(g) + e-",
-                "energy": "1st IE = 577 kJ/mol"
-              },
-              {
-                "equation": "Al+(g) -> Al2+(g) + e-",
-                "energy": "2nd IE = 1820 kJ/mol"
-              },
-              {
-                "equation": "Al2+(g) -> ____ + e-",
-                "energy": "3rd IE = 2740 kJ/mol",
-                "correct_missing_species": "Al3+(g)"
-              }
-            ]
-          },
-          {
-            "part": "B",
-            "marks": 10,
-            "instruction": "Complete the table below with electron configurations (spdf notation). The first one is done for you.",
-            "table_data": [
-              {"element": "Helium", "atomic_number": 2, "configuration": "1s²"},
-              {"element": "Lithium", "atomic_number": 3, "correct_configuration": "1s² 2s¹"},
-              {"element": "Beryllium", "atomic_number": 4, "correct_configuration": "1s² 2s²"},
-              {"element": "Boron", "atomic_number": 5, "correct_configuration": "1s² 2s² 2p¹"},
-              {"element": "Carbon", "atomic_number": 6, "correct_configuration": "1s² 2s² 2p²"},
-              {"element": "Oxygen", "atomic_number": 8, "correct_configuration": "1s² 2s² 2p⁴"},
-              {"element": "Sodium", "atomic_number": 11, "correct_configuration": "1s² 2s² 2p⁶ 3s¹"},
-              {"element": "Magnesium", "atomic_number": 12, "correct_configuration": "1s² 2s² 2p⁶ 3s²"},
-              {"element": "Chlorine", "atomic_number": 17, "correct_configuration": "1s² 2s² 2p⁶ 3s² 3p⁵"},
-              {"element": "Potassium", "atomic_number": 19, "correct_configuration": "1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹"},
-              {"element": "Calcium", "atomic_number": 20, "correct_configuration": "1s² 2s² 2p⁶ 3s² 3p⁶ 4s²"}
-            ]
-          }
-        ]
-      },
-      {
-        "question_number": 4,
-        "topic": "Bonding and structure",
-        "total_marks": 12,
-        "sub_questions": [
-          {
-            "part": "A",
-            "marks": 6,
-            "instruction": "Classify the following species into single bond, double bond and triple bond: (Ethene C2H4, Methane CH4, Water H2O, Carbon dioxide CO2, Ammonia NH3, Nitrogen N2)",
-            "classification": {
-              "i_single_bond": ["Methane (CH4)", "Water (H2O)", "Ammonia (NH3)"],
-              "ii_double_bond": ["Ethene (C2H4)", "Carbon dioxide (CO2)"],
-              "iii_triple_bond": ["Nitrogen (N2)"]
-            }
-          },
-          {
-            "part": "B",
-            "marks": 3,
-            "instruction": "Write the chemical formula for the following compounds:",
-            "compounds": [
-              {
-                "name": "Magnesium hydroxide",
-                "formula": "Mg(OH)2"
-              },
-              {
-                "name": "Calcium nitrate",
-                "formula": "Ca(NO3)2"
-              },
-              {
-                "name": "Sodium carbonate",
-                "formula": "Na2CO3"
-              }
-            ]
-          },
-          {
-            "part": "C",
-            "marks": 3,
-            "instruction": "Write the type of chemical bonding for each diagram provided (Water molecule, Sodium Chloride electron transfer, Metal lattice structure).",
-            "answers": [
-              {
-                "diagram": "H2O molecule sharing electrons",
-                "bond_type": "Covalent bonding"
-              },
-              {
-                "diagram": "Na transferring electron to Cl",
-                "bond_type": "Ionic bonding"
-              },
-              {
-                "diagram": "Lattice of metal cations in sea of electrons",
-                "bond_type": "Metallic bonding"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "question_number": 5,
-        "topic": "Mole and stoichiometry",
-        "total_marks": 10,
-        "sub_questions": [
-          {
-            "part": "A",
-            "marks": 1,
-            "instruction": "Define the term Mole.",
-            "sample_answer": "A mole is the amount of substance containing 6.02 × 10²³ elementary particles (Avogadro's constant)."
-          },
-          {
-            "part": "B",
-            "marks": 3,
-            "instruction": "What is the concentration in g/dm³ of 0.5 mol/dm³ ethanoic acid (CH3COOH)? (RAM: C=12, O=16, H=1)",
-            "calculation_steps": [
-              "Molar mass of CH3COOH = (2 * 12) + (4 * 1) + (2 * 16) = 60 g/mol",
-              "Concentration (g/dm³) = Molarity (mol/dm³) * Molar mass (g/mol)",
-              "Concentration = 0.5 * 60 = 30 g/dm³"
-            ],
-            "final_answer": "30 g/dm³"
-          },
-          {
-            "part": "C",
-            "marks": 3,
-            "instruction": "What is the concentration in mol/dm³ of a solution containing 4 g/dm³ of sodium hydroxide (NaOH)? (RAM: Na=23, O=16, H=1)",
-            "calculation_steps": [
-              "Molar mass of NaOH = 23 + 16 + 1 = 40 g/mol",
-              "Molarity (mol/dm³) = Concentration (g/dm³) / Molar mass (g/mol)",
-              "Molarity = 4 / 40 = 0.1 mol/dm³"
-            ],
-            "final_answer": "0.1 mol/dm³"
-          },
-          {
-            "part": "D",
-            "marks": 3,
-            "instruction": "2.0 gram of magnesium dissolves in an excess of dilute hydrochloric acid to produce hydrogen. What volume of hydrogen can be obtained from the 2.0 gram of magnesium at r.t.p? Given equation: Mg(s) + 2HCl(aq) -> MgCl2(aq) + H2(g)",
-            "calculation_steps": [
-              "Moles of Mg = mass / Ar = 2.0 / 24.3 ≈ 0.0823 mol (or 2.0/24 = 0.0833 mol)",
-              "Mole ratio Mg : H2 = 1 : 1, so Moles of H2 = 0.0823 mol",
-              "Volume of H2 = moles * 24 dm³/mol = 0.0823 * 24 ≈ 1.975 dm³ (or 2.0 / 24 * 24 = 2.0 dm³)"
-            ],
-            "final_answer": "2.0 dm³ (or 1.975 dm³)"
-          }
-        ]
-      },
-      {
-        "question_number": 6,
-        "topic": "Energy in chemistry",
-        "total_marks": 9,
-        "sub_questions": [
-          {
-            "part": "A.i",
-            "marks": 3,
-            "instruction": "The equation shows displayed formulas: 2 H-H + C≡O -> CH3OH. Bond energies (kJ/mol): H-H = 436, C≡O = 1072, C-H = 414, C-O = 358, O-H = 463. Show that the molar enthalpy change ΔH for the reaction is -119 kJ/mol.",
-            "calculation_steps": [
-              "Energy for breaking bonds (Reactants): 2*(H-H) + 1*(C≡O) = 2*(436) + 1072 = 872 + 1072 = 1944 kJ/mol",
-              "Energy released forming bonds (Products): 3*(C-H) + 1*(C-O) + 1*(O-H) = 3*(414) + 358 + 463 = 1242 + 358 + 463 = 2063 kJ/mol",
-              "ΔH = Energy in - Energy out = 1944 - 2063 = -119 kJ/mol"
-            ],
-            "final_answer": "-119 kJ/mol"
-          },
-          {
-            "part": "A.ii",
-            "marks": 2,
-            "instruction": "Explain why this reaction is exothermic?",
-            "sample_answer": "The reaction is exothermic because the energy released when making new bonds in the products (2063 kJ/mol) is greater than the energy required to break the bonds in the reactants (1944 kJ/mol)."
-          },
-          {
-            "part": "B",
-            "marks": 4,
-            "instruction": "Differentiate between enthalpy and enthalpy change.",
-            "definitions": {
-              "i_enthalpy": "Enthalpy (H) is the total heat energy content stored in a chemical system at constant pressure.",
-              "ii_enthalpy_change": "Enthalpy change (ΔH) is the amount of heat energy absorbed or released by a reaction at constant pressure (ΔH = H_products - H_reactants)."
-            }
-          }
-        ]
-      },
-      {
-        "question_number": 7,
-        "topic": "Organic chemistry",
-        "total_marks": 14,
-        "sub_questions": [
-          {
-            "part": "A.i",
-            "marks": 1,
-            "instruction": "The diagram shows the displayed formula of an ester made from methanol and a carboxylic acid. Draw a circle around the functional group of the ester.",
-            "correct_answer": "Circle the ester linkage: -C(=O)-O-"
-          },
-          {
-            "part": "A.ii",
-            "marks": 1,
-            "instruction": "Give the name of the carboxylic acid that makes the ester.",
-            "correct_answer": "Butanoic acid"
-          },
-          {
-            "part": "A.iii",
-            "marks": 2,
-            "instruction": "Complete the equation: CH3-CH=CH2 + H2 -> ____",
-            "correct_answer": "CH3-CH2-CH3 (Propane)"
-          },
-          {
-            "part": "A.iv",
-            "marks": 1,
-            "instruction": "Write the molecular formula of propene.",
-            "correct_answer": "C3H6"
-          },
-          {
-            "part": "B",
-            "marks": 6,
-            "instruction": "Match the formulae with their name in the table below. The first one is done for you.",
-            "matching_pairs": [
-              {"number": 1, "formula": "C2H4", "letter": "D", "name": "Ethene"},
-              {"number": 2, "formula": "C4H10", "letter": "F", "name": "Butane"},
-              {"number": 3, "formula": "C2H2", "letter": "A", "name": "Ethyne"},
-              {"number": 4, "formula": "C3H6O", "letter": "G", "name": "Propanal"},
-              {"number": 5, "formula": "CH2O2", "letter": "C", "name": "Methanoic acid"},
-              {"number": 6, "formula": "C6H12", "letter": "E", "name": "Hexene"},
-              {"number": 7, "formula": "C5H11OH", "letter": "B", "name": "Pentanol"}
-            ]
-          },
-          {
-            "part": "C",
-            "marks": 3,
-            "instruction": "Define the following organic terms:",
-            "definitions": {
-              "i_elimination_reaction": "A reaction in which small atoms/groups are removed from a saturated molecule to form an unsaturated compound (containing double/triple bonds).",
-              "ii_addition_reaction": "A reaction where two or more molecules combine to form a single larger compound without producing any byproducts.",
-              "iii_substitution_reaction": "A reaction in which an atom or group of atoms in a organic molecule is replaced by another atom or group."
-            }
-          }
-        ]
-      }
-    ]
-  }
+        {
+          "item": "7. C5H11OH",
+          "match": "B. Pentanol"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "section": "Question seven: Organic chemistry",
+      "question": "C. Define the following terms. (3M) i) Elimination reaction ii) Addition reaction iii) Substitution reaction",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "i) Elimination reaction: A reaction in which a small molecule (e.g., H2O, HX) is removed from a larger molecule, resulting in the formation of a double or triple bond.\nii) Addition reaction: A reaction in which two or more molecules combine to form a larger one, with no other products. Typically involves breaking a double or triple bond and forming single bonds.\niii) Substitution reaction: A reaction in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms.",
+      "matching_pairs": null
+    }
+  ]
 }
