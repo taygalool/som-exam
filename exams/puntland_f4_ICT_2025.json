@@ -1,479 +1,637 @@
 {
-  "exam_metadata": {
-    "title": "Grade 12 ICT Examination, 2025",
-    "institution": "Ministry of Education and Higher Education",
-    "examination_board": "Puntland National Examination Board",
-    "subject": "ICT",
-    "level": "Form Four",
-    "time_allowed": "2 Hours plus 10 minutes for reading",
-    "total_marks": 100
-  },
-  "part_one_multiple_choice": {
-    "total_marks": 26,
-    "instructions": "Choose the correct answer",
-    "questions": [
-      {
-        "number": 1,
-        "question": "Which of the following is an example of application software?",
-        "options": {
-          "a": "Windows OS",
-          "b": "Adobe Photoshop",
-          "c": "BIOS",
-          "d": "CPU"
+  "title": "FORM FOUR EXAMINATION, 2025 ICT",
+  "exam_id": "puntland_12_ict_2025",
+  "year": 2025,
+  "subject": "ICT",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "Which of the following is an example of application software?",
+      "diagram": null,
+      "options": [
+        "Windows OS",
+        "Adobe Photoshop",
+        "BIOS",
+        "CPU"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "What is the primary advantage of cloud collaboration tools?",
+      "diagram": null,
+      "options": [
+        "High-cost infrastructure and effort needs",
+        "Need for on premise servers and other important devices",
+        "Real-time access to data and resources from anywhere",
+        "Reduced storage capacity and processor capacity"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "You are creating a brochure for a company. Which of the following software would be most appropriate for this task?",
+      "diagram": null,
+      "options": [
+        "Microsoft Word",
+        "Microsoft Publisher",
+        "PowerPoint",
+        "Notepad"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "Understanding the image below, and then What does the <form> element in HTML represent?",
+      "diagram": {
+        "svg": "<svg width=\"200\" height=\"120\" viewBox=\"0 0 200 120\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"198\" height=\"118\" fill=\"#f0f0f0\" stroke=\"#ccc\" stroke-width=\"1\"/><text x=\"10\" y=\"20\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;form&gt;</text><text x=\"20\" y=\"40\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;label for=\"name\"&gt;Name:&lt;/label&gt;</text><text x=\"20\" y=\"60\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;input type=\"text\" id=\"name\"</text><text x=\"30\" y=\"75\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">name=\"name\"&gt;</text><text x=\"20\" y=\"95\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;input type=\"submit\" value=\"Submit\"&gt;</text><text x=\"10\" y=\"115\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;/form&gt;</text></svg>",
+        "caption": "HTML code snippet showing a form element."
+      },
+      "options": [
+        "It is used to collect user input.",
+        "It creates a navigation menu.",
+        "It defines the header section of a webpage.",
+        "It is used to display images."
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "In a relational database, what is the Primary key used for?",
+      "diagram": null,
+      "options": [
+        "To link different tables together",
+        "To store large amounts of data",
+        "To identify records uniquely",
+        "To secure the data in the database"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "Which programming construct is used to repeat a block of code multiple times in most programming languages?",
+      "diagram": null,
+      "options": [
+        "Conditional statements",
+        "Variables",
+        "Functions",
+        "Loops"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "The following are multimedia elements that can be integrated into a mobile application to enhance user experience EXCEPT.",
+      "diagram": null,
+      "options": [
+        "Video and animation",
+        "Music and text",
+        "Graphics and sound effects",
+        "Spreadsheet"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "A company wants to create a database for customer records. Which approach is most effective?",
+      "diagram": null,
+      "options": [
+        "Spreadsheet for quick access",
+        "Relational database with unique IDs and linked tables",
+        "Text document for easy editing",
+        "Tracking via social media for real-time insights"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "What factors should you consider when choosing a career in ICT?",
+      "diagram": null,
+      "options": [
+        "Job demand, interests, skills, and growth",
+        "Salary and job title prestige",
+        "Popularity on social media",
+        "Physical work environment"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "When designing a multimedia presentation, what is most important for effective communication?",
+      "diagram": null,
+      "options": [
+        "Using too many multimedia elements every slide.",
+        "Adding background music to every slide",
+        "High-quality but irrelevant images",
+        "Relevant elements that aid understanding"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "As an ICT professional aiming for cybersecurity, what step best prepares you for success?",
+      "diagram": null,
+      "options": [
+        "Learning programming and network security",
+        "Focusing only on hardware systems",
+        "Specializing in social media management",
+        "Avoiding certifications and formal education"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "To create a Table object in MS Access, the correct tab you must press or click is:",
+      "diagram": {
+        "svg": "<svg width=\"400\" height=\"100\" viewBox=\"0 0 400 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"398\" height=\"98\" fill=\"#f0f0f0\" stroke=\"#ccc\" stroke-width=\"1\"/><text x=\"10\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#333\">File</text><text x=\"50\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#333\">Home</text><rect x=\"100\" y=\"5\" width=\"60\" height=\"20\" fill=\"#e0e0e0\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"105\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#333\">Create</text><text x=\"170\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#333\">External Data</text><text x=\"260\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#333\">Database Tools</text><rect x=\"105\" y=\"40\" width=\"50\" height=\"40\" fill=\"#ffffff\" stroke=\"#999\" stroke-width=\"1\"/><text x=\"110\" y=\"65\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Table</text><text x=\"110\" y=\"80\" font-family=\"sans-serif\" font-size=\"10\" fill=\"#666\">Tables</text></svg>",
+        "caption": "Screenshot of Microsoft Access ribbon with 'Create' tab highlighted and 'Table' button visible."
+      },
+      "options": [
+        "Home and File Tab",
+        "Create Tab",
+        "External Data Tab",
+        "Database Tools Tab"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS",
+      "question": "Which of the following database models allows relationships between data to be represented using tables?",
+      "diagram": null,
+      "options": [
+        "Hierarchical Model",
+        "Rehabilitations Model",
+        "Relational Model",
+        "Object-Oriented Model"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART TWO: STRUCTURAL QUESTIONS",
+      "question": "This Is (Font) Tab Group, Write the Function of Labeled Parts I, II, III, IV:",
+      "diagram": {
+        "svg": "<svg width=\"250\" height=\"100\" viewBox=\"0 0 250 100\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"248\" height=\"98\" fill=\"#f0f0f0\" stroke=\"#ccc\" stroke-width=\"1\"/><rect x=\"10\" y=\"10\" width=\"100\" height=\"25\" fill=\"#fff\" stroke=\"#999\"/><text x=\"15\" y=\"28\" font-family=\"Calibri\" font-size=\"14\" fill=\"#333\">Calibri (Body)</text><rect x=\"115\" y=\"10\" width=\"30\" height=\"25\" fill=\"#fff\" stroke=\"#999\"/><text x=\"120\" y=\"28\" font-family=\"Calibri\" font-size=\"14\" fill=\"#333\">11</text><rect x=\"10\" y=\"45\" width=\"25\" height=\"25\" fill=\"#fff\" stroke=\"#999\"/><text x=\"18\" y=\"63\" font-family=\"Calibri\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">B</text><rect x=\"40\" y=\"45\" width=\"25\" height=\"25\" fill=\"#fff\" stroke=\"#999\"/><text x=\"48\" y=\"63\" font-family=\"Calibri\" font-size=\"14\" font-style=\"italic\" fill=\"#333\">I</text><rect x=\"70\" y=\"45\" width=\"25\" height=\"25\" fill=\"#fff\" stroke=\"#999\"/><text x=\"78\" y=\"63\" font-family=\"Calibri\" font-size=\"14\" text-decoration=\"underline\" fill=\"#333\">U</text><line x1=\"50\" y1=\"35\" x2=\"50\" y2=\"75\" stroke=\"black\" stroke-width=\"1\"/><text x=\"45\" y=\"85\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">II</text><line x1=\"20\" y1=\"35\" x2=\"20\" y2=\"75\" stroke=\"black\" stroke-width=\"1\"/><text x=\"15\" y=\"85\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">I</text><line x1=\"80\" y1=\"35\" x2=\"80\" y2=\"75\" stroke=\"black\" stroke-width=\"1\"/><text x=\"75\" y=\"85\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">IV</text><line x1=\"18\" y1=\"70\" x2=\"18\" y2=\"80\" stroke=\"black\" stroke-width=\"1\"/><text x=\"10\" y=\"85\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">I.</text><line x1=\"48\" y1=\"70\" x2=\"48\" y2=\"80\" stroke=\"black\" stroke-width=\"1\"/><text x=\"40\" y=\"85\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">II.</text><line x1=\"78\" y1=\"70\" x2=\"78\" y2=\"80\" stroke=\"black\" stroke-width=\"1\"/><text x=\"70\" y=\"85\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">III.</text><line x1=\"125\" y1=\"35\" x2=\"125\" y2=\"75\" stroke=\"black\" stroke-width=\"1\"/><text x=\"120\" y=\"85\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">IV.</text></svg>",
+        "caption": "Screenshot of a Microsoft Word Font tab group with labeled parts."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "I. (1 Mark) II. (1 Mark) III. (1 Mark) IV. (1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART TWO: STRUCTURAL QUESTIONS",
+      "question": "Define Spreadsheet and what the SUM (∑) Function is used for?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: STRUCTURAL QUESTIONS",
+      "question": "What is the primary purpose of using slide transitions in PowerPoint?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "QUESTION TWO: CAREER PROSPECTS IN ICT INDUSTRIES-",
+      "question": "List and explain three main components of application letter?",
+      "diagram": {
+        "svg": "<svg width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"398\" height=\"248\" fill=\"#f0f0f0\" stroke=\"#ccc\" stroke-width=\"1\"/><text x=\"10\" y=\"20\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">May, 2025</text><text x=\"10\" y=\"35\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Mr. Warsame</text><text x=\"10\" y=\"50\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Email: Warsame@gmail.com</text><text x=\"10\" y=\"65\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Eyl, Nugaal. Puntland</text><text x=\"10\" y=\"90\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Dear Mr. Geeddi,</text><text x=\"10\" y=\"105\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">I am excited to apply for the Web Developer position at Web-Tech Solutions. With a degree in</text><text x=\"10\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Computer Science and experience in web development, I am eager to contribute my skills.</text><text x=\"10\" y=\"135\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">During my previous role at GOLIS Company, I developed websites, optimized user interfaces, and</text><text x=\"10\" y=\"150\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">ensured cross-browser compatibility. My expertise in HTML, CSS, and JavaScript has improved user</text><text x=\"10\" y=\"165\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">experience and performance.</text><text x=\"10\" y=\"180\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">I admire Web-Tech Solutions' innovative approach and would love the opportunity to contribute.</text><text x=\"10\" y=\"195\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Please find my CV attached for your review.</text><text x=\"10\" y=\"220\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Sincerely,</text><text x=\"10\" y=\"235\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Warsame</text></svg>",
+        "caption": "Sample application letter for a Web Developer position."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "I. (1 Mark) II. (1 Mark) III. (1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "QUESTION TWO: CAREER PROSPECTS IN ICT INDUSTRIES-",
+      "question": "Differentiate Between Application letter and Business Letter?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks)",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "QUESTION TWO: CAREER PROSPECTS IN ICT INDUSTRIES-",
+      "question": "Define A CV, and why it is important?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks)",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "QUESTION TWO: CAREER PROSPECTS IN ICT INDUSTRIES-",
+      "question": "There are three main various ways to Apply for a job; list them?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "I. (1 Mark) II. (1 Mark) III. (1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "QUESTION THREE: INTRODUCTION TO DATABASE -",
+      "question": "Match the terms with their definitions in the table below, and use the Letters to give the answer. The first one is done for you (9 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": [
+        {
+          "item": "Field",
+          "match": "is a single piece of information, such as a name, birth date, or phone number stored in a table."
         },
-        "answer": "b"
-      },
-      {
-        "number": 2,
-        "question": "What is the primary advantage of cloud collaboration tools?",
-        "options": {
-          "a": "High-cost infrastructure and effort needs",
-          "b": "Need for on premise servers and other important devices",
-          "c": "Real-time access to data and resources from anywhere",
-          "d": "Reduced storage capacity and processor capacity"
+        {
+          "item": "Record",
+          "match": "is a group of related records? A table has a unique name."
         },
-        "answer": "c"
-      },
-      {
-        "number": 3,
-        "question": "You are creating a brochure for a company. Which of the following software would be most appropriate for this task?",
-        "options": {
-          "a": "Microsoft Word",
-          "b": "Microsoft Publisher",
-          "c": "PowerPoint",
-          "d": "Notepad"
+        {
+          "item": "Software",
+          "match": "is a collection of programs, data, and instructions that tell a computer how to perform specific tasks."
         },
-        "answer": "b"
-      },
-      {
-        "number": 4,
-        "question": "Understanding the image below, and then What does the <form> element in HTML represent?",
-        "options": {
-          "a": "It is used to collect user input.",
-          "b": "It creates a navigation menu.",
-          "c": "It defines the header section of a webpage.",
-          "d": "It is used to display images."
+        {
+          "item": "Relational Database",
+          "match": "is a database that is organized using tables connected using relationships."
         },
-        "answer": "a"
-      },
-      {
-        "number": 5,
-        "question": "In a relational database, what is the Primary key used for?",
-        "options": {
-          "a": "To link different tables together",
-          "b": "To store large amounts of data",
-          "c": "To identify records uniquely",
-          "d": "To secure the data in the database"
+        {
+          "item": "Table",
+          "match": "is a collection of related fields."
         },
-        "answer": "c"
-      },
-      {
-        "number": 6,
-        "question": "Which programming construct is used to repeat a block of code multiple times in most programming languages?",
-        "options": {
-          "a": "Conditional statements",
-          "b": "Variables",
-          "c": "Functions",
-          "d": "Loops"
+        {
+          "item": "Primary key",
+          "match": "is a unique identifier for each record (row) in a database table."
         },
-        "answer": "d"
-      },
-      {
-        "number": 7,
-        "question": "The following are multimedia elements that can be integrated into a mobile application to enhance user experience EXCEPT:",
-        "options": {
-          "a": "Video and animation",
-          "b": "Music and text",
-          "c": "Graphics and sound effects",
-          "d": "Spreadsheet"
+        {
+          "item": "Data",
+          "match": "are facts or pieces of information about an object."
         },
-        "answer": "d"
-      },
-      {
-        "number": 8,
-        "question": "A company wants to create a database for customer records. Which approach is most effective?",
-        "options": {
-          "a": "Spreadsheet for quick access",
-          "b": "Relational database with unique IDs and linked tables",
-          "c": "Text document for easy editing",
-          "d": "Tracking via social media for real-time insights"
+        {
+          "item": "Database management system",
+          "match": "is simply a software tool that lets users create databases and alter, manage, report, and link data."
         },
-        "answer": "b"
-      },
-      {
-        "number": 9,
-        "question": "What factors should you consider when choosing a career in ICT?",
-        "options": {
-          "a": "Job demand, interests, skills, and growth",
-          "b": "Salary and job title prestige",
-          "c": "Popularity on social media",
-          "d": "Physical work environment"
+        {
+          "item": "Foreign key",
+          "match": "is a field in a relational database table that provides a linkage between data in two tables."
         },
-        "answer": "a"
+        {
+          "item": "Many to Many",
+          "match": "More than one record relates to more than one another table, record in"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "section": "QUESTION THREE: INTRODUCTION TO DATABASE -",
+      "question": "Explain each of the following access objects with its important: Table:",
+      "diagram": {
+        "svg": "<svg width=\"600\" height=\"300\" viewBox=\"0 0 600 300\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"598\" height=\"298\" fill=\"#f0f0f0\" stroke=\"#ccc\" stroke-width=\"1\"/><rect x=\"5\" y=\"5\" width=\"590\" height=\"30\" fill=\"#e0e0e0\" stroke=\"#999\"/><text x=\"10\" y=\"25\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#333\">New Microsoft Access Database - Database.accdb</text><rect x=\"5\" y=\"40\" width=\"590\" height=\"40\" fill=\"#e0e0e0\" stroke=\"#999\"/><text x=\"10\" y=\"65\" font-family=\"sans-serif\" font-size=\"14\" fill=\"#333\">File Home Create External Data Database Tools Fields Table</text><rect x=\"5\" y=\"85\" width=\"150\" height=\"200\" fill=\"#fff\" stroke=\"#999\"/><text x=\"10\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">All Access Objects</text><text x=\"10\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Tables</text><rect x=\"10\" y=\"130\" width=\"140\" height=\"20\" fill=\"#e0e0e0\" stroke=\"#999\"/><text x=\"15\" y=\"145\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Table1</text><text x=\"15\" y=\"165\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Table2</text><rect x=\"160\" y=\"85\" width=\"435\" height=\"200\" fill=\"#fff\" stroke=\"#999\"/><text x=\"170\" y=\"100\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Table1: Table</text><text x=\"170\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">ID Field1</text><text x=\"170\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">1 Warfaa Cali</text><text x=\"170\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">2 Cambaro</text><text x=\"170\" y=\"180\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">(New)</text><text x=\"250\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Click to Add</text></svg>",
+        "caption": "Layout of Microsoft Access Application showing tables and data."
       },
-      {
-        "number": 10,
-        "question": "When designing a multimedia presentation, what is most important for effective communication?",
-        "options": {
-          "a": "Using too many multimedia elements every slide",
-          "b": "Adding background music to every slide",
-          "c": "High-quality but irrelevant images",
-          "d": "Relevant elements that aid understanding"
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks).",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "QUESTION THREE: INTRODUCTION TO DATABASE -",
+      "question": "Explain each of the following access objects with its important: Query:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks).",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "QUESTION THREE: INTRODUCTION TO DATABASE -",
+      "question": "Explain each of the following access objects with its important: Form:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks).",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "QUESTION THREE: INTRODUCTION TO DATABASE -",
+      "question": "Explain each of the following access objects with its important: Report:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks).",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "QUESTION FOUR: CLOUD COLLABORATION-",
+      "question": "Match the application Name and it is Icon, use only the letters to answer (5 marks) The first one is done for you",
+      "diagram": {
+        "svg": "<svg width=\"200\" height=\"100\" viewBox=\"0 0 200 100\" xmlns=\"http://www.w3.org/2000/svg\"><style>.icon-bg { fill: #f0f0f0; stroke: #ccc; stroke-width: 1; }.icon-shape { fill: #333; }.icon-text { font-family: sans-serif; font-size: 16px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #fff; }.icon-circle-bg { fill: #666; }</style><circle cx=\"20\" cy=\"20\" r=\"15\" class=\"icon-circle-bg\"/><text x=\"20\" y=\"20\" class=\"icon-text\">M</text><path d=\"M60,20 C55,10 45,10 40,20 C35,20 30,25 30,30 C30,35 35,40 40,40 L60,40 C65,40 70,35 70,30 C70,25 65,20 60,20 Z\" fill=\"#333\"/><path d=\"M50,25 L55,30 L45,30 Z\" fill=\"#fff\"/><path d=\"M50,25 L50,35\" stroke=\"#fff\" stroke-width=\"2\"/><rect x=\"90\" y=\"15\" width=\"20\" height=\"15\" rx=\"2\" ry=\"2\" fill=\"#333\"/><circle cx=\"100\" cy=\"22\" r=\"6\" fill=\"#fff\"/><circle cx=\"100\" cy=\"22\" r=\"3\" fill=\"#333\"/><path d=\"M140,20 C135,10 125,10 120,20 C115,20 110,25 110,30 C110,35 115,40 120,40 L140,40 C145,40 150,35 150,30 C150,25 145,20 140,20 Z\" fill=\"#333\"/><rect x=\"170\" y=\"15\" width=\"20\" height=\"20\" fill=\"#333\"/><line x1=\"170\" y1=\"15\" x2=\"180\" y2=\"10\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"190\" y1=\"15\" x2=\"180\" y2=\"10\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"190\" y1=\"35\" x2=\"180\" y2=\"30\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"180\" y1=\"10\" x2=\"180\" y2=\"30\" stroke=\"#333\" stroke-width=\"1\"/><circle cx=\"20\" cy=\"70\" r=\"15\" class=\"icon-circle-bg\"/><text x=\"20\" y=\"70\" class=\"icon-text\">S</text></svg>",
+        "caption": "Icons representing various cloud collaboration applications."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": [
+        {
+          "item": "Skype",
+          "match": "S icon"
         },
-        "answer": "d"
-      },
-      {
-        "number": 11,
-        "question": "As an ICT professional aiming for cybersecurity, what step best prepares you for success?",
-        "options": {
-          "a": "Learning programming and network security",
-          "b": "Focusing only on hardware systems",
-          "c": "Specializing in social media management",
-          "d": "Avoiding certifications and formal education"
+        {
+          "item": "Google Drive",
+          "match": "Cloud icon"
         },
-        "answer": "a"
-      },
-      {
-        "number": 12,
-        "question": "To create a Table object in MS Access, the correct tab you must press or click is:",
-        "options": {
-          "a": "Home and File Tab",
-          "b": "Create Tab",
-          "c": "External Data Tab",
-          "d": "Database Tools Tab"
+        {
+          "item": "Zoom",
+          "match": "Camera icon"
         },
-        "answer": "b"
-      },
-      {
-        "number": 13,
-        "question": "Which of the following database models allows relationships between data to be represented using tables?",
-        "options": {
-          "a": "Hierarchical Model",
-          "b": "Rehabilitations Model",
-          "c": "Relational Model",
-          "d": "Object-Oriented Model"
+        {
+          "item": "One Drive",
+          "match": "Cloud with arrow icon"
         },
-        "answer": "c"
-      }
-    ]
-  },
-  "part_two_structural_questions": {
-    "total_marks": 74,
-    "sections": [
-      {
-        "section_id": "QUESTION_ONE",
-        "topic": "APPLICATION SOFTWARE",
-        "total_marks": 8,
-        "sub_questions": [
-          {
-            "id": "1",
-            "type": "identification",
-            "prompt": "This is (Font) Tab Group. Write the Function of Labeled Parts I, II, III, IV.",
-            "marks": 4,
-            "parts": ["I", "II", "III", "IV"]
-          },
-          {
-            "id": "2",
-            "type": "definition",
-            "prompt": "Define Spreadsheet and what the SUM (Σ) Function is used for?",
-            "marks": 2
-          },
-          {
-            "id": "3",
-            "type": "explanation",
-            "prompt": "What is the primary purpose of using slide transitions in PowerPoint?",
-            "marks": 2
-          }
-        ]
+        {
+          "item": "Dropbox",
+          "match": "Box icon"
+        },
+        {
+          "item": "Gmail",
+          "match": "M icon"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "section": "QUESTION FOUR: CLOUD COLLABORATION-",
+      "question": "The image below shows Microsoft OneNote, after understanding write the steps to open a new Microsoft OneNote application.",
+      "diagram": {
+        "svg": "<svg width=\"400\" height=\"250\" viewBox=\"0 0 400 250\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"398\" height=\"248\" fill=\"#f0f0f0\" stroke=\"#ccc\" stroke-width=\"1\"/><text x=\"10\" y=\"20\" font-family=\"sans-serif\" font-size=\"14\" font-weight=\"bold\" fill=\"#333\">Share Notebook</text><text x=\"10\" y=\"40\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">My Notebook</text><text x=\"10\" y=\"55\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Documents > OneNote Notebooks</text><text x=\"10\" y=\"80\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">To share this notebook, you'll need to put it on OneDrive or SharePoint.</text><rect x=\"10\" y=\"100\" width=\"180\" height=\"30\" fill=\"#fff\" stroke=\"#999\"/><text x=\"20\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">OneDrive - Personal</text><rect x=\"200\" y=\"100\" width=\"180\" height=\"30\" fill=\"#fff\" stroke=\"#999\"/><text x=\"210\" y=\"120\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">OneDrive - Personal</text><rect x=\"10\" y=\"140\" width=\"180\" height=\"30\" fill=\"#e0e0e0\" stroke=\"#999\"/><text x=\"20\" y=\"160\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Add a Place</text><text x=\"200\" y=\"140\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Notebook Name:</text><text x=\"200\" y=\"155\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">FORM THREE</text><rect x=\"10\" y=\"180\" width=\"180\" height=\"30\" fill=\"#e0e0e0\" stroke=\"#999\"/><text x=\"20\" y=\"200\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Browse</text><rect x=\"200\" y=\"180\" width=\"180\" height=\"30\" fill=\"#e0e0e0\" stroke=\"#999\"/><text x=\"210\" y=\"200\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\">Move Notebook</text></svg>",
+        "caption": "Microsoft OneNote 'Share Notebook' interface."
       },
-      {
-        "section_id": "QUESTION_TWO",
-        "topic": "CAREER PROSPECTS IN ICT INDUSTRIES",
-        "total_marks": 10,
-        "sub_questions": [
-          {
-            "id": "A",
-            "type": "list_and_explain",
-            "prompt": "List and explain three main components of application letter?",
-            "marks": 3
-          },
-          {
-            "id": "B",
-            "type": "differentiation",
-            "prompt": "Differentiate Between Application letter and Business Letter?",
-            "marks": 2
-          },
-          {
-            "id": "C",
-            "type": "definition",
-            "prompt": "Define A CV, and why it is important?",
-            "marks": 2
-          },
-          {
-            "id": "D",
-            "type": "list",
-            "prompt": "There are three main various ways to Apply for a job; list them?",
-            "marks": 3
-          }
-        ]
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Step one: (1 Mark) Step Two: (1 Mark) Step Three: (1 Mark) Step Four: (1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "QUESTION FIVE: INTRODUCTION TO COMPUTER PROGRAMING-",
+      "question": "Write the name of this symbol?",
+      "diagram": {
+        "svg": "<svg width=\"150\" height=\"100\" viewBox=\"0 0 150 100\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"75,10 140,50 75,90 10,50\" fill=\"#f0f0f0\" stroke=\"#333\" stroke-width=\"2\"/><text x=\"10\" y=\"50\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\" text-anchor=\"start\" dominant-baseline=\"middle\">No</text><text x=\"140\" y=\"50\" font-family=\"sans-serif\" font-size=\"12\" fill=\"#333\" text-anchor=\"end\" dominant-baseline=\"middle\">Yes</text><line x1=\"75\" y1=\"90\" x2=\"75\" y2=\"100\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"140\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/><line x1=\"10\" y1=\"50\" x2=\"0\" y2=\"50\" stroke=\"#333\" stroke-width=\"1\"/></svg>",
+        "caption": "Flowchart diamond symbol with 'No' and 'Yes' branches."
       },
-      {
-        "section_id": "QUESTION_THREE",
-        "topic": "INTRODUCTION TO DATABASE",
-        "total_marks": 17,
-        "sub_questions": [
-          {
-            "id": "1",
-            "type": "matching",
-            "prompt": "Match the terms with their definitions in the table below, and use the Letters to give the answer.",
-            "marks": 9,
-            "matching_table": [
-              {
-                "no": 1,
-                "term": "Field",
-                "given_answer": "F",
-                "definition_letter": "A",
-                "definition": "is a group of related records? A table has a unique name."
-              },
-              {
-                "no": 2,
-                "term": "Record",
-                "definition_letter": "B",
-                "definition": "is a database that is organized using tables connected using relationships."
-              },
-              {
-                "no": 3,
-                "term": "Software",
-                "definition_letter": "C",
-                "definition": "is a unique identifier for each record (row) in a database table."
-              },
-              {
-                "no": 4,
-                "term": "Relational Database",
-                "definition_letter": "D",
-                "definition": "is a field in a relational database table that provides a linkage between data in two tables."
-              },
-              {
-                "no": 5,
-                "term": "Table",
-                "definition_letter": "E",
-                "definition": "is a collection of related fields."
-              },
-              {
-                "no": 6,
-                "term": "Primary key",
-                "definition_letter": "F",
-                "definition": "is a single piece of information, such as a name, birth date, or phone number stored in a table."
-              },
-              {
-                "no": 7,
-                "term": "Data",
-                "definition_letter": "G",
-                "definition": "More than one record relates to more than one another table record in."
-              },
-              {
-                "no": 8,
-                "term": "Database management system",
-                "definition_letter": "H",
-                "definition": "is a collection of programs, data, and instructions that tell a computer how to perform specific tasks."
-              },
-              {
-                "no": 9,
-                "term": "Foreign key",
-                "definition_letter": "I",
-                "definition": "is simply a software tool that lets users create databases and alter, manage, report, and link data."
-              },
-              {
-                "no": 10,
-                "term": "Many to Many",
-                "definition_letter": "J",
-                "definition": "are facts or pieces of information about an object."
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "type": "explanation",
-            "prompt": "Explain each of the following access objects with its importance:",
-            "marks": 8,
-            "parts": [
-              { "name": "Table", "marks": 2 },
-              { "name": "Query", "marks": 2 },
-              { "name": "Form", "marks": 2 },
-              { "name": "Report", "marks": 2 }
-            ]
-          }
-        ]
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "QUESTION FIVE: INTRODUCTION TO COMPUTER PROGRAMING-",
+      "question": "After naming what is used by this symbol in programming?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "QUESTION FIVE: INTRODUCTION TO COMPUTER PROGRAMING-",
+      "question": "There are three main types of data modeling, try to list them",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "I. (1 Mark) II. (1 Mark) III. (1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "QUESTION FIVE: INTRODUCTION TO COMPUTER PROGRAMING-",
+      "question": "The image below shows the different categories of programming languages. Give at least three advantages of High Level Languages?",
+      "diagram": {
+        "svg": "<svg width=\"250\" height=\"220\" viewBox=\"0 0 250 220\" xmlns=\"http://www.w3.org/2000/svg\"><style>.box { fill: #e0e0e0; stroke: #333; stroke-width: 1; }.text { font-family: sans-serif; font-size: 12px; text-anchor: middle; dominant-baseline: central; fill: #333; }.arrow { stroke: #333; stroke-width: 1; marker-end: url(#arrowhead); }</style><defs><marker id=\"arrowhead\" markerWidth=\"10\" markerHeight=\"7\" refX=\"0\" refY=\"3.5\" orient=\"auto\"><polygon points=\"0 0, 10 3.5, 0 7\" fill=\"#333\" /></marker></defs><rect x=\"50\" y=\"10\" width=\"150\" height=\"30\" class=\"box\"/><text x=\"125\" y=\"25\" class=\"text\">High - Level - Language</text><line x1=\"125\" y1=\"40\" x2=\"125\" y2=\"55\" class=\"arrow\"/><rect x=\"50\" y=\"65\" width=\"150\" height=\"30\" class=\"box\"/><text x=\"125\" y=\"80\" class=\"text\">Assembly Language</text><line x1=\"125\" y1=\"95\" x2=\"125\" y2=\"110\" class=\"arrow\"/><rect x=\"50\" y=\"120\" width=\"150\" height=\"30\" class=\"box\"/><text x=\"125\" y=\"135\" class=\"text\">Machine Language</text><line x1=\"125\" y1=\"150\" x2=\"125\" y2=\"165\" class=\"arrow\"/><rect x=\"50\" y=\"175\" width=\"150\" height=\"30\" class=\"box\"/><text x=\"125\" y=\"190\" class=\"text\">Computer Hardware</text></svg>",
+        "caption": "Hierarchy of programming languages from High-Level to Computer Hardware."
       },
-      {
-        "section_id": "QUESTION_FOUR",
-        "topic": "CLOUD COLLABORATION",
-        "total_marks": 9,
-        "sub_questions": [
-          {
-            "id": "1",
-            "type": "matching",
-            "prompt": "Match the application Name and its Icon, use only the letters to answer.",
-            "marks": 5,
-            "items": [
-              { "no": 1, "name": "Skype", "given_answer": "F" },
-              { "no": 2, "name": "Google Drive" },
-              { "no": 3, "name": "Zoom" },
-              { "no": 4, "name": "One Drive" },
-              { "no": 5, "name": "Dropbox" },
-              { "no": 6, "name": "Gmail" }
-            ]
-          },
-          {
-            "id": "2",
-            "type": "sequencing",
-            "prompt": "Write the steps to open a new Microsoft OneNote application.",
-            "marks": 4,
-            "steps": ["Step one", "Step Two", "Step Three", "Step Four"]
-          }
-        ]
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "I. (1 Mark) II. (1 Mark) III. (1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "QUESTION FIVE: INTRODUCTION TO COMPUTER PROGRAMING-",
+      "question": "Differentiate between Programmer and programming language?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks)",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "QUESTION SIX: INTRODUCTION TO MULTIMEDIA-",
+      "question": "The below images show some of image file formats, after thinking write the names of them in a full form. GIF:",
+      "diagram": {
+        "svg": "<svg width=\"300\" height=\"100\" viewBox=\"0 0 300 100\" xmlns=\"http://www.w3.org/2000/svg\"><style>.format-box { fill: #e0e0e0; stroke: #333; stroke-width: 1; }.format-text { font-family: sans-serif; font-size: 24px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #333; }</style><rect x=\"10\" y=\"20\" width=\"80\" height=\"50\" class=\"format-box\"/><text x=\"50\" y=\"48\" class=\"format-text\">GIF</text><rect x=\"110\" y=\"20\" width=\"80\" height=\"50\" class=\"format-box\"/><text x=\"150\" y=\"48\" class=\"format-text\">JPG</text><rect x=\"210\" y=\"20\" width=\"80\" height=\"50\" class=\"format-box\"/><text x=\"250\" y=\"48\" class=\"format-text\">SVG</text></svg>",
+        "caption": "Three image file format labels: GIF, JPG, SVG."
       },
-      {
-        "section_id": "QUESTION_FIVE",
-        "topic": "INTRODUCTION TO COMPUTER PROGRAMMING",
-        "total_marks": 10,
-        "sub_questions": [
-          {
-            "id": "1",
-            "type": "flowchart_analysis",
-            "marks": 2,
-            "parts": [
-              {
-                "label": "A",
-                "prompt": "Write the name of this symbol?",
-                "marks": 1
-              },
-              {
-                "label": "B",
-                "prompt": "After naming what is used by this symbol in programming?",
-                "marks": 1
-              }
-            ]
-          },
-          {
-            "id": "2",
-            "type": "list",
-            "prompt": "There are three main types of data modeling, try to list them.",
-            "marks": 3,
-            "items_count": 3
-          },
-          {
-            "id": "3",
-            "type": "list",
-            "prompt": "Give at least three advantages of High-Level Languages?",
-            "marks": 3,
-            "items_count": 3
-          },
-          {
-            "id": "4",
-            "type": "differentiation",
-            "prompt": "Differentiate between Programmer and programming language?",
-            "marks": 2
-          }
-        ]
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "QUESTION SIX: INTRODUCTION TO MULTIMEDIA-",
+      "question": "The below images show some of image file formats, after thinking write the names of them in a full form. JPG:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "QUESTION SIX: INTRODUCTION TO MULTIMEDIA-",
+      "question": "The below images show some of image file formats, after thinking write the names of them in a full form. SVG:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "QUESTION SIX: INTRODUCTION TO MULTIMEDIA-",
+      "question": "Define the Pixel?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "QUESTION SIX: INTRODUCTION TO MULTIMEDIA-",
+      "question": "A snapshot with 3,500 pixels on the horizontal side and the 4,000 pixels on the Vertical side; calculate: - The total resolution of the pixels?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks)",
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "QUESTION SIX: INTRODUCTION TO MULTIMEDIA-",
+      "question": "A snapshot with 3,500 pixels on the horizontal side and the 4,000 pixels on the Vertical side; calculate: - Convert Value of pixels in to megapixel?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "QUESTION SIX: INTRODUCTION TO MULTIMEDIA-",
+      "question": "To start working with Microsoft photo Application what are the three basic steps to open the Photo Application?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Step one: (1 Mark) Step Two: (1 Mark) Step Three: (1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "QUESTION SEVEN: WEB DESIGN AND DEVELOPMENT-",
+      "question": "The below image shows the basic structure of HTML element, after thinking write the Names of these elements. I.",
+      "diagram": {
+        "svg": "<svg width=\"300\" height=\"100\" viewBox=\"0 0 300 100\" xmlns=\"http://www.w3.org/2000/svg\"><style>.tag-text { font-family: monospace; font-size: 20px; font-weight: bold; text-anchor: middle; dominant-baseline: central; fill: #333; }.label-text { font-family: sans-serif; font-size: 12px; fill: #333; }.arrow { stroke: #333; stroke-width: 1; marker-end: url(#arrowhead); }</style><defs><marker id=\"arrowhead\" markerWidth=\"10\" markerHeight=\"7\" refX=\"0\" refY=\"3.5\" orient=\"auto\"><polygon points=\"0 0, 10 3.5, 0 7\" fill=\"#333\" /></marker></defs><text x=\"50\" y=\"30\" class=\"tag-text\">&lt;Tag&gt;</text><text x=\"150\" y=\"30\" class=\"tag-text\">Soo dhawaada</text><text x=\"250\" y=\"30\" class=\"tag-text\">&lt;/Tag&gt;</text><line x1=\"50\" y1=\"40\" x2=\"50\" y2=\"60\" class=\"arrow\"/><text x=\"50\" y=\"75\" class=\"label-text\" text-anchor=\"middle\">I</text><line x1=\"150\" y1=\"40\" x2=\"150\" y2=\"60\" class=\"arrow\"/><text x=\"150\" y=\"75\" class=\"label-text\" text-anchor=\"middle\">II</text><line x1=\"250\" y1=\"40\" x2=\"250\" y2=\"60\" class=\"arrow\"/><text x=\"250\" y=\"75\" class=\"label-text\" text-anchor=\"middle\">III</text></svg>",
+        "caption": "Basic structure of an HTML element with labeled parts."
       },
-      {
-        "section_id": "QUESTION_SIX",
-        "topic": "INTRODUCTION TO MULTIMEDIA",
-        "total_marks": 10,
-        "sub_questions": [
-          {
-            "id": "1",
-            "type": "acronym_expansion",
-            "prompt": "Write the names of the image file formats in full form.",
-            "marks": 3,
-            "items": ["GIF", "JPG", "SVG"]
-          },
-          {
-            "id": "2",
-            "type": "definition",
-            "prompt": "Define the Pixel?",
-            "marks": 1
-          },
-          {
-            "id": "3",
-            "type": "calculation",
-            "prompt": "A snapshot with 3,500 pixels on the horizontal side and 4,000 pixels on the vertical side, calculate:",
-            "marks": 3,
-            "parts": [
-              {
-                "label": "A",
-                "prompt": "The total resolution of the pixels?",
-                "marks": 2
-              },
-              {
-                "label": "B",
-                "prompt": "Convert Value of pixels into megapixel?",
-                "marks": 1
-              }
-            ]
-          },
-          {
-            "id": "4",
-            "type": "sequencing",
-            "prompt": "What are the three basic steps to open the Photo Application in Microsoft?",
-            "marks": 3,
-            "steps": ["Step one", "Step Two", "Step Three"]
-          }
-        ]
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "QUESTION SEVEN: WEB DESIGN AND DEVELOPMENT-",
+      "question": "The below image shows the basic structure of HTML element, after thinking write the Names of these elements. II.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 42,
+      "section": "QUESTION SEVEN: WEB DESIGN AND DEVELOPMENT-",
+      "question": "The below image shows the basic structure of HTML element, after thinking write the Names of these elements. III.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark)",
+      "matching_pairs": null
+    },
+    {
+      "id": 43,
+      "section": "QUESTION SEVEN: WEB DESIGN AND DEVELOPMENT-",
+      "question": "This code is a simple HTML document, after understanding what is the Output in the Browser. The output of heading element:",
+      "diagram": {
+        "svg": "<svg width=\"300\" height=\"200\" viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"298\" height=\"198\" fill=\"#f0f0f0\" stroke=\"#ccc\" stroke-width=\"1\"/><text x=\"10\" y=\"20\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;!DOCTYPE html&gt;</text><text x=\"10\" y=\"35\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;html&gt;</text><text x=\"10\" y=\"50\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;head&gt;</text><text x=\"20\" y=\"65\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;title&gt;My First Web Page&lt;/title&gt;</text><text x=\"10\" y=\"80\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;/head&gt;</text><text x=\"10\" y=\"95\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;body&gt;</text><text x=\"20\" y=\"110\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;h1&gt;The Government of Puntland&lt;/h1&gt;</text><text x=\"20\" y=\"125\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;p&gt;Kani Waa Bog HTML Ah.&lt;/p&gt;</text><text x=\"10\" y=\"140\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;/body&gt;</text><text x=\"10\" y=\"155\" font-family=\"monospace\" font-size=\"12\" fill=\"#333\">&lt;/html&gt;</text></svg>",
+        "caption": "Simple HTML document code snippet."
       },
-      {
-        "section_id": "QUESTION_SEVEN",
-        "topic": "WEB DESIGN AND DEVELOPMENT",
-        "total_marks": 5,
-        "sub_questions": [
-          {
-            "id": "1",
-            "type": "identification",
-            "prompt": "The image shows the basic structure of HTML element, write the names of these elements: I (<Tag>), II (Soo dhawaada), III (</Tag>).",
-            "marks": 3,
-            "parts": ["I", "II", "III"]
-          },
-          {
-            "id": "2",
-            "type": "code_output",
-            "prompt": "Understanding the HTML code, what is the Output in the Browser?",
-            "marks": 2,
-            "parts": [
-              {
-                "label": "A",
-                "prompt": "The output of heading element: <h1>The Government of Puntland</h1>",
-                "marks": 1
-              },
-              {
-                "label": "B",
-                "prompt": "The output of Paragraph Element: <p>Kani Waa Bog HTML Ah.</p>",
-                "marks": 1
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "section_id": "QUESTION_EIGHT",
-        "topic": "DESKTOP PUBLISHING",
-        "total_marks": 5,
-        "sub_questions": [
-          {
-            "id": "1",
-            "type": "differentiation",
-            "prompt": "What is the Difference between desktop publishing and Graphic design?",
-            "marks": 2
-          },
-          {
-            "id": "2",
-            "type": "list",
-            "prompt": "Give three examples of Desktop publishing software?",
-            "marks": 3
-          }
-        ]
-      }
-    ]
-  }
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Marks).",
+      "matching_pairs": null
+    },
+    {
+      "id": 44,
+      "section": "QUESTION SEVEN: WEB DESIGN AND DEVELOPMENT-",
+      "question": "This code is a simple HTML document, after understanding what is the Output in the Browser. The output of Paragraph Element:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(1 Mark).",
+      "matching_pairs": null
+    },
+    {
+      "id": 45,
+      "section": "QUESTION EIGHT: DESKTOP PUBLISHING-",
+      "question": "What is the Difference between desktop publishing and Graphic design?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2 Marks).",
+      "matching_pairs": null
+    },
+    {
+      "id": 46,
+      "section": "QUESTION EIGHT: DESKTOP PUBLISHING-",
+      "question": "Give three examples of Desktop publishing software?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(3 Marks).",
+      "matching_pairs": null
+    }
+  ]
 }
-
