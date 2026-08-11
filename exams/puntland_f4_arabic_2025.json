@@ -1,1 +1,915 @@
-
+{
+  "title": "الامتحان الشهادى للصف الرابع الثانوى عام 2025 مادة: اللغة العربية",
+  "exam_id": "puntland_12_arabic_2025",
+  "year": 2025,
+  "subject": "Arabic",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "ظهرت الشبكة الدولية - الإنترنت - في القرن .",
+      "diagram": null,
+      "options": [
+        "التاسع عشر",
+        "الثامن عشر",
+        "العشرين",
+        "الحادي والعشرين"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "تنتقل الأخبار والمعلومات في لمح البصر بفضل .",
+      "diagram": null,
+      "options": [
+        "الشبكة الدولية",
+        "الشركات الكبيرة",
+        "المنظمات",
+        "الحكومات"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "تضاعف استعمال الشبكة الدولية. كلمة ( تضاعف ) معناها .",
+      "diagram": null,
+      "options": [
+        "نقص",
+        "قل",
+        "زال",
+        "ازداد"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "التطبيق الظاهر في هذه الصورة هو .",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><rect x=\"0\" y=\"0\" width=\"100\" height=\"100\" rx=\"10\" ry=\"10\" fill=\"#3b5998\"/><text x=\"50\" y=\"65\" font-family=\"Arial, sans-serif\" font-size=\"70\" font-weight=\"bold\" fill=\"#ffffff\" text-anchor=\"middle\">f</text></svg>",
+        "caption": "Facebook logo"
+      },
+      "options": [
+        "الواتس أب",
+        "الفيسبوك",
+        "التيك توك",
+        "الإسناب جات"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "( تنتقل الأخبار والمعلومات في لمح البصر). هذه العبارة معناها .",
+      "diagram": null,
+      "options": [
+        "لا تنتقل الأخبار والمعلومات",
+        "تنتقل الأخبار والمعلومات ببطء",
+        "تنتقل الأخبار والمعلومات بسرعة",
+        "لا توجد أخبار ولا معلومات"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "عرف وسائل التواصل الاجتماعي",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "تُعَرَّفُ وَسَائِلُ التَّوَاصُلِ الاجْتِمَاعِيَ بِأَنَّهَا مَجْمُوعَةُ التَّطْبِيقَاتِ وَالْمَوَاقِعِ الإِلكُتَرُونِيَّةِ الَّتِي تُوَفِّرُ التَّوَاصُلَ وَالتَّفَاعُلَ بَيْنَ النَّاسِ بِوَاسِطَةِ الرَّسَائِلِ النَّصِيَّةِ وَالصَّوْتِيَّةِ وَالْمَرْثِيَّةِ وَالصُّوَرِ وَمَقَاطِعِ الْفِيدِيُو.",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "اذكر اثنين من وسائل التواصل الاجتماعي.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "الفيسبوك (Facebook)، الواتس أب (WhatsApp)، تيك توك (TikTok)، الإنستغرام (Instagram)، الإسناب جات (Snapchat)، التلغرام (Telegram). (أي اثنان)",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "لماذا يقبل الناس على وسائل التواصل الاجتماعي ؟",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "بسبب سهولة الاستخدام، والتواصل مع الأهل والأصدقاء، والبحث عن أصدقاء جدد، وكسب المال، والبحث عن وظيفة، ومتابعة الأخبار، وتسويق السلع والبضائع المختلفة، والتعليم والتعلم، والبيع والشراء، والتسلية والترفيه.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "اذكر اثنين من سلبيات استخدام وسائل التواصل الاجتماعي ؟",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "أمور كثيرة مخالفة للدين، مخاطر الاحتيال وسرقة المعلومات الشخصية، إضاعة الوقت، اختراق الخصوصية، وسيلة لارتكاب الجرائم، نشر المبادئ والأفكار الهدامة والتطرف، تؤثر على العلاقات الأسرية، تؤدي إلى العزلة، تدني التحصيل الدراسي للطلاب، تسبب إدمانها أضراراً صحية وأمراضاً خطيرة. (أي اثنان)",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "أولا: الفهم والاستيعاب",
+      "question": "ما وسائل التواصل الاجتماعي التي تستخدمها أنت؟",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: المفرد: وسيلة، الجمع:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "وسائل",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: المفرد: عضو، الجمع:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "أعضاء",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: المفرد: جندي، الجمع:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "جنود",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: المفرد: صديقة، الجمع:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "صديقات",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: المفرد: منافق، الجمع:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "منافقون",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: الجمع: صفات، المفرد:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "صفة",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: الجمع: أخلاق، المفرد:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "خلق",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: الجمع: علماء، المفرد:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "عالم",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: الجمع: معلومات، المفرد:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "معلومة",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "ثانيا: المفردات",
+      "question": "أكمل الجدول التالي: الجمع: ملايين، المفرد:",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "مليون",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "ثانيا: المفردات",
+      "question": "صل بين كل كلمتين لهما معنى واحدا كما في المثال: إنسان - شخص",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": [
+        {
+          "item": "أصحاب",
+          "match": "أصدقاء"
+        },
+        {
+          "item": "فترة",
+          "match": "مدة"
+        },
+        {
+          "item": "تلاميذ",
+          "match": "طلاب"
+        },
+        {
+          "item": "سنة",
+          "match": "عام"
+        },
+        {
+          "item": "وطن",
+          "match": "بلد"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "section": "ثانيا: المفردات",
+      "question": "هات مضاد الكلمات التالية: يقترب",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "يبتعد",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "ثانيا: المفردات",
+      "question": "هات مضاد الكلمات التالية: البيع",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "الشراء",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "ثانيا: المفردات",
+      "question": "هات مضاد الكلمات التالية: العدل",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "الظلم",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "ثانيا: المفردات",
+      "question": "هات مضاد الكلمات التالية: السماء",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "الأرض",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "ثانيا: المفردات",
+      "question": "هات مضاد الكلمات التالية: أبيض",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "أسود",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "ثانيا: المفردات",
+      "question": "صل بين الكلمتين اللتين تأتيان معا كما في المثال: أخبار - الأهلية -> الحرب الأهلية",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": [
+        {
+          "item": "أخبار",
+          "match": "العالم"
+        },
+        {
+          "item": "طبيب",
+          "match": "الأسنان"
+        },
+        {
+          "item": "إضاعة",
+          "match": "الوقت"
+        },
+        {
+          "item": "عيد",
+          "match": "الفطر"
+        },
+        {
+          "item": "الحرب",
+          "match": "الأهلية"
+        },
+        {
+          "item": "درجة",
+          "match": "الحرارة"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "section": "ثانيا: المفردات",
+      "question": "رتب الكلمات الآتية لتصبح جملا مفيدة: يحث - الطهارة - على - الإسلام",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "الإسلام يحث على الطهارة.",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "ثانيا: المفردات",
+      "question": "رتب الكلمات الآتية لتصبح جملا مفيدة: تستفيد - كيف - الإنترنت - من ؟",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "كيف تستفيد من الإنترنت؟",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "ثانيا: المفردات",
+      "question": "رتب الكلمات الآتية لتصبح جملا مفيدة: الناشئين - يتهم - بتربية - المجتمع",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "المجتمع يتهم الناشئين بالتربية.",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "ثانيا: المفردات",
+      "question": "رتب الكلمات الآتية لتصبح جملا مفيدة: الأهل - نزور - والأصدقاء",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "نزور الأهل والأصدقاء.",
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "ثانيا: المفردات",
+      "question": "رتب الكلمات الآتية لتصبح جملا مفيدة: تدرس - ساعة - في - كم - اليوم ؟",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "كم ساعة تدرس في اليوم؟",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "ثانيا: المفردات",
+      "question": "املأ الفراغ في الجمل الآتية بالكلمة المناسبة مما بين القوسين: أسكن . شارع المطار ( في - على - إلى - من )",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "في",
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "ثانيا: المفردات",
+      "question": "املأ الفراغ في الجمل الآتية بالكلمة المناسبة مما بين القوسين: عاد صديقي . البيت متأخرا ( على - إلى - في - مع )",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "إلى",
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "ثانيا: المفردات",
+      "question": "املأ الفراغ في الجمل الآتية بالكلمة المناسبة مما بين القوسين: بكم . الأقلام والدفاتر ؟ ( هذا - ذلك - هذه - هذان )",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "كم",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "ثانيا: المفردات",
+      "question": "املأ الفراغ في الجمل الآتية بالكلمة المناسبة مما بين القوسين: نحن طلاب و. مدرسون ( أنتما - أنت - أنتن - أنتم )",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "أنتم",
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "ثانيا: المفردات",
+      "question": "املأ الفراغ في الجمل الآتية بالكلمة المناسبة مما بين القوسين: . تؤخر عمل اليوم إلى الغد ( ماذا - لا - ليس - كم )",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "لا",
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "الفاعل في الجملة ( عالج الطبيب المريض ) هو .",
+      "diagram": null,
+      "options": [
+        "عالج",
+        "الطبيب",
+        "المريض",
+        "ضمير مستتر"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "اسم منصوب يدل على ما وقع عليه فعل الفاعل.",
+      "diagram": null,
+      "options": [
+        "ظرف الزمان",
+        "ظرف المكان",
+        "المفعول لأجله",
+        "المفعول به"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "( ألا كل شيء ما خلا الله باطل ) أداة الاستثناء في هذه الجملة.",
+      "diagram": null,
+      "options": [
+        "إلا",
+        "شيء",
+        "ما خلا",
+        "كل"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "( سجدت شكرا لله ). تعرب كلمة (شكرا ) .",
+      "diagram": null,
+      "options": [
+        "مفعولا لأجله",
+        "ظرفا",
+        "مفعولا به",
+        "فاعلا"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 42,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "الجملة التي ورد فيها نعت حقيقي هي .",
+      "diagram": null,
+      "options": [
+        "هذا جندي شجاع",
+        "أسكن في بيت جميل المنظر",
+        "صمد البطل القوي عزمه",
+        "جاء الرجل الحسن خلقه"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 43,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "قال تعالى: ﴿ وَلَقَدْ أَرْسَلْنَا فِيهِمْ مُنْذِرِينَ فَانْظُرْ كَيْفَ كَانَ عَاقِبَةُ الْمُنْذِرِينَ ﴾. في هذه الآية .",
+      "diagram": null,
+      "options": [
+        "جناس تام",
+        "جناس غير تام",
+        "طباق السلب",
+        "طباق الإيجاب"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 44,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "( الحكمة ضالة المؤمن ) . هذه الجملة .",
+      "diagram": null,
+      "options": [
+        "إنشائية",
+        "استفهامية",
+        "خبرية",
+        "غير مفيدة"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 45,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "هو توافق فاصلتين أو أكثر في الحرف الأخير.",
+      "diagram": null,
+      "options": [
+        "الجناس",
+        "التورية",
+        "الطباق",
+        "السجع"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 46,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "يصاغ اسم المفعول من الفعل الثلاثي على وزن .",
+      "diagram": null,
+      "options": [
+        "فعيل",
+        "فاعل",
+        "فعل",
+        "مفعول"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 47,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "هو الجمع بين الشيء وضده في الكلام.",
+      "diagram": null,
+      "options": [
+        "الطباق",
+        "التورية",
+        "الجناس",
+        "السجع"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 48,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "صل بين الكلمة والتعريف المناسب",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": [
+        {
+          "item": "المنادى",
+          "match": "الاسم المطلوب إقباله بحرف من حروف النداء."
+        },
+        {
+          "item": "التورية",
+          "match": "أن يذكر المتكلم لفظا له معنيان قريب غير مراد، وبعيد هو المراد"
+        },
+        {
+          "item": "الإنشاء",
+          "match": "ما لا يصح أن يقال لقائله إنه صادق فيه أو كاذب."
+        },
+        {
+          "item": "لازم الفائدة",
+          "match": "إفادة المخاطب أن المتكلم يعلم بمضمون الخبر."
+        },
+        {
+          "item": "الخبر",
+          "match": "ما يصح أن يقال لقائله إنه صادق فيه أو كاذب."
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "عرف الحال.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "اسم نكرة منصوب يبين هيئة صاحبه وقت وقوع الفعل.",
+      "matching_pairs": null
+    },
+    {
+      "id": 50,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "اذكر أنواع النعت.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "نعت حقيقي، نعت سببي.",
+      "matching_pairs": null
+    },
+    {
+      "id": 51,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "المنادى خمسة أنواع، اذكر اثنين منها",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "المنادى المضاف، المنادى الشبيه بالمضاف، المنادى النكرة غير المقصودة، المنادى النكرة المقصودة، المنادى المفرد العلم. (أي اثنان)",
+      "matching_pairs": null
+    },
+    {
+      "id": 52,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "هات اسم الفاعل من الفعل الآتي: ساعد",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "مساعد",
+      "matching_pairs": null
+    },
+    {
+      "id": 53,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "عين المعطوف في الجملة الآتية. ما أكلت عنبا لكن تفاحا.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "تفاحا",
+      "matching_pairs": null
+    },
+    {
+      "id": 54,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "استخرج النعت من الجملة الآتية تفتحت الوردة الجميلة.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "الجميلة",
+      "matching_pairs": null
+    },
+    {
+      "id": 55,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "أكمل الفراغ في الجملة الآتية بتمييز مناسب: في الأسبوع سبعة أيام، وفي الشهر ثلاثون .",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "يوماً",
+      "matching_pairs": null
+    },
+    {
+      "id": 56,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "شارك في إعراب الجمل الآتية: رأيت الطلاب حتى زيدا.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "رأيت: فعل وفاعل. الطلاب: مفعول به منصوب بالفتحة. حتى: حرف عطف. زيدا: معطوف على (الطلاب) منصوب بالفتحة.",
+      "matching_pairs": null
+    },
+    {
+      "id": 57,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "شارك في إعراب الجمل الآتية: أكلت الخبز نصفه.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "أكلت: فعل وفاعل. الخبز: مفعول به منصوب بالفتحة. نصفه: بدل بعض من كل منصوب بالفتحة، والهاء مضاف إليه.",
+      "matching_pairs": null
+    },
+    {
+      "id": 58,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "شارك في إعراب الجمل الآتية: جاء الوزير نفسه.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "جاء: فعل ماض مبني على الفتح. الوزير: فاعل مرفوع بالضمة. نفسه: توكيد معنوي مرفوع بالضمة، والهاء مضاف إليه.",
+      "matching_pairs": null
+    },
+    {
+      "id": 59,
+      "section": "القسم الثاني: القواعد (النحو - الصرف - البلاغة)",
+      "question": "شارك في إعراب الجمل الآتية: بقي الجندي صامدا",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "بقي: فعل ماض مبني على الفتح. الجندي: فاعل مرفوع بالضمة. صامدا: حال منصوب بالفتحة.",
+      "matching_pairs": null
+    },
+    {
+      "id": 60,
+      "section": "القسم الثالث: الأدب",
+      "question": "ابتدأ عصر صدر الإسلام بـ.",
+      "diagram": null,
+      "options": [
+        "وفاة الرسول صلى الله عليه وسلم",
+        "بعثة الرسول صلى الله عليه وسلم",
+        "تولي علي رضي الله عنه الخلافة",
+        "قتل علي رضي الله عنه"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 61,
+      "section": "القسم الثالث: الأدب",
+      "question": "أسلم . رضي الله عنه، وأصبح شاعر الرسول صلى الله عليه وسلم.",
+      "diagram": null,
+      "options": [
+        "بلال بن رباح",
+        "أبو عبيدة بن الجراح",
+        "حسان بن ثابت",
+        "أنس بن مالك"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 62,
+      "section": "القسم الثالث: الأدب",
+      "question": "يطلق العصر العباسي على الفترة الممتدة من سنة .",
+      "diagram": null,
+      "options": [
+        "132 هـ - 656 هـ",
+        "123 هـ - 565 هـ",
+        "40 هـ - 132 هـ",
+        "40 هـ - 656 هـ"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 63,
+      "section": "القسم الثالث: الأدب",
+      "question": "يعتبر الشاعر. رائد شعر الزهد الذي ظهر في العصر العباسي",
+      "diagram": null,
+      "options": [
+        "امرؤ القيس",
+        "حسان بن ثابت",
+        "أبو الطيب المتنبي",
+        "أبو العتاهية"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 64,
+      "section": "القسم الثالث: الأدب",
+      "question": "أصبح الأدب العربي عالميا في العصر .",
+      "diagram": null,
+      "options": [
+        "الجاهلي",
+        "الحديث",
+        "العباسي",
+        "الأموي"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 65,
+      "section": "القسم الثالث: الأدب",
+      "question": "صل العبارة في (أ) بما يناسبها في (ب)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": [
+        {
+          "item": "الوشاة",
+          "match": "جمع الواشي، وهو النمام"
+        },
+        {
+          "item": "كف بصره",
+          "match": "فقد بصره وعمي"
+        },
+        {
+          "item": "العصر الحديث",
+          "match": "بدأ مع مطلع القرن التاسع عشر الميلادي"
+        },
+        {
+          "item": "رقيب",
+          "match": "مراقب، وهو الله سبحانه"
+        },
+        {
+          "item": "الغاوون",
+          "match": "يفسدون الأرض بشعرهم"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "section": "القسم الثالث: الأدب",
+      "question": "اذكر اثنين من شعراء عصر صدر الإسلام",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "حسان بن ثابت، كعب بن زهير، عبد الله بن رواحة. (أي اثنان)",
+      "matching_pairs": null
+    },
+    {
+      "id": 67,
+      "section": "القسم الثالث: الأدب",
+      "question": "ما أهم التغيرات السياسية التي شهدها العصر العباسي ؟",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "انتقال الخلافة من الأمويين إلى العباسيين، اتساع رقعة الدولة الإسلامية، ظهور دويلات مستقلة، ازدهار بغداد كمركز للخلافة. (أي تغيرين)",
+      "matching_pairs": null
+    },
+    {
+      "id": 68,
+      "section": "القسم الثالث: الأدب",
+      "question": "متى بدأ العصر الحديث؟",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "بدأ مع مطلع القرن التاسع عشر الميلادي.",
+      "matching_pairs": null
+    },
+    {
+      "id": 69,
+      "section": "القسم الثالث: الأدب",
+      "question": "اذكر اثنين من عصور ضعف الأدب العربي.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "العصر المملوكي، العصر العثماني. (أي اثنان)",
+      "matching_pairs": null
+    },
+    {
+      "id": 70,
+      "section": "القسم الثالث: الأدب",
+      "question": "من هو قائد المسلمين في معركة عين جالوت ؟",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "سيف الدين قطز.",
+      "matching_pairs": null
+    },
+    {
+      "id": 71,
+      "section": "القسم الرابع: التعبير",
+      "question": "اختر موضوعا واحدا من المواضيع الآتية، واكتب عنه ما لا يقل من عشرة أسطر:",
+      "diagram": null,
+      "options": [
+        "1. مراحل التعليم في بونت لاند (المرحلة الإبتدائية، المرحلة الإعدادية، المرحلة الثانوية، المرحلة الجامعية)",
+        "2. فوائد الإنترنت وأضراره (استخدام الإنترنت في التعليم، استخدام الإنترنت في الاتصال، استخدام الإنترنت في التجارة، أضرار استخدام الإنترنت)",
+        "3. اختيار الصديق الصالح (أهمية الصداقة في حياة الفرد، أنواع الأصدقاء، أثر الصديق على صديقه، صفات الصديق الصالح)"
+      ],
+      "correct_index": null,
+      "answer_guide": null,
+      "matching_pairs": null
+    }
+  ]
+}
