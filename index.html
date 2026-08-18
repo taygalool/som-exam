@@ -116,52 +116,120 @@
         // =========================================================
         // 📋 YOUR EXAM LIST (Exact matches to your GitHub repository)
         // =========================================================
- let availableExams = [];
-
-// Helper to generate dynamic badges for subjects
-function getBadgeInfo(subjectName = '') {
-    const sub = subjectName.toUpperCase();
-    if (sub.includes('SAYNIS') || sub.includes('SCI')) return { badge: 'SCI', bg: 'bg-amber-100 text-amber-600' };
-    if (sub.includes('ARAB') || sub.includes('عرب')) return { badge: 'ARA', bg: 'bg-emerald-100 text-emerald-600' };
-    if (sub.includes('SOOMAALI') || sub.includes('SOM')) return { badge: 'SOM', bg: 'bg-blue-100 text-blue-600' };
-    if (sub.includes('BIO')) return { badge: 'BIO', bg: 'bg-blue-100 text-blue-600' };
-    if (sub.includes('MATH') || sub.includes('HISEAB')) return { badge: 'MTH', bg: 'bg-purple-100 text-purple-600' };
-    if (sub.includes('PHYS')) return { badge: 'PHY', bg: 'bg-indigo-100 text-indigo-600' };
-    if (sub.includes('CHEM')) return { badge: 'CHM', bg: 'bg-rose-100 text-rose-600' };
-    if (sub.includes('ENG')) return { badge: 'ENG', bg: 'bg-sky-100 text-sky-600' };
-    if (sub.includes('GEO')) return { badge: 'GEO', bg: 'bg-teal-100 text-teal-600' };
-    if (sub.includes('ICT')) return { badge: 'ICT', bg: 'bg-cyan-100 text-cyan-600' };
-    if (sub.includes('HIST') || sub.includes('TAAR')) return { badge: 'HIS', bg: 'bg-orange-100 text-orange-600' };
-    return { badge: 'EXM', bg: 'bg-slate-100 text-slate-700' };
-}
-
-async function loadExamCatalog() {
-    try {
-        const response = await fetch('./exams/exams.json');
-        if (!response.ok) throw new Error('Catalog file not found');
-        availableExams = await response.json();
-        renderExamList();
-    } catch (err) {
-        console.error("Catalog fetch failed, falling back to direct load:", err);
+const availableExams = [
+    {
+        file: "./exams/puntland_8_arab_2018.json",
+        title: "اللغة العربية (Grade 8)",
+        subject: "Arabic",
+        region: "Puntland",
+        grade: 8,
+        year: 2018
+    },
+    {
+        file: "./exams/puntland_8_science_2015.json",
+        title: "Saynis (Grade 8)",
+        subject: "Science",
+        region: "Puntland",
+        grade: 8,
+        year: 2015
+    },
+    {
+        file: "./exams/puntland_f4_arabic_2025.json",
+        title: "اللغة العربية (Form 4)",
+        subject: "Arabic",
+        region: "Puntland",
+        grade: 12,
+        year: 2025
+    },
+    {
+        file: "./exams/puntland_f4_chemistry_2025.json",
+        title: "Chemistry (Form 4)",
+        subject: "Chemistry",
+        region: "Puntland",
+        grade: 12,
+        year: 2025
+    },
+    {
+        file: "./exams/puntland_f4_Geography_2025.json",
+        title: "Geography (Form 4)",
+        subject: "Geography",
+        region: "Puntland",
+        grade: 12,
+        year: 2025
+    },
+    {
+        file: "./exams/puntland_f4_history_2025.json",
+        title: "Taariikh / History (Form 4)",
+        subject: "History",
+        region: "Puntland",
+        grade: 12,
+        year: 2025
+    },
+    {
+        file: "./exams/puntland_f4_ICT_2025.json",
+        title: "ICT (Form 4)",
+        subject: "ICT",
+        region: "Puntland",
+        grade: 12,
+        year: 2025
+    },
+    {
+        file: "./exams/puntland_f4_physics_2025.json",
+        title: "Physics (Form 4)",
+        subject: "Physics",
+        region: "Puntland",
+        grade: 12,
+        year: 2025
+    },
+    {
+        file: "./exams/somalia_bio_2020.json",
+        title: "Biology (National)",
+        subject: "Biology",
+        region: "Somalia",
+        grade: 12,
+        year: 2020
+    },
+    {
+        file: "./exams/puntland_f4_arabic_2015.json",
+        title: "اللغة العربية (Form 4)",
+        subject: "Arabic",
+        region: "Puntland",
+        grade: 12,
+        year: 2015
+    },
+    {
+        file: "./exams/puntland_f4_soomaali_2015.json",
+        title: "Af Soomaali 2015 (Form 4)",
+        subject: "Soomaali",
+        region: "Puntland",
+        grade: 12,
+        year: 2015
+    },
+    {
+        file: "./exams/puntland_f4_soomaali_2016.json",
+        title: "Af Soomaali 2016 (Form 4)",
+        subject: "Soomaali",
+        region: "Puntland",
+        grade: 12,
+        year: 2016
+    },
+    {
+        file: "./exams/puntland_f4_soomaali_2017.json",
+        title: "Af Soomaali 2017 (Form 4)",
+        subject: "Soomaali",
+        region: "Puntland",
+        grade: 12,
+        year: 2017
+    },
+    {
+        file: "./exams/puntland_f4_soomaali_2018.json",
+        title: "Af Soomaali 2018 (Form 4)",
+        subject: "Soomaali",
+        region: "Puntland",
+        grade: 12,
+        year: 2018
     }
-}
-
-window.addEventListener('DOMContentLoaded', () => {
-    loadExamCatalog();
-
-    const urlParams = new URLSearchParams(window.location.search);
-    const file = urlParams.get('file');
-    const region = urlParams.get('region');
-    const grade = urlParams.get('grade');
-    const subject = urlParams.get('subject');
-    const year = urlParams.get('year');
-
-    if (file) {
-        fetchAndStartExam(file);
-    } else if (region && grade && subject && year) {
-        fetchAndStartExam(`./exams/${region}_${grade}_${subject}_${year}.json`);
-    }
-});
+];
 
         let tg = null;
 
