@@ -116,80 +116,35 @@
         // =========================================================
         // 📋 YOUR EXAM LIST (Exact matches to your GitHub repository)
         // =========================================================
-        const availableExams = [
-            {
-                file: "./exams/puntland_8_arab_2018.json",
-                title: "اللغة العربية (Grade 8)",
-                subject: "Arabic",
-                region: "Puntland",
-                grade: 8,
-                year: 2018
-            },
-            {
-                file: "./exams/puntland_8_science_2015.json",
-                title: "Saynis (Grade 8)",
-                subject: "Science",
-                region: "Puntland",
-                grade: 8,
-                year: 2015
-            },
-            {
-                file: "./exams/puntland_f4_arabic_2025.json",
-                title: "اللغة العربية (Form 4)",
-                subject: "Arabic",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/puntland_f4_chemistry_2025.json",
-                title: "Chemistry (Form 4)",
-                subject: "Chemistry",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/puntland_f4_Geography_2025.json",
-                title: "Geography (Form 4)",
-                subject: "Geography",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/puntland_f4_history_2025.json",
-                title: "Taariikh / History (Form 4)",
-                subject: "History",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/puntland_f4_ICT_2025.json",
-                title: "ICT (Form 4)",
-                subject: "ICT",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/puntland_f4_physics_2025.json",
-                title: "Physics (Form 4)",
-                subject: "Physics",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/somalia_bio_2020.json",
-                title: "Biology (National)",
-                subject: "Biology",
-                region: "Somalia",
-                grade: 12,
-                year: 2020
-            }
-        ];
+       let availableExams = [];
+
+async function loadExamCatalog() {
+    try {
+        const response = await fetch('./exams/exams.json');
+        if (!response.ok) throw new Error('Catalog missing');
+        availableExams = await response.json();
+        renderExamList();
+    } catch (err) {
+        console.error("Could not load exam index:", err);
+    }
+}
+
+window.addEventListener('DOMContentLoaded', () => {
+    loadExamCatalog();
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const file = urlParams.get('file');
+    const region = urlParams.get('region');
+    const grade = urlParams.get('grade');
+    const subject = urlParams.get('subject');
+    const year = urlParams.get('year');
+
+    if (file) {
+        fetchAndStartExam(file);
+    } else if (region && grade && subject && year) {
+        fetchAndStartExam(`./exams/${region}_${grade}_${subject}_${year}.json`);
+    }
+});
 
         let tg = null;
 
