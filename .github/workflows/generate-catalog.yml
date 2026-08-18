@@ -1,0 +1,62 @@
+name: Generate Exam Catalog
+
+on:
+  push:
+    paths:
+      - 'exams/**.json'
+
+jobs:
+  build-catalog:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Generate Index JSON
+        run: |
+          python -c "
+          import os, json, re
+
+          exams_dir = './exams'
+          catalog = []
+
+          for fname in sorted(os.listdir(exams_dir)):
+              if fname.endswith('.json') and fname != 'exams.json':
+                  fpath = os.path.join(exams_dir, fname)
+                  try:
+                      with open(fpath, 'r', encoding='utf-8') as f:
+                          data = json.load(f)
+                          
+                          meta = data.get('exam_meta', {})
+                          title = meta.get('title') or data.get('title')
+                          
+                          if not title:
+                              clean_name = fname.replace('.json', '').replace('_', ' ').title()
+                              title = clean_name
+
+                          catalog.append({
+                              'file': f'./exams/{fname}',
+                              'title': title,
+                              'subject': meta.get('subject') or 'General',
+                              'region': meta.get('region') or ('Puntland' if 'puntland' in fname else 'Somalia'),
+                              'grade': meta.get('grade') or (8 if '_8_' in fname else 12),
+                              'year': meta.get('year') or (re.search(r'\d{4}', fname).group(0) if re.search(r'\d{4}', fname) else '')
+                          })
+                  except Exception as e:
+                      print(f'Error reading {fname}: {e}')
+
+          with open(os.path.join(exams_dir, 'exams.json'), 'w', encoding='utf-8') as out:
+              json.dump(catalog, out, ensure_ascii=False, indent=2)
+          "
+
+      - name: Commit Updated Catalog
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add exams/exams.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update exams catalog"
+          git push
