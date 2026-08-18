@@ -116,16 +116,33 @@
         // =========================================================
         // 📋 YOUR EXAM LIST (Exact matches to your GitHub repository)
         // =========================================================
-       let availableExams = [];
+ let availableExams = [];
+
+// Helper to generate dynamic badges for subjects
+function getBadgeInfo(subjectName = '') {
+    const sub = subjectName.toUpperCase();
+    if (sub.includes('SAYNIS') || sub.includes('SCI')) return { badge: 'SCI', bg: 'bg-amber-100 text-amber-600' };
+    if (sub.includes('ARAB') || sub.includes('عرب')) return { badge: 'ARA', bg: 'bg-emerald-100 text-emerald-600' };
+    if (sub.includes('SOOMAALI') || sub.includes('SOM')) return { badge: 'SOM', bg: 'bg-blue-100 text-blue-600' };
+    if (sub.includes('BIO')) return { badge: 'BIO', bg: 'bg-blue-100 text-blue-600' };
+    if (sub.includes('MATH') || sub.includes('HISEAB')) return { badge: 'MTH', bg: 'bg-purple-100 text-purple-600' };
+    if (sub.includes('PHYS')) return { badge: 'PHY', bg: 'bg-indigo-100 text-indigo-600' };
+    if (sub.includes('CHEM')) return { badge: 'CHM', bg: 'bg-rose-100 text-rose-600' };
+    if (sub.includes('ENG')) return { badge: 'ENG', bg: 'bg-sky-100 text-sky-600' };
+    if (sub.includes('GEO')) return { badge: 'GEO', bg: 'bg-teal-100 text-teal-600' };
+    if (sub.includes('ICT')) return { badge: 'ICT', bg: 'bg-cyan-100 text-cyan-600' };
+    if (sub.includes('HIST') || sub.includes('TAAR')) return { badge: 'HIS', bg: 'bg-orange-100 text-orange-600' };
+    return { badge: 'EXM', bg: 'bg-slate-100 text-slate-700' };
+}
 
 async function loadExamCatalog() {
     try {
         const response = await fetch('./exams/exams.json');
-        if (!response.ok) throw new Error('Catalog missing');
+        if (!response.ok) throw new Error('Catalog file not found');
         availableExams = await response.json();
         renderExamList();
     } catch (err) {
-        console.error("Could not load exam index:", err);
+        console.error("Catalog fetch failed, falling back to direct load:", err);
     }
 }
 
