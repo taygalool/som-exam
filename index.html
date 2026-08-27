@@ -346,29 +346,64 @@ const availableExams = [
 
 function normalizeExamData(data) {
     let title = data.title || (data.exam_meta && data.exam_meta.title) || "Imtixaan";
-    let sections = [];
+    let sectionsMap = new Map();
 
-    if (data.sections && Array.isArray(data.sections)) {
-        sections = data.sections;
-    } else if (data.pages && Array.isArray(data.pages)) {
-        // Map page-based JSON manifests into interactive sections
-        sections = data.pages.map((p, idx) => ({
-            title: p.section || `Page ${p.page_number || idx + 1}`,
-            questions: p.questions || []
-        }));
+    // Helper to standardize question schema on the fly
+    const normalizeQuestion = (q) => {
+        // Resolve question prompt text variations
+        const questionText = q.question || q.question_text || q.text || q.prompt || "";
+
+        // Format options array cleanly regardless of JSON structure
+        let normalizedOptions = [];
+        if (Array.isArray(q.options)) {
+            normalizedOptions = q.options.map(opt => {
+                if (typeof opt === 'object' && opt !== null) {
+                    const label = opt.label || opt.key || '';
+                    const text = opt.text || opt.value || opt.content || '';
+                    return label ? `${label}. ${text}` : text;
+                }
+                return opt;
+            });
+        } else if (q.options && typeof q.options === 'object') {
+            normalizedOptions = Object.entries(q.options).map(([k, v]) => `${k}. ${v}`);
+        }
+
+        return {
+            ...q,
+            question: questionText,
+            options: normalizedOptions
+        };
+    };
+
+    if (data.pages && Array.isArray(data.pages)) {
+        data.pages.forEach((p, idx) => {
+            const secTitle = p.section || `Page ${p.page_number || idx + 1}`;
+            if (!sectionsMap.has(secTitle)) {
+                sectionsMap.set(secTitle, { title: secTitle, questions: [] });
+            }
+            const processedQuestions = (p.questions || []).map(normalizeQuestion);
+            sectionsMap.get(secTitle).questions.push(...processedQuestions);
+        });
+    } else if (data.sections && Array.isArray(data.sections)) {
+        data.sections.forEach(sec => {
+            const secTitle = sec.title || "Section";
+            if (!sectionsMap.has(secTitle)) {
+                sectionsMap.set(secTitle, { title: secTitle, questions: [] });
+            }
+            const processedQuestions = (sec.questions || []).map(normalizeQuestion);
+            sectionsMap.get(secTitle).questions.push(...processedQuestions);
+        });
     } else if (data.questions && Array.isArray(data.questions)) {
-        const map = new Map();
         data.questions.forEach(q => {
             const secTitle = q.section || "Suaalaha Guud";
-            if (!map.has(secTitle)) {
-                map.set(secTitle, { title: secTitle, questions: [] });
+            if (!sectionsMap.has(secTitle)) {
+                sectionsMap.set(secTitle, { title: secTitle, questions: [] });
             }
-            map.get(secTitle).questions.push(q);
+            sectionsMap.get(secTitle).questions.push(normalizeQuestion(q));
         });
-        sections = Array.from(map.values());
     }
 
-    return { title, sections, raw: data };
+    return { title, sections: Array.from(sectionsMap.values()), raw: data };
 }
 
         function showLoading(isLoading, text = "Soo raraya...") {
