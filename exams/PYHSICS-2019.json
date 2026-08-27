@@ -1,0 +1,154 @@
+{
+  "exam_id": "PUNTLAND-PHYSICS-2019",
+  "title": "Form Four Physics National Examination 2019",
+  "total_pages": 15,
+  "pages": [
+    {
+      "page_number": 3,
+      "section": "Part One: Multiple Choice",
+      "questions": [
+        { "id": "q1", "type": "multiple_choice", "label": "Q1 (Thermistor Symbol)", "options": ["A", "B", "C", "D"] },
+        { "id": "q2", "type": "multiple_choice", "label": "Q2 (Thermometer Reading)", "options": ["A", "B", "C", "D"] },
+        { "id": "q3", "type": "multiple_choice", "label": "Q3 (Fish Pressure)", "options": ["A", "B", "C", "D"] },
+        { "id": "q4", "type": "multiple_choice", "label": "Q4 (Car Forces)", "options": ["A", "B", "C", "D"] }
+      ]
+    },
+    {
+      "page_number": 4,
+      "section": "Part One: Multiple Choice",
+      "questions": [
+        { "id": "q5", "type": "multiple_choice", "label": "Q5 (Greatest Pressure Block)", "options": ["A", "B", "C", "D"] },
+        { "id": "q6", "type": "multiple_choice", "label": "Q6 (Resistor IV Graph)", "options": ["A", "B", "C", "D"] },
+        { "id": "q7", "type": "multiple_choice", "label": "Q7 (Wave Frequency)", "options": ["A", "B", "C", "D"] }
+      ]
+    },
+    {
+      "page_number": 5,
+      "section": "Part One: Multiple Choice",
+      "questions": [
+        { "id": "q8", "type": "multiple_choice", "label": "Q8 (Charged Rod Sphere)", "options": ["A", "B", "C", "D"] },
+        { "id": "q9", "type": "multiple_choice", "label": "Q9 (Solar Energy)", "options": ["A", "B", "C", "D"] },
+        { "id": "q10", "type": "multiple_choice", "label": "Q10 (3rd Class Lever)", "options": ["A", "B", "C", "D"] }
+      ]
+    },
+    {
+      "page_number": 6,
+      "section": "Part Two: Question 1 - Waves",
+      "questions": [
+        { "id": "q1_a_i", "type": "short_text", "label": "A. Diagram A is..." },
+        { "id": "q1_a_ii", "type": "short_text", "label": "A. Diagram B is..." },
+        { "id": "q1_a_iii", "type": "short_text", "label": "A. Diagram C is..." },
+        { "id": "q1_b_A", "type": "short_text", "label": "B. Radiation A name" },
+        { "id": "q1_b_B", "type": "short_text", "label": "B. Radiation B name" },
+        { "id": "q1_c_i", "type": "short_text", "label": "C.i Smallest wavelength station" },
+        { "id": "q1_c_ii", "type": "number", "unit": "meters", "label": "C.ii Wavelength calculation (m)" }
+      ]
+    },
+    {
+      "page_number": 7,
+      "section": "Part Two: Question 2 - Motion",
+      "questions": [
+        { "id": "q2_a_i_1", "type": "number", "unit": "seconds", "label": "A.i Accelerates during first (s)" },
+        { "id": "q2_a_i_2", "type": "number", "unit": "seconds", "label": "A.i Decelerates during last (s)" },
+        { "id": "q2_a_ii", "type": "number", "unit": "m/s", "label": "A.ii Speed along BC (m/s)" },
+        { "id": "q2_a_iii", "type": "number", "unit": "meters", "label": "A.iii Distance in first 100s (m)" },
+        { "id": "q2_b_i", "type": "short_text", "label": "B.i Centripetal force provider" },
+        { "id": "q2_b_ii", "type": "dropdown", "options": ["Larger", "Smaller"], "label": "B.ii Force required if faster" },
+        { "id": "q2_b_iii", "type": "dropdown", "options": ["Larger", "Smaller"], "label": "B.iii Force required if radius decreased" },
+        { "id": "q2_c", "type": "number", "unit": "m/s²", "label": "C. Centripetal acceleration (m/s²)" }
+      ]
+    },
+    {
+      "page_number": 8,
+      "section": "Part Two: Question 3 - Forces",
+      "questions": [
+        { "id": "q3_a_ii", "type": "short_text", "label": "A.II Product of velocity and mass" },
+        { "id": "q3_a_iii", "type": "short_text", "label": "A.III Product of force & perp distance" },
+        { "id": "q3_a_iv", "type": "short_text", "label": "A.IV Resistance to change state of motion" },
+        { "id": "q3_b", "type": "number", "unit": "kg m/s", "label": "B. Momentum calculation (kg m/s)" },
+        { "id": "q3_e", "type": "long_text", "label": "E. State Archimedes's principle" },
+        { "id": "q3_f", "type": "number", "unit": "N", "label": "F. Buoyancy force on ship (N)" },
+        { "id": "q3_g", "type": "long_text", "label": "G. Why ship floats but nails sink" }
+      ]
+    },
+    {
+      "page_number": 9,
+      "section": "Part Two: Question 4 - Electronics",
+      "questions": [
+        { "id": "q4_a_i", "type": "short_text", "label": "A.I Output device producing sound" },
+        { "id": "q4_a_ii", "type": "short_text", "label": "A.II Glows when small current flows" },
+        { "id": "q4_a_iii", "type": "short_text", "label": "A.III Lower resistance when heated" },
+        { "id": "q4_a_iv", "type": "short_text", "label": "A.IV Lower resistance when light shines" },
+        { "id": "q4_c", "type": "dropdown", "options": ["X", "Y"], "label": "C. OR gate symbol" },
+        { "id": "q4_d_table", "type": "grid_inputs", "rows": ["0,0", "0,1", "1,0", "1,1"], "label": "D. Truth table outputs" },
+        { "id": "q4_e", "type": "long_text", "label": "E. Importance of electronics in real life" }
+      ]
+    },
+    {
+      "page_number": 10,
+      "section": "Part Two: Question 5 - Light",
+      "questions": [
+        { "id": "q5_a_i", "type": "dropdown", "options": ["Convex", "Concave"], "label": "A.I Lens type" },
+        { "id": "q5_a_ii", "type": "dropdown", "options": ["Real", "Virtual"], "label": "A.II Image type" },
+        { "id": "q5_a_iii", "type": "number", "unit": "cm", "label": "A.III Image position (cm)" },
+        { "id": "q5_b", "type": "long_text", "label": "B. Two practical applications of lenses" },
+        { "id": "q5_c", "type": "short_text", "label": "C. Red + Green color result" },
+        { "id": "q5_d_i", "type": "long_text", "label": "D.i Why ray at A is NOT bent" },
+        { "id": "q5_d_ii", "type": "long_text", "label": "D.ii Why ray AB is reflected, not refracted" }
+      ]
+    },
+    {
+      "page_number": 11,
+      "section": "Part Two: Question 6 - Electricity",
+      "questions": [
+        { "id": "q6_a_i", "type": "short_text", "label": "A.I Component A name" },
+        { "id": "q6_a_ii", "type": "short_text", "label": "A.II Component B name" },
+        { "id": "q6_a_iii", "type": "short_text", "label": "A.III Component D name" },
+        { "id": "q6_b_i", "type": "number", "unit": "Ω", "label": "B.I Total resistance (Ω)" },
+        { "id": "q6_b_ii", "type": "number", "unit": "A", "label": "B.II Total current (A)" },
+        { "id": "q6_b_iii", "type": "long_text", "label": "B.III Why fuse placed in live wire" },
+        { "id": "q6_b_iv_fuse", "type": "long_text", "label": "B.IV How fuse prevents large current" },
+        { "id": "q6_b_iv_cost", "type": "number", "unit": "s.sh", "label": "B.IV Energy cost calculation (s.sh)" }
+      ]
+    },
+    {
+      "page_number": 12,
+      "section": "Part Two: Question 7 - Radioactivity",
+      "questions": [
+        { "id": "q7_a_i", "type": "number", "unit": "days", "label": "A.i Half-life estimate (days)" },
+        { "id": "q7_a_ii", "type": "number", "unit": "becquerels", "label": "A.ii Activity after 6 days (Bq)" },
+        { "id": "q7_b_i", "type": "short_text", "label": "B.i Particle emitted" },
+        { "id": "q7_b_ii", "type": "number", "label": "B.ii Relative charge of particle" },
+        { "id": "q7_c", "type": "long_text", "label": "C. Why Beta used over Alpha/Gamma" },
+        { "id": "q7_d_i", "type": "short_text", "label": "D.I Least penetrating radiation" },
+        { "id": "q7_d_ii", "type": "short_text", "label": "D.II Radiation not deflected by electric field" },
+        { "id": "q7_d_iii", "type": "short_text", "label": "D.III Radiation with negative charge" }
+      ]
+    },
+    {
+      "page_number": 13,
+      "section": "Part Two: Question 8 - Electromagnetic Induction",
+      "questions": [
+        { "id": "q8_a_i", "type": "short_text", "label": "A.i Part made of Iron" },
+        { "id": "q8_a_ii", "type": "short_text", "label": "A.ii Part made of Copper" },
+        { "id": "q8_b", "type": "long_text", "label": "B. Reason why core is used" },
+        { "id": "q8_c", "type": "short_text", "label": "C. Type of transformer (Step-up/Step-down)" },
+        { "id": "q8_d_i", "type": "short_text", "label": "D.i Step-up transformer letter (J, K, L, M)" },
+        { "id": "q8_d_ii", "type": "long_text", "label": "D.ii Why step-up transformer used in National Grid" },
+        { "id": "q8_e", "type": "long_text", "label": "E. Why Nail A holds more clips than Nail B" }
+      ]
+    },
+    {
+      "page_number": 14,
+      "section": "Part Two: Question 9 - Heat & Temperature",
+      "questions": [
+        { "id": "q9_a_i", "type": "long_text", "label": "A.I State Boyle's law of gases" },
+        { "id": "q9_a_ii", "type": "long_text", "label": "A.II Define pressure" },
+        { "id": "q9_a_iii", "type": "number", "unit": "cm³", "label": "A.III New gas volume calculation (cm³)" },
+        { "id": "q9_b_i", "type": "long_text", "label": "B.i Heat transfer: Sun to panel" },
+        { "id": "q9_b_ii", "type": "long_text", "label": "B.ii Heat transfer: Pipe to tank water" },
+        { "id": "q9_b_iii", "type": "number", "unit": "Joules", "label": "B.iii Quantity of heat absorbed (J)" }
+      ]
+    }
+  ]
+}
