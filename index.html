@@ -114,130 +114,130 @@
     <!-- APPLICATION LOGIC -->
     <script>
         // =========================================================
-        // 📋 YOUR EXAM LIST (Exact matches to your GitHub repository)
+        // 📋 YOUR EXAM LIST
         // =========================================================
-const availableExams = [
-    {
-        file: "./exams/PHYSICS-2019.json", // Matches exact filename in your exams/ folder
-        title: "Physics (Form 4 - 2019)",
-        subject: "Physics",
-        region: "Puntland",
-        grade: 12,
-        year: 2019
-    },
-    {
-        file: "./exams/puntland_8_arab_2018.json",
-        title: "اللغة العربية (Grade 8)",
-        subject: "Arabic",
-        region: "Puntland",
-        grade: 8,
-        year: 2018
-    },
-    {
-        file: "./exams/puntland_8_science_2015.json",
-        title: "Saynis (Grade 8)",
-        subject: "Science",
-        region: "Puntland",
-        grade: 8,
-        year: 2015
-    },
-    {
-        file: "./exams/puntland_f4_arabic_2025.json",
-        title: "اللغة العربية (Form 4)",
-        subject: "Arabic",
-        region: "Puntland",
-        grade: 12,
-        year: 2025
-    },
-    {
-        file: "./exams/puntland_f4_chemistry_2025.json",
-        title: "Chemistry (Form 4)",
-        subject: "Chemistry",
-        region: "Puntland",
-        grade: 12,
-        year: 2025
-    },
-    {
-        file: "./exams/puntland_f4_Geography_2025.json",
-        title: "Geography (Form 4)",
-        subject: "Geography",
-        region: "Puntland",
-        grade: 12,
-        year: 2025
-    },
-    {
-        file: "./exams/puntland_f4_history_2025.json",
-        title: "Taariikh / History (Form 4)",
-        subject: "History",
-        region: "Puntland",
-        grade: 12,
-        year: 2025
-    },
-    {
-        file: "./exams/puntland_f4_ICT_2025.json",
-        title: "ICT (Form 4)",
-        subject: "ICT",
-        region: "Puntland",
-        grade: 12,
-        year: 2025
-    },
-    {
-        file: "./exams/puntland_f4_physics_2025.json",
-        title: "Physics (Form 4 2025)",
-        subject: "Physics",
-        region: "Puntland",
-        grade: 12,
-        year: 2025
-    },
-    {
-        file: "./exams/somalia_bio_2020.json",
-        title: "Biology (National)",
-        subject: "Biology",
-        region: "Somalia",
-        grade: 12,
-        year: 2020
-    },
-    {
-        file: "./exams/puntland_f4_arabic_2015.json",
-        title: "اللغة العربية (Form 4)",
-        subject: "Arabic",
-        region: "Puntland",
-        grade: 12,
-        year: 2015
-    },
-    {
-        file: "./exams/puntland_f4_soomaali_2015.json",
-        title: "Af Soomaali 2015 (Form 4)",
-        subject: "Soomaali",
-        region: "Puntland",
-        grade: 12,
-        year: 2015
-    },
-    {
-        file: "./exams/puntland_f4_soomaali_2016.json",
-        title: "Af Soomaali 2016 (Form 4)",
-        subject: "Soomaali",
-        region: "Puntland",
-        grade: 12,
-        year: 2016
-    },
-    {
-        file: "./exams/puntland_f4_soomaali_2017.json",
-        title: "Af Soomaali 2017 (Form 4)",
-        subject: "Soomaali",
-        region: "Puntland",
-        grade: 12,
-        year: 2017
-    },
-    {
-        file: "./exams/puntland_f4_soomaali_2018.json",
-        title: "Af Soomaali 2018 (Form 4)",
-        subject: "Soomaali",
-        region: "Puntland",
-        grade: 12,
-        year: 2018
-    }
-];
+        const availableExams = [
+            {
+                file: "./exams/PHYSICS-2019.json",
+                title: "Physics (Form 4 - 2019)",
+                subject: "Physics",
+                region: "Puntland",
+                grade: 12,
+                year: 2019
+            },
+            {
+                file: "./exams/puntland_8_arab_2018.json",
+                title: "اللغة العربية (Grade 8)",
+                subject: "Arabic",
+                region: "Puntland",
+                grade: 8,
+                year: 2018
+            },
+            {
+                file: "./exams/puntland_8_science_2015.json",
+                title: "Saynis (Grade 8)",
+                subject: "Science",
+                region: "Puntland",
+                grade: 8,
+                year: 2015
+            },
+            {
+                file: "./exams/puntland_f4_arabic_2025.json",
+                title: "اللغة العربية (Form 4)",
+                subject: "Arabic",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_chemistry_2025.json",
+                title: "Chemistry (Form 4)",
+                subject: "Chemistry",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_Geography_2025.json",
+                title: "Geography (Form 4)",
+                subject: "Geography",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_history_2025.json",
+                title: "Taariikh / History (Form 4)",
+                subject: "History",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_ICT_2025.json",
+                title: "ICT (Form 4)",
+                subject: "ICT",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/puntland_f4_physics_2025.json",
+                title: "Physics (Form 4 2025)",
+                subject: "Physics",
+                region: "Puntland",
+                grade: 12,
+                year: 2025
+            },
+            {
+                file: "./exams/somalia_bio_2020.json",
+                title: "Biology (National)",
+                subject: "Biology",
+                region: "Somalia",
+                grade: 12,
+                year: 2020
+            },
+            {
+                file: "./exams/puntland_f4_arabic_2015.json",
+                title: "اللغة العربية (Form 4)",
+                subject: "Arabic",
+                region: "Puntland",
+                grade: 12,
+                year: 2015
+            },
+            {
+                file: "./exams/puntland_f4_soomaali_2015.json",
+                title: "Af Soomaali 2015 (Form 4)",
+                subject: "Soomaali",
+                region: "Puntland",
+                grade: 12,
+                year: 2015
+            },
+            {
+                file: "./exams/puntland_f4_soomaali_2016.json",
+                title: "Af Soomaali 2016 (Form 4)",
+                subject: "Soomaali",
+                region: "Puntland",
+                grade: 12,
+                year: 2016
+            },
+            {
+                file: "./exams/puntland_f4_soomaali_2017.json",
+                title: "Af Soomaali 2017 (Form 4)",
+                subject: "Soomaali",
+                region: "Puntland",
+                grade: 12,
+                year: 2017
+            },
+            {
+                file: "./exams/puntland_f4_soomaali_2018.json",
+                title: "Af Soomaali 2018 (Form 4)",
+                subject: "Soomaali",
+                region: "Puntland",
+                grade: 12,
+                year: 2018
+            }
+        ];
 
         let tg = null;
 
@@ -264,10 +264,8 @@ const availableExams = [
         const canvas = document.getElementById('question-canvas');
 
         window.addEventListener('DOMContentLoaded', () => {
-            // Render home screen instantly from internal array
             renderExamList();
 
-            // Check if user opened app via dynamic direct link
             const urlParams = new URLSearchParams(window.location.search);
             const file = urlParams.get('file');
             const region = urlParams.get('region');
@@ -282,7 +280,6 @@ const availableExams = [
             }
         });
 
-        // Helper to generate dynamic badges for subjects
         function getBadgeInfo(subjectName = '') {
             const sub = subjectName.toUpperCase();
             if (sub.includes('SAYNIS') || sub.includes('SCI')) return { badge: 'SCI', bg: 'bg-amber-100 text-amber-600' };
@@ -298,7 +295,6 @@ const availableExams = [
             return { badge: 'EXM', bg: 'bg-slate-100 text-slate-700' };
         }
 
-        // Dynamic Card Renderer
         function renderExamList() {
             const grid = document.getElementById('exam-cards-grid');
             grid.innerHTML = '';
@@ -332,7 +328,11 @@ const availableExams = [
             showLoading(true, "Soo raraya imtixaanka...");
 
             try {
-                const response = await fetch(filePath);
+                let response = await fetch(filePath);
+                if (!response.ok && filePath.includes('PHYSICS-2019.json')) {
+                    // Fallback attempt for typo variation in filename
+                    response = await fetch('./exams/PYHSICS-2019.json');
+                }
                 if (!response.ok) throw new Error(`Faylka imtixaanka ma furmin ama ma jiro: ${filePath}`);
                 
                 rawExamData = await response.json();
@@ -344,74 +344,89 @@ const availableExams = [
             }
         }
 
-function normalizeExamData(data) {
-    let title = data.title || (data.exam_meta && data.exam_meta.title) || "Imtixaan";
-    let sectionsMap = new Map();
+        function normalizeExamData(data) {
+            let title = data.title || (data.exam_meta && data.exam_meta.title) || "Imtixaan";
+            let sectionsMap = new Map();
 
-    // Helper to standardize question schema on the fly
-const normalizeQuestion = (q) => {
-    // 1. Fallback chain for question prompt text
-    const questionText = q.question || q.question_text || q.statement || q.stem || q.text || q.prompt || q.body || "";
+            const normalizeQuestion = (q, secIdx, qIdx) => {
+                // Ensure every question has a unique ID string
+                const uniqueId = (q.id !== undefined && q.id !== null) ? String(q.id) : `sec${secIdx}_q${qIdx}`;
 
-    // 2. Fallback chain for options/choices array
-    const rawOptions = q.options || q.choices || [];
-    let normalizedOptions = [];
+                // Question text fallback extraction
+                const questionText = q.prompt || q.question || q.question_text || q.statement || q.stem || q.text || q.body || q.title || "";
 
-    if (Array.isArray(rawOptions)) {
-        normalizedOptions = rawOptions.map(opt => {
-            if (typeof opt === 'object' && opt !== null) {
-                const label = opt.label || opt.key || opt.id || opt.option || '';
-                const text = opt.text || opt.value || opt.content || opt.statement || opt.choice || '';
-                
-                if (label && text) return `${label}. ${text}`;
-                return text || label;
+                // Options / choices extraction and formatting
+                const rawOptions = q.options || q.choices || q.answers || [];
+                let normalizedOptions = [];
+
+                if (Array.isArray(rawOptions)) {
+                    normalizedOptions = rawOptions.map(opt => {
+                        if (typeof opt === 'object' && opt !== null) {
+                            const label = opt.label || opt.key || opt.id || opt.option || opt.letter || '';
+                            const text = opt.text || opt.value || opt.content || opt.statement || opt.choice || '';
+                            if (label && text) {
+                                if (text.trim().startsWith(`${label}.`) || text.trim().startsWith(`${label}:`)) {
+                                    return text;
+                                }
+                                return `${label}. ${text}`;
+                            }
+                            return text || label;
+                        }
+                        return String(opt);
+                    });
+                } else if (rawOptions && typeof rawOptions === 'object') {
+                    normalizedOptions = Object.entries(rawOptions).map(([k, v]) => {
+                        const valText = (typeof v === 'object' && v !== null) ? (v.text || v.value || v.content || '') : String(v);
+                        return `${k}. ${valText}`;
+                    });
+                }
+
+                return {
+                    ...q,
+                    id: uniqueId,
+                    question: questionText,
+                    prompt: questionText,
+                    options: normalizedOptions
+                };
+            };
+
+            if (data.pages && Array.isArray(data.pages)) {
+                data.pages.forEach((p, pIdx) => {
+                    const secTitle = p.section || `Page ${p.page_number || pIdx + 1}`;
+                    if (!sectionsMap.has(secTitle)) {
+                        sectionsMap.set(secTitle, { title: secTitle, questions: [] });
+                    }
+                    const secObj = sectionsMap.get(secTitle);
+                    const processedQuestions = (p.questions || []).map((q, qIdx) => 
+                        normalizeQuestion(q, sectionsMap.size, secObj.questions.length + qIdx)
+                    );
+                    secObj.questions.push(...processedQuestions);
+                });
+            } else if (data.sections && Array.isArray(data.sections)) {
+                data.sections.forEach((sec, sIdx) => {
+                    const secTitle = sec.title || sec.name || `Qaybta ${sIdx + 1}`;
+                    if (!sectionsMap.has(secTitle)) {
+                        sectionsMap.set(secTitle, { title: secTitle, questions: [] });
+                    }
+                    const secObj = sectionsMap.get(secTitle);
+                    const processedQuestions = (sec.questions || []).map((q, qIdx) => 
+                        normalizeQuestion(q, sIdx, secObj.questions.length + qIdx)
+                    );
+                    secObj.questions.push(...processedQuestions);
+                });
+            } else if (data.questions && Array.isArray(data.questions)) {
+                data.questions.forEach((q, qIdx) => {
+                    const secTitle = q.section || "Suaalaha Guud";
+                    if (!sectionsMap.has(secTitle)) {
+                        sectionsMap.set(secTitle, { title: secTitle, questions: [] });
+                    }
+                    const secObj = sectionsMap.get(secTitle);
+                    secObj.questions.push(normalizeQuestion(q, 0, secObj.questions.length));
+                });
             }
-            return opt;
-        });
-    } else if (rawOptions && typeof rawOptions === 'object') {
-        normalizedOptions = Object.entries(rawOptions).map(([k, v]) => {
-            const valText = typeof v === 'object' ? (v.text || v.value || '') : v;
-            return `${k}. ${valText}`;
-        });
-    }
 
-    return {
-        ...q,
-        question: questionText,
-        options: normalizedOptions
-    };
-};
-
-    if (data.pages && Array.isArray(data.pages)) {
-        data.pages.forEach((p, idx) => {
-            const secTitle = p.section || `Page ${p.page_number || idx + 1}`;
-            if (!sectionsMap.has(secTitle)) {
-                sectionsMap.set(secTitle, { title: secTitle, questions: [] });
-            }
-            const processedQuestions = (p.questions || []).map(normalizeQuestion);
-            sectionsMap.get(secTitle).questions.push(...processedQuestions);
-        });
-    } else if (data.sections && Array.isArray(data.sections)) {
-        data.sections.forEach(sec => {
-            const secTitle = sec.title || "Section";
-            if (!sectionsMap.has(secTitle)) {
-                sectionsMap.set(secTitle, { title: secTitle, questions: [] });
-            }
-            const processedQuestions = (sec.questions || []).map(normalizeQuestion);
-            sectionsMap.get(secTitle).questions.push(...processedQuestions);
-        });
-    } else if (data.questions && Array.isArray(data.questions)) {
-        data.questions.forEach(q => {
-            const secTitle = q.section || "Suaalaha Guud";
-            if (!sectionsMap.has(secTitle)) {
-                sectionsMap.set(secTitle, { title: secTitle, questions: [] });
-            }
-            sectionsMap.get(secTitle).questions.push(normalizeQuestion(q));
-        });
-    }
-
-    return { title, sections: Array.from(sectionsMap.values()), raw: data };
-}
+            return { title, sections: Array.from(sectionsMap.values()), raw: data };
+        }
 
         function showLoading(isLoading, text = "Soo raraya...") {
             document.getElementById('loading-text').innerText = text;
