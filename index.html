@@ -344,26 +344,32 @@ const availableExams = [
             }
         }
 
-        function normalizeExamData(data) {
-            let title = data.title || (data.exam_meta && data.exam_meta.title) || "Imtixaan";
-            let sections = [];
+function normalizeExamData(data) {
+    let title = data.title || (data.exam_meta && data.exam_meta.title) || "Imtixaan";
+    let sections = [];
 
-            if (data.sections && Array.isArray(data.sections)) {
-                sections = data.sections;
-            } else if (data.questions && Array.isArray(data.questions)) {
-                const map = new Map();
-                data.questions.forEach(q => {
-                    const secTitle = q.section || "Suaalaha Guud";
-                    if (!map.has(secTitle)) {
-                        map.set(secTitle, { title: secTitle, questions: [] });
-                    }
-                    map.get(secTitle).questions.push(q);
-                });
-                sections = Array.from(map.values());
+    if (data.sections && Array.isArray(data.sections)) {
+        sections = data.sections;
+    } else if (data.pages && Array.isArray(data.pages)) {
+        // Map page-based JSON manifests into interactive sections
+        sections = data.pages.map((p, idx) => ({
+            title: p.section || `Page ${p.page_number || idx + 1}`,
+            questions: p.questions || []
+        }));
+    } else if (data.questions && Array.isArray(data.questions)) {
+        const map = new Map();
+        data.questions.forEach(q => {
+            const secTitle = q.section || "Suaalaha Guud";
+            if (!map.has(secTitle)) {
+                map.set(secTitle, { title: secTitle, questions: [] });
             }
+            map.get(secTitle).questions.push(q);
+        });
+        sections = Array.from(map.values());
+    }
 
-            return { title, sections, raw: data };
-        }
+    return { title, sections, raw: data };
+}
 
         function showLoading(isLoading, text = "Soo raraya...") {
             document.getElementById('loading-text').innerText = text;
