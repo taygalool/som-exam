@@ -349,31 +349,38 @@ function normalizeExamData(data) {
     let sectionsMap = new Map();
 
     // Helper to standardize question schema on the fly
-    const normalizeQuestion = (q) => {
-        // Resolve question prompt text variations
-        const questionText = q.question || q.question_text || q.text || q.prompt || "";
+const normalizeQuestion = (q) => {
+    // 1. Fallback chain for question prompt text
+    const questionText = q.question || q.question_text || q.statement || q.stem || q.text || q.prompt || q.body || "";
 
-        // Format options array cleanly regardless of JSON structure
-        let normalizedOptions = [];
-        if (Array.isArray(q.options)) {
-            normalizedOptions = q.options.map(opt => {
-                if (typeof opt === 'object' && opt !== null) {
-                    const label = opt.label || opt.key || '';
-                    const text = opt.text || opt.value || opt.content || '';
-                    return label ? `${label}. ${text}` : text;
-                }
-                return opt;
-            });
-        } else if (q.options && typeof q.options === 'object') {
-            normalizedOptions = Object.entries(q.options).map(([k, v]) => `${k}. ${v}`);
-        }
+    // 2. Fallback chain for options/choices array
+    const rawOptions = q.options || q.choices || [];
+    let normalizedOptions = [];
 
-        return {
-            ...q,
-            question: questionText,
-            options: normalizedOptions
-        };
+    if (Array.isArray(rawOptions)) {
+        normalizedOptions = rawOptions.map(opt => {
+            if (typeof opt === 'object' && opt !== null) {
+                const label = opt.label || opt.key || opt.id || opt.option || '';
+                const text = opt.text || opt.value || opt.content || opt.statement || opt.choice || '';
+                
+                if (label && text) return `${label}. ${text}`;
+                return text || label;
+            }
+            return opt;
+        });
+    } else if (rawOptions && typeof rawOptions === 'object') {
+        normalizedOptions = Object.entries(rawOptions).map(([k, v]) => {
+            const valText = typeof v === 'object' ? (v.text || v.value || '') : v;
+            return `${k}. ${valText}`;
+        });
+    }
+
+    return {
+        ...q,
+        question: questionText,
+        options: normalizedOptions
     };
+};
 
     if (data.pages && Array.isArray(data.pages)) {
         data.pages.forEach((p, idx) => {
