@@ -380,9 +380,14 @@
 
         function renderDiagramHtml(diagram, associatedImage) {
             if (associatedImage) {
+                // Dynamically resolves whether subfolder is included or relative path
+                const imagePath = associatedImage.includes('/') 
+                    ? `./exams/${associatedImage}` 
+                    : `./exams/images/${associatedImage}`;
+
                 return `
                     <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center my-3">
-                        <img src="./exams/images/${associatedImage}" alt="Question Image" class="max-h-64 mx-auto rounded shadow-sm">
+                        <img src="${imagePath}" alt="Question Image" class="max-h-64 mx-auto rounded shadow-sm">
                     </div>`;
             }
             if (diagram && typeof diagram === 'object' && diagram.svg) {
