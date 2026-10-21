@@ -380,7 +380,6 @@
 
         function renderDiagramHtml(diagram, associatedImage) {
             if (associatedImage) {
-                // Dynamically resolves whether subfolder is included or relative path
                 const imagePath = associatedImage.includes('/') 
                     ? `./exams/${associatedImage}` 
                     : `./exams/images/${associatedImage}`;
@@ -404,7 +403,6 @@
             const card = document.createElement('div');
             card.className = 'space-y-6 max-w-3xl mx-auto';
 
-            // Handle Matching Section
             if (currentSection.matching_pairs && currentSection.matching_pairs.length > 0 && currentSection.questions.length === 0) {
                 const matchHeader = document.createElement('h3');
                 matchHeader.className = 'font-bold text-slate-900 border-b pb-2';
@@ -432,7 +430,6 @@
             const q = currentSection.questions[activeQuestionIndex];
             if (!q) return;
 
-            // Image Handler
             if (q.associated_image || q.diagram) {
                 const diagContainer = document.createElement('div');
                 diagContainer.innerHTML = renderDiagramHtml(q.diagram, q.associated_image);
@@ -441,13 +438,11 @@
                 }
             }
 
-            // Question Header
             const qHeader = document.createElement('div');
             qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
             qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${q.question}`;
             card.appendChild(qHeader);
 
-            // Render Choices or Sub-questions
             if (q.options && q.options.length > 0) {
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
