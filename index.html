@@ -113,9 +113,6 @@
 
     <!-- APPLICATION LOGIC -->
     <script>
-        // =========================================================
-        // 📋 YOUR EXAM CATALOG LIST
-        // =========================================================
         const availableExams = [
             {
                 file: "./exams/GEOGRAPHY-2023.json",
@@ -192,7 +189,6 @@
         ];
 
         let tg = null;
-
         if (window.Telegram && window.Telegram.WebApp) {
             tg = window.Telegram.WebApp;
             try {
@@ -201,9 +197,7 @@
                 if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
                     document.getElementById('user-greeting').innerText = `👤 ${tg.initDataUnsafe.user.first_name}`;
                 }
-            } catch (e) {
-                console.log("Telegram WebApp init error:", e);
-            }
+            } catch (e) { console.log(e); }
         }
 
         let rawExamData = null;
@@ -211,6 +205,7 @@
         let activeSectionIndex = 0;
         let activeQuestionIndex = 0;
         let userAnswers = {};
+        let currentFilePath = "";
 
         const screenHome = document.getElementById('screen-home');
         const screenLoading = document.getElementById('screen-loading');
@@ -221,13 +216,9 @@
 
         window.addEventListener('DOMContentLoaded', () => {
             renderExamList();
-
             const urlParams = new URLSearchParams(window.location.search);
             const file = urlParams.get('file');
-
-            if (file) {
-                fetchAndStartExam(file);
-            }
+            if (file) fetchAndStartExam(file);
         });
 
         function getBadgeInfo(subjectName = '') {
@@ -252,24 +243,17 @@
 
             availableExams.forEach(exam => {
                 const badgeInfo = getBadgeInfo(exam.subject || exam.title || '');
-                const badge = exam.badge || badgeInfo.badge;
-                const badgeBg = exam.badgeBg || badgeInfo.bg;
-                const fileUrl = exam.file;
-                const gradeText = exam.grade ? `Grade ${exam.grade}` : 'Grade 12';
-                const yearText = exam.year ? `(${exam.year})` : '';
-                const regionText = exam.region ? `${exam.region} - ` : '';
-
                 const card = document.createElement('div');
                 card.className = 'bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between';
                 card.innerHTML = `
                     <div>
-                        <div class="w-12 h-12 ${badgeBg} rounded-lg flex items-center justify-center font-bold text-lg mb-4">${badge}</div>
+                        <div class="w-12 h-12 ${badgeInfo.bg} rounded-lg flex items-center justify-center font-bold text-lg mb-4">${badgeInfo.badge}</div>
                         <h3 class="text-lg font-bold text-slate-900">${exam.title}</h3>
-                        <p class="text-sm text-slate-500 mt-1">${regionText}${gradeText} ${yearText}</p>
+                        <p class="text-sm text-slate-500 mt-1">${exam.region ? exam.region + ' - ' : ''}Grade ${exam.grade || 12} ${exam.year ? '(' + exam.year + ')' : ''}</p>
                     </div>
                     <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
                         <span class="text-xs text-slate-400 font-semibold">100 Marks</span>
-                        <button onclick="fetchAndStartExam('${fileUrl}')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
+                        <button onclick="fetchAndStartExam('${exam.file}')" class="bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold px-4 py-2 rounded-lg transition">
                             Bilaaw Imtixaanka &rarr;
                         </button>
                     </div>
@@ -280,6 +264,7 @@
 
         async function fetchAndStartExam(filePath) {
             showLoading(true, "Soo raraya imtixaanka...");
+            currentFilePath = filePath;
 
             try {
                 let response = await fetch(filePath);
@@ -302,7 +287,6 @@
                 const uniqueId = (q.id !== undefined && q.id !== null) ? String(q.id) : `sec${secIdx}_q${qIdx}`;
                 const questionText = q.question_text || q.prompt || q.question || q.statement || "";
                 const rawOptions = q.options || q.choices || [];
-                
                 let normalizedOptions = Array.isArray(rawOptions) ? rawOptions.map(opt => String(opt)) : [];
 
                 return {
@@ -386,15 +370,22 @@
             });
         }
 
-        function renderDiagramHtml(diagram, associatedImage) {
-            if (associatedImage) {
-                const imagePath = associatedImage.includes('/') 
-                    ? `./exams/${associatedImage}` 
-                    : `./exams/images/${associatedImage}`;
+        function resolveImagePath(imgName) {
+            if (!imgName) return null;
+            if (imgName.startsWith('http://') || imgName.startsWith('https://')) return imgName;
+            if (imgName.includes('/')) return `./exams/${imgName}`;
 
+            // Extract folder name from JSON filename (e.g., ./exams/GEOGRAPHY-2023.json -> GEOGRAPHY-2023)
+            const jsonFileName = currentFilePath.split('/').pop().replace('.json', '');
+            return `./exams/${jsonFileName}/${imgName}`;
+        }
+
+        function renderDiagramHtml(diagram, associatedImage) {
+            const imagePath = resolveImagePath(associatedImage);
+            if (imagePath) {
                 return `
                     <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center my-3">
-                        <img src="${imagePath}" alt="Question Image" class="max-h-64 mx-auto rounded shadow-sm">
+                        <img src="${imagePath}" alt="Question Image" class="max-h-64 mx-auto rounded shadow-sm" onerror="this.onerror=null; this.src='./exams/images/${associatedImage}';">
                     </div>`;
             }
             if (diagram && typeof diagram === 'object' && diagram.svg) {
@@ -411,25 +402,57 @@
             const card = document.createElement('div');
             card.className = 'space-y-6 max-w-3xl mx-auto';
 
+            // INTERACTIVE MATCHING SECTION RENDERING
             if (currentSection.matching_pairs && currentSection.matching_pairs.length > 0 && currentSection.questions.length === 0) {
                 const matchHeader = document.createElement('h3');
                 matchHeader.className = 'font-bold text-slate-900 border-b pb-2';
                 matchHeader.innerText = "Kulaboo xubnaha Safka A kuwa Safka B:";
                 card.appendChild(matchHeader);
 
-                const matchDiv = document.createElement('div');
-                matchDiv.className = 'space-y-3 pt-2';
+                const matchGrid = document.createElement('div');
+                matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-6 pt-2';
+
+                // Left Column A (with Select Controls)
+                const colA = document.createElement('div');
+                colA.className = 'space-y-3';
+                colA.innerHTML = `<h4 class="font-bold text-sm text-blue-900 bg-blue-50 p-2 rounded">SAFKA A</h4>`;
 
                 currentSection.matching_pairs.forEach((pair, pIdx) => {
+                    const selectedVal = userAnswers[`match_${pIdx}`] || '';
                     const row = document.createElement('div');
-                    row.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 space-y-2';
+                    row.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 flex items-center justify-between gap-3';
+                    
+                    let selectOptions = `<option value="">-- Dooro --</option>`;
+                    currentSection.matching_pairs.forEach((_, bIdx) => {
+                        const letter = String.fromCharCode(65 + bIdx); // A, B, C, D...
+                        selectOptions += `<option value="${letter}" ${selectedVal === letter ? 'selected' : ''}>${letter}</option>`;
+                    });
+
                     row.innerHTML = `
-                        <div class="font-semibold text-sm text-slate-800">${pair.item_number || pIdx+1}. ${pair.column_a}</div>
-                        <div class="text-xs text-slate-600 bg-white p-2 rounded border border-slate-200">${pair.column_b}</div>
+                        <div class="text-sm font-semibold text-slate-800 flex-grow">${pair.item_number || pIdx+1}. ${pair.column_a}</div>
+                        <select onchange="saveAnswer('match_${pIdx}', this.value)" class="p-2 text-sm border border-slate-300 rounded bg-white font-bold text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                            ${selectOptions}
+                        </select>
                     `;
-                    matchDiv.appendChild(row);
+                    colA.appendChild(row);
                 });
-                card.appendChild(matchDiv);
+
+                // Right Column B
+                const colB = document.createElement('div');
+                colB.className = 'space-y-3';
+                colB.innerHTML = `<h4 class="font-bold text-sm text-emerald-900 bg-emerald-50 p-2 rounded">SAFKA B</h4>`;
+
+                currentSection.matching_pairs.forEach((pair, pIdx) => {
+                    const letter = String.fromCharCode(65 + pIdx);
+                    const row = document.createElement('div');
+                    row.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 text-sm text-slate-700';
+                    row.innerHTML = `<span class="font-bold text-emerald-600 ml-1">[ ${letter} ]</span> ${pair.column_b}`;
+                    colB.appendChild(row);
+                });
+
+                matchGrid.appendChild(colA);
+                matchGrid.appendChild(colB);
+                card.appendChild(matchGrid);
                 canvas.appendChild(card);
                 updateNav();
                 return;
@@ -469,7 +492,7 @@
             } else if (q.sub_questions && q.sub_questions.length > 0) {
                 const subList = document.createElement('div');
                 subList.className = 'space-y-3 pt-2';
-                q.sub_questions.forEach((subQ, sIdx) => {
+                q.sub_questions.forEach((subQ) => {
                     const subRow = document.createElement('div');
                     subRow.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 space-y-2';
                     subRow.innerHTML = `
