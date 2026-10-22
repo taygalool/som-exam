@@ -195,10 +195,14 @@
 
         if (window.Telegram && window.Telegram.WebApp) {
             tg = window.Telegram.WebApp;
-            tg.ready();
-            tg.expand();
-            if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
-                document.getElementById('user-greeting').innerText = `👤 ${tg.initDataUnsafe.user.first_name}`;
+            try {
+                tg.ready();
+                tg.expand();
+                if (tg.initDataUnsafe && tg.initDataUnsafe.user) {
+                    document.getElementById('user-greeting').innerText = `👤 ${tg.initDataUnsafe.user.first_name}`;
+                }
+            } catch (e) {
+                console.log("Telegram WebApp init error:", e);
             }
         }
 
@@ -227,7 +231,7 @@
         });
 
         function getBadgeInfo(subjectName = '') {
-            const sub = subjectName.toUpperCase();
+            const sub = String(subjectName).toUpperCase();
             if (sub.includes('SAYNIS') || sub.includes('SCI')) return { badge: 'SCI', bg: 'bg-amber-100 text-amber-600' };
             if (sub.includes('ARAB') || sub.includes('عرب')) return { badge: 'ARA', bg: 'bg-emerald-100 text-emerald-600' };
             if (sub.includes('BIO')) return { badge: 'BIO', bg: 'bg-blue-100 text-blue-600' };
@@ -243,6 +247,7 @@
 
         function renderExamList() {
             const grid = document.getElementById('exam-cards-grid');
+            if (!grid) return;
             grid.innerHTML = '';
 
             availableExams.forEach(exam => {
@@ -250,6 +255,9 @@
                 const badge = exam.badge || badgeInfo.badge;
                 const badgeBg = exam.badgeBg || badgeInfo.bg;
                 const fileUrl = exam.file;
+                const gradeText = exam.grade ? `Grade ${exam.grade}` : 'Grade 12';
+                const yearText = exam.year ? `(${exam.year})` : '';
+                const regionText = exam.region ? `${exam.region} - ` : '';
 
                 const card = document.createElement('div');
                 card.className = 'bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-md transition flex flex-col justify-between';
@@ -257,7 +265,7 @@
                     <div>
                         <div class="w-12 h-12 ${badgeBg} rounded-lg flex items-center justify-center font-bold text-lg mb-4">${badge}</div>
                         <h3 class="text-lg font-bold text-slate-900">${exam.title}</h3>
-                        <p class="text-sm text-slate-500 mt-1">${exam.region ? `${exam.region} - Grade ${exam.grade \vert{}\vert{} 12} (${exam.year || ''})` : 'Imtixaanka rasmiga ah'}</p>
+                        <p class="text-sm text-slate-500 mt-1">${regionText}${gradeText} ${yearText}</p>
                     </div>
                     <div class="mt-6 pt-4 border-t border-slate-100 flex justify-between items-center">
                         <span class="text-xs text-slate-400 font-semibold">100 Marks</span>
@@ -353,7 +361,7 @@
         }
 
         function goHome() {
-            if (screenExam.classList.contains('flex') && !confirm("Ma ziadaa inaad ka baxdo imtixaanka?")) return;
+            if (screenExam.classList.contains('flex') && !confirm("Ma rabtaa inaad ka baxdo imtixaanka?")) return;
             screenExam.classList.add('hidden');
             screenExam.classList.remove('flex');
             screenResult.classList.add('hidden');
@@ -516,7 +524,7 @@
         }
 
         function confirmSubmit() {
-            if (confirm("Ma ziadaa inaad gudbiso imtixaanka?")) {
+            if (confirm("Ma rabtaa inaad gudbiso imtixaanka?")) {
                 alert("Imtixaanka waa la gudbiyay! Waad mahadsantahay.");
                 goHome();
             }
