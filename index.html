@@ -375,9 +375,9 @@
             if (imgName.startsWith('http://') || imgName.startsWith('https://')) return imgName;
             if (imgName.includes('/')) return `./exams/${imgName}`;
 
-            // Extract folder name from JSON filename (e.g., ./exams/GEOGRAPHY-2023.json -> GEOGRAPHY-2023)
-            const jsonFileName = currentFilePath.split('/').pop().replace('.json', '');
-            return `./exams/${jsonFileName}/${imgName}`;
+            // Clean filename to match exact exam subfolder name (e.g. GEOGRAPHY-2023)
+            const folderName = currentFilePath.split('/').pop().replace('.json', '');
+            return `./exams/${folderName}/${imgName}`;
         }
 
         function renderDiagramHtml(diagram, associatedImage) {
@@ -385,7 +385,7 @@
             if (imagePath) {
                 return `
                     <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center my-3">
-                        <img src="${imagePath}" alt="Question Image" class="max-h-64 mx-auto rounded shadow-sm" onerror="this.onerror=null; this.src='./exams/images/${associatedImage}';">
+                        <img src="${imagePath}" alt="Question Diagram" class="max-h-80 mx-auto rounded shadow-sm object-contain" onerror="this.parentElement.style.display='none';">
                     </div>`;
             }
             if (diagram && typeof diagram === 'object' && diagram.svg) {
@@ -412,7 +412,6 @@
                 const matchGrid = document.createElement('div');
                 matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-6 pt-2';
 
-                // Left Column A (with Select Controls)
                 const colA = document.createElement('div');
                 colA.className = 'space-y-3';
                 colA.innerHTML = `<h4 class="font-bold text-sm text-blue-900 bg-blue-50 p-2 rounded">SAFKA A</h4>`;
@@ -424,7 +423,7 @@
                     
                     let selectOptions = `<option value="">-- Dooro --</option>`;
                     currentSection.matching_pairs.forEach((_, bIdx) => {
-                        const letter = String.fromCharCode(65 + bIdx); // A, B, C, D...
+                        const letter = String.fromCharCode(65 + bIdx);
                         selectOptions += `<option value="${letter}" ${selectedVal === letter ? 'selected' : ''}>${letter}</option>`;
                     });
 
@@ -437,7 +436,6 @@
                     colA.appendChild(row);
                 });
 
-                // Right Column B
                 const colB = document.createElement('div');
                 colB.className = 'space-y-3';
                 colB.innerHTML = `<h4 class="font-bold text-sm text-emerald-900 bg-emerald-50 p-2 rounded">SAFKA B</h4>`;
