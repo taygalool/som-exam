@@ -115,6 +115,22 @@
     <script>
         const availableExams = [
             {
+                file: "./exams/puntland_12_physics_2024.json",
+                title: "Physics (Form 4 - 2024)",
+                subject: "Physics",
+                region: "Puntland",
+                grade: 12,
+                year: 2024
+            },
+            {
+                file: "./exams/puntland_12_biology_2024.json",
+                title: "Biology (Form 4 - 2024)",
+                subject: "Biology",
+                region: "Puntland",
+                grade: 12,
+                year: 2024
+            },
+            {
                 file: "./exams/GEOGRAPHY-2023.json",
                 title: "Geography (Form 4 - 2023)",
                 subject: "Geography",
@@ -137,54 +153,6 @@
                 region: "Puntland",
                 grade: 12,
                 year: 2019
-            },
-            {
-                file: "./exams/puntland_8_arab_2018.json",
-                title: "اللغة العربية (Grade 8)",
-                subject: "Arabic",
-                region: "Puntland",
-                grade: 8,
-                year: 2018
-            },
-            {
-                file: "./exams/puntland_8_science_2015.json",
-                title: "Saynis (Grade 8)",
-                subject: "Science",
-                region: "Puntland",
-                grade: 8,
-                year: 2015
-            },
-            {
-                file: "./exams/puntland_f4_chemistry_2025.json",
-                title: "Chemistry (Form 4)",
-                subject: "Chemistry",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/puntland_f4_history_2025.json",
-                title: "Taariikh / History (Form 4)",
-                subject: "History",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/puntland_f4_ICT_2025.json",
-                title: "ICT (Form 4)",
-                subject: "ICT",
-                region: "Puntland",
-                grade: 12,
-                year: 2025
-            },
-            {
-                file: "./exams/somalia_bio_2020.json",
-                title: "Biology (National)",
-                subject: "Biology",
-                region: "Somalia",
-                grade: 12,
-                year: 2020
             }
         ];
 
@@ -205,7 +173,6 @@
         let activeSectionIndex = 0;
         let activeQuestionIndex = 0;
         let userAnswers = {};
-        let currentFilePath = "";
 
         const screenHome = document.getElementById('screen-home');
         const screenLoading = document.getElementById('screen-loading');
@@ -223,16 +190,9 @@
 
         function getBadgeInfo(subjectName = '') {
             const sub = String(subjectName).toUpperCase();
-            if (sub.includes('SAYNIS') || sub.includes('SCI')) return { badge: 'SCI', bg: 'bg-amber-100 text-amber-600' };
-            if (sub.includes('ARAB') || sub.includes('عرب')) return { badge: 'ARA', bg: 'bg-emerald-100 text-emerald-600' };
             if (sub.includes('BIO')) return { badge: 'BIO', bg: 'bg-blue-100 text-blue-600' };
-            if (sub.includes('MATH') || sub.includes('HISEAB')) return { badge: 'MTH', bg: 'bg-purple-100 text-purple-600' };
             if (sub.includes('PHYS')) return { badge: 'PHY', bg: 'bg-indigo-100 text-indigo-600' };
-            if (sub.includes('CHEM')) return { badge: 'CHM', bg: 'bg-rose-100 text-rose-600' };
-            if (sub.includes('ENG')) return { badge: 'ENG', bg: 'bg-sky-100 text-sky-600' };
             if (sub.includes('GEO')) return { badge: 'GEO', bg: 'bg-teal-100 text-teal-600' };
-            if (sub.includes('ICT')) return { badge: 'ICT', bg: 'bg-cyan-100 text-cyan-600' };
-            if (sub.includes('HIST') || sub.includes('TAAR')) return { badge: 'HIS', bg: 'bg-orange-100 text-orange-600' };
             return { badge: 'EXM', bg: 'bg-slate-100 text-slate-700' };
         }
 
@@ -264,7 +224,6 @@
 
         async function fetchAndStartExam(filePath) {
             showLoading(true, "Soo raraya imtixaanka...");
-            currentFilePath = filePath;
 
             try {
                 let response = await fetch(filePath);
@@ -283,34 +242,49 @@
             let title = data.title || "Imtixaan";
             let sectionsMap = new Map();
 
-            const normalizeQuestion = (q, secIdx, qIdx) => {
-                const uniqueId = (q.id !== undefined && q.id !== null) ? String(q.id) : `sec${secIdx}_q${qIdx}`;
-                const questionText = q.question_text || q.prompt || q.question || q.statement || "";
-                const rawOptions = q.options || q.choices || [];
-                let normalizedOptions = Array.isArray(rawOptions) ? rawOptions.map(opt => String(opt)) : [];
+            // Handling Format where questions have a flat array with 'section' property (e.g., 2024 Physics/Biology JSONs)
+            if (data.questions && Array.isArray(data.questions) && !data.sections) {
+                data.questions.forEach((q, qIdx) => {
+                    let secTitle = q.section || "Suaalaha Guud";
+                    if (!sectionsMap.has(secTitle)) {
+                        sectionsMap.set(secTitle, { title: secTitle, questions: [], matching_pairs: [] });
+                    }
+                    let sec = sectionsMap.get(secTitle);
 
-                return {
-                    ...q,
-                    id: uniqueId,
-                    question: questionText,
-                    options: normalizedOptions,
-                    associated_image: q.associated_image || null
-                };
-            };
-
-            if (data.sections && Array.isArray(data.sections)) {
+                    // Check if question contains embedded matching pairs
+                    if (q.matching_pairs && Array.isArray(q.matching_pairs)) {
+                        sec.questions.push({
+                            ...q,
+                            id: String(q.id || qIdx),
+                            question: q.question,
+                            matching_pairs: q.matching_pairs,
+                            diagram: q.diagram || null
+                        });
+                    } else {
+                        sec.questions.push({
+                            ...q,
+                            id: String(q.id || qIdx),
+                            question: q.question,
+                            options: q.options ? q.options.map(opt => String(opt)) : [],
+                            diagram: q.diagram || null
+                        });
+                    }
+                });
+            } 
+            // Handling traditional nested sections format
+            else if (data.sections && Array.isArray(data.sections)) {
                 data.sections.forEach((sec, sIdx) => {
                     const secTitle = sec.section_title || sec.title || `Qaybta ${sIdx + 1}`;
                     sectionsMap.set(secTitle, {
                         title: secTitle,
-                        questions: (sec.questions || []).map((q, qIdx) => normalizeQuestion(q, sIdx, qIdx)),
+                        questions: (sec.questions || []).map((q, qIdx) => ({
+                            ...q,
+                            id: String(q.id || `sec${sIdx}_q${qIdx}`),
+                            question: q.question_text || q.prompt || q.question || "",
+                            options: q.options ? q.options.map(o => String(o)) : []
+                        })),
                         matching_pairs: sec.matching_pairs || []
                     });
-                });
-            } else if (data.questions && Array.isArray(data.questions)) {
-                sectionsMap.set("Suaalaha Guud", {
-                    title: "Suaalaha Guud",
-                    questions: data.questions.map((q, qIdx) => normalizeQuestion(q, 0, qIdx))
                 });
             }
 
@@ -359,7 +333,7 @@
             normalizedExamData.sections.forEach((sec, idx) => {
                 const btn = document.createElement('button');
                 btn.className = `px-3 py-1.5 text-xs font-semibold rounded-lg transition ${idx === activeSectionIndex ? 'bg-blue-600 text-white shadow-sm' : 'bg-slate-200 hover:bg-slate-300 text-slate-700'}`;
-                btn.innerText = sec.title;
+                btn.innerText = sec.title.length > 35 ? sec.title.substring(0, 32) + '...' : sec.title;
                 btn.onclick = () => { 
                     activeSectionIndex = idx; 
                     activeQuestionIndex = 0; 
@@ -370,26 +344,13 @@
             });
         }
 
-        function resolveImagePath(imgName) {
-            if (!imgName) return null;
-            if (imgName.startsWith('http://') || imgName.startsWith('https://')) return imgName;
-            if (imgName.includes('/')) return `./exams/${imgName}`;
-
-            // Clean filename to match exact exam subfolder name (e.g. GEOGRAPHY-2023)
-            const folderName = currentFilePath.split('/').pop().replace('.json', '');
-            return `./exams/${folderName}/${imgName}`;
-        }
-
-        function renderDiagramHtml(diagram, associatedImage) {
-            const imagePath = resolveImagePath(associatedImage);
-            if (imagePath) {
-                return `
-                    <div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center my-3">
-                        <img src="${imagePath}" alt="Question Diagram" class="max-h-80 mx-auto rounded shadow-sm object-contain" onerror="this.parentElement.style.display='none';">
-                    </div>`;
-            }
+        function renderDiagramHtml(diagram) {
             if (diagram && typeof diagram === 'object' && diagram.svg) {
-                return `<div class="p-3 bg-slate-50 border border-slate-200 rounded-lg text-center my-3"><div class="w-full overflow-x-auto flex justify-center py-2">${diagram.svg}</div></div>`;
+                return `
+                    <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl text-center my-3 space-y-2">
+                        <div class="w-full overflow-x-auto flex justify-center py-2">${diagram.svg}</div>
+                        ${diagram.caption ? `<p class="text-xs text-slate-500 italic">${diagram.caption}</p>` : ''}
+                    </div>`;
             }
             return '';
         }
@@ -402,34 +363,49 @@
             const card = document.createElement('div');
             card.className = 'space-y-6 max-w-3xl mx-auto';
 
-            // INTERACTIVE MATCHING SECTION RENDERING
-            if (currentSection.matching_pairs && currentSection.matching_pairs.length > 0 && currentSection.questions.length === 0) {
-                const matchHeader = document.createElement('h3');
-                matchHeader.className = 'font-bold text-slate-900 border-b pb-2';
-                matchHeader.innerText = "Kulaboo xubnaha Safka A kuwa Safka B:";
+            const q = currentSection.questions[activeQuestionIndex];
+            if (!q) return;
+
+            // Render Diagram if available
+            if (q.diagram) {
+                card.insertAdjacentHTML('beforeend', renderDiagramHtml(q.diagram));
+            }
+
+            // Question Text Header
+            const qHeader = document.createElement('div');
+            qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
+            qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${q.question}`;
+            card.appendChild(qHeader);
+
+            // Render Interactive Matching Pairs if present inside the question item
+            if (q.matching_pairs && q.matching_pairs.length > 0) {
+                const matchHeader = document.createElement('h4');
+                matchHeader.className = 'font-bold text-slate-800 text-sm pt-2';
+                matchHeader.innerText = "Kulaabo xubnaha Safka A kuwa Safka B:";
                 card.appendChild(matchHeader);
 
                 const matchGrid = document.createElement('div');
-                matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-6 pt-2';
+                matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4 pt-1';
 
                 const colA = document.createElement('div');
                 colA.className = 'space-y-3';
-                colA.innerHTML = `<h4 class="font-bold text-sm text-blue-900 bg-blue-50 p-2 rounded">SAFKA A</h4>`;
+                colA.innerHTML = `<h5 class="font-bold text-xs text-blue-900 bg-blue-50 p-2 rounded">SAFKA A</h5>`;
 
-                currentSection.matching_pairs.forEach((pair, pIdx) => {
-                    const selectedVal = userAnswers[`match_${pIdx}`] || '';
+                q.matching_pairs.forEach((pair, pIdx) => {
+                    const ansKey = `match_${q.id}_${pIdx}`;
+                    const selectedVal = userAnswers[ansKey] || '';
                     const row = document.createElement('div');
                     row.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 flex items-center justify-between gap-3';
                     
                     let selectOptions = `<option value="">-- Dooro --</option>`;
-                    currentSection.matching_pairs.forEach((_, bIdx) => {
+                    q.matching_pairs.forEach((_, bIdx) => {
                         const letter = String.fromCharCode(65 + bIdx);
                         selectOptions += `<option value="${letter}" ${selectedVal === letter ? 'selected' : ''}>${letter}</option>`;
                     });
 
                     row.innerHTML = `
-                        <div class="text-sm font-semibold text-slate-800 flex-grow">${pair.item_number || pIdx+1}. ${pair.column_a}</div>
-                        <select onchange="saveAnswer('match_${pIdx}', this.value)" class="p-2 text-sm border border-slate-300 rounded bg-white font-bold text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <div class="text-sm font-semibold text-slate-800 flex-grow">${pIdx+1}. ${pair.item}</div>
+                        <select onchange="saveAnswer('${ansKey}', this.value)" class="p-2 text-sm border border-slate-300 rounded bg-white font-bold text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
                             ${selectOptions}
                         </select>
                     `;
@@ -438,41 +414,22 @@
 
                 const colB = document.createElement('div');
                 colB.className = 'space-y-3';
-                colB.innerHTML = `<h4 class="font-bold text-sm text-emerald-900 bg-emerald-50 p-2 rounded">SAFKA B</h4>`;
+                colB.innerHTML = `<h5 class="font-bold text-xs text-emerald-900 bg-emerald-50 p-2 rounded">SAFKA B</h5>`;
 
-                currentSection.matching_pairs.forEach((pair, pIdx) => {
+                q.matching_pairs.forEach((pair, pIdx) => {
                     const letter = String.fromCharCode(65 + pIdx);
                     const row = document.createElement('div');
                     row.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 text-sm text-slate-700';
-                    row.innerHTML = `<span class="font-bold text-emerald-600 ml-1">[ ${letter} ]</span> ${pair.column_b}`;
+                    row.innerHTML = `<span class="font-bold text-emerald-600 ml-1">[ ${letter} ]</span> ${pair.match}`;
                     colB.appendChild(row);
                 });
 
                 matchGrid.appendChild(colA);
                 matchGrid.appendChild(colB);
                 card.appendChild(matchGrid);
-                canvas.appendChild(card);
-                updateNav();
-                return;
-            }
-
-            const q = currentSection.questions[activeQuestionIndex];
-            if (!q) return;
-
-            if (q.associated_image || q.diagram) {
-                const diagContainer = document.createElement('div');
-                diagContainer.innerHTML = renderDiagramHtml(q.diagram, q.associated_image);
-                if (diagContainer.firstElementChild) {
-                    card.appendChild(diagContainer.firstElementChild);
-                }
-            }
-
-            const qHeader = document.createElement('div');
-            qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
-            qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${q.question}`;
-            card.appendChild(qHeader);
-
-            if (q.options && q.options.length > 0) {
+            } 
+            // Render Multiple Choice Options
+            else if (q.options && q.options.length > 0) {
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
                 q.options.forEach((choice, cIdx) => {
@@ -486,20 +443,6 @@
                     choicesDiv.appendChild(label);
                 });
                 card.appendChild(choicesDiv);
-
-            } else if (q.sub_questions && q.sub_questions.length > 0) {
-                const subList = document.createElement('div');
-                subList.className = 'space-y-3 pt-2';
-                q.sub_questions.forEach((subQ) => {
-                    const subRow = document.createElement('div');
-                    subRow.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 space-y-2';
-                    subRow.innerHTML = `
-                        <p class="text-sm font-medium text-slate-800">${subQ}</p>
-                        <input type="text" placeholder="Qor jawaabtaada..." class="w-full p-2 text-sm border border-slate-300 rounded focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white">
-                    `;
-                    subList.appendChild(subRow);
-                });
-                card.appendChild(subList);
             }
 
             canvas.appendChild(card);
