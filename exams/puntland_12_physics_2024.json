@@ -1,0 +1,167 @@
+{
+  "title": "Form Four Physics Examination, 2024 - Puntland National Examinations Board",
+  "exam_id": "puntland_12_physics_2024",
+  "year": 2024,
+  "subject": "Physics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "It uses small current between two terminals to control much larger current at another two terminals. This statement describes",
+      "options": ["A. A diode", "B. A transistor", "C. A thermistor", "D. A capacitor"],
+      "correct_index": 1
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "A transformer uses the principle of",
+      "options": ["A. Mutual induction", "B. Electromagnetism", "C. Induction coil", "D. Voltage multiplication"],
+      "correct_index": 0
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which electromagnetic radiation is used for communication?",
+      "options": ["A. Ultra-violet", "B. Radio waves", "C. Gamma rays", "D. Visible light"],
+      "correct_index": 1
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "In a vacuum, all electromagnetic waves have the same",
+      "options": ["A. Wavelength", "B. Amplitude", "C. Frequency", "D. Speed"],
+      "correct_index": 3
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "NAND gate is simply AND gate followed by",
+      "options": ["A. OR gate", "B. NOR gate", "C. NOT gate", "D. AND gate"],
+      "correct_index": 2
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "A radioactive source that emits three different radiations is directed towards an electric field between two charged plates. The beta particles",
+      "options": ["A. Deflect towards the negative plate", "B. Deflect towards the positive plate", "C. Pass through the field without deflection", "D. Deflect away from both plates"],
+      "correct_index": 1
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which of the following does NOT show an evidence of measuring radioactivity?",
+      "options": ["A. Becquerels", "B. Curies", "C. Counts per second", "D. Calories"],
+      "correct_index": 3
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "The following are secondary colours EXCEPT",
+      "options": ["A. Yellow", "B. Cyan", "C. Blue", "D. Magenta"],
+      "correct_index": 2
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Fleming's left-hand rule is used to predict the direction of the",
+      "options": ["A. Force", "B. Current", "C. Magnetic field", "D. Force and current"],
+      "correct_index": 0
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "The relationship between centripetal force and the mass of an object is",
+      "options": ["A. Direct proportion", "B. Inverse proportion", "C. Exponential proportion", "D. Inverse square proportion"],
+      "correct_index": 0
+    },
+    {
+      "id": 11,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION ONE: MAINS ELECTRICITY (10 MARKS)",
+      "question": "Diesel generators are used to produce steam to drive turbines which in turn rotate dynamo to generate electricity. A. Mention two advantages and two disadvantages of using diesel generators. Advantages (2 marks). Disadvantages (2 marks). B. A fuse is a short piece of thin wire used for safety. Briefly explain how the fuse works. (2 marks). C. A 920 W electric heater is connected to 230 V mains supply. i. Calculate the current flowing through the heater. (3 marks). ii. Which fuse is suitable to be used for this heater? (suppose that 3 A, 5 A, and 13 A fuses are available) (1 mark).",
+      "answer_guide": "A. Advantages: easy to start and supply power quickly / works independently of the national grid; portable and easy to install. Disadvantages: burns fuel that produces pollution (CO2, smoke) and noise; fuel is costly and running/maintenance costs are high. B. The fuse is connected in series with the appliance. If the current exceeds the fuse rating, the thin wire heats up, melts and breaks the circuit, protecting the appliance and wiring. C. i. I = P / V = 920 / 230 = 4 A. ii. The 5 A fuse (rating just above the 4 A working current)."
+    },
+    {
+      "id": 12,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION TWO: ELECTROMAGNETIC WAVES (11 MARKS)",
+      "question": "A. Match the electromagnetic waves in column A to their uses in column B. (5 marks). B. Give three properties that are common to all electromagnetic waves. (3 marks). C. Calculate the wavelength of radio waves that have a frequency of 200 MHz (speed of radio waves is 3 × 10^8 m/s). (3 marks).",
+      "matching_pairs": [
+        { "item": "Gamma rays", "match": "Sterilizing foods and medical equipment" },
+        { "item": "X-rays", "match": "Monitoring broken bones and other foreign objects in the body" },
+        { "item": "Ultra-violet", "match": "Making vitamin D for the body" },
+        { "item": "Visible light", "match": "Making food for the plants" },
+        { "item": "Infrared", "match": "Remove controls for TVs" },
+        { "item": "Microwaves", "match": "Cooking food quickly" }
+      ],
+      "answer_guide": "B. All electromagnetic waves: are transverse waves; travel at the same speed (3 × 10^8 m/s) in a vacuum; carry energy and need no medium; can be reflected, refracted and diffracted. C. λ = v / f = (3 × 10^8) / (200 × 10^6) = 1.5 m."
+    },
+    {
+      "id": 13,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION THREE: ELECTROMAGNETIC INDUCTION (11 MARKS)",
+      "question": "A transformer has 100 turns on the primary coil and 250 turns on the secondary coil. The input voltage is 20 V. A. Calculate the output voltage. (3 marks). B. Calculate the output current if the input current is 2.5 A. (3 marks). C. Is this a step-down or step-up transformer? Explain your answer. (2 marks). D. State three causes of power loss in a transformer. (3 marks).",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'><rect x='90' y='30' width='140' height='110'/><rect x='120' y='60' width='80' height='50'/><path d='M82 45 h16 M82 57 h16 M82 69 h16 M82 81 h16 M82 93 h16 M82 105 h16 M82 117 h16' stroke-width='4'/><path d='M222 45 h16 M222 54 h16 M222 63 h16 M222 72 h16 M222 81 h16 M222 90 h16 M222 99 h16 M222 108 h16 M222 117 h16' stroke-width='4'/><path d='M30 60 H82 M30 105 H82 M30 60 V105 M238 60 H290 M238 105 H290 M290 60 V105' stroke-width='2'/><g fill='currentColor' stroke='none' font-size='12' font-family='sans-serif' text-anchor='middle'><text x='50' y='165'>Primary: 100 turns</text><text x='50' y='182'>Vp = 20 V</text><text x='270' y='165'>Secondary: 250 turns</text><text x='270' y='182'>Vs = ?</text><text x='160' y='20'>Iron core</text></g></svg>",
+        "caption": "Schematic of a transformer with a 100-turn primary coil and a 250-turn secondary coil on a laminated iron core (the paper shows a photograph of a power transformer)."
+      },
+      "answer_guide": "A. Vs / Vp = Ns / Np, so Vs = 20 × 250 / 100 = 50 V. B. Vp × Ip = Vs × Is, so Is = (20 × 2.5) / 50 = 1 A. C. Step-up transformer, because the secondary coil has more turns than the primary (250 > 100), so the output voltage (50 V) is greater than the input voltage (20 V). D. Resistance of the coils (copper loss, heating); eddy currents in the core; hysteresis loss (repeated magnetisation of the core); flux leakage."
+    },
+    {
+      "id": 14,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION FOUR: NUCLEAR PHYSICS (13 MARKS)",
+      "question": "A. Complete the following table using the words high, low, and medium. (3 marks). B. Uranium-234 (²³⁴₉₂U) decays to Lead-214 (²¹⁴₈₂Pb). i. Write a nuclear equation for the reaction. (2 marks). ii. Find the number of alpha particles emitted in this decay process. (3 marks). C. Define nuclear fission. (2 marks). D. A sample of old wood from prehistoric site was found to have an activity of 6 counts per minute. A same sample cut recently from a tree has also an activity of 48 counts per minute. Estimate the age of the old prehistoric wood if the half-life of carbon-14 is 5730 years. (3 marks).",
+      "matching_pairs": [
+        { "item": "Alpha", "match": "Penetration power: low; Ionization power: high" },
+        { "item": "Beta", "match": "Penetration power: medium; Ionization power: medium" },
+        { "item": "Gamma", "match": "Penetration power: high; Ionization power: low" }
+      ],
+      "answer_guide": "A. See table pairs: Alpha (low, high), Beta (medium, medium), Gamma (high, low). B.i. ²³⁴₉₂U → ²¹⁴₈₂Pb + 5 ⁴₂He. ii. Mass number falls by 234 - 214 = 20, and each alpha particle removes 4, so 20 / 4 = 5 alpha particles. (Check: atomic number 92 - 5 × 2 = 82, so no beta particles are needed.) C. Nuclear fission is the splitting of a heavy, unstable nucleus (e.g. uranium-235) into two lighter nuclei, usually after absorbing a neutron, releasing a large amount of energy and extra neutrons. D. 48 → 24 → 12 → 6 is 3 half-lives. Age = 3 × 5730 = 17 190 years."
+    },
+    {
+      "id": 15,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION FIVE: ELECTRONICS (9 MARKS)",
+      "question": "A. Define forbidden gap. (2 marks). B. Distinguish between insulators and conductors in terms of the forbidden gap between the bands. Insulators (2 marks). Conductors (2 marks). C. Street lamps are OFF during day time and ON during night time as shown below. Explain how this happens with the help of the circuit diagrams above. (3 marks).",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 760 240' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2'><defs><g id='ckt'><path d='M30 30 H70 M110 30 H260 M150 30 V88 M150 132 V190 M260 30 V88 M260 132 V190 M30 190 H260 M30 30 V95 M30 115 V190'/><rect x='70' y='20' width='40' height='20'/><path d='M18 95 H42 M26 115 H34' stroke-width='3'/><circle cx='150' cy='110' r='22'/><path d='M138 118 l6 -10 l6 10 l6 -10 l6 10' /><path d='M118 78 l14 10 M124 70 l14 10' /><circle cx='260' cy='110' r='22'/><path d='M244 94 L276 126 M276 94 L244 126'/></g></defs><use href='#ckt'/><use href='#ckt' x='400'/><g fill='currentColor' stroke='none' font-size='13' font-family='sans-serif'><text x='30' y='14'>Night time</text><text x='1' y='108'>12 V</text><text x='72' y='55'>100 ohm</text><text x='118' y='150' >LDR</text><text x='118' y='166'>1 kΩ</text><text x='236' y='150'>Lamp is OFF</text><text x='430' y='14'>Day time</text><text x='401' y='108'>12 V</text><text x='472' y='55'>100 ohm</text><text x='518' y='150'>LDR</text><text x='518' y='166'>1 MΩ</text><text x='636' y='150'>Lamp is ON</text><text x='20' y='220'>Current I flows through the LDR branch (left circuit) / through the lamp branch (right circuit)</text></g></svg>",
+        "caption": "Two circuits, each with a 12 V battery, a 100 ohm resistor, and an LDR in parallel with a lamp. Left, labelled 'Night time': LDR = 1 kΩ, lamp is OFF. Right, labelled 'Day time': LDR = 1 MΩ, lamp is ON (labels reproduced as printed in the paper)."
+      },
+      "answer_guide": "A. The forbidden gap is the energy gap between the valence band and the conduction band in which no electron energy states exist (electrons cannot have energies in this gap). B. Insulators: have a very wide forbidden gap, so electrons cannot jump to the conduction band and no current flows. Conductors: have no forbidden gap (valence and conduction bands overlap), so electrons move freely. C. The lamp is in parallel with the light-dependent resistor (LDR). In bright light the LDR resistance is low (about 1 kΩ), so the current flows through the LDR and bypasses the lamp, which stays OFF. In darkness the LDR resistance is very high (about 1 MΩ), so the current is forced through the lamp, which turns ON. Note: the 'Night time' and 'Day time' labels on the printed diagrams appear to be swapped relative to this physics."
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION SIX: CIRCULAR MOTION (11 MARKS)",
+      "question": "A train is travelling on a track which is part of a circle of radius 600 m at a constant speed of 50 m/s. A. Find: i. The angular velocity of the train (3 marks). ii. The centripetal acceleration of the train (3 marks). iii. The centripetal force that acts on the train if its mass is 2000 kg. (3 marks). B. State any two uses (applications) of artificial satellites. (2 marks).",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 260' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'><circle cx='160' cy='130' r='95' stroke-dasharray='2 8' stroke-width='6'/><circle cx='160' cy='130' r='95' stroke-width='1'/><path d='M160 130 L160 35' stroke-width='1.5' stroke-dasharray='5 4'/><rect x='140' y='24' width='40' height='22' rx='6' fill='currentColor' fill-opacity='.25'/><path d='M200 40 L240 40 M232 33 L240 40 L232 47' stroke-width='2'/><g fill='currentColor' stroke='none' font-size='13' font-family='sans-serif'><text x='166' y='90'>r = 600 m</text><text x='205' y='30'>v = 50 m/s</text><text x='140' y='135'>centre</text></g></svg>",
+        "caption": "A train moving at a constant speed of 50 m/s along a circular track of radius 600 m."
+      },
+      "answer_guide": "A.i. ω = v / r = 50 / 600 = 0.083 rad/s (1/12 rad/s). ii. a = v² / r = 50² / 600 = 2500 / 600 = 4.17 m/s² (directed towards the centre of the circle). iii. F = m a = 2000 × 4.17 = 8333 N (about 8.3 × 10³ N). B. Any two: communication (TV, radio, telephone, internet); weather forecasting; navigation (GPS); remote sensing / mapping and surveying; scientific research / astronomy; military surveillance."
+    },
+    {
+      "id": 17,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION SEVEN: LINEAR MOTION (9 MARKS)",
+      "question": "A mortar shell is fired a 100 m/s at an angle of 30° above the ground. (assume g = 10 m/s² and sin 30° = 0.5). A. Find i. The initial vertical velocity. (2 marks). ii. The maximum height reached by the shell. (3 marks). iii. The time to reach this maximum height. (3 marks). B. For what angle of projection will the mortar shell travel the longest range (distance)? (1 mark).",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 460 260' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><path d='M20 220 H440'/><path d='M70 220 Q 215 -40 360 220' stroke-dasharray='6 5'/><g transform='rotate(-30 70 220)'><rect x='70' y='212' width='70' height='16' fill='currentColor' fill-opacity='.3'/></g><path d='M70 220 H130'/><path d='M100 220 A30 30 0 0 0 96 205' /><path d='M120 160 L150 140 M141 138 L150 140 L146 149'/><g fill='currentColor' stroke='none' font-size='13' font-family='sans-serif'><text x='108' y='214'>30°</text><text x='155' y='150'>v = 100 m/s</text><text x='20' y='245'>Mortar station</text><text x='350' y='245'>Shell targets</text></g></svg>",
+        "caption": "A mortar shell fired from the mortar station at 100 m/s at 30° above the ground, following a parabolic path to the shell target."
+      },
+      "answer_guide": "A.i. u_y = u sin 30° = 100 × 0.5 = 50 m/s. ii. At maximum height v_y = 0: H = u_y² / (2g) = 50² / (2 × 10) = 2500 / 20 = 125 m. iii. t = u_y / g = 50 / 10 = 5 s. B. 45° (gives maximum range on level ground)."
+    },
+    {
+      "id": 18,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION EIGHT: LIGHT (9 MARKS)",
+      "question": "A. An object is placed in front of a convex lens as shown below. i. Use two rays from the top of the object to locate the image. (3 marks). ii. Identify the focal length of the lens. (1 mark). iii. How high is the object in cm? (1 mark). iv. Is the image formed real or virtual? Suggest a reason for your answer. (2 marks). B. Total internal reflection is the bouncing back of the refracted rays as they pass through media with different optical densities. State two conditions for total internal reflection to occur. (2 marks).",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 700 300' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2'><defs><pattern id='g' width='50' height='50' patternUnits='userSpaceOnUse'><path d='M50 0 H0 V50' stroke-opacity='.2' stroke-width='1'/></pattern></defs><rect x='0' y='0' width='700' height='300' fill='url(#g)' stroke='none'/><path d='M0 150 H700'/><path d='M350 30 Q 395 150 350 270 Q 305 150 350 30 Z' fill='currentColor' fill-opacity='.1'/><path d='M70 150 V50 M60 62 L70 48 L80 62' stroke-width='4'/><path d='M150 142 V158 M250 142 V158 M450 142 V158 M550 142 V158 M16 20 V70 M10 24 L16 16 L22 24 M10 66 L16 74 L22 66' stroke-width='3'/><g fill='currentColor' stroke='none' font-size='14' font-family='sans-serif'><text x='24' y='48'>1 cm</text><text x='28' y='172'>object</text><text x='142' y='176'>2f</text><text x='244' y='176'>f</text><text x='444' y='176'>f</text><text x='544' y='176'>2f</text></g></svg>",
+        "caption": "Convex lens on a 1 cm grid with the principal axis, focal points f and 2f marked on both sides of the lens, and an upright arrow-shaped object placed beyond 2f on the left. Drawn from the printed figure; grid scale is approximate."
+      },
+      "answer_guide": "i. Draw (1) a ray from the top of the object parallel to the principal axis, which refracts through the principal focus f on the right of the lens; and (2) a ray from the top of the object through the optical centre of the lens, which goes straight. The rays meet between f and 2f on the right of the lens, giving an image that is inverted and smaller than the object. ii. Read the focal length from the grid as the distance from the lens to the mark f (about 2 cm on the grid as drawn). iii. Read from the grid: the object arrow is about 2 cm high. iv. Real, because the object is beyond 2f so the refracted rays actually converge (meet) on the opposite side of the lens, and the image can be formed on a screen. B. (1) Light must travel from a denser medium to a less dense medium (e.g. glass to air). (2) The angle of incidence in the denser medium must be greater than the critical angle."
+    },
+    {
+      "id": 19,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 MARKS) - QUESTION NINE: FLOATING AND SINKING (7 MARKS)",
+      "question": "A. A concrete block weighs 142 N. When it is fully submerged in water, its apparent weight becomes 94 N and the volume of the water it displaces is 0.0048 m³. i. Calculate the upthrust force on the block. (2 marks). ii. What weight of water is displaced by the block? (1 mark). iii. Calculate the density of the water (g = 10 N/kg). (2 marks). B. Ships are fitted with Plimsoll lines on their sides. What is the purpose of using these lines? (2 marks).",
+      "answer_guide": "A.i. Upthrust = real weight - apparent weight = 142 - 94 = 48 N. ii. By Archimedes' principle, weight of water displaced = upthrust = 48 N. iii. Mass of water displaced = W / g = 48 / 10 = 4.8 kg. Density = mass / volume = 4.8 / 0.0048 = 1000 kg/m³. B. Plimsoll lines show the maximum depth to which a ship may be safely loaded in different water conditions (sea, fresh water, summer, winter, tropical), because water density varies, so that the ship does not sink or become overloaded and unstable."
+    }
+  ]
+}
