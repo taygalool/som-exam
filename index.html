@@ -23,7 +23,7 @@
                 <h1 class="text-xl font-bold tracking-tight hidden sm:block">National Secondary Examination System</h1>
             </div>
             <div class="flex items-center space-x-3 space-x-reverse">
-                <span id="user-greeting" class="text-xs bg-blue-800 px-3 py-1.5 rounded-full font-medium text-yellow-300"></span>
+                <span id="user-greeting" class="text-xs bg-blue-800 px-3 py-1.5 rounded-full font-medium text-yellow-300">👤 Student</span>
                 <button id="btn-home-nav" onclick="goHome()" class="hidden bg-blue-800 hover:bg-blue-700 text-white px-3 py-1.5 rounded-lg text-sm font-medium transition flex items-center space-x-1">
                     <span>Ku Laabashada Hore</span>
                 </button>
@@ -92,20 +92,10 @@
                 <p class="text-slate-600 max-w-lg mx-auto">Natiijadaada iyo saxida jawaabaha oo faahfaahsan ayaa hoos ku qoran:</p>
                 <div class="inline-flex items-center px-6 py-3 bg-slate-50 border border-slate-200 rounded-xl space-x-6 space-x-reverse">
                     <div>
-                        <span class="block text-xs uppercase text-slate-400 font-bold">Dhibcaha Objective-ka</span>
-                        <span id="score-text" class="text-2xl font-extrabold text-blue-600">0 / 0</span>
-                    </div>
-                    <div class="h-8 w-px bg-slate-200"></div>
-                    <div>
-                        <span class="block text-xs uppercase text-slate-400 font-bold">Xaalada</span>
-                        <span class="text-sm font-bold text-emerald-600">Waa La Gudbiyay</span>
+                        <span class="block text-xs uppercase text-slate-400 font-bold">Imtixaanka</span>
+                        <span id="score-text" class="text-2xl font-extrabold text-blue-600">Waa La Dhameeyay</span>
                     </div>
                 </div>
-            </div>
-
-            <div class="bg-white p-6 sm:p-8 rounded-xl border border-slate-200 shadow-sm space-y-6">
-                <h3 class="text-xl font-bold text-slate-900 border-b border-slate-200 pb-3">Natiijada Iyo Jawaabaha Saxda Ah</h3>
-                <div id="result-breakdown-container" class="space-y-6"></div>
             </div>
         </section>
 
@@ -238,41 +228,45 @@
             }
         }
 
+        function simplifySectionName(secTitle) {
+            const titleUpper = secTitle.toUpperCase();
+            if (titleUpper.includes("MULTIPLE CHOICE") || titleUpper.includes("PART ONE")) {
+                return "PART 1: MULTIPLE CHOICE";
+            }
+            if (titleUpper.includes("STRUCTURED") || titleUpper.includes("PART TWO")) {
+                return "PART 2: STRUCTURED QUESTIONS";
+            }
+            if (titleUpper.includes("EXTENDED") || titleUpper.includes("PART FOUR")) {
+                return "PART 3: EXTENDED QUESTIONS";
+            }
+            return secTitle.split('-')[0].trim();
+        }
+
         function normalizeExamData(data) {
             let title = data.title || "Imtixaan";
             let sectionsMap = new Map();
 
-            // Handling Format where questions have a flat array with 'section' property (e.g., 2024 Physics/Biology JSONs)
             if (data.questions && Array.isArray(data.questions) && !data.sections) {
                 data.questions.forEach((q, qIdx) => {
-                    let secTitle = q.section || "Suaalaha Guud";
-                    if (!sectionsMap.has(secTitle)) {
-                        sectionsMap.set(secTitle, { title: secTitle, questions: [], matching_pairs: [] });
-                    }
-                    let sec = sectionsMap.get(secTitle);
+                    let rawSecTitle = q.section || "Suaalaha Guud";
+                    let groupSecTitle = simplifySectionName(rawSecTitle);
 
-                    // Check if question contains embedded matching pairs
-                    if (q.matching_pairs && Array.isArray(q.matching_pairs)) {
-                        sec.questions.push({
-                            ...q,
-                            id: String(q.id || qIdx),
-                            question: q.question,
-                            matching_pairs: q.matching_pairs,
-                            diagram: q.diagram || null
-                        });
-                    } else {
-                        sec.questions.push({
-                            ...q,
-                            id: String(q.id || qIdx),
-                            question: q.question,
-                            options: q.options ? q.options.map(opt => String(opt)) : [],
-                            diagram: q.diagram || null
-                        });
+                    if (!sectionsMap.has(groupSecTitle)) {
+                        sectionsMap.set(groupSecTitle, { title: groupSecTitle, questions: [] });
                     }
+                    let sec = sectionsMap.get(groupSecTitle);
+                    sec.questions.push({
+                        ...q,
+                        id: String(q.id || qIdx),
+                        question: q.question,
+                        sub_title: rawSecTitle.includes('-') ? rawSecTitle.split('-').slice(1).join('-').trim() : null,
+                        options: q.options ? q.options.map(opt => String(opt)) : [],
+                        matching_pairs: q.matching_pairs || null,
+                        diagram: q.diagram || null,
+                        answer_guide: q.answer_guide || null
+                    });
                 });
-            } 
-            // Handling traditional nested sections format
-            else if (data.sections && Array.isArray(data.sections)) {
+            } else if (data.sections && Array.isArray(data.sections)) {
                 data.sections.forEach((sec, sIdx) => {
                     const secTitle = sec.section_title || sec.title || `Qaybta ${sIdx + 1}`;
                     sectionsMap.set(secTitle, {
@@ -281,9 +275,10 @@
                             ...q,
                             id: String(q.id || `sec${sIdx}_q${qIdx}`),
                             question: q.question_text || q.prompt || q.question || "",
-                            options: q.options ? q.options.map(o => String(o)) : []
-                        })),
-                        matching_pairs: sec.matching_pairs || []
+                            options: q.options ? q.options.map(o => String(o)) : [],
+                            matching_pairs: q.matching_pairs || sec.matching_pairs || null,
+                            diagram: q.diagram || null
+                        }))
                     });
                 });
             }
@@ -333,7 +328,7 @@
             normalizedExamData.sections.forEach((sec, idx) => {
                 const btn = document.createElement('button');
                 btn.className = `px-3 py-1.5 text-xs font-semibold rounded-lg transition ${idx === activeSectionIndex ? 'bg-blue-600 text-white shadow-sm' : 'bg-slate-200 hover:bg-slate-300 text-slate-700'}`;
-                btn.innerText = sec.title.length > 35 ? sec.title.substring(0, 32) + '...' : sec.title;
+                btn.innerText = sec.title;
                 btn.onclick = () => { 
                     activeSectionIndex = idx; 
                     activeQuestionIndex = 0; 
@@ -349,10 +344,17 @@
                 return `
                     <div class="p-4 bg-slate-50 border border-slate-200 rounded-xl text-center my-3 space-y-2">
                         <div class="w-full overflow-x-auto flex justify-center py-2">${diagram.svg}</div>
-                        ${diagram.caption ? `<p class="text-xs text-slate-500 italic">${diagram.caption}</p>` : ''}
+                        ${diagram.caption ? `<p class="text-xs text-slate-500 italic max-w-xl mx-auto">${diagram.caption}</p>` : ''}
                     </div>`;
             }
             return '';
+        }
+
+        function toggleAnswerGuide(qId) {
+            const guideElem = document.getElementById(`guide_${qId}`);
+            if (guideElem) {
+                guideElem.classList.toggle('hidden');
+            }
         }
 
         function loadQuestion() {
@@ -366,6 +368,14 @@
             const q = currentSection.questions[activeQuestionIndex];
             if (!q) return;
 
+            // Optional Sub-header Topic Title
+            if (q.sub_title) {
+                const subTitleBadge = document.createElement('div');
+                subTitleBadge.className = 'text-xs font-bold text-blue-700 bg-blue-50 px-3 py-1 rounded-md inline-block border border-blue-100';
+                subTitleBadge.innerText = q.sub_title;
+                card.appendChild(subTitleBadge);
+            }
+
             // Render Diagram if available
             if (q.diagram) {
                 card.insertAdjacentHTML('beforeend', renderDiagramHtml(q.diagram));
@@ -377,15 +387,10 @@
             qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${q.question}`;
             card.appendChild(qHeader);
 
-            // Render Interactive Matching Pairs if present inside the question item
+            // 1. Render Interactive Matching Pairs if present
             if (q.matching_pairs && q.matching_pairs.length > 0) {
-                const matchHeader = document.createElement('h4');
-                matchHeader.className = 'font-bold text-slate-800 text-sm pt-2';
-                matchHeader.innerText = "Kulaabo xubnaha Safka A kuwa Safka B:";
-                card.appendChild(matchHeader);
-
                 const matchGrid = document.createElement('div');
-                matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4 pt-1';
+                matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4 pt-2';
 
                 const colA = document.createElement('div');
                 colA.className = 'space-y-3';
@@ -404,7 +409,7 @@
                     });
 
                     row.innerHTML = `
-                        <div class="text-sm font-semibold text-slate-800 flex-grow">${pIdx+1}. ${pair.item}</div>
+                        <div class="text-sm font-semibold text-slate-800 flex-grow">${pIdx+1}. ${pair.item || pair.column_a}</div>
                         <select onchange="saveAnswer('${ansKey}', this.value)" class="p-2 text-sm border border-slate-300 rounded bg-white font-bold text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
                             ${selectOptions}
                         </select>
@@ -420,7 +425,7 @@
                     const letter = String.fromCharCode(65 + pIdx);
                     const row = document.createElement('div');
                     row.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 text-sm text-slate-700';
-                    row.innerHTML = `<span class="font-bold text-emerald-600 ml-1">[ ${letter} ]</span> ${pair.match}`;
+                    row.innerHTML = `<span class="font-bold text-emerald-600 ml-1">[ ${letter} ]</span> ${pair.match || pair.column_b}`;
                     colB.appendChild(row);
                 });
 
@@ -428,7 +433,7 @@
                 matchGrid.appendChild(colB);
                 card.appendChild(matchGrid);
             } 
-            // Render Multiple Choice Options
+            // 2. Render Multiple Choice Options
             else if (q.options && q.options.length > 0) {
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
@@ -443,6 +448,57 @@
                     choicesDiv.appendChild(label);
                 });
                 card.appendChild(choicesDiv);
+            }
+            // 3. Render Answer Workspaces for Direct/Structured Questions
+            else {
+                const workspaceDiv = document.createElement('div');
+                workspaceDiv.className = 'space-y-4 pt-2';
+
+                // Look for sub-question patterns like "A.", "B.", "C.", "i.", "ii." inside the question text
+                const subParts = q.question.match(/([A-Z]\.\s+[^A-Z\n]+)/g);
+
+                if (subParts && subParts.length > 0) {
+                    subParts.forEach((sub, sIdx) => {
+                        const subAnsKey = `ans_${q.id}_sub_${sIdx}`;
+                        const savedVal = userAnswers[subAnsKey] || '';
+
+                        const subBox = document.createElement('div');
+                        subBox.className = 'p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-2';
+                        subBox.innerHTML = `
+                            <p class="text-sm font-semibold text-slate-800">${sub.trim()}</p>
+                            <textarea oninput="saveAnswer('${subAnsKey}', this.value)" rows="3" placeholder="Qor jawaabtaada halkan..." class="w-full p-3 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white font-sans">${savedVal}</textarea>
+                        `;
+                        workspaceDiv.appendChild(subBox);
+                    });
+                } else {
+                    const mainAnsKey = `ans_${q.id}`;
+                    const savedVal = userAnswers[mainAnsKey] || '';
+                    const mainBox = document.createElement('div');
+                    mainBox.className = 'p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-2';
+                    mainBox.innerHTML = `
+                        <label class="block text-xs font-bold text-slate-500 uppercase">Jawaabtaada (Answer Workspace):</label>
+                        <textarea oninput="saveAnswer('${mainAnsKey}', this.value)" rows="4" placeholder="Qor jawaabtaada faahfaahsan halkan..." class="w-full p-3 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white font-sans">${savedVal}</textarea>
+                    `;
+                    workspaceDiv.appendChild(mainBox);
+                }
+
+                card.appendChild(workspaceDiv);
+
+                // Optional Answer Guide Toggle Button
+                if (q.answer_guide) {
+                    const guideContainer = document.createElement('div');
+                    guideContainer.className = 'pt-2 border-t border-slate-100';
+                    guideContainer.innerHTML = `
+                        <button onclick="toggleAnswerGuide('${q.id}')" class="text-xs font-bold text-emerald-700 hover:text-emerald-800 bg-emerald-50 hover:bg-emerald-100 px-3 py-1.5 rounded-md transition flex items-center space-x-1">
+                            <span>💡 Fiiri Jawaabta Buka (Answer Guide)</span>
+                        </button>
+                        <div id="guide_${q.id}" class="hidden mt-3 p-4 bg-emerald-50 border border-emerald-200 rounded-lg text-xs text-emerald-900 leading-relaxed font-medium">
+                            <span class="font-bold block mb-1">Jawaabta Saxda ah:</span>
+                            ${q.answer_guide}
+                        </div>
+                    `;
+                    card.appendChild(guideContainer);
+                }
             }
 
             canvas.appendChild(card);
