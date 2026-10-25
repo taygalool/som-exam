@@ -1,0 +1,209 @@
+{
+  "title": "Form Four Geography Examination, 2024 - Puntland National Examinations Board",
+  "exam_id": "puntland_12_geography_2024",
+  "year": 2024,
+  "subject": "Geography",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Select the best answer from the options provided.\n\nThe strait of Bab-al-Mandab links two water bodies of",
+      "options": ["a. Red Sea and Gulf of Aden", "b. Atlantic Ocean and Mediterranean", "c. Mediterranean Sea and Red Sea", "d. Arabian sea and Arabian Gulf."],
+      "correct_index": 0
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "All these are challenges or problems faced by food production in the Arab States EXCEPT",
+      "options": ["a. Political instability", "b. Peace and Security", "c. Water scarcity", "d. Pests and diseases"],
+      "correct_index": 1
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which one of the following is NOT parts of photography?",
+      "options": ["a. Background", "b. Underground", "c. Middle ground", "d. Foreground"],
+      "correct_index": 1
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which of the following is a non-renewable source of energy?",
+      "options": ["a. Solar power", "b. Wind power", "c. Geothermal energy", "d. Coal"],
+      "correct_index": 3
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "The representation of part or whole of the earth on flat surface is known as",
+      "options": ["a. Scale", "b. Direction", "c. Bearing", "d. Map"],
+      "correct_index": 3
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Goods and Services produced with in country and sold to other country is called",
+      "options": ["a. Import", "b. Export", "c. Supply", "d. Demand"],
+      "correct_index": 1
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "What is the process of planting trees in an area, where there were no trees?",
+      "options": ["a. Reforestation", "b. Afforestation", "c. Deforestation", "d. Clearcutting"],
+      "correct_index": 1
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which of the following is an example of an infrastructure used in air transport?",
+      "options": ["a. Seaport", "b. Airport", "c. Railway station", "d. Bus terminal"],
+      "correct_index": 1
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "The following are negative environmental impacts caused by mining activities EXCEPT",
+      "options": ["a. Ugliness of environment", "b. Enhanced biodiversity", "c. Soil Erosion", "d. Health Hazards."],
+      "correct_index": 1
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which of the following is an example of a primary industry?",
+      "options": ["a. Mining", "b. Banking", "c. Retail", "d. Education"],
+      "correct_index": 0
+    },
+    {
+      "id": 11,
+      "section": "PART TWO: MATCHING (10 MARKS)",
+      "question": "Match the words in Column A to their Meaning in Column B. (10 MARKS)\n\nCOLUMN A:\n   1. Solar energy\n   2. Natural forests\n   3. Railway transport\n   4. Opencast mining\n   5. Non-metallic minerals\n   6. Dairy farming\n   7. Air pollution\n   8. Pelagic fish\n   9. Land Pollution\n   10. Transhumance\n\nCOLUMN B:\n   a. Those grow by natural means of seed dispersal.\n   b. Type of fish Found near surface of the sea.\n   c. Minerals with no metal components.\n   d. used when mineral deposits lie near the earth's surface\n   e. The contamination of harm full substances on the land.\n   f. The seasonal migration of herdsmen with their animals from the lowlands to the highlands.\n   g. This is a mode of transport that uses trains to move people and goods from one location to another.\n   h. Power generated from the electro-magnetic radiation from the sun.\n   i. Refers addition of toxic substances in the atmosphere.\n   j. The rearing of livestock for their milk and milk's products",
+      "matching_pairs": [
+        { "item": "1. Solar energy", "match": "h. Power generated from the electro-magnetic radiation from the sun." },
+        { "item": "2. Natural forests", "match": "a. Those grow by natural means of seed dispersal." },
+        { "item": "3. Railway transport", "match": "g. This is a mode of transport that uses trains to move people and goods from one location to another." },
+        { "item": "4. Opencast mining", "match": "d. used when mineral deposits lie near the earth's surface" },
+        { "item": "5. Non-metallic minerals", "match": "c. Minerals with no metal components." },
+        { "item": "6. Dairy farming", "match": "j. The rearing of livestock for their milk and milk's products" },
+        { "item": "7. Air pollution", "match": "i. Refers addition of toxic substances in the atmosphere." },
+        { "item": "8. Pelagic fish", "match": "b. Type of fish Found near surface of the sea." },
+        { "item": "9. Land Pollution", "match": "e. The contamination of harm full substances on the land." },
+        { "item": "10. Transhumance", "match": "f. The seasonal migration of herdsmen with their animals from the lowlands to the highlands." }
+      ]
+    },
+    {
+      "id": 12,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 1",
+      "question": "1.\n   A) What is photograph? (1 mark)\n\n   B) Distinguish between Ground photograph and Aerial photograph. (2 marks)\n\n   C) State any three uses of Gradient. (3 marks)",
+      "answer_guide": "A) A photograph is a picture of an object or part of the earth's surface taken with a camera.\n\nB)\n   - Ground (terrestrial) photograph: taken from the ground with the camera held by a person standing on the ground, so it shows a side view of features.\n   - Aerial photograph: taken from the air (aircraft, drone or satellite) with the camera pointing down, so it shows a view from above of a large area.\n\nC) Any three uses of gradient:\n   1. Helps in deciding suitable land for farming, settlement and building\n   2. Helps in planning and constructing roads, railways and drainage\n   3. Shows how steep a slope is, to estimate the risk of soil erosion and the speed of water flow (also useful for siting dams / hydroelectric power and for hikers)"
+    },
+    {
+      "id": 13,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 2",
+      "question": "2.\n   A) Define the term agriculture (1 mark)\n\n   B) Mention any three among reasons facilitated agricultural beginning in middle east. (3 marks)\n\n   C) Differentiate between intensive and extensive farming (4 marks)\n      | Intensive Farming | Extensive farming |\n      | ................. | ................. |\n      | ................. | ................. |\n      | ................. | ................. |",
+      "matching_pairs": [
+        { "item": "Intensive farming: small farms (small land area)", "match": "Extensive farming: large farms (large land area)" },
+        { "item": "Intensive farming: high labour and capital input per hectare", "match": "Extensive farming: low labour and capital input per hectare" },
+        { "item": "Intensive farming: high yield per hectare", "match": "Extensive farming: low yield per hectare" }
+      ],
+      "answer_guide": "A) Agriculture is the science and art of cultivating crops and rearing animals for food and other products.\n\nB) Any three:\n   1. Fertile soils in the river valleys (Tigris, Euphrates and Nile)\n   2. Availability of water from rivers for irrigation\n   3. Favourable climate with mild winters, and wild plants (wheat, barley) and animals (sheep, goats) that were easy to domesticate\n\nC) See the table pairs: intensive farming = small land, high inputs per hectare, high yields per hectare; extensive farming = large land, low inputs per hectare, low yields per hectare."
+    },
+    {
+      "id": 14,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 3",
+      "question": "3.\n   A) Differentiate between mining and mineral.\n      i. Mining: (1 mark)\n      ii. Minerals: (1 mark)\n\n   B) State the three methods of mining minerals. (3 marks)\n\n   C) Describe any Three problems faced mining minerals from earth. (3 marks)",
+      "answer_guide": "A)\n   i. Mining: the process of extracting (digging out) minerals from the earth's crust.\n   ii. Minerals: naturally occurring inorganic substances with a definite chemical composition found in rocks of the earth's crust.\n\nB)\n   1. Opencast (surface) mining\n   2. Underground (shaft) mining\n   3. Quarrying (alluvial / placer mining or drilling are also accepted)\n\nC) Any three:\n   1. Lack of capital and modern technology, so mining is slow and costly\n   2. Poor transport and infrastructure to carry the minerals to markets\n   3. Accidents (collapsing tunnels), health hazards and environmental damage such as land destruction and pollution (also shortage of skilled labour and insecurity)"
+    },
+    {
+      "id": 15,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 4",
+      "question": "4.\n   A) Define the term transportation. (1 mark)\n\n   B) Name the type of land transport represented by the diagram. (1 mark)\n\n   C) List any two dis-advantages of the above type of transport. (2 marks)\n\n   D) Distinguish between air and water transportation. (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 210' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'><path d='M20 190 H300' stroke-width='1.5'/><ellipse cx='140' cy='118' rx='72' ry='30' fill='currentColor' fill-opacity='.15'/><path d='M205 105 C230 90 228 60 238 42'/><ellipse cx='252' cy='38' rx='16' ry='9' fill='currentColor' fill-opacity='.15'/><path d='M95 140 L90 188 M118 146 L116 188 M165 146 L167 188 M188 140 L192 188'/><path d='M70 112 C70 60 100 55 118 80' stroke-width='3'/><path d='M85 70 C90 40 190 40 200 85' stroke-width='3'/><rect x='88' y='68' width='108' height='34' rx='16' fill='currentColor' fill-opacity='.25'/><path d='M68 118 C58 126 55 140 60 152' stroke-width='2'/></svg>",
+        "caption": "A camel carrying a large load on its back (the paper shows a photograph of a loaded camel)."
+      },
+      "answer_guide": "A) Transportation is the movement of people, goods and services from one place to another.\n\nB) Animal transport (the camel, a pack animal).\n\nC) Any two disadvantages:\n   1. It is slow\n   2. It carries only small loads and cannot cover long distances (animals get tired, sick or die in drought)\n\nD)\n   - Air transport uses aircraft in the air: it is the fastest but the most expensive, and is used for passengers and valuable or perishable goods.\n   - Water transport uses ships, boats or dhows on seas, rivers and lakes: it is slower but cheaper, and is used for heavy and bulky goods."
+    },
+    {
+      "id": 16,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 5",
+      "question": "5.\n   A) Define the term Energy. (1 mark)\n\n   B) List any three difference between renewable and non-renewable energy? (3 Marks)\n      | Renewable energy | Non-renewable |\n      | 1. ............... | 1. ............... |\n      | 2. ............... | 2. ............... |\n      | 3. ............... | 3. ............... |\n\n   C) Describe any two causes of the Energy crisis in the world. (2 marks)",
+      "matching_pairs": [
+        { "item": "Renewable: can be replaced naturally and does not run out (e.g. solar, wind, geothermal)", "match": "Non-renewable: finite, cannot be replaced once used (e.g. coal, petroleum, natural gas)" },
+        { "item": "Renewable: clean, causes little or no pollution", "match": "Non-renewable: pollutes the environment (smoke, carbon dioxide)" },
+        { "item": "Renewable: usually has a high set-up cost but low running cost", "match": "Non-renewable: cheaper to start with but the cost rises as the supply declines" }
+      ],
+      "answer_guide": "A) Energy is the capacity (ability) to do work.\n\nB) See the table pairs.\n\nC) Any two:\n   1. Rapid population growth and industrialization increase the demand for energy\n   2. Depletion of fossil fuels (oil, coal) and over-dependence on them\n   (also: high prices, wars and political conflicts, wastage of energy, lack of investment in renewable energy)"
+    },
+    {
+      "id": 17,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 6",
+      "question": "6.\n   A) Define the term fishery. (1 mark)\n\n   B) State four main types of fishes. (4 Marks)\n\n   C) Mention any two among traditional methods of fishing. (2 marks)\n\n   D) Identify two possible solutions for the problems faced fishing in Somalia. (2 Marks)",
+      "answer_guide": "A) A fishery is an area (or industry) where fish and other water animals are caught, processed and sold.\n\nB) Four main types of fish:\n   1. Pelagic fish (live near the surface, e.g. tuna, sardines)\n   2. Demersal fish (live near the sea bottom, e.g. cod)\n   3. Crustaceans (e.g. lobsters, shrimps)\n   4. Molluscs (e.g. oysters, squid)\n   (freshwater fish are also accepted)\n\nC) Any two:\n   1. Hooks and lines\n   2. Hand nets, traps / baskets, spears or harpoons\n\nD) Any two:\n   1. Stop illegal foreign fishing and patrol the coast / improve security against piracy\n   2. Provide modern boats, equipment, cold storage and training to local fishermen"
+    },
+    {
+      "id": 18,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 7",
+      "question": "7.\n   A) Define the term trade. (1 mark)\n\n   B) Study carefully at the below chart and then Complete it. (4 Marks)\n\n   C) Classify the following in Import and Export goods of Somalia (4 marks)\n      (Clothes, Livestock, Fishing, spare parts, Frankincense, Vehicles, Electronics, Banana)\n      | Imports goods | Export goods |\n      | 1. ............ | 1. ............ |\n      | 2. ............ | 2. ............ |\n      | 3. ............ | 3. ............ |",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 250' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2'><rect x='170' y='10' width='140' height='42' rx='6'/><rect x='50' y='95' width='160' height='42' rx='6'/><rect x='270' y='95' width='160' height='42' rx='6'/><rect x='10' y='180' width='130' height='42' rx='6'/><rect x='170' y='180' width='130' height='42' rx='6'/><path d='M240 52 V72 M130 72 H350 M130 72 V95 M350 72 V95'/><path d='M130 137 V158 M75 158 H235 M75 158 V180 M235 158 V180'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='18' font-weight='bold' text-anchor='middle'><text x='240' y='38'>Trade</text><text x='75' y='208'>Retail</text></g></svg>",
+        "caption": "Trade chart: 'Trade' splits into two blank boxes; the left blank box splits into 'Retail' and one more blank box. The student completes the blank boxes."
+      },
+      "answer_guide": "A) Trade is the buying and selling of goods and services.\n\nB) Completed chart:\n   - Trade splits into: Home (internal / domestic) trade and Foreign (external / international) trade\n   - Home trade splits into: Retail trade and Wholesale trade\n   - (Foreign trade is made up of imports and exports.)\n\nC)\n   - Import goods: Clothes, Spare parts, Vehicles, Electronics\n   - Export goods: Livestock, Fishing (fish), Frankincense, Banana"
+    },
+    {
+      "id": 19,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 8",
+      "question": "8.\n   A) Define term forest. (1 Mark)\n\n   B) Briefly explain how the following factors can influence Forests.\n      I. Temperature (1 Mark)\n      II. Rainfall (1 Mark)\n\n   C) List any three importance of forests. (3 marks)",
+      "answer_guide": "A) A forest is a large area of land covered with trees and other vegetation growing close together.\n\nB)\n   I. Temperature: trees grow best where it is warm to moderate; high temperatures with moisture produce dense tropical forests, while very low temperatures limit tree growth (only hardy coniferous forests survive).\n   II. Rainfall: heavy, well-distributed rainfall supports dense evergreen forests, whereas little rainfall produces sparse trees and grassland or desert.\n\nC) Any three:\n   1. Source of timber, firewood and charcoal\n   2. Help rainfall formation and regulate climate; absorb carbon dioxide\n   3. Prevent soil erosion; habitat for wildlife; tourism and source of medicine, food and income"
+    },
+    {
+      "id": 20,
+      "section": "PART THREE: STRUCTURED QUESTIONS (65 Marks) - Question 9",
+      "question": "9.\n   A) Define the term Arab-league? (1 mark)\n\n   B) State any two objectives behind the foundation of Arab League. (2 marks)\n\n   C) Label the Arab countries marked A, B, C and D on the following map (4 Marks).\n      A. ......................\n      B. ......................\n      C. ......................\n      D. ......................",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 460 310' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linejoin='round'><path d='M20 60 L60 40 L130 32 L200 38 L270 52 L305 68 L310 130 L300 175 L332 225 L300 275 L190 285 L120 255 L60 205 L28 145 Z' fill='currentColor' fill-opacity='.08'/><path d='M85 55 L270 55 L305 68 L310 130 L230 150 L110 140 L80 100 Z' fill='currentColor' fill-opacity='.35'/><path d='M20 60 L60 40 L85 55 L80 100 L50 120 L28 100 Z' fill='currentColor' fill-opacity='.5'/><path d='M230 150 L310 130 L300 175 L318 215 L255 215 L235 185 Z' fill='currentColor' fill-opacity='.25'/><path d='M345 200 L385 180 L392 215 L360 275 L335 235 Z' fill='currentColor' fill-opacity='.5'/><path d='M325 60 L385 48 L440 100 L428 155 L372 168 L342 120 Z' fill='currentColor' fill-opacity='.08'/><path d='M340 140 L392 138 L412 160 L360 172 Z' fill='currentColor' fill-opacity='.5'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='16' font-weight='bold'><text x='35' y='95'>A</text><text x='265' y='185'>B</text><text x='350' y='235'>C</text><text x='376' y='158'>D</text><text x='140' y='235' font-weight='normal' font-size='15'>AFRICA</text></g></svg>",
+        "caption": "Schematic map of North Africa, the Horn of Africa and the Arabian Peninsula with four shaded Arab countries labelled A (far north-west of Africa), B (north-east Africa, south of Egypt), C (the Horn of Africa) and D (south-west of the Arabian Peninsula). Country outlines are simplified."
+      },
+      "answer_guide": "A) The Arab League is a regional organisation of Arab states (founded in Cairo in 1945) that promotes cooperation among its member countries.\n\nB) Any two objectives:\n   1. To strengthen the ties and cooperation between member states (political, economic, cultural and social)\n   2. To safeguard the independence and sovereignty of members and to settle disputes peacefully (also: to coordinate their policies and defend the common interests of Arab countries)\n\nC) Reading the map:\n   A. Morocco\n   B. Sudan\n   C. Somalia\n   D. Yemen\n   (the scan is small, so check these against the original map)"
+    },
+    {
+      "id": 21,
+      "section": "PART FOUR: EXTENDED QUESTIONS (15 MARKS) - Answer ONLY THREE among the following questions - Question 1",
+      "question": "1.\n   A) Define term cereals. (1 Mark)\n\n   B) Look at the below diagram and then answer the following questions.\n      i. Name a cereal of the above image (1 mark)\n      ii. List any three growing conditions of the above cereal (3 marks)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 340 150' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><g><ellipse cx='50' cy='60' rx='18' ry='42' fill='currentColor' fill-opacity='.25'/><path d='M40 100 C20 80 10 50 25 20 M60 100 C80 80 95 55 85 30'/><path d='M45 102 H55 V115 H45 Z'/></g><g><ellipse cx='130' cy='60' rx='18' ry='42' fill='currentColor' fill-opacity='.25'/><path d='M120 100 C100 70 105 40 118 20 M140 100 C165 80 160 50 150 30'/><path d='M125 102 H135 V115 H125 Z'/></g><g><ellipse cx='210' cy='62' rx='18' ry='42' fill='currentColor' fill-opacity='.25'/><path d='M195 100 C190 70 200 40 225 20'/><path d='M205 102 H215 V115 H205 Z'/></g><g><ellipse cx='290' cy='62' rx='18' ry='42' fill='currentColor' fill-opacity='.35'/><path d='M285 40 V80 M293 40 V80' stroke-opacity='.5'/><path d='M285 102 H295 V115 H285 Z'/></g></svg>",
+        "caption": "Four maize (corn) cobs shown in a row, from partly husked to fully husked and unwrapped."
+      },
+      "answer_guide": "A) Cereals are crops of the grass family that are grown for their edible grains (e.g. wheat, maize, rice, sorghum).\n\nB)\n   i. Maize (corn)\n   ii. Any three growing conditions:\n      1. Warm temperatures (about 18 °C to 27 °C)\n      2. Moderate rainfall (about 500 mm to 1200 mm)\n      3. Fertile, well-drained loamy soils with plenty of sunshine"
+    },
+    {
+      "id": 22,
+      "section": "PART FOUR: EXTENDED QUESTIONS (15 MARKS) - Answer ONLY THREE among the following questions - Question 2",
+      "question": "2. Look at the below photographs and then answer the questions.\n\n   A) Which photo types are represented by the letters A, B, and C?\n      i. A: (1 Mark)\n      ii. B: (1 Mark)\n      iii. C: (1 mark)\n\n   B) Name two advantages of a photograph. (2 mark)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 270' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M10 250 H410' stroke-width='1.5'/><rect x='20' y='200' width='100' height='50'/><path d='M12 200 L70 165 L128 200 Z' fill='currentColor' fill-opacity='.15'/><rect x='55' y='220' width='18' height='30'/><rect x='30' y='215' width='15' height='15'/><rect x='88' y='215' width='15' height='15'/><rect x='200' y='8' width='70' height='26' fill='currentColor' fill-opacity='.2'/><path d='M200 21 H170 M270 21 H300'/><path d='M235 34 L100 170' stroke-dasharray='5 5'/><path d='M60 90 L120 95 L130 82 L120 95 L72 108 Z' fill='currentColor' fill-opacity='.2'/><path d='M90 100 L75 168' stroke-dasharray='5 5'/><path d='M280 120 L350 125 L362 108 L350 125 L295 140 Z' fill='currentColor' fill-opacity='.2'/><path d='M310 138 L125 195' stroke-dasharray='5 5'/><circle cx='360' cy='220' r='9'/><path d='M360 229 V250 M360 235 L345 228'/><path d='M345 225 L130 215' stroke-dasharray='5 5'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='16' font-weight='bold'><text x='215' y='205'>A</text><text x='250' y='120'>B</text><text x='95' y='140'>C</text></g></svg>",
+        "caption": "A house photographed in three ways: A, a person on the ground photographing it from the side; B, an aircraft photographing it at an angle; C, an aircraft directly overhead photographing it from above. A satellite is also shown at the top."
+      },
+      "answer_guide": "A)\n   i. A: Ground (terrestrial) photograph\n   ii. B: Oblique aerial photograph (taken at an angle from the air)\n   iii. C: Vertical aerial photograph (taken from directly above)\n\nB) Any two advantages:\n   1. It gives a permanent, accurate and detailed record of features\n   2. It covers a large area quickly and is useful for mapping, planning and surveying (it can also be enlarged and studied in the office)"
+    },
+    {
+      "id": 23,
+      "section": "PART FOUR: EXTENDED QUESTIONS (15 MARKS) - Answer ONLY THREE among the following questions - Question 3",
+      "question": "3.\n   A) Define the term settlement (1 marks)\n\n   B) Study the following figure carefully and answer the question below.\n      i. Name the pattern of the settlement marked A (1 Mark)\n      ii. Name the pattern of the settlement marked B (1 Mark)\n      iii. Name the pattern of the settlement marked C (1 Mark)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 160' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><g stroke-dasharray='4 4'><path d='M10 40 L150 80 M30 90 L140 20'/><path d='M180 20 L310 110 M200 60 L330 140'/><path d='M350 20 L470 80 M350 100 L470 50'/></g><g fill='currentColor' stroke='none'><ellipse cx='30' cy='30' rx='10' ry='7'/><ellipse cx='110' cy='95' rx='10' ry='7'/><circle cx='205' cy='65' r='7'/><circle cx='222' cy='55' r='7'/><circle cx='239' cy='45' r='7'/><circle cx='256' cy='35' r='7'/><circle cx='273' cy='25' r='7'/><circle cx='215' cy='85' r='7'/><circle cx='232' cy='75' r='7'/><circle cx='249' cy='65' r='7'/><circle cx='266' cy='55' r='7'/><circle cx='283' cy='45' r='7'/><circle cx='375' cy='35' r='7'/><circle cx='390' cy='28' r='7'/><circle cx='405' cy='38' r='7'/><circle cx='385' cy='50' r='7'/><circle cx='400' cy='55' r='7'/><circle cx='360' cy='85' r='7'/><circle cx='376' cy='92' r='7'/><circle cx='392' cy='84' r='7'/><circle cx='370' cy='105' r='7'/><circle cx='430' cy='70' r='7'/><circle cx='445' cy='62' r='7'/><circle cx='438' cy='85' r='7'/></g><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='18' font-weight='bold' text-anchor='middle'><text x='80' y='150'>A</text><text x='250' y='150'>B</text><text x='410' y='150'>C</text></g></svg>",
+        "caption": "Three settlement patterns with aerial photographs below each in the paper: A, a few houses far apart along crossing roads; B, houses in a row along a road; C, houses grouped closely together in clusters."
+      },
+      "answer_guide": "A) A settlement is a place where people live and carry out their activities (a home, village, town or city).\n\nB)\n   i. A: Dispersed (scattered) settlement\n   ii. B: Linear settlement (along a road, river or railway)\n   iii. C: Nucleated (clustered) settlement\n\nNote: this question has parts adding up to 4 marks in the paper."
+    },
+    {
+      "id": 24,
+      "section": "PART FOUR: EXTENDED QUESTIONS (15 MARKS) - Answer ONLY THREE among the following questions - Question 4",
+      "question": "4.\n   A) Define the term industrialization. (1 Mark)\n\n   B) List two types of secondary industries. (2 Marks)\n\n   C) Count down any two significances of industries. (2 Marks)",
+      "answer_guide": "A) Industrialization is the process of developing industries in a country, changing its economy from mainly farming to manufacturing and processing goods.\n\nB) Any two:\n   1. Manufacturing industries (e.g. textiles, furniture)\n   2. Processing industries (e.g. food processing, fish canning) (construction is also a secondary industry)\n\nC) Any two:\n   1. Creates employment and raises incomes and living standards\n   2. Adds value to raw materials and earns foreign exchange (also promotes development of infrastructure and towns)"
+    }
+  ]
+}
