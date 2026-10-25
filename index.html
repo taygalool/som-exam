@@ -35,13 +35,13 @@
     <main class="flex-grow max-w-6xl w-full mx-auto p-4 sm:p-6 flex flex-col justify-center">
 
         <!-- LOADING STATE -->
-        <div id="screen-loading" class="hidden text-center py-12 space-y-4">
+        <div id="screen-loading" class="text-center py-12 space-y-4">
             <div class="inline-block animate-spin rounded-full h-10 w-10 border-4 border-blue-600 border-t-transparent"></div>
-            <p id="loading-text" class="text-slate-600 font-medium">Soo raraya imtixaanka...</p>
+            <p id="loading-text" class="text-slate-600 font-medium">Soo raraya imtixaannada...</p>
         </div>
 
         <!-- 1. HOME SCREEN (EXAM SELECTION) -->
-        <section id="screen-home" class="space-y-6">
+        <section id="screen-home" class="hidden space-y-6">
             <div class="text-center max-w-2xl mx-auto space-y-2">
                 <h2 class="text-3xl font-extrabold text-slate-900">Dooro Maaddada Imtixaanka</h2>
                 <p class="text-slate-600">Dooro maaddada aad rabto inaad ka jawaabto si aad u bilaawdo imtixaanka.</p>
@@ -103,48 +103,7 @@
 
     <!-- APPLICATION LOGIC -->
     <script>
-        const availableExams = [
-            {
-                file: "./exams/puntland_12_physics_2024.json",
-                title: "Physics (Form 4 - 2024)",
-                subject: "Physics",
-                region: "Puntland",
-                grade: 12,
-                year: 2024
-            },
-            {
-                file: "./exams/puntland_12_biology_2024.json",
-                title: "Biology (Form 4 - 2024)",
-                subject: "Biology",
-                region: "Puntland",
-                grade: 12,
-                year: 2024
-            },
-            {
-                file: "./exams/GEOGRAPHY-2023.json",
-                title: "Geography (Form 4 - 2023)",
-                subject: "Geography",
-                region: "Puntland",
-                grade: 12,
-                year: 2023
-            },
-            {
-                file: "./exams/Geography-F4-2024.json",
-                title: "Geography (Form 4 - 2024)",
-                subject: "Geography",
-                region: "Puntland",
-                grade: 12,
-                year: 2024
-            },
-            {
-                file: "./exams/PHYSICS-2019.json",
-                title: "Physics (Form 4 - 2019)",
-                subject: "Physics",
-                region: "Puntland",
-                grade: 12,
-                year: 2019
-            }
-        ];
+        let availableExams = [];
 
         let tg = null;
         if (window.Telegram && window.Telegram.WebApp) {
@@ -171,12 +130,50 @@
         const btnHomeNav = document.getElementById('btn-home-nav');
         const canvas = document.getElementById('question-canvas');
 
-        window.addEventListener('DOMContentLoaded', () => {
+        window.addEventListener('DOMContentLoaded', async () => {
+            await discoverExams();
             renderExamList();
+            showLoading(false);
+
             const urlParams = new URLSearchParams(window.location.search);
             const file = urlParams.get('file');
             if (file) fetchAndStartExam(file);
         });
+
+        // Automatically scan repository 'exams' directory via GitHub API
+        async function discoverExams() {
+            try {
+                const response = await fetch('https://api.github.com/repos/taygalool/som-exam/contents/exams');
+                if (!response.ok) throw new Error("GitHub API failed");
+                const files = await response.json();
+
+                const jsonFiles = files.filter(f => f.name.endsWith('.json'));
+                
+                for (const file of jsonFiles) {
+                    try {
+                        const res = await fetch(file.download_url);
+                        const data = await res.json();
+                        availableExams.push({
+                            file: `./exams/${file.name}`,
+                            title: data.title || file.name.replace('.json', ''),
+                            subject: data.subject || 'General',
+                            region: 'Puntland',
+                            grade: data.grade || 12,
+                            year: data.year || ''
+                        });
+                    } catch (err) {
+                        console.log("Could not parse file metadata:", file.name);
+                    }
+                }
+            } catch (e) {
+                // Fallback hardcoded list if offline or API rate limit reached
+                console.log("Using fallback exam catalog list");
+                availableExams = [
+                    { file: "./exams/puntland_12_physics_2024.json", title: "Physics (Form 4 - 2024)", subject: "Physics", region: "Puntland", grade: 12, year: 2024 },
+                    { file: "./exams/puntland_12_biology_2024.json", title: "Biology (Form 4 - 2024)", subject: "Biology", region: "Puntland", grade: 12, year: 2024 }
+                ];
+            }
+        }
 
         function getBadgeInfo(subjectName = '') {
             const sub = String(subjectName).toUpperCase();
@@ -294,11 +291,13 @@
                 screenLoading.classList.remove('hidden');
             } else {
                 screenLoading.classList.add('hidden');
+                screenHome.classList.remove('hidden');
             }
         }
 
         function startExam() {
             showLoading(false);
+            screenHome.classList.add('hidden');
             activeSectionIndex = 0;
             activeQuestionIndex = 0;
             userAnswers = {};
