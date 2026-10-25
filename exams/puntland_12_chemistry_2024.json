@@ -1,0 +1,194 @@
+{
+  "title": "Form Four Chemistry Examination, 2024 - Puntland National Examinations Board",
+  "exam_id": "puntland_12_chemistry_2024",
+  "year": 2024,
+  "subject": "Chemistry",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "There are two types of acids namely mineral acids and organic acids. Which of the following acids is an organic acid?",
+      "options": ["A. Sulphuric acid", "B. Carbonic acid", "C. Nitric acid", "D. Hydrochloric acid"],
+      "correct_index": 1
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Solubility of salts are different; sodium salts are:",
+      "options": ["A. Very soluble", "B. Slightly soluble", "C. Insoluble", "D. Poor soluble"],
+      "correct_index": 0
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which one of the nails in the test tubes corrodes first?",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 280' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><g fill='currentColor' fill-opacity='.35' stroke='none'><rect x='40' y='130' width='44' height='80'/><rect x='200' y='110' width='44' height='100'/><rect x='200' y='98' width='44' height='12' fill-opacity='.7'/><ellipse cx='402' cy='205' rx='14' ry='6'/></g><path d='M40 50 V200 a22 22 0 0 0 44 0 V50'/><path d='M200 50 V200 a22 22 0 0 0 44 0 V50'/><path d='M360 50 V200 a22 22 0 0 0 44 0 V50'/><g fill='currentColor' fill-opacity='.5'><rect x='34' y='30' width='56' height='20'/><rect x='194' y='30' width='56' height='20'/><rect x='354' y='30' width='56' height='20'/></g><path d='M55 190 L68 120 M215 190 L228 120 M375 175 L388 105' stroke-width='4'/><path d='M244 98 H300 M244 110 H300 M404 205 H440' stroke-width='1'/><g fill='currentColor' stroke='none' font-size='14' font-family='sans-serif'><text x='55' y='20' font-size='18'>1</text><text x='215' y='20' font-size='18'>2</text><text x='375' y='20' font-size='18'>3</text><text x='304' y='102'>oil</text><text x='304' y='114'>boiled water</text><text x='444' y='200'>calcium</text><text x='444' y='216'>chloride</text><text x='24' y='255'>air and</text><text x='24' y='271'>water</text><text x='190' y='255'>water</text><text x='190' y='271'>no air</text><text x='370' y='255'>air</text><text x='370' y='271'>no water</text></g></svg>",
+        "caption": "Three test tubes each containing an iron nail: (1) air and water; (2) boiled water covered by a layer of oil, so water but no air; (3) calcium chloride (a drying agent) at the bottom, so air but no water."
+      },
+      "options": ["A. 1", "B. 2", "C. 3", "D. 1 and 3"],
+      "correct_index": 0
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which electron configuration would you expect to be for sodium atom ₁₁Na in its ground state?",
+      "options": ["A. 1s² 2s²", "B. 1s² 2s² 2p⁶", "C. 1s² 2s² 2p⁶ 3s¹", "D. 1s² 2s² 2p⁶ 3s²"],
+      "correct_index": 2
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Giant ionic structures consist of many oppositely charged ions held together by:",
+      "options": ["A. Covalent bond", "B. Dative bond", "C. Coordinate bond", "D. Electrostatic attraction"],
+      "correct_index": 3
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which of the following statements best describes the polarity of the bond between hydrogen and chlorine molecules?",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 140' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2'><ellipse cx='185' cy='80' rx='100' ry='50' fill='currentColor' fill-opacity='.12'/><path d='M62 85 H110' marker-end='url(#a6)'/><defs><marker id='a6' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 Z' fill='currentColor' stroke='none'/></marker></defs><g fill='currentColor' stroke='none' font-family='sans-serif'><text x='25' y='95' font-size='34'>H</text><text x='125' y='95' font-size='34'>Cl</text><text x='20' y='40' font-size='22'>δ+</text><text x='130' y='40' font-size='22'>δ−</text></g></svg>",
+        "caption": "H→Cl with partial charges δ+ on hydrogen and δ− on chlorine, and the electron cloud shifted towards chlorine."
+      },
+      "options": ["A. The shared pair of electrons are shared equally", "B. Hydrogen is more electronegative than chlorine", "C. The bond between hydrogen and chlorine is non polar.", "D. The shared pair of electrons are not shared equally"],
+      "correct_index": 3
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "A hydrocarbon with the molecular formula C₄H₈ decolorizes bromine water. Using this information, the hydrocarbon is likely to be:",
+      "options": ["A. Alkane", "B. Alcohol", "C. Alkene", "D. Saturated hydrocarbon"],
+      "correct_index": 2
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "The molecular formula of 2-chloro-3-methyl pentane is:",
+      "options": ["A. C₆H₁₃Cl", "B. C₆H₁₅Cl", "C. C₆H₁₂Cl", "D. C₅H₁₂Cl"],
+      "correct_index": 0
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "What is the correct name of this compound CH₃-C≡C-CH₃ ?",
+      "options": ["A. 2-butene", "B. 2-butyne", "C. 1-butene", "D. 1-butyne"],
+      "correct_index": 1
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Reaction which involves removal of atoms or group of atoms is called:",
+      "options": ["A. Addition reaction", "B. Substitution reaction", "C. Nucleophilic reaction", "D. Elimination reaction"],
+      "correct_index": 3
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "In exothermic reactions, the reactants have:",
+      "options": ["A. Lower energy than the product", "B. Higher energy than the product", "C. Same energy with the product", "D. No energy released"],
+      "correct_index": 1
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which of the following is the correct orbital diagram for Carbon atom?",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 290' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2'><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='15'><text x='62' y='22'>1s</text><text x='132' y='22'>2s</text><text x='232' y='22'>2p</text><text x='10' y='62'>A.</text><text x='10' y='127'>B.</text><text x='10' y='192'>C.</text><text x='10' y='257'>D.</text></g><g id='rA'><rect x='40' y='35' width='50' height='38'/><rect x='110' y='35' width='50' height='38'/><rect x='190' y='35' width='50' height='38'/><rect x='250' y='35' width='50' height='38'/><rect x='310' y='35' width='50' height='38'/></g><use href='#rA' y='65'/><use href='#rA' y='130'/><use href='#rA' y='195'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='22' text-anchor='middle'><text x='65' y='63'>↑↓</text><text x='135' y='63'>↑↓</text><text x='215' y='63'>↑↓</text><text x='275' y='63'>↑</text><text x='65' y='128'>↑↓</text><text x='135' y='128'>↑↓</text><text x='215' y='128'>↑</text><text x='275' y='128'>↑</text><text x='65' y='193'>↑↓</text><text x='135' y='193'>↑↑</text><text x='215' y='193'>↑</text><text x='275' y='193'>↑</text><text x='335' y='193'>↑</text><text x='65' y='258'>↑↑</text><text x='135' y='258'>↑↓</text><text x='215' y='258'>↑</text><text x='275' y='258'>↑↓</text></g></svg>",
+        "caption": "Four candidate orbital box diagrams (A-D) showing 1s, 2s and the three 2p orbitals for a carbon atom."
+      },
+      "options": ["A. 1s ↑↓; 2s ↑↓; 2p ↑↓, ↑, empty", "B. 1s ↑↓; 2s ↑↓; 2p ↑, ↑, empty", "C. 1s ↑↓; 2s ↑↑; 2p ↑, ↑, ↑", "D. 1s ↑↑; 2s ↑↓; 2p ↑, ↑↓, empty"],
+      "correct_index": 1
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "What would be the concentration, if 0.25 moles of sodium hydroxide were dissolved in 250 cm³ of distilled water?",
+      "options": ["A. 2.5 mol/dm³", "B. 0.1 mol/dm³", "C. 1 mol/dm³", "D. 5.2 mol/dm³"],
+      "correct_index": 2
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "In group 1 and 2, first ionization energy decrease down the group because:",
+      "options": ["A. Atomic radius gets smaller", "B. Nuclear charge decrease", "C. The outer electrons are further from the nucleus", "D. Shielding effect decrease"],
+      "correct_index": 2
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "CH₃CH₂OH is an example of:",
+      "options": ["A. Primary alcohol", "B. Secondary Alcohol", "C. Tertiary alcohol", "D. Quaternary alcohol"],
+      "correct_index": 0
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: STRUCTURED QUESTIONS (85 MARKS) - QUESTION ONE: ACIDS AND RATE OF REACTION (17 MARKS)",
+      "question": "1. Metals react with air, water and dilute acids in different ways. A. Describe how magnesium reacts with oxygen? (2 marks). B. Write a balanced equation for the reaction. (2 marks). C. Which is more reactive magnesium and zinc? (1 mark). 2. Look at the table below, then compare how they react with hydrochloric acid. The first one is done for you. (4 marks). Metal / React with hydrochloric acid: Lead - Very slow; Magnesium - ; Zinc - ; Iron - ; Gold - . 3. Graph X and graph Y concerns about concentration. A. Which graph has more concentration? (1 mark). B. Which graph contains less concentration? (1 mark). C. Which curve did the reaction come completion first? (1 mark). 4. Complete the paragraph using the words below. (5 marks). Words: Faster, Collisions, Succeed, Collision theory, Effective collision. ............ refers that the rate of a chemical reaction is directly proportional to the number of collisions of reactant particles. The more number of ............ of reactant particles, the more they react with one another and thus the ............ the rate of a reaction. However not all collisions ............ in producing a reaction. Collisions that succeed in producing a reaction are called ............ .",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 270' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><path d='M60 230 V20 M52 30 L60 18 L68 30'/><path d='M60 230 H350 M340 222 L352 230 L340 238'/><path d='M60 230 C90 90 150 55 210 55 H320' stroke-width='3'/><path d='M60 230 C140 150 230 85 330 56' stroke-width='3'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='14'><text x='125' y='50'>X</text><text x='230' y='125'>Y</text><text x='95' y='258'>time from start of reaction</text><text x='5' y='70'>total</text><text x='5' y='86'>amount</text><text x='5' y='102'>of</text><text x='5' y='118'>product</text></g></svg>",
+        "caption": "Graph of total amount of product against time from start of the reaction, with two curves: X rises faster and levels off first; Y rises more slowly and levels off later at the same final amount."
+      },
+      "matching_pairs": [
+        { "item": "Lead", "match": "Very slow" },
+        { "item": "Magnesium", "match": "Very fast (vigorous reaction with many bubbles of hydrogen)" },
+        { "item": "Zinc", "match": "Fairly fast (moderate)" },
+        { "item": "Iron", "match": "Slow" },
+        { "item": "Gold", "match": "No reaction" }
+      ],
+      "answer_guide": "1.A. Magnesium burns in oxygen (air) with a bright white flame, forming a white powder of magnesium oxide. B. 2Mg(s) + O₂(g) → 2MgO(s). C. Magnesium is more reactive than zinc. 2. See matching pairs: Magnesium reacts very fast/vigorously; zinc fairly fast; iron slowly; gold does not react (lead given as very slow). 3.A. X (it has the faster rate, so the more concentrated solution). B. Y. C. X (its curve levels off first). 4. Collision theory; Collisions; Faster; Succeed; Effective collision."
+    },
+    {
+      "id": 17,
+      "section": "PART TWO: STRUCTURED QUESTIONS (85 MARKS) - QUESTION TWO: ATOMIC STRUCTURE (11 MARKS)",
+      "question": "1. An orbital can hold a maximum of two electrons and with opposite spins. A. Draw the electron orbitals of the following. (5 marks). Lithium, Helium, Boron, Carbon, Nitrogen, Oxygen. First one is done for you: Lithium 1s² 2s¹ (1s box ↑↓, 2s box ↑). a) Helium b) Boron c) Carbon d) Nitrogen e) Oxygen. 2. Aluminum is a metal which has an atomic number of 13, (₁₃Al). A) Which group it belongs in the periodic table? give a reason. (2 marks). B) Which period it belongs in the periodic table? give a reason. (2 marks). C) Which block is aluminum in the periodic table? give a reason. (2 marks).",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 240 110' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2'><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='15'><text x='10' y='62'>Lithium</text><text x='92' y='25'>1s²</text><text x='152' y='25'>2s¹</text></g><rect x='85' y='35' width='45' height='38'/><rect x='145' y='35' width='45' height='38'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='22' text-anchor='middle'><text x='107' y='63'>↑↓</text><text x='167' y='63'>↑</text></g></svg>",
+        "caption": "Worked example given in the paper: lithium orbital box diagram, 1s² (↑↓) and 2s¹ (↑)."
+      },
+      "answer_guide": "A. Helium 1s²: [↑↓]. Boron 1s² 2s² 2p¹: [↑↓] [↑↓] [↑][ ][ ]. Carbon 1s² 2s² 2p²: [↑↓] [↑↓] [↑][↑][ ]. Nitrogen 1s² 2s² 2p³: [↑↓] [↑↓] [↑][↑][↑]. Oxygen 1s² 2s² 2p⁴: [↑↓] [↑↓] [↑↓][↑][↑]. 2.A. Group 3 (13): aluminium has electron configuration 1s² 2s² 2p⁶ 3s² 3p¹, so 3 electrons in its outer shell. B. Period 3: its electrons occupy three shells (the outer shell is n = 3). C. p-block: its last (highest-energy) electron enters the 3p subshell."
+    },
+    {
+      "id": 18,
+      "section": "PART TWO: STRUCTURED QUESTIONS (85 MARKS) - QUESTION THREE: ENERGY IN CHEMISTRY (13 MARKS)",
+      "question": "1. The standard enthalpy change of combustion of ethene is -1411 kJ/mol. A. Define enthalpy change of combustion. (2 marks). B. Write a balanced equation for the reaction including state symbols. (3 marks). C. Draw the energy profile diagram for the combustion of ethene. (3 marks). D. Draw the displayed formula of ethene. (2 marks). 2. Standard enthalpy change for a reaction takes place under 3 standard conditions. A. Write the 3 standard conditions needed for the reaction to take place. (3 marks).",
+      "answer_guide": "1.A. Enthalpy change of combustion is the heat energy change when one mole of a substance is completely burnt in excess oxygen under standard conditions. B. C₂H₄(g) + 3O₂(g) → 2CO₂(g) + 2H₂O(l)  ΔH = -1411 kJ/mol. C. Exothermic energy profile: vertical axis energy, horizontal axis progress of reaction; reactants (C₂H₄ + 3O₂) at a higher level, products (2CO₂ + 2H₂O) at a lower level, a downward arrow labelled ΔH = -1411 kJ/mol, optionally with a hump for the activation energy. D. Displayed formula of ethene: H₂C=CH₂ drawn with each carbon bonded to two H atoms and a C=C double bond between the carbons (H–C(=C)–H pattern: each C has two H). 2.A. Temperature of 298 K (25 °C); pressure of 100 kPa (1 atm); concentration of 1 mol/dm³ for solutions (with all substances in their standard states)."
+    },
+    {
+      "id": 19,
+      "section": "PART TWO: STRUCTURED QUESTIONS (85 MARKS) - QUESTION FOUR: MOLE AND STOICHIOMETRY (16 MARKS)",
+      "question": "1. Determine the relative molecular mass of the following: a) Copper carbonate CuCO₃ (Cu = 64, C = 12, O = 16) (3 marks). b) Lead(II) nitrate Pb(NO₃)₂ (Pb = 207, N = 14, O = 16) (3 marks). 2. In a chemical reaction sodium carbonate reacts with hydrochloric acid. Here is a balanced equation for the reaction. Na₂CO₃(s) + 2HCl(aq) → 2NaCl(aq) + H₂O(l) + CO₂(g). a) How many moles of hydrochloric acid react with one mole of sodium carbonate? (1 mark). b) How many moles of sodium chloride are formed in the reaction? (1 mark). c) How many moles of carbon dioxide are produced in the reaction? (1 mark). d) Calculate the relative molecular mass of sodium chloride NaCl. (2 marks). 3. 1.843 g of an organic compound M containing hydrogen, carbon, oxygen and Sulphur, on combustion gave 3.08 g of carbon dioxide and 0.63 g of water. In a separate experiment, the same mass of M gave 2.7013 g of barium sulphate when the sulphur in the compound was converted to barium sulphate. a) Determine the empirical formula of M. b) If the molecular mass of M is 158, determine the molecular formula of M. (5 marks).",
+      "answer_guide": "1.a) Mr(CuCO₃) = 64 + 12 + (3 × 16) = 124. b) Mr(Pb(NO₃)₂) = 207 + 2 × (14 + 3 × 16) = 207 + 124 = 331. 2.a) 2 moles. b) 2 moles. c) 1 mole. d) Mr(NaCl) = 23 + 35.5 = 58.5 (Na = 23, Cl = 35.5). 3. Carbon: 3.08 / 44 = 0.07 mol CO₂ → 0.07 mol C (0.84 g). Hydrogen: 0.63 / 18 = 0.035 mol H₂O → 0.07 mol H (0.07 g). Sulphur: 2.7013 / 233 = 0.0116 mol BaSO₄ → 0.0116 mol S (0.371 g). Oxygen by difference: 1.843 - 0.84 - 0.07 - 0.371 = 0.562 g → 0.035 mol O. Mole ratio C : H : S : O = 0.07 : 0.07 : 0.0116 : 0.035 = 6 : 6 : 1 : 3. a) Empirical formula = C₆H₆O₃S (Mr = 158). b) Molecular mass 158 / empirical mass 158 = 1, so the molecular formula is C₆H₆O₃S."
+    },
+    {
+      "id": 20,
+      "section": "PART TWO: STRUCTURED QUESTIONS (85 MARKS) - QUESTION FIVE: BONDING AND STRUCTURE (14 MARKS)",
+      "question": "1. Some common ions are shown in the table below. A. Complete the table below and write the formula of the ions. (5 marks). First one is done for you. 1. Bicarbonate ion: HCO₃⁻; 2. Hydroxide ion; 3. Nitrate ion; 4. Ammonium ion; 5. Sulphate ion; 6. Phosphate ion. 2. An ammonia molecule forms a hydrogen bond with a water molecule. Use a line to show the bond between the two molecules. (1 mark). A. How many lone pairs and bonding pairs do water and ammonia have? (4 marks). Molecule: H₂O, NH₃; Number of Lone pair; Number of bonding pairs. B. Write down the three types of intermolecular forces. (3 marks). C. Is the hydrogen bond strong or weak bond? (1 mark).",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 220' style='max-width:100%;height:auto' fill='currentColor' stroke='none' font-family='sans-serif'><g font-size='24'><text x='85' y='90'>H</text><text x='70' y='130'>H</text><text x='125' y='125'>N</text><text x='115' y='170'>H</text><text x='265' y='80'>H</text><text x='315' y='80'>O</text><text x='290' y='125'>H</text></g><g font-size='20'><text x='75' y='60'>δ+</text><text x='25' y='125'>δ+</text><text x='75' y='200'>δ+</text><text x='165' y='160'>δ−</text><text x='265' y='50'>δ+</text><text x='360' y='80'>δ−</text><text x='290' y='160'>δ+</text></g></svg>",
+        "caption": "An ammonia molecule (N with three H atoms, each δ+, and N δ−) next to a water molecule (O δ−, two H atoms δ+). The student must draw a line for the hydrogen bond between the molecules."
+      },
+      "matching_pairs": [
+        { "item": "Bicarbonate ion", "match": "HCO₃⁻" },
+        { "item": "Hydroxide ion", "match": "OH⁻" },
+        { "item": "Nitrate ion", "match": "NO₃⁻" },
+        { "item": "Ammonium ion", "match": "NH₄⁺" },
+        { "item": "Sulphate ion", "match": "SO₄²⁻" },
+        { "item": "Phosphate ion", "match": "PO₄³⁻" }
+      ],
+      "answer_guide": "1.A. See matching pairs (the 5 ions to complete: OH⁻, NO₃⁻, NH₄⁺, SO₄²⁻, PO₄³⁻). 2. Draw a dotted line from the δ+ hydrogen of a water molecule to the lone pair on the nitrogen of ammonia (N···H–O); a bond from a δ+ H of ammonia to the oxygen of water is also possible. A. H₂O: 2 lone pairs and 2 bonding pairs. NH₃: 1 lone pair and 3 bonding pairs. B. London dispersion forces (van der Waals forces); dipole-dipole forces; hydrogen bonding. C. Weak: a hydrogen bond is much weaker than a covalent or ionic bond, although it is the strongest of the intermolecular forces."
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: STRUCTURED QUESTIONS (85 MARKS) - QUESTION SIX: ORGANIC COMPOUNDS (14 MARKS)",
+      "question": "1. Name the following compounds. (5 marks). a. CH₃CH₂CH₂CH₂CH₃ b. CH₃CH₂CH₂CHO c. CH₃CH₂CH₂C(OH)(CH₃)CH₂CH₃ (OH and CH₃ on the same carbon) d. displayed formula of a six-carbon chain with a CH₃ branch on the second carbon e. displayed formula H₃C–C(=O)–CH₃. 2. Define the following: a) Addition reaction (2 marks). b) Substitution reaction (2 marks). c) Aliphatic hydrocarbons (2 marks). 3. Write the 3 types of aliphatic hydrocarbons. (3 marks).",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 330 390' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='16' text-anchor='middle'><text x='10' y='72' text-anchor='start'>c.</text><text x='95' y='72'>CH₃CH₂CH₂</text><text x='172' y='72'>C</text><text x='222' y='72'>CH₂CH₃</text><text x='172' y='28'>OH</text><text x='172' y='116'>CH₃</text><text x='10' y='195' text-anchor='start'>d.</text><text x='70' y='195'>C</text><text x='110' y='195'>C</text><text x='150' y='195'>C</text><text x='190' y='195'>C</text><text x='230' y='195'>C</text><text x='270' y='195'>C</text><text x='42' y='195'>H</text><text x='298' y='195'>H</text><text x='70' y='155'>H</text><text x='150' y='155'>H</text><text x='190' y='155'>H</text><text x='230' y='155'>H</text><text x='270' y='155'>H</text><text x='70' y='238'>H</text><text x='110' y='238'>H</text><text x='150' y='238'>H</text><text x='190' y='238'>H</text><text x='230' y='238'>H</text><text x='270' y='238'>H</text><text x='110' y='150'>C</text><text x='80' y='150'></text><text x='84' y='112'>H</text><text x='136' y='112'>H</text><text x='110' y='84' fill='none'></text><text x='10' y='325' text-anchor='start'>e.</text><text x='70' y='325'>C</text><text x='110' y='325'>C</text><text x='150' y='325'>C</text><text x='110' y='282'>O</text><text x='42' y='325'>H</text><text x='178' y='325'>H</text><text x='70' y='290'>H</text><text x='70' y='362'>H</text><text x='150' y='290'>H</text><text x='150' y='362'>H</text></g><path d='M172 33 V56 M172 82 V100'/><path d='M78 190 H102 M118 190 H142 M158 190 H182 M198 190 H222 M238 190 H262 M50 190 H62 M278 190 H290'/><path d='M70 160 V178 M150 160 V178 M190 160 V178 M230 160 V178 M270 160 V178 M70 202 V222 M110 202 V222 M150 202 V222 M190 202 V222 M230 202 V222 M270 202 V222'/><path d='M110 178 V156'/><path d='M110 134 V120 M96 140 H90 M124 140 H132'/><path d='M78 320 H102 M118 320 H142 M50 320 H62 M158 320 H170 M70 296 V310 M70 330 V348 M150 296 V310 M150 330 V348'/><path d='M107 310 V288 M113 310 V288'/></svg>",
+        "caption": "Structures for question 6.1: (c) condensed formula CH₃CH₂CH₂–C(OH)(CH₃)–CH₂CH₃; (d) displayed formula of a six-carbon chain with a methyl branch on the second carbon (the scan is small, so the chain length is a best reading); (e) displayed formula of CH₃–CO–CH₃."
+      },
+      "answer_guide": "1.a. Pentane. b. Butanal. c. 3-methylhexan-3-ol. d. 2-methylhexane (check the chain length against the original figure). e. Propanone (acetone). 2.a. Addition reaction: a reaction in which two or more molecules combine to form a single product, usually when atoms add across the C=C or C≡C bond of an unsaturated compound. b. Substitution reaction: a reaction in which an atom or group of atoms in a molecule is replaced by another atom or group of atoms. c. Aliphatic hydrocarbons: hydrocarbons whose carbon atoms are joined in straight chains, branched chains or non-aromatic rings (they contain no benzene ring). 3. Alkanes, alkenes and alkynes."
+    }
+  ]
+}
