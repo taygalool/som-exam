@@ -140,7 +140,6 @@
             if (file) fetchAndStartExam(file);
         });
 
-        // Automatically scan repository 'exams' directory via GitHub API
         async function discoverExams() {
             try {
                 const response = await fetch('https://api.github.com/repos/taygalool/som-exam/contents/exams');
@@ -166,11 +165,10 @@
                     }
                 }
             } catch (e) {
-                // Fallback hardcoded list if offline or API rate limit reached
                 console.log("Using fallback exam catalog list");
                 availableExams = [
-                    { file: "./exams/puntland_12_physics_2024.json", title: "Physics (Form 4 - 2024)", subject: "Physics", region: "Puntland", grade: 12, year: 2024 },
-                    { file: "./exams/puntland_12_biology_2024.json", title: "Biology (Form 4 - 2024)", subject: "Biology", region: "Puntland", grade: 12, year: 2024 }
+                    { file: "./exams/puntland_12_biology_2024_2.json", title: "Biology (Form 4 - 2024)", subject: "Biology", region: "Puntland", grade: 12, year: 2024 },
+                    { file: "./exams/puntland_12_physics_2024.json", title: "Physics (Form 4 - 2024)", subject: "Physics", region: "Puntland", grade: 12, year: 2024 }
                 ];
             }
         }
@@ -370,12 +368,12 @@
                 card.insertAdjacentHTML('beforeend', renderDiagramHtml(q.diagram));
             }
 
-            const qHeader = document.createElement('div');
-            qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
-            qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${q.question}`;
-            card.appendChild(qHeader);
-
             if (q.matching_pairs && q.matching_pairs.length > 0) {
+                const qHeader = document.createElement('div');
+                qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
+                qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${q.question}`;
+                card.appendChild(qHeader);
+
                 const matchGrid = document.createElement('div');
                 matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4 pt-2';
 
@@ -421,6 +419,11 @@
                 card.appendChild(matchGrid);
             } 
             else if (q.options && q.options.length > 0) {
+                const qHeader = document.createElement('div');
+                qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
+                qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span> ${q.question.replace(/\n/g, '<br>')}`;
+                card.appendChild(qHeader);
+
                 const choicesDiv = document.createElement('div');
                 choicesDiv.className = 'space-y-2 pt-2';
                 q.options.forEach((choice, cIdx) => {
@@ -436,35 +439,47 @@
                 card.appendChild(choicesDiv);
             }
             else {
+                // Structured Multi-line Question Parser
+                const qHeader = document.createElement('div');
+                qHeader.className = 'text-base font-semibold text-slate-900 leading-normal border-b pb-3 border-slate-200';
+                qHeader.innerHTML = `<span class="bg-blue-100 text-blue-800 text-xs px-2 py-0.5 rounded mx-1 font-bold">Q${activeQuestionIndex + 1}</span>`;
+                card.appendChild(qHeader);
+
+                const rawText = q.question;
+                // Split multi-line question text by subpart patterns like "A.", "B.", "C.", "D.", "E."
+                const parts = rawText.split(/\n(?=[A-Z]\.\s)/);
+                
+                let introText = parts[0];
+                let subParts = parts.slice(1);
+
+                if (introText && !introText.trim().match(/^[A-Z]\.\s/)) {
+                    const introP = document.createElement('div');
+                    introP.className = 'text-sm text-slate-800 whitespace-pre-line leading-relaxed pb-2';
+                    introP.innerText = introText.trim();
+                    card.appendChild(introP);
+                } else {
+                    subParts = parts;
+                }
+
+                if (subParts.length === 0) {
+                    subParts = [rawText];
+                }
+
                 const workspaceDiv = document.createElement('div');
                 workspaceDiv.className = 'space-y-4 pt-2';
 
-                const subParts = q.question.match(/([A-Z]\.\s+[^A-Z\n]+)/g);
+                subParts.forEach((subPart, sIdx) => {
+                    const subAnsKey = `ans_${q.id}_sub_${sIdx}`;
+                    const savedVal = userAnswers[subAnsKey] || '';
 
-                if (subParts && subParts.length > 0) {
-                    subParts.forEach((sub, sIdx) => {
-                        const subAnsKey = `ans_${q.id}_sub_${sIdx}`;
-                        const savedVal = userAnswers[subAnsKey] || '';
-
-                        const subBox = document.createElement('div');
-                        subBox.className = 'p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-2';
-                        subBox.innerHTML = `
-                            <p class="text-sm font-semibold text-slate-800">${sub.trim()}</p>
-                            <textarea oninput="saveAnswer('${subAnsKey}', this.value)" rows="3" placeholder="Qor jawaabtaada halkan..." class="w-full p-3 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white font-sans">${savedVal}</textarea>
-                        `;
-                        workspaceDiv.appendChild(subBox);
-                    });
-                } else {
-                    const mainAnsKey = `ans_${q.id}`;
-                    const savedVal = userAnswers[mainAnsKey] || '';
-                    const mainBox = document.createElement('div');
-                    mainBox.className = 'p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-2';
-                    mainBox.innerHTML = `
-                        <label class="block text-xs font-bold text-slate-500 uppercase">Jawaabtaada (Answer Workspace):</label>
-                        <textarea oninput="saveAnswer('${mainAnsKey}', this.value)" rows="4" placeholder="Qor jawaabtaada faahfaahsan halkan..." class="w-full p-3 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white font-sans">${savedVal}</textarea>
+                    const subBox = document.createElement('div');
+                    subBox.className = 'p-4 bg-slate-50 rounded-lg border border-slate-200 space-y-2';
+                    subBox.innerHTML = `
+                        <p class="text-sm font-semibold text-slate-800 whitespace-pre-line">${subPart.trim()}</p>
+                        <textarea oninput="saveAnswer('${subAnsKey}', this.value)" rows="3" placeholder="Qor jawaabtaada halkan..." class="w-full p-3 text-sm border border-slate-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none bg-white font-sans">${savedVal}</textarea>
                     `;
-                    workspaceDiv.appendChild(mainBox);
-                }
+                    workspaceDiv.appendChild(subBox);
+                });
 
                 card.appendChild(workspaceDiv);
             }
