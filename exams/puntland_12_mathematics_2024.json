@@ -1,0 +1,136 @@
+{
+  "title": "Form Four Mathematics Examination, 2024 - Puntland National Examinations Board",
+  "exam_id": "puntland_12_mathematics_2024",
+  "year": 2024,
+  "subject": "Mathematics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "Circle the correct option in the below Questions\n\nThe common ratio of this geometric sequence 3, 9, 27, ......... is",
+      "options": ["a) 2", "b) 3", "c) 4", "d) 6"],
+      "correct_index": 1
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "The point on which a figure rotates is known as:",
+      "options": ["a) center of rotation", "b) clockwise rotation", "c) angle of rotation", "d) direction of rotation"],
+      "correct_index": 0
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "A coin is tossed at ones. The probability of getting head or tile is",
+      "options": ["a) 0", "b) 1", "c) ½", "d) 2"],
+      "correct_index": 1
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "7C2 (⁷C₂) is equal to",
+      "options": ["a) 42", "b) 35", "c) 22", "d) 21"],
+      "correct_index": 3
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "If y = x³ + 3x², when x = 1 the value of dy/dx is",
+      "options": ["a) 1", "b) 3", "c) 9", "d) 6"],
+      "correct_index": 2
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "The expression Sin50°Cos30° + Sin30°Cos50° is equivalent to",
+      "options": ["a) Sin50°", "b) Sin30°", "c) Cos80°", "d) Sin80°"],
+      "correct_index": 3
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "7!/4! is equal to",
+      "options": ["a) 210", "b) 110", "c) 840", "d) 320"],
+      "correct_index": 0
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "If tanθ = 3/4 then Sinθ is equal to",
+      "options": ["a) 3/5", "b) 5/4", "c) 4/5", "d) 5/3"],
+      "correct_index": 0
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "The mode of this set of data 2, 3, 4, 3, 5, 6, 5, 7, 5 is",
+      "options": ["a) 3", "b) 4", "c) 5", "d) 2"],
+      "correct_index": 2
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 marks)",
+      "question": "d/dx (1/x²) is equal to",
+      "options": ["a) -2x⁻²", "b) -3x⁻²", "c) -2x⁻³", "d) -2x⁻¹"],
+      "correct_index": 2
+    },
+    {
+      "id": 11,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 marks) - QUESTION 1 (STATISTICS)",
+      "question": "The table below shows the number of absentees recorded each day of a month in a school.\n\na) Complete the table (4 marks)\n   class   | frequency (f) | midpoint (x) | fx\n   1 – 5   | 3             | 3            | 9\n   6 – 10  | 5             | 8            | 40\n   11 – 15 | 7             | ......       | ......\n   16 – 20 | 6             | ......       | ......\n   21 – 25 | 4             | ......       | ......\n   Σf = ......              |              | Σfx = ......\n\nb) Which is the modal class (1 marks)\n\nc) Calculate the mean number of absentees (2 marks)\n\nb) The end of a term marks of a pupil in 4 subjects are shown below\n   57  55  62  52, if his mean is 56\n   i) Complete the table below (2 marks)\n      deviations (d)            | 1 | -1 | ... | ...\n      absolute deviations |d|  | 1 | 1  | ... | ...\n   ii) Calculate the absolute mean deviation of his marks (2 marks)",
+      "answer_guide": "a) Completed table:\n   11 – 15: x = 13, fx = 7 × 13 = 91\n   16 – 20: x = 18, fx = 6 × 18 = 108\n   21 – 25: x = 23, fx = 4 × 23 = 92\n   Σf = 3 + 5 + 7 + 6 + 4 = 25\n   Σfx = 9 + 40 + 91 + 108 + 92 = 340\n\nb) Modal class: 11 – 15 (it has the highest frequency, 7)\n\nc) Mean = Σfx / Σf = 340 / 25 = 13.6 absentees\n\nb) (the second part is also lettered b in the paper)\n   i) Deviations from the mean 56: 57 - 56 = 1; 55 - 56 = -1; 62 - 56 = 6; 52 - 56 = -4\n      Absolute deviations: 1, 1, 6, 4\n   ii) Absolute mean deviation = (1 + 1 + 6 + 4) / 4 = 12 / 4 = 3"
+    },
+    {
+      "id": 12,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 marks) - QUESTION 2 (GRAPHS IN PRACTICAL SITUATION)",
+      "question": "Warsame cycles from home to the town. He has stopped for a tea. After tea, he cycles back to home. The travel graph below shows his journey.\n\na) At what time did he begin to cycle? (1 mark)\n\nb) How many minutes did he rest? (1 mark)\n\nc) How far was he from home at 3 pm? (1 mark)\n\nd) How long did it take him to get back home? (1 mark)\n\ne) Find his speed as he travels back to home? (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 480 300' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><g stroke-opacity='.25' stroke-width='1'><path d='M60 230 H430 M60 210 H430 M60 190 H430 M60 170 H430 M60 150 H430 M60 130 H430 M60 110 H430 M60 90 H430 M60 70 H430 M60 50 H430 M60 30 H430'/><path d='M120 30 V250 M180 30 V250 M240 30 V250 M300 30 V250 M360 30 V250 M420 30 V250'/></g><path d='M60 20 V250 H440'/><path d='M60 250 L120 190 H180 L300 30 L420 250' stroke-width='3'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='12' text-anchor='end'><text x='52' y='254'>0</text><text x='52' y='234'>1</text><text x='52' y='214'>2</text><text x='52' y='194'>3</text><text x='52' y='174'>4</text><text x='52' y='154'>5</text><text x='52' y='134'>6</text><text x='52' y='114'>7</text><text x='52' y='94'>8</text><text x='52' y='74'>9</text><text x='52' y='54'>10</text><text x='52' y='34'>11</text></g><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13' text-anchor='middle'><text x='60' y='270'>1pm</text><text x='180' y='270'>2pm</text><text x='300' y='270'>3pm</text><text x='420' y='270'>4pm</text><text x='240' y='290'>Time</text></g><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='12'><text x='8' y='12'>Distance from home in km</text></g></svg>",
+        "caption": "Travel graph of distance from home (km) against time (1 pm to 4 pm): from home at 1 pm, up to 3 km in about half an hour, flat at 3 km until 2 pm (the tea stop), then up to 11 km at 3 pm, then straight back down to 0 km at 4 pm. Points are read from a small scan."
+      },
+      "answer_guide": "a) 1 pm\n\nb) 30 minutes (flat part of the graph from about 1:30 pm to 2:00 pm)\n\nc) 11 km\n\nd) 1 hour (from 3 pm to 4 pm)\n\ne) Speed = distance / time = 11 km / 1 h = 11 km/h"
+    },
+    {
+      "id": 13,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 marks) - QUESTION 3 (TRIGONOMETRY)",
+      "question": "a) Change into radian 270° (2 marks)\n\nb) Find the irrational value of Sin75° (3 marks)\n\nc) Solve this trigonometric equation tan²θ - 1 = 0 for 0° ≤ θ ≤ 360° (3 marks)",
+      "answer_guide": "a) 270° × π/180° = 3π/2 radians (about 4.71 rad)\n\nb) Sin75° = Sin(45° + 30°) = Sin45°Cos30° + Cos45°Sin30°\n   = (√2/2)(√3/2) + (√2/2)(1/2)\n   = (√6 + √2) / 4 (about 0.966)\n\nc) tan²θ - 1 = 0, so tan²θ = 1 and tanθ = ±1\n   θ = 45°, 135°, 225°, 315°"
+    },
+    {
+      "id": 14,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 marks) - QUESTION 4 (DERIVATIVE)",
+      "question": "a) Find the derivative of y = √(x⁵) (3 marks)\n\nb) Differentiate y = 3/x² - 2/x - 7 (4 marks)\n\nc) If y = (x + 2)⁵, find dy/dx (use chain rule). (3 marks)\n\nd) Differentiate f(x) = e^(3x²) (2 marks)",
+      "answer_guide": "a) y = √(x⁵) = x^(5/2)\n   dy/dx = (5/2) x^(3/2)\n\nb) y = 3x⁻² - 2x⁻¹ - 7\n   dy/dx = -6x⁻³ + 2x⁻² = -6/x³ + 2/x²\n\nc) Let u = x + 2, so y = u⁵\n   dy/dx = (dy/du)(du/dx) = 5u⁴ × 1 = 5(x + 2)⁴\n\nd) f(x) = e^(3x²), let u = 3x²\n   f'(x) = e^(3x²) × 6x = 6x e^(3x²)"
+    },
+    {
+      "id": 15,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 marks) - QUESTION 5 (APPLICATION OF DIFFERENTIATION)",
+      "question": "a) Find the gradient of y = x² + 3 at x = 2 (2 marks)\n\nb) Find the equation of the tangent of y = x² + 3 at (2, 7) (3 marks)\n\nc) Find the stationary points of the following curve y = 5 + 2x - x² and determine their types (4 marks)\n\nd) A stone is thrown vertically upwards such that its height s meters above the ground after t seconds is given by s = 40t - 10t²\n   Find:\n   i) its height above the ground after 1 sec (2 marks)\n   ii) its velocity after 1 sec (3 marks)\n   iii) the vertical height it reached (3 marks)",
+      "answer_guide": "a) dy/dx = 2x; at x = 2, gradient = 2(2) = 4\n\nb) Gradient at (2, 7) is 4\n   y - 7 = 4(x - 2)\n   y = 4x - 1\n\nc) dy/dx = 2 - 2x = 0, so x = 1\n   y = 5 + 2(1) - 1² = 6, so the stationary point is (1, 6)\n   d²y/dx² = -2 < 0, so (1, 6) is a maximum point\n\nd)\n   i) s = 40(1) - 10(1)² = 30 m\n   ii) v = ds/dt = 40 - 20t; at t = 1, v = 20 m/s\n   iii) At the highest point v = 0: 40 - 20t = 0, so t = 2 s\n        s = 40(2) - 10(2)² = 80 - 40 = 40 m"
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 marks) - QUESTION 6 (INTEGRATION)",
+      "question": "a) Integrate ∫ (4/x³) dx (3 marks)\n\nb) Find ∫₁³ (4x³ - 6x + 2) dx (3 marks)\n\nc) Find the area between the curve y = x² and the x-axis from x = 1 to x = 2 (3 marks)",
+      "answer_guide": "a) ∫ 4x⁻³ dx = 4 × x⁻²/(-2) + c = -2x⁻² + c = -2/x² + c\n\nb) ∫₁³ (4x³ - 6x + 2) dx = [x⁴ - 3x² + 2x] from 1 to 3\n   = (81 - 27 + 6) - (1 - 3 + 2) = 60 - 0 = 60\n\nc) Area = ∫₁² x² dx = [x³/3] from 1 to 2 = 8/3 - 1/3 = 7/3 square units (about 2.33)"
+    },
+    {
+      "id": 17,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 marks) - QUESTION 7 (PROBABILITY)",
+      "question": "a) A six-sided die is rolled.\n   i) Write the sample space (2 marks)\n      S = { ........................ }\n   ii) What is the probability that an even number appears? (2 marks)\n\nb) In how many ways can you choose 5 out of 10 friends to invite to a dinner party? (3 marks)\n\nc) How many different arrangements can be made from the letters of the word BERBERA? (3 marks)\n\nd) Use binomial theorem to expand (x + y)⁶ (4 marks)",
+      "answer_guide": "a)\n   i) S = {1, 2, 3, 4, 5, 6}\n   ii) Even numbers = {2, 4, 6}, so P(even) = 3/6 = 1/2\n\nb) Order does not matter, so use combinations: 10C5 = 10! / (5! 5!) = 252 ways\n\nc) BERBERA has 7 letters with B repeated 2 times, E 2 times, R 2 times and A once:\n   7! / (2! 2! 2!) = 5040 / 8 = 630 arrangements\n\nd) (x + y)⁶ = x⁶ + 6x⁵y + 15x⁴y² + 20x³y³ + 15x²y⁴ + 6xy⁵ + y⁶"
+    },
+    {
+      "id": 18,
+      "section": "PART TWO: STRUCTURED QUESTIONS (90 marks) - QUESTION 8 (COMPLEX NUMBERS)",
+      "question": "a) Express √(-16/9) in terms of i (2 marks)\n\nb) Find the product of (2 - 3i)(3 + 2i) (3 marks)\n\nc) Represent the following complex numbers on the argand diagram below (4 marks)\n   i) Z₁ = 3 + 2i\n   ii) Z₂ = -3 + 4i\n\nd) Find the argument and modulus of the following complex number Z = -3 - 3i (4 marks)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 280' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='1.5'><g stroke-opacity='.3'><path d='M30 10 V250 M70 10 V250 M110 10 V250 M150 10 V250 M190 10 V250 M230 10 V250 M270 10 V250 M310 10 V250'/><path d='M30 10 H310 M30 50 H310 M30 90 H310 M30 130 H310 M30 170 H310 M30 210 H310 M30 250 H310'/></g><path d='M150 262 V4 M144 12 L150 2 L156 12' stroke-width='2'/><path d='M20 170 H330 M322 164 L332 170 L322 176' stroke-width='2'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='12' text-anchor='middle'><text x='30' y='186'>-3</text><text x='70' y='186'>-2</text><text x='110' y='186'>-1</text><text x='140' y='186'>0</text><text x='190' y='186'>1</text><text x='230' y='186'>2</text><text x='270' y='186'>3</text><text x='310' y='186'>4</text><text x='134' y='134'>1</text><text x='134' y='94'>2</text><text x='134' y='54'>3</text><text x='134' y='14'>4</text><text x='150' y='278'>Imaginary axis (vertical)</text><text x='360' y='160'>Real axis</text></g></svg>",
+        "caption": "Blank Argand diagram: a grid with the real axis (marked -3 to 4) and the imaginary axis (marked 1 to 4) on which the student plots Z1 and Z2."
+      },
+      "answer_guide": "a) √(-16/9) = √(16/9) × √(-1) = (4/3)i\n\nb) (2 - 3i)(3 + 2i) = 6 + 4i - 9i - 6i²\n   = 6 - 5i + 6 (since i² = -1)\n   = 12 - 5i\n\nc) Plot each number as a point (real part, imaginary part):\n   i) Z₁ = 3 + 2i is the point (3, 2): 3 units right and 2 units up\n   ii) Z₂ = -3 + 4i is the point (-3, 4): 3 units left and 4 units up\n\nd) Z = -3 - 3i\n   Modulus |Z| = √((-3)² + (-3)²) = √18 = 3√2 (about 4.24)\n   Argument: the point (-3, -3) is in the third quadrant, reference angle = tan⁻¹(3/3) = 45°\n   arg Z = 180° + 45° = 225° (equivalent to -135°, or 5π/4 radians)"
+    }
+  ]
+}

@@ -1,0 +1,237 @@
+{
+  "title": "Form Four English Examination, 2024 - Puntland National Examinations Board",
+  "exam_id": "puntland_12_english_2024",
+  "year": 2024,
+  "subject": "English",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension (the cover lists Part one as Comprehension questions)",
+      "question": "Read the passage below then answer the questions that follow\n\nPollution is the degradation of natural environment by external substances introduced directly or indirectly. Human health, ecosystem quality, aquatic and terrestrial biodiversity may be affected and altered permanently by pollution.\n\nPollution occurs when ecosystems cannot get rid of substances introduced into the environment. The critical threshold of its ability to naturally eliminate substances is compromised and the balance of the ecosystem is broken.\n\nThe sources of pollution are numerous. The identification of these different pollutants and their effects on ecosystems is complex. They can come from natural disasters as the result of human activity, such as oil spills, chemical spills and nuclear accidents.\n\nThese can have terrible consequences on people and the planet where they live: destruction of the biodiversity, increased mortality of the human and animal species, destruction of natural habitat, damage caused to the quality of soil, water and air.\n\nPreventing pollution and protecting the environment necessitate the application of the principles of sustainable development. we have to consider to satisfy the needs of today without compromising the ability of future generations to meet their needs. This means that we should remedy existing pollution, but also anticipate and prevent future pollution sources in order to protect the environment and public health.\n\nAny environmental damage must be punishable by law, and polluters should pay compensation for the damage caused to the environment.\n\nAnswer the following the questions fully (20 marks)\n\n1. What is meant by pollution?",
+      "answer_guide": "Pollution is the degradation (damage) of the natural environment by external substances that are introduced into it directly or indirectly."
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n2. When does pollution occur?",
+      "answer_guide": "Pollution occurs when ecosystems cannot get rid of the substances introduced into the environment, that is, when the ecosystem's natural ability to eliminate the substances is exceeded and the balance of the ecosystem is broken."
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n3. The following statements are false Except ---------",
+      "options": ["A. Pollution is the degradation of natural environment By internal substances.", "B. Pollution is the degradation of natural environment by external substances.", "C. Pollution is the degradation of natural environment by external and internal substances.", "D. Pollution is the degradation of natural environment by human healthy substances."],
+      "correct_index": 1
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n4. Pollution occurs when --------------",
+      "options": ["A. Ecosystems cannot get rid of substances introduced into the environment.", "B. Ecosystems can get rid of substances introduced into the environment.", "C. Ecosystems must get rid of substances introduced into the environment.", "D. Ecosystems cannot get rid of substances introduced into the human activity."],
+      "correct_index": 0
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n5. Pollution",
+      "options": ["A. Is always caused by humans.", "B. May sometimes be caused by natural disasters.", "C. Is not always caused by human activity.", "D. May not sometimes be caused by human activities and natural disasters."],
+      "correct_index": 1
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n6. An ideal solution to prevent pollution would be to",
+      "options": ["A. Refrain the development of some countries.", "B. Continue developmental projects.", "C. Take into consideration the future generations need to live in a healthy environment.", "D. Continue developmental projects keep the environment destruction."],
+      "correct_index": 2
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n7. The protect in the last paragraph means;",
+      "options": ["A. Attack", "B. Spell", "C. Violence", "D. Defend"],
+      "correct_index": 3
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n8. In the last paragraph the opposite word satisfy is:",
+      "options": ["A. Content", "B. Please", "C. Fulfil", "D. Dissatisfy"],
+      "correct_index": 3
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n9. The opposite word numerous is:",
+      "options": ["A. Many", "B. Few", "C. Plentiful", "D. Abundant"],
+      "correct_index": 1
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 marks) - Comprehension",
+      "question": "(Refer to the passage on pollution above.)\n\n10. The word damage used in the passage means:",
+      "options": ["A. Repair", "B. Mend", "C. Injury", "D. Restore"],
+      "correct_index": 2
+    },
+    {
+      "id": 11,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - A) Choose the correct similar word of the underlined words (10 marks)",
+      "question": "A) Choose the correct similar word of the underlined words (10 marks)\n\n1. Two of the soldiers were killed and the rest were captured after a long battle.",
+      "options": ["A. Arrested", "B. Released", "C. Lost", "D. Liberated"],
+      "correct_index": 0
+    },
+    {
+      "id": 12,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - A) Choose the correct similar word of the underlined words (10 marks)",
+      "question": "2. Hasan's courage during his illness was evident to everyone.",
+      "options": ["A. Unclear", "B. Uncertain", "C. Obvious", "D. Undecided"],
+      "correct_index": 2
+    },
+    {
+      "id": 13,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - A) Choose the correct similar word of the underlined words (10 marks)",
+      "question": "3. Puntland Government imports a large number of cars from Japan every year.",
+      "options": ["A. Exports", "B. Brings", "C. Distributes", "D. Transfers"],
+      "correct_index": 1
+    },
+    {
+      "id": 14,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - A) Choose the correct similar word of the underlined words (10 marks)",
+      "question": "4. The two governments promised to co-operate the tranquilities of their countries.",
+      "options": ["A. Hinder", "B. Delay", "C. Deter", "D. Collaborate"],
+      "correct_index": 3
+    },
+    {
+      "id": 15,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - A) Choose the correct similar word of the underlined words (10 marks)",
+      "question": "5. It is very important to distinguish between business and friendship.",
+      "options": ["A. Differentiate", "B. Confuse", "C. Obscure", "D. Complicate"],
+      "correct_index": 0
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "B) Choose the opposite of the underlined words (10 marks)\n\n1. The important thing is to keep the heat low otherwise the sugar will burn.",
+      "options": ["A. Significant", "B. Necessary", "C. Vital", "D. Unimportant"],
+      "correct_index": 3
+    },
+    {
+      "id": 17,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "2. The majority of the people in the city strongly support the plans to build new tarmac roads.",
+      "options": ["A. Negate", "B. Care", "C. Sustenance", "D. Provision"],
+      "correct_index": 0
+    },
+    {
+      "id": 18,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "3. When did the president start his journey?",
+      "options": ["A. Begin", "B. Commence", "C. Finish", "D. Initiate"],
+      "correct_index": 2
+    },
+    {
+      "id": 19,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "4. The shopkeeper gave me wrong goods yesterday.",
+      "options": ["A. Incorrect", "B. Right", "C. Mistaken", "D. Erroneous"],
+      "correct_index": 1
+    },
+    {
+      "id": 20,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "5. The meeting in the security of the city was totally failure.",
+      "options": ["A. Success", "B. Disappointed", "C. Disaster", "D. Catastrophe"],
+      "correct_index": 0
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "6. Technological progress has been so rapid over the past fifteen years.",
+      "options": ["A. Improvement", "B. Growth", "C. Recede", "D. Development"],
+      "correct_index": 2
+    },
+    {
+      "id": 22,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "7. I worry about the destructive effect that social media may have on children.",
+      "options": ["A. Unhelpful", "B. Critical", "C. Negative", "D. Constructive"],
+      "correct_index": 3
+    },
+    {
+      "id": 23,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "8. I offered her an apology, but she wouldn't accept it.",
+      "options": ["A. Refuse", "B. Take", "C. Receive", "D. Permit"],
+      "correct_index": 0
+    },
+    {
+      "id": 24,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "9. They showed open hostility to their new neighbours.",
+      "options": ["A. Unfriendliness", "B. Aggression", "C. Amity", "D. Anger"],
+      "correct_index": 2
+    },
+    {
+      "id": 25,
+      "section": "PART TWO: GENERAL VOCABULARY (20 MARKS) - B) Choose the opposite of the underlined words (10 marks)",
+      "question": "10. It is only a tiny minority of people who are causing the problem.",
+      "options": ["A. Smaller", "B. Marginal", "C. Sectional", "D. Majority"],
+      "correct_index": 3
+    },
+    {
+      "id": 26,
+      "section": "PART THREE: GRAMMAR IN USE (30 MARKS) - A",
+      "question": "A) Change the verbs in brackets into past perfect tense to complete the sentences (10 marks)\n   1. The visitors ........................ (walk) for such a long Distance.\n   2. They ........................ (do) their final exams.\n   3. My Brother ........................ (write) a beautiful poem.\n   4. Hodan ........................ (live) in Mogadishu by the time I met her.\n   5. They ........................ (fly) to many countries before their father was posted to Somalia.",
+      "answer_guide": "   1. had walked\n   2. had done\n   3. had written\n   4. had lived\n   5. had flown"
+    },
+    {
+      "id": 27,
+      "section": "PART THREE: GRAMMAR IN USE (30 MARKS) - B",
+      "question": "B) Put the verbs in brackets into the correct tense (10 marks)\n   1. If she ........................ (take) salt at night, something bad will happen to her.\n   2. If Hodan ........................ (go) to the library, she will bring me a novel.\n   3. If I ........................ (be) you, I would work extremely hard this year.\n   4. I ........................ (be) very happy if I had twenty million dollars.\n   5. He would have got the job if he ........................ (not be) so nervous in the interview.",
+      "answer_guide": "   1. takes (first conditional: if + present simple, will + verb)\n   2. goes\n   3. were (second conditional: if + past simple, would + verb)\n   4. would be\n   5. hadn't been (third conditional: if + past perfect, would have + past participle)"
+    },
+    {
+      "id": 28,
+      "section": "PART THREE: GRAMMAR IN USE (30 MARKS) - C",
+      "question": "C) Rewrite these sentences by changing the verb into the tense indicated in brackets (5 marks)\n   1. Farah will go to a university. (past perfect)\n   2. Amal was running well when the whistle blew. (present perfect continuous)\n   3. The man ate all the food. (past perfect)\n   4. The club collected a lot of money during the fundraiser. (simple future)\n   5. Mahad wrote an official letter to the journalism club. (present continuous)",
+      "answer_guide": "   1. Farah had gone to a university.\n   2. Amal has been running well since the whistle blew.\n   3. The man had eaten all the food.\n   4. The club will collect a lot of money during the fundraiser.\n   5. Mahad is writing an official letter to the journalism club."
+    },
+    {
+      "id": 29,
+      "section": "PART THREE: GRAMMAR IN USE (30 MARKS) - D",
+      "question": "D) Change these sentences into passive voice (5 marks)\n   1. He ate the food.\n   2. She wrote a letter.\n   3. They broke the window.\n   4. She will help him.\n   5. He teaches us English.",
+      "answer_guide": "   1. The food was eaten by him.\n   2. A letter was written by her.\n   3. The window was broken by them.\n   4. He will be helped by her.\n   5. We are taught English by him."
+    },
+    {
+      "id": 30,
+      "section": "PART FOUR: LITERATURE (15 MARKS) - Answer the following questions (7 marks)",
+      "question": "Answer the following questions (7 marks)\n\n1. What are the features of oral literature? (3 marks)",
+      "answer_guide": "Any three features of oral literature:\n   1. It is passed on by word of mouth (spoken, not written) from one generation to the next\n   2. It is performed before an audience, who often take part (singing, clapping, responding)\n   3. It is communal and usually has no known author, uses repetition, songs, gestures and changes as it is retold; it also preserves the culture and values of a society"
+    },
+    {
+      "id": 31,
+      "section": "PART FOUR: LITERATURE (15 MARKS) - Answer the following questions (7 marks)",
+      "question": "2. Define a myth. (2 marks)",
+      "answer_guide": "A myth is a traditional story, often about gods, heroes or supernatural beings, that explains the origin of the world, people, or natural events and beliefs of a community."
+    },
+    {
+      "id": 32,
+      "section": "PART FOUR: LITERATURE (15 MARKS) - Answer the following questions (7 marks)",
+      "question": "3. Define satirical poetry. (2 mark)",
+      "answer_guide": "Satirical poetry is poetry that uses humour, irony, ridicule or exaggeration to criticise and expose the weaknesses, faults or wrongs of people, leaders or society, often to bring about change."
+    },
+    {
+      "id": 33,
+      "section": "PART FOUR: LITERATURE (15 MARKS) - Poem (8 marks)",
+      "question": "Read the following poem and answer the questions (8 marks)\n\nNIGHTFALL IN SOWETO\n\n[The poem is printed in full on page 8 of the paper. Its text is not reproduced in this file because it is a published, copyrighted poem; insert it from the official paper if the full text is needed.]\n\nAnswer these questions\n   1. What is the poem about?\n   2. Who is the persona in this poem?\n   3. What is the tone of the poem?\n   4. What is the mood of the poem?",
+      "answer_guide": "(Answers are in my own words, based on the poem as printed in the paper; each question is worth 2 marks.)\n\n   1. The poem is about the fear and insecurity of township residents in Soweto, who feel hunted every night and have no safe place, so they long for daytime to last forever.\n   2. The persona is an ordinary black resident of Soweto, a helpless victim living in terror of the violence that comes with nightfall.\n   3. The tone is fearful, desperate and bitter / resentful (the persona is pleading and complaining).\n   4. The mood is tense, frightening and gloomy (it makes the reader feel the persona's terror and helplessness)."
+    },
+    {
+      "id": 34,
+      "section": "PART FIVE: COMPOSITION WRITING (15 MARKS)",
+      "question": "Choose one of the two topics given below, and write composition not less than 150 words\n\nTopic 1:\nWrite a composition about the importance of water, explaining each point of the following points. If you left one of the given points you will totally lose your marks. Your composition should not less than 150 words\n   1. Where do we find the water?\n   2. Why the water is very important to our lives?\n   3. Why do the animals and plants need water?\n   4. What will happen if we don't get water?\n\nOR\n\nTopic 2:\nWrite a composition about the exported products in Puntland",
+      "answer_guide": "Topic 1 (importance of water): a good composition of at least 150 words with an introduction, one paragraph for each of the four points, and a conclusion:\n   1. Where we find water: rain, rivers, lakes, seas and oceans, underground (wells and boreholes), springs, ice\n   2. Importance to our lives: drinking, cooking, washing and hygiene, farming and irrigation, industry and electricity, transport\n   3. Animals and plants: plants need water for photosynthesis, growth and to carry nutrients; animals need it for drinking, digestion and regulating body temperature, and many live in water\n   4. If we don't get water: thirst, dehydration, disease, death of crops and animals, famine, drought and conflict\n\nTopic 2 (exported products of Puntland): a composition of at least 150 words with an introduction, a paragraph on each main product, and a conclusion. Main points: livestock (goats, sheep, camels, cattle) exported through Bosaso and other ports; frankincense and myrrh; fish and other marine products; hides and skins; gum and resins. Explain where they come from, where they are sold (e.g. the Gulf states), how they bring income and jobs, and challenges and suggestions (quality, ports, security)."
+    }
+  ]
+}
