@@ -1,0 +1,419 @@
+{
+  "title": "Somaliland Form Four Examination 2023 - 2024 - Mathematics Paper Two",
+  "exam_id": "somaliland_12_mathematics_p2_2024",
+  "year": 2024,
+  "subject": "Mathematics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "1. Convert 300° into radian :",
+      "diagram": null,
+      "options": [
+        "A. 4π/6",
+        "B. 4π/3",
+        "C. 5π/6",
+        "D. 5π/3"
+      ],
+      "correct_index": 3,
+      "answer_guide": "300° × π/180 = 5π/3",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "2. Convert 7π/3 into degree",
+      "diagram": null,
+      "options": [
+        "A. 380°",
+        "B. 420°",
+        "C. 390°",
+        "D. 440°"
+      ],
+      "correct_index": 1,
+      "answer_guide": "7π/3 × 180/π = 420°",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "3. The derivative of the function f(x) = 5x² – 6x + 10 is",
+      "diagram": null,
+      "options": [
+        "A. 5x² – 6x + 10",
+        "B. 10x² – 6x + 10",
+        "C. 10x – 6",
+        "D. (5/2)x³ – 3x² + 10x"
+      ],
+      "correct_index": 2,
+      "answer_guide": "f′(x) = 10x – 6",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "4. An angle 300° lies on :",
+      "diagram": null,
+      "options": [
+        "A. First quadrant",
+        "B. Second quadrant",
+        "C. Third quadrant",
+        "D. Fourth quadrant"
+      ],
+      "correct_index": 3,
+      "answer_guide": "270° < 300° < 360° → fourth quadrant",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "5. The slope of the curve y = 2x³ – 4x² + 9 at x = –1 is",
+      "diagram": null,
+      "options": [
+        "A. 14",
+        "B. 2",
+        "C. -2",
+        "D. -14"
+      ],
+      "correct_index": 0,
+      "answer_guide": "dy/dx = 6x² – 8x; at x = –1: 6 + 8 = 14",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "6. lim(x→3) ((3x + 9)/(x + 3))",
+      "diagram": null,
+      "options": [
+        "A. 1",
+        "B. 2",
+        "C. 3",
+        "D. 4"
+      ],
+      "correct_index": 2,
+      "answer_guide": "(9 + 9)/(3 + 3) = 18/6 = 3",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "7. If z = 1 – √3 i is equivalent in polar form",
+      "diagram": null,
+      "options": [
+        "A. 2 [cos 300° + i sin 300°]",
+        "B. 2 [cos 60° + i sin 60°]",
+        "C. 2 [cos 120° + i sin 120°]",
+        "D. 2 [cos 240° + i sin 240°]"
+      ],
+      "correct_index": 0,
+      "answer_guide": "r = √(1 + 3) = 2; point in 4th quadrant, tan⁻¹(√3) = 60° → θ = 360° – 60° = 300°",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "8. If Z = 3 – 2i then Z² is",
+      "diagram": null,
+      "options": [
+        "A. 5 – 12i",
+        "B. 13 + 12i",
+        "C. 5 + 12i",
+        "D. 13 – 12i"
+      ],
+      "correct_index": 0,
+      "answer_guide": "(3 – 2i)² = 9 – 12i + 4i² = 5 – 12i",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "9. If Z₁ = 8 [cos 90° + i sin 90°]\n    Z₂ = 4 [cos 60° + i sin 60°] then Z₁/Z₂",
+      "diagram": null,
+      "options": [
+        "A. 2 [cos 150° + i sin 150°]",
+        "B. 32 [cos 150° + i sin 150°]",
+        "C. 2 [cos 30° + i sin 30°]",
+        "D. 32 [cos 30° + i sin 30°]"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Divide moduli: 8/4 = 2; subtract arguments: 90° – 60° = 30°",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "10. There 10 socks in a bag, 5 red, 3 blue and 2 black. One sock is drawn. What is the probability that the sock is black.",
+      "diagram": null,
+      "options": [
+        "A. 2/5",
+        "B. 1/5",
+        "C. 3/5",
+        "D. 3/10"
+      ],
+      "correct_index": 1,
+      "answer_guide": "P(black) = 2/10 = 1/5",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "11. A group of 50 people. 30 are men and 20 are women. If randomly selected one person from the group. What probability that the selected person is a man.",
+      "diagram": null,
+      "options": [
+        "A. 1/5",
+        "B. 2/5",
+        "C. 4/5",
+        "D. 3/5"
+      ],
+      "correct_index": 3,
+      "answer_guide": "P(man) = 30/50 = 3/5",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "12. The mean deviation of the data set 1, 2, 3, 4, 5 is",
+      "diagram": null,
+      "options": [
+        "A. 1",
+        "B. 1.2",
+        "C. 2",
+        "D. 1.4"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Mean = 3; |deviations| = 2, 1, 0, 1, 2; sum = 6; MD = 6/5 = 1.2",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "13. What is the probability of vowel in the word “ EXAMINATION “",
+      "diagram": null,
+      "options": [
+        "A. 4/11",
+        "B. 6/11",
+        "C. 7/11",
+        "D. 5/11"
+      ],
+      "correct_index": 1,
+      "answer_guide": "11 letters; vowels E, A, I, A, I, O = 6 → 6/11",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "14. The mode of the data set 7, 10, 2, 3, 5, 7, 8, 3, 2, 7, 2, 3, 1, 3, 7",
+      "diagram": null,
+      "options": [
+        "A. 3",
+        "B. 7",
+        "C. 5",
+        "D. 2"
+      ],
+      "correct_index": null,
+      "answer_guide": "Both 3 and 7 occur 4 times, so the data set is bimodal (modes 3 and 7). Options A and B are both correct as printed.",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "15. If y = 6x + 11 which of the following tables are correct",
+      "diagram": null,
+      "options": [
+        "A. x: -5, -4, -3, -2, -1, 0  |  y: -19, -13, -7, 1, 5, 11",
+        "B. x: -3, -2, -1, 0, +1, +2  |  y: -7, -1, 4, 11, 17, 23",
+        "C. x: -2, -1, 0, 1, 2, 3  |  y: -1, 5, 11, 17, 23, 29",
+        "D. x: -1, 0, 1, 2, 3, 4  |  y: -1, 11, 17, 23, 29, 36"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Only table C satisfies y = 6x + 11 for every value (e.g. x = –2 → y = –1; x = 3 → y = 29). A fails at x = –2, B at x = –1 and D at x = –1 and x = 4.",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "16. The center of circle whose equation is x² + y² – 6x + 8y – 5 = 0 is :",
+      "diagram": null,
+      "options": [
+        "A. (3, -4)",
+        "B. (-3, -4)",
+        "C. (-3, 4)",
+        "D. (3, 4)"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Centre = (–g, –f) = (3, –4)",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "17. If f(x) = 3x + 2 and g(x) = x² – 3 then (gof)(x) is",
+      "diagram": null,
+      "options": [
+        "A. 9x + 8",
+        "B. 3x - 1",
+        "C. 3x + 1",
+        "D. 9x² + 12x + 1"
+      ],
+      "correct_index": 3,
+      "answer_guide": "g(f(x)) = (3x + 2)² – 3 = 9x² + 12x + 1",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "18. The volume of the figure below is",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 300\" width=\"100%\" style=\"max-width:300px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Cone with height 12 cm and base radius 7 cm\"><ellipse cx=\"140\" cy=\"240\" rx=\"100\" ry=\"28\" fill=\"#eef3fa\" stroke=\"#222\" stroke-width=\"2\"/><path d=\"M40,240 L140,30 L240,240\" fill=\"none\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"140\" y1=\"30\" x2=\"140\" y2=\"240\" stroke=\"#222\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><line x1=\"140\" y1=\"240\" x2=\"240\" y2=\"240\" stroke=\"#222\" stroke-width=\"1.5\" stroke-dasharray=\"5,4\"/><path d=\"M140,228 h12 v12\" fill=\"none\" stroke=\"#222\" stroke-width=\"1\"/><line x1=\"145\" y1=\"135\" x2=\"215\" y2=\"135\" stroke=\"#222\" stroke-width=\"1.5\"/><path d=\"M215,130 L225,135 L215,140 Z\" fill=\"#222\"/><text x=\"230\" y=\"141\" font-size=\"16\" font-weight=\"bold\">12 cm</text><text x=\"190\" y=\"233\" font-size=\"15\" font-weight=\"bold\" text-anchor=\"middle\">7 cm</text></svg>",
+        "caption": "Right circular cone with perpendicular height 12 cm and base radius 7 cm."
+      },
+      "options": [
+        "A. 308 cm³",
+        "B. 616 cm³",
+        "C. 4312 cm³",
+        "D. 2156 cm³"
+      ],
+      "correct_index": 1,
+      "answer_guide": "V = (1/3)πr²h = (1/3)(22/7)(7²)(12) = 616 cm³",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "19. The sum of the following series 3, 5, 7,...... 51 is",
+      "diagram": null,
+      "options": [
+        "A. 648",
+        "B. 540",
+        "C. 675",
+        "D. 621"
+      ],
+      "correct_index": 2,
+      "answer_guide": "n = (51 – 3)/2 + 1 = 25; S = 25/2 × (3 + 51) = 675",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: Multiple Choice Questions. (40 marks)",
+      "question": "20. The solution of x of the equation x² + 2x – 8 = 0",
+      "diagram": null,
+      "options": [
+        "A. (4, 2)",
+        "B. (4, -2)",
+        "C. (-4, -2)",
+        "D. (-4, 2)"
+      ],
+      "correct_index": 3,
+      "answer_guide": "(x + 4)(x – 2) = 0 → x = –4 or x = 2",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q1. If sinA = 5/13 , cosB = 4/5 Find\n  a) sin (A + B) = (2 marks)\n  b) cos (A – B) (2 marks)\n  c) cosn2A (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Taking A and B as acute angles: cosA = 12/13, sinB = 3/5.\na) sin(A + B) = sinA cosB + cosA sinB = (5/13)(4/5) + (12/13)(3/5) = 20/65 + 36/65 = 56/65\nb) cos(A – B) = cosA cosB + sinA sinB = (12/13)(4/5) + (5/13)(3/5) = 48/65 + 15/65 = 63/65\nc) (read as cos 2A) cos2A = 1 – 2sin²A = 1 – 2(25/169) = 119/169",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q2.\n  a) Solve the equation for 0 ≤ x ≤ 180\n     2cos² x – √3 cosx = 0 (3 marks)\n  b) Prove that\n     (1 – sin²θ)/cosθ = 1/secθ (3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) cosx(2cosx – √3) = 0\n   cosx = 0 → x = 90°\n   cosx = √3/2 → x = 30°\n   Solutions: x = 30°, 90°\nb) LHS = (1 – sin²θ)/cosθ = cos²θ/cosθ = cosθ = 1/secθ = RHS ∎",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q3. If Z₁ = 4 (cos 60° + i sin 60°)\n        Z₂ = 3 (cos 90° + i sin 90°)\n   Find\n  a) Z₁ . Z₂ (2 marks)\n  b) Z₁² (2 marks)\n  c) Z₂³ (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Z₁Z₂ = 4 × 3 [cos(60° + 90°) + i sin(60° + 90°)] = 12(cos 150° + i sin 150°) = –6√3 + 6i\nb) Z₁² = 4²(cos 120° + i sin 120°) = 16(cos 120° + i sin 120°) = –8 + 8√3 i\nc) Z₂³ = 3³(cos 270° + i sin 270°) = 27(cos 270° + i sin 270°) = –27i",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q4. Given data set 2, 5, 8, 10, 11, 14, 19, 25, 25, 3, 7, 9, 13, 17\n   Calculate\n  a) The lower – quartile (Q₁) (2 marks)\n  b) The upper – quartile (Q₃) (2 marks)\n  c) The inter – quartile Range (IQR) (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Arrange in order (n = 14): 2, 3, 5, 7, 8, 9, 10, 11, 13, 14, 17, 19, 25, 25\nMedian = (10 + 11)/2 = 10.5; lower half = 2, 3, 5, 7, 8, 9, 10; upper half = 11, 13, 14, 17, 19, 25, 25\na) Q₁ = 7\nb) Q₃ = 17\nc) IQR = Q₃ – Q₁ = 17 – 7 = 10\n(Using the (n + 1)/4 position method instead: Q₁ = 6.5, Q₃ = 17.5, IQR = 11.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q5. The position of particle from rest, moving in straight line is\n     S(t) = t³ + 30t² + 40t – 8 where t is measured in second and S in meters evaluate\n  a) The position (distance) of particle at t = 2 second (2 marks)\n  b) The velocity of particle at t = 2 seconds (2 marks)\n  c) The acceleration of the particle at t = 1 seconds (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) S(2) = 8 + 120 + 80 – 8 = 200 m\nb) v(t) = dS/dt = 3t² + 60t + 40 → v(2) = 12 + 120 + 40 = 172 m/s\nc) a(t) = dv/dt = 6t + 60 → a(1) = 66 m/s²",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q6. The equation of the curve y = (1/3)x³ – x² – 8x + 10\n   Evaluate :\n  a. The coordinate of stationary points (3 marks)\n  b. The nature of the curve (3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) dy/dx = x² – 2x – 8 = 0 → (x – 4)(x + 2) = 0 → x = 4 or x = –2\n   x = 4: y = 64/3 – 16 – 32 + 10 = –50/3\n   x = –2: y = –8/3 – 4 + 16 + 10 = 58/3\n   Stationary points: (4, –50/3) and (–2, 58/3)\nb) d²y/dx² = 2x – 2\n   At x = 4: 6 > 0 → minimum point (4, –50/3)\n   At x = –2: –6 < 0 → maximum point (–2, 58/3)",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q7. A box contains 5 blue, 3 yellow and 6 red marbles. Two marbles are randomly select from the box without replacement.\n   Find the probability that\n  a. Two blue marbles (2 marks)\n  b. yellow marble. then red marble (2 marks)\n  c. Two red marbles (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Total = 14 marbles.\na) P(blue, blue) = 5/14 × 4/13 = 20/182 = 10/91\nb) P(yellow then red) = 3/14 × 6/13 = 18/182 = 9/91\nc) P(red, red) = 6/14 × 5/13 = 30/182 = 15/91",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q8. The equation of the parabola is x² + 6x – 8y + 17 = 0\n   Find\n  a) The vertex (2 marks)\n  b) The focus (2 marks)\n  c. The directrix (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Complete the square: (x + 3)² – 9 – 8y + 17 = 0 → (x + 3)² = 8(y – 1), so 4p = 8, p = 2 (opens upward)\na) Vertex = (–3, 1)\nb) Focus = (–3, 1 + 2) = (–3, 3)\nc) Directrix: y = 1 – 2 → y = –1",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q9. The graph below is a result of mathematics subject\n  a) How many students got grade A? (2 marks)\n  b) How many students below grade C ? (2 marks)\n  c) How many students attent the examination? (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 480 320\" width=\"100%\" style=\"max-width:480px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Bar chart of mathematics results by grade level\"><line x1=\"70\" y1=\"260.0\" x2=\"450\" y2=\"260.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"264.0\" font-size=\"12\" text-anchor=\"end\">0</text><line x1=\"70\" y1=\"238.0\" x2=\"450\" y2=\"238.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"242.0\" font-size=\"12\" text-anchor=\"end\">2</text><line x1=\"70\" y1=\"216.0\" x2=\"450\" y2=\"216.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"220.0\" font-size=\"12\" text-anchor=\"end\">4</text><line x1=\"70\" y1=\"194.0\" x2=\"450\" y2=\"194.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"198.0\" font-size=\"12\" text-anchor=\"end\">6</text><line x1=\"70\" y1=\"172.0\" x2=\"450\" y2=\"172.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"176.0\" font-size=\"12\" text-anchor=\"end\">8</text><line x1=\"70\" y1=\"150.0\" x2=\"450\" y2=\"150.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"154.0\" font-size=\"12\" text-anchor=\"end\">10</text><line x1=\"70\" y1=\"128.0\" x2=\"450\" y2=\"128.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"132.0\" font-size=\"12\" text-anchor=\"end\">12</text><line x1=\"70\" y1=\"106.0\" x2=\"450\" y2=\"106.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"110.0\" font-size=\"12\" text-anchor=\"end\">14</text><line x1=\"70\" y1=\"84.0\" x2=\"450\" y2=\"84.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"88.0\" font-size=\"12\" text-anchor=\"end\">16</text><line x1=\"70\" y1=\"62.0\" x2=\"450\" y2=\"62.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"66.0\" font-size=\"12\" text-anchor=\"end\">18</text><line x1=\"70\" y1=\"40.0\" x2=\"450\" y2=\"40.0\" stroke=\"#bbb\" stroke-width=\"1\" stroke-dasharray=\"2,2\"/><text x=\"62\" y=\"44.0\" font-size=\"12\" text-anchor=\"end\">20</text><rect x=\"84.0\" y=\"172.0\" width=\"48\" height=\"88.0\" fill=\"#9aa5b1\" stroke=\"#555\"/><text x=\"108\" y=\"278\" font-size=\"13\" text-anchor=\"middle\">A</text><rect x=\"160.0\" y=\"128.0\" width=\"48\" height=\"132.0\" fill=\"#9aa5b1\" stroke=\"#555\"/><text x=\"184\" y=\"278\" font-size=\"13\" text-anchor=\"middle\">B</text><rect x=\"236.0\" y=\"40.0\" width=\"48\" height=\"220.0\" fill=\"#9aa5b1\" stroke=\"#555\"/><text x=\"260\" y=\"278\" font-size=\"13\" text-anchor=\"middle\">C</text><rect x=\"312.0\" y=\"194.0\" width=\"48\" height=\"66.0\" fill=\"#9aa5b1\" stroke=\"#555\"/><text x=\"336\" y=\"278\" font-size=\"13\" text-anchor=\"middle\">D</text><rect x=\"388.0\" y=\"238.0\" width=\"48\" height=\"22.0\" fill=\"#9aa5b1\" stroke=\"#555\"/><text x=\"412\" y=\"278\" font-size=\"13\" text-anchor=\"middle\">E</text><line x1=\"70\" y1=\"260\" x2=\"450\" y2=\"260\" stroke=\"#222\" stroke-width=\"2\"/><line x1=\"70\" y1=\"260\" x2=\"70\" y2=\"30\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"260.0\" y=\"302\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">Grade level</text><text x=\"18\" y=\"150.0\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\" transform=\"rotate(-90 18 150.0)\">Frequency</text></svg>",
+        "caption": "Bar chart of mathematics results: frequency (0–20) of students by grade level A–E."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Reading the bars: A = 8, B = 12, C = 20, D = 6, E = 2\na) 8 students\nb) Below grade C = D + E = 6 + 2 = 8 students\nc) Total = 8 + 12 + 20 + 6 + 2 = 48 students",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO : Structured Questions. (60 Marks)",
+      "question": "Q10.\n  a) If a = (3, 4) and b = (2, 3) [column vectors] compute 2a – 3b (1 mark)\n  b) Rahma scored 65% in test. The test was out of 40 marks. How many marks did she score? (2marks)\n  c) The figure below calculate :\n     i) Perimeter (1 mark)\n     ii) Area (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 220\" width=\"100%\" style=\"max-width:300px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Composite L-shaped figure\"><path d=\"M50,20 H190 V120 H250 V180 H50 Z\" fill=\"#eef3fa\" stroke=\"#222\" stroke-width=\"2\"/><text x=\"120\" y=\"14\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">7 cm</text><text x=\"44\" y=\"104\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"end\">8 cm</text><text x=\"256\" y=\"155\" font-size=\"14\" font-weight=\"bold\">3 cm</text><text x=\"150\" y=\"200\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">10 cm</text></svg>",
+        "caption": "Composite L-shaped figure for Q10c: left side 8 cm, top 7 cm, bottom 10 cm, right step 3 cm high."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) 2a – 3b = (6, 8) – (6, 9) = (0, –1)\nb) 65% × 40 = 0.65 × 40 = 26 marks\nc) i) Perimeter = 7 + 5 + 3 + 3 + 10 + 8 = 36 cm (missing sides: 8 – 3 = 5 cm, 10 – 7 = 3 cm)\n   ii) Area = (7 × 8) + (3 × 3) = 56 + 9 = 65 cm²",
+      "matching_pairs": null
+    }
+  ]
+}

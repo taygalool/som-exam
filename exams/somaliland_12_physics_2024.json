@@ -1,0 +1,455 @@
+{
+  "title": "Somaliland Form Four Examination 2023 - 2024 - Physics",
+  "exam_id": "somaliland_12_physics_2024",
+  "year": 2024,
+  "subject": "Physics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "1. Which of the following statements specifies velocity?",
+      "diagram": null,
+      "options": [
+        "a. Distance per unit time",
+        "b. Displacement made per unit time",
+        "c. Acceleration in a given time",
+        "d. Deceleration in a given time"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Velocity = displacement per unit time (a vector).",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "2. What is the average velocity of a car which shows down uniform from 30m/s",
+      "diagram": null,
+      "options": [
+        "a. 10 m/s",
+        "b. 20 m/s",
+        "c. 30 m/s",
+        "d. 40 m/s"
+      ],
+      "correct_index": null,
+      "answer_guide": "The question is incomplete as printed (no final velocity is given). For uniform deceleration, average velocity = (u + v)/2. If the car stops (v = 0) the answer is 15 m/s, which is not an option; if it slows to 10 m/s the answer is 20 m/s (b).",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "3. A bullet of mass 5g is fired from a gun of mass 500g at a speed of 400 m/s. Calculate the recoiling speed of the gun.",
+      "diagram": null,
+      "options": [
+        "a. 4 m/s",
+        "b. 6 m/s",
+        "c. 8 m/s",
+        "d. 10 m/s"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Conservation of momentum: 0.005 × 400 = 0.5 × v → v = 4 m/s",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "4. The figure shows the forces acting on wooden block. If the block accelerates at 2 m/s², calculate the mass of the block.",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 130\" width=\"100%\" style=\"max-width:360px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Block with forces of 30 N forward and 10 N backward\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"110\" y=\"55\" width=\"140\" height=\"45\" fill=\"#f4f4f4\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"250\" y1=\"85\" x2=\"330\" y2=\"85\" stroke=\"#111\" stroke-width=\"2.5\" marker-end=\"url(#ah)\"/><text x=\"320\" y=\"75\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">30 N</text><line x1=\"110\" y1=\"90\" x2=\"30\" y2=\"90\" stroke=\"#111\" stroke-width=\"2.5\" marker-end=\"url(#ah)\"/><text x=\"45\" y=\"80\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">10 N</text><line x1=\"170\" y1=\"30\" x2=\"260\" y2=\"30\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"300\" y=\"35\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\">motion</text></svg>",
+        "caption": "Wooden block pulled by 30 N to the right and opposed by 10 N to the left; motion is to the right."
+      },
+      "options": [
+        "a. 2 Kg",
+        "b. 4 Kg",
+        "c. 6 Kg",
+        "d. 10 Kg"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Net force = 30 − 10 = 20 N; m = F/a = 20/2 = 10 kg",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "5. A ball is projected at an angle of 30⁰ with the horizontal at initial velocity of 40 m/s. what is the vertical component of the velocity.",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 230\" width=\"100%\" style=\"max-width:320px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Ball projected at 30 degrees to the horizontal with initial velocity 40 m/s\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"20\" y1=\"210\" x2=\"300\" y2=\"210\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"200\" r=\"10\" fill=\"#222\"/><line x1=\"90\" y1=\"200\" x2=\"229\" y2=\"120\" stroke=\"#111\" stroke-width=\"2.5\" marker-end=\"url(#ah)\"/><line x1=\"90\" y1=\"200\" x2=\"270\" y2=\"200\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"90\" y1=\"200\" x2=\"90\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><path d=\"M140,200 A50,50 0 0,0 133,175\" fill=\"none\" stroke=\"#111\"/><text x=\"155\" y=\"190\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">30°</text><text x=\"224\" y=\"110\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">u = 40 m/s</text></svg>",
+        "caption": "Ball projected at 30° to the horizontal with initial velocity u = 40 m/s."
+      },
+      "options": [
+        "a. 5 m/s",
+        "b. 10 m/s",
+        "c. 20 m/s",
+        "d. 40 m/s"
+      ],
+      "correct_index": 2,
+      "answer_guide": "uᵧ = u sin θ = 40 × sin 30° = 20 m/s",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "6. A spring X-CM long is hung by a mass. If it stretches to Y-CM as shown in the figure below. What is the extension",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 240\" width=\"100%\" style=\"max-width:300px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Spring of length X without load and stretched length Y with load\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"30\" y1=\"30\" x2=\"130\" y2=\"30\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"170\" y1=\"30\" x2=\"270\" y2=\"30\" stroke=\"#111\" stroke-width=\"3\"/><text x=\"80\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Start</text><text x=\"220\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">With load added</text><path d=\"M80,30 L92,35.0 L68,45.0 L92,55.0 L68,65.0 L92,75.0 L68,85.0 L92,95.0 L68,105.0 L92,115.0 L68,125.0 L80,130\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M220,30 L232,35.0 L208,45.0 L232,55.0 L208,65.0 L232,75.0 L208,85.0 L232,95.0 L208,105.0 L232,115.0 L208,125.0 L232,135.0 L208,145.0 L232,155.0 L208,165.0 L232,175.0 L208,185.0 L220,190\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"205\" y=\"190\" width=\"30\" height=\"25\" fill=\"#333\"/><line x1=\"110\" y1=\"30\" x2=\"110\" y2=\"130\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"122\" y=\"85\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">X</text><line x1=\"250\" y1=\"30\" x2=\"250\" y2=\"190\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"262\" y=\"115\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Y</text></svg>",
+        "caption": "Spring of original length X (start) and stretched length Y with a load added."
+      },
+      "options": [
+        "a. X-Y",
+        "b. Y-X",
+        "c. X+Y",
+        "d. Y"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Extension = stretched length − original length = Y − X",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "7. What property of the waves is illustrated by the diagram?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 160\" width=\"100%\" style=\"max-width:320px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Plane waves passing through a narrow gap and spreading out as curved waves\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"140\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"54\" y1=\"20\" x2=\"54\" y2=\"140\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"68\" y1=\"20\" x2=\"68\" y2=\"140\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"82\" y1=\"20\" x2=\"82\" y2=\"140\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"96\" y1=\"20\" x2=\"96\" y2=\"140\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"20\" y1=\"80\" x2=\"100\" y2=\"80\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><rect x=\"140\" y=\"10\" width=\"14\" height=\"55\" fill=\"#222\"/><rect x=\"140\" y=\"95\" width=\"14\" height=\"55\" fill=\"#222\"/><path d=\"M165,60 A20,20 0 0,1 165,100\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M187,42 A38,38 0 0,1 187,118\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M209,24 A56,56 0 0,1 209,136\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M231,6 A74,74 0 0,1 231,154\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/></svg>",
+        "caption": "Straight wavefronts pass through a narrow gap in a barrier and spread out as curved wavefronts."
+      },
+      "options": [
+        "a. Reflection",
+        "b. Refraction",
+        "c. Diffraction",
+        "d. Dispersion"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Waves spreading out after passing through a narrow gap – diffraction.",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "8. The graph shown in the figure represent displacement-distance graph. What do the letters X and Y represent?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 200\" width=\"100%\" style=\"max-width:360px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Displacement-distance graph with X marking the amplitude and Y the wavelength\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"40\" y1=\"110\" x2=\"340\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"40\" y1=\"110\" x2=\"40\" y2=\"20\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"340\" y=\"140\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\">Distance</text><text x=\"35\" y=\"14\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">Displacement</text><line x1=\"40\" y1=\"110\" x2=\"40\" y2=\"190\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M40.0,110.0 L41.4,106.9 L42.8,103.7 L44.2,100.6 L45.6,97.6 L47.0,94.5 L48.4,91.6 L49.8,88.7 L51.2,85.9 L52.6,83.2 L54.0,80.6 L55.4,78.1 L56.8,75.8 L58.2,73.6 L59.6,71.5 L61.0,69.5 L62.4,67.8 L63.8,66.2 L65.2,64.8 L66.6,63.5 L68.0,62.4 L69.4,61.6 L70.8,60.9 L72.2,60.4 L73.6,60.1 L75.0,60.0 L76.4,60.1 L77.8,60.4 L79.2,60.9 L80.6,61.6 L82.0,62.4 L83.4,63.5 L84.8,64.8 L86.2,66.2 L87.6,67.8 L89.0,69.5 L90.4,71.5 L91.8,73.6 L93.2,75.8 L94.6,78.1 L96.0,80.6 L97.4,83.2 L98.8,85.9 L100.2,88.7 L101.6,91.6 L103.0,94.5 L104.4,97.6 L105.8,100.6 L107.2,103.7 L108.6,106.9 L110.0,110.0 L111.4,113.1 L112.8,116.3 L114.2,119.4 L115.6,122.4 L117.0,125.5 L118.4,128.4 L119.8,131.3 L121.2,134.1 L122.6,136.8 L124.0,139.4 L125.4,141.9 L126.8,144.2 L128.2,146.4 L129.6,148.5 L131.0,150.5 L132.4,152.2 L133.8,153.8 L135.2,155.2 L136.6,156.5 L138.0,157.6 L139.4,158.4 L140.8,159.1 L142.2,159.6 L143.6,159.9 L145.0,160.0 L146.4,159.9 L147.8,159.6 L149.2,159.1 L150.6,158.4 L152.0,157.6 L153.4,156.5 L154.8,155.2 L156.2,153.8 L157.6,152.2 L159.0,150.5 L160.4,148.5 L161.8,146.4 L163.2,144.2 L164.6,141.9 L166.0,139.4 L167.4,136.8 L168.8,134.1 L170.2,131.3 L171.6,128.4 L173.0,125.5 L174.4,122.4 L175.8,119.4 L177.2,116.3 L178.6,113.1 L180.0,110.0 L181.4,106.9 L182.8,103.7 L184.2,100.6 L185.6,97.6 L187.0,94.5 L188.4,91.6 L189.8,88.7 L191.2,85.9 L192.6,83.2 L194.0,80.6 L195.4,78.1 L196.8,75.8 L198.2,73.6 L199.6,71.5 L201.0,69.5 L202.4,67.8 L203.8,66.2 L205.2,64.8 L206.6,63.5 L208.0,62.4 L209.4,61.6 L210.8,60.9 L212.2,60.4 L213.6,60.1 L215.0,60.0 L216.4,60.1 L217.8,60.4 L219.2,60.9 L220.6,61.6 L222.0,62.4 L223.4,63.5 L224.8,64.8 L226.2,66.2 L227.6,67.8 L229.0,69.5 L230.4,71.5 L231.8,73.6 L233.2,75.8 L234.6,78.1 L236.0,80.6 L237.4,83.2 L238.8,85.9 L240.2,88.7 L241.6,91.6 L243.0,94.5 L244.4,97.6 L245.8,100.6 L247.2,103.7 L248.6,106.9 L250.0,110.0 L251.4,113.1 L252.8,116.3 L254.2,119.4 L255.6,122.4 L257.0,125.5 L258.4,128.4 L259.8,131.3 L261.2,134.1 L262.6,136.8 L264.0,139.4 L265.4,141.9 L266.8,144.2 L268.2,146.4 L269.6,148.5 L271.0,150.5 L272.4,152.2 L273.8,153.8 L275.2,155.2 L276.6,156.5 L278.0,157.6 L279.4,158.4 L280.8,159.1 L282.2,159.6 L283.6,159.9 L285.0,160.0 L286.4,159.9 L287.8,159.6 L289.2,159.1 L290.6,158.4 L292.0,157.6 L293.4,156.5 L294.8,155.2 L296.2,153.8 L297.6,152.2 L299.0,150.5 L300.4,148.5 L301.8,146.4 L303.2,144.2 L304.6,141.9 L306.0,139.4 L307.4,136.8 L308.8,134.1 L310.2,131.3 L311.6,128.4 L313.0,125.5 L314.4,122.4 L315.8,119.4 L317.2,116.3 L318.6,113.1 L320.0,110.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"75\" y1=\"110\" x2=\"75\" y2=\"62\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"88\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">X</text><line x1=\"75\" y1=\"35\" x2=\"215\" y2=\"35\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"75\" y1=\"28\" x2=\"75\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.2\"/><line x1=\"215\" y1=\"28\" x2=\"215\" y2=\"42\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"145\" y=\"28\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Y</text></svg>",
+        "caption": "Displacement-distance graph of a wave: X marks the height from the rest position to a crest; Y marks one full cycle."
+      },
+      "options": [
+        "a. Wave length and period",
+        "b. Wave length and amplitude",
+        "c. Amplitude and wave length",
+        "d. Crest and trough"
+      ],
+      "correct_index": 2,
+      "answer_guide": "X (from the rest line to the crest) is the amplitude; Y (one complete cycle) is the wavelength.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "9. The symbol shown in the figure represent",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 160\" width=\"100%\" style=\"max-width:240px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Continuously varying signal waveform\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"20\" y1=\"140\" x2=\"230\" y2=\"140\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"20\" y1=\"140\" x2=\"20\" y2=\"10\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"230\" y=\"170\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\"></text><text x=\"15\" y=\"4\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\"></text><path d=\"M30,140 C45,140 50,15 60,15 C72,15 75,135 90,135 C105,135 110,60 120,60 C130,60 135,120 145,120 C155,120 160,70 170,70 C180,70 185,110 195,110\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/></svg>",
+        "caption": "A smoothly and continuously varying waveform."
+      },
+      "options": [
+        "a. Digital signal",
+        "b. Analog signal",
+        "c. Tuning circuit",
+        "d. Resonance circuit"
+      ],
+      "correct_index": 1,
+      "answer_guide": "A continuously varying waveform is an analogue signal.",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "10. Sound waves consist of compressions and rarefactions, this property shows that sound is",
+      "diagram": null,
+      "options": [
+        "a. Mechanical waves",
+        "b. Transferse waves",
+        "c. Electromagnetic waves",
+        "d. Longitudinal waves"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Compressions and rarefactions are characteristic of longitudinal waves.",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "11. The figure shows the penetration power of nuclear radiations, which row is correct.\n\n   |    | X     | Y    | Z     |\n   | a. | Alpha | Beta | Gama  |\n   | b. | Gama  | Beta | Alpha |\n   | c. | Beta  | Gama | Alpha |\n   | d. | Alpha | Gama | Beta  |",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 170\" width=\"100%\" style=\"max-width:420px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Penetration of radiations Z, Y and X through paper, aluminium and lead\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M140,20 L160,35 V150 L140,135 Z\" fill=\"#eee\" stroke=\"#111\"/><path d=\"M230,15 L255,30 V150 L230,135 Z\" fill=\"#ccc\" stroke=\"#111\"/><path d=\"M310,10 h60 l20,15 v125 h-60 l-20,-15 Z\" fill=\"#999\" stroke=\"#111\"/><text x=\"15\" y=\"55\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">Z</text><text x=\"15\" y=\"80\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">Y</text><text x=\"15\" y=\"105\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">X</text><line x1=\"35\" y1=\"50\" x2=\"145\" y2=\"50\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"35\" y1=\"75\" x2=\"235\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><path d=\"M35.0,100.0 L36.9,96.8 L38.7,95.1 L40.5,95.6 L42.4,98.2 L44.2,101.5 L46.1,104.2 L48.0,105.0 L49.8,103.4 L51.6,100.3 L53.5,97.1 L55.4,95.2 L57.2,95.5 L59.0,97.9 L60.9,101.2 L62.8,104.0 L64.6,105.0 L66.5,103.6 L68.3,100.6 L70.2,97.3 L72.0,95.2 L73.8,95.4 L75.7,97.6 L77.5,100.9 L79.4,103.9 L81.2,105.0 L83.1,103.9 L85.0,100.9 L86.8,97.6 L88.7,95.4 L90.5,95.2 L92.3,97.3 L94.2,100.6 L96.0,103.6 L97.9,105.0 L99.8,104.0 L101.6,101.2 L103.5,97.9 L105.3,95.5 L107.2,95.2 L109.0,97.1 L110.8,100.3 L112.7,103.4 L114.5,105.0 L116.4,104.2 L118.2,101.5 L120.1,98.2 L122.0,95.6 L123.8,95.1 L125.7,96.8 L127.5,100.0 L129.3,103.2 L131.2,104.9 L133.1,104.4 L134.9,101.8 L136.8,98.5 L138.6,95.8 L140.4,95.0 L142.3,96.6 L144.2,99.7 L146.0,102.9 L147.8,104.8 L149.7,104.5 L151.6,102.1 L153.4,98.8 L155.2,96.0 L157.1,95.0 L158.9,96.4 L160.8,99.4 L162.7,102.7 L164.5,104.8 L166.3,104.6 L168.2,102.4 L170.1,99.1 L171.9,96.1 L173.8,95.0 L175.6,96.1 L177.4,99.1 L179.3,102.4 L181.2,104.6 L183.0,104.8 L184.8,102.7 L186.7,99.4 L188.6,96.4 L190.4,95.0 L192.2,96.0 L194.1,98.8 L195.9,102.1 L197.8,104.5 L199.7,104.8 L201.5,102.9 L203.3,99.7 L205.2,96.6 L207.1,95.0 L208.9,95.8 L210.8,98.5 L212.6,101.8 L214.4,104.4 L216.3,104.9 L218.2,103.2 L220.0,100.0 L221.8,96.8 L223.7,95.1 L225.6,95.6 L227.4,98.2 L229.2,101.5 L231.1,104.2 L232.9,105.0 L234.8,103.4 L236.7,100.3 L238.5,97.1 L240.3,95.2 L242.2,95.5 L244.1,97.9 L245.9,101.2 L247.8,104.0 L249.6,105.0 L251.4,103.6 L253.3,100.6 L255.2,97.3 L257.0,95.2 L258.9,95.4 L260.7,97.6 L262.6,100.9 L264.4,103.9 L266.2,105.0 L268.1,103.9 L269.9,100.9 L271.8,97.6 L273.6,95.4 L275.5,95.2 L277.4,97.3 L279.2,100.6 L281.1,103.6 L282.9,105.0 L284.8,104.0 L286.6,101.2 L288.4,97.9 L290.3,95.5 L292.1,95.2 L294.0,97.1 L295.9,100.3 L297.7,103.4 L299.6,105.0 L301.4,104.2 L303.2,101.5 L305.1,98.2 L306.9,95.6 L308.8,95.1 L310.6,96.8 L312.5,100.0 L314.4,103.2 L316.2,104.9 L318.1,104.4 L319.9,101.8 L321.8,98.5 L323.6,95.8 L325.4,95.0 L327.3,96.6 L329.1,99.7 L331.0,102.9 L332.9,104.8 L334.7,104.5 L336.6,102.1 L338.4,98.8 L340.2,96.0 L342.1,95.0 L343.9,96.4 L345.8,99.4 L347.6,102.7 L349.5,104.8 L351.4,104.6 L353.2,102.4 L355.1,99.1 L356.9,96.1 L358.8,95.0 L360.6,96.1 L362.4,99.1 L364.3,102.4 L366.1,104.6 L368.0,104.8 L369.9,102.7 L371.7,99.4 L373.6,96.4 L375.4,95.0 L377.2,96.0 L379.1,98.8 L380.9,102.1 L382.8,104.5 L384.6,104.8 L386.5,102.9 L388.4,99.7 L390.2,96.6 L392.1,95.0 L393.9,95.8 L395.8,98.5 L397.6,101.8 L399.4,104.4 L401.3,104.9 L403.1,103.2 L405.0,100.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><text x=\"150\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">Paper</text><text x=\"242\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">Aluminium</text><text x=\"350\" y=\"165\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">Lead</text></svg>",
+        "caption": "Radiations Z, Y and X directed at paper, aluminium and lead: Z is stopped by paper, Y by aluminium, and X (wavy line) passes into the lead."
+      },
+      "options": [
+        "a. X: Alpha, Y: Beta, Z: Gama",
+        "b. X: Gama, Y: Beta, Z: Alpha",
+        "c. X: Beta, Y: Gama, Z: Alpha",
+        "d. X: Alpha, Y: Gama, Z: Beta"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Z is stopped by paper (alpha), Y is stopped by aluminium (beta), X passes through and is only reduced by lead (gamma).",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "12. What is the value of X in the Equation below?\n   ¹⁴₇N + ¹₀n → ˣ₆C + ¹₁H",
+      "diagram": null,
+      "options": [
+        "a. 6",
+        "b. 7",
+        "c. 8",
+        "d. 14"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Mass numbers: 14 + 1 = X + 1 → X = 14",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "13. An electric power is transmitted along cables of resistance 5Ω with the current of 1.2 A workout the power loss in the line (P=I²R).",
+      "diagram": null,
+      "options": [
+        "a. 1.44 watts",
+        "b. 7.2 watts",
+        "c. 14.4 watts",
+        "d. 144 watts"
+      ],
+      "correct_index": 1,
+      "answer_guide": "P = I²R = 1.2² × 5 = 1.44 × 5 = 7.2 W",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "14. A transformer is a device used to",
+      "diagram": null,
+      "options": [
+        "a. Change AC to DC",
+        "b. Chance AC from one value to another",
+        "c. Increase the energy of AC voltage",
+        "d. Smooth the value of AC voltage"
+      ],
+      "correct_index": 1,
+      "answer_guide": "A transformer changes (steps up or down) an AC voltage from one value to another.",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "15. If the same mass of sand and water are heated in the same way, the sand heats up quicker than water. This is because:",
+      "diagram": null,
+      "options": [
+        "a. Sand is a solid and water is a liquid",
+        "b. Sand has less specific heat capacity than water",
+        "c. Sand has higher specific heat capacity than water",
+        "d. Sand has more density than water."
+      ],
+      "correct_index": 1,
+      "answer_guide": "Lower specific heat capacity → less energy needed per °C → heats up faster.",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "16. Volume of a fixed mass of gas at constant pressure is directly proportional to the temperature. This law is known as:",
+      "diagram": null,
+      "options": [
+        "a. Avogadro's law",
+        "b. Boyle's law",
+        "c. Charles law",
+        "d. Ideal gas law"
+      ],
+      "correct_index": 2,
+      "answer_guide": "V ∝ T at constant pressure – Charles' law.",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "17. Which of the following components is an example of intrinsic semi-conductor.",
+      "diagram": null,
+      "options": [
+        "a. Transistor",
+        "b. Diode",
+        "c. Light dependent resistor",
+        "d. Light emits diode"
+      ],
+      "correct_index": 2,
+      "answer_guide": "An LDR is made from a pure (undoped) semiconductor such as cadmium sulphide, whose resistance falls with light; diodes, LEDs and transistors use doped (extrinsic) p-n junctions.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "18. Which of the components is used for safety purpose.",
+      "diagram": null,
+      "options": [
+        "a. Transformer",
+        "b. Circuit breaker",
+        "c. Rectifier",
+        "d. Variable resistor"
+      ],
+      "correct_index": 1,
+      "answer_guide": "A circuit breaker cuts off the current when it becomes too large.",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "19. A ray of light R strikes normally in a plane mirror, as shown in the figure which of the following rays A, B, C or D stands for the correct reflected ray?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 170\" width=\"100%\" style=\"max-width:320px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Ray R striking a plane mirror normally, with possible reflected rays A, B, C and D\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"20\" y1=\"130\" x2=\"300\" y2=\"130\" stroke=\"#111\" stroke-width=\"3\"/><line x1=\"25\" y1=\"130\" x2=\"17\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"35\" y1=\"130\" x2=\"27\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"45\" y1=\"130\" x2=\"37\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"55\" y1=\"130\" x2=\"47\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"65\" y1=\"130\" x2=\"57\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"75\" y1=\"130\" x2=\"67\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"85\" y1=\"130\" x2=\"77\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"95\" y1=\"130\" x2=\"87\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"105\" y1=\"130\" x2=\"97\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"115\" y1=\"130\" x2=\"107\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"125\" y1=\"130\" x2=\"117\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"135\" y1=\"130\" x2=\"127\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"145\" y1=\"130\" x2=\"137\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"155\" y1=\"130\" x2=\"147\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"165\" y1=\"130\" x2=\"157\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"175\" y1=\"130\" x2=\"167\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"185\" y1=\"130\" x2=\"177\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"195\" y1=\"130\" x2=\"187\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"205\" y1=\"130\" x2=\"197\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"215\" y1=\"130\" x2=\"207\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"225\" y1=\"130\" x2=\"217\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"235\" y1=\"130\" x2=\"227\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"245\" y1=\"130\" x2=\"237\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"255\" y1=\"130\" x2=\"247\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"265\" y1=\"130\" x2=\"257\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"275\" y1=\"130\" x2=\"267\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"285\" y1=\"130\" x2=\"277\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"295\" y1=\"130\" x2=\"287\" y2=\"142\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"160\" y1=\"20\" x2=\"160\" y2=\"70\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"145\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">R</text><line x1=\"160\" y1=\"128\" x2=\"60\" y2=\"95\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"50\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">A</text><line x1=\"160\" y1=\"128\" x2=\"160\" y2=\"80\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"148\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">B</text><line x1=\"160\" y1=\"128\" x2=\"215\" y2=\"95\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"225\" y=\"92\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">C</text><line x1=\"160\" y1=\"128\" x2=\"270\" y2=\"115\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"280\" y=\"110\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">D</text></svg>",
+        "caption": "Ray R falls perpendicularly onto a plane mirror; rays A, B (straight back up), C and D leave the point of incidence."
+      },
+      "options": [
+        "a. A",
+        "b. B",
+        "c. C",
+        "d. D"
+      ],
+      "correct_index": 1,
+      "answer_guide": "A ray hitting the mirror normally (angle of incidence 0°) is reflected straight back along its path – ray B.",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "20. The figure shows 2 cm by 3 cm by 4 cm metal block. If the density of the block is 5g/cm³ the mass of the block is:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 160\" width=\"100%\" style=\"max-width:320px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Metal block 4 cm by 3 cm by 2 cm\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M40,80 L200,30 L290,55 L130,105 Z\" fill=\"#eef\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M40,80 V110 L130,135 V105 Z\" fill=\"#dde\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M130,105 L290,55 V85 L130,135 Z\" fill=\"#ccd\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"115\" y=\"45\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">4 cm</text><text x=\"265\" y=\"35\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">3 cm</text><text x=\"30\" y=\"100\" font-size=\"13\" text-anchor=\"end\" font-weight=\"bold\">2 cm</text></svg>",
+        "caption": "Rectangular metal block measuring 4 cm × 3 cm × 2 cm."
+      },
+      "options": [
+        "a. 2.4 g",
+        "b. 12 g",
+        "c. 60 g",
+        "d. 120 g"
+      ],
+      "correct_index": 3,
+      "answer_guide": "V = 2 × 3 × 4 = 24 cm³; m = ρV = 5 × 24 = 120 g",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "1. The figure below shows a velocity-time graph for a car in straight road:\n  a. From the graph, determine the maximum velocity attained by the car. (1mark)\n  b. The slope of the graph stands for: (2marks)\n     i. Uniform velocity [ ]\n     ii. Uniform acceleration [ ]\n  c. From the graph, find out the distance travelled and the average velocity? (3marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 240\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Velocity-time graph: straight line from the origin rising to about 20 m/s\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"50\" y1=\"200\" x2=\"330\" y2=\"200\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"50\" y1=\"200\" x2=\"50\" y2=\"35\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"330\" y=\"230\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\">Time (s)</text><text x=\"45\" y=\"29\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">Vel. (m/s)</text><line x1=\"107.77777777777777\" y1=\"196\" x2=\"107.77777777777777\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"107.77777777777777\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">1</text><line x1=\"165.55555555555554\" y1=\"196\" x2=\"165.55555555555554\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"165.55555555555554\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">2</text><line x1=\"223.33333333333334\" y1=\"196\" x2=\"223.33333333333334\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"223.33333333333334\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">3</text><line x1=\"281.1111111111111\" y1=\"196\" x2=\"281.1111111111111\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"281.1111111111111\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">4</text><line x1=\"46\" y1=\"170.0\" x2=\"54\" y2=\"170.0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"174.0\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">5</text><line x1=\"46\" y1=\"140.0\" x2=\"54\" y2=\"140.0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"144.0\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">10</text><line x1=\"46\" y1=\"110.0\" x2=\"54\" y2=\"110.0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"114.0\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">15</text><line x1=\"46\" y1=\"80.0\" x2=\"54\" y2=\"80.0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"84.0\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">20</text><text x=\"42\" y=\"218\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">0</text><line x1=\"50\" y1=\"200\" x2=\"246\" y2=\"80\" stroke=\"#111\" stroke-width=\"2.5\" marker-end=\"url(#ah)\"/></svg>",
+        "caption": "Velocity-time graph: a straight line from the origin rising to about 20 m/s (time axis 0–4 s)."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Maximum velocity ≈ 20 m/s\nb. ii. Uniform acceleration (the graph is a straight line sloping upwards).\nc. Distance = area under the graph = ½ × base × height. Reading 20 m/s at about 3 s: distance = ½ × 3 × 20 = 30 m. Average velocity = (0 + 20)/2 = 10 m/s (or 30 m ÷ 3 s = 10 m/s).\n   (The printed graph is not drawn exactly to scale; if 20 m/s is taken at 4 s, distance = 40 m and the average velocity is still 10 m/s.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "2. The figure below shows a force against extension graph for a spring. The spring obeys Hooker's law.\n  a. State Hooker's law in words (2marks)\n  b. From the graph, find out the spring constant in N/cm. (2marks)\n  c. On the graph mark X, to identify the elastic limit of the spring. (2marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 240\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Force against extension graph: straight line to about 8 N at 5 cm, then curving\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"50\" y1=\"200\" x2=\"330\" y2=\"200\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"50\" y1=\"200\" x2=\"50\" y2=\"35\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"330\" y=\"230\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\">Extension (cm)</text><text x=\"45\" y=\"29\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">Force (N)</text><line x1=\"90.0\" y1=\"196\" x2=\"90.0\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"90.0\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">1</text><line x1=\"130.0\" y1=\"196\" x2=\"130.0\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"130.0\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">2</text><line x1=\"170.0\" y1=\"196\" x2=\"170.0\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"170.0\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">3</text><line x1=\"210.0\" y1=\"196\" x2=\"210.0\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"210.0\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">4</text><line x1=\"250.0\" y1=\"196\" x2=\"250.0\" y2=\"204\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"250.0\" y=\"218\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">5</text><line x1=\"46\" y1=\"172.72727272727272\" x2=\"54\" y2=\"172.72727272727272\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"176.72727272727272\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">2</text><line x1=\"46\" y1=\"145.45454545454544\" x2=\"54\" y2=\"145.45454545454544\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"149.45454545454544\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">4</text><line x1=\"46\" y1=\"118.18181818181819\" x2=\"54\" y2=\"118.18181818181819\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"122.18181818181819\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">6</text><line x1=\"46\" y1=\"90.9090909090909\" x2=\"54\" y2=\"90.9090909090909\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"94.9090909090909\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">8</text><line x1=\"46\" y1=\"63.636363636363626\" x2=\"54\" y2=\"63.636363636363626\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"42\" y=\"67.63636363636363\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">10</text><text x=\"42\" y=\"218\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">0</text><path d=\"M50.0,200.0 L54.0,197.8 L58.0,195.6 L62.0,193.5 L66.0,191.3 L70.0,189.1 L74.0,186.9 L78.0,184.7 L82.0,182.5 L86.0,180.4 L90.0,178.2 L94.0,176.0 L98.0,173.8 L102.0,171.6 L106.0,169.5 L110.0,167.3 L114.0,165.1 L118.0,162.9 L122.0,160.7 L126.0,158.5 L130.0,156.4 L134.0,154.2 L138.0,152.0 L142.0,149.8 L146.0,147.6 L150.0,145.5 L154.0,143.3 L158.0,141.1 L162.0,138.9 L166.0,136.7 L170.0,134.5 L174.0,132.4 L178.0,130.2 L182.0,128.0 L186.0,125.8 L190.0,123.6 L194.0,121.5 L198.0,119.3 L202.0,117.1 L206.0,114.9 L210.0,112.7 L214.0,110.5 L218.0,108.4 L222.0,106.2 L226.0,104.0 L230.0,101.8 L234.0,99.6 L238.0,97.5 L242.0,95.3 L246.0,93.1 L250.0,90.9 L254.0,87.9 L258.0,84.9 L262.0,82.0 L266.0,79.3 L270.0,76.8 L274.0,74.5 L278.0,72.5 L282.0,70.8 L286.0,69.5 L290.0,68.5 L294.0,67.9 L298.0,67.7\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.5\"/></svg>",
+        "caption": "Force-extension graph: a straight line from the origin to about 8 N at 5 cm, after which the line curves and levels off near 10 N."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The extension of a spring is directly proportional to the force (load) applied to it, provided the elastic limit is not exceeded.\nb. k = F/e from the straight part of the graph ≈ 8 N ÷ 5 cm = 1.6 N/cm\nc. X is marked at the point where the straight line begins to curve – at about 5 cm extension (≈ 8 N).",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "3. The diagram below shows a wave motion.\n  a. What type of wave is shown by the diagram (1mark)\n     Transverse [ ]\n     Longitudinal [ ]\n  b. Name the parts on the diagram labelled (3marks)\n     X: ........\n     Y: ........\n     Z: ........\n  c. Calculate the frequency of the wave, if its period is 2s? (2marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 140\" width=\"100%\" style=\"max-width:360px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Spring wave showing compressions and rarefactions labelled X, Y and Z\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><ellipse cx=\"20\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"23\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"26\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"29\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"32\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"35\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"38\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"41\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"44\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"47\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"50\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"59\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"68\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"77\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"86\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"95\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"104\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"107\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"110\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"113\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"116\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"119\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"122\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"125\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"128\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"131\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"134\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"143\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"152\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"161\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"170\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"179\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"188\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"191\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"194\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"197\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"200\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"203\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"206\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"209\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"212\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"215\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"218\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"227\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"236\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"245\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"254\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"263\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"272\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"275\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"278\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"281\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"284\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"287\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"290\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"293\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"296\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><ellipse cx=\"299\" cy=\"80\" rx=\"2.5\" ry=\"12\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"32\" y1=\"95\" x2=\"25\" y2=\"118\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"22\" y=\"132\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">X</text><line x1=\"75\" y1=\"95\" x2=\"85\" y2=\"118\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"88\" y=\"132\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Y</text><line x1=\"20\" y1=\"45\" x2=\"116\" y2=\"45\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"20\" y1=\"38\" x2=\"20\" y2=\"52\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"116\" y1=\"38\" x2=\"116\" y2=\"52\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"68\" y=\"35\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Z</text></svg>",
+        "caption": "Spring (slinky) wave with alternating closely packed and spread-out coils; X points to a compressed region, Y to a stretched region and Z spans from one compression to the next."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Longitudinal\nb. X: Compression (coils close together)\n   Y: Rarefaction (coils spread apart)\n   Z: Wavelength (distance from one compression to the next)\nc. f = 1/T = 1/2 = 0.5 Hz",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "4. A sound is a type wave produced by a vibrating object.\n  a. Sound needs material medium for propagation this shows that sound is: (2marks)\n     Mechanical wave [ ]\n     Electromagnetic wave [ ]\n  b. Calculate the wavelength of a sound wave with speed of 3m/s and frequency of 2Hz? (2marks)\n  c. Write down any two factors affecting velocity of sound in air? (2marks)\n     i. ........\n     ii. ........",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Mechanical wave\nb. λ = v/f = 3/2 = 1.5 m\nc. Any two: temperature of the air; humidity (moisture content); wind (speed and direction). Note: changing pressure alone does not change the speed of sound.",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "5. The diagram below shows a system of radio telecommunication.\n  a. The above radio telecommunication system represents (2marks)\n     Radio Transmitter [ ]\n     Radio receiver [ ]\n  b. Name the parts on the diagram labeled (2marks)\n     P: ........\n     Q: ........\n  c. Which part of the above radio telecommunication system. (2marks)\n     i. Separates A.F from R.F? ........\n     ii. Increases the energy of the A.F Signals? ........",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 150\" width=\"100%\" style=\"max-width:460px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Radio receiver block diagram: P, tuning circuit, demodulator, amplifier and Q\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"30\" y1=\"120\" x2=\"30\" y2=\"25\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M18,20 L30,35 L42,20\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"12\" y=\"22\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">P</text><line x1=\"30\" y1=\"120\" x2=\"60\" y2=\"120\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"60\" y=\"100\" width=\"80\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"100.0\" y=\"92\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Tuning Circuit</text><line x1=\"140\" y1=\"120\" x2=\"180\" y2=\"120\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><rect x=\"180\" y=\"100\" width=\"80\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"220.0\" y=\"92\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Demodulator</text><line x1=\"260\" y1=\"120\" x2=\"290\" y2=\"120\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><rect x=\"290\" y=\"100\" width=\"80\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"330.0\" y=\"92\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Amplifier</text><line x1=\"370\" y1=\"120\" x2=\"395\" y2=\"120\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><rect x=\"395\" y=\"110\" width=\"10\" height=\"20\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M405,110 L425,95 V145 L405,130\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"420\" y=\"85\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Q</text></svg>",
+        "caption": "Block diagram: aerial P feeds a tuning circuit, then a demodulator, then an amplifier, which drives output Q (a loudspeaker)."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Radio receiver\nb. P: Aerial (antenna)\n   Q: Loudspeaker\nc. i. Demodulator\n   ii. Amplifier",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "6.\n  a. Define nuclear fission? (2marks)\n  b. Use words below to identify the following nuclear reactions, Fission, Fusion, Normal reaction. (3marks)\n     ¹₁H + ⁷₃Li → 2(⁴₂He) → ........\n     ²³⁵₉₂U + ¹₀n → ¹⁴⁰₅₄Xe + ⁹⁴₃₈Sr + 2(¹₀n) → ........\n     ²₁H + ³₁H → ⁴₂He + ¹₀n → ........\n  c. Identify one advantage of nuclear fission? (1mark)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Nuclear fission is the splitting of a heavy nucleus (e.g. uranium-235) into two lighter nuclei when it absorbs a neutron, releasing a large amount of energy and more neutrons.\nb. ¹₁H + ⁷₃Li → 2⁴₂He: Normal reaction (artificial transmutation)\n   ²³⁵₉₂U + ¹₀n → ¹⁴⁰₅₄Xe + ⁹⁴₃₈Sr + 2¹₀n: Fission\n   ²₁H + ³₁H → ⁴₂He + ¹₀n: Fusion\nc. Any one: releases a very large amount of energy from a small mass of fuel; produces no greenhouse gases (CO₂) when generating electricity.",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "7. The diagram below shows bar magnet and coil\n  a. When magnet is pushed into the coil, the polarity of the end A of the coil is: (2marks)\n     South Pole [ ]\n     North Pole [ ]\n  b. On the diagram, show the direction of induced current by using an arrow (2marks)\n  c. Identify two ways of increasing the size of induced current. (2marks)\n     i. ........\n     ii. ........",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 150\" width=\"100%\" style=\"max-width:400px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Coil with ends B and A and a bar magnet with its N pole moving towards end A\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"40\" y=\"50\" width=\"170\" height=\"40\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M60,50 C80,55 80,85 60,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M88,50 C108,55 108,85 88,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M116,50 C136,55 136,85 116,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M144,50 C164,55 164,85 144,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M172,50 C192,55 192,85 172,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M200,50 C220,55 220,85 200,90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"60\" y1=\"90\" x2=\"60\" y2=\"135\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"190\" y1=\"90\" x2=\"190\" y2=\"135\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"45\" y=\"42\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"200\" y=\"42\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"250\" y=\"60\" width=\"120\" height=\"22\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"262\" y=\"77\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"358\" y=\"77\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">S</text><line x1=\"330\" y1=\"45\" x2=\"270\" y2=\"45\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/></svg>",
+        "caption": "A coil with ends labelled B (left) and A (right) and connecting leads; a bar magnet with its N pole facing end A is being pushed towards the coil."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. North Pole – by Lenz's law, the induced current makes end A repel the approaching N pole of the magnet.\nb. The current flows so that, looking at end A from the magnet's side, it circulates anticlockwise (making A a north pole); the arrow direction on the leads depends on how the coil is wound.\nc. Any two: move the magnet faster; use a stronger magnet; increase the number of turns on the coil; insert a soft-iron core.",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "8. In the equation Q = mL_F\n  a. The letter L_F stands for specific latent heat of fusion, describe what is meant by specific latent heat of fusion? (2marks)\n  b. Explain why a piece of ice placed in water cools it down. (2marks)\n  c. Calculate the quantity of heat needed to melt 20g of ice at 0⁰C into water at same temperature (L_F = 340 J/g) (2marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Specific latent heat of fusion is the quantity of heat needed to change 1 kg (or 1 g) of a solid into liquid at its melting point without any change in temperature.\nb. The ice absorbs heat (latent heat of fusion) from the water in order to melt, and the cold melted water also absorbs heat as it warms up; the water loses this heat, so its temperature falls.\nc. Q = mL_F = 20 × 340 = 6800 J (6.8 kJ)",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "9. Three lamps are arranged in series across battery and current of 0.5A flows through the lamps.\n  a. Calculate the total resistance of the lamps? (2marks)\n  b. Given that all the lamps are identical, calculate the resistance of each lamp? (2marks)\n  c. If one of the lamps blows out, what will happen to the others? (2marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 200\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Series circuit: 6 V battery, ammeter reading 0.5 A and three lamps L1, L2, L3\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"40\" y1=\"50\" x2=\"150\" y2=\"50\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"176\" y1=\"50\" x2=\"300\" y2=\"50\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"150\" y1=\"35\" x2=\"150\" y2=\"65\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"158\" y1=\"42\" x2=\"158\" y2=\"58\" stroke=\"#111\" stroke-width=\"4\"/><line x1=\"168\" y1=\"35\" x2=\"168\" y2=\"65\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"176\" y1=\"42\" x2=\"176\" y2=\"58\" stroke=\"#111\" stroke-width=\"4\"/><text x=\"165\" y=\"25\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">6 V</text><line x1=\"40\" y1=\"50\" x2=\"40\" y2=\"150\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"300\" y1=\"50\" x2=\"300\" y2=\"95\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"300\" y1=\"125\" x2=\"300\" y2=\"150\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"300\" cy=\"110\" r=\"15\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"300\" y=\"115\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"275\" y=\"115\" font-size=\"13\" text-anchor=\"end\" font-weight=\"bold\">0.5 A</text><line x1=\"40\" y1=\"150\" x2=\"76\" y2=\"150\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"150\" r=\"14\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M80,140 L100,160 M100,140 L80,160\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"104\" y1=\"150\" x2=\"156\" y2=\"150\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"150\" r=\"14\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M160,140 L180,160 M180,140 L160,160\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"184\" y1=\"150\" x2=\"236\" y2=\"150\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"250\" cy=\"150\" r=\"14\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M240,140 L260,160 M260,140 L240,160\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"264\" y1=\"150\" x2=\"300\" y2=\"150\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"90\" y=\"185\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">L1</text><text x=\"170\" y=\"185\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">L2</text><text x=\"250\" y=\"185\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">L3</text></svg>",
+        "caption": "Series circuit: a 6 V battery, an ammeter reading 0.5 A, and three identical lamps L1, L2 and L3 in series."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. R = V/I = 6/0.5 = 12 Ω\nb. Each lamp = 12 ÷ 3 = 4 Ω\nc. All the other lamps go out, because in a series circuit there is only one path for the current; a blown lamp breaks the circuit.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "10. Friction is the force that opposes the motion of an object when the objects slide over each other.\n  a. State one advantage and one disadvantage of friction in real life? (2marks)\n  b. Suggest one way to increase friction between two surfaces. (2marks)\n  c. What is the name given to specific friction in air? (2marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Advantage (any one): allows us to walk without slipping; makes brakes work; lets tyres grip the road; lets us hold objects or strike a match.\n   Disadvantage (any one): causes wear and tear of machine parts; wastes energy as heat; reduces efficiency of machines.\nb. Any one: make the surfaces rougher (e.g. treads on tyres, sand on roads); increase the force pressing the surfaces together.\nc. Air resistance (drag).",
+      "matching_pairs": null
+    }
+  ]
+}

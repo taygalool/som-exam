@@ -1,0 +1,410 @@
+{
+  "title": "Somaliland Form Four Examination 2023 - 2024 - History",
+  "exam_id": "somaliland_12_history_2024",
+  "year": 2024,
+  "subject": "History",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "1. In which year did the Second World War begin",
+      "diagram": null,
+      "options": [
+        "a. In December 1939",
+        "b. In September 1939",
+        "c. In January 1939",
+        "d. In February 1939."
+      ],
+      "correct_index": 1,
+      "answer_guide": "WWII began on 1 September 1939 when Germany invaded Poland.",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "2. Who was the second vice president of Somaliland?",
+      "diagram": null,
+      "options": [
+        "a. Abdurahman Aw Ali Farah",
+        "b. Dahir Reyale Kahin",
+        "c. Hassan Isse Jama",
+        "d. Ahmed Yusuf Yasin"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Vice presidents in order: Hassan Isse Jama (1991–93), Abdirahman Aw Ali Farah (1993–97), Dahir Riyale Kahin (1997–2002), Ahmed Yusuf Yasin (2002–10). [Check: some textbooks may count differently.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "3. One of the main responsibilities of Somaliland National Armed Forces is.",
+      "diagram": null,
+      "options": [
+        "a. To defend enemy from the borders of the country",
+        "b. To maintain the law and order of the nation",
+        "c. To ask the international community to provide political recognition",
+        "d. If it becomes necessary to help the police to preserve internal peace."
+      ],
+      "correct_index": 0,
+      "answer_guide": "The army's main duty is defending the country's borders against external enemies; law and order is the police's job.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "4. Which of the following could become the most important achievement by a Somaliland president?",
+      "diagram": null,
+      "options": [
+        "a. Distribution of ranks to armed forces",
+        "b. To win a political recognition from any country",
+        "c. Keep peace and order throughout the country",
+        "d. To construct highways throughout the country."
+      ],
+      "correct_index": 1,
+      "answer_guide": "International recognition is Somaliland's foremost national goal.",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "5. Which of the following countries is not a member of the African Union?",
+      "diagram": null,
+      "options": [
+        "a. Sudan",
+        "b. Uganda",
+        "c. Morocco",
+        "d. Malta."
+      ],
+      "correct_index": 3,
+      "answer_guide": "Malta is a European country (Morocco rejoined the AU in 2017).",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "6. Which of the following is a cause of the Second World War?",
+      "diagram": null,
+      "options": [
+        "a. Hitler's ambition",
+        "b. The cold war's impact",
+        "c. Formation of democratic governments",
+        "d. Failure of intelligence."
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "7. In which year was the United Nations Organization formed?",
+      "diagram": null,
+      "options": [
+        "a. In 1944",
+        "b. In 1943",
+        "c. In 1942",
+        "d. In 1945."
+      ],
+      "correct_index": 3,
+      "answer_guide": "The UN was formed on 24 October 1945.",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "8. Which Agency/Organization was both in the League of Nations and under the UNO?",
+      "diagram": null,
+      "options": [
+        "a. The World Health Organization",
+        "b. International Labor Organization",
+        "c. The Relief and Works Agency",
+        "d. The United Nations Development Programing."
+      ],
+      "correct_index": 1,
+      "answer_guide": "The ILO was founded in 1919 under the League and continued under the UN.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "9. Which Treaty was made with Turkey after the end of the First World War?",
+      "diagram": null,
+      "options": [
+        "a. The Treaty of St.Germain in September 1919",
+        "b. The Treaty of Lausanne in July 1982",
+        "c. The Treaty of Trianor in June 1920",
+        "d. The Treaty of Neuilly in November 1919."
+      ],
+      "correct_index": 1,
+      "answer_guide": "The Treaty of Lausanne (July 1923) was made with Turkey (replacing the Treaty of Sèvres, 1920). The date '1982' in the option is a misprint for 1923.",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "10. In which year was the state of Israel created?",
+      "diagram": null,
+      "options": [
+        "a. In 1973",
+        "b. In 1967",
+        "c. In 1956",
+        "d. In 1948."
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "11. Which is not an aim of the League of Nations?",
+      "diagram": null,
+      "options": [
+        "a. To maintain peace through collective security",
+        "b. To encourage international co-operation",
+        "c. To promote respect of the sovereignty of governments",
+        "d. To encourage military rule where necessary."
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "12. Which of the following is NOT one of the post Second World War conferences?",
+      "diagram": null,
+      "options": [
+        "a. The Yalta Conference in February 1945",
+        "b. The Potsdam Conference in July 1945",
+        "c. The Truman Doctrine in March 1947",
+        "d. The Versailles Treaty in April 1919."
+      ],
+      "correct_index": 3,
+      "answer_guide": "The Treaty of Versailles (1919) followed the First World War.",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "13. Which of the following is NOT one of the causes if the Cold War?",
+      "diagram": null,
+      "options": [
+        "a. Cultural and educational variation",
+        "b. Ideological differences between the West and East",
+        "c. disagreement over disarmament of the USA and USSR",
+        "d. The Iron Curtain Policy adopted by the USSR"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "14. Which is NOT one of the Organs of the Organization of African Union (OAU)",
+      "diagram": null,
+      "options": [
+        "a. The General Secretariat",
+        "b. Assembly of Heads of States and Governments",
+        "c. The Council of Ministers",
+        "d. The Justice Court of Hague."
+      ],
+      "correct_index": 3,
+      "answer_guide": "The International Court of Justice at The Hague is a UN organ, not an OAU organ.",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "15. Which is NOT the meaning of history?",
+      "diagram": null,
+      "options": [
+        "a. Systematically recorded facts",
+        "b. Account and analysis of human activities",
+        "c. The study of man's past chronology",
+        "d. History doesn't describe man's effects to improve the world."
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "16. Definition of government could mean.",
+      "diagram": null,
+      "options": [
+        "a. In a monarchy, a hereditary rule doesn't control the government but decides other decisions",
+        "b. In dictatorship, an individual or a small group tells people what to do",
+        "c. In a republic, people govern themselves, because they are rulers",
+        "d. In democracy , or linary persons hold higher powers"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Only (b) correctly describes a form of government.",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "17. Which is not a definition of human right?",
+      "diagram": null,
+      "options": [
+        "a. Provide guidance to state branches",
+        "b. Respect for human right",
+        "c. Leaders are empowered to deny human rights",
+        "d. Right to empower citizens and residents."
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "18. Which of the following is the racial discrimination used in South Africa before 1994?",
+      "diagram": null,
+      "options": [
+        "a. Separation policy",
+        "b. Suffrage policy",
+        "c. Apartheid policy",
+        "d. Segregation policy."
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "19. In which year did Prophet Muhammad (PBUH) migrate to Yathrib?",
+      "diagram": null,
+      "options": [
+        "a. In 622 A.D",
+        "b. In 611 A.D",
+        "c. In 610 A.D",
+        "d. In 609 A.D."
+      ],
+      "correct_index": 0,
+      "answer_guide": "The Hijra took place in 622 CE.",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "20. One factor of the following did not contribute to the decline of Ghana.",
+      "diagram": null,
+      "options": [
+        "a. Profitable gold mines in time worked against Ghana or declined",
+        "b. Internal billions resisted the empire",
+        "c. In 1045, almoravids cooperated with Ghana",
+        "d. Almoravids worked hard to end the empire."
+      ],
+      "correct_index": 2,
+      "answer_guide": "The Almoravids attacked Ghana (c. 1076); they did not cooperate with it.",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "1. Explain two functions of the General Secretariat of UNO. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any two, explained:\n• Administers the day-to-day work of the UN and carries out the programmes and policies decided by the other organs.\n• The Secretary-General brings to the attention of the Security Council any matter that threatens international peace and security.\n• Prepares reports, studies and the annual budget; keeps UN records and registers treaties.\n• Acts as mediator/peace-maker in international disputes (good offices of the Secretary-General).\n• Organises international conferences and provides services (translation, information) to all UN bodies.",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "2. Outline Any Three organs of the League of Nations. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three:\n• The Assembly – all member states, met once a year, decided general policy and the budget.\n• The Council – permanent members (Britain, France, Italy, Japan) plus non-permanent members; dealt with disputes and crises.\n• The Secretariat – the civil service/administration of the League, based in Geneva.\n• The Permanent Court of International Justice – at The Hague, settled legal disputes between states.\n• Commissions/agencies – e.g. International Labour Organisation, Mandates Commission, Health Committee, Refugees Commission.",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "3. Analyze Three Factors which were agreed on at Yalta Conference in 1945 (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three:\n• Germany would be divided into four occupation zones (USA, Britain, USSR, France), and Berlin likewise divided.\n• Germany would be demilitarised, de-Nazified and pay reparations; Nazi war criminals would be tried.\n• Free elections would be held in the liberated countries of Eastern Europe (including Poland).\n• The USSR agreed to join the war against Japan after Germany's defeat.\n• The United Nations Organisation would be set up to keep world peace.",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "4. Outline three major achievements of the OAU (Organization of African Union) after its formation in 1963. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three:\n• Helped liberate the remaining colonies through its Liberation Committee (e.g. Angola, Mozambique, Zimbabwe, Namibia).\n• Fought apartheid in South Africa through sanctions and diplomatic isolation until it ended in 1994.\n• Promoted unity and solidarity among African states and gave Africa a common voice at the UN.\n• Mediated/settled border and other disputes between member states.\n• Promoted economic co-operation (e.g. Lagos Plan of Action, African Economic Community) and helped refugees.\n• Laid the foundation for the African Union (2002).",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "5. Briefly Analyze any Three Factor that limit Somaliland National Unity. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three, briefly explained:\n• Clannism/tribalism – loyalty to clan above the nation divides people.\n• Lack of international recognition – limits development, investment and state capacity.\n• Poverty and unemployment – create frustration and competition over resources.\n• Unequal distribution of resources and development between regions.\n• Political rivalry and disputes between parties/elites, and border/territorial disputes (e.g. in the east).\n• Low level of education and civic awareness; external interference.",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "6. Outline three major challenges encountered by the organization of African Union countries after independence. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three:\n• Political instability – military coups, civil wars and dictatorships.\n• Border disputes inherited from colonial boundaries.\n• Economic problems – poverty, debt, dependence on former colonial powers and on raw-material exports.\n• Tribalism/ethnic conflict and refugee crises.\n• Lack of funds for the organisation and the policy of non-interference, which limited its power.\n• Neo-colonialism and Cold War rivalries; diseases and natural disasters (drought, famine).",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "7. Discuss three factors that helped the USA to industrialize. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three, discussed:\n• Abundant natural resources – coal, iron ore, oil, timber and fertile land.\n• Large labour force supplied by immigration and a fast-growing population.\n• Good transport – railways, canals and later roads linking markets and raw materials.\n• Availability of capital and investment (banks, entrepreneurs such as Carnegie, Rockefeller).\n• Inventions and technology (telegraph, telephone, electricity, assembly line).\n• Large home market, protective tariffs and supportive government policies; political stability.",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "8. Explain any three importance for studying history. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three, explained:\n• Helps us understand the present by knowing how past events shaped it.\n• We learn lessons from past mistakes and successes to plan a better future.\n• Builds national identity, patriotism and pride in one's culture and heritage.\n• Develops skills of critical thinking, analysis and judging evidence.\n• Promotes understanding and tolerance between different peoples and cultures.\n• Provides career opportunities (teaching, archaeology, museums, law, journalism).",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "9. Describe three factors that strengthened African Nationalism. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three:\n• Western education produced educated elites who led nationalist movements (e.g. Nkrumah, Kenyatta).\n• The Second World War – African soldiers returned with new ideas and saw that Europeans could be defeated.\n• The Atlantic Charter and the UN supported the right of peoples to self-determination.\n• Pan-Africanism and the example of independent states (India 1947, Ghana 1957).\n• Colonial exploitation – land alienation, forced labour, taxation and racial discrimination.\n• Support from the USA and USSR against colonialism; growth of political parties, trade unions and the press.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "10. Suggest three ways through which the Republic of Somaliland can immediately achieve/get international political recognition without wasting any more time. (6 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three reasonable suggestions:\n• Strengthen diplomacy and lobbying – open more representative offices and seek bilateral recognition from influential states.\n• Present its legal case to the AU and UN – its 1960 independence, colonial borders and the 2001 referendum.\n• Maintain peace, security and democracy (free elections), proving it is a stable, responsible state.\n• Build strategic and economic partnerships (e.g. Berbera port, trade agreements) that give other states an interest in recognising it.\n• Use the Somaliland diaspora and media to raise international awareness and support.\n• Promote national unity so that the country speaks with one voice.",
+      "matching_pairs": null
+    }
+  ]
+}

@@ -1,0 +1,422 @@
+{
+  "title": "Somaliland Form Four Examination 2023 - 2024 - Biology",
+  "exam_id": "somaliland_12_biology_2024",
+  "year": 2024,
+  "subject": "Biology",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "1. Diseases such as cancers, osteoarthritis, muscular dystrophy and multiple sclerosis are all example of:",
+      "diagram": null,
+      "options": [
+        "a. Infection disease",
+        "b. Deficiency disease",
+        "c. Degenerative disease",
+        "d. Self-inflicted"
+      ],
+      "correct_index": 2,
+      "answer_guide": "These are non-infectious diseases caused by gradual deterioration of body tissues – degenerative diseases.",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "2. Site of infection/attack of Hepatitis B is",
+      "diagram": null,
+      "options": [
+        "a. Liver",
+        "b. Skin",
+        "c. Nervous system",
+        "d. Respiratory system"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Hepatitis B virus attacks the liver.",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "3. Cholera disease can be treated by taking",
+      "diagram": null,
+      "options": [
+        "a. Pen",
+        "b. Rehydration and taking tetracycline",
+        "c. Ampicillin",
+        "d. Ceftriaxone"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Cholera is treated by oral/IV rehydration plus antibiotics such as tetracycline.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "4. Factors/Causes of livestock disease such as bone fractures and hemia in scrotum are:",
+      "diagram": null,
+      "options": [
+        "a. Nutritional causes",
+        "b. Chemical poisoning",
+        "c. Physical injuries",
+        "d. Living agents"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Fractures and hernia result from physical injuries.",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "5. The methods of livestock handling in which male testicles are made nonfictional is known as:",
+      "diagram": null,
+      "options": [
+        "a. Isolation",
+        "b. Castration",
+        "c. Trimming",
+        "d. Culling"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Making the testes non-functional is castration.",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "6. The disease that can affect only a particular sex of animal is",
+      "diagram": null,
+      "options": [
+        "a. Mastitis",
+        "b. Diarrhea",
+        "c. Fowl typhoid",
+        "d. Bm Cellosis"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Mastitis is inflammation of the udder/mammary gland, so it affects females only.",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "7. Which class of immurroglobullins does the following diagram show you?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 110\" width=\"100%\" style=\"max-width:220px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Schematic of an immunoglobulin molecule\"><g stroke=\"#111\" stroke-linecap=\"round\" fill=\"none\"><path d=\"M20,22 L95,40 V100\" stroke-width=\"8\"/><path d=\"M38,12 L105,28\" stroke-width=\"5\"/><path d=\"M200,22 L125,40 V100\" stroke-width=\"8\"/><path d=\"M182,12 L115,28\" stroke-width=\"5\"/></g></svg>",
+        "caption": "Schematic of an immunoglobulin molecule as printed: two heavy chains, each with a light chain alongside, forming a Y-shaped antibody."
+      },
+      "options": [
+        "a. IGg",
+        "b. Igm",
+        "c. IgA",
+        "d. IgD"
+      ],
+      "correct_index": 0,
+      "answer_guide": "The diagram shows a single Y-shaped (monomer) antibody with two heavy and two light chains – the typical IgG shape.",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "8. Immunity developed by vaccination is an example of",
+      "diagram": null,
+      "options": [
+        "a. Natural passive immunity",
+        "b. Artificial passive immunity",
+        "c. Artificial active immunity",
+        "d. Natural active immunity"
+      ],
+      "correct_index": 2,
+      "answer_guide": "A vaccine makes the body produce its own antibodies – artificial active immunity.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "9. Which of the following is a disaccharide?",
+      "diagram": null,
+      "options": [
+        "a. Sucrose",
+        "b. Starch",
+        "c. Glycogen",
+        "d. Cellulose"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Sucrose (glucose + fructose) is a disaccharide; the others are polysaccharides.",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "10. Which of the following bases is NOT found in RNA?",
+      "diagram": null,
+      "options": [
+        "a. Adenine",
+        "b. Guanine",
+        "c. Cytosine",
+        "d. Thymine"
+      ],
+      "correct_index": 3,
+      "answer_guide": "RNA contains uracil instead of thymine.",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "11. Change of a chromosomal structure that occurs when the genes appear more than once on the same chromosome is known as",
+      "diagram": null,
+      "options": [
+        "a. Translocation",
+        "b. Inversion",
+        "c. Duplication",
+        "d. Deletion"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Repetition of a chromosome segment is duplication.",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "12. Which of the following cell organelles are responsible for muscle contraction?",
+      "diagram": null,
+      "options": [
+        "a. Microfilament",
+        "b. Actin & myosin",
+        "c. Microtubules",
+        "d. Intermediate filament"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Muscle contraction is produced by the sliding of actin and myosin filaments.",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "13. Taking in a whole food material and breaking inside the body is known as",
+      "diagram": null,
+      "options": [
+        "a. Holozoic nutrition",
+        "b. Saprophytic nutrition",
+        "c. Parasitic nutrition",
+        "d. Symbiosis"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Ingesting whole food and digesting it internally is holozoic nutrition.",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "14. The other name(s) for Krebs cycle is/are",
+      "diagram": null,
+      "options": [
+        "a. Oxidative phosphorylation",
+        "b. Citric acid cycle",
+        "c. Tricarboxylic acid cycle",
+        "d. B and C"
+      ],
+      "correct_index": 3,
+      "answer_guide": "The Krebs cycle is also called the citric acid cycle and the tricarboxylic acid (TCA) cycle.",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "15. Which of the correct sequence of parts the human alimentary canal?",
+      "diagram": null,
+      "options": [
+        "a. Mouth → Stomach → Small intestine → Esophagus",
+        "b. Mouth → Esophagus → Stomach → Small intestine",
+        "c. Mouth → Small Intestine → Esophagus → Stomach",
+        "d. Mouth → Small intestine → Stomach → Esophagus"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Mouth → oesophagus → stomach → small intestine.",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "16. People of blood group “O” are:",
+      "diagram": null,
+      "options": [
+        "a. Universal donors",
+        "b. AB blood recipients",
+        "c. General receipts",
+        "d. B blood group recipients"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Group O red cells have no A or B antigens, so O people are universal donors.",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "17. Which of the following bones is part of appendicular skeleton?",
+      "diagram": null,
+      "options": [
+        "a. Skull",
+        "b. Vertebral column",
+        "c. Upper arm bone (humorous)",
+        "d. Sternum (breastbone)"
+      ],
+      "correct_index": 2,
+      "answer_guide": "The humerus is a limb bone (appendicular); the others are axial.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "18. Oxygenated blood leaving the ventricle is carried by",
+      "diagram": null,
+      "options": [
+        "a. Venacava",
+        "b. Pulmonary artery",
+        "c. Pulmonary vein",
+        "d. Aorta"
+      ],
+      "correct_index": 3,
+      "answer_guide": "The aorta carries oxygenated blood from the left ventricle.",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "19. The outermost layer that is made of white tough protective fibers around the eyes and forms the cornea at the front is called:",
+      "diagram": null,
+      "options": [
+        "a. Sclera",
+        "b. Choroid",
+        "c. Retina",
+        "d. Conjunctiva"
+      ],
+      "correct_index": 0,
+      "answer_guide": "The sclera is the tough white outer coat, continuous with the cornea at the front.",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "Part One: Multiple Choice Questions (40marks)",
+      "question": "20. Identify the two primary consumers in the following food web",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 340\" width=\"100%\" style=\"max-width:520px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Food web with organisms labelled L, M, N, O, P and Q\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><circle cx=\"90\" cy=\"60\" r=\"30\" fill=\"#f2f6ee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"90\" y=\"58\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">O</text><text x=\"90\" y=\"75\" font-size=\"9\" text-anchor=\"middle\" font-weight=\"normal\">hawk/owl</text><circle cx=\"400\" cy=\"50\" r=\"30\" fill=\"#f2f6ee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"400\" y=\"48\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">P</text><text x=\"400\" y=\"65\" font-size=\"9\" text-anchor=\"middle\" font-weight=\"normal\">snake</text><circle cx=\"470\" cy=\"160\" r=\"30\" fill=\"#f2f6ee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"470\" y=\"158\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">Q</text><text x=\"470\" y=\"175\" font-size=\"9\" text-anchor=\"middle\" font-weight=\"normal\">frog</text><circle cx=\"230\" cy=\"150\" r=\"30\" fill=\"#f2f6ee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"230\" y=\"148\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">N</text><text x=\"230\" y=\"165\" font-size=\"9\" text-anchor=\"middle\" font-weight=\"normal\">mouse</text><circle cx=\"180\" cy=\"250\" r=\"30\" fill=\"#f2f6ee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"180\" y=\"248\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">M</text><text x=\"180\" y=\"265\" font-size=\"9\" text-anchor=\"middle\" font-weight=\"normal\">grasshopper</text><circle cx=\"330\" cy=\"230\" r=\"30\" fill=\"#f2f6ee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"330\" y=\"228\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">L</text><text x=\"330\" y=\"245\" font-size=\"9\" text-anchor=\"middle\" font-weight=\"normal\">insect</text><rect x=\"270\" y=\"295\" width=\"120\" height=\"34\" rx=\"6\" fill=\"#dff0d0\" stroke=\"#111\"/><text x=\"330\" y=\"317\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">Grass (producer)</text><line x1=\"300\" y1=\"295\" x2=\"205\" y2=\"272\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"330\" y1=\"295\" x2=\"330\" y2=\"262\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"180\" y1=\"220\" x2=\"215\" y2=\"180\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"305\" y1=\"215\" x2=\"258\" y2=\"170\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"358\" y1=\"220\" x2=\"440\" y2=\"175\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"205\" y1=\"130\" x2=\"112\" y2=\"85\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"255\" y1=\"130\" x2=\"375\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"460\" y1=\"130\" x2=\"420\" y2=\"80\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"370\" y1=\"55\" x2=\"122\" y2=\"60\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/></svg>",
+        "caption": "Food web: grass is eaten by M (grasshopper) and L (insect); L is eaten by N (mouse) and Q (frog); M is eaten by N; N is eaten by O (bird of prey) and P (snake); Q is eaten by P; P is eaten by O."
+      },
+      "options": [
+        "a. K & Q",
+        "b. L & M",
+        "c. N & Q",
+        "d. O & P"
+      ],
+      "correct_index": 1,
+      "answer_guide": "L and M feed directly on the grass (producer), so they are the primary consumers.",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "1.\n  a. Define a Pathogen. (2marks)\n  b. Differentiate between air-born disease and contagious borne diseases. (2marks)\n  c. Explain the symptoms amoebic diseases. (2marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A pathogen is a disease-causing organism (micro-organism) such as a virus, bacterium, protozoan or fungus.\nb. Air-borne diseases spread through the air in droplets released by coughing or sneezing (e.g. TB, influenza); contagious diseases spread by direct physical contact with an infected person or their belongings (e.g. ringworm, scabies).\nc. Amoebic dysentery (amoebiasis): diarrhoea with blood and mucus, abdominal pain/cramps, fever, dehydration, loss of weight and fatigue.",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "2. The following table represents infectious diseases. Complete the blank spaces (6marks)\n\n   | Disease  | Causual agent (pathogen) | Mode of transmission           |\n   | A ...... | Virus                    | Through in haling infected air |\n   | B Malaria| Protozoan (Plasmodium)   | ..........                     |\n   | C Syphilis| ..........              | Through sexual intercourse     |",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A – Influenza (common cold/flu) [also accept measles or COVID-19]\nB – Through the bite of an infected female Anopheles mosquito\nC – Bacterium (Treponema pallidum)",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "3.\n  A) Mention any two general signs and symptoms of parasite infestation. (2marks)\n     a. ........\n     b. ........\n  B) Give two examples of Ectoparasites (2marks)\n     a. ........\n     b. ........\n  C) State two methods of controlling roundworms (2marks)\n     a. ........\n     b. ........",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A) Any two: loss of weight/poor growth; anaemia; itching and skin irritation; diarrhoea or abdominal pain; loss of appetite; general weakness.\nB) Any two: ticks, lice, fleas, mites (mange), tsetse flies.\nC) Any two: deworming with anthelmintic drugs; washing hands before eating and after using the toilet; proper disposal of faeces/using latrines; washing fruits and vegetables and cooking food properly; drinking clean, boiled water.",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "4.\n  a. Classify the living organism which cause livestock disease into two groups by filling the empty boxes. (2marks)\n  b. Enlist any two general signs of illness in livestock. (2marks)\n  c. Mention any two conditions that pre-dispose livestock animals to disease, or make the animal prone to contact disease. (2marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 170\" width=\"100%\" style=\"max-width:520px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Blank classification chart for living organisms that cause livestock diseases\"><rect x=\"20\" y=\"10\" width=\"480\" height=\"40\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"260\" y=\"36\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"normal\">Living organisms that cause livestock diseases</text><path d=\"M260,50 V75 M130,75 H390 M130,75 V100 M390,75 V100\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/><rect x=\"30\" y=\"100\" width=\"200\" height=\"50\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"130\" y=\"131\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\">........................</text><rect x=\"290\" y=\"100\" width=\"200\" height=\"50\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"390\" y=\"131\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"normal\">........................</text></svg>",
+        "caption": "Classification chart: 'Living organisms that cause livestock diseases' branching into two empty boxes to be filled in."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Box 1: Micro-organisms / pathogens (viruses, bacteria, protozoa, fungi)\n   Box 2: Parasites (endoparasites and ectoparasites)\nb. Any two: loss of appetite; dullness and isolation from the herd; rough/dull coat; high temperature (fever); drop in milk production; diarrhoea; abnormal discharges; loss of weight.\nc. Any two: poor nutrition/malnutrition; poor housing and hygiene; overcrowding; stress (long transport, extreme weather); age (very young or old); lack of vaccination; mixing with sick animals.",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "5. The following diagram shows you the activation & differentiation of B cells:\n  a. Label the missing parts represented by A and B (2marks)\n     A: ........\n     B: ........\n  b. Identify the function of part B (2marks)\n  c. Which of the two immune responses (primary and secondary responses) is faster? (2marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 600 390\" width=\"100%\" style=\"max-width:600px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Activation and differentiation of B cells in primary and secondary immune responses\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><text x=\"20\" y=\"30\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">Primary Response</text><text x=\"20\" y=\"45\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">(initial encounter with antigen)</text><circle cx=\"250\" cy=\"20\" r=\"2\" fill=\"#111\"/><circle cx=\"262\" cy=\"28\" r=\"2\" fill=\"#111\"/><circle cx=\"275\" cy=\"18\" r=\"2\" fill=\"#111\"/><circle cx=\"300\" cy=\"22\" r=\"2\" fill=\"#111\"/><circle cx=\"330\" cy=\"26\" r=\"2\" fill=\"#111\"/><circle cx=\"345\" cy=\"18\" r=\"2\" fill=\"#111\"/><line x1=\"260\" y1=\"45\" x2=\"240\" y2=\"37\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"260\" y1=\"45\" x2=\"280\" y2=\"37\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"260\" y1=\"45\" x2=\"242\" y2=\"55\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"260\" y1=\"45\" x2=\"278\" y2=\"55\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"260\" y1=\"45\" x2=\"260\" y2=\"25\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"260\" cy=\"45\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><line x1=\"310\" y1=\"45\" x2=\"290\" y2=\"37\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"310\" y1=\"45\" x2=\"330\" y2=\"37\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"310\" y1=\"45\" x2=\"292\" y2=\"55\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"310\" y1=\"45\" x2=\"328\" y2=\"55\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"310\" y1=\"45\" x2=\"310\" y2=\"25\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"310\" cy=\"45\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><line x1=\"360\" y1=\"45\" x2=\"340\" y2=\"37\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"360\" y1=\"45\" x2=\"380\" y2=\"37\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"360\" y1=\"45\" x2=\"342\" y2=\"55\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"360\" y1=\"45\" x2=\"378\" y2=\"55\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"360\" y1=\"45\" x2=\"360\" y2=\"25\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"360\" cy=\"45\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><text x=\"410\" y=\"30\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">Antigen binding to receptor on</text><text x=\"410\" y=\"42\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">a specific B lymphocyte</text><text x=\"310\" y=\"82\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">Proliferation to form a clone</text><line x1=\"290\" y1=\"88\" x2=\"270\" y2=\"108\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"330\" y1=\"88\" x2=\"350\" y2=\"108\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><text x=\"20\" y=\"120\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">B lymphoblasts</text><line x1=\"270\" y1=\"118\" x2=\"250\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"270\" y1=\"118\" x2=\"290\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"270\" y1=\"118\" x2=\"252\" y2=\"128\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"270\" y1=\"118\" x2=\"288\" y2=\"128\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"270\" y1=\"118\" x2=\"270\" y2=\"98\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"270\" cy=\"118\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><line x1=\"350\" y1=\"118\" x2=\"330\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"350\" y1=\"118\" x2=\"370\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"350\" y1=\"118\" x2=\"332\" y2=\"128\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"350\" y1=\"118\" x2=\"368\" y2=\"128\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"350\" y1=\"118\" x2=\"350\" y2=\"98\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"350\" cy=\"118\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><line x1=\"260\" y1=\"135\" x2=\"240\" y2=\"158\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"280\" y1=\"135\" x2=\"300\" y2=\"158\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"345\" y1=\"135\" x2=\"360\" y2=\"158\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><line x1=\"360\" y1=\"135\" x2=\"420\" y2=\"158\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><text x=\"20\" y=\"175\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">Plasma cells</text><ellipse cx=\"240\" cy=\"170\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><ellipse cx=\"300\" cy=\"170\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><ellipse cx=\"362\" cy=\"170\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><line x1=\"425\" y1=\"170\" x2=\"405\" y2=\"162\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"425\" y1=\"170\" x2=\"445\" y2=\"162\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"425\" y1=\"170\" x2=\"407\" y2=\"180\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"425\" y1=\"170\" x2=\"443\" y2=\"180\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"425\" y1=\"170\" x2=\"425\" y2=\"150\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"425\" cy=\"170\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><text x=\"470\" y=\"174\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">Memory B cell</text><path d=\"M220,191 L225,197 L230,191 M225,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M238,191 L243,197 L248,191 M243,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M256,191 L261,197 L266,191 M261,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M274,191 L279,197 L284,191 M279,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M292,191 L297,197 L302,191 M297,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M310,191 L315,197 L320,191 M315,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M328,191 L333,197 L338,191 M333,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M346,191 L351,197 L356,191 M351,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M364,191 L369,197 L374,191 M369,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M382,191 L387,197 L392,191 M387,197 V204\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"20\" y=\"200\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">Secreted antibody molecules</text><line x1=\"425\" y1=\"190\" x2=\"425\" y2=\"240\" stroke=\"#111\" stroke-width=\"1.8\" marker-end=\"url(#ah)\"/><text x=\"20\" y=\"250\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">Secondary Response</text><text x=\"20\" y=\"265\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">(can be years later)</text><text x=\"250\" y=\"255\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">Clone of cells identical to ancestral cells</text><line x1=\"425\" y1=\"255\" x2=\"405\" y2=\"247\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"425\" y1=\"255\" x2=\"445\" y2=\"247\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"425\" y1=\"255\" x2=\"407\" y2=\"265\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"425\" y1=\"255\" x2=\"443\" y2=\"265\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"425\" y1=\"255\" x2=\"425\" y2=\"235\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"425\" cy=\"255\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><text x=\"470\" y=\"252\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">Subsequent challenge</text><text x=\"470\" y=\"264\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">by same antigen</text><path d=\"M425,272 V285 M120,285 H500 M500,285 V300\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"30\" y=\"320\" font-size=\"26\" text-anchor=\"middle\" font-weight=\"bold\">A</text><ellipse cx=\"75\" cy=\"315\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><ellipse cx=\"129\" cy=\"315\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><ellipse cx=\"183\" cy=\"315\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><ellipse cx=\"237\" cy=\"315\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><ellipse cx=\"291\" cy=\"315\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><ellipse cx=\"345\" cy=\"315\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><ellipse cx=\"399\" cy=\"315\" rx=\"26\" ry=\"11\" fill=\"#444\" stroke=\"#111\"/><path d=\"M55,336 L60,342 L65,336 M60,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M75,336 L80,342 L85,336 M80,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M95,336 L100,342 L105,336 M100,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M115,336 L120,342 L125,336 M120,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M135,336 L140,342 L145,336 M140,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M155,336 L160,342 L165,336 M160,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M175,336 L180,342 L185,336 M180,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M195,336 L200,342 L205,336 M200,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M215,336 L220,342 L225,336 M220,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M235,336 L240,342 L245,336 M240,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M255,336 L260,342 L265,336 M260,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M275,336 L280,342 L285,336 M280,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M295,336 L300,342 L305,336 M300,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M315,336 L320,342 L325,336 M320,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M335,336 L340,342 L345,336 M340,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M355,336 L360,342 L365,336 M360,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M375,336 L380,342 L385,336 M380,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><path d=\"M395,336 L400,342 L405,336 M400,342 V349\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><line x1=\"455\" y1=\"315\" x2=\"435\" y2=\"307\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"455\" y1=\"315\" x2=\"475\" y2=\"307\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"455\" y1=\"315\" x2=\"437\" y2=\"325\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"455\" y1=\"315\" x2=\"473\" y2=\"325\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"455\" y1=\"315\" x2=\"455\" y2=\"295\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"455\" cy=\"315\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><line x1=\"500\" y1=\"315\" x2=\"480\" y2=\"307\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"500\" y1=\"315\" x2=\"520\" y2=\"307\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"500\" y1=\"315\" x2=\"482\" y2=\"325\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"500\" y1=\"315\" x2=\"518\" y2=\"325\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"500\" y1=\"315\" x2=\"500\" y2=\"295\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"500\" cy=\"315\" r=\"13\" fill=\"#555\" stroke=\"#111\"/><path d=\"M440,340 V348 H515 V340 M478,348 V356\" stroke=\"#111\" stroke-width=\"1.5\" fill=\"none\"/><text x=\"478\" y=\"378\" font-size=\"26\" text-anchor=\"middle\" font-weight=\"bold\">B</text></svg>",
+        "caption": "Activation and differentiation of B cells: antigen binds a specific B lymphocyte, which proliferates into plasma cells (secreting antibodies) and memory B cells; on later challenge by the same antigen, memory cells produce clone A (cells with antibodies) and group B."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A: Plasma cells (secreting antibodies); B: Memory B cells\nb. Memory B cells remember the specific antigen and, on re-infection, rapidly divide to produce many plasma cells and antibodies, giving a fast and strong (secondary) response – long-term immunity.\nc. The secondary response is faster (and stronger and longer-lasting), because memory cells are already present.",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "6.\n  a) Classify the following defense mechanisms into first, second & third lines of defense interferons, mucus membranes and lymphocytes. (3marks)\n\n     | First line defense | Second line defense | Third line defense |\n     |                    |                     |                    |\n\n  b) Explain two ways in which innate immunity and acquired immunity differ? (2marks)\n  c) What is chemotaxis? (1mark)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) First line: mucus membranes; Second line: interferons; Third line: lymphocytes\nb) Any two: innate immunity is present from birth, whereas acquired immunity develops after exposure to antigens or vaccination; innate immunity is non-specific, whereas acquired immunity is specific to a particular antigen; innate immunity has no memory, whereas acquired immunity has memory cells (a faster response on re-infection).\nc) Chemotaxis is the movement of cells (e.g. phagocytes/white blood cells) towards or away from a chemical stimulus, such as chemicals released at a site of infection.",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "7.\n  a) Compare between plant cell wall & cell membrane by completing the following table. (2marks)\n\n     | Point of comparison  | Cell wall       | Cell membrane                                   |\n     | Existence            | i) ........     | Found in both plant & animal cell               |\n     | Chemical composition | ii) ........    | Protein molecules embedded in phospholipid bilayer |\n     | Permeability         | Fully permeable | iii) ........                                   |\n\n  b) There are two major types of cells based on the presence of nucleus mention Them. (2marks)\n  c) Identify the function of ribosomes (2marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) i) Found only in plant cells (and fungi/bacteria) – not in animal cells\n   ii) Cellulose\n   iii) Partially (selectively/semi-) permeable\nb) Prokaryotic cells (no true nucleus, e.g. bacteria) and eukaryotic cells (with a true nucleus, e.g. plant and animal cells).\nc) Ribosomes are the site of protein synthesis.",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "8.\n  a) Put the following events of embryonic developing their correct order/sequence starting from the first to last stage: (2marks)\n     Implantation, fertilization, birth\n  b) Describe the main difference between identical twins and fraternal twins (2marks)\n  c) State any two secondary sexual characteristics in girls. (2marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Fertilization → Implantation → Birth\nb) Identical twins develop from one fertilised egg (zygote) that splits into two, so they are genetically identical and the same sex; fraternal twins develop from two different eggs fertilised by two different sperms, so they are genetically different and may be of different sexes.\nc) Any two: development of breasts; widening of hips; growth of pubic and underarm hair; start of menstruation; deposition of fat under the skin.",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "9.\n  a) What is the transpiration in plants? (1mark)\n  b) List two benefits of transpiration for plants. (2marks)\n     I. ........\n     II. ........\n  c) State the three necessary materials for seed generation (3marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Transpiration is the loss of water vapour from the aerial parts of a plant, mainly through the stomata of the leaves.\nb) Any two: cools the plant; helps pull water and dissolved minerals up from the roots (transpiration pull); keeps cells turgid; distributes mineral salts.\nc) (read as seed germination) Water (moisture), oxygen (air) and a suitable (warm) temperature.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "Part Two: Structured Questions (60marks)",
+      "question": "10.\n  a) Define coordination in living things. (2marks)\n  b) Name the two systems that are responsible for body coordination. (2marks)\n  c) Explain the difference between community and ecosystem. (2marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Coordination is the way the different parts of an organism work together in harmony, detecting stimuli and producing suitable responses.\nb) The nervous system and the endocrine (hormonal) system.\nc) A community is all the populations of different organisms (living things only) living together in one area; an ecosystem is the community together with its non-living (physical) environment, interacting as one unit.",
+      "matching_pairs": null
+    }
+  ]
+}
