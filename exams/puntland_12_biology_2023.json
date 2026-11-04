@@ -1,0 +1,170 @@
+{
+  "title": "Form Four Biology Examination, 2023 - Puntland National Examinations Board",
+  "exam_id": "puntland_12_biology_2023",
+  "year": 2023,
+  "subject": "Biology",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "Sternum is one of the human bones which protects the organs",
+      "options": ["A. Heart and spinal cord", "B. Spinal cord and lungs", "C. lungs and heart", "D. Brain and lungs"],
+      "correct_index": 2
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "This is a diagram of the human tongue labeled with colours. The blue area can taste by",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 160 200' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2'><path d='M30 30 C20 90 20 150 60 185 C80 195 100 195 120 185 C150 150 150 90 130 30 C100 10 60 10 30 30 Z'/><ellipse cx='55' cy='45' rx='20' ry='24' fill='currentColor' fill-opacity='.45'/><ellipse cx='105' cy='45' rx='20' ry='24' fill='currentColor' fill-opacity='.45'/><path d='M80 70 V170' stroke-dasharray='4 4'/></svg>",
+        "caption": "Outline of the tongue with two shaded (blue) areas at the back of the tongue, either side of the midline. The colours of the original figure are shown here as shading."
+      },
+      "options": ["A. Salt", "B. Sweet", "C. Bitter", "D. Sour"],
+      "correct_index": 2,
+      "answer_guide": "Note: the blue areas are at the back of the tongue, which detects bitter tastes (reading of a small scan; check against the original)."
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "Which of the following glands are examples of exocrine glands?",
+      "options": ["A. Salivary and thyroid glands", "B. Sweet and pituitary glands", "C. Thyroid and sweat glands", "D. Sweet and salivary glands"],
+      "correct_index": 3,
+      "answer_guide": "Exocrine glands release their products through ducts. Option D is the intended answer; 'Sweet' is printed in the paper but means sweat glands (salivary and sweat glands are exocrine)."
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "Identify the correct examples of stimulus and effector",
+      "options": ["A. Touch and eye", "B. Light and ear", "C. Light and muscle", "D. Light and brain"],
+      "correct_index": 2
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "The hormone that accelerates the conversion of glycogen into glucose is:",
+      "options": ["A. Insulin", "B. Adrenaline", "C. Thyroxine", "D. Glucagon"],
+      "correct_index": 3
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "Identify the labeled part that can be natural active immunity",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 190' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='18' font-weight='bold' text-anchor='middle'><text x='65' y='20'>W</text><text x='195' y='20'>X</text><text x='325' y='20'>Y</text><text x='455' y='20'>Z</text></g><rect x='5' y='140' width='120' height='40'/><rect x='135' y='140' width='120' height='40'/><rect x='265' y='140' width='120' height='40'/><rect x='395' y='140' width='120' height='40'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='11' text-anchor='middle'><text x='65' y='165'>INFECTION</text><text x='195' y='165'>VACCINATION</text><text x='325' y='155'>MATERNAL</text><text x='325' y='170'>ANTIBODIES</text><text x='455' y='155'>MONOCLONAL</text><text x='455' y='170'>ANTIBODIES</text></g><ellipse cx='65' cy='80' rx='35' ry='14' transform='rotate(-30 65 80)' fill='currentColor' fill-opacity='.25'/><path d='M165 105 L225 55 M215 45 L235 65 M222 50 L240 32 M165 105 L158 112'/><circle cx='315' cy='65' r='15'/><path d='M300 80 C285 100 300 125 340 120 C355 100 345 85 330 80'/><circle cx='330' cy='108' r='8'/><rect x='425' y='45' width='24' height='55' rx='6'/><path d='M449 60 H465 M470 55 L482 50 L475 65 M470 85 L482 80 L478 95'/></svg>",
+        "caption": "Four pictures labelled W (INFECTION, a germ), X (VACCINATION, a syringe), Y (MATERNAL ANTIBODIES, a mother with a baby) and Z (MONOCLONAL ANTIBODIES, a drip bag with antibodies)."
+      },
+      "options": ["A. W", "B. X", "C. Y", "D. Z"],
+      "correct_index": 0
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "Four different segments of a DNA molecule are represented below.\n\n   Segment 1: T-A-G-G-C / A-T-C-C-G\n   Segment 2: C-G-T-G-A / G-C-A-C-T\n   Segment 3: G-A-T-T-A / C-T-A-A-T\n   Segment 4: C-A-A-T-G / C-T-T-A-C\n\nFind the segment which is an ERROR paired.",
+      "options": ["A. Segment 1", "B. Segment 2", "C. Segment 3", "D. Segment 4"],
+      "correct_index": 3,
+      "answer_guide": "Segment 4 has an error: the first pair is C paired with C, but in DNA C pairs with G (A pairs with T)."
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "The diagram shows a cross diagram between two tall pea plants.\n\nWhich of the following statements is NOT correct?",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 220' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='1.5'><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='5' y='20'>Parental phenotype</text><text x='150' y='20'>tall</text><text x='280' y='20'>tall</text><text x='5' y='44'>Parental genotype</text><text x='150' y='44'>Tt</text><text x='280' y='44'>Tt</text><text x='5' y='90'>Gametes</text><text x='5' y='200'>Offspring</text></g><g><ellipse cx='150' cy='85' rx='20' ry='13'/><ellipse cx='210' cy='85' rx='20' ry='13'/><ellipse cx='280' cy='85' rx='20' ry='13'/><ellipse cx='340' cy='85' rx='20' ry='13'/></g><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='14' text-anchor='middle'><text x='150' y='90'>T</text><text x='210' y='90'>t</text><text x='280' y='90'>T</text><text x='340' y='90'>t</text><text x='130' y='205'>K</text><text x='190' y='205'>L</text><text x='270' y='205'>M</text><text x='350' y='205'>N</text></g><path d='M150 98 L130 190 M150 98 L270 190 M210 98 L190 190 M210 98 L350 190 M280 98 L130 190 M280 98 L190 190 M340 98 L270 190 M340 98 L350 190' stroke-opacity='.6'/></svg>",
+        "caption": "Cross between two tall pea plants (Tt × Tt). Gametes T, t from one parent and T, t from the other combine to give four offspring K, L, M and N."
+      },
+      "options": ["A. K and N are both homozygous", "B. L and M are both heterozygous", "C. K, L, and N are all homozygous", "D. The phenotypic ratio is 1:1"],
+      "correct_index": 2,
+      "answer_guide": "The offspring are K = TT, L = Tt, M = Tt, N = tt. Statement C is not correct because L (Tt) is heterozygous. Statement D is also not correct (the phenotypic ratio is 3 tall : 1 short), so check which one the official scheme accepts."
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "Look at the diagram that shows an arm movement.\n\nIdentify the joint that allows this movement",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 170' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'><circle cx='60' cy='30' r='15'/><path d='M60 45 V120 M60 60 L100 95 L135 100'/><path d='M60 120 L45 160 M60 120 L75 160'/><path d='M160 80 H230 M220 70 L235 80 L220 90' stroke-width='2'/><circle cx='290' cy='30' r='15'/><path d='M290 45 V120 M290 60 L340 40 L345 5'/><path d='M290 120 L275 160 M290 120 L305 160'/></svg>",
+        "caption": "A person with the arm lowered (left) and then raised up beside the head (right), with an arrow showing the movement between them."
+      },
+      "options": ["A. Ball and socket joint at the elbow", "B. Ball and socket joint at the shoulder", "C. Hinge joint at the shoulder", "D. Hinge joint at the elbow"],
+      "correct_index": 1
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (20 MARKS)",
+      "question": "What happens to the muscles as the weight is lowered.\n\n   Biceps | Triceps\n   A. Lengthens | Lengthens\n   B. Lengthens | Shortens\n   C. Shortens | Lengthens\n   D. Shortens | Shortens",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='3' stroke-linecap='round'><path d='M60 120 H250' stroke-width='6'/><circle cx='50' cy='125' r='22' fill='currentColor' fill-opacity='.3'/><path d='M250 120 L330 20 M240 135 L320 40' stroke-width='5'/><ellipse cx='300' cy='70' rx='14' ry='45' transform='rotate(-5 300 70)' fill='currentColor' fill-opacity='.2'/><ellipse cx='340' cy='75' rx='10' ry='45' fill='currentColor' fill-opacity='.2'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='10' y='95'>Weight</text><text x='210' y='30'>Biceps</text><text x='355' y='110'>Triceps</text></g></svg>",
+        "caption": "A forearm holding a weight; the biceps is on the front of the upper arm and the triceps on the back."
+      },
+      "options": ["A. Biceps lengthens; Triceps lengthens", "B. Biceps lengthens; Triceps shortens", "C. Biceps shortens; Triceps lengthens", "D. Biceps shortens; Triceps shortens"],
+      "correct_index": 1
+    },
+    {
+      "id": 11,
+      "section": "PART TWO: STRUCTURED QUESTIONS (80 MARKS) - QUESTION ONE: SUPPORT AND MOVEMENT (12 MARKS)",
+      "question": "A. Label the skeletal system using the bones in the box (7 marks)\n   [ Ribs, Thigh bone, Skull, Kneecap, Backbone, Collarbone, Pelvis ]\n   1. ..............................\n   2. ..............................\n   3. ..............................\n   4. ..............................\n   5. ..............................\n   6. ..............................\n   7. ..............................\n\nB. Complete the table about types of muscles found in the human body (5 marks)\n   Type     | Illustration | Voluntary or Involuntary | Where is found in human body\n   Cardiac  | (picture)    | i. ........              | ii. ........\n   Smooth   | (picture)    | Voluntary                | iii. ........\n   Skeletal | (picture)    | iv. ........             | v. ........",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 380' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><circle cx='260' cy='40' r='22'/><path d='M260 62 V240'/><ellipse cx='260' cy='130' rx='45' ry='55' fill='currentColor' fill-opacity='.08'/><path d='M215 85 H305 M222 105 H298 M225 125 H295 M228 145 H292 M232 165 H288'/><path d='M225 72 L195 82 M295 72 L325 82' stroke-width='3'/><path d='M225 235 C210 260 215 290 260 290 C305 290 310 260 295 235 Z' fill='currentColor' fill-opacity='.12'/><path d='M235 285 L225 340 M285 285 L295 340'/><circle cx='225' cy='315' r='8'/><circle cx='295' cy='315' r='8'/><path d='M225 340 L220 375 M295 340 L300 375'/><path d='M215 75 L170 160 M305 75 L350 160'/><path d='M60 60 L215 80 M60 130 L255 135 M60 330 L222 318' stroke-dasharray='3 3'/><path d='M460 40 L275 45 M460 120 L300 130 M460 220 L290 250 M460 290 L292 300' stroke-dasharray='3 3'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='16' font-weight='bold'><text x='30' y='62'>1</text><text x='30' y='132'>2</text><text x='30' y='332'>3</text><text x='470' y='42'>4</text><text x='470' y='122'>5</text><text x='470' y='222'>6</text><text x='470' y='292'>7</text></g></svg>",
+        "caption": "A human skeleton with seven numbered lead lines: 1 to the collarbone, 2 to the backbone, 3 to the kneecap, 4 to the skull, 5 to the ribs, 6 to the pelvis and 7 to the thigh bone, as read from the paper's figure."
+      },
+      "answer_guide": "A.\n   1. Collarbone\n   2. Backbone\n   3. Kneecap\n   4. Skull\n   5. Ribs\n   6. Pelvis\n   7. Thigh bone\n   (read from a small scan; check the number positions against the original)\n\nB.\n   i. Involuntary\n   ii. Heart (wall of the heart)\n   iii. Walls of the stomach and intestines, blood vessels, bladder (organs of the digestive tract)\n   iv. Voluntary\n   v. Attached to the bones (arms, legs, trunk)\n\n   Note: the paper prints 'Voluntary' for smooth muscle, which looks like an error, because smooth muscle is involuntary."
+    },
+    {
+      "id": 12,
+      "section": "PART TWO: STRUCTURED QUESTIONS (80 MARKS) - QUESTION TWO: NERVOUS SYSTEM AND SENSE ORGANS (17 MARKS)",
+      "question": "A. The diagram below shows the pathway of reflex action\n   I. What types of neurons are neurons K, L, and M\n      K. ........................ (1 mark)\n      L. ........................ (1 mark)\n      M. ........................ (1 mark)\n   II. There is a gap between neuron K and neuron L\n      a) Name this gap (1 mark)\n      b) The information passes across this gap by (1 mark)\n      c) Use an arrow on the diagram to show how the impulse travels in neuron K. (1 mark)\n      d) State the stimulus of this reflex action (1 mark)\n      e) Give any two examples of involuntary actions (2 marks)\n\nB. The diagram shows a horizontal section through the human eye.\n   I. Name the structures A, D, and E.\n      A. ........................ (1 mark)\n      D. ........................ (1 mark)\n      E. ........................ (1 mark)\n   II. Briefly explain what happens to the structures labeled C and B if this eye faces a very bright light\n      C. ........................ (2 marks)\n      B. ........................ (1 mark)\n   III. Match the letters A to E in the parts of the eye with their correct functions. (2 marks)\n      One has been done for you.\n      Part of the eye | Answer | Function\n      A | | 1. Controls the amount of light entering the eye\n      C | 1 | 2. Refracts light rays\n      D | | 3. Contain light receptors\n      E | | 4. Carries impulses to the brain\n      F | | 5. Focuses light",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 620 560' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><g><path d='M120 40 C150 10 190 30 200 60 L215 90'/><path d='M215 90 C230 120 245 160 245 200'/><path d='M245 200 C260 220 330 215 380 200 C420 190 440 160 420 110' /><path d='M420 110 C400 70 330 60 300 80 C280 90 250 100 245 130'/><ellipse cx='330' cy='150' rx='24' ry='14' stroke-dasharray='3 3'/><path d='M360 120 L420 110 M310 105 L330 60' stroke-opacity='0'/><path d='M365 200 L395 245 L405 270 L430 270 L425 245 L395 225'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='5' y='30'>neurone K</text></g></g><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='60' y='60'>sharp nail</text><text x='215' y='25'>neurone K</text><text x='480' y='150'>Gap</text><text x='480' y='170'>neurone L</text><text x='90' y='170'>neurone M</text><text x='60' y='235'>muscle</text><text x='250' y='235'>spinal cord</text></g><path d='M55 180 L130 175 L250 175 M250 175 C300 130 340 130 360 160 C375 190 330 210 300 200' stroke-width='2.5'/><path d='M60 70 L120 62 M120 62 L150 40 M150 40 C200 90 205 150 250 175' stroke-width='2.5'/><path d='M360 160 C360 190 340 215 290 215 C240 215 150 215 100 225' stroke-width='2.5'/><path d='M60 240 L100 230 L130 235' stroke-width='3'/><path d='M455 150 L400 165 M455 175 L375 185' stroke-width='1'/><g transform='translate(0 280)'><circle cx='300' cy='150' r='110'/><path d='M200 150 C170 140 170 160 200 150' stroke-width='3'/><path d='M200 100 C195 130 195 170 200 200' stroke-width='3'/><ellipse cx='225' cy='150' rx='14' ry='28' fill='currentColor' fill-opacity='.2'/><path d='M205 115 L225 130 M205 185 L225 170'/><path d='M410 150 L470 150' stroke-width='10'/><path d='M178 120 L200 115 M170 160 L200 150 M195 195 L212 185' stroke-opacity='.0'/><path d='M120 108 L195 125' stroke-width='1.5'/><path d='M130 150 L205 148' stroke-width='1.5'/><path d='M150 195 L205 175' stroke-width='1.5'/><path d='M300 40 V15' stroke-width='1.5'/><path d='M370 235 L330 215' stroke-width='1.5'/><path d='M495 150 L430 150' stroke-width='1.5'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='16' font-weight='bold'><text x='100' y='108'>A</text><text x='105' y='152'>B</text><text x='125' y='200'>C</text><text x='375' y='250'>D</text><text x='498' y='155'>E</text><text x='295' y='10'>F</text></g></g></svg>",
+        "caption": "Two diagrams. Top: the reflex arc, with a finger on a sharp nail, sensory neurone K to the spinal cord, a gap between K and neurone L, and neurone M to a muscle. Bottom: a horizontal section through the human eye with parts A (front window), B (centre opening at the front), C (coloured ring at the front), D (back of the eye), E (nerve leaving the eye at the back) and F (outer wall at the top)."
+      },
+      "answer_guide": "A.\n   I.\n      K. Sensory neuron\n      L. Relay (intermediate / connector) neuron\n      M. Motor neuron\n   II.\n      a) Synapse\n      b) Chemicals (neurotransmitters) that diffuse across the gap\n      c) Draw the arrow along neuron K pointing from the sharp nail (finger) towards the spinal cord\n      d) The sharp nail (a pricking / pain stimulus)\n      e) Any two: heartbeat, breathing, peristalsis (movement of food in the gut), blinking, sneezing, knee jerk, pupil reflex\n\nB.\n   I.\n      A. Cornea\n      D. Retina\n      E. Optic nerve\n   II. (the figure is small, so check against the original)\n      C. (iris) The circular muscles contract and the radial muscles relax, so the iris gets bigger and the opening gets smaller, which reduces the light entering the eye\n      B. (pupil) The pupil becomes smaller (constricts)\n   III. A - 2 (cornea refracts light rays); C - 1 (iris controls the amount of light); D - 3 (retina contains light receptors); E - 4 (optic nerve carries impulses to the brain); F - 5 (the paper lists F for 'focuses light', but the lens is the part that focuses light; check the lettering against the original)"
+    },
+    {
+      "id": 13,
+      "section": "PART TWO: STRUCTURED QUESTIONS (80 MARKS) - QUESTION THREE: ENDOCRINE SYSTEM AND HOMEOSTASIS (11 MARKS)",
+      "question": "A. The given table below is the endocrine system.\n   i. Complete the following table by filling in the blank spaces (7 marks)\n      Name of gland     | Hormone produced | One important function\n      Pancreas (islets) | ................ | Lowers blood glucose concentration in the body\n      Thyroid           | ................ | ................\n      ................  | Adrenaline       | ................\n      Testis            | ................ | Regulates the development of male secondary sexual characteristics\n      ................  | Estrogen         | Regulates the development of female secondary characteristics\n\n   ii. Briefly explain why the pituitary gland is called the master gland (2 marks)\n\n   iii. Define the term homeostasis and give one example (2 marks)",
+      "answer_guide": "A.\n   i.\n      Pancreas (islets): Insulin\n      Thyroid: Thyroxine; function: controls the metabolic rate (and growth and development)\n      Adrenal gland: Adrenaline; function: prepares the body for fight or flight (increases heart rate, breathing rate and raises blood glucose)\n      Testis: Testosterone\n      Ovary: Estrogen\n   ii. The pituitary gland is called the master gland because it produces hormones that control the activities of other endocrine glands (such as the thyroid, adrenals and gonads).\n   iii. Homeostasis is the maintenance of a constant internal environment of the body. Example: regulation of blood glucose level (by insulin and glucagon), body temperature or water balance."
+    },
+    {
+      "id": 14,
+      "section": "PART TWO: STRUCTURED QUESTIONS (80 MARKS) - QUESTION FOUR: DISEASE AND IMMUNITY (17 MARKS)",
+      "question": "A. The diagram shows a mosquito feeding on human blood.\n   Mosquitoes can carry transmissible diseases such as malaria.\n\n   i) Define the term disease. (1 mark)\n\n   ii) The human body has several defenses against diseases. State the name of two chemical barriers in the body.\n      1. ........................ (1 mark)\n      2. ........................ (1 mark)\n\n   iii) Typhoid is one of the bacterial diseases.\n      a) Name the pathogen that causes this disease (1 mark)\n      b) Explain how this disease can be treated (cured). (1 mark)\n\n   iv) Treponema pallidum is a pathogenic bacterium\n      a) Name the disease that this pathogen causes (1 mark)\n      b) State the way of transmission of the disease in your answer (i) (1 mark)\n\n   v) Mosquito is an insect vector that transmits malaria. Give two other insect vectors\n      1. ........................ (1 mark)\n      2. ........................ (1 mark)\n\n   vi) Classify the diseases in the box by their transmission modes, by using the table below. (8 marks)\n      [ Common cold, Ringworms, Tuberculosis, Rabies, Cholera, Gonorrhea, Cystic fibrosis, Syphilis. ]\n      Air-borne disease | Contagious Disease | Pet-borne disease | Water/food-borne diseases | STDs | Inheritance",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 220' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><ellipse cx='200' cy='70' rx='45' ry='14' fill='currentColor' fill-opacity='.3'/><circle cx='165' cy='68' r='12' fill='currentColor' fill-opacity='.3'/><path d='M150 70 L110 100 L108 120 M185 82 L170 130 L168 160 M200 84 L205 135 L210 165 M225 82 L260 120 L300 125 M255 62 L330 45 L380 55 M160 74 L130 105'/><path d='M150 90 L120 110 L105 140' stroke-opacity='0'/><path d='M60 170 C80 150 110 150 120 170 C110 195 70 195 60 170 Z' fill='currentColor' fill-opacity='.15'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='320' y='38'>Mosquito</text><text x='260' y='200'>Human blood</text></g><path d='M255 195 L170 165' stroke-width='1'/></svg>",
+        "caption": "A mosquito feeding on human blood, with labels for the mosquito and for the human blood (skin)."
+      },
+      "matching_pairs": [
+        { "item": "Common cold", "match": "Air-borne disease" },
+        { "item": "Tuberculosis", "match": "Air-borne disease" },
+        { "item": "Ringworms", "match": "Contagious disease" },
+        { "item": "Rabies", "match": "Pet-borne disease" },
+        { "item": "Cholera", "match": "Water/food-borne disease" },
+        { "item": "Gonorrhea", "match": "STDs" },
+        { "item": "Syphilis", "match": "STDs" },
+        { "item": "Cystic fibrosis", "match": "Inheritance" }
+      ],
+      "answer_guide": "A.\n   i) A disease is a disorder (a condition that stops part or all of the body from working normally), usually caused by a pathogen or by a faulty gene or lifestyle.\n   ii) Any two chemical barriers:\n      1. Hydrochloric acid in the stomach\n      2. Lysozyme in tears and saliva (also: acid on the skin, earwax, mucus)\n   iii)\n      a) Salmonella typhi (a bacterium)\n      b) With antibiotics\n   iv)\n      a) Syphilis\n      b) Sexual contact (it is a sexually transmitted disease)\n   v) Any two other insect vectors:\n      1. Tsetse fly\n      2. Housefly (also: flea, louse)\n   vi) See the matching pairs: Air-borne: common cold, tuberculosis; Contagious: ringworms; Pet-borne: rabies; Water/food-borne: cholera; STDs: gonorrhea, syphilis; Inheritance: cystic fibrosis."
+    },
+    {
+      "id": 15,
+      "section": "PART TWO: STRUCTURED QUESTIONS (80 MARKS) - QUESTION FIVE: BIOTECHNOLOGY (7 MARKS)",
+      "question": "The diagram below shows the steps in insulin production\n\nA. Name the labeled parts Q, R, and S\n   Q. ........................ (1 mark)\n   R. ........................ (1 mark)\n   S. ........................ (1 mark)\n\nB. State what is in Bottle S and what is used for (2 marks)\n\nC. Explain why milk is pasteurized when making yogurt or cheese. (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 260' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><defs><marker id='a15b' markerWidth='8' markerHeight='8' refX='7' refY='4' orient='auto'><path d='M0 0 L8 4 L0 8 Z' fill='currentColor' stroke='none'/></marker></defs><circle cx='60' cy='90' r='28'/><circle cx='60' cy='90' r='8' fill='currentColor' fill-opacity='.4'/><path d='M95 70 C120 45 140 45 160 35' marker-end='url(#a15b)'/><rect x='165' y='22' width='50' height='20'/><path d='M215 40 L250 70' marker-end='url(#a15b)'/><circle cx='270' cy='100' r='26'/><path d='M265 74 L275 64' stroke-width='6'/><circle cx='70' cy='195' r='16' fill='currentColor' fill-opacity='.2'/><path d='M95 200 L130 200' marker-end='url(#a15b)'/><circle cx='160' cy='200' r='22'/><path d='M180 185 L238 118' marker-end='url(#a15b)'/><path d='M300 100 H340' marker-end='url(#a15b)'/><circle cx='370' cy='100' r='16' fill='currentColor' fill-opacity='.2'/><path d='M395 100 H430' marker-end='url(#a15b)'/><rect x='435' y='88' width='60' height='24' fill='currentColor' fill-opacity='.2'/><path d='M500 100 H530' marker-end='url(#a15b)'/><path d='M540 70 L560 70 L560 78 L575 78 L575 130 L540 130 Z' fill='currentColor' fill-opacity='.15'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='20' y='140'>Human cell</text><text x='168' y='18' font-weight='bold'>Q</text><text x='285' y='145' font-weight='bold'>R</text><text x='10' y='235'>Bacteria</text><text x='140' y='245'>Plasmid</text><text x='340' y='135'>Transgenic</text><text x='345' y='150'>bacteria</text><text x='440' y='78'>Grow in</text><text x='440' y='65'> </text><text x='440' y='128'>culture</text><text x='550' y='150' font-weight='bold'>S</text></g></svg>",
+        "caption": "Steps in insulin production: a gene (Q) is cut from a human cell; a bacterium's plasmid is cut open and the gene is inserted to make R; R is put into bacteria (transgenic bacteria), which are grown in culture; the product is collected in a bottle (S)."
+      },
+      "answer_guide": "A.\n   Q. The human insulin gene (the piece of DNA cut out of the human cell)\n   R. Recombinant plasmid (a plasmid that now carries the human insulin gene)\n   S. Insulin (the product, in a bottle)\n\nB. Bottle S contains human insulin, which is used to treat diabetes (to lower blood glucose in people whose bodies cannot make enough insulin).\n\nC. Milk is pasteurized (heated) to kill harmful bacteria and other microbes, so that the useful bacteria added (lactic acid bacteria) can grow and make yogurt or cheese safely."
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: STRUCTURED QUESTIONS (80 MARKS) - QUESTION SIX: ADVANCED GENETICS (16 MARKS)",
+      "question": "A. Organisms pass on their genetic information in their gametes\n   A homozygous rabbit for black fur was crossed with homozygous a rabbit for brown fur. All of their offsprings had black fur.\n   Parents: homozygous black fur male (BB) × homozygous brown fur female (bb)\n   F1 offsprings: all of the F1 offsprings have black fur\n\n   i) Define these terms\n      Homozygous ........................ (1 mark)\n      Heterozygous ........................ (1 mark)\n   ii) State the dominant allele for fur colour and give a reason for your answer.\n      Dominant allele ........................ (1 mark)\n      Reason ........................ (1 mark)\n   iii) A rabbit with brown fur is mated with one of the F1 rabbits with black fur.\n      i. Complete the genetic diagram to show the possible fur colours that could occur from this mating. (7 marks)\n         Parental phenotypes: Brown fur × Black fur\n         Parental genotypes: bb × Bb\n         Gamete: (1) ........ (2) ........ + (3) ........ (4) ........\n         offspring genotypes: 1 ........ 2 ........ 3 ........ 4 ........\n         offspring phenotypes: 1 ........ 2 ........ 3 ........ 4 ........\n         Ratio ........ brown : ........ black\n\nB. Look at the Figure below.\n   i. Name figure. (1 mark)\n   ii. Name the parts X, Y, and Z\n      X. ........................ (1 mark)\n      Y. ........................ (1 mark)\n      Z. ........................ (1 mark)\n   iii. If the part labeled Z is Uracil write down its base pairing. (1 mark)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 470' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='10' y='50' font-weight='bold'>Parents</text><text x='30' y='140' font-size='12'>homozygous black fur male</text><text x='170' y='158'>BB</text><text x='260' y='140'>X</text><text x='290' y='140' font-size='12'>homozygous brown fur female</text><text x='420' y='158'>bb</text><text x='10' y='230' font-weight='bold'>F1 offsprings</text><text x='120' y='290' font-size='12'>all of the F1 offsprings have black fur</text></g><g fill='currentColor' fill-opacity='.8'><ellipse cx='180' cy='100' rx='48' ry='26'/><ellipse cx='205' cy='60' rx='8' ry='24'/><ellipse cx='190' cy='62' rx='8' ry='24'/></g><g fill='currentColor' fill-opacity='.25'><ellipse cx='400' cy='100' rx='48' ry='26'/><ellipse cx='420' cy='55' rx='8' ry='24'/><ellipse cx='408' cy='56' rx='8' ry='24'/></g><g fill='currentColor' fill-opacity='.8'><ellipse cx='100' cy='250' rx='30' ry='18'/><ellipse cx='115' cy='222' rx='6' ry='16'/><ellipse cx='220' cy='250' rx='30' ry='18'/><ellipse cx='235' cy='222' rx='6' ry='16'/><ellipse cx='340' cy='250' rx='30' ry='18'/><ellipse cx='355' cy='222' rx='6' ry='16'/><ellipse cx='460' cy='250' rx='30' ry='18'/><ellipse cx='475' cy='222' rx='6' ry='16'/></g><path d='M180 130 V180 H400 V130 M100 180 V215 M220 180 V215 M340 180 V215 M460 180 V215' stroke-opacity='.5'/><g transform='translate(0 320)'><circle cx='140' cy='60' r='20'/><path d='M158 70 L220 105 L250 60 L205 35 Z' transform='translate(-10 0)'/><path d='M240 55 H330' /><rect x='330' y='42' width='110' height='26'/><path d='M135 40 L90 40 M200 105 V135 M385 42 V25'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='16' font-weight='bold'><text x='70' y='45'>X</text><text x='195' y='150'>Y</text><text x='380' y='20'>Z</text></g></g></svg>",
+        "caption": "Top: parent rabbits (homozygous black BB male × homozygous brown bb female) and four black F1 offspring. Bottom: a nucleotide figure with a circle labelled X joined to a five-sided ring labelled Y, which carries a rectangle labelled Z."
+      },
+      "answer_guide": "A.\n   i)\n      Homozygous: having two identical alleles for a gene (e.g. BB or bb)\n      Heterozygous: having two different alleles for a gene (e.g. Bb)\n   ii)\n      Dominant allele: B (black fur)\n      Reason: all the F1 offspring from the cross of black and brown parents had black fur, so the black allele masks the brown allele\n   iii) Cross: bb × Bb\n      Gametes: (1) b  (2) b  +  (3) B  (4) b\n      Offspring genotypes: 1 Bb, 2 bb, 3 Bb, 4 bb\n      Offspring phenotypes: 1 black, 2 brown, 3 black, 4 brown\n      Ratio: 2 brown : 2 black (1 : 1)\n\nB.\n   i. A nucleotide (of DNA / RNA)\n   ii.\n      X. Phosphate group\n      Y. Sugar (five-carbon sugar, deoxyribose in DNA)\n      Z. Nitrogenous base\n   iii. Uracil pairs with adenine (A) (in RNA)"
+    }
+  ]
+}

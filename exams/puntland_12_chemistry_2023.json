@@ -1,0 +1,142 @@
+{
+  "title": "Form Four Chemistry Examination, 2023 - Puntland National Examinations Board",
+  "exam_id": "puntland_12_chemistry_2023",
+  "year": 2023,
+  "subject": "Chemistry",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "All S orbitals are spherical in nature and can hold up to:",
+      "options": ["A. Two electrons", "B. Six electrons", "C. Three electrons", "D. Eight electrons"],
+      "correct_index": 0
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which group and period is beryllium in the periodic table",
+      "options": ["A. Group 1 and period 1", "B. Group 1 and period 2", "C. Group 2 and period 1", "D. Group 2 and period 2"],
+      "correct_index": 3
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "The functional group of alkene family is:",
+      "options": ["A. Carbon-carbon single bond", "B. Carbon-carbon double bond", "C. Carbon-carbon triple bond", "D. Carboxyl group"],
+      "correct_index": 1
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "The molecule 2-methylbuta-2-ol is an example of:",
+      "options": ["A. Primary alcohol", "B. Secondary alcohol", "C. Tertiary alcohol", "D. Tertiary halogenoalkanes"],
+      "correct_index": 2
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which of the following compounds belong to same homologous series?",
+      "options": ["A. Ethanol and propane", "B. Ethanol and propanol", "C. Ethyne and ethane", "D. Propyne and ethanol"],
+      "correct_index": 1
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Propyne is an alkyne family, which of the following is the correct molecular formula of propyne.",
+      "options": ["A. C₃H₅", "B. C₃H₃", "C. C₃H₄", "D. C₃H₆"],
+      "correct_index": 2
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Which of the following is the most electronegative element in the periodic table:",
+      "options": ["A. Fluorine", "B. Chlorine", "C. Hydrogen", "D. Potassium"],
+      "correct_index": 0
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "One mole of gas occupies a volume of ____________ at room temperature and pressure:",
+      "options": ["A. 21 dm³", "B. 22 dm³", "C. 23 dm³", "D. 24 dm³"],
+      "correct_index": 3
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "The relative molecular mass of copper (II) carbonate is:",
+      "options": ["A. 123", "B. 124", "C. 142", "D. 114"],
+      "correct_index": 1,
+      "answer_guide": "CuCO₃ = Cu + C + 3 O = 64 + 12 + 48 = 124 (using Cu = 64, as in the 2024 paper; with Cu = 63.5 the value is 123.5, so 124 is the closest option)."
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (10 MARKS)",
+      "question": "Standard enthalpy change of combustion is the enthalpy change when one mole of an element or compound reacts completely with;",
+      "options": ["A. Hydrogen", "B. Carbon", "C. Oxygen", "D. Nitrogen"],
+      "correct_index": 2
+    },
+    {
+      "id": 11,
+      "section": "PART TWO: STRUCTURAL QUESTIONS (90 MARKS) - QUESTION 1: (23 MARKS) ATOMIC STRUCTURE",
+      "question": "1. Write the electronic configuration of the following elements (spdf). (5 marks)\n   a) Boron (1 mark)\n   b) Lithium (1 mark)\n   c) Chlorine (1 mark)\n   d) Argon (1 mark)\n   e) Calcium (1 mark)\n\n2. Match the terms with their definitions in the table below. (6 marks)\n   First one is done for you.\n   No | Term or word       | Answer | Letter | Definition\n   1  | Atomic number      | G      | A | Is a table that displays all the elements with their atomic numbers and mass numbers\n   2  | Electronic configuration |  | B | The volume of space within which there is a highest probability of finding electrons is called -------\n   3  | Groups             |        | C | Are set of numbers used to describe the position and energy of electrons in an atom.\n   4  | Orbital            |        | D | Describes how the electrons of its atoms are arranged in their shells, subshells and orbitals.\n   5  | Periodic table     |        | E | Are horizontal rows of element in the periodic table\n   6  | Quantum number     |        | F | These are vertical columns of elements found in the periodic table.\n   7  | Periods            |        | G | Is the number of proton in an atom\n\n3. Classify the following elements into (s, p, d, and f block) (6 marks)\n   [ Nitrogen | Zinc | Chromium | Beryllium | Aluminum | Hydrogen ]\n   a) S block\n   b) p block\n   c) F block\n   d) d block\n\n4. a) Explain term second ionization energy. (2 marks)\n   b) Write an equation for second ionization energy of sodium. ΔH = + 4560 kJmol⁻¹ (2 marks)\n   c) Write two factors that affect the ionization energy. (2 marks)",
+      "matching_pairs": [
+        { "item": "1. Atomic number", "match": "G. Is the number of proton in an atom (the example given in the paper)" },
+        { "item": "2. Electronic configuration", "match": "D. Describes how the electrons of its atoms are arranged in their shells, subshells and orbitals." },
+        { "item": "3. Groups", "match": "F. These are vertical columns of elements found in the periodic table." },
+        { "item": "4. Orbital", "match": "B. The volume of space within which there is a highest probability of finding electrons is called -------" },
+        { "item": "5. Periodic table", "match": "A. Is a table that displays all the elements with their atomic numbers and mass numbers" },
+        { "item": "6. Quantum number", "match": "C. Are set of numbers used to describe the position and energy of electrons in an atom." },
+        { "item": "7. Periods", "match": "E. Are horizontal rows of element in the periodic table" }
+      ],
+      "answer_guide": "1.\n   a) Boron: 1s² 2s² 2p¹\n   b) Lithium: 1s² 2s¹\n   c) Chlorine: 1s² 2s² 2p⁶ 3s² 3p⁵\n   d) Argon: 1s² 2s² 2p⁶ 3s² 3p⁶\n   e) Calcium: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s²\n\n2. 1-G (given), 2-D, 3-F, 4-B, 5-A, 6-C, 7-E (see the matching pairs)\n\n3.\n   a) s block: Beryllium, Hydrogen\n   b) p block: Nitrogen, Aluminium\n   c) f block: none of these elements\n   d) d block: Zinc, Chromium\n\n4.\n   a) The second ionization energy is the energy needed to remove one mole of electrons from one mole of gaseous 1+ ions to form gaseous 2+ ions.\n   b) Na⁺(g) → Na²⁺(g) + e⁻   ΔH = +4560 kJ mol⁻¹\n   c) Any two factors: atomic radius (distance of the outer electron from the nucleus); nuclear charge (number of protons); shielding by inner electrons"
+    },
+    {
+      "id": 12,
+      "section": "PART TWO: STRUCTURAL QUESTIONS (90 MARKS) - QUESTION 2: (12 MARKS) BONDING AND STRUCTURE",
+      "question": "1. Sodium sulphate is an ionic compound and has the formula Na₂SO₄.\n   a) Write the formulae of the two ions in sodium sulphate. (2 marks)\n   b) Calculate the relative formula mass of sodium sulphate (Relative atomic masses Na = 23, S = 32, O = 16). (2 marks)\n   c) Write the chemical formulae for the following.\n      i) Calcium nitrate (1 mark)\n      ii) Magnesium hydroxide (1 mark)\n      iii) Aluminium chloride (1 mark)\n      iv) Zinc oxide (1 mark)\n\n2. a) Using dot and cross, draw a diagram of nitrogen molecule. (2 marks)\n   b) How many lone pair does ammonia molecule has? (1 mark)\n   c) Draw the molecular shape of ammonia? (1 mark)",
+      "answer_guide": "1.\n   a) Na⁺ and SO₄²⁻\n   b) Mr(Na₂SO₄) = (2 × 23) + 32 + (4 × 16) = 46 + 32 + 64 = 142\n   c)\n      i) Ca(NO₃)₂\n      ii) Mg(OH)₂\n      iii) AlCl₃\n      iv) ZnO\n\n2.\n   a) Each nitrogen atom has 5 outer electrons. Draw two N atoms sharing three pairs of electrons (a triple bond, N≡N, each shared pair shown by one dot and one cross), and each nitrogen also has one non-bonding (lone) pair, so each N has 8 outer electrons.\n   b) One lone pair (on the nitrogen atom)\n   c) Trigonal pyramidal: nitrogen at the top joined to three hydrogen atoms at the base, with the lone pair on nitrogen, and an H–N–H bond angle of about 107°"
+    },
+    {
+      "id": 13,
+      "section": "PART TWO: STRUCTURAL QUESTIONS (90 MARKS) - QUESTION 3: (14 MARKS) ENERGY IN CHEMISTRY",
+      "question": "1. Define the following:\n   a) Enthalpy (2 marks)\n   b) Enthalpy change (2 marks)\n\n2. When water is converted back to hydrogen and oxygen, heat is absorbed from the surrounding.\n   a) Write an equation for the above reaction. (2 marks)\n   b) Draw the energy level diagram for the conversion of water to hydrogen and oxygen. ΔH = +282.6 kJ/mol (3 marks)\n\n3. The diagram shows how a student set up an experiment to find the energy released when ethanol burnt. (5 marks)\n   The student burnt 2 gram of ethanol and the water temperature rose by 7 °C.\n   Mass of water = 200 g\n   ΔT = 7 °C\n   Fuel burnt = 2 grams\n   Specific heat capacity = 4.2 J/g/°C\n   a) Calculate the energy gained by the water during the experiment. Q = mcΔT? (2 marks)\n   b) Calculate the formula mass of ethanol C₂H₅OH. RAMs (C = 12, H = 1, O = 16) (1 mark)\n   c) Calculate the energy released when one mole of ethanol had been burnt? (1 mark)\n   d) Is the reaction endothermic or exothermic? (1 mark)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 330' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><path d='M40 300 H400'/><path d='M150 20 V300 M270 20 V300' stroke-width='1.5'/><rect x='170' y='100' width='95' height='60' rx='4'/><rect x='172' y='125' width='91' height='33' fill='currentColor' fill-opacity='.2'/><path d='M218 20 V138' stroke-width='5'/><circle cx='218' cy='140' r='6'/><path d='M140 115 H170 M270 115 H300 M140 120 V140 H170 V120 M265 120 V140 H300 V120'/><path d='M215 160 V175' stroke-opacity='.5'/><path d='M200 190 C205 175 225 175 230 190'/><rect x='185' y='250' width='70' height='35' rx='4'/><path d='M220 250 V232 H232 V250'/><path d='M222 285 C205 275 215 262 225 268 C235 275 215 285 222 285' stroke-width='1.5'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='20' y='28'>thermometer</text><text x='65' y='120'>clamp</text><text x='300' y='68'>metal</text><text x='300' y='83'>calorimeter</text><text x='305' y='140'>water</text><text x='290' y='215'>shield</text><text x='70' y='268'>wick</text><text x='290' y='255'>alkane or</text><text x='290' y='270'>alcohol</text><text x='290' y='285'>fuel</text></g><path d='M60 22 H212' stroke-width='1'/><path d='M300 65 H268' stroke-width='1'/><path d='M303 137 H255' stroke-width='1'/><path d='M288 212 H272' stroke-width='1'/><path d='M288 262 H258' stroke-width='1'/><path d='M100 265 H190' stroke-width='1'/></svg>",
+        "caption": "Calorimeter experiment: a metal calorimeter holding water, with a thermometer in the water, held by a clamp, a shield around the apparatus, and a spirit burner with a wick containing alkane or alcohol fuel burning beneath it."
+      },
+      "answer_guide": "1.\n   a) Enthalpy (H) is the total heat energy content stored in a substance or chemical system at constant pressure.\n   b) Enthalpy change (ΔH) is the heat energy change when a reaction takes place at constant pressure (ΔH = H of products - H of reactants).\n\n2.\n   a) H₂O(l) → H₂(g) + ½O₂(g)   ΔH = +282.6 kJ/mol\n   b) Draw an energy axis with the reactants (H₂O) at a lower level and the products (H₂ + ½O₂) at a higher level, with an upward arrow between them labelled ΔH = +282.6 kJ/mol (endothermic).\n\n3.\n   a) Q = m c ΔT = 200 × 4.2 × 7 = 5880 J (5.88 kJ)\n   b) Mr(C₂H₅OH) = (2 × 12) + (6 × 1) + 16 = 46\n   c) Moles burnt = 2 / 46 = 0.0435 mol\n      Energy per mole = 5880 / 0.0435 = about 135 200 J/mol = 135.2 kJ/mol\n   d) Exothermic (heat is released and the water temperature rises)"
+    },
+    {
+      "id": 14,
+      "section": "PART TWO: STRUCTURAL QUESTIONS (90 MARKS) - QUESTION 4: (13 MARKS) THE MOLE AND STOICHIOMETRY",
+      "question": "1. A 25.00 ml sample of 0.1205M standard hydrochloric (HCl) acid solution is titrated with 28.52 ml of sodium hydroxide (NaOH) to the end point.\n   a) Calculate the number of moles of hydrochloric acid? (1 mark)\n   b) Calculate the number of moles of sodium hydroxide by using mole ratio. (2 marks)\n   c) What is the molarity of sodium hydroxide? (1 mark)\n\n2. a) Determine the relative molecular mass of calcium carbonate (CaCO₃). (1 mark)\n   b) Calculate the mass of 0.015 mole of magnesium (Mg = 24) (1 mark)\n   c) Calculate the concentration in mol/dm³ of a solution containing 4 g/dm³ of sodium hydroxide (NaOH). (2 marks)\n   d) A compound was found to contain 32.4 g sodium, 22.6 g sulphur and 45 g oxygen. Calculate the empirical formula of the compound. (5 marks)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 440 330' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><rect x='60' y='10' width='22' height='200' rx='4'/><rect x='62' y='60' width='18' height='148' fill='currentColor' fill-opacity='.15'/><path d='M50 215 H92 M60 215 V232 H82 V215'/><path d='M40 232 H100'/><path d='M60 232 L30 300 H130 L100 232' stroke-width='2'/><path d='M38 280 H122 L130 300 H30 Z' fill='currentColor' fill-opacity='.25'/><path d='M82 40 H150 M82 100 H150 M96 224 H150 M70 258 H150 M100 280 H150' stroke-width='1'/><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='13'><text x='155' y='44'>Burette</text><text x='155' y='104'>Hydrochloric acid</text><text x='155' y='228'>Tap</text><text x='155' y='262'>Conical Flask</text><text x='155' y='284'>Sodium Hydroxide</text><text x='155' y='300'>containing</text><text x='155' y='316'>phenolphthalein</text></g></svg>",
+        "caption": "Titration apparatus: a burette filled with hydrochloric acid above a tap, delivering into a conical flask containing sodium hydroxide with phenolphthalein indicator."
+      },
+      "answer_guide": "1.\n   a) Moles of HCl = concentration × volume = 0.1205 × (25.00 / 1000) = 0.0030125 mol (about 3.01 × 10⁻³ mol)\n   b) HCl + NaOH → NaCl + H₂O; the mole ratio is 1 : 1, so moles of NaOH = 0.0030125 mol\n   c) Molarity of NaOH = moles / volume = 0.0030125 / (28.52 / 1000) = 0.1056 mol/dm³\n\n2.\n   a) Mr(CaCO₃) = 40 + 12 + (3 × 16) = 100\n   b) Mass = moles × Ar = 0.015 × 24 = 0.36 g\n   c) Mr(NaOH) = 23 + 16 + 1 = 40; concentration = 4 / 40 = 0.1 mol/dm³\n   d) Moles: Na = 32.4 / 23 = 1.409; S = 22.6 / 32 = 0.706; O = 45 / 16 = 2.81\n      Divide by the smallest (0.706): Na = 2, S = 1, O = 4\n      Empirical formula = Na₂SO₄"
+    },
+    {
+      "id": 15,
+      "section": "PART TWO: STRUCTURAL QUESTIONS (90 MARKS) - QUESTION 5: (15 MARKS) HYDROCARBONS",
+      "question": "1. Explain the following:\n   a) Concept of organic chemistry (2 marks)\n   b) Isomerism (2 marks)\n   c) Addition reaction (2 marks)\n\n2. Name the following compounds (3 marks)\n   a) CH₃ CH₂ CH₂ CH₂ CH₃\n   b) CH₂ = CH₂\n   c) CH₃ CH₂ CH CH₂ CH₂ CH₃ (with a CH₃ group on the CH)\n\n3. (the parts are lettered a, b, d, e and f in the paper)\n   a) Write the general formula of alkanes (1 mark)\n   b) Write the general formula of alkenes (1 mark)\n   d) Draw the displayed formula of ethyne (1 mark)\n   e) Draw molecular formula of Hexane (1 mark)\n   f) Write the reaction between ethene + hydrogen. (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 420 110' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round'><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='17'><text x='10' y='40'>c)</text><text x='45' y='40'>CH₃ CH₂ CH CH₂ CH₂ CH₃</text><text x='145' y='98'>CH₃</text></g><path d='M170 48 V78'/></svg>",
+        "caption": "Structure for question 2(c): a chain CH₃ CH₂ CH CH₂ CH₂ CH₃ with a CH₃ group attached below the third carbon."
+      },
+      "answer_guide": "1.\n   a) Organic chemistry is the branch of chemistry that studies carbon compounds (compounds of carbon with hydrogen and other elements, e.g. oxygen, nitrogen, halogens).\n   b) Isomerism is the existence of compounds with the same molecular formula but different structural formulae (different arrangements of atoms).\n   c) An addition reaction is a reaction in which a molecule adds across a double (or triple) bond of an unsaturated compound to form a single, saturated product.\n\n2.\n   a) Pentane\n   b) Ethene\n   c) 3-methylhexane\n\n3.\n   a) CₙH₂ₙ₊₂\n   b) CₙH₂ₙ\n   d) H–C≡C–H (each carbon joined to one hydrogen by a single bond and to the other carbon by a triple bond)\n   e) C₆H₁₄\n   f) C₂H₄ + H₂ → C₂H₆ (with a nickel catalyst; ethene + hydrogen gives ethane)"
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: STRUCTURAL QUESTIONS (90 MARKS) - QUESTION 6: (13 MARKS) FUNCTIONAL GROUPS",
+      "question": "1. a) Write the three classes of alcohols (3 marks)\n   b) Write the general formula of alcohols. (1 mark)\n\n2. Name the following compounds:\n   a) CH₃ CH CH₃ with OH on the middle carbon (1 mark)\n   b) C₄H₈O (1 mark)\n   c) CH₃COOH (1 mark)\n   d) a benzene ring with a chlorine (Cl) atom attached (1 mark)\n\n3. Complete the following passage using the words in the box (5 marks)\n   [ RCH₂-OH | Carbonyl compounds | Hydrogen gas | Esters | Weak acids ]\n   Carboxylic acids are generally ........................ with a pH above 4 and below 7.\n   Carboxylic acids react with electropositive metals to produce ........................ .\n   A molecule of alcohol has the structure of ........................ .\n   Alcohols are used in manufacturing ........................ to give fruit flavouring in sweets.\n   Aldehydes and ketones are referred as ........................ .",
+      "diagram": {
+        "svg": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 180' style='max-width:100%;height:auto' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><g fill='currentColor' stroke='none' font-family='sans-serif' font-size='16'><text x='5' y='40'>a)</text><text x='35' y='40'>CH₃ CH CH₃</text><text x='70' y='85'>OH</text><text x='225' y='25'>d)</text><text x='290' y='20'>Cl</text></g><path d='M80 48 V68'/><path d='M300 28 V52'/><path d='M300 52 L335 72 V112 L300 132 L265 112 V72 Z'/><circle cx='300' cy='92' r='20'/></svg>",
+        "caption": "Structures for question 6.2: (a) CH₃–CH(OH)–CH₃ drawn with OH below the middle carbon; (d) a benzene ring (hexagon with a circle) with a chlorine atom attached at the top."
+      },
+      "answer_guide": "1.\n   a) Three classes of alcohols:\n      1. Primary alcohols\n      2. Secondary alcohols\n      3. Tertiary alcohols\n   b) CₙH₂ₙ₊₁OH (or R–OH)\n\n2.\n   a) Propan-2-ol\n   b) C₄H₈O is butanal (an aldehyde) or butanone (a ketone), which are isomers (the formula alone does not decide between them)\n   c) Ethanoic acid (acetic acid)\n   d) Chlorobenzene\n\n3.\n   Carboxylic acids are generally weak acids with a pH above 4 and below 7.\n   Carboxylic acids react with electropositive metals to produce hydrogen gas.\n   A molecule of alcohol has the structure of RCH₂-OH.\n   Alcohols are used in manufacturing esters to give fruit flavouring in sweets.\n   Aldehydes and ketones are referred as carbonyl compounds."
+    }
+  ]
+}
