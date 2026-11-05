@@ -366,6 +366,7 @@
                 const matchGrid = document.createElement('div');
                 matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4 pt-2';
 
+                // Column A remains in standard order
                 const colA = document.createElement('div');
                 colA.className = 'space-y-3';
                 colA.innerHTML = `<h5 class="font-bold text-xs text-blue-900 bg-blue-50 p-2 rounded">SAFKA A</h5>`;
@@ -391,12 +392,23 @@
                     colA.appendChild(row);
                 });
 
+                // Column B is independently shuffled and stored on `q._shuffledColB` so it stays stable during navigation
+                if (!q._shuffledColB) {
+                    let indices = q.matching_pairs.map((_, idx) => idx);
+                    for (let i = indices.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [indices[i], indices[j]] = [indices[j], indices[i]];
+                    }
+                    q._shuffledColB = indices;
+                }
+
                 const colB = document.createElement('div');
                 colB.className = 'space-y-3';
                 colB.innerHTML = `<h5 class="font-bold text-xs text-emerald-900 bg-emerald-50 p-2 rounded">SAFKA B</h5>`;
 
-                q.matching_pairs.forEach((pair, pIdx) => {
-                    const letter = String.fromCharCode(65 + pIdx);
+                q._shuffledColB.forEach((origIdx, displayIdx) => {
+                    const letter = String.fromCharCode(65 + displayIdx);
+                    const pair = q.matching_pairs[origIdx];
                     const row = document.createElement('div');
                     row.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 text-sm text-slate-700';
                     row.innerHTML = `<span class="font-bold text-emerald-600 ml-1">[ ${letter} ]</span> ${pair.match || pair.column_b}`;
@@ -517,8 +529,9 @@
             if (confirm("Ma rabtaa inaad gudbiso imtixaanka?")) {
                 screenExam.classList.add('hidden');
                 screenExam.classList.remove('flex');
-                screenResult.classList.remove('hidden');
-                btnHomeNav.classList.remove('hidden');
+                screenResult.classList.add('hidden');
+                screenHome.classList.remove('hidden');
+                btnHomeNav.classList.add('hidden');
             }
         }
     </script>
