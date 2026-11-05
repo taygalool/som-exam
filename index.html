@@ -148,7 +148,6 @@
 
                 const jsonFiles = files.filter(f => f.name.endsWith('.json'));
                 
-                // Read exact file names strictly without parsing internal JSON titles
                 availableExams = jsonFiles.map(file => ({
                     file: `./exams/${file.name}`,
                     title: file.name,
@@ -239,13 +238,40 @@
                         sectionsMap.set(groupSecTitle, { title: groupSecTitle, questions: [] });
                     }
                     let sec = sectionsMap.get(groupSecTitle);
+                    
+                    // Clean up matching pairs: clean item number prefixes and extract internal answer keys if needed
+                    let cleanedPairs = null;
+                    if (q.matching_pairs && Array.isArray(q.matching_pairs)) {
+                        cleanedPairs = q.matching_pairs.map(p => {
+                            let itemText = String(p.item || p.column_a || '');
+                            let matchText = String(p.match || p.column_b || '');
+                            
+                            // Strip leading numbers like "1. ", "2. " from Column A text if present
+                            itemText = itemText.replace(/^\d+[\.\)]\s*/, '');
+                            
+                            // Extract original correct key (e.g., 'd)' -> 'd') if embedded in match text, then strip it from display
+                            let originalKey = '';
+                            const matchKeyMatch = matchText.match(/^([a-eA-E])[\.\)]\s*/);
+                            if (matchKeyMatch) {
+                                originalKey = matchKeyMatch[1].toLowerCase();
+                                matchText = matchText.replace(/^[a-eA-E][\.\)]\s*/, '');
+                            }
+
+                            return {
+                                item: itemText,
+                                match: matchText,
+                                original_key: originalKey
+                            };
+                        });
+                    }
+
                     sec.questions.push({
                         ...q,
                         id: String(q.id || qIdx),
                         question: q.question,
                         sub_title: rawSecTitle.includes('-') ? rawSecTitle.split('-').slice(1).join('-').trim() : null,
                         options: q.options ? q.options.map(opt => String(opt)) : [],
-                        matching_pairs: q.matching_pairs || null,
+                        matching_pairs: cleanedPairs,
                         diagram: q.diagram || null
                     });
                 });
@@ -254,14 +280,40 @@
                     const secTitle = sec.section_title || sec.title || `Qaybta ${sIdx + 1}`;
                     sectionsMap.set(secTitle, {
                         title: secTitle,
-                        questions: (sec.questions || []).map((q, qIdx) => ({
-                            ...q,
-                            id: String(q.id || `sec${sIdx}_q${qIdx}`),
-                            question: q.question_text || q.prompt || q.question || "",
-                            options: q.options ? q.options.map(o => String(o)) : [],
-                            matching_pairs: q.matching_pairs || sec.matching_pairs || null,
-                            diagram: q.diagram || null
-                        }))
+                        questions: (sec.questions || []).map((q, qIdx) => {
+                            let cleanedPairs = null;
+                            const pairsSource = q.matching_pairs || sec.matching_pairs;
+                            if (pairsSource && Array.isArray(pairsSource)) {
+                                cleanedPairs = pairsSource.map(p => {
+                                    let itemText = String(p.item || p.column_a || '');
+                                    let matchText = String(p.match || p.column_b || '');
+                                    
+                                    itemText = itemText.replace(/^\d+[\.\)]\s*/, '');
+                                    
+                                    let originalKey = '';
+                                    const matchKeyMatch = matchText.match(/^([a-eA-E])[\.\)]\s*/);
+                                    if (matchKeyMatch) {
+                                        originalKey = matchKeyMatch[1].toLowerCase();
+                                        matchText = matchText.replace(/^[a-eA-E][\.\)]\s*/, '');
+                                    }
+
+                                    return {
+                                        item: itemText,
+                                        match: matchText,
+                                        original_key: originalKey
+                                    };
+                                });
+                            }
+
+                            return {
+                                ...q,
+                                id: String(q.id || `sec${sIdx}_q${qIdx}`),
+                                question: q.question_text || q.prompt || q.question || "",
+                                options: q.options ? q.options.map(o => String(o)) : [],
+                                matching_pairs: cleanedPairs,
+                                diagram: q.diagram || null
+                            };
+                        })
                     });
                 });
             }
@@ -366,7 +418,7 @@
                 const matchGrid = document.createElement('div');
                 matchGrid.className = 'grid grid-cols-1 md:grid-cols-2 gap-4 pt-2';
 
-                // Column A remains in standard order
+                // Column A - Clean single sequence number and item name
                 const colA = document.createElement('div');
                 colA.className = 'space-y-3';
                 colA.innerHTML = `<h5 class="font-bold text-xs text-blue-900 bg-blue-50 p-2 rounded">SAFKA A</h5>`;
@@ -384,7 +436,7 @@
                     });
 
                     row.innerHTML = `
-                        <div class="text-sm font-semibold text-slate-800 flex-grow">${pIdx+1}. ${pair.item || pair.column_a}</div>
+                        <div class="text-sm font-semibold text-slate-800 flex-grow">${pIdx + 1}. ${pair.item}</div>
                         <select onchange="saveAnswer('${ansKey}', this.value)" class="p-2 text-sm border border-slate-300 rounded bg-white font-bold text-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500">
                             ${selectOptions}
                         </select>
@@ -392,7 +444,7 @@
                     colA.appendChild(row);
                 });
 
-                // Column B is independently shuffled and stored on `q._shuffledColB` so it stays stable during navigation
+                // Column B - Independent stable shuffle, clean single display letter [ A ], [ B ], etc.
                 if (!q._shuffledColB) {
                     let indices = q.matching_pairs.map((_, idx) => idx);
                     for (let i = indices.length - 1; i > 0; i--) {
@@ -411,7 +463,7 @@
                     const pair = q.matching_pairs[origIdx];
                     const row = document.createElement('div');
                     row.className = 'p-3 bg-slate-50 rounded-lg border border-slate-200 text-sm text-slate-700';
-                    row.innerHTML = `<span class="font-bold text-emerald-600 ml-1">[ ${letter} ]</span> ${pair.match || pair.column_b}`;
+                    row.innerHTML = `<span class="font-bold text-emerald-600 ml-1">[ ${letter} ]</span> ${pair.match}`;
                     colB.appendChild(row);
                 });
 
@@ -529,9 +581,8 @@
             if (confirm("Ma rabtaa inaad gudbiso imtixaanka?")) {
                 screenExam.classList.add('hidden');
                 screenExam.classList.remove('flex');
-                screenResult.classList.add('hidden');
-                screenHome.classList.remove('hidden');
-                btnHomeNav.classList.add('hidden');
+                screenResult.classList.remove('hidden');
+                btnHomeNav.classList.remove('hidden');
             }
         }
     </script>
