@@ -1,0 +1,431 @@
+{
+  "title": "Somaliland Form Four Examination 2023 - Mathematics Paper One",
+  "exam_id": "somaliland_12_mathematics_p1_2023",
+  "year": 2023,
+  "subject": "Mathematics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "1. Simplifying ( 3 + 5i ) - ( 5 - 3i ) is equal to :",
+      "diagram": null,
+      "options": [
+        "A. ( -2 + 8i )",
+        "B. ( 2 - 8i )",
+        "C. ( 8 + 2i )",
+        "D. ( 2, + 8i )"
+      ],
+      "correct_index": 0,
+      "answer_guide": "(3 − 5) + (5 + 3)i = −2 + 8i",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "2. In which quadrant does 120⁰ lies?",
+      "diagram": null,
+      "options": [
+        "A. I",
+        "B. II",
+        "B. III",
+        "C. IV"
+      ],
+      "correct_index": 1,
+      "answer_guide": "90° < 120° < 180° → second quadrant (II). (The option letters are misprinted on the paper as A, B, B, C.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "3. The marks obtained by a class of 240 students in a mathematics test were shown below. The number of students who obtained grade A is the same as:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 220\" width=\"100%\" style=\"max-width:300px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Pie chart: A 90 degrees (right angle), B 120 degrees, D 45 degrees, C and E the remaining sectors\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><circle cx=\"150\" cy=\"110\" r=\"90\" fill=\"#f4f7fb\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"150.0\" y1=\"110.0\" x2=\"150.0\" y2=\"20.0\" stroke=\"#111\" stroke-width=\"1.8\"/><line x1=\"150.0\" y1=\"110.0\" x2=\"240.0\" y2=\"110.0\" stroke=\"#111\" stroke-width=\"1.8\"/><line x1=\"150.0\" y1=\"110.0\" x2=\"213.6\" y2=\"173.6\" stroke=\"#111\" stroke-width=\"1.8\"/><line x1=\"150.0\" y1=\"110.0\" x2=\"150.0\" y2=\"200.0\" stroke=\"#111\" stroke-width=\"1.8\"/><line x1=\"150.0\" y1=\"110.0\" x2=\"72.1\" y2=\"155.0\" stroke=\"#111\" stroke-width=\"1.8\"/><text x=\"192.42640687119285\" y=\"72.57359312880715\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"205.63103127400723\" y=\"137.47639560495472\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"170.52120859954013\" y=\"171.3815572471545\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">D</text><text x=\"120.0\" y=\"166.96152422706632\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"98.03847577293368\" y=\"85.0\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">B</text><path d=\"M150,96 h14 v14\" fill=\"none\" stroke=\"#111\"/><text x=\"105\" y=\"105\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">120°</text><text x=\"162\" y=\"145\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">45°</text></svg>",
+        "caption": "Pie chart of grades: A is a right angle (90°), B is 120°, D is 45°, and C and E share the rest."
+      },
+      "options": [
+        "A. 20",
+        "B. 40",
+        "C. 60",
+        "D. 80"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Sector A is a right angle (90°): 90/360 × 240 = 60 students.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "4. The d/dx ( cosx) is :",
+      "diagram": null,
+      "options": [
+        "A. cosx",
+        "B. sinx",
+        "C. tanx",
+        "D. - sinx"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "5. Which one of the following is equivalent to sin 2A ?",
+      "diagram": null,
+      "options": [
+        "A. 2 cos²A - 1",
+        "B. 2 sin A cos A",
+        "C. 4 sin2A cos 2A",
+        "D. sin² A + cos² A"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "6. ∫( 3x² + 2x ) dx =",
+      "diagram": null,
+      "options": [
+        "A. x³ +2x² + c",
+        "B. 3x² + 2x² + c",
+        "C. x³ + x² + c",
+        "D. x³ - x² + c"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "7. An ordinary dice is thrown once. The probability of getting a prime number is:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\" width=\"100%\" style=\"max-width:160px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"An ordinary six-sided dice\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"30\" y=\"30\" width=\"100\" height=\"100\" rx=\"14\" fill=\"#333\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"55\" cy=\"55\" r=\"8\" fill=\"#fff\"/><circle cx=\"105\" cy=\"55\" r=\"8\" fill=\"#fff\"/><circle cx=\"55\" cy=\"80\" r=\"8\" fill=\"#fff\"/><circle cx=\"105\" cy=\"80\" r=\"8\" fill=\"#fff\"/><circle cx=\"55\" cy=\"105\" r=\"8\" fill=\"#fff\"/><circle cx=\"105\" cy=\"105\" r=\"8\" fill=\"#fff\"/></svg>",
+        "caption": "An ordinary six-sided dice."
+      },
+      "options": [
+        "A. 1/3",
+        "B. 1/2",
+        "C. 1/6",
+        "D. 2/3"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Primes on a dice: 2, 3, 5 → 3/6 = 1/2",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "8. The mode of the following numbers, 2, 13, 9, 8, 9, 13, 9 and 5 is:",
+      "diagram": null,
+      "options": [
+        "A. 13",
+        "B. 2",
+        "C. 8",
+        "D. 9"
+      ],
+      "correct_index": 3,
+      "answer_guide": "9 occurs three times.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "9. The gradient of the curve y = x³ – 2x² + 5x at x = 1 is:",
+      "diagram": null,
+      "options": [
+        "A. 5",
+        "B. 4",
+        "C. 2",
+        "D. 12"
+      ],
+      "correct_index": 1,
+      "answer_guide": "dy/dx = 3x² − 4x + 5 → 3 − 4 + 5 = 4",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "10. Using the binomial expansion of ( x – 2)³ then the coefficient of the x term is:",
+      "diagram": null,
+      "options": [
+        "A. – 6",
+        "B. 12",
+        "C. -12",
+        "D. + 6"
+      ],
+      "correct_index": 1,
+      "answer_guide": "(x − 2)³ = x³ − 6x² + 12x − 8 → coefficient 12",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "11. In how many ways can 2 blue and 3 red balls be arranged in arrow?",
+      "diagram": null,
+      "options": [
+        "A. 10",
+        "B. 20",
+        "C. -12",
+        "D. + 6"
+      ],
+      "correct_index": 0,
+      "answer_guide": "5!/(2! 3!) = 10",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "12. The area under the curve shown below is equivalent to:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 250\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Curve y = 4x - x squared between x = 0 and x = 4 with the area under it shaded\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><polygon points=\"60.0,170.0 62.8,164.1 65.5,158.3 68.2,152.7 71.0,147.2 73.8,141.9 76.5,136.7 79.2,131.7 82.0,126.8 84.8,122.1 87.5,117.5 90.2,113.1 93.0,108.8 95.8,104.7 98.5,100.7 101.2,96.9 104.0,93.2 106.8,89.7 109.5,86.3 112.2,83.1 115.0,80.0 117.8,77.1 120.5,74.3 123.2,71.7 126.0,69.2 128.8,66.9 131.5,64.7 134.2,62.7 137.0,60.8 139.8,59.1 142.5,57.5 145.2,56.1 148.0,54.8 150.8,53.7 153.5,52.7 156.2,51.9 159.0,51.2 161.8,50.7 164.5,50.3 167.2,50.1 170.0,50.0 172.8,50.1 175.5,50.3 178.2,50.7 181.0,51.2 183.8,51.9 186.5,52.7 189.2,53.7 192.0,54.8 194.8,56.1 197.5,57.5 200.2,59.1 203.0,60.8 205.8,62.7 208.5,64.7 211.2,66.9 214.0,69.2 216.8,71.7 219.5,74.3 222.2,77.1 225.0,80.0 227.8,83.1 230.5,86.3 233.2,89.7 236.0,93.2 238.8,96.9 241.5,100.7 244.2,104.7 247.0,108.8 249.8,113.1 252.5,117.5 255.2,122.1 258.0,126.8 260.8,131.7 263.5,136.7 266.2,141.9 269.0,147.2 271.8,152.7 274.5,158.3 277.2,164.1 280.0,170.0\" fill=\"#cfe0f5\"/><line x1=\"10.0\" y1=\"170.0\" x2=\"330.0\" y2=\"170.0\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"60.0\" y1=\"240.0\" x2=\"60.0\" y2=\"15.0\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><path d=\"M43.5,208.7 L46.2,201.9 L49.0,195.2 L51.8,188.7 L54.5,182.3 L57.2,176.1 L60.0,170.0 L62.8,164.1 L65.5,158.3 L68.2,152.7 L71.0,147.2 L73.8,141.9 L76.5,136.7 L79.2,131.7 L82.0,126.8 L84.8,122.1 L87.5,117.5 L90.2,113.1 L93.0,108.8 L95.8,104.7 L98.5,100.7 L101.2,96.9 L104.0,93.2 L106.8,89.7 L109.5,86.3 L112.2,83.1 L115.0,80.0 L117.8,77.1 L120.5,74.3 L123.2,71.7 L126.0,69.2 L128.8,66.9 L131.5,64.7 L134.2,62.7 L137.0,60.8 L139.8,59.1 L142.5,57.5 L145.2,56.1 L148.0,54.8 L150.8,53.7 L153.5,52.7 L156.2,51.9 L159.0,51.2 L161.8,50.7 L164.5,50.3 L167.2,50.1 L170.0,50.0 L172.8,50.1 L175.5,50.3 L178.2,50.7 L181.0,51.2 L183.8,51.9 L186.5,52.7 L189.2,53.7 L192.0,54.8 L194.8,56.1 L197.5,57.5 L200.2,59.1 L203.0,60.8 L205.8,62.7 L208.5,64.7 L211.2,66.9 L214.0,69.2 L216.8,71.7 L219.5,74.3 L222.2,77.1 L225.0,80.0 L227.8,83.1 L230.5,86.3 L233.2,89.7 L236.0,93.2 L238.8,96.9 L241.5,100.7 L244.2,104.7 L247.0,108.8 L249.8,113.1 L252.5,117.5 L255.2,122.1 L258.0,126.8 L260.8,131.7 L263.5,136.7 L266.2,141.9 L269.0,147.2 L271.8,152.7 L274.5,158.3 L277.2,164.1 L280.0,170.0 L282.8,176.1 L285.5,182.3 L288.2,188.7 L291.0,195.2 L293.8,201.9 L296.5,208.7 L299.2,215.7 L302.0,222.8 L304.8,230.1 L307.5,237.5 L310.2,245.1\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.5\"/><line x1=\"115.0\" y1=\"166.0\" x2=\"115.0\" y2=\"174.0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"115\" y=\"188\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">1</text><line x1=\"170.0\" y1=\"166.0\" x2=\"170.0\" y2=\"174.0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"170\" y=\"188\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">2</text><line x1=\"225.0\" y1=\"166.0\" x2=\"225.0\" y2=\"174.0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"225\" y=\"188\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">3</text><line x1=\"280.0\" y1=\"166.0\" x2=\"280.0\" y2=\"174.0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"280\" y=\"188\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">4</text><text x=\"286.5\" y=\"239.0\" font-size=\"13\" text-anchor=\"end\" font-weight=\"bold\">y = 4x – x²</text></svg>",
+        "caption": "Curve y = 4x − x² crossing the x-axis at 0 and 4, with the region under it shaded."
+      },
+      "options": [
+        "A. 32 sq units",
+        "B. 160 sq units",
+        "C. 32/3 sq units",
+        "D. 160/3 sq units"
+      ],
+      "correct_index": 2,
+      "answer_guide": "∫₀⁴ (4x − x²) dx = [2x² − x³/3]₀⁴ = 32 − 64/3 = 32/3",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "13. Ahmed bought $ 3200 for £ 2000. How many dollars can he buy for £ 8000?",
+      "diagram": null,
+      "options": [
+        "A. $ 3200",
+        "B. $ 8000",
+        "C. $ 4000",
+        "D. $ 12800"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Rate = 3200/2000 = $1.60 per £ → 8000 × 1.6 = $12,800",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "14. If f (x) = 2x + 3, then f (-3) is:",
+      "diagram": null,
+      "options": [
+        "A. -3",
+        "B. -6",
+        "C. -9",
+        "D. -12"
+      ],
+      "correct_index": 0,
+      "answer_guide": "2(−3) + 3 = −3",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "15. The cost of a car is $ 3600 includes a sales tax (VAT) of 20%. The cost of the Car without sales tax (VAT) is :",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 130\" width=\"100%\" style=\"max-width:300px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"A car\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M30,90 L30,65 L80,62 L115,35 L210,35 L245,62 L275,68 L275,90 Z\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"85\" cy=\"92\" r=\"16\" fill=\"#555\" stroke=\"#111\"/><circle cx=\"225\" cy=\"92\" r=\"16\" fill=\"#555\" stroke=\"#111\"/><line x1=\"10.0\" y1=\"108.0\" x2=\"290.0\" y2=\"108.0\" stroke=\"#111\" stroke-width=\"1.5\"/></svg>",
+        "caption": "Picture of a car."
+      },
+      "options": [
+        "A. $ 3200",
+        "B. $ 2800",
+        "C. $ 2400",
+        "D. $ 3000"
+      ],
+      "correct_index": 3,
+      "answer_guide": "3600 ÷ 1.2 = $3000",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "16. The range of the following salaries will be :\n   $ 200, $ 150, $ 300, $ 120, $ 180, $ 420, $500",
+      "diagram": null,
+      "options": [
+        "A. $ 120",
+        "B. $ 180",
+        "C. $ 380",
+        "D. $ 300"
+      ],
+      "correct_index": 2,
+      "answer_guide": "500 − 120 = $380",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "17. Angle ACB is:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 220\" width=\"100%\" style=\"max-width:260px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Circle with centre O; AB is a diameter and C is a point on the circle; angle ACB is marked\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><circle cx=\"130\" cy=\"115\" r=\"90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"40.0\" y1=\"115.0\" x2=\"220.0\" y2=\"115.0\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"40.0\" y1=\"115.0\" x2=\"160.0\" y2=\"30.0\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"160.0\" y1=\"30.0\" x2=\"220.0\" y2=\"115.0\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"115\" r=\"3\" fill=\"#111\"/><path d=\"M150,37 L157,47 L167,40\" fill=\"none\" stroke=\"#111\"/><text x=\"32\" y=\"120\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">A</text><text x=\"228\" y=\"120\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">B</text><text x=\"162\" y=\"22\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"130\" y=\"133\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">O</text></svg>",
+        "caption": "Circle with centre O; AB is a diameter and C lies on the circle, with the angle at C marked as a right angle."
+      },
+      "options": [
+        "A. 90⁰",
+        "B. 60⁰",
+        "C. 180⁰",
+        "D. 360⁰"
+      ],
+      "correct_index": 0,
+      "answer_guide": "The angle in a semicircle (AB is a diameter through O) is 90°.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "18. The distance between the points A ( 8, 2) and ( 5, -2) is:",
+      "diagram": null,
+      "options": [
+        "A. 30",
+        "B. 25",
+        "C. 15",
+        "D. 5"
+      ],
+      "correct_index": 3,
+      "answer_guide": "√[(8 − 5)² + (2 + 2)²] = √(9 + 16) = 5",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "19. Evaluate 20% of $ 600",
+      "diagram": null,
+      "options": [
+        "A. $ 80",
+        "B. $ 120",
+        "C. $ 620",
+        "D. $ 480"
+      ],
+      "correct_index": 1,
+      "answer_guide": "0.2 × 600 = $120",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: 20 Multiple choice questions (40 marks) – Circle the correct answer only.",
+      "question": "20. The length of AB is equal to:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 260 190\" width=\"100%\" style=\"max-width:260px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Right triangle with right angle at A, AC = 5, CB = 13; find AB\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M50,150 L50,40 L220,150 Z\" fill=\"#f4f7fb\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M50,138 h12 v12\" fill=\"none\" stroke=\"#111\"/><text x=\"45\" y=\"165\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">A</text><text x=\"45\" y=\"35\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">C</text><text x=\"228\" y=\"160\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">B</text><text x=\"38\" y=\"100\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">5</text><text x=\"145\" y=\"85\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">13</text></svg>",
+        "caption": "Right triangle with the right angle at A; AC = 5 and hypotenuse CB = 13."
+      },
+      "options": [
+        "A. 6",
+        "B. 9",
+        "C. 18",
+        "D. 12"
+      ],
+      "correct_index": 3,
+      "answer_guide": "AB = √(13² − 5²) = √144 = 12",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q1. Simplify the following\n  a) ( 2 + 3i ) + (3 + 2i ) ( 2 marks)\n  b) ( 5 + 3i ) (5 - 3i ) ( 2 marks)\n  c) i⁵ + i⁷ ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) 5 + 5i\nb) 25 − 9i² = 25 + 9 = 34\nc) i⁵ = i, i⁷ = −i → i⁵ + i⁷ = 0",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q2. Given that cosθ = 5/13 , where θ is an acute angle.\n   Find the exact value of\n  a) cos2θ ( 3 marks)\n  b) sin2θ ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "sin θ = 12/13 (acute)\na) cos 2θ = cos²θ − sin²θ = 25/169 − 144/169 = −119/169\nb) sin 2θ = 2 sinθ cosθ = 2 × 12/13 × 5/13 = 120/169",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q3. For the following data set: 2, 3, 5, 7, 5, 10, 11, 5\n   Calculate\n  a) The mean ( 2 marks)\n  b) The median ( 2 marks)\n  c) The mode ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Sum = 48, n = 8 → mean = 6\nb) Ordered: 2, 3, 5, 5, 5, 7, 10, 11 → median = (5 + 5)/2 = 5\nc) Mode = 5",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q4. Given that the curve y = 2x³ + 6x² – 5\n   Find\n  a) dy/dx ( 2 marks)\n  b) The coordinates of the stationary points of the curve. (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) dy/dx = 6x² + 12x\nb) 6x(x + 2) = 0 → x = 0 or x = −2\n   x = 0: y = −5 → (0, −5)\n   x = −2: y = −16 + 24 − 5 = 3 → (−2, 3)\n   d²y/dx² = 12x + 12: at x = 0 it is 12 > 0 (minimum); at x = −2 it is −12 < 0 (maximum).",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q5. A box contains 3 red and 2 white balls. Two balls are drawn at random from the box with replacement using the tree diagram below.\n   Find the probability of getting\n  a) two red balls ( 2 marks)\n  b) two of the same colours ( 2 marks)\n  c) two of different colours ( 2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 230\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Tree diagram for two draws with replacement: R with probability 3/5, W with probability 2/5 on each branch\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"30.0\" y1=\"120.0\" x2=\"160.0\" y2=\"60.0\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"170\" y=\"65\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">R</text><text x=\"90\" y=\"82.0\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">3/5</text><line x1=\"182.0\" y1=\"60.0\" x2=\"300.0\" y2=\"30.0\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"310\" y=\"35\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">R</text><text x=\"240\" y=\"37.0\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">3/5</text><line x1=\"182.0\" y1=\"60.0\" x2=\"300.0\" y2=\"90.0\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"310\" y=\"95\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">W</text><text x=\"240\" y=\"93.0\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">2/5</text><line x1=\"30.0\" y1=\"120.0\" x2=\"160.0\" y2=\"180.0\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"170\" y=\"185\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"90\" y=\"168.0\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">2/5</text><line x1=\"182.0\" y1=\"180.0\" x2=\"300.0\" y2=\"150.0\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"310\" y=\"155\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">R</text><text x=\"240\" y=\"157.0\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">3/5</text><line x1=\"182.0\" y1=\"180.0\" x2=\"300.0\" y2=\"210.0\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"310\" y=\"215\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">W</text><text x=\"240\" y=\"213.0\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">2/5</text></svg>",
+        "caption": "Probability tree: first draw R (3/5) or W (2/5); from each, second draw R (3/5) or W (2/5)."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) P(RR) = 3/5 × 3/5 = 9/25\nb) P(same) = P(RR) + P(WW) = 9/25 + 4/25 = 13/25\nc) P(different) = P(RW) + P(WR) = 6/25 + 6/25 = 12/25 (= 1 − 13/25)",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q6. Verify each of the following identities\n  a) sin ( π – θ) = + sin θ ( 3 marks)\n  b) cos 40⁰ cos 50⁰ - sin 40⁰ sin 50⁰ = 0 ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) sin(π − θ) = sin π cos θ − cos π sin θ = (0)cos θ − (−1)sin θ = sin θ ∎\nb) cos 40° cos 50° − sin 40° sin 50° = cos(40° + 50°) = cos 90° = 0 ∎",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q7. Given that f(x) = 2x + 5\n   Find\n  a) f (2) ( 2 marks)\n  b) f⁻¹ (x) ( 2 marks)\n  c) f⁻¹ (1) ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) f(2) = 2(2) + 5 = 9\nb) y = 2x + 5 → x = (y − 5)/2 → f⁻¹(x) = (x − 5)/2\nc) f⁻¹(1) = (1 − 5)/2 = −2",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q8. If an equation of a circle is ( x – 2)² + ( y + 3)² = 25\n   Find\n  a) the radius ( 3 marks)\n  b) the centre of the circle ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Compare with (x − h)² + (y − k)² = r²\na) r² = 25 → radius = 5\nb) Centre = (2, −3)",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q9. Given that A = [[2, -3], [4, 5]] and B = [[3, 1], [7, 3]]\n   Calculate\n  a) A + B ( 2 marks)\n  b) the determinant of B ( 2 marks)\n  c) the inverse of B ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) A + B = [[5, −2], [11, 8]]\nb) det B = (3)(3) − (1)(7) = 2\nc) B⁻¹ = 1/2 [[3, −1], [−7, 3]] = [[3/2, −1/2], [−7/2, 3/2]]",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO : STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q 10.\n  a) A real estate gets 6% commission for selling a house, if they sold a house for $ 45000. What is its commission? ( 3 marks)\n  b) The selling price of a car is $ 5000; the salesman gives 20% discount for cash. What is the discount price? ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Commission = 6% × 45,000 = $2,700\nb) Discount = 20% × 5,000 = $1,000 → discount (cash) price = 5,000 − 1,000 = $4,000",
+      "matching_pairs": null
+    }
+  ]
+}

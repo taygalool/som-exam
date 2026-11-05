@@ -1,0 +1,413 @@
+{
+  "title": "Somaliland Form Four Examination 2023 - Geography",
+  "exam_id": "somaliland_12_geography_2023",
+  "year": 2023,
+  "subject": "Geography",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "1. Which one of the following is the world is major primary activity and biggest employer:",
+      "diagram": null,
+      "options": [
+        "a. Fishery",
+        "b. Mining",
+        "c. Farming",
+        "d. Forestry"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "2. The cultivation of crops only, either food or non-food crops is called",
+      "diagram": null,
+      "options": [
+        "a. Livestock farming",
+        "b. Pastoral farming",
+        "c. Agriculture",
+        "d. Arable farming"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "3. According to the input, farming are classified into",
+      "diagram": null,
+      "options": [
+        "a. Commercial and subsistence farming",
+        "b. Sedentary and shifting farming",
+        "c. Intensive and extensive farming",
+        "d. Arable and pastoral farming"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Inputs of labour/capital per unit of land → intensive vs extensive.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "4. Which of the following is a good example of non-renewable energy resources.",
+      "diagram": null,
+      "options": [
+        "a. Coal",
+        "b. Wind energy",
+        "c. Solar energy",
+        "d. Hydro-electric power"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "5. All are the advantages of solar energy except.",
+      "diagram": null,
+      "options": [
+        "a. Available in all parts of the world",
+        "b. Low energy production",
+        "c. Clean and environmentally friendly",
+        "d. Inexhaustible source of energy."
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "6. The type of communication which uses the combination of sounds, signs and pictures is called.",
+      "diagram": null,
+      "options": [
+        "a. Verbal communication",
+        "b. Written communication",
+        "c. Audio-visual communication",
+        "d. Journal communication"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "7. Which one of the following types of international trade is correct the exchange of goods and service among Somaliland, Djibouti, and Ethiopia?",
+      "diagram": null,
+      "options": [
+        "a. Bilateral trade",
+        "b. Multicultural trade",
+        "c. Visible trade",
+        "d. Invisible trade."
+      ],
+      "correct_index": 1,
+      "answer_guide": "Trade among three or more countries is multilateral trade; option (b) 'Multicultural' is evidently a misprint for 'Multilateral'. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "8. The type of government of Somaliland is",
+      "diagram": null,
+      "options": [
+        "a. Monarchy",
+        "b. Democracy",
+        "c. Dictatorship",
+        "d. Republic"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Somaliland is a democratic republic with elected president and parliament. 'Democracy' is marked as the intended type; 'Republic' is also technically correct. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "9. The total population of Kenya in 2009 was 38.6 million and its total land area is 576,076 km² if 26.1 milling of the total population is rural and 45200 km². If the total land area is cultivated. What would be the agricultural density?",
+      "diagram": null,
+      "options": [
+        "a. 277 persons /km²",
+        "b. 307 persons /km²",
+        "c. 507 persons /km²",
+        "d. 577 persons /km²"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Agricultural density = rural population ÷ cultivated land = 26,100,000 ÷ 45,200 ≈ 577 persons/km²",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "10. All are the causes of mortality except",
+      "diagram": null,
+      "options": [
+        "a. Early marriage",
+        "b. Wars",
+        "c. Famine",
+        "d. Accident"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Early marriage raises fertility/birth rate rather than being a direct cause of death.",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "11. Which of the following minerals is a non-metallic mineral?",
+      "diagram": null,
+      "options": [
+        "a. Iron",
+        "b. Nickel",
+        "c. Potash",
+        "d. Gold"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "12. A mineral substances must satisfy all these conditions except.",
+      "diagram": null,
+      "options": [
+        "a. Must be crystalline solid",
+        "b. Must be artificially created",
+        "c. Must be occur naturally",
+        "d. Must have a definite chemical composition"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "13. Which of the following is not a function of soil?",
+      "diagram": null,
+      "options": [
+        "a. Soil facilitates plant erosion",
+        "b. Soil support roots and keep them upright",
+        "c. Soil provide plants with essential nutrients",
+        "d. Soil provide air for gaseous exchange between roots and atmosphere"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "14. Which country is the leading in fish catching in the North-west pacific region?",
+      "diagram": null,
+      "options": [
+        "a. China",
+        "b. Russia",
+        "c. South and North Korea",
+        "d. Japan"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Textbooks traditionally name Japan as the leading fishing nation of the North-West Pacific. (In recent FAO data China catches more.) [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "15. The system that involves regulation numbers of animals or wildlife in specific area is",
+      "diagram": null,
+      "options": [
+        "a. Custodial management",
+        "b. Ecological management",
+        "c. Location management",
+        "d. manipulating management"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Manipulative management regulates animal numbers (culling, restocking); custodial management only protects. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "16. Factors that attract urban settlements in Somaliland include",
+      "diagram": null,
+      "options": [
+        "a. Physical environment",
+        "b. Soil fertility",
+        "c. Pasture and water availability",
+        "d. Shape of the location"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Physical environment (relief, climate, water supply, ports/routes) is the general factor; pasture and soil relate more to rural settlement. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "17. The three figures bearing if 247.5⁰ correspond with one of the following compass bearing which one is it?",
+      "diagram": null,
+      "options": [
+        "a. NNE",
+        "b. SSE",
+        "c. WSW",
+        "d. SSW"
+      ],
+      "correct_index": 2,
+      "answer_guide": "NNE = 022.5°, SSE = 157.5°, SSW = 202.5°, WSW = 247.5°.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "18. Of the five topographical (Physical) regions of Somaliland, the most populous region is:",
+      "diagram": null,
+      "options": [
+        "a. The Hawd plateau",
+        "b. The ogo",
+        "c. The high mountain ranges of Golis",
+        "d. The coastal lowland."
+      ],
+      "correct_index": 1,
+      "answer_guide": "The Ogo plateau contains Hargeisa and other major towns. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "19. The solar system consists of",
+      "diagram": null,
+      "options": [
+        "a. The earth and the sun",
+        "b. The moon and the sun",
+        "c. The earth and the sun",
+        "d. The sun and the planets."
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "20. The lowest layer of the atmosphere to the earth is:",
+      "diagram": null,
+      "options": [
+        "a. Stratosphere",
+        "b. Troposphere",
+        "c. Mesosphere",
+        "d. Ionosphere"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "1.\n  a. Evaluate why the growing conditions of sugar cane is appropriate favorable in tropical, sub-tropical or temperate regions (2 Marks)\n  b. state any two characteristics of postural farming (2 Marks)\n  c. identify any two problems facing pastoralism in Somaliland (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Sugar cane grows best in tropical and sub-tropical regions because it needs high temperatures (about 21–27 °C), heavy rainfall or irrigation (1,500 mm+), a long growing season of 12–18 months without frost, and a dry sunny period before harvest to raise sugar content. Temperate regions are unsuitable because of frost and short summers.\nb. (read as pastoral farming) Any two: keeping livestock (camels, cattle, sheep, goats) as the main activity; movement in search of pasture and water (nomadism); large herds kept for prestige and subsistence; found in dry/semi-arid areas.\nc. Any two: recurrent drought and water shortage; overgrazing and land degradation; livestock diseases; poor marketing and low prices/export bans; conflicts over pasture and water; land enclosure.",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "2.\n  a. Describe any two disadvantages of solar energy (2 Marks)\n  b. Explain any two advantages of wind energy (2 Marks)\n  c. List any two non-renewable energy services (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Any two: high initial cost of panels and batteries; not available at night and reduced on cloudy days; needs large areas for big power stations; storage is expensive.\nb. Any two: renewable/inexhaustible; clean – no pollution or greenhouse gases; cheap to run once installed; suitable for remote windy areas (e.g. Somaliland coast).\nc. Any two: coal, petroleum (oil), natural gas, uranium (nuclear fuel).",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "3.\n  a. Mention any two modes of transport among the common modes of transport. (2 Marks)\n  b. Describe any two roles of transport and communication in the economic development of Africa. (2 Marks)\n  c. Identify any two types of trade (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Any two: land transport (road, rail), water transport (sea, river), air transport, pipeline transport.\nb. Any two: moves raw materials to industries and goods to markets; promotes trade (local and international); creates employment; opens up remote areas and links countries (regional integration); helps spread of information, education and tourism.\nc. Any two: internal (home) trade and international (external) trade; or bilateral and multilateral trade; or visible and invisible trade; wholesale and retail trade.",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "4.\n  a. List and describe the three branches of Somaliland government (3 Marks)\n  b. State any two types of government (2 Marks)\n  c. Which branch of government has the responsibility/authority to remove the president from the position/office (1 Mark)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The Legislature (Parliament: House of Representatives and House of Elders/Guurti) – makes laws and approves the budget.\n   The Executive (President, Vice-President and Council of Ministers) – implements laws and runs the government.\n   The Judiciary (courts headed by the Supreme Court) – interprets laws and settles disputes.\nb. Any two: democracy, monarchy, dictatorship, republic, theocracy, oligarchy.\nc. The Legislature (Parliament), through impeachment.",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "5.\n  a. If the number of birth in a community in 1980 was 18,247 and the mid-year population of was 985,210, what is the crude birth rate of this community? (2 Marks)\n  b. Assume the total number of live births in a given year is 65 and the total number of women in the childbearing age (15 - 49) is 2032 find the general fertility rate. (2 Marks)\n  c. The number of death in a county in 2009 was 14,129 and the mid-year population was 864,420. What was the crude death rate of that country (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. CBR = births ÷ mid-year population × 1000 = 18,247 ÷ 985,210 × 1000 ≈ 18.5 per 1000\nb. GFR = live births ÷ women aged 15–49 × 1000 = 65 ÷ 2032 × 1000 ≈ 32 per 1000 women\nc. CDR = deaths ÷ mid-year population × 1000 = 14,129 ÷ 864,420 × 1000 ≈ 16.3 per 1000",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "6.\n  a. List any four factors affecting the exploration of minerals (2 Marks)\n  b. Describe any two methods of mining (2 Marks)\n  c. Explain any two effects of mining on the environment (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Any four: size of the deposit; quality (grade) of the ore; depth/mode of occurrence; availability of capital and technology; transport and accessibility; market demand and prices; government policy and political stability; availability of labour.\nb. Any two: open-cast (open-pit) mining – removing overburden to dig minerals near the surface; underground (shaft/drift) mining – digging shafts and tunnels to reach deep deposits; alluvial/placer mining – washing minerals from river sands and gravels; quarrying.\nc. Any two: destruction of vegetation and landscape (derelict land, open pits); soil erosion; pollution of air, water and soil by dust and chemicals; noise; loss of wildlife habitats; land subsidence.",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "7.\n  a. Explain the following terms?\n     i. Mean daily temperature (1 Mark)\n     ii. Annual temperature range (1 Mark)\n  b. State any two heat transfer process of energy (2 Marks)\n  c. Explain any two characteristics of polar climate (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. i. Mean daily temperature = (maximum + minimum temperature of the day) ÷ 2.\n   ii. Annual temperature range = mean temperature of the hottest month − mean temperature of the coldest month.\nb. Any two: conduction, convection, radiation (also advection).\nc. Any two: very cold all year (warmest month below 10 °C); long dark winters and short cool summers; very low precipitation, mostly snow; ground permanently frozen (permafrost) or covered by ice; strong winds and blizzards; little or no vegetation (tundra).",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "8.\n  a. What is the aerial photography? (2 Marks)\n  b. Explain any two applications of aerial photography. (2 Marks)\n  c. What are the contour lines? (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Aerial photography is the taking of photographs of the earth's surface from an elevated position, such as an aircraft, drone or balloon.\nb. Any two: map making and updating maps; land-use and town planning; surveying for roads, dams and mineral exploration; monitoring environmental change (deforestation, floods, erosion); military reconnaissance; agricultural and forest surveys.\nc. Contour lines are imaginary lines drawn on a map joining places of the same height (elevation) above sea level.",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "9. Study the food web below.\n  a. Analyze the above figure (1 Mark)\n  b. What role does the sun play? (1 Mark)\n  c. Identify the producers, consumers and decomposers (2 Marks)\n  d. What would happen to the snake populations if the rabbits were over-hunted? (2 Marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 320\" width=\"100%\" style=\"max-width:500px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Food web: plant eaten by rabbit and grasshopper; grasshopper eaten by snake and mouse; rabbit and mouse eaten by snake and hawk; snake eaten by hawk; sun and ant also shown\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"119\" y1=\"66\" x2=\"195\" y2=\"44\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"83\" y1=\"92\" x2=\"87\" y2=\"186\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"248\" y1=\"62\" x2=\"251\" y2=\"116\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"279\" y1=\"44\" x2=\"375\" y2=\"66\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"127\" y1=\"202\" x2=\"217\" y2=\"149\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"128\" y1=\"216\" x2=\"216\" y2=\"253\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"260\" y1=\"238\" x2=\"260\" y2=\"164\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"297\" y1=\"131\" x2=\"378\" y2=\"80\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"286\" y1=\"243\" x2=\"390\" y2=\"88\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><ellipse cx=\"80\" cy=\"70\" rx=\"48\" ry=\"22\" fill=\"#d8ecc8\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"80\" y=\"75\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Plant</text><ellipse cx=\"240\" cy=\"40\" rx=\"48\" ry=\"22\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"240\" y=\"45\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Rabbit</text><ellipse cx=\"420\" cy=\"70\" rx=\"48\" ry=\"22\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"420\" y=\"75\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Hawk/Eagle</text><ellipse cx=\"90\" cy=\"210\" rx=\"48\" ry=\"22\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"90\" y=\"215\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Grasshopper</text><ellipse cx=\"260\" cy=\"140\" rx=\"48\" ry=\"22\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"260\" y=\"145\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Snake</text><ellipse cx=\"260\" cy=\"260\" rx=\"48\" ry=\"22\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"260\" y=\"265\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Mouse</text><ellipse cx=\"60\" cy=\"290\" rx=\"48\" ry=\"22\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"60\" y=\"295\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Ant</text><ellipse cx=\"420\" cy=\"260\" rx=\"48\" ry=\"22\" fill=\"#fff2b0\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"420\" y=\"265\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Sun</text></svg>",
+        "caption": "Food web with the sun as energy source: plant → rabbit and grasshopper; grasshopper → snake and mouse; rabbit → snake and hawk; mouse → snake and hawk; snake → hawk; ants shown near the grasshopper."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. It is a food web – several interconnected food chains showing how energy flows from the sun to the plant and then through herbivores to carnivores.\nb. The sun is the source of energy; plants use sunlight to make food by photosynthesis.\nc. Producer: the plant. Consumers: rabbit, grasshopper and mouse (primary/secondary), snake and hawk/eagle (higher consumers). Decomposers: the ants/micro-organisms (bacteria, fungi) breaking down dead matter.\nd. The snake population would decrease because one of its food sources is lost; snakes would compete more for mice and grasshoppers, which would then also decline.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO: Structured Questions (60 Marks) – Answer all the following questions. Each question carries 6 marks",
+      "question": "10.\n  a. Explain the main types of igneous rocks. (2 Marks)\n  b. Describe any two plate bounders or plate margins. (2 Marks)\n  c. Explain the two main types of the forces which produce the physical features of the earth's surface? (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Intrusive (plutonic) igneous rocks – magma cools slowly inside the earth, forming large crystals (e.g. granite). Extrusive (volcanic) igneous rocks – lava cools quickly on the surface, forming small crystals (e.g. basalt).\nb. Any two: constructive (divergent) margins – plates move apart and new crust forms (e.g. Mid-Atlantic Ridge, East African Rift); destructive (convergent) margins – plates collide and one is subducted, forming fold mountains, trenches and volcanoes; conservative (transform) margins – plates slide past each other (e.g. San Andreas Fault).\nc. Internal (endogenic) forces – from inside the earth: folding, faulting, earthquakes and volcanism, which build up landforms. External (exogenic) forces – on the surface: weathering, erosion and deposition by water, wind and ice, which wear down landforms.",
+      "matching_pairs": null
+    }
+  ]
+}

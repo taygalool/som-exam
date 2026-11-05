@@ -1,0 +1,422 @@
+{
+  "title": "Somaliland Form Four Examination 2022 - 2023 - Mathematics Paper Two",
+  "exam_id": "somaliland_12_mathematics_p2_2023",
+  "year": 2023,
+  "subject": "Mathematics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "1. ∫ (1/3 x² + 2x + 5 )dx is :",
+      "diagram": null,
+      "options": [
+        "A. 2/3 x +2 + c",
+        "B. x³/2 + 2x² + 5+c",
+        "C. x³ + 2x² +5x + c",
+        "D. x³/9 + x² + 5x +c"
+      ],
+      "correct_index": 3,
+      "answer_guide": "∫(1/3)x² dx = x³/9; ∫2x dx = x²; ∫5 dx = 5x → x³/9 + x² + 5x + c",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "2. 3 cos 2π - sin π/2 + 2 is :",
+      "diagram": null,
+      "options": [
+        "A. 1",
+        "B. -1",
+        "C. 0",
+        "D. 2"
+      ],
+      "correct_index": null,
+      "answer_guide": "3cos 2π − sin(π/2) + 2 = 3(1) − 1 + 2 = 4. None of the printed options is correct (4 is not offered); likely a misprint in the paper.",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "3. If cos A = 8/17 then sin 2 A is :",
+      "diagram": null,
+      "options": [
+        "A. 4/5",
+        "B. 240/289",
+        "C. 15/17",
+        "D. 12/13"
+      ],
+      "correct_index": 1,
+      "answer_guide": "sin A = 15/17; sin 2A = 2 × 15/17 × 8/17 = 240/289",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "4. For the function f(x) = x² + 4x +2, the point ( -2, -2 ) is:",
+      "diagram": null,
+      "options": [
+        "A. Maximum point",
+        "B. Minimum point",
+        "C. Stationary",
+        "D. Inflection point"
+      ],
+      "correct_index": 1,
+      "answer_guide": "f′(x) = 2x + 4 = 0 at x = −2, f(−2) = −2; f″(x) = 2 > 0 → minimum point (it is also stationary, but 'minimum' is the precise answer).",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "5. Sin 135⁰ is :",
+      "diagram": null,
+      "options": [
+        "A. 1/2",
+        "B. √3/2",
+        "C. -√2/2",
+        "D. -√2/2"
+      ],
+      "correct_index": null,
+      "answer_guide": "sin 135° = sin 45° = +√2/2 (positive in the 2nd quadrant). Options C and D are both printed as −√2/2, so no option is exactly correct; C was probably intended as √2/2.",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "6. If f(x) = 1/2 x² + 2 x + 5 then the equation of tangent line at x = 2 is:",
+      "diagram": null,
+      "options": [
+        "A. Y = 4x + 11",
+        "B. Y = 4 x",
+        "C. Y = 4x",
+        "D. 4x + 19"
+      ],
+      "correct_index": null,
+      "answer_guide": "f(2) = 2 + 4 + 5 = 11; f′(x) = x + 2 → slope 4. Tangent: y − 11 = 4(x − 2) → y = 4x + 3. None of the printed options matches.",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "7. The inter-quartile range for the data set 11, 3, 5, 8, 10, 9, 4 is :",
+      "diagram": null,
+      "options": [
+        "A. 4",
+        "B. 5",
+        "C. 6",
+        "D. 10"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Ordered: 3, 4, 5, 8, 9, 10, 11; Q₁ = 4, Q₃ = 10 → IQR = 6",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "8. A bag contains 3 black, 4 red and 6 white marbles, one marble is drawn at random. What is the probability that the marble is red?",
+      "diagram": null,
+      "options": [
+        "A. 4/13",
+        "B. 6/13",
+        "C. 3/13",
+        "D. 13/6"
+      ],
+      "correct_index": 0,
+      "answer_guide": "P(red) = 4/13",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "9. The math test score are 50, 55, 60, 65, 67, 70, 73, 75, 80 and 85. The percentile ranking of 70 is:",
+      "diagram": null,
+      "options": [
+        "A. 45",
+        "B. 50",
+        "C. 60",
+        "D. 55"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Scores below 70 = 5 out of 10 → PR = 5/10 × 100 = 50. (Using PR = (B + ½E)/N × 100 gives 55, option D; check which formula the syllabus uses.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "10. The third term of ( x + y)⁶ is :",
+      "diagram": null,
+      "options": [
+        "A. x⁵ y",
+        "B. 6 x⁵ y",
+        "C. 15 x⁴ y²",
+        "D. 20 x³ y³"
+      ],
+      "correct_index": 2,
+      "answer_guide": "T₃ = ⁶C₂ x⁴ y² = 15x⁴y²",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "11. Given that Z₁ = 3 + 2i and Z₂ = 4 -2i, then Z₁ . Z₂ is :",
+      "diagram": null,
+      "options": [
+        "A. 12+ 2i",
+        "B. 16+2i",
+        "C. 8+2i",
+        "D. 10+2i"
+      ],
+      "correct_index": 1,
+      "answer_guide": "(3 + 2i)(4 − 2i) = 12 − 6i + 8i − 4i² = 16 + 2i",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "12. Convert 4 [ cos 210⁰ + i sin 210⁰ ] into rectangular form :",
+      "diagram": null,
+      "options": [
+        "A. – 2√3 + 2 i",
+        "B. 2√3 + 2 i",
+        "C. 2√3",
+        "D. – 2√3 - 2 i"
+      ],
+      "correct_index": 3,
+      "answer_guide": "4(−√3/2) + 4(−1/2)i = −2√3 − 2i",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "13. For the diagram shown below find (A∪B)′ (complement of A∪B)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 240\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Venn diagram: A = {1,2,3,4,5,6}, B = {5,6,7,8}, outside = {9,10}\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"10\" y=\"10\" width=\"320\" height=\"220\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"10\" y=\"10\" width=\"40\" height=\"22\" fill=\"none\" stroke=\"#111\"/><text x=\"30\" y=\"26\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">U</text><ellipse cx=\"140\" cy=\"120\" rx=\"60\" ry=\"90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><ellipse cx=\"210\" cy=\"120\" rx=\"60\" ry=\"90\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"70\" y=\"70\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"290\" y=\"70\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"120\" y=\"65\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">2</text><text x=\"105\" y=\"110\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">1</text><text x=\"110\" y=\"150\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">3</text><text x=\"130\" y=\"185\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">4</text><text x=\"175\" y=\"100\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">6</text><text x=\"175\" y=\"145\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">5</text><text x=\"230\" y=\"65\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">7</text><text x=\"240\" y=\"140\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">8</text><text x=\"40\" y=\"160\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">9</text><text x=\"300\" y=\"200\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">10</text></svg>",
+        "caption": "Venn diagram in universal set U: A only contains 1, 2, 3, 4; A∩B contains 5, 6; B only contains 7, 8; 9 and 10 lie outside both sets."
+      },
+      "options": [
+        "A. { 5, 6 }",
+        "B. { 1, 2, 3, 4 }",
+        "C. { 7, 8 }",
+        "D. { 9, 10 }"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Elements outside both circles: 9 and 10.",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "14. The equation of a parabola whose focus and directrix are F( 6, 0) and x = - 6 is :",
+      "diagram": null,
+      "options": [
+        "A. x² = 24y",
+        "B. y² = 24 x",
+        "C. x² = -24 y",
+        "D. y² = - 24x"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Vertex at origin, p = 6, opens right: y² = 4px = 24x",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "15. Which of the following relations is a function?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 440\" width=\"100%\" style=\"max-width:460px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Four arrow diagrams from set A to set B labelled A to D\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><text x=\"5\" y=\"15\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">A.</text><ellipse cx=\"70\" cy=\"105\" rx=\"38\" ry=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"105\" rx=\"38\" ry=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"70\" y=\"25\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"150\" y=\"25\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"62\" y=\"64\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">1</text><text x=\"62\" y=\"94\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">2</text><text x=\"62\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">3</text><text x=\"62\" y=\"154\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">4</text><text x=\"160\" y=\"59\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">a</text><text x=\"160\" y=\"87\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">b</text><text x=\"160\" y=\"115\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">c</text><text x=\"160\" y=\"143\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">d</text><line x1=\"72\" y1=\"60\" x2=\"150\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"72\" y1=\"90\" x2=\"150\" y2=\"139\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"72\" y1=\"120\" x2=\"150\" y2=\"83\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><text x=\"235\" y=\"15\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">B.</text><ellipse cx=\"300\" cy=\"105\" rx=\"38\" ry=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><ellipse cx=\"380\" cy=\"105\" rx=\"38\" ry=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"300\" y=\"25\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"380\" y=\"25\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"292\" y=\"64\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">1</text><text x=\"292\" y=\"94\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">2</text><text x=\"292\" y=\"124\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">3</text><text x=\"292\" y=\"154\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">4</text><text x=\"390\" y=\"59\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">a</text><text x=\"390\" y=\"87\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">b</text><text x=\"390\" y=\"115\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">c</text><line x1=\"302\" y1=\"60\" x2=\"380\" y2=\"55\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"302\" y1=\"90\" x2=\"380\" y2=\"83\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"302\" y1=\"120\" x2=\"380\" y2=\"111\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"302\" y1=\"150\" x2=\"380\" y2=\"111\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><text x=\"5\" y=\"235\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">C.</text><ellipse cx=\"70\" cy=\"325\" rx=\"38\" ry=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"325\" rx=\"38\" ry=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"70\" y=\"245\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"150\" y=\"245\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"62\" y=\"284\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">1</text><text x=\"62\" y=\"314\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">2</text><text x=\"62\" y=\"344\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">3</text><text x=\"160\" y=\"279\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">a</text><text x=\"160\" y=\"307\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">b</text><text x=\"160\" y=\"335\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">c</text><text x=\"160\" y=\"363\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">d</text><line x1=\"72\" y1=\"280\" x2=\"150\" y2=\"275\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"72\" y1=\"310\" x2=\"150\" y2=\"303\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"72\" y1=\"310\" x2=\"150\" y2=\"331\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"72\" y1=\"340\" x2=\"150\" y2=\"359\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><text x=\"235\" y=\"235\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">D.</text><ellipse cx=\"300\" cy=\"325\" rx=\"38\" ry=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><ellipse cx=\"380\" cy=\"325\" rx=\"38\" ry=\"70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"300\" y=\"245\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"380\" y=\"245\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"292\" y=\"284\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">1</text><text x=\"292\" y=\"314\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">2</text><text x=\"292\" y=\"344\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">3</text><text x=\"390\" y=\"279\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">a</text><text x=\"390\" y=\"307\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">b</text><text x=\"390\" y=\"335\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">c</text><text x=\"390\" y=\"363\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">d</text><line x1=\"302\" y1=\"280\" x2=\"380\" y2=\"275\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"302\" y1=\"310\" x2=\"380\" y2=\"303\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"302\" y1=\"340\" x2=\"380\" y2=\"331\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/><line x1=\"302\" y1=\"340\" x2=\"380\" y2=\"359\" stroke=\"#111\" stroke-width=\"1.4\" marker-end=\"url(#ah)\"/></svg>",
+        "caption": "Four arrow diagrams from set A to set B. A: 1→a, 2→d, 3→b, 4 unmapped. B: 1→a, 2→b, 3→c, 4→c. C: 1→a, 2→b, 2→c, 3→d. D: 1→a, 2→b, 3→c, 3→d."
+      },
+      "options": [
+        "A. Diagram A",
+        "B. Diagram B",
+        "C. Diagram C",
+        "D. Diagram D"
+      ],
+      "correct_index": 1,
+      "answer_guide": "In B every element of A has exactly one image (1→a, 2→b, 3→c, 4→c). In A, element 4 has no image; in C, 2 has two images; in D, 3 has two images.",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "16. The mode of this set of data 5, 6, 6, 7, 8, 9, 8, 7, 8 , 8, 7 is:",
+      "diagram": null,
+      "options": [
+        "A. 6",
+        "B. 7",
+        "C. 8",
+        "D. 9"
+      ],
+      "correct_index": 2,
+      "answer_guide": "8 appears 4 times (7 appears 3 times).",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "17. If set A { 1, 2, 3, d, f, k } the number of subsets of set A ( power set A) is",
+      "diagram": null,
+      "options": [
+        "A. 8",
+        "B. 16",
+        "C. 32",
+        "D. 64"
+      ],
+      "correct_index": 3,
+      "answer_guide": "n(A) = 6 → 2⁶ = 64",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "18. The series 1 + 3 + 5 + 7 + ..... the sum of first 21 terms is:",
+      "diagram": null,
+      "options": [
+        "A. 440",
+        "B. 441",
+        "C. 484",
+        "D. 483"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Sum of first n odd numbers = n² = 21² = 441",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "19. The line that passes through the points ( 2, 4) and ( 3, - 4 ). Then the y – intercept is :",
+      "diagram": null,
+      "options": [
+        "A. 16",
+        "B. 20",
+        "C. -14",
+        "D. 4"
+      ],
+      "correct_index": 1,
+      "answer_guide": "m = (−4 − 4)/(3 − 2) = −8; y − 4 = −8(x − 2) → y = −8x + 20 → intercept 20",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: 20 MULTIPLE CHOICE QUESTIONS (40 marks) – Circle the correct answer only.",
+      "question": "20. From the diagram side BC is:\n   Given: cos 60⁰ = 1/2",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\" width=\"100%\" style=\"max-width:300px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Right triangle ABC: right angle at B, hypotenuse CA = 6 cm, angle C = 60 degrees\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M40,160 L250,160 L250,30 Z\" fill=\"#f4f7fb\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M238,160 v-12 h12\" fill=\"none\" stroke=\"#111\"/><path d=\"M75,160 A35,35 0 0,0 70,142\" fill=\"none\" stroke=\"#111\"/><text x=\"88\" y=\"152\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">60°</text><text x=\"32\" y=\"168\" font-size=\"15\" text-anchor=\"end\" font-weight=\"bold\">C</text><text x=\"258\" y=\"172\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">B</text><text x=\"255\" y=\"26\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">A</text><text x=\"130\" y=\"85\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">6 cm</text></svg>",
+        "caption": "Right-angled triangle ABC with the right angle at B, hypotenuse CA = 6 cm and angle C = 60°."
+      },
+      "options": [
+        "A. 2",
+        "B. 3",
+        "C. 4",
+        "D. 5"
+      ],
+      "correct_index": 1,
+      "answer_guide": "BC = AC cos 60° = 6 × ½ = 3 cm",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q1. Find the area between the curve y = – x² and the line y = 2x- 3 ( 6 marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 320\" width=\"100%\" style=\"max-width:400px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Parabola y = -x squared and line y = 2x - 3 intersecting at x = -3 and x = 1, with the enclosed region shaded\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"20\" y1=\"70\" x2=\"380\" y2=\"70\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><line x1=\"200\" y1=\"300\" x2=\"200\" y2=\"15\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"385\" y=\"74\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">x</text><text x=\"206\" y=\"18\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">y</text><polygon points=\"116.0,322.0 117.4,313.7 118.8,305.5 120.2,297.4 121.6,289.5 123.0,281.8 124.4,274.1 125.8,266.6 127.2,259.3 128.6,252.1 130.0,245.0 131.4,238.1 132.8,231.3 134.2,224.6 135.6,218.1 137.0,211.8 138.4,205.5 139.8,199.4 141.2,193.5 142.6,187.7 144.0,182.0 145.4,176.5 146.8,171.1 148.2,165.8 149.6,160.7 151.0,155.8 152.4,150.9 153.8,146.2 155.2,141.7 156.6,137.3 158.0,133.0 159.4,128.9 160.8,124.9 162.2,121.0 163.6,117.3 165.0,113.8 166.4,110.3 167.8,107.0 169.2,103.9 170.6,100.9 172.0,98.0 173.4,95.3 174.8,92.7 176.2,90.2 177.6,87.9 179.0,85.8 180.4,83.7 181.8,81.8 183.2,80.1 184.6,78.5 186.0,77.0 187.4,75.7 188.8,74.5 190.2,73.4 191.6,72.5 193.0,71.8 194.4,71.1 195.8,70.6 197.2,70.3 198.6,70.1 200.0,70.0 201.4,70.1 202.8,70.3 204.2,70.6 205.6,71.1 207.0,71.8 208.4,72.5 209.8,73.4 211.2,74.5 212.6,75.7 214.0,77.0 215.4,78.5 216.8,80.1 218.2,81.8 219.6,83.7 221.0,85.8 222.4,87.9 223.8,90.2 225.2,92.7 226.6,95.3 228.0,98.0 228.0,98.0 116.0,322.0\" fill=\"#cfe0f5\" stroke=\"none\"/><path d=\"M118.8,305.5 L121.6,289.5 L124.4,274.1 L127.2,259.3 L130.0,245.0 L132.8,231.3 L135.6,218.1 L138.4,205.5 L141.2,193.5 L144.0,182.0 L146.8,171.1 L149.6,160.7 L152.4,150.9 L155.2,141.7 L158.0,133.0 L160.8,124.9 L163.6,117.3 L166.4,110.3 L169.2,103.9 L172.0,98.0 L174.8,92.7 L177.6,87.9 L180.4,83.7 L183.2,80.1 L186.0,77.0 L188.8,74.5 L191.6,72.5 L194.4,71.1 L197.2,70.3 L200.0,70.0 L202.8,70.3 L205.6,71.1 L208.4,72.5 L211.2,74.5 L214.0,77.0 L216.8,80.1 L219.6,83.7 L222.4,87.9 L225.2,92.7 L228.0,98.0 L230.8,103.9 L233.6,110.3 L236.4,117.3 L239.2,124.9 L242.0,133.0 L244.8,141.7 L247.6,150.9 L250.4,160.7 L253.2,171.1 L256.0,182.0 L258.8,193.5 L261.6,205.5 L264.4,218.1 L267.2,231.3 L270.0,245.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.5\"/><line x1=\"104.8\" y1=\"344.40000000000003\" x2=\"267.2\" y2=\"19.6\" stroke=\"#111\" stroke-width=\"2.5\"/><circle cx=\"200\" cy=\"154\" r=\"4\" fill=\"#111\"/><text x=\"192\" y=\"158\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\">-3</text><text x=\"258.8\" y=\"8.399999999999991\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">y = 2x - 3</text><text x=\"264.4\" y=\"159.60000000000002\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">y = -x²</text></svg>",
+        "caption": "Downward parabola y = −x² and straight line y = 2x − 3 (y-intercept −3) crossing at x = −3 and x = 1; the region between them is shaded."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Intersections: −x² = 2x − 3 → x² + 2x − 3 = 0 → (x + 3)(x − 1) = 0 → x = −3, x = 1\nArea = ∫₋₃¹ [(−x²) − (2x − 3)] dx = ∫₋₃¹ (−x² − 2x + 3) dx\n     = [−x³/3 − x² + 3x]₋₃¹ = (−1/3 − 1 + 3) − (9 − 9 − 9) = 5/3 + 9 = 32/3\nArea = 32/3 ≈ 10.67 square units",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q2. If sin A = 3/5 and cos B = 5/13. Evaluate\n  a) sin ( A – B ) ( 3 marks)\n  b) cos ( A + B) ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Taking A and B acute: cos A = 4/5, sin B = 12/13\na) sin(A − B) = sinA cosB − cosA sinB = (3/5)(5/13) − (4/5)(12/13) = 15/65 − 48/65 = −33/65\nb) cos(A + B) = cosA cosB − sinA sinB = (4/5)(5/13) − (3/5)(12/13) = 20/65 − 36/65 = −16/65",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q3. Solve\n     2 cos²x + 3cosx - 2 = 0 for 0⁰ ≤ x ≤ 360⁰ ( 6 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(2cos x − 1)(cos x + 2) = 0\ncos x = 1/2 → x = 60°, 300°\ncos x = −2 → no solution (|cos x| ≤ 1)\nx = 60° or x = 300°",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q4. If Z = 2 [ cos 30⁰ + i sin 30⁰ ]\n   Find\n  a) Z³ ( 3marks)\n  b) Z⁵ ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "By De Moivre's theorem:\na) Z³ = 2³(cos 90° + i sin 90°) = 8(0 + i) = 8i\nb) Z⁵ = 2⁵(cos 150° + i sin 150°) = 32(−√3/2 + ½ i) = −16√3 + 16i",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q5. A bag contains 6 red balls, 4 blue balls and 5 white balls. Two balls are drawn one after the other, without replacement.\n  a) Find the probability that both are white (3 marks)\n  b) Find the probability that both are red ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Total = 15 balls\na) P(W, W) = 5/15 × 4/14 = 20/210 = 2/21\nb) P(R, R) = 6/15 × 5/14 = 30/210 = 1/7",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q6. A particle is moving in a straight line and its distance, in meters, from a fixed point in the line after t seconds is given by the equation s( t ) = t³ – 6 t² + 8\n  a) Find the Acceleration of the particle after 3 second. ( 2 marks)\n  b) When does the velocity equal 36 meter per seconds? ( 2 marks)\n  c) When the particle is at rest ? ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "v = ds/dt = 3t² − 12t;  a = dv/dt = 6t − 12\na) a(3) = 18 − 12 = 6 m/s²\nb) 3t² − 12t = 36 → t² − 4t − 12 = 0 → (t − 6)(t + 2) = 0 → t = 6 s (t = −2 rejected)\nc) v = 0 → 3t(t − 4) = 0 → t = 0 s and t = 4 s",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q7. If f(x) = 2x + 1 and g(x) = 4x² + 2x -1\n  a) ( f + g) ( x) ( 2 marks)\n  b) ( fog) (x) ( 2 marks)\n  c) ( fog) (2) ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) (f + g)(x) = 2x + 1 + 4x² + 2x − 1 = 4x² + 4x\nb) (f∘g)(x) = 2(4x² + 2x − 1) + 1 = 8x² + 4x − 1\nc) (f∘g)(2) = 8(4) + 4(2) − 1 = 32 + 8 − 1 = 39",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q8. The equation of a parabola is y² + 8y + 8 x – 8 = 0\n   Compute the\n  a) Vertex ( 2 marks)\n  b) Focus ( 2 marks)\n  c) directrix ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Complete the square: (y + 4)² − 16 + 8x − 8 = 0 → (y + 4)² = −8x + 24 = −8(x − 3)\n4p = −8 → p = −2 (opens to the left)\na) Vertex = (3, −4)\nb) Focus = (3 − 2, −4) = (1, −4)\nc) Directrix: x = 3 + 2 → x = 5",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q9. The sum of first and 3rd terms of an arithmetic progression is 10, and the sum of 2nd and 5th terms of a arithmetic progression is 19 .\n   Find the\n  a) first term ( 2 marks)\n  b) difference ( 2 marks)\n  c) sum of the first 25 terms ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a + (a + 2d) = 10 → 2a + 2d = 10 → a + d = 5\n(a + d) + (a + 4d) = 19 → 2a + 5d = 19\nSubtract 2(a + d) = 10: 3d = 9 → d = 3, a = 2\na) First term a = 2\nb) Common difference d = 3\nc) S₂₅ = 25/2 [2(2) + 24(3)] = 25/2 × 76 = 950",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART 2: STRUCTURED QUESTIONS. ANSWER ALL QUESTIONS. (60 Marks)",
+      "question": "Q10.\n  a) Aisha's salary is $ 600 a month. Her salary is increasing 6%. Workout her new salary? ( 3 marks)\n  b) A dress which was costing sh 700,000 rises to sh 850,000. What was the percentage increase of the dress? ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Increase = 6% × 600 = $36 → new salary = 600 + 36 = $636 (or 600 × 1.06 = $636)\nb) Increase = 850,000 − 700,000 = 150,000; % increase = 150,000/700,000 × 100 ≈ 21.43%",
+      "matching_pairs": null
+    }
+  ]
+}

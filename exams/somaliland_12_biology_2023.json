@@ -1,0 +1,422 @@
+{
+  "title": "Somaliland Form Four Examination 2022 - 2023 - Biology",
+  "exam_id": "somaliland_12_biology_2023",
+  "year": 2023,
+  "subject": "Biology",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "1. Which of the following is an extrinsic disease factor that can cause a disease?",
+      "diagram": null,
+      "options": [
+        "a. Hormonal disturbances",
+        "b. Genetic abnormalities",
+        "c. Nutritional factors",
+        "d. Rh⁺ factor"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Extrinsic factors come from outside the body (diet, pathogens, environment); the others are intrinsic.",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "2. The site of actions of whooping cough disease is",
+      "diagram": null,
+      "options": [
+        "a. Intestines",
+        "b. Upper respiratory system",
+        "c. Nervous system",
+        "d. Reproductive organs"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Whooping cough (pertussis) attacks the respiratory tract.",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "3. Which of the following is endoparasite?",
+      "diagram": null,
+      "options": [
+        "a. Ticks",
+        "b. Liver flukes",
+        "c. Lice",
+        "d. Mites"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Liver flukes live inside the host; ticks, lice and mites are ectoparasites.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "4. ______________ is a method of controlling livestock parasite in which some drugs are given to an animal to kill the worms",
+      "diagram": null,
+      "options": [
+        "a. De-Worming",
+        "b. Dipping and spraying",
+        "c. Hygiene",
+        "d. Sanitation"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "5. In the punnett square shown below, which of the following is true about the offspring resulting from the cross? (TT x Tt)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 190\" width=\"100%\" style=\"max-width:300px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Empty Punnett square for the cross TT x Tt\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><g fill=\"none\" stroke=\"#111\" stroke-width=\"2\"><rect x=\"70\" y=\"20\" width=\"200\" height=\"50\"/><rect x=\"20\" y=\"70\" width=\"50\" height=\"100\"/><rect x=\"70\" y=\"70\" width=\"200\" height=\"100\"/><line x1=\"170\" y1=\"20\" x2=\"170\" y2=\"170\"/><line x1=\"20\" y1=\"120\" x2=\"270\" y2=\"120\"/></g><text x=\"120\" y=\"52\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" >T</text><text x=\"220\" y=\"52\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" >t</text><text x=\"45\" y=\"102\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" >T</text><text x=\"45\" y=\"152\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" >T</text></svg>",
+        "caption": "Punnett square for the cross TT × Tt: gametes T and t across the top, T and T down the side."
+      },
+      "options": [
+        "a. About half are expected to be short",
+        "b. All are expected to be short",
+        "c. About half are expected to be tall",
+        "d. All are expected to be tall"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Offspring: TT, Tt, TT, Tt – every offspring has at least one dominant T, so all are tall.",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "6. Which of the following alleles is homozygous recessive?",
+      "diagram": null,
+      "options": [
+        "a. TT",
+        "b. tt",
+        "c. Tt",
+        "d. tT"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "7. Artificially acquired passive immunity involves",
+      "diagram": null,
+      "options": [
+        "a. Vaccination with attenuated virus or bacteria",
+        "b. The transfer of antibodies, as from a mother to her fetus",
+        "c. Antibody formation as a result of exposure to antigens in the environment",
+        "d. Injection of performed antibodies such as immunoglobin"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Artificial passive immunity = injection of ready-made antibodies (e.g. antiserum, immunoglobulin). (a) is artificial active, (b) natural passive, (c) natural active.",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "8. Which one of the following is NOT a member of reactants required by photosynthesis",
+      "diagram": null,
+      "options": [
+        "a. Water",
+        "b. CO₂",
+        "c. Oxygen",
+        "d. H₂O"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Oxygen is a product of photosynthesis, not a reactant.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "9. Nutritional diseases caused by either inadequate diet or unbalanced diet is known as",
+      "diagram": null,
+      "options": [
+        "a. Infectious diseases",
+        "b. Physical diseases",
+        "c. Social diseases",
+        "d. Deficiency diseases"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "10. __________________ are internal framework of the cell and are found in the cytoplasm of most cells",
+      "diagram": null,
+      "options": [
+        "a. Cytoskeleton",
+        "b. Centrioles",
+        "c. Endoplasmic reticulum",
+        "d. Golgi apparatus"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "11. A type of feeding where the organism consumes decaying organic matter is called",
+      "diagram": null,
+      "options": [
+        "a. Holozoic",
+        "b. Parasitism",
+        "c. Phagocytosis",
+        "d. Saprophytic"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "12. Rate of diffusion across plasma member is affected by",
+      "diagram": null,
+      "options": [
+        "a. Temperature",
+        "b. Particle size",
+        "c. Concentration gradient",
+        "d. All"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "13. Anti-diuretic hormone (ADH) is secreted by ____________ in response to an increase in the osmotic pressure of blood",
+      "diagram": null,
+      "options": [
+        "a. Kidney",
+        "b. Pituitary gland",
+        "c. Pancreas",
+        "d. Liver"
+      ],
+      "correct_index": 1,
+      "answer_guide": "ADH is released by the posterior pituitary gland.",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "14. The right side of the heart receives deoxygenated blood from the __________",
+      "diagram": null,
+      "options": [
+        "a. Aorta",
+        "b. Capillaries",
+        "c. Vena caves",
+        "d. Arterioles"
+      ],
+      "correct_index": 2,
+      "answer_guide": "The venae cavae return deoxygenated blood to the right atrium.",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "15. The upper most tip of the stem where upward growth of the stem takes place is known as",
+      "diagram": null,
+      "options": [
+        "a. Axial bud",
+        "b. Terminal bud",
+        "c. Lateral bud",
+        "d. Radial bud"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "16. Which of the following is NOT the function of worker bees?",
+      "diagram": null,
+      "options": [
+        "a. Protect the hive from the intruders",
+        "b. Make honey and bee wax",
+        "c. Clean the hive",
+        "d. All are functions of worker bee."
+      ],
+      "correct_index": 3,
+      "answer_guide": "Worker bees do all of these jobs.",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "17. Fertilizers are regrouped according to the nutrients they supply. Which of the following is correct for regrouping",
+      "diagram": null,
+      "options": [
+        "a. Straight and compound fertilizers",
+        "b. Band placement",
+        "c. Incomplete compound fertilizers",
+        "d. Soil PH"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Straight fertilizers supply one nutrient; compound fertilizers supply two or more.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "18. _______________ is unicellular fungi that reproduce asexually by budding",
+      "diagram": null,
+      "options": [
+        "a. Mushroom",
+        "b. Toad stool",
+        "c. Yeast",
+        "d. None"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "19. The scientific study of diseases and abnormal structures and functions, symptoms and effects is called",
+      "diagram": null,
+      "options": [
+        "a. Pathology",
+        "b. Genetics",
+        "c. Paleontology",
+        "d. Embryology"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: Multiple Choice Questions (40 Marks)",
+      "question": "20. Human diseases caused by _______________ include tuberculosis, pneumonia, leprosy, typhoid, tetanus, diphtheria and food poising",
+      "diagram": null,
+      "options": [
+        "a. Insects",
+        "b. Pathogenic bacteria",
+        "c. Viruses",
+        "d. Fungi"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "1.\n  a. What are infectious diseases (1 Mark)\n  b. Name two ways through which pathogens /germs spread from infected person to healthy person? (2 Marks)\n  c. Give two examples of infectious disease (1 Mark)\n  d. State the pathogen that causes typhoid. (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Diseases caused by pathogens (bacteria, viruses, fungi, protozoa) that can be passed from one person or organism to another.\nb. Any two: through the air (droplets from coughing/sneezing); contaminated food and water; direct contact (touching, sexual contact); vectors such as mosquitoes and flies; contaminated objects or blood.\nc. Any two: tuberculosis, cholera, malaria, typhoid, measles, HIV/AIDS, influenza.\nd. The bacterium Salmonella typhi.",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "2. The following diagram illustrates the life cycle of roundworm as it affects the livestock label the missing parts.\n  a) ____________ (2 Marks)\n  b) ____________ (1 Mark)\n  c) ____________ (2 Marks)\n  d) ____________ (1 Mark)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 315\" width=\"100%\" style=\"max-width:520px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Life cycle of roundworm in livestock with parts a, b, c and d to label\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><ellipse cx=\"255\" cy=\"90\" rx=\"70\" ry=\"38\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"2\"/><ellipse cx=\"333\" cy=\"72\" rx=\"20\" ry=\"16\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"205\" y=\"120\" width=\"9\" height=\"38\" fill=\"#ccc\" stroke=\"#111\"/><rect x=\"225\" y=\"120\" width=\"9\" height=\"38\" fill=\"#ccc\" stroke=\"#111\"/><rect x=\"280\" y=\"120\" width=\"9\" height=\"38\" fill=\"#ccc\" stroke=\"#111\"/><rect x=\"300\" y=\"120\" width=\"9\" height=\"38\" fill=\"#ccc\" stroke=\"#111\"/><line x1=\"185\" y1=\"70\" x2=\"130\" y2=\"70\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"130\" y1=\"70\" x2=\"130\" y2=\"160\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><circle cx=\"122\" cy=\"170\" r=\"6\" fill=\"#111\"/><circle cx=\"138\" cy=\"170\" r=\"6\" fill=\"#111\"/><circle cx=\"126\" cy=\"184\" r=\"6\" fill=\"#111\"/><circle cx=\"142\" cy=\"182\" r=\"6\" fill=\"#111\"/><line x1=\"130\" y1=\"192\" x2=\"130\" y2=\"245\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"130\" y1=\"245\" x2=\"205\" y2=\"245\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><path d=\"M210,240 c2.0,-3.0 4.0,3.0 6.0,0 c2.0,-3.0 4.0,3.0 6.0,0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><path d=\"M222,252 c2.0,-3.0 4.0,3.0 6.0,0 c2.0,-3.0 4.0,3.0 6.0,0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><path d=\"M210,258 c2.0,-3.0 4.0,3.0 6.0,0 c2.0,-3.0 4.0,3.0 6.0,0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><line x1=\"240\" y1=\"245\" x2=\"300\" y2=\"245\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><path d=\"M305,238 c4.0,-6.0 8.0,6.0 12.0,0 c4.0,-6.0 8.0,6.0 12.0,0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><path d=\"M330,238 c4.0,-6.0 8.0,6.0 12.0,0 c4.0,-6.0 8.0,6.0 12.0,0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><path d=\"M315,255 c4.0,-6.0 8.0,6.0 12.0,0 c4.0,-6.0 8.0,6.0 12.0,0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><line x1=\"345\" y1=\"255\" x2=\"380\" y2=\"255\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"380\" y1=\"255\" x2=\"380\" y2=\"210\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><path d=\"M368,195 c4.0,-6.0 8.0,6.0 12.0,0 c4.0,-6.0 8.0,6.0 12.0,0\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.8\"/><line x1=\"380\" y1=\"185\" x2=\"380\" y2=\"60\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"20\" y=\"180\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" >a) ____________</text><text x=\"30\" y=\"198\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\" >(2 Marks)</text><text x=\"170\" y=\"285\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" >b) ____________</text><text x=\"320\" y=\"285\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" >c) ____________</text><text x=\"400\" y=\"200\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" >d) ____________</text><text x=\"420\" y=\"218\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\" >(1 Mark)</text><text x=\"190\" y=\"300\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\" >(1 Mark)</text><text x=\"340\" y=\"300\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\" >(2 Marks)</text></svg>",
+        "caption": "Roundworm life cycle in livestock: the sheep passes eggs (a), eggs hatch into small larvae (b), larvae grow into infective larvae on the pasture (c), and an infective larva is taken in by the grazing sheep (d)."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Eggs passed out in the dung (faeces) of the infected animal\nb) Eggs hatch into (first-stage) larvae on the ground\nc) Larvae develop into infective larvae on the pasture/grass\nd) Infective larva swallowed by the animal while grazing (enters the host)",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "3. Make comparison in between the two types of photosynthesis. Use the terms C₃ and C₄ to complete the following table. (6 Marks)\n\n   | Features                                                   | C3 or C4 |\n   | a) Use enzyme rubisco to fix Co₂ (1.5 marks)               |          |\n   | b) Calvin cycle takes place in bundle sheet cells (1.5 marks) |       |\n   | c) Have chloroplasts with no thylakoids (1.5 Marks)        |          |\n   | d) Needs optimum temperature of 15 – 25c⁰ (1.5 Marks)      |          |",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) C3 – rubisco fixes CO₂ directly (C4 plants first fix CO₂ with PEP carboxylase)\nb) C4\nc) C4 – bundle-sheath chloroplasts of C4 plants lack grana (stacked thylakoids)\nd) C3 (C4 plants have a higher optimum, about 30–40 °C)",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "4.\n  a. Explain the term immune response. (1 Mark)\n  b. Immune response can be classified into two categories. Mention them (2 Marks)\n  c. Name only the first line of body defense (1 Mark)\n  d. Explain how interferons take part in body defense against diseases (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The body's reaction to the presence of a foreign substance (antigen/pathogen) in order to destroy or neutralise it.\nb. Innate (non-specific) immune response and adaptive/acquired (specific) immune response. [Also accept: humoral (antibody) and cell-mediated responses.]\nc. Physical and chemical barriers – the skin and mucous membranes (with mucus, cilia, tears, stomach acid).\nd. Interferons are proteins released by virus-infected cells; they signal neighbouring healthy cells to make antiviral proteins that stop the virus from multiplying, and they activate immune cells.",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "5.\n  a. What are the two main stages that cell cycle consists of? (2 Marks)\n  b. Match the four phases of mitosis (prophase, metaphase, anaphase and telophase) with their appropriate events given below.\n     A. __________ the centromere splits apart and the chromatids are pulled to opposite poles of the cell by spindle fibers (1 Mark)\n     B. __________ the nuclear membrane and nucleolus disappear and the chromosomes condense (1 Mark)\n     C. __________ final phase in which the chromosomes unwind and become less visible (1 Mark)\n     D. __________ the spindle fibers attach to the centromere after being lined at the equator (1 Mark)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Interphase and the mitotic (M) phase (mitosis + cytokinesis).\nb. A – Anaphase\n   B – Prophase\n   C – Telophase\n   D – Metaphase",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "6.\n  a. What is castration? (1 Mark)\n  b. Give two reasons for making livestock breeding (2 Marks)\n  c. Why dehorning is important? (1 Mark)\n  d. State two methods of dehorning (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The removal or destruction of the testes of a male animal so that it cannot reproduce.\nb. Any two: to improve the quality of animals (higher milk, meat, wool yields); to produce animals resistant to diseases and harsh conditions; to increase the number of animals; to obtain faster-growing animals.\nc. It prevents animals from injuring each other and their handlers, and makes them easier and safer to handle.\nd. Any two: using caustic chemicals (caustic soda/potash stick) on horn buds; hot iron (disbudding iron); dehorning saw; elastic rubber rings; dehorning wire.",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "7. Put the following events in the correct order for pollination by giving number (1 - 4) (6 Marks)\n  a. Bee gets dusted with pollen ________\n  b. Anther splits open ________\n  c. Bee visits a flowering plans ________\n  d. Pollen is deposited on stigma ________ (1.5 marks each)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a – 3\nb – 1\nc – 2\nd – 4\n(Anther splits open → bee visits a flowering plant → bee gets dusted with pollen → pollen is deposited on the stigma.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "8. Consider the following food chain and answer the related questions\n  a. Which one of the organisms in the food chain above is the secondary consumer? (2 Marks)\n  b. Which of them is herbivore? (2 Marks)\n  c. Which organism in the above food chain would be on the base of the trophic /food pyramid (2 Marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 280\" width=\"100%\" style=\"max-width:360px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Food chain: leaves eaten by a small bird which is eaten by a hawk\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M40,250 C60,210 110,205 140,225 C120,250 70,262 40,250 Z\" fill=\"#cfe5c0\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M40,250 L140,225\" stroke=\"#111\"/><text x=\"85\" y=\"272\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" >Leaves (plant)</text><ellipse cx=\"215\" cy=\"200\" rx=\"28\" ry=\"16\" fill=\"#e6eef7\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"242\" cy=\"188\" r=\"10\" fill=\"#e6eef7\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M252,188 l10,3 l-10,3 z\" fill=\"#111\"/><path d=\"M188,198 l-18,-8 l2,14 z\" fill=\"#ddd\" stroke=\"#111\"/><text x=\"215\" y=\"232\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" >Small bird</text><line x1=\"140\" y1=\"230\" x2=\"186\" y2=\"208\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><ellipse cx=\"200\" cy=\"80\" rx=\"45\" ry=\"26\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"240\" cy=\"58\" r=\"16\" fill=\"#bbb\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M255,58 l12,6 l-12,4 z\" fill=\"#111\"/><path d=\"M158,90 l-35,15 l5,-22 z\" fill=\"#999\" stroke=\"#111\"/><text x=\"200\" y=\"128\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" >Hawk</text><path d=\"M250,180 C300,150 300,100 258,70\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/></svg>",
+        "caption": "Food chain: leaves on a twig are eaten by a small bird, which is eaten by a hawk (arrows show the direction of energy flow)."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Food chain: leaves (plant) → small bird → hawk\na. The hawk (bird of prey)\nb. The small bird (it feeds on the plant)\nc. The plant (leaves) – the producer",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "9. The following diagram shows you bacterial structure.\n  a. Label the missing parts represents by: A,B and C (3 Marks)\n     A. ________\n     B. ________\n     C. ________\n  b. What function does part B perform (1 Mark)\n  c. List the three basic shapes of bacteria (2 Marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 300\" width=\"100%\" style=\"max-width:560px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Bacterial cell with parts A, B and C to label and ribosome labelled\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><ellipse cx=\"230\" cy=\"150\" rx=\"140\" ry=\"62\" fill=\"#ddd\" stroke=\"#111\" stroke-width=\"3\" transform=\"rotate(-25 230 150)\"/><ellipse cx=\"230\" cy=\"150\" rx=\"122\" ry=\"48\" fill=\"#f2f2f2\" stroke=\"#111\" stroke-width=\"2\" transform=\"rotate(-25 230 150)\"/><ellipse cx=\"230\" cy=\"150\" rx=\"110\" ry=\"38\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"1.5\" transform=\"rotate(-25 230 150)\"/><path d=\"M180,165 c10,-20 25,10 35,-12 c10,-20 25,10 35,-14 c10,-18 22,6 32,-12\" fill=\"none\" stroke=\"#333\" stroke-width=\"3\"/><line x1=\"359\" y1=\"90\" x2=\"374\" y2=\"83\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"358\" y1=\"121\" x2=\"373\" y2=\"118\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"331\" y1=\"158\" x2=\"344\" y2=\"159\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"285\" y1=\"193\" x2=\"292\" y2=\"198\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"228\" y1=\"220\" x2=\"227\" y2=\"228\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"171\" y1=\"233\" x2=\"164\" y2=\"243\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"126\" y1=\"229\" x2=\"113\" y2=\"239\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"101\" y1=\"210\" x2=\"86\" y2=\"217\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"102\" y1=\"179\" x2=\"87\" y2=\"182\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"129\" y1=\"142\" x2=\"116\" y2=\"141\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"175\" y1=\"107\" x2=\"168\" y2=\"102\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"232\" y1=\"80\" x2=\"233\" y2=\"72\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"289\" y1=\"67\" x2=\"296\" y2=\"57\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"334\" y1=\"71\" x2=\"347\" y2=\"61\" stroke=\"#111\" stroke-width=\"1.5\"/><path d=\"M352,95 C420,40 450,120 400,170 C360,210 380,260 420,250\" fill=\"none\" stroke=\"#111\" stroke-width=\"3\"/><circle cx=\"160\" cy=\"190\" r=\"3\" fill=\"#111\"/><circle cx=\"172\" cy=\"182\" r=\"3\" fill=\"#111\"/><circle cx=\"290\" cy=\"120\" r=\"3\" fill=\"#111\"/><circle cx=\"300\" cy=\"132\" r=\"3\" fill=\"#111\"/><line x1=\"80\" y1=\"60\" x2=\"205\" y2=\"140\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"30\" y=\"58\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" >A) ________</text><line x1=\"395\" y1=\"175\" x2=\"455\" y2=\"205\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"455\" y=\"210\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" >B) ________</text><line x1=\"255\" y1=\"215\" x2=\"280\" y2=\"270\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"250\" y=\"288\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" >C) ________</text><line x1=\"165\" y1=\"190\" x2=\"110\" y2=\"250\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"60\" y=\"265\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\" >Ribosome</text></svg>",
+        "caption": "Rod-shaped bacterial cell with surface pili, a long flagellum and a coiled DNA region; labels A (pointing into the cell envelope), B (the long tail) and C (the outer layer) are to be filled in, and ribosomes are labelled."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A – Cell membrane (plasma membrane) [also accept: nucleoid/DNA if the pointer is read as reaching the chromosome]\n   B – Flagellum\n   C – Cell wall [also accept: pili/fimbriae or capsule depending on the pointer]\nb. The flagellum is used for movement (locomotion).\nc. Cocci (spherical), bacilli (rod-shaped) and spirilla (spiral).",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO: Structured Questions (60 Marks)",
+      "question": "10. Complete the following table using the appropriate of farming (mixed farming shifting cultivation, nomadic pastoralism, agroforestry (6 Marks)\n\n   | a) ________ | Keeping and movement with livestock in search of pasture and water (1 Mark) |\n   | b) ________ | Involves rearing both crop and animals on the same farm (2 Marks) |\n   | c) ________ | Land use system in which trees or shrubs are grown in association with agricultural crops (1 Mark) |\n   | d) ________ | Is usually practiced in areas of low population density or where arable land is not limited (2 Marks) |",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Nomadic pastoralism\nb) Mixed farming\nc) Agroforestry\nd) Shifting cultivation",
+      "matching_pairs": null
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "title": "Somaliland Form Four Examination 2023 - Chemistry",
+  "exam_id": "somaliland_12_chemistry_2023",
+  "year": 2023,
+  "subject": "Chemistry",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "1. The Atomic number of atom (Z) is the: -",
+      "diagram": null,
+      "options": [
+        "a. Number of electrons only",
+        "b. Number of protons",
+        "c. Number of protons and neutrons",
+        "d. Number of electrons and protons"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "2. The Electron arrangement of Oxygen atom is:-",
+      "diagram": null,
+      "options": [
+        "a. 1S²,2S²,2P⁵",
+        "b. 1S²,2S²,2P⁶",
+        "c. 1S²,2S²,2P³",
+        "d. 1S²,2S²,2P²"
+      ],
+      "correct_index": null,
+      "answer_guide": "Oxygen (Z = 8) is 1s² 2s² 2p⁴. None of the printed options is correct (they give 2p⁵, 2p⁶, 2p³ and 2p²).",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "3. A P-Sub-Shell Contains :-",
+      "diagram": null,
+      "options": [
+        "a. 1 Orbital",
+        "b. 2 Orbital",
+        "c. 3 Orbital",
+        "d. 4 Orbital"
+      ],
+      "correct_index": 2,
+      "answer_guide": "A p sub-shell has 3 orbitals (px, py, pz), holding up to 6 electrons.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "4. The Relative formula mass of MgO is: -\n   (Mg=24, O=16)",
+      "diagram": null,
+      "options": [
+        "a. 41",
+        "b. 42",
+        "c. 40",
+        "d. 43"
+      ],
+      "correct_index": 2,
+      "answer_guide": "24 + 16 = 40",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "5. The relative molecular mass HNO₃ is: -\n   (H=1, N=14, O=16)",
+      "diagram": null,
+      "options": [
+        "a. 60",
+        "b. 63",
+        "c. 61",
+        "d. 62"
+      ],
+      "correct_index": 1,
+      "answer_guide": "1 + 14 + 3(16) = 63",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "6. The molecular mass of N₂ molecule is: -\n   (N=14)",
+      "diagram": null,
+      "options": [
+        "a. 30",
+        "b. 29",
+        "c. 27",
+        "d. 28"
+      ],
+      "correct_index": 3,
+      "answer_guide": "2 × 14 = 28",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "7. Which of the following is Ionic compound: -",
+      "diagram": null,
+      "options": [
+        "a. SO₂",
+        "b. H₂O",
+        "c. AlCl₃",
+        "d. NH₃"
+      ],
+      "correct_index": 2,
+      "answer_guide": "AlCl₃ is the only metal–non-metal compound, so it is the intended answer (strictly, anhydrous AlCl₃ has considerable covalent character).",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "8. Which of the following is Covalent Compound: -",
+      "diagram": null,
+      "options": [
+        "a. NaCl",
+        "b. MgO",
+        "c. CaCl₂",
+        "d. CO₂"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "9. Which of the following compound is Carboxylic acid: -",
+      "diagram": null,
+      "options": [
+        "a. HCl",
+        "b. H₂SO₄",
+        "c. HNO₃",
+        "d. CH₃COOH"
+      ],
+      "correct_index": 3,
+      "answer_guide": "CH₃COOH (ethanoic acid) contains –COOH.",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "10. A triple Covalent bond atoms share: -",
+      "diagram": null,
+      "options": [
+        "a. 1 pair of electrons",
+        "b. 2 pair of electrons",
+        "c. 3 pairs of electrons",
+        "d. 4 pairs of electrons"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "11. Organic compound with same molecular formula but different structural formula are: -",
+      "diagram": null,
+      "options": [
+        "a. Isotopes",
+        "b. Allotropes",
+        "c. Isomers",
+        "d. Polymers"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "12. When ΔH (Kg/mole) is a negative value it indicates:-",
+      "diagram": null,
+      "options": [
+        "a. Endothermic process",
+        "b. Exothermic process",
+        "c. Oxidation process",
+        "d. Reduction process"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Negative ΔH = heat released = exothermic.",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "13. Which of the following is a characteristic of Acids: -",
+      "diagram": null,
+      "options": [
+        "a. Change the red Litmus to blue",
+        "b. Has a bitter test",
+        "c. Produces OH⁻ ions",
+        "d. Produces H ions"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Acids produce H⁺ ions in water.",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "14. Carbon dioxide gas is produced when an acid react with: -",
+      "diagram": null,
+      "options": [
+        "a. An alkali",
+        "b. A metal",
+        "c. A Carbonates",
+        "d. Another acid"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Acid + carbonate → salt + water + CO₂",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "15. In an electrolytic cell, negative ions (Cations) are attracted to the:-",
+      "diagram": null,
+      "options": [
+        "a. Cathode",
+        "b. Anode",
+        "c. Both Cathode and Anode",
+        "d. All of the above"
+      ],
+      "correct_index": 1,
+      "answer_guide": "The question contradicts itself: negative ions are ANIONS and go to the anode; cations are positive and go to the cathode. Taking 'negative ions' as written, the answer is the anode (b). If 'cations' was meant, the answer is the cathode (a). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "16. Electrolysis can be used: -",
+      "diagram": null,
+      "options": [
+        "a. Metal extraction",
+        "b. Metal purification",
+        "c. Electroplating",
+        "d. All of the above"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "17. Which of the following gases is an air pollutant?",
+      "diagram": null,
+      "options": [
+        "a. Hydrogen",
+        "b. Oxygen",
+        "c. Nitrogen",
+        "d. Carbon monoxide"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "18. Air pollution that generated from human activities is called: -",
+      "diagram": null,
+      "options": [
+        "a. Natural pollution",
+        "b. Artificial pollution",
+        "c. Catalytic converter",
+        "d. Reducing pollution"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Pollution from human activities is man-made (anthropogenic) pollution – 'artificial pollution' among the options.",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "19. When a solvent and solute are soluble they form: -",
+      "diagram": null,
+      "options": [
+        "a. Suspension",
+        "b. Solution",
+        "c. Solute",
+        "d. Solubility"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "Part One: Multiple Choice (20 X 2 Marks = 40 Marks)",
+      "question": "20. We can Separate salt form a salt solution by:-",
+      "diagram": null,
+      "options": [
+        "a. Filter funnel",
+        "b. Filtration",
+        "c. Evaporation",
+        "d. Chromatography"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "1. Atoms of Carbon are shown below\n\n   | A   | B   | C   |\n   | ¹²C | ¹³C | ¹⁴C |\n\n  a. State the number of protons in atom A and B. (2 Marks)\n  b. State the number of neutrons in atom A and B. (2 Marks)\n  c. What do mean by the term Isotope? (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A = 6 protons; B = 6 protons (all carbon atoms have atomic number 6).\nb. A: 12 − 6 = 6 neutrons; B: 13 − 6 = 7 neutrons.\nc. Isotopes are atoms of the same element with the same number of protons (atomic number) but different numbers of neutrons (different mass numbers).",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "2. The table below shows two Ions:\n\n   | A           | B          |\n   | ⁴⁰₂₀Ca²⁺    | ³⁵₁₇Cl⁻    |\n\n  a. State the number of electrons of the above ions. (2 Marks)\n  b. Write the electronic configuration (in Spdf) of particle A? (2 Marks)\n  c. Write down the electronic arrangement (in Spdf) of particle B?(2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Ca²⁺: 20 − 2 = 18 electrons; Cl⁻: 17 + 1 = 18 electrons.\nb. Ca²⁺: 1s² 2s² 2p⁶ 3s² 3p⁶\nc. Cl⁻: 1s² 2s² 2p⁶ 3s² 3p⁶ (both ions are isoelectronic with argon).",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "3. Butane is Hydrocarbon molecule (C₄H₁₀)\n  a. Workout the relative molecular mass of C₄H₁₀ :- (RAM = C=12, H=1) (2 Marks)\n  b. Calculate the mass percent of Hydrogen in Butane? (2 Marks)\n  c. Calculate the mass percent of Carbon in Butane? (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Mr = 4(12) + 10(1) = 58\nb. %H = 10/58 × 100 ≈ 17.2%\nc. %C = 48/58 × 100 ≈ 82.8%",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "4. This diagram shows the cross-dot diagram of Hydrogen Chloride molecule:-\n  a. How many electrons are shared? (2 Marks)\n  b. Name the bond that hold the atoms together. (2 Marks)\n  c. Why atoms of different elements react together? (2 Marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 300 200\" width=\"100%\" style=\"max-width:300px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Dot-and-cross diagram of hydrogen chloride, outer electrons only\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><circle cx=\"80\" cy=\"90\" r=\"34\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"75\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"75\" y=\"99\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\">H</text><text x=\"175\" y=\"99\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\">Cl</text><text x=\"108\" y=\"86\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">×</text><circle cx=\"108\" cy=\"100\" r=\"4\" fill=\"#111\"/><circle cx=\"163\" cy=\"15\" r=\"4\" fill=\"#111\"/><circle cx=\"177\" cy=\"15\" r=\"4\" fill=\"#111\"/><circle cx=\"245\" cy=\"83\" r=\"4\" fill=\"#111\"/><circle cx=\"245\" cy=\"97\" r=\"4\" fill=\"#111\"/><circle cx=\"163\" cy=\"165\" r=\"4\" fill=\"#111\"/><circle cx=\"177\" cy=\"165\" r=\"4\" fill=\"#111\"/><text x=\"150\" y=\"190\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\">hydrogen chloride – only outer electrons shown</text></svg>",
+        "caption": "Dot-and-cross diagram of HCl: hydrogen's electron (×) and one chlorine electron (•) are shared in the overlap; chlorine has three further lone pairs."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. 2 electrons (one shared pair – one from H, one from Cl).\nb. A (single) covalent bond.\nc. To achieve a stable full outer shell (noble-gas electron arrangement) by sharing, gaining or losing electrons.",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "5. Write down the correct IUPAC name of the following organic compounds:-\n  a. CH₃–CCl₂–CH₃ (2 Marks)\n  b. CH₃–CBr₂–C(CH₃)₂–CH₃ (2 Marks)\n  c. (CH₃)₃C–CH₂–CH(CH₃)–CH₃ (2 Marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 480\" width=\"100%\" style=\"max-width:460px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Three structural formulae labelled a, b and c\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><text x=\"15\" y=\"30\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">a.</text><g transform=\"translate(60,0)\"><text x=\"60\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"150\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"240\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"150\" y=\"28\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">Cl</text><text x=\"150\" y=\"135\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">Cl</text><line x1=\"82\" y1=\"75\" x2=\"138\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"162\" y1=\"75\" x2=\"218\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"150\" y1=\"38\" x2=\"150\" y2=\"62\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"150\" y1=\"88\" x2=\"150\" y2=\"115\" stroke=\"#111\" stroke-width=\"2\"/></g><text x=\"15\" y=\"190\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">b.</text><g transform=\"translate(40,160)\"><text x=\"50\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"140\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"230\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"320\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"140\" y=\"28\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">Br</text><text x=\"140\" y=\"135\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">Br</text><text x=\"230\" y=\"28\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"230\" y=\"135\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><line x1=\"72\" y1=\"75\" x2=\"128\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"152\" y1=\"75\" x2=\"218\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"242\" y1=\"75\" x2=\"298\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"140\" y1=\"38\" x2=\"140\" y2=\"62\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"140\" y1=\"88\" x2=\"140\" y2=\"115\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"230\" y1=\"38\" x2=\"230\" y2=\"62\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"230\" y1=\"88\" x2=\"230\" y2=\"115\" stroke=\"#111\" stroke-width=\"2\"/></g><text x=\"15\" y=\"350\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">c.</text><g transform=\"translate(0,320)\"><text x=\"40\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"125\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"210\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₂</text><text x=\"300\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH</text><text x=\"395\" y=\"80\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"125\" y=\"28\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"125\" y=\"135\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><text x=\"300\" y=\"135\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><line x1=\"62\" y1=\"75\" x2=\"113\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"137\" y1=\"75\" x2=\"185\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"235\" y1=\"75\" x2=\"280\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"322\" y1=\"75\" x2=\"372\" y2=\"75\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"125\" y1=\"38\" x2=\"125\" y2=\"62\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"125\" y1=\"88\" x2=\"125\" y2=\"115\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"300\" y1=\"88\" x2=\"300\" y2=\"115\" stroke=\"#111\" stroke-width=\"2\"/></g></svg>",
+        "caption": "Structural formulae: (a) propane with two Cl atoms on the middle carbon; (b) four-carbon chain with two Br on C2 and two CH₃ on C3; (c) five-carbon chain with two CH₃ on C2 and one CH₃ on C4."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. 2,2-dichloropropane\nb. 2,2-dibromo-3,3-dimethylbutane\nc. 2,2,4-trimethylpentane",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "6. Define the following terms:-\n  a. i) Exothermic process. (1 Marks)\n     ii) Endothermic process. (1 Marks)\n  b. Bond energy. (2 Marks)\n  c. Enthalpy change. (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. i) A process (reaction) that releases heat energy to the surroundings; ΔH is negative.\n   ii) A process that absorbs heat energy from the surroundings; ΔH is positive.\nb. Bond energy is the energy needed to break one mole of a particular covalent bond (in gaseous molecules); the same amount is released when the bond forms.\nc. Enthalpy change (ΔH) is the heat energy given out or taken in during a chemical reaction at constant pressure (ΔH = H products − H reactants).",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "7. The electrolysis of Lithium Chloride Solution is shown below.\n  a. What is?\n     i. Anode. (1 Marks)\n     ii. Cathode. (1 Marks)\n  b. Define the electrolyte? (2 Marks)\n  c. List four ions present in the above solution (2 Marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 240\" width=\"100%\" style=\"max-width:420px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Electrolysis apparatus: battery, anode (positive) and cathode (negative) electrodes in an electrolyte containing ions\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><text x=\"210\" y=\"18\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Electrolysis apparatus</text><line x1=\"190\" y1=\"40\" x2=\"190\" y2=\"64\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"200\" y1=\"46\" x2=\"200\" y2=\"58\" stroke=\"#111\" stroke-width=\"4\"/><line x1=\"212\" y1=\"40\" x2=\"212\" y2=\"64\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"222\" y1=\"46\" x2=\"222\" y2=\"58\" stroke=\"#111\" stroke-width=\"4\"/><text x=\"178\" y=\"50\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">+</text><text x=\"238\" y=\"50\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">–</text><line x1=\"120\" y1=\"52\" x2=\"190\" y2=\"52\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"222\" y1=\"52\" x2=\"300\" y2=\"52\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"120\" y1=\"52\" x2=\"120\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"300\" y1=\"52\" x2=\"300\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M90,95 V215 H330 V95\" fill=\"#e6f0f8\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"112\" y=\"108\" width=\"16\" height=\"85\" fill=\"#555\"/><rect x=\"292\" y=\"108\" width=\"16\" height=\"85\" fill=\"#555\"/><circle cx=\"180\" cy=\"160\" r=\"7\" fill=\"#111\"/><line x1=\"190\" y1=\"160\" x2=\"280\" y2=\"160\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"185\" y=\"145\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">+</text><circle cx=\"250\" cy=\"190\" r=\"7\" fill=\"#fff\" stroke=\"#111\"/><line x1=\"240\" y1=\"190\" x2=\"140\" y2=\"190\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"250\" y=\"182\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">–</text><text x=\"25\" y=\"60\" font-size=\"12\" text-anchor=\"start\" font-weight=\"normal\">anode</text><text x=\"25\" y=\"74\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">(positive electrode)</text><text x=\"395\" y=\"60\" font-size=\"12\" text-anchor=\"end\" font-weight=\"normal\">cathode</text><text x=\"395\" y=\"74\" font-size=\"11\" text-anchor=\"end\" font-weight=\"normal\">(negative electrode)</text><text x=\"340\" y=\"228\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">electrolyte – molten or aqueous solution, contains ions</text></svg>",
+        "caption": "Electrolysis apparatus: a battery connected to an anode (positive electrode) and a cathode (negative electrode) dipping into an electrolyte that contains ions; positive and negative ions move towards opposite electrodes."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. i. Anode – the positive electrode (attracts anions; oxidation occurs there).\n   ii. Cathode – the negative electrode (attracts cations; reduction occurs there).\nb. An electrolyte is a compound that conducts electricity when molten or dissolved in water and is decomposed by it, because it contains free-moving ions.\nc. Li⁺, Cl⁻, H⁺ and OH⁻ (from water).",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "8. The table below show PH of some acids Alkalis.\n\n   | A  | B | C | D | E |\n   | 14 | 1 | 6 | 8 | 7 |\n\n   Which of the above substance is a:-\n  a. i) Weak acid (1 Mark)\n     ii) Weak alkali (1 Mark)\n  b. i) Strong acid (1 Mark)\n     ii) Strong Alkali (1 Mark)\n  c. Name one weak acid and one weak alkali in everyday life. (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. i) C (pH 6)\n   ii) D (pH 8)\nb. i) B (pH 1)\n   ii) A (pH 14)\n   (E, pH 7, is neutral.)\nc. Weak acid (any one): vinegar (ethanoic acid), lemon juice (citric acid), carbonic acid in soda drinks. Weak alkali (any one): ammonia solution, baking soda (sodium hydrogencarbonate), toothpaste, soap solution.",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "9. Air Pollution is serious Environmental problem:-\n  a. What is Air pollution? (2 Marks)\n  b. State two source of Air pollution? (2 Marks)\n  c. List any two Pollutant gases. (2 Marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 120\" width=\"100%\" style=\"max-width:420px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Illustration: factory chimneys releasing smoke into the air, titled AIR POLLUTION\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"0\" y=\"0\" width=\"420\" height=\"120\" fill=\"#ddd\"/><rect x=\"20\" y=\"70\" width=\"30\" height=\"50\" fill=\"#444\"/><rect x=\"70\" y=\"55\" width=\"18\" height=\"65\" fill=\"#444\"/><rect x=\"110\" y=\"80\" width=\"50\" height=\"40\" fill=\"#444\"/><rect x=\"190\" y=\"50\" width=\"16\" height=\"70\" fill=\"#444\"/><rect x=\"240\" y=\"75\" width=\"60\" height=\"45\" fill=\"#444\"/><rect x=\"320\" y=\"60\" width=\"20\" height=\"60\" fill=\"#444\"/><rect x=\"360\" y=\"85\" width=\"45\" height=\"35\" fill=\"#444\"/><circle cx=\"80\" cy=\"40\" r=\"14\" fill=\"#777\" opacity=\"0.7\"/><circle cx=\"95\" cy=\"25\" r=\"18\" fill=\"#777\" opacity=\"0.7\"/><circle cx=\"200\" cy=\"35\" r=\"14\" fill=\"#777\" opacity=\"0.7\"/><circle cx=\"215\" cy=\"18\" r=\"20\" fill=\"#777\" opacity=\"0.7\"/><circle cx=\"330\" cy=\"45\" r=\"14\" fill=\"#777\" opacity=\"0.7\"/><circle cx=\"345\" cy=\"28\" r=\"18\" fill=\"#777\" opacity=\"0.7\"/><text x=\"210\" y=\"70\" font-size=\"22\" text-anchor=\"middle\" font-weight=\"bold\">AIR POLLUTION</text></svg>",
+        "caption": "Illustration headed 'AIR POLLUTION' showing factory chimneys releasing smoke over a city skyline."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Air pollution is the presence in the air of harmful substances (gases, smoke, dust) in amounts that damage living things, materials or the environment.\nb. Any two: burning fossil fuels in factories and power stations; vehicle exhausts; burning of rubbish/charcoal; forest fires; volcanoes; dust from mining and construction.\nc. Any two: carbon monoxide (CO), sulphur dioxide (SO₂), nitrogen oxides (NO₂), carbon dioxide (CO₂), methane, CFCs.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO Structured Question (10 X 6=60 marks)",
+      "question": "10. Sand and water can be separated by this methode:-\n  a. What is the filtrate? (2 Marks)\n  b. What is Residue? (2 Marks)\n  c. Name the above separation process? (2 Marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 300\" width=\"100%\" style=\"max-width:360px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Filtration: mixture poured from a beaker through filter paper in a funnel into a conical flask\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M200,20 L250,20 L245,75 L205,75 Z\" fill=\"#dfe9f2\" stroke=\"#111\" stroke-width=\"2\" transform=\"rotate(-30 225 48)\"/><path d=\"M130,95 L230,95 L185,150 L185,190 L175,190 L175,150 Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M150,103 L210,103 L180,140 Z\" fill=\"#8a7a62\"/><path d=\"M165,195 L195,195 L195,210 L235,280 L125,280 L165,210 Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M140,265 L220,265 L232,278 L128,278 Z\" fill=\"#cfe3f3\"/><line x1=\"30\" y1=\"50\" x2=\"205\" y2=\"50\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"40\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">Beaker containing mixture</text><line x1=\"70\" y1=\"120\" x2=\"165\" y2=\"118\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"115\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">Residue</text><line x1=\"215\" y1=\"100\" x2=\"280\" y2=\"100\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"285\" y=\"104\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">Filter Paper</text><line x1=\"190\" y1=\"165\" x2=\"280\" y2=\"165\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"285\" y=\"169\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">Funnel</text><line x1=\"225\" y1=\"240\" x2=\"280\" y2=\"240\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"285\" y=\"244\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">Conical Flask</text><line x1=\"70\" y1=\"272\" x2=\"140\" y2=\"272\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"30\" y=\"268\" font-size=\"11\" text-anchor=\"start\" font-weight=\"normal\">Filtrate</text></svg>",
+        "caption": "Filtration apparatus: mixture poured from a beaker into a funnel lined with filter paper; residue stays on the paper, filtrate collects in a conical flask."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The filtrate is the liquid (here, water) that passes through the filter paper and collects in the flask.\nb. The residue is the insoluble solid (here, sand) that stays on the filter paper.\nc. Filtration.",
+      "matching_pairs": null
+    }
+  ]
+}
