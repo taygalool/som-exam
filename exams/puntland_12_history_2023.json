@@ -1,0 +1,232 @@
+{
+  "title": "Form Four History Examination, 2023 - Puntland National Examinations Board",
+  "exam_id": "puntland_12_history_2023",
+  "year": 2023,
+  "subject": "History",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Circle the correct answer from the following\n\nThe last TSAR of the Russia monarchy",
+      "options": ["A. Alexander I", "B. Nicholas II", "C. Paul I", "D. Alexander II"],
+      "correct_index": 1
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which one of the following reasons led Japan to capture Manchuria?",
+      "options": ["A. Manchuria was near Japan", "B. Manchuria had a long history of hostility with Japan.", "C. Manchuria had a good resources needed for industries", "D. Manchuria was historically part of Japan"],
+      "correct_index": 2
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "The Arab league was founded in",
+      "options": ["A. 1945", "B. 1948", "C. 1951", "D. 1949"],
+      "correct_index": 0
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which one of the following NOT describes Pan-Somalism?",
+      "options": ["A. An ideology of uniting British and Italian Somaliland.", "B. An ideology to fight against colonialism.", "C. An ideology that aimed to unite all of ethnic Somalis.", "D. Forum for Somali people."],
+      "correct_index": 3,
+      "answer_guide": "Pan-Somalism is the ideology of uniting all Somali-inhabited territories; D (a forum for Somali people) does not describe it. Option A is only a partial description, so check the official scheme."
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "The first secretary general of the United Nations Organization",
+      "options": ["A. Boutros Ghali", "B. Trygve lie", "C. Kofi Anan", "D. Uthant"],
+      "correct_index": 1
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which one of the following dates is the unification of British Somaliland and Italian Somaliland?",
+      "options": ["A. June 26, 1960", "B. July 26, 1960", "C. June 1, 1960", "D. July 1, 1960"],
+      "correct_index": 3
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "The headquarter of UNO is",
+      "options": ["A. Washington", "B. New york", "C. San Franscisco", "D. Columbus"],
+      "correct_index": 1
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "The Somali-Ethiopian war happened in",
+      "options": ["A. 1977", "B. 1980", "C. 1978", "D. 1976"],
+      "correct_index": 0,
+      "answer_guide": "The Somali-Ethiopian (Ogaden) war began in 1977 (it ended in 1978), so 1977 is the best choice; check against the official scheme."
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which one of the following was the leading cause of the 1948 Arab Israel war?",
+      "options": ["A. The creation of Zionist organization.", "B. Proclamation of Arthur Balfour of Jews homeland", "C. The creation of Israel", "D. Jews invaded Suez"],
+      "correct_index": 2
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which one of the following played the major role in the creation of Puntland?",
+      "options": ["A. The politicians", "B. civil societies", "C. traditional elders", "D. Youths"],
+      "correct_index": 2
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "The role model of Adolf Hitler was",
+      "options": ["A. Socialism policies", "B. Communism in Russia", "C. Democracy in United state", "D. Fascism in Italy"],
+      "correct_index": 3
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Arta peace conference was held in the year",
+      "options": ["A. 2002", "B. 1999", "C. 2001", "D. 2000"],
+      "correct_index": 3
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "The European dictator who believed Fascist ideology was:",
+      "options": ["A. Benitto Mussolini", "B. Francisco Franco", "C. Vladamir Lenin", "D. Adolf hitler"],
+      "correct_index": 0
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which American president mediated Egypt and Israel in Camp David peace treaty?",
+      "options": ["A. Bill Clinton", "B. John F Kennedy", "C. George Bush", "D. Jimmy carter"],
+      "correct_index": 3
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: MULTIPLE CHOICE QUESTIONS (15 MARKS)",
+      "question": "Which one of the following is the major source of revenue in Puntland?",
+      "options": ["A. Fishing", "B. livestock", "C. Agriculture", "D. remittance"],
+      "correct_index": 1,
+      "answer_guide": "Livestock is the main export and source of income among the choices; check against the official scheme (remittances are also a major source of household income)."
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question one",
+      "question": "Explain how the following factors led the Russian revolution?\n\na) Political factor (2 Marks)\n\nb) Social factor (2 Marks)",
+      "answer_guide": "a) Political factor: Russia was ruled by an autocratic Tsar (Nicholas II) who refused to share power or allow democracy; the Duma was weak or dissolved; the government was corrupt and was defeated in the Russo-Japanese war and the First World War, so people lost confidence in it.\n\nb) Social factor: there was a huge gap between the rich nobles who owned the land and the poor peasants and factory workers, who lived in poverty with low wages, long hours, hunger and poor housing, so they supported revolution."
+    },
+    {
+      "id": 17,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question two",
+      "question": "a) What does the term appeasement mean? (2 Marks)\n\nb) Name three countries that participated and signed the Munich agreement? (3 Marks)",
+      "answer_guide": "a) Appeasement was the policy of giving in to the demands of an aggressive dictator (Hitler and Mussolini) in order to avoid war.\n\nb) Any three countries that signed the Munich agreement (1938):\n   1. Germany\n   2. Britain\n   3. France\n   (and Italy)"
+    },
+    {
+      "id": 18,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question three",
+      "question": "a) List two things the Arabs are in common? (2 Marks)\n\nb) State two results of the Suez war? (2 Marks)",
+      "answer_guide": "a) Any two things the Arabs have in common:\n   1. Language (Arabic)\n   2. Religion (Islam) / shared culture, history and traditions\n\nb) Any two results of the Suez war:\n   1. Britain, France and Israel withdrew under pressure and Egypt kept control of the Suez Canal\n   2. Nasser's prestige in the Arab world rose, British and French influence declined, and UN peacekeepers were sent to Sinai"
+    },
+    {
+      "id": 19,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question four",
+      "question": "Japan invaded Manchuria in 1931\n\na) Analyze the reaction of the League of Nations towards Japanese invasion of Manchuria? (3 Marks)\n\nb) Explain briefly how Benito Mussolini came to power? (3 Mark)\n\nc) Write down two aims behind the invasion of Italy to Ethiopia? (2 Marks)",
+      "answer_guide": "a) The League of Nations sent the Lytton Commission to investigate, which blamed Japan and asked it to withdraw; but the League did not impose military or strong economic sanctions, Japan ignored the report and left the League in 1933, which showed that the League was weak.\n\nb) After the First World War Italy had unemployment, high prices and unhappiness with the peace settlement. Mussolini formed the Fascist party with his Blackshirts, used violence against opponents, and in 1922 led the March on Rome, after which King Victor Emmanuel III invited him to form the government.\n\nc) Any two aims:\n   1. To revenge the Italian defeat by Ethiopia at the battle of Adwa (1896)\n   2. To get colonies, raw materials and land for settlement and to build an Italian empire, and to raise national prestige"
+    },
+    {
+      "id": 20,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question five",
+      "question": "Match the following words in Column A with their possible definitions in Column B using letters. (5 marks)\n\nColumn A:\n   1. Marshal plan\n   2. Communism\n   3. Policy of containment\n   4. capitalism\n   5. Cold war\n\nColumn B:\n   a) An American policy of preventing the spread of communism\n   b) An economic system that is based on private ownership.\n   c) Strained relations between the western world led by USA and the eastern world led by USSR.\n   d) American plan to provide economic aid to European countries after the 2nd world war.\n   e) An economic system that property and economic resources are owned and controlled by the state.",
+      "matching_pairs": [
+        { "item": "1. Marshal plan", "match": "d) American plan to provide economic aid to European countries after the 2nd world war." },
+        { "item": "2. Communism", "match": "e) An economic system that property and economic resources are owned and controlled by the state." },
+        { "item": "3. Policy of containment", "match": "a) An American policy of preventing the spread of communism" },
+        { "item": "4. capitalism", "match": "b) An economic system that is based on private ownership." },
+        { "item": "5. Cold war", "match": "c) Strained relations between the western world led by USA and the eastern world led by USSR." }
+      ]
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question six",
+      "question": "After the Russian revolution, Lenin and his party, the Bolsheviks took the power of Russia.\n\na) Analyze any two problems that Lenin faced in Russia? (4 Marks)\n\nb) In which year the Russian communism ended? (1 mark)\n\nc) Differentiate the meaning of terms Glasnost and Perestroika? (2 marks)",
+      "answer_guide": "a) Any two problems:\n   1. Civil war between the Reds (Bolsheviks) and the Whites (opponents), with foreign countries helping the Whites\n   2. Economic collapse, famine and shortages after the First World War and the civil war, and the war with Germany that forced Russia to sign the harsh Treaty of Brest-Litovsk\n\nb) 1991 (the collapse of the Soviet Union)\n\nc) Glasnost means 'openness': allowing freedom of speech, of the press and open discussion of problems. Perestroika means 'restructuring': reforming the Soviet economy and political system."
+    },
+    {
+      "id": 22,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question seven",
+      "question": "a) State two factors that led to the collapse of Somali government? (2 Marks)\n\nb) Assess the consequences of the collapse of Somali government? (4 Marks)",
+      "answer_guide": "a) Any two factors:\n   1. The harsh dictatorship and human rights abuses of Siad Barre's regime and clan favouritism\n   2. Armed opposition movements (USC, SNM, SPM, SSDF), defeat in the Ogaden war and economic hardship\n\nb) Consequences (any four points):\n   1. Civil war and the loss of many lives\n   2. Destruction of property, government institutions and infrastructure\n   3. Famine, refugees and displacement of people\n   4. Lawlessness (piracy, extremism) and the rise of regional administrations such as Puntland and Somaliland, plus foreign interventions"
+    },
+    {
+      "id": 23,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question eight",
+      "question": "a) State any two causes of cold war? (2 marks)\n\nb) Discuss how the cold war affected the economy of the world? (4 Marks)",
+      "answer_guide": "a) Any two causes:\n   1. Ideological differences: capitalism and democracy (USA) against communism (USSR)\n   2. Mistrust between the wartime allies and the Soviet spread of communism in Eastern Europe, plus the arms race and atomic bomb\n\nb) How the cold war affected the world economy (any four points):\n   1. Huge spending on weapons and the arms race took money away from development\n   2. The world was divided into two economic blocs (capitalist West and communist East), with the Marshall Plan and Comecon aid\n   3. Proxy wars and conflicts in developing countries destroyed their economies\n   4. Trade restrictions and embargoes, and technological advances (e.g. the space race) that later benefited the economy"
+    },
+    {
+      "id": 24,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question nine",
+      "question": "Categorize the following countries in the box in to Axis powers and Allied powers. (3 Marks)\n\n[ Britain | Russia | Germany | Japan | France | Italy ]\n\n   Axis powers | Allies powers",
+      "answer_guide": "   Axis powers: Germany, Japan, Italy\n   Allies powers: Britain, Russia, France"
+    },
+    {
+      "id": 25,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question ten",
+      "question": "Explain briefly the immediate cause of the 2nd world war? (2 Marks)",
+      "answer_guide": "The immediate cause of the Second World War was Germany's invasion of Poland on 1 September 1939; Britain and France, who had promised to defend Poland, declared war on Germany on 3 September 1939."
+    },
+    {
+      "id": 26,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question eleven",
+      "question": "Discuss the reasons that led the creation of Puntland? (5 Marks)",
+      "answer_guide": "Any five points:\n   1. The collapse of the central government in 1991 left a power vacuum and no law and order\n   2. Civil war and clan conflicts brought insecurity, so the people wanted peace and stability\n   3. The people needed a local administration to provide security, justice and services\n   4. The failure of the national reconciliation conferences to restore a central government\n   5. The traditional elders, politicians and intellectuals met at the Garowe conference (1998) and agreed on a 'building block' approach, forming Puntland State on 1 August 1998 to rebuild Somalia from the bottom up"
+    },
+    {
+      "id": 27,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question twelve",
+      "question": "Match the following UN organs in Column A with their Major Functions in Column B using Letters. (5 Marks)\n\nColumn A: UN organs\n   1. International court of justice\n   2. General assembly\n   3. Social and economic council\n   4. Secretariat\n   5. Security council\n\nColumn B: Functions\n   a) Deals with matters of social and economic developments\n   b) Acts as the United Nations spokesperson\n   c) Deals with security crises as they arise\n   d) Settles legal disputes between states in the world\n   e) Discusses and makes decisions about global problems",
+      "matching_pairs": [
+        { "item": "1. International court of justice", "match": "d) Settles legal disputes between states in the world" },
+        { "item": "2. General assembly", "match": "e) Discusses and makes decisions about global problems" },
+        { "item": "3. Social and economic council", "match": "a) Deals with matters of social and economic developments" },
+        { "item": "4. Secretariat", "match": "b) Acts as the United Nations spokesperson" },
+        { "item": "5. Security council", "match": "c) Deals with security crises as they arise" }
+      ]
+    },
+    {
+      "id": 28,
+      "section": "PART TWO: STRUCTURED QUESTIONS (65 MARKS) - Question thirteen (printed as 'Questions thirteen')",
+      "question": "a) List the six official languages in the United Nations organization? (3 Marks)\n\nb) Name any four veto powers countries in the United Nations organization? (2 Marks)",
+      "answer_guide": "a) The six official languages: Arabic, Chinese, English, French, Russian and Spanish\n\nb) Any four veto-power (permanent Security Council) countries: United States, Russia, China, United Kingdom, France"
+    },
+    {
+      "id": 29,
+      "section": "PART THREE: EXTENDED QUESTIONS (20 Marks) - Answer any two of the following questions - Question one",
+      "question": "a) Analyze the reasons that led the defeat of the Axis powers the 2nd world war? (4 Marks)\n\nb) Assess the economic results of the 2nd world war? (6 Marks)",
+      "answer_guide": "a) Reasons for the defeat of the Axis powers (any four):\n   1. The Allies had greater industrial and economic power, especially after the USA joined the war\n   2. Hitler's mistakes: invading the Soviet Union and fighting a war on two fronts\n   3. Allied air power, the D-Day landings and the Soviet advance from the east\n   4. The use of atomic bombs on Japan; poor co-ordination between the Axis powers\n\nb) Economic results (any six points):\n   1. Destruction of factories, farms, cities and transport in Europe and Asia\n   2. Huge war debts and inflation, food shortages and unemployment\n   3. The Marshall Plan: American aid that rebuilt Western Europe\n   4. The USA became the strongest economy, while Britain and France weakened\n   5. The IMF and World Bank (Bretton Woods) were created to help the world economy\n   6. Technological advances (e.g. atomic energy, radar, aircraft) and the loss of colonies' wealth for the European powers"
+    },
+    {
+      "id": 30,
+      "section": "PART THREE: EXTENDED QUESTIONS (20 Marks) - Answer any two of the following questions - Question two",
+      "question": "a) List two problems faced African states after independence? (2 Marks)\n\nb) Analyze two reasons that led to Kwame Nkrumah's overthrow of power in Ghana? (4 Marks)\n\nc) Explain two causes of Nigeria's civil war? (4 Marks)",
+      "answer_guide": "a) Any two problems:\n   1. Poverty, poor infrastructure and illiteracy\n   2. Political instability, ethnic conflicts and military coups\n\nb) Any two reasons for Nkrumah's overthrow (1966):\n   1. Economic problems: falling cocoa prices, heavy debts and costly projects, which caused hardship\n   2. His dictatorship: a one-party state, detention of opponents and a personality cult, so the army and police overthrew him while he was visiting China\n\nc) Any two causes of the Nigerian civil war (1967-70):\n   1. Ethnic and regional rivalry between the Hausa-Fulani, Yoruba and Igbo, made worse by the 1966 coups and the killing of Igbos in the north\n   2. The discovery of oil in the Eastern region and the declaration of the independent state of Biafra by Ojukwu in 1967"
+    },
+    {
+      "id": 31,
+      "section": "PART THREE: EXTENDED QUESTIONS (20 Marks) - Answer any two of the following questions - Question three",
+      "question": "a) Discuss the presidential election of Somalia in 1967? (4 Marks)\n\nb) Assess three major achievements of the Somali revolutionary council? (6 Marks)",
+      "answer_guide": "a) The 1967 presidential election was held in the National Assembly in June 1967. The two main candidates were the sitting president Aden Abdulle Osman and the prime minister Abdirashid Ali Sharmarke. Sharmarke won, and Aden Abdulle accepted defeat, handing over power peacefully, a rare example in Africa. Sharmarke then appointed Mohamed Haji Ibrahim Egal as prime minister.\n\nb) Any three achievements of the Supreme Revolutionary Council (1969-1991):\n   1. Gave the Somali language a written script (Latin script, 1972) and ran a mass literacy campaign (1973)\n   2. Built schools, hospitals, roads and the national university, and developed the economy (nationalising banks and key industries)\n   3. Fought the 1974 drought through relief and resettlement, joined the Arab League (1974), and reduced tribalism and corruption (officially)"
+    },
+    {
+      "id": 32,
+      "section": "PART THREE: EXTENDED QUESTIONS (20 Marks) - Answer any two of the following questions - Question four",
+      "question": "a) Camp David peace treaty was signed between Egypt and Israel in 1979. Explain the terms agreed at Camp David treaty? (4 Marks)\n\nb) Discuss three reasons that motivated Iraq to invade Kuwait? (6 Marks)",
+      "answer_guide": "a) Terms agreed (any four):\n   1. Egypt recognised Israel as a state\n   2. Israel agreed to withdraw from the Sinai peninsula and return it to Egypt\n   3. The two countries established normal diplomatic and trade relations\n   4. Israeli ships could use the Suez Canal, and a framework was set for talks on self-government for the Palestinians\n\nb) Any three reasons:\n   1. Iraq owed huge debts to Kuwait and others after the Iran-Iraq war and wanted them cancelled\n   2. Oil dispute: Kuwait overproduced oil, lowering prices, and was accused of slant-drilling oil from the Rumaila field\n   3. Iraq claimed Kuwait as a historical part of Iraq and wanted its oil wealth and better access to the Gulf"
+    }
+  ]
+}
