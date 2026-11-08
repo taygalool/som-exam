@@ -136,8 +136,14 @@
             showLoading(false);
 
             const urlParams = new URLSearchParams(window.location.search);
-            const file = urlParams.get('file');
-            if (file) fetchAndStartExam(file);
+            let file = urlParams.get('file');
+            if (file) {
+                // If it's just a raw filename from the bot, prepend the './exams/' directory path
+                if (!file.startsWith('http') && !file.startsWith('/') && !file.includes('exams/')) {
+                    file = `./exams/${file}`;
+                }
+                fetchAndStartExam(file);
+            }
         });
 
         async function discoverExams() {
