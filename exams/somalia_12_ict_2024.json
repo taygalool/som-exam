@@ -1,0 +1,615 @@
+{
+  "title": "Federal Republic of Somalia – Form Four National Examinations June 2024 – Technology (ICT)",
+  "exam_id": "somalia_12_ict_2024",
+  "year": 2024,
+  "subject": "ICT",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "1. List the Microsoft access database objects and discuss in detail two of them?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Objects: tables, queries, forms, reports (also macros and modules).\nTables store data in rows (records) and columns (fields). Queries search, filter, sort and combine data from one or more tables. Forms are used to enter, view and edit records. Reports present data in a formatted, printable way.",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "2. What is the Waterfall Model?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A linear, sequential software development model in which each phase (requirements → design → implementation → testing → deployment → maintenance) must be completed before the next begins.",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "3. Explain in Brief the table basics",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A table stores data about one subject. Each row is a record and each column is a field with a name and data type; one field (primary key) uniquely identifies each record. Tables can be viewed in Datasheet view and Design view.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "4. Identify the main advantages and disadvantages of database?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Advantages: reduced data redundancy, data consistency and integrity, easy sharing, better security, fast searching and reporting, backup and recovery.\nDisadvantages: cost of software/hardware, complexity, need for trained staff, risk of total loss if the system fails, security threats.",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "5. Name 2 exampLes of poor primary key",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any two: a person's name, phone number, e-mail address, address, date of birth (they can change or repeat).",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "6. Write a program that adds two number using python code? (3 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a = float(input(\"Enter first number: \"))\nb = float(input(\"Enter second number: \"))\nprint(\"Sum =\", a + b)",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "7. How to add new record in a form?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "In Form view click the New (blank) record button on the navigation bar at the bottom (or Home tab → Records group → New), type the data into the fields, then save (Shift + Enter or move to another record).",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "8. What is reports?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A report is a database object used to present (summarise and format) data from tables or queries in an organised, printable layout.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "9. Explain the difference between interpreter and compiler?",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A compiler translates the whole program into machine code at once before running, producing an executable file. An interpreter translates and executes the program line by line, stopping at the first error.",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: DIRECT QUESTIONS (20 Marks) – Please answer ONLY EIGHT QUESTIONS while question number 6&10 is COMPULSORY",
+      "question": "10. From the figure below, please mention the appropriate name on each of the following programming languages: (3 Marks)\n   (Figure: 1 – a round dark mascot with large eyes; 2 – a steaming coffee cup; 3 – two interlocking snakes)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "1 – Go (Golang) gopher [mascot is hard to identify in the scan – check]\n2 – Java\n3 – Python",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "1. ________is a mechanism in which a team can manage a project by breaking it up into many stages and requiring continuous collaboration with stakeholders and continual development and iteration at each stage.",
+      "diagram": null,
+      "options": [
+        "a) Waterfall model",
+        "b) Agile",
+        "c) RAD",
+        "d) XP"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "2. Which of the following is the advantage of waterfall model?",
+      "diagram": null,
+      "options": [
+        "a) Easy and simple to understand and use",
+        "b) Even late change in requirement are welcomed",
+        "c) Frequent adaptation to changing circumstances",
+        "d) Face to face conversation is the best method of commination"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "3. This method involves the old system Being completely dropped and new system being completely implemented at the same time is called",
+      "diagram": null,
+      "options": [
+        "a) Parallel deployment",
+        "b) Direct deployment",
+        "c) Pilot deployment",
+        "d) Phased deployment"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "4. ________is a title give to person who studies the problems and needs of an organization looking for improvement opportunities for improving quality of service or product, reducing cost and increasing the income or profit.",
+      "diagram": null,
+      "options": [
+        "a) System analyst",
+        "b) Programmer",
+        "c) Developer",
+        "d) Tester"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "5. ________It is device or a program that allows users to communicate with computer.",
+      "diagram": null,
+      "options": [
+        "a) Environment",
+        "b) Input",
+        "c) Output",
+        "d) Interface"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "6. Collection of Logically related data which is usually store in electronic form is known us.",
+      "diagram": null,
+      "options": [
+        "a) Data warehouse",
+        "b) Table",
+        "c) Database",
+        "d) DBMS"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "7. In the Microsoft Access, which of the following steps use to add new record in a table:",
+      "diagram": null,
+      "options": [
+        "a) In the records group on the Create tab, click the new command",
+        "b) In the records group on the database tool, click the new command",
+        "c) In the records group on the home tab, click the new command",
+        "d) Click a tab, then click the pin icon in the lower right corner"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "8. ________ are a way of searching for data in a table or compiling data from one or more tables is known as:",
+      "diagram": null,
+      "options": [
+        "a) Code",
+        "b) Queries",
+        "c) Commands",
+        "d) Forms"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "9. In Microsoft Access, DBMS stands for:",
+      "diagram": null,
+      "options": [
+        "a) Data Management System",
+        "b) Database management Service",
+        "c) Database Management System",
+        "d) Database Management Security"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "10. Byte allows whole numbers from",
+      "diagram": null,
+      "options": [
+        "a) 1 to 245",
+        "b) 0 to 355",
+        "c) 0 to 255",
+        "d) 1 to 455"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "11. In the Microsoft access 2016, to modify the page size, margin width, and page orientation go to:",
+      "diagram": null,
+      "options": [
+        "a) Page layout",
+        "b) Review",
+        "c) View",
+        "d) Insert"
+      ],
+      "correct_index": 0,
+      "answer_guide": "In Access these settings are on the Page Setup / Print Preview tab; “Page layout” is the intended answer. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "12. On the home tab of ribbon, click the view command. Select design view from the drop-down menu that appears.",
+      "diagram": null,
+      "options": [
+        "a) To modify a query",
+        "b) To modify a report",
+        "c) To modify a print preview",
+        "d) To modify a form"
+      ],
+      "correct_index": 0,
+      "answer_guide": "These are the textbook steps for modifying a query (the same steps also open forms/reports in Design view). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "13. Microsoft access has ability to quickly retrieve and analyse data by running a ________",
+      "diagram": null,
+      "options": [
+        "a) Form",
+        "b) Database",
+        "c) Query",
+        "d) Report"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "14. In Microsoft access form, there are two ways to find and view an existing record using a form, Both use the navigation bar at the bottom of the screen, so one of these ways is:",
+      "diagram": null,
+      "options": [
+        "a) Click the navigation bottom in the homepage",
+        "b) Find the file in page layout and look it.",
+        "c) Find the file in insert page then search in the navigation search box",
+        "d) Type a word you know is contained in that record in the navigation search box."
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "15. JavaScript, created in the 1990s, it's a popular script in developing web pages. The name JavaScript is not related to:",
+      "diagram": null,
+      "options": [
+        "a) Python",
+        "b) Visual basic",
+        "c) Java",
+        "d) C#"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Despite its name, JavaScript is unrelated to Java.",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "16. There three types of errors which can occur in a program, these are called:",
+      "diagram": null,
+      "options": [
+        "a) Syntax, runtime and semantic errors",
+        "b) Syntax, runtime and program errors",
+        "c) Syntax, report and semantic errors",
+        "d) execute, runtime and semantic errors"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "17. Which of the following is Low level language?",
+      "diagram": null,
+      "options": [
+        "a) Java",
+        "b) C sharp",
+        "c) Visual basic",
+        "d) Assembly"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "18. The process of creating software and power to enable a computer to do almost everything is:",
+      "diagram": null,
+      "options": [
+        "a) Software",
+        "b) Hardware",
+        "c) Programming",
+        "d) Report"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "19. A code for writing down to tell the computer the instructions to do is:",
+      "diagram": null,
+      "options": [
+        "a) Programming",
+        "b) Programming language",
+        "c) Software",
+        "d) Hardware"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "20. The process of writing an algorithm in a programming language is:",
+      "diagram": null,
+      "options": [
+        "a) Coding",
+        "b) Reporting",
+        "c) Formatting",
+        "d) Debugging"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "21. To write a comment in python simply put the",
+      "diagram": null,
+      "options": [
+        "a) Hash mark #",
+        "b) Dollar sign mark $",
+        "c) Slash mark /",
+        "d) Question mark?"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "22. The input function always returns the user input as",
+      "diagram": null,
+      "options": [
+        "a) Integer",
+        "b) Float",
+        "c) String",
+        "d) Float"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "23. The if statement is used to create a decision structure, which allows a program to have more than",
+      "diagram": null,
+      "options": [
+        "a) One path of execution",
+        "b) Two path of execution",
+        "c) Three path of execution",
+        "d) Four path of execution"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "24. In a programming, repeated execution of set statement is called",
+      "diagram": null,
+      "options": [
+        "a) Conditional statement",
+        "b) Loop",
+        "c) Function",
+        "d) List"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "25. If a loop does not have a way of stopping, it is called",
+      "diagram": null,
+      "options": [
+        "a) Counting controlled loop",
+        "b) Conditional controlled loop",
+        "c) Infinite loop",
+        "d) For loop"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "26. Python is general-purpose language created in the early ________",
+      "diagram": null,
+      "options": [
+        "a) 1990",
+        "b) 1980",
+        "c) 1970",
+        "d) 1960"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Python was first released in 1991.",
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "27. ________is a set of procedures and guidelines that effect how people lead their lives.",
+      "diagram": null,
+      "options": [
+        "a) Ethics",
+        "b) Un ethics",
+        "c) Low",
+        "d) Rule"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "28. ________is someone illegally accessing computer or network",
+      "diagram": null,
+      "options": [
+        "a) Cracker",
+        "b) Hacker",
+        "c) Script kiddies",
+        "d) Corporate spy"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Textbook definition: a hacker accesses a computer or network illegally (a cracker does so with malicious intent). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "29. ________is a program that adversely effects or damages a computer By altering or manipulating the way the computer or system functions without the user's knowledge or permission",
+      "diagram": null,
+      "options": [
+        "a) Worm",
+        "b) Adware",
+        "c) Spyware",
+        "d) Virus"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "PART TWO: MULTIPLE CHOICE QUESTIONS (60 Marks)",
+      "question": "30. ________is a set of instructions that allow users to bypass security checks when accessing a computer or network.",
+      "diagram": null,
+      "options": [
+        "a) Back doors",
+        "b) DOS attack",
+        "c) Botnet",
+        "d) Spoofing"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "PART THREE: MATCH THE FOLLOWING QUESTIONS (20 Marks)",
+      "question": "Match Column A with Column B (put a character in the answer column).\n\nColumn A:\n1. ______is a name that represents a value in the computer's memory.\n2. If a Loop does not have a way of stopping is called\n3. One method that protect computers and networks from attacks is\n4. One of the most common software thefts is\n5. Examples of Information systems include:\n6. Database is essentially a collection of data stored in\n7. C# was created by\n8. IDE is an application used to create\n9. Firewall Is a hardware or software which protects the resources of\n10. Translates the code into machine code, instruction by instruction\n11. It contain links to other files, including web pages is called\n\nColumn B: A. Variable  B. Infinite Loop  C. Table  D. Microsoft  E. Program  F. Backup regularly  G. Payroll system  H. Network  I. Physical stealing software  J. Hyperlink",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "1-A, 2-B, 3-F, 4-I, 5-G, 6-C, 7-D, 8-E, 9-H, 10 – none (the answer is “interpreter”, not listed), 11-J",
+      "matching_pairs": [
+        {
+          "item": "1. ______is a name that represents a value in the computer's memory.",
+          "match": "A. Variable"
+        },
+        {
+          "item": "2. If a Loop does not have a way of stopping is called",
+          "match": "B. Infinite Loop"
+        },
+        {
+          "item": "3. One method that protect computers and networks from attacks is",
+          "match": "F. Backup regularly"
+        },
+        {
+          "item": "4. One of the most common software thefts is",
+          "match": "I. Physical stealing software"
+        },
+        {
+          "item": "5. Examples of Information systems include:",
+          "match": "G. Payroll system"
+        },
+        {
+          "item": "6. Database is essentially a collection of data stored in",
+          "match": "C. Table"
+        },
+        {
+          "item": "7. C# was created by",
+          "match": "D. Microsoft"
+        },
+        {
+          "item": "8. IDE is an application used to create",
+          "match": "E. Program"
+        },
+        {
+          "item": "9. Firewall Is a hardware or software which protects the resources of",
+          "match": "H. Network"
+        },
+        {
+          "item": "10. Translates the code into machine code, instruction by instruction",
+          "match": "— (Interpreter – not in Column B)"
+        },
+        {
+          "item": "11. It contain links to other files, including web pages is called",
+          "match": "J. Hyperlink"
+        }
+      ]
+    }
+  ]
+}

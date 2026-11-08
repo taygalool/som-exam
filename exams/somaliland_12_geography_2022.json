@@ -1,0 +1,410 @@
+{
+  "title": "Somaliland Form Four Examination 2022 - Geography",
+  "exam_id": "somaliland_12_geography_2022",
+  "year": 2022,
+  "subject": "Geography",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "1. Which one of the following disease cause of black power maize",
+      "diagram": null,
+      "options": [
+        "a. White leaf light",
+        "b. Smut disease",
+        "c. Rust disease",
+        "d. Wiral disease"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Smut produces black powdery masses of spores on maize (“black powder”).",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "2. Which one of the following countries is the largest importer of tea",
+      "diagram": null,
+      "options": [
+        "a. Russia",
+        "b. China",
+        "c. U.k",
+        "d. Pakistan"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Textbooks often name the UK; recent data show Pakistan as the largest importer. Marked Pakistan. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "3. All of the following include the advantages of road transport except",
+      "diagram": null,
+      "options": [
+        "a. It is faster than human transport",
+        "b. It is cheaper than rail transport",
+        "c. It is easily found",
+        "d. It is caring large and bulk item"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Rail and water, not road, are best for large bulky loads.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "4. All of the following include the types of trade except",
+      "diagram": null,
+      "options": [
+        "a. Regional trade",
+        "b. Local trade",
+        "c. International trade",
+        "d. balance trade"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "5. adverse balance of trade means",
+      "diagram": null,
+      "options": [
+        "a. the value of import exceeds the value of export",
+        "b. the value of export exceeds the value of import",
+        "c. the value of imports equals the value of exports",
+        "d. the value of import and value of export fluctuates"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "6. microscopic living organisms that usually found in the soil is",
+      "diagram": null,
+      "options": [
+        "a. pathogens",
+        "b. parasites",
+        "c. predators",
+        "d. decomposers"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "7. subsistence arable farming is characterized mainly the use of",
+      "diagram": null,
+      "options": [
+        "a. mechanization where farms are a bit large",
+        "b. manual labor provided by immediate farming",
+        "c. large tractors of land cultivation",
+        "d. advanced technology"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "8. which one of the following causes is the result of current high oil prices in the World?",
+      "diagram": null,
+      "options": [
+        "a. Rapid depletion of oil reserves",
+        "b. Mismanagement of energy",
+        "c. Expansion of world oil",
+        "d. Economic and political sanctions"
+      ],
+      "correct_index": 3,
+      "answer_guide": "In 2022 the price rise followed the Russia–Ukraine war and related sanctions. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "9. If the total population of Kenya in 2009 was 38.6 million and its total land area is 576,076 km² what was the crude population density of Kenya in 2009",
+      "diagram": null,
+      "options": [
+        "a. 64 persons/km²",
+        "b. 65 persons /km²",
+        "c. 66 persons / km²",
+        "d. 67 persons / km²"
+      ],
+      "correct_index": 3,
+      "answer_guide": "38,600,000 ÷ 576,076 ≈ 67 persons/km²",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "10. People migrate with several reasons like economic, social or political which of the following are correct with economic migration reasons",
+      "diagram": null,
+      "options": [
+        "a. Welfare and government policy",
+        "b. Availability of employment opportunities and wealth creation",
+        "c. Religious conflict and forced migration",
+        "d. Pressure on land and racial discrimination"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "11. All the following are the factors affecting exploration of minerals EXCEPT",
+      "diagram": null,
+      "options": [
+        "a. Value of minerals",
+        "b. Quality of Ore",
+        "c. Size of deposits",
+        "d. Weathering"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "12. Which of the following is correct the economic significance of Gold in south Africa",
+      "diagram": null,
+      "options": [
+        "a. Earns country foreign exchange",
+        "b. Labor composition with other sectors",
+        "c. Fluctuation in the World market price",
+        "d. High cost of mining"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "13. Somaliland farmers grow sorghum and maize instead of rice and banana. Why?",
+      "diagram": null,
+      "options": [
+        "a. Because of farmers ignorance",
+        "b. Because of climate",
+        "c. Lack farming machinery",
+        "d. Lack of market"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "14. The rule by one person or group of people is known as",
+      "diagram": null,
+      "options": [
+        "a. Democratic",
+        "b. Republic",
+        "c. Dictatorship",
+        "d. Aristocracy"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "15. Somaliland government the minsters are appointed by:",
+      "diagram": null,
+      "options": [
+        "a. Vice president",
+        "b. Speaker of parliament",
+        "c. Legislator",
+        "d. President"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "16. Crops which are grown eternally in a large area of land is called:",
+      "diagram": null,
+      "options": [
+        "a. Horticultural crops",
+        "b. Field crops",
+        "c. Pome-culture",
+        "d. Flori-culture"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "17. The interdisciplinary that deals with the protecting endangered of wildlife is",
+      "diagram": null,
+      "options": [
+        "a. Conservation",
+        "b. Management",
+        "c. Processing",
+        "d. Programming"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "18. The most widely used fishing system in Somaliland is:",
+      "diagram": null,
+      "options": [
+        "a. Inshore fishing",
+        "b. Offshore fishing",
+        "c. Trapped fishing",
+        "d. Cold water fishing system"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "19. Where plates mover towards each other and destroying an old crust is called",
+      "diagram": null,
+      "options": [
+        "a. Divergent merging",
+        "b. Convergent merging",
+        "c. Conservative merging",
+        "d. Transform merging"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: Multiple choice (40 marks)",
+      "question": "20. Which one of the following is NOT include components of biosphere",
+      "diagram": null,
+      "options": [
+        "a. Relief",
+        "b. Abiotic",
+        "c. Biotic",
+        "d. Energy"
+      ],
+      "correct_index": 0,
+      "answer_guide": "The biosphere consists of biotic, abiotic and energy components; relief is part of the lithosphere. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "1.\n  A) evaluate the difference between intensive and extensive farming (2 marks)\n  b) Explain any two characteristics of extensive farming (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A) Intensive farming uses a lot of labour, capital and inputs on a small area to get high yields per hectare; extensive farming uses large areas of land with little labour and capital per hectare, giving low yields per hectare.\nb) Any two: large farms/land area; low inputs of labour and capital per unit area; low yield per hectare but high total output; often mechanised (e.g. wheat farming, ranching); found in sparsely populated areas.",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "2.\n  A) explain any two aspects of light needed for photosynthesis (2 marks)\n  b) Describe any two climate factors that influence agriculture (2 marks)\n  c) Explain two effect of strong winds in agriculture (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A) Light intensity (strength) and light duration (length of daylight); also light quality (wavelength).\nb) Any two: rainfall (amount and reliability), temperature, humidity, wind, sunshine.\nc) Any two: break and uproot crops and trees; increase evaporation/transpiration so soil dries; cause soil erosion; spread pests and diseases; cause flowers and fruits to fall.",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "3. The whole world is currently experiencing fuel energy crises that price of petroleum increased tremendously in the last two month due to the war between Russia and Ukraine\n  a. What is the cause of this energy crisis?\n  b. List two areas (ways) that it affected us in Somaliland (2 marks)\n  c. Suggest two possible solutions (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The Russia–Ukraine war, which disrupted oil and gas supply and led to sanctions on Russia (a major producer), causing a shortage and price rise.\nb. Any two: higher fuel prices; higher transport fares; rising food and commodity prices; higher electricity costs; inflation.\nc. Any two: use renewable energy (solar, wind); reduce fuel waste and use fuel-efficient vehicles; explore local oil/gas; government subsidies and price controls.",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "4.\n  A) what were the traditional means of communication (2 marks)\n  B) List two-ways of communication means of the modern world (2 marks)\n  C) What are the advantages of telephone communication over radio Communication? (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A) Messengers/runners, drum beating, smoke signals, horns, fire, word of mouth, poems and songs.\nB) Any two: mobile phones, internet/e-mail, social media, television, radio, satellites.\nC) Telephone is two-way (interactive) and private/personal, gives immediate feedback; radio is mostly one-way broadcast to the public.",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "5. A Road transport is the main means of carrying people and goods from one place to another\n  a. What were the traditional means of transport before the advent of vehicle transport?\n  b. Is road transport the cheapest means to carry people and goods (1 mark)\n  c. Is there a possibility that tail way transport with one day become available in Somaliland government? State reasons for or against that possibility (3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Human porterage (walking/carrying), animals – camels, donkeys and horses, and sailing boats (dhows).\nb. No – for long distances and heavy bulky goods, water and rail transport are cheaper; road is cheapest only for short distances.\nc. Opinion – For: Berbera port and the corridor to Ethiopia, growing trade, investment interest. Against: high construction cost, lack of international recognition/finance, rough terrain, low population density. Any well-argued view.",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "6. To ensure checks and balances between the three branch of the Somaliland government state comprises of the executive the legislative and the judiciary. The judiciary constitutes a hierarchy of courts.\n  a. Identify the two types of magistrate court (2 marks)\n  b. What is the function of the high court (2 marks)\n  c. Who mediate the dispute between the executive and legislative branches Of the government",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. District courts and regional courts (first-instance magistrate courts). [Check against the textbook.]\nb. Hears appeals from lower courts and serious civil and criminal cases; interprets the law.\nc. The Supreme Court (Constitutional Court).",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "7. The shape of the population pyramids depend on the structure of the population in the diagram above we have two very different pyramids in shape. The first is for japan; while the other is for Guatemala\n   (Diagram: Japan 2017 pyramid narrow at the base and wide at the top; Guatemala 2017 pyramid wide at the base and narrow at the top)\n  a. Why does the pyramid of Guatemala has a large base (bottom) (2 marks)\n  b. The base of the pyramid of japan is relatively smaller than the top What does that mean?\n  c. Japan has a population problem that is different from that of Guatemala List two problems that japan is facing (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. High birth rate – many children and young people (with high death rates/short life expectancy).\nb. Low birth rate and long life expectancy – the population is ageing (more old people than children).\nc. Any two: ageing population; shrinking labour force; high cost of pensions and health care for the elderly; declining population.",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "8.\n  a. State two significance of gold mining in south Africa to the economy (2 marks)\n  b. Describe any two Gold processing in south Africa (2 marks)\n  c. Explain any two problems facing Gold mining (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Any two: earns foreign exchange; employs many people; provides government revenue (taxes); led to growth of towns (Johannesburg) and industries; attracted investment and infrastructure.\nb. Ore is crushed and ground into powder; gold is dissolved by cyanide solution (cyanide process) or separated by washing/amalgamation; then smelted and refined into bars.\nc. Any two: very deep mines with high temperatures and danger of rock falls; high cost of mining; falling ore grade; fluctuating world prices; labour unrest; water and environmental pollution.",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "9.\n  a. list down any two factors that influence climate. (2 marks)\n  b. list down any two types of global prevailing winds (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Any two: latitude, altitude, distance from the sea, ocean currents, prevailing winds, relief/aspect.\nb. Any two: trade winds, westerlies, polar easterlies.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO: STRUCTERED QUATIONS (60 MARKS)",
+      "question": "10.\n  a. The map below represents Somaliland with some specific cities (Borama, Gabiley, Hargeisa, Berbera, Burao). Use the map and answer the questions that flow. (Scale bar: 0 – 50 – 100 km)\n     i. convert the scale of the map into statement scale (1 mark)\n     ii. what is the compass direction of Berbera from Hargeisa? (1 mark)\n     iii. The map distance between Hargeisa and Berbera is 3cm. calculate the ground distance between Hargeisa and Berbera by using the scale of the above (1 mark)\n  b. the figure below represent eclipse (Sun – Earth – Moon in line, Moon in Earth's shadow). By using the figure answer. The questions that flow\n     i. he type of eclipse the figure represents (1 mark)\n     ii. Define the type of eclipse you named above (1 marks)\n     iii: At what time this type of eclipse happens (1 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. i. 1 cm represents 50 km (reading each scale-bar division as 1 cm). [Check against the printed scale bar.]\n   ii. North-east (NE).\n   iii. 3 cm × 50 km = 150 km\nb. i. Lunar eclipse (eclipse of the moon).\n   ii. When the Earth comes between the Sun and the Moon, so the Earth's shadow falls on the Moon.\n   iii. At night during a full moon.",
+      "matching_pairs": null
+    }
+  ]
+}

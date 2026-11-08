@@ -1,0 +1,772 @@
+{
+  "title": "Federal Republic of Somalia – Imtixaanka Shahaadiga 2024/2025 – Mathematics",
+  "exam_id": "somalia_12_mathematics_2025",
+  "year": 2025,
+  "subject": "Mathematics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "1. The imaginary part of the complex number Z= −5 + 6i is:",
+      "diagram": null,
+      "options": [
+        "a. -5",
+        "b. -6",
+        "c. 1",
+        "d. 6"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "2. The sum rule for Cos(A+B)=:",
+      "diagram": null,
+      "options": [
+        "a. CosAsinB+sinAcosB",
+        "b. CosAcosB+SinAsinB",
+        "c. CosAcosB-SinAsinB",
+        "d. CosAsinB+CosBsinA"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "3. The number of population in a village was 2400. If it decreased by 15% then the new number of the population will be:",
+      "diagram": null,
+      "options": [
+        "a. 4020",
+        "b. 2760",
+        "c. 2040",
+        "d. 4200"
+      ],
+      "correct_index": 2,
+      "answer_guide": "2400 × 0.85 = 2040",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "4. If set A = {a, b, d, f} and set B = {b, c, e, f} then A ∩ B is:",
+      "diagram": null,
+      "options": [
+        "a. {b, f}",
+        "b. {b, d, f}",
+        "c. {d, f}",
+        "d. {a, d, f}"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "5. If two dice are thrown once, the probability of getting two 6s is:",
+      "diagram": null,
+      "options": [
+        "a. 2/6",
+        "b. 1/36",
+        "c. 2/36",
+        "d. 1/6"
+      ],
+      "correct_index": 1,
+      "answer_guide": "1/6 × 1/6 = 1/36",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "6. The value of the limit: lim(x→3) 5 =:",
+      "diagram": null,
+      "options": [
+        "a. 3",
+        "b. 5",
+        "c. 8",
+        "d. 15"
+      ],
+      "correct_index": 1,
+      "answer_guide": "The limit of a constant is the constant.",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "7. The sum of the two complex numbers of (−3 + i) and (2 + 5i) is:",
+      "diagram": null,
+      "options": [
+        "a. −1 + 6i",
+        "b. −1 − 6i",
+        "c. −1 + 4i",
+        "d. 5 + 6i"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "8. Evaluate ∫(4x³ − 3)dx is:",
+      "diagram": null,
+      "options": [
+        "a. x⁴/4 − 3x + c",
+        "b. x⁴ + 3x + c",
+        "c. 4x⁴/4 + c",
+        "d. x⁴ − 3x + c"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "9. The first term of arithmetic progression is denoted by:",
+      "diagram": null,
+      "options": [
+        "a. D",
+        "b. r",
+        "c. n",
+        "d. a"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "10. Quadratic equations can be solved by:",
+      "diagram": null,
+      "options": [
+        "a. factorization",
+        "b. Elimination",
+        "c. comparison",
+        "d. addition"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "11. The derivative of a the function x = y² with respect to y is:",
+      "diagram": null,
+      "options": [
+        "a. 2x",
+        "b. 2y",
+        "c. 0",
+        "d. 2x + 2y"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "12. The lines are without:",
+      "diagram": null,
+      "options": [
+        "a. Length",
+        "b. plane",
+        "c. width",
+        "d. point"
+      ],
+      "correct_index": 2,
+      "answer_guide": "A line has length but no width (thickness). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "13. The number 3 is a factor for:",
+      "diagram": null,
+      "options": [
+        "a. 20",
+        "b. 48",
+        "c. 16",
+        "d. all"
+      ],
+      "correct_index": 1,
+      "answer_guide": "48 = 3 × 16",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "14. The mean of 5 numbers is 14, four of the numbers are 4,8,12 and 22. The 5ᵗʰ number is",
+      "diagram": null,
+      "options": [
+        "a. 11.5",
+        "b. 24",
+        "c. 42",
+        "d. 9.2"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Total = 70; 70 − (4 + 8 + 12 + 22) = 24",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "15. The mode of the data: w, e, m, l, e, w, r, n, l, m, n, l is:",
+      "diagram": null,
+      "options": [
+        "a. W",
+        "b. n",
+        "c. l",
+        "d. m"
+      ],
+      "correct_index": 2,
+      "answer_guide": "l appears 3 times; the others at most twice.",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "16. The simplification of √48 is:",
+      "diagram": null,
+      "options": [
+        "a. 2√12",
+        "b. 8√6",
+        "c. 3√16",
+        "d. 4√3"
+      ],
+      "correct_index": 3,
+      "answer_guide": "√48 = √(16 × 3) = 4√3 (2√12 is equal but not fully simplified).",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "17. The length of the of perpendicular line OM in the circle below is:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 220\" width=\"100%\" style=\"max-width:240px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Circle centre O, chord AB, perpendicular OM to the chord, OB = 5, MB = 3\"><circle cx=\"120\" cy=\"100\" r=\"95\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"35\" y1=\"142\" x2=\"205\" y2=\"142\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"120\" y1=\"60\" x2=\"120\" y2=\"142\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"120\" y1=\"60\" x2=\"205\" y2=\"142\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M120,130 h12 v12\" fill=\"none\" stroke=\"#111\"/><circle cx=\"120\" cy=\"60\" r=\"3\" fill=\"#111\"/><text x=\"120\" y=\"52\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">O</text><text x=\"28\" y=\"148\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">A</text><text x=\"212\" y=\"150\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">B</text><text x=\"120\" y=\"160\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">M</text><text x=\"108\" y=\"105\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">?</text><text x=\"170\" y=\"95\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">5</text><text x=\"163\" y=\"158\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">3</text></svg>",
+        "caption": "Circle with centre O; OM is perpendicular to chord AB; radius OB = 5 and MB = 3."
+      },
+      "options": [
+        "a. 5",
+        "b. 8",
+        "c. 3",
+        "d. 4"
+      ],
+      "correct_index": 3,
+      "answer_guide": "OM = √(5² − 3²) = 4",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "18. The gradient of the line segment joining the two points: A(6,-5) and B(3,1) is:",
+      "diagram": null,
+      "options": [
+        "a. -2",
+        "b. 1.3",
+        "c. 0.75",
+        "d. 2"
+      ],
+      "correct_index": 0,
+      "answer_guide": "(1 − (−5)) / (3 − 6) = 6 / −3 = −2",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "19. The number of ways 3 committee students be selected from a class of 20 students is",
+      "diagram": null,
+      "options": [
+        "a. 1140",
+        "b. 6480",
+        "c. 6840",
+        "d. 1410"
+      ],
+      "correct_index": 0,
+      "answer_guide": "²⁰C₃ = 1140",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "20. 3π/2 in degrees is:",
+      "diagram": null,
+      "options": [
+        "a. 45⁰",
+        "b. 270⁰",
+        "c. 0⁰",
+        "d. 90⁰"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "21. The type of the triangle at the right is:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 160\" width=\"100%\" style=\"max-width:160px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Triangle with a right-angle mark at the bottom corner\"><path d=\"M30,15 L30,140 L130,140 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M30,126 h14 v14\" fill=\"none\" stroke=\"#111\"/></svg>",
+        "caption": "A triangle with a right-angle mark at its bottom-left corner."
+      },
+      "options": [
+        "a. Right angled triangle",
+        "b. Isosceles triangle",
+        "c. Obtuse triangle",
+        "d. Equilateral triangle"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "22. The common ratio of the geometric progression of 3, −6, 12, ... is:",
+      "diagram": null,
+      "options": [
+        "a. 3",
+        "b. -2",
+        "c. -9",
+        "d. 2"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "23. If a die is rolled once, the probability of getting a even number is:",
+      "diagram": null,
+      "options": [
+        "a. 1/4",
+        "b. 1/2",
+        "c. 1/3",
+        "d. 1/6"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "24. The expansion of (a − b)² =:",
+      "diagram": null,
+      "options": [
+        "a. a² + 2ab + b²",
+        "b. a² − b²",
+        "c. a² − 2ab + b²",
+        "d. a² + b²"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "25. The equation y = 4ax² is an equation of:",
+      "diagram": null,
+      "options": [
+        "a. Circle",
+        "b. ellipse",
+        "c. hyperbola",
+        "d. parabola"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "26. The term which divides the data into ten equal parts is called:",
+      "diagram": null,
+      "options": [
+        "a. Median",
+        "b. percentile",
+        "c. quartile",
+        "d. decile"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "27. The straight line joining any two points on the circumference of a circle is called:",
+      "diagram": null,
+      "options": [
+        "a. diameter",
+        "b. radius",
+        "c. chord",
+        "d. center"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "28. If sin x = 3/5 and cos x = 4/5, then cos 2x =:",
+      "diagram": null,
+      "options": [
+        "a. 7/25",
+        "b. 24/25",
+        "c. 25/24",
+        "d. −7/25"
+      ],
+      "correct_index": 0,
+      "answer_guide": "cos 2x = 16/25 − 9/25 = 7/25",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "29. The derivative of a constant number is:",
+      "diagram": null,
+      "options": [
+        "a. Zero",
+        "b. one",
+        "c. variable",
+        "d. undefined"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "30. Express 81% as a decimal:",
+      "diagram": null,
+      "options": [
+        "a. 81",
+        "b. 8100",
+        "c. 81/100",
+        "d. 0.81"
+      ],
+      "correct_index": 3,
+      "answer_guide": "As a decimal: 0.81 (81/100 is the fraction form).",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "31. The exact value of cos 15⁰",
+      "diagram": null,
+      "options": [
+        "a. (√2 − √6)/4",
+        "b. (√6 − √2)/4",
+        "c. (√6 + √2)/4",
+        "d. (√6 + √2)/2"
+      ],
+      "correct_index": 2,
+      "answer_guide": "cos 15° = cos(45° − 30°) = (√6 + √2)/4",
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "32. The intersection of the two sets A and B in the figure at the right is:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 280 170\" width=\"100%\" style=\"max-width:280px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Rectangle containing circle A with elements 1, 3, 5; elements 2 and 4 lie outside the circle; label B beside the rectangle\"><rect x=\"30\" y=\"10\" width=\"240\" height=\"150\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"88\" r=\"62\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"115\" y=\"32\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"15\" y=\"100\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"60\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">2</text><text x=\"245\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">4</text><text x=\"170\" y=\"70\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">1</text><text x=\"140\" y=\"115\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">3</text><text x=\"185\" y=\"115\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">5</text></svg>",
+        "caption": "Rectangle (labelled B) containing circle A with 1, 3, 5 inside; 2 and 4 are outside the circle."
+      },
+      "options": [
+        "a. {1,3}",
+        "b. {2,4}",
+        "c. {1,3,5}",
+        "d. {1,2,3,4,5}"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Reading B as the whole rectangle {1,2,3,4,5} and A as the circle {1,3,5}, A ∩ B = {1,3,5}. The figure's labelling is unclear. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "33. The base of the common logarithm is:",
+      "diagram": null,
+      "options": [
+        "a. 10",
+        "b. 0",
+        "c. π",
+        "d. e"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "34. The value of: ∫₀² (3x² + 2x)dx is:",
+      "diagram": null,
+      "options": [
+        "a. 16",
+        "b. 12",
+        "c. 5",
+        "d. 4"
+      ],
+      "correct_index": 1,
+      "answer_guide": "[x³ + x²]₀² = 8 + 4 = 12",
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "35. The range of the marks 51,43,54,73,54 is:",
+      "diagram": null,
+      "options": [
+        "a. 54",
+        "b. 11",
+        "c. 30",
+        "d. 55"
+      ],
+      "correct_index": 2,
+      "answer_guide": "73 − 43 = 30",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "36. A class of 60 students was examined. If 75% of them passed the test, the number of students failed the exam is:",
+      "diagram": null,
+      "options": [
+        "a. 20",
+        "b. 45",
+        "c. 15",
+        "d. 10"
+      ],
+      "correct_index": 2,
+      "answer_guide": "25% of 60 = 15",
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "37. The polar form of the complex number Z = −1 + √3i is:",
+      "diagram": null,
+      "options": [
+        "a. 2cis60⁰",
+        "b. 2cis120⁰",
+        "c. 4cis120⁰",
+        "d. 2cis240⁰"
+      ],
+      "correct_index": 1,
+      "answer_guide": "r = 2; second quadrant, θ = 120°",
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "38. At the point, for which the gradient is zero is called:",
+      "diagram": null,
+      "options": [
+        "a. Minimum point",
+        "b. maximum point",
+        "c. stationary point",
+        "d. intersection point"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "39. The simplification of 10! / (3! × 4!) =:",
+      "diagram": null,
+      "options": [
+        "a. 52200",
+        "b. 22500",
+        "c. 2520",
+        "d. 25200"
+      ],
+      "correct_index": 3,
+      "answer_guide": "3,628,800 ÷ 144 = 25,200",
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "PART ONE: Circle the letter of the correct answer (40 marks)",
+      "question": "40. The limit of a constant function is:",
+      "diagram": null,
+      "options": [
+        "a. Zero",
+        "b. constant",
+        "c. one",
+        "d. unknown"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "41. Verify the following identity.\n  a. (sinx + cosx)² = 1 + sin2x (3 marks)\n  b. Cosx tanx = sinx (1 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. LHS = sin²x + 2 sinx cosx + cos²x = (sin²x + cos²x) + 2 sinx cosx = 1 + sin 2x = RHS ∎\nb. cosx · (sinx / cosx) = sinx ∎",
+      "matching_pairs": null
+    },
+    {
+      "id": 42,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "42.\n  a. Expand Sin (A+B). (2marks)\n  b. Tan (A-B) (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. sin(A + B) = sinA cosB + cosA sinB\nb. tan(A − B) = (tanA − tanB) / (1 + tanA tanB)",
+      "matching_pairs": null
+    },
+    {
+      "id": 43,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "43. State the real and imaginary parts of the complex number w = (x − 3) + (y − 9)i (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Real part: x − 3\nImaginary part: y − 9",
+      "matching_pairs": null
+    },
+    {
+      "id": 44,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "44. Write [2(cos20⁰ + isin20⁰)]³ in the standard form a+bi. ( 5 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "By De Moivre: 2³(cos 60° + i sin 60°) = 8(½ + (√3/2)i) = 4 + 4√3 i",
+      "matching_pairs": null
+    },
+    {
+      "id": 45,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "45. If two coins are thrown once, list the outcomes of the sample space. (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "S = {HH, HT, TH, TT} – 4 outcomes.",
+      "matching_pairs": null
+    },
+    {
+      "id": 46,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "46. A card is selected at random from an ordinary pack of 52 cards. Find the probability that the card is:\n  a. A king (2marks)\n  b. A heart (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. 4/52 = 1/13\nb. 13/52 = 1/4",
+      "matching_pairs": null
+    },
+    {
+      "id": 47,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "47. A bag contains 8 black balls and 5 white ones. If two balls are picked from the bag one at a time, find the probability of getting a white ball and a black ball without replacement. (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "P(one white and one black, in either order) = (5/13 × 8/12) + (8/13 × 5/12) = 40/156 + 40/156 = 80/156 = 20/39\n(If the order “white then black” is meant: 5/13 × 8/12 = 10/39.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 48,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "48.\n  a. Complete the table below (3 marks)\n\n     | Class | Frequency | Midpoints(x) | F.X |\n     | 1-3   | 12        |              |     |\n     | 3-5   | 22        |              |     |\n     | 5-7   | 27        |              |     |\n     | 7-9   | 19        |              |     |\n     | Total | =         |              | =   |\n\n  b. Find the mean of the data given in the above table. (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Midpoints: 2, 4, 6, 8; F·X: 24, 88, 162, 152; ΣF = 80, ΣFX = 426\nb. Mean = ΣFX / ΣF = 426 / 80 = 5.325",
+      "matching_pairs": null
+    },
+    {
+      "id": 49,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "49. If set A= {1, 3, 5} and set B= {2, 4, 6}. Determine A ∪ B. (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A ∪ B = {1, 2, 3, 4, 5, 6}",
+      "matching_pairs": null
+    },
+    {
+      "id": 50,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "50. Find the common difference of the arithmetic progression of 4,7,10, ...(2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "d = 7 − 4 = 3",
+      "matching_pairs": null
+    },
+    {
+      "id": 51,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "51. What is the measure of a right angle? (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "90° (π/2 radians)",
+      "matching_pairs": null
+    },
+    {
+      "id": 52,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "52. Evaluate :\n  a. lim(x→2) (x² − 4x + 1) (2 marks)\n  b. lim(x→0) ((x² − x)/x) (3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. 4 − 8 + 1 = −3\nb. (x² − x)/x = x − 1 (x ≠ 0) → limit = 0 − 1 = −1",
+      "matching_pairs": null
+    },
+    {
+      "id": 53,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "53. Differentiate with respect to x.\n  a. f(x) = x⁵ (1 marks)\n  b. f(x) = (x² + 1)(2 − x²) (3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. f′(x) = 5x⁴\nb. f(x) = 2x² − x⁴ + 2 − x² = −x⁴ + x² + 2 → f′(x) = −4x³ + 2x",
+      "matching_pairs": null
+    },
+    {
+      "id": 54,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "54. Differentiate sinx − cosx with respect to x. (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "d/dx (sinx − cosx) = cosx + sinx",
+      "matching_pairs": null
+    },
+    {
+      "id": 55,
+      "section": "Part two: structured questions (60 marks)",
+      "question": "55. Evaluate the following integrals\n  a. ∫(x² + x + 3) dx (2 marks)\n  b. Find the area of the region bounded by the curve y = 2x², the lines x = 1, x = 4 and the x-axis. (3marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 320 230\" width=\"100%\" style=\"max-width:320px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Parabola with the area under it shaded between x = 1 and x = 4\"><line x1=\"10\" y1=\"200\" x2=\"300\" y2=\"200\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"150\" y1=\"210\" x2=\"150\" y2=\"5\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"305\" y=\"205\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">x</text><text x=\"150\" y=\"12\" font-size=\"1\" text-anchor=\"middle\" font-weight=\"bold\"></text><polygon points=\"175,200 175.0,190.0 177.5,187.9 180.0,185.6 182.5,183.1 185.0,180.4 187.5,177.5 190.0,174.4 192.5,171.1 195.0,167.6 197.5,163.9 200.0,160.0 202.5,155.9 205.0,151.6 207.5,147.1 210.0,142.4 212.5,137.5 215.0,132.4 217.5,127.1 220.0,121.6 222.5,115.9 225.0,110.0 227.5,103.9 230.0,97.6 232.5,91.1 235.0,84.4 237.5,77.5 240.0,70.4 242.5,63.1 245.0,55.6 247.5,47.9 250.0,40.0 250,200\" fill=\"#cfe0f5\"/><path d=\"M50.0,40.0 L52.5,47.9 L55.0,55.6 L57.5,63.1 L60.0,70.4 L62.5,77.5 L65.0,84.4 L67.5,91.1 L70.0,97.6 L72.5,103.9 L75.0,110.0 L77.5,115.9 L80.0,121.6 L82.5,127.1 L85.0,132.4 L87.5,137.5 L90.0,142.4 L92.5,147.1 L95.0,151.6 L97.5,155.9 L100.0,160.0 L102.5,163.9 L105.0,167.6 L107.5,171.1 L110.0,174.4 L112.5,177.5 L115.0,180.4 L117.5,183.1 L120.0,185.6 L122.5,187.9 L125.0,190.0 L127.5,191.9 L130.0,193.6 L132.5,195.1 L135.0,196.4 L137.5,197.5 L140.0,198.4 L142.5,199.1 L145.0,199.6 L147.5,199.9 L150.0,200.0 L152.5,199.9 L155.0,199.6 L157.5,199.1 L160.0,198.4 L162.5,197.5 L165.0,196.4 L167.5,195.1 L170.0,193.6 L172.5,191.9 L175.0,190.0 L177.5,187.9 L180.0,185.6 L182.5,183.1 L185.0,180.4 L187.5,177.5 L190.0,174.4 L192.5,171.1 L195.0,167.6 L197.5,163.9 L200.0,160.0 L202.5,155.9 L205.0,151.6 L207.5,147.1 L210.0,142.4 L212.5,137.5 L215.0,132.4 L217.5,127.1 L220.0,121.6 L222.5,115.9 L225.0,110.0 L227.5,103.9 L230.0,97.6 L232.5,91.1 L235.0,84.4 L237.5,77.5 L240.0,70.4 L242.5,63.1 L245.0,55.6 L247.5,47.9 L250.0,40.0 L252.5,31.9 L255.0,23.6 L257.5,15.1 L260.0,6.4\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.5\"/><line x1=\"175\" y1=\"195\" x2=\"175\" y2=\"205\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"250\" y1=\"40\" x2=\"250\" y2=\"205\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"175\" y=\"220\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">x=1</text><text x=\"250\" y=\"220\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">x=4</text><text x=\"160\" y=\"15\" font-size=\"13\" text-anchor=\"start\" font-weight=\"bold\">y</text><text x=\"262\" y=\"30\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">y = 2x²</text></svg>",
+        "caption": "Parabola through the origin with the area under the curve shaded between x = 1 and x = 4 (the printed figure labels the curve y = x²)."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. x³/3 + x²/2 + 3x + c\nb. Area = ∫₁⁴ 2x² dx = [2x³/3]₁⁴ = (128 − 2)/3 = 42 square units\n(The figure is labelled y = x²; with y = x² the area would be 21 square units.)",
+      "matching_pairs": null
+    }
+  ]
+}

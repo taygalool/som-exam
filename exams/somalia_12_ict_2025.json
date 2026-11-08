@@ -1,0 +1,754 @@
+{
+  "title": "Federal Republic of Somalia – Imtixaanka Shahaadiga 2024/2025 – ICT",
+  "exam_id": "somalia_12_ict_2025",
+  "year": 2025,
+  "subject": "ICT",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "1. Is a network that connects computers within a small geographical area?",
+      "diagram": null,
+      "options": [
+        "A) WAN",
+        "B) LAN",
+        "C) PAN",
+        "D) MAN"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "2. Which one is the Advantage of Ring Topology?",
+      "diagram": null,
+      "options": [
+        "A) Expansion of the Nodes is simple and easy",
+        "B) Easy to install and reconfigure",
+        "C) Simple installation and easy to wire",
+        "D) Fault detection is straightforward"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Textbook advantage of ring topology: easy to install and reconfigure (adding/removing a device needs only two connections). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "3. Is used to send and receive files from a remote host?",
+      "diagram": null,
+      "options": [
+        "A) TCP",
+        "B) NFS",
+        "C) IPX",
+        "D) FTP"
+      ],
+      "correct_index": 3,
+      "answer_guide": "FTP = File Transfer Protocol.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "4. The top part of the Power Point window as shown in the figure below is called?\n   (Figure: top of PowerPoint window showing “presentation one - Microsoft PowerPoint” above the ribbon tabs)",
+      "diagram": null,
+      "options": [
+        "A) Title bar",
+        "B) Status bar",
+        "C) Window bar",
+        "D) Toolbar"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "5. The following are main parts of HTML elements EXECPT",
+      "diagram": null,
+      "options": [
+        "A) The head tag",
+        "B) The opening tag",
+        "C) The closing tag",
+        "D) The element tag"
+      ],
+      "correct_index": 0,
+      "answer_guide": "An HTML element consists of an opening tag, content and a closing tag; the <head> tag is a document section, not a part of every element. (Options are printed A, B, D, E.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "6. Each device on the internet is provided with a unique address known as its IP which stands for?",
+      "diagram": null,
+      "options": [
+        "A) Internet Position",
+        "B) Internet Protection",
+        "C) Internet Program",
+        "D) Internet Protocol"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "7. Which of the following is the URL used for?",
+      "diagram": null,
+      "options": [
+        "A) Specify addresses on the web",
+        "B) Transfer hypertext documents",
+        "C) For making headlines",
+        "D) To break text in an HTML document"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "8. All MS Excel formulas start with what?",
+      "diagram": null,
+      "options": [
+        "A) +",
+        "B) %",
+        "C) *",
+        "D) ="
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "9. In the flow chart the diamond symbol indicates what?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 160 140\" width=\"100%\" style=\"max-width:160px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Flowchart diamond symbol with a question mark\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><polygon points=\"80,10 150,70 80,130 10,70\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2.5\"/><text x=\"80\" y=\"77\" font-size=\"20\" text-anchor=\"middle\" font-weight=\"bold\" >?</text></svg>",
+        "caption": "Flowchart diamond symbol containing a question mark."
+      },
+      "options": [
+        "A) A process",
+        "B) A decision",
+        "C) A start",
+        "D) An output"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "10. How can Mobile Technology in Agriculture help Farmers?",
+      "diagram": null,
+      "options": [
+        "A) Farmers can easily access education and information about a variety of agricultural issues.",
+        "B) To control the supply of water directed to the roots of plants.",
+        "C) Can help remove the weeds as per instructions provided by identifying crops.",
+        "D) Used to carry seedlings across large fields and plant them in an orderly manner."
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "11. You want to change worksheet views in Excel which one of the following steps is true?",
+      "diagram": null,
+      "options": [
+        "A) Locate in the Excel window's bottom-right corner and choose either Normal view, Page Layout view or Page Break view.",
+        "B) Locate in the Excel window's bottom-right corner and choose either Worksheet view, Page Layout view or Page Break view.",
+        "C) Locate in the Excel window's bottom-right corner and choose either Backstage view, Page Layout view or Page Display view.",
+        "D) Locate in the Excel window's bottom-right corner and choose either Print preview, Page Layout view or Page Workbook view."
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "12. All the following are elements of multimedia EXCEPT?",
+      "diagram": null,
+      "options": [
+        "A) Text",
+        "B) Audio",
+        "C) Memory",
+        "D) Video"
+      ],
+      "correct_index": 2,
+      "answer_guide": "(The fourth option is misprinted as “A) Video”.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "13. There are two primary types of software, what are they?",
+      "diagram": null,
+      "options": [
+        "A) System software and Operating Software",
+        "B) System Software and information Software",
+        "C) System Software and Utility Software",
+        "D) System Software and Application software"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "14. Using the Figure below the letters inside the figure indicates ____, ____, ____ respectively what?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 200 60\" width=\"100%\" style=\"max-width:200px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Three formatting buttons: B, I and U\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"5\" y=\"8\" width=\"190\" height=\"44\" fill=\"#ddd\" stroke=\"#111\"/><text x=\"45\" y=\"39\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"bold\" >B</text><text x=\"100\" y=\"39\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"normal\" font-style=\"italic\">I</text><text x=\"155\" y=\"39\" font-size=\"24\" text-anchor=\"middle\" font-weight=\"normal\" text-decoration=\"underline\">U</text></svg>",
+        "caption": "Formatting buttons B, I and U."
+      },
+      "options": [
+        "A) Bold, Italic, Uppercase",
+        "B) Bold, Italic, Underline",
+        "C) Black, Italic, Underline",
+        "D) Bold, Italic Uniform"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "15. Is the main gateway to your computer's program folders, and settings also provide a list of choices, name it?",
+      "diagram": null,
+      "options": [
+        "A) Task bar",
+        "B) Menu bar",
+        "C) Start button",
+        "D) Title bar"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "16. In Microsoft Word, you can display information on every page of your document by creating:",
+      "diagram": null,
+      "options": [
+        "A) Top and down",
+        "B) Upper and lower",
+        "C) First and last",
+        "D) Header and footer"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "17. People who have interest in an information system is called?",
+      "diagram": null,
+      "options": [
+        "A) shareholders",
+        "B) Stage members",
+        "C) stakeholders",
+        "D) safeguards"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "18. To determine if the proposed solution can be developed and made operational within the required time you need what?",
+      "diagram": null,
+      "options": [
+        "A) Schedule feasibility",
+        "B) Operation feasibility",
+        "C) Technical feasibility",
+        "D) Economic feasibility"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "19. The main goal of testing phase is to do what?",
+      "diagram": null,
+      "options": [
+        "A) Control system",
+        "B) Fix errors",
+        "C) Design system",
+        "D) Identify problems"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Testing aims to find (identify) errors/problems; fixing is done afterwards. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "20. This is the process of defining the architecture, components, modules, interfaces and data for a system?",
+      "diagram": null,
+      "options": [
+        "A) System design",
+        "B) Control Design",
+        "C) Process Design",
+        "D) Physical Design"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "21. RAD Stand for?",
+      "diagram": null,
+      "options": [
+        "A) Rapid Application Development",
+        "B) Request Application Development",
+        "C) Rapid Application Design",
+        "D) Rapid Access Digital"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "22. A collection of logically related data which is usually stored in an electronic form is?",
+      "diagram": null,
+      "options": [
+        "A) Data science",
+        "B) Data Cable",
+        "C) Database",
+        "D) Data file"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "23. Quick Access toolbar shows you the common commands",
+      "diagram": null,
+      "options": [
+        "A) Save, Undo, and Redo",
+        "B) Save, Copy and Paste",
+        "C) Save, Open, and Cut",
+        "D) Save, Cut, and Copy"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "24. To close an object , select the object you want to close, then what?",
+      "diagram": null,
+      "options": [
+        "A) Click the × to the left of the document tabs bar",
+        "B) Click the × to the right of the status bar",
+        "C) Click the × to the right of the document tabs bar",
+        "D) Click the × to the left of the status bar"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "25. To modify a query you will go on the home tab of the Ribbon and click the view command, then select what?",
+      "diagram": null,
+      "options": [
+        "A) Form view",
+        "B) Layout view",
+        "C) Design view",
+        "D) Table view"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "26. Which of the following is NOT the characteristics of primary key?",
+      "diagram": null,
+      "options": [
+        "A) It uniquely identifies each row",
+        "B) It is never empty or null",
+        "C) Each table Can have multiple primary keys",
+        "D) The values it contains rarely or never change"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "27. Which of the following is the correct steps to use if you want to delete the current Records?",
+      "diagram": null,
+      "options": [
+        "A) Select the home tab and locate the records group, Click the Delete command. A dialog box will appear Click YES.",
+        "B) Select the View tab and locate the records group, Click the Delete command. A dialog box will appear Click YES.",
+        "C) Select the Insert tab and locate the records group, Click the Delete command. A dialog box will appear Click YES.",
+        "D) Select the Font tab and locate the records group, Click the Delete command. A dialog box will appear Click YES."
+      ],
+      "correct_index": 0,
+      "answer_guide": "The paper also prints a stray second row of options under this question (Tables, Reports, Records, Fields), apparently left over from a deleted question.",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "28. Which of the following allow you to organize and present your data in a reader-friendly way?",
+      "diagram": null,
+      "options": [
+        "A) Queries",
+        "B) Tables",
+        "C) Records",
+        "D) Reports"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "29. When planning a query that uses more than one table, you should go through these three steps EXCEPT",
+      "diagram": null,
+      "options": [
+        "A) Pinpoint",
+        "B) Identify",
+        "C) Locate",
+        "D) Design"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Access planning steps: identify, locate and pinpoint the information. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "30. Which one of the following translates the code into machine language",
+      "diagram": null,
+      "options": [
+        "A) Compiler",
+        "B) interpreter",
+        "C) Translator",
+        "D) Debugger"
+      ],
+      "correct_index": 0,
+      "answer_guide": "A compiler translates the whole source code into machine code (an interpreter also translates, line by line). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "31. The figure below Indicates the symbol of?\n   (Figure: the two-snake logo of a programming language)",
+      "diagram": null,
+      "options": [
+        "A) Java",
+        "B) PYTHON",
+        "C) GOLAND",
+        "D) C#"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "32. The figure below indicates what?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 70\" width=\"100%\" style=\"max-width:620px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Source Code, then an unlabelled hexagon, then Machine Code, then Output\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"5\" y=\"15\" width=\"120\" height=\"40\" rx=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"65\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" >Source Code</text><line x1=\"125\" y1=\"35\" x2=\"170\" y2=\"35\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><polygon points=\"185,35 205,12 300,12 320,35 300,58 205,58\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"252\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" >............</text><line x1=\"320\" y1=\"35\" x2=\"365\" y2=\"35\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><rect x=\"367\" y=\"15\" width=\"120\" height=\"40\" rx=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"427\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" >Machine Code</text><line x1=\"487\" y1=\"35\" x2=\"528\" y2=\"35\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><rect x=\"530\" y=\"15\" width=\"85\" height=\"40\" rx=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"572\" y=\"40\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"normal\" >Output</text></svg>",
+        "caption": "Flow: Source Code → (blank box) → Machine Code → Output."
+      },
+      "options": [
+        "A) Interpreter",
+        "B) Converter",
+        "C) Compiler",
+        "D) Decoder"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Source code → compiler → machine code → output.",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "33. There is an error in your code, it will execute successfully and the computer will not generate any error message, BUT it will not do the right thing. The error is?",
+      "diagram": null,
+      "options": [
+        "A) Runtime error",
+        "B) Syntax error",
+        "C) Second error",
+        "D) Logical error"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "34. Programming errors are called?",
+      "diagram": null,
+      "options": [
+        "A) Bugs",
+        "B) Runtime",
+        "C) Semantic",
+        "D) Errors"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "35. The following are the common risks of digital security EXCEPT?",
+      "diagram": null,
+      "options": [
+        "A) internet and network attacks",
+        "B) software theft",
+        "C) system failure",
+        "D) Bucking up"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Backing up is a safeguard, not a risk.",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "36. A set of procedures and guidelines that effect how people lead their lives is called?",
+      "diagram": null,
+      "options": [
+        "A) Ethics",
+        "B) Crime",
+        "C) Copyright",
+        "D) Plagiarism"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "37. This is an individual who has outstanding computer and networking skills and is recruited to hack into specific device or network to show how easy it is to steal information from that device or network is called?",
+      "diagram": null,
+      "options": [
+        "A) Corporate spy",
+        "B) White hat hacker",
+        "C) Cracker",
+        "D) Crime ware"
+      ],
+      "correct_index": 1,
+      "answer_guide": "A white hat (ethical) hacker is hired to test security. (Some textbooks define a 'corporate spy' as hired to break into a competitor's computers.) [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "38. These are programs that are hidden inside a computer mostly for bad reasons, EXCEPT?",
+      "diagram": null,
+      "options": [
+        "A) Spyware",
+        "B) Hacker",
+        "C) Trojan Horse",
+        "D) Malware"
+      ],
+      "correct_index": 1,
+      "answer_guide": "A hacker is a person, not a program.",
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "PART ONE: Choose the Correct answer (40 marks)",
+      "question": "39. Switching between Edit mode and Navigation mode in the data sheet or design view you should press what?",
+      "diagram": null,
+      "options": [
+        "A) F11",
+        "B) F5",
+        "C) F4",
+        "D) F2"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "1. Draw simple Mesh Topology that consists of five computers. ( 4 marks )",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Draw five computers (nodes) and connect every computer directly to every other computer – a full mesh has 5 × 4 / 2 = 10 links. Each node should have 4 connecting lines.",
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "2. Demonstrate the difference between the terms Hub and Switch. ( 4marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Hub: a simple device that receives data and broadcasts it to all connected ports; it cannot read addresses, works at the physical layer and causes more collisions and slower networks.\nSwitch: an intelligent device that reads the destination MAC address and sends data only to the intended device; it works at the data-link layer, reduces collisions and is faster and more secure.",
+      "matching_pairs": null
+    },
+    {
+      "id": 42,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "3. Describe how to duplicate slides. ( 4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "In PowerPoint, select the slide(s) in the slide thumbnail pane, right-click and choose Duplicate Slide (or Home tab → New Slide arrow → Duplicate Selected Slides, or press Ctrl + D). The copy appears directly after the original.",
+      "matching_pairs": null
+    },
+    {
+      "id": 43,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "4. Convert Decimal 218 to Binary. (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "218 ÷ 2 = 109 r0; 109 ÷ 2 = 54 r1; 54 ÷ 2 = 27 r0; 27 ÷ 2 = 13 r1; 13 ÷ 2 = 6 r1; 6 ÷ 2 = 3 r0; 3 ÷ 2 = 1 r1; 1 ÷ 2 = 0 r1\nReading remainders upward: 218₁₀ = 11011010₂",
+      "matching_pairs": null
+    },
+    {
+      "id": 44,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "5. Illustrate the concept of Artificial Intelligence (AI). ( 4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "AI is the ability of computers/machines to perform tasks that normally require human intelligence, such as learning, reasoning, problem-solving, understanding language and recognising images. Examples: voice assistants, chatbots, face recognition, self-driving cars, recommendation systems.",
+      "matching_pairs": null
+    },
+    {
+      "id": 45,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "6. If you have a paper photograph that you want to send it as an email attachment, which devise would you use to transfer it digitally? ( 4marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A scanner (or a digital camera / smartphone camera) to convert the photograph into a digital image file, which can then be attached to the email.",
+      "matching_pairs": null
+    },
+    {
+      "id": 46,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "7. Describe how to open Microsoft Access 2016? (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Click the Start button → All apps → Access 2016 (or type “Access” in the search box and click it). Then choose Blank desktop database or open an existing database.",
+      "matching_pairs": null
+    },
+    {
+      "id": 47,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "8. Compare the advantages and disadvantages of document review in system analysis and design? (4marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Advantages: gives information on how the current system works; cheap and quick; does not disturb staff; provides accurate written records.\nDisadvantages: documents may be outdated, incomplete or inaccurate; time-consuming if there are many documents; does not show staff opinions or problems not written down.",
+      "matching_pairs": null
+    },
+    {
+      "id": 48,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "9. Describe how to save the Current Record?(4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "In Access, select the Home tab, locate the Records group and click the Save command (or press Shift + Enter). Access also saves a record automatically when you move to another record.",
+      "matching_pairs": null
+    },
+    {
+      "id": 49,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "10. What are Queries? ( 4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A query is a database object used to search, retrieve, filter, sort and calculate data from one or more tables according to specified criteria – a question asked of the database.",
+      "matching_pairs": null
+    },
+    {
+      "id": 50,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "11. List any three characteristics of a good primary key? (4 marks )",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any three: it uniquely identifies each record; it is never empty (not null); its values rarely or never change; it is short and simple; each table has only one primary key.",
+      "matching_pairs": null
+    },
+    {
+      "id": 51,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "12. What happens if you try to perform an operation on a variable and you have NOT assigned a value to it? (4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "The program produces an error – e.g. in Python a NameError (“name is not defined”) and the program stops; in some languages the variable contains a garbage/undefined value and gives wrong results.",
+      "matching_pairs": null
+    },
+    {
+      "id": 52,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "13. Analyze the following python code then write down the OUTPUT. ( 4 marks)\n\n   A = 2\n   X = 1\n   Y = A + X\n   print(Y,\"A\")\n   print(A,\"B\")\n   print(X,\"C\")",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "3 A\n2 B\n1 C",
+      "matching_pairs": null
+    },
+    {
+      "id": 53,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "14. Define the term digital security risks? ( 4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A digital security risk is any event or action that could cause loss of or damage to computer hardware, software, data, information or processing capability – e.g. viruses/malware, hacking, software and information theft, hardware theft and system failure.",
+      "matching_pairs": null
+    },
+    {
+      "id": 54,
+      "section": "PART TWO: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "15. Write a shortcut used to open the Database Tools Tab. ( 4marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Alt + Y (press Alt to show KeyTips, then Y for the Database Tools tab in Access). [Check against the official key.]",
+      "matching_pairs": null
+    }
+  ]
+}

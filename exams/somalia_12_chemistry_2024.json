@@ -1,0 +1,573 @@
+{
+  "title": "Federal Republic of Somalia – Form Four National Examinations June 2024 – Chemistry",
+  "exam_id": "somalia_12_chemistry_2024",
+  "year": 2024,
+  "subject": "Chemistry",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "1. Which of the following is an example of hydrocarbons?",
+      "diagram": null,
+      "options": [
+        "a) 2-ethyl-2-methyl-4-heptanol",
+        "b) 3-ethyl-2-methanol propanoic acid",
+        "c) 2-ethyl-3-methylheptane",
+        "d) 2-Bromo-3-chloro-Octanal"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Only the alkane contains carbon and hydrogen only.",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "2. The sugar that is in the backbone of RNA:",
+      "diagram": null,
+      "options": [
+        "a) Deoxyribose",
+        "b) Glucose",
+        "c) Fructose",
+        "d) Ribose"
+      ],
+      "correct_index": 3,
+      "answer_guide": "RNA contains ribose (DNA contains deoxyribose). The printed figure shows the ribose ring with OH on both C2 and C3.",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "3. The equilibrium expression kc for the reaction below is: H₂(g) + F₂(g) ⇌ 2HF(g)",
+      "diagram": null,
+      "options": [
+        "a) kc = [HF] / [H₂][F₂]",
+        "b) kc = [HF]² / [H₂][F₂]",
+        "c) kc = [H₂][F₂] / [HF]²",
+        "d) kc = [H₂][F₂] / [HF]"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Products over reactants, each raised to its coefficient.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "4. AlL monosaccharides and disaccharides are reducing sugars EXCEPT:",
+      "diagram": null,
+      "options": [
+        "a) Sucrose",
+        "b) Lactose",
+        "c) Fructose",
+        "d) Maltose"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Sucrose has no free anomeric carbon, so it is non-reducing.",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "5. The group 16 or VIA elements of modern periodic table is called.",
+      "diagram": null,
+      "options": [
+        "a) Carbon family",
+        "b) Nitrogen family",
+        "c) Halogen family",
+        "d) Oxygen family"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "6. The IUPAC name for the structure below is:\n   CH₃–CH(CH₃)–CH(CH₃)–CH₂–C(=O)–CH(C₂H₅)–CH₂–CH₃",
+      "diagram": null,
+      "options": [
+        "a) 3-ethyl-7,6-dimethyl-4-heptanone",
+        "b) 3-ethyl-6,7-dimethyl-4-octanone",
+        "c) 3-ethyl-6,7-diethyl-4-octanone",
+        "d) 3-ethyl-7,6-dimethyl-4-heptanone"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Longest chain containing C=O has 8 carbons; numbering from the right gives C=O at C4, ethyl at C3 and methyls at C6 and C7.",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "7. This is an example of",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 120\" width=\"100%\" style=\"max-width:360px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Two small nuclei join into one larger nucleus releasing energy\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><circle cx=\"40\" cy=\"35\" r=\"18\" fill=\"#777\"/><circle cx=\"40\" cy=\"85\" r=\"18\" fill=\"#777\"/><path d=\"M90,50 h50 v-14 l30,24 l-30,24 v-14 h-50 Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"225\" cy=\"60\" r=\"32\" fill=\"#777\"/><polygon points=\"310,30 318,48 338,42 326,58 342,72 322,72 318,92 306,76 290,86 296,66 280,56 300,50\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/></svg>",
+        "caption": "Two small nuclei → (arrow) → one larger nucleus plus a burst of energy."
+      },
+      "options": [
+        "a) Nuclear fusion",
+        "b) Nuclear fission",
+        "c) Nuclear agent",
+        "d) Nuclear weapons"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Two small nuclei join to form a larger one with release of energy – fusion.",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "8. Which one of the folLowing structures indicate nitrobenzene?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 560 170\" width=\"100%\" style=\"max-width:560px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Four structures a to d: nitro on cyclohexane; dinitrobenzene; nitrobenzene; toluene\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><text x=\"15\" y=\"22\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">a.</text><polygon points=\"60.0,74.0 28.8,92.0 28.8,128.0 60.0,146.0 91.2,128.0 91.2,92.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"60\" y1=\"74\" x2=\"60\" y2=\"52\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"60\" y=\"46\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">NO₂</text><text x=\"155\" y=\"22\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">b.</text><polygon points=\"200.0,74.0 168.8,92.0 168.8,128.0 200.0,146.0 231.2,128.0 231.2,92.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"110\" r=\"21.6\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"200\" y1=\"74\" x2=\"200\" y2=\"52\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"200\" y=\"46\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">NO₂</text><line x1=\"231\" y1=\"92\" x2=\"252\" y2=\"80\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"268\" y=\"82\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">NO₂</text><text x=\"295\" y=\"22\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">c.</text><polygon points=\"340.0,74.0 308.8,92.0 308.8,128.0 340.0,146.0 371.2,128.0 371.2,92.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"340\" cy=\"110\" r=\"21.6\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"340\" y1=\"74\" x2=\"340\" y2=\"52\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"340\" y=\"46\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">NO₂</text><text x=\"435\" y=\"22\" font-size=\"15\" text-anchor=\"start\" font-weight=\"bold\">d.</text><polygon points=\"480.0,74.0 448.8,92.0 448.8,128.0 480.0,146.0 511.2,128.0 511.2,92.0\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"480\" cy=\"110\" r=\"21.6\" fill=\"none\" stroke=\"#111\" stroke-width=\"1.5\"/><line x1=\"480\" y1=\"74\" x2=\"480\" y2=\"52\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"480\" y=\"46\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">CH₃</text><line x1=\"140\" y1=\"5\" x2=\"140\" y2=\"165\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"280\" y1=\"5\" x2=\"280\" y2=\"165\" stroke=\"#111\" stroke-width=\"1\"/><line x1=\"420\" y1=\"5\" x2=\"420\" y2=\"165\" stroke=\"#111\" stroke-width=\"1\"/></svg>",
+        "caption": "Four structures: (a) NO₂ on a cyclohexane ring; (b) benzene with two NO₂ groups; (c) benzene with one NO₂; (d) benzene with CH₃."
+      },
+      "options": [
+        "a) a",
+        "b) b",
+        "c) c",
+        "d) d"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Nitrobenzene is a benzene ring with one –NO₂ group. (a) is a non-aromatic ring, (b) has two NO₂ groups, (d) is methylbenzene.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "9. Identify the product that balances the following nuclear reaction.\n   ²¹²₈₄Po → ⁴₂He + ?",
+      "diagram": null,
+      "options": [
+        "a) ⁸²₂₀₈Pb",
+        "b) ²¹⁰₈₄Pb",
+        "c) ²⁰⁸₈₄Pb",
+        "d) ²⁰⁸₈₂Pb"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Mass: 212 − 4 = 208; atomic number: 84 − 2 = 82 → ²⁰⁸₈₂Pb.",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "10. Primary (1°) alcohols oxidize to produce:",
+      "diagram": null,
+      "options": [
+        "a) Ketones",
+        "b) Aldehydes",
+        "c) Ethers",
+        "d) Alkanes"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "11. The reaction of water with calcium carbide produces only:",
+      "diagram": null,
+      "options": [
+        "a) Ethane",
+        "b) Ethene",
+        "c) Ethyne",
+        "d) Propyne"
+      ],
+      "correct_index": 2,
+      "answer_guide": "CaC₂ + 2H₂O → C₂H₂ (ethyne/acetylene) + Ca(OH)₂. (Strictly, calcium hydroxide also forms; ethyne is the only gas.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "12. The properties that determines the functional groups:",
+      "diagram": null,
+      "options": [
+        "a) Nomenclature, preparation and physical properties",
+        "b) preparation, Nomenclature and physical properties",
+        "c) Nomenclature, preparation and chemical properties",
+        "d) Nomenclature, physical and chemical properties"
+      ],
+      "correct_index": 3,
+      "answer_guide": "The functional group decides a compound's name (nomenclature) and its physical and chemical properties. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "13. Which of the following is a primary alcohol?",
+      "diagram": null,
+      "options": [
+        "a) 1 – Propanol",
+        "b) 3-methyl -2- hexanol",
+        "c) 2-ethyl-2-octanol",
+        "d) 2-methyl-3-heptanol"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "14. The half-life of polonium -218 is 3.04min A sample of polonium contains 0.00558g of polonium -218.how many half-lives will remain after 18.24 min?",
+      "diagram": null,
+      "options": [
+        "a) 4 half- life",
+        "b) 5 half- life",
+        "c) 6 half- life",
+        "d) 7 half- life"
+      ],
+      "correct_index": 2,
+      "answer_guide": "18.24 ÷ 3.04 = 6 half-lives have passed.",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "15. The only factor that affects the value of the equilibrium constant is:",
+      "diagram": null,
+      "options": [
+        "a) Concentration",
+        "b) Pressure",
+        "c) Catalyst",
+        "d) Temperature"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "16. The molecular formula of ethylbenzene is",
+      "diagram": null,
+      "options": [
+        "a) C₈H₈",
+        "b) C₈H₁₀",
+        "c) C₆H₈",
+        "d) C₆H₆"
+      ],
+      "correct_index": 1,
+      "answer_guide": "C₆H₅–C₂H₅ = C₈H₁₀",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "17. Which of the following is a tri-carboxylic acids:",
+      "diagram": null,
+      "options": [
+        "a) Citric acid",
+        "b) Acetic acid",
+        "c) Oxalic acid",
+        "d) Malonic acid"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "18. If the rate of \"appear\" of NH₃ is 0.069M/s in the reaction described below\n   N₂(g) + 3H₂(g) ⇌ 2NH₃(g). What is the rate of \"disappear\" of H₂ at this point",
+      "diagram": null,
+      "options": [
+        "a) 0.1350 M/s",
+        "b) 0.3105 M/s",
+        "c) 0.1035 M/s",
+        "d) 0.1305 M/s"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Rate(H₂) = 3/2 × 0.069 = 0.1035 M/s",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "19. Which of the following elements will have the electronic configuration of 1S²2S²2P⁵",
+      "diagram": null,
+      "options": [
+        "a) Carbon",
+        "b) Oxygen",
+        "c) Nitrogen",
+        "d) Fluorine"
+      ],
+      "correct_index": 3,
+      "answer_guide": "9 electrons → fluorine.",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "SECTION A: MULTIPLE CHOICE: CIRCLE THE LETTER OF THE CORRECT ANSWER [20 MARKS]",
+      "question": "20. Which two nucleotides are collectively known as purines:",
+      "diagram": null,
+      "options": [
+        "a) Adenine and uracil",
+        "b) Adenine and guanine",
+        "c) Guanine and cytosine",
+        "d) Guanine and thymine"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n1. The unit of rate of reaction is ______.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Mol/l.s⁻¹",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n2. ______ is used in radiotherapy for treatment of cancer.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Radon",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n3. The unit most commonly used to express radiation exposure is ______",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Rem",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n4. The IUPAC name of CH₃-CH₂—OH is ______",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Ethanol",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n5. ______ is the simplest of organic acid.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "formic acid",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n6. ______ can be either ionizing or non-ionizing.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Radiation",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n7. ______ is the lightest elements in group 13 elements of periodic table .",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Boron",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n8. If the reaction is endothermic in forward then its backward is ______",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "exothermic",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n9. ______ is used for cutting and welding metals .",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "acetylene",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "SECTION B: FILL IN THE BLANK SPACES (10 MARKS) – Use the words in the box to fill in the blank spaces",
+      "question": "(Radon – myoglobin – Radiation – Mol/l.s⁻¹ – Ethanol – exothermic – formic acid – Rem – acetylene – Boron)\n\n10. ______ is an example of globular protein .",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "myoglobin",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "SECTION C: MATCHING (10 MARKS) – Match the words in Column A with corresponding words in Column B using the Brackets",
+      "question": "Match the words in Column A with corresponding words in Column B.\n\nColumn A:\n1. Meat and milk are example\n2. Interior carbonyl\n3. Catechol and quinol are examples of\n4. Natural gas\n5. Carboxylic acid\n6. Group 17 elements are called\n7. A condition required for a reaction to occur\n8. 1-propanol is an example of\n9. Primary structure of protein\n10. Furan and pyrrole are examples of\n\nColumn B:\n[ ] Halogens\n[ ] the formation of peptide bond by the combination of amino acids\n[ ] is the product of oxidation of aldehydes\n[ ] primary alcohol\n[ ] Phenol\n[ ] collision\n[ ] Proteins\n[ ] non-Benzenoid\n[ ] is a one of the sources of hydrocarbons\n[ ] is the functional group of ketone",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Halogens – 6; peptide bond – 9; oxidation of aldehydes – 5; primary alcohol – 8; Phenol – 3; collision – 7; Proteins – 1; non-Benzenoid – 10; sources of hydrocarbons – 4; functional group of ketone – 2",
+      "matching_pairs": [
+        {
+          "item": "1. Meat and milk are example",
+          "match": "Proteins"
+        },
+        {
+          "item": "2. Interior carbonyl",
+          "match": "is the functional group of ketone"
+        },
+        {
+          "item": "3. Catechol and quinol are examples of",
+          "match": "Phenol"
+        },
+        {
+          "item": "4. Natural gas",
+          "match": "is a one of the sources of hydrocarbons"
+        },
+        {
+          "item": "5. Carboxylic acid",
+          "match": "is the product of oxidation of aldehydes"
+        },
+        {
+          "item": "6. Group 17 elements are called",
+          "match": "Halogens"
+        },
+        {
+          "item": "7. A condition required for a reaction to occur",
+          "match": "collision"
+        },
+        {
+          "item": "8. 1-propanol is an example of",
+          "match": "primary alcohol"
+        },
+        {
+          "item": "9. Primary structure of protein",
+          "match": "the formation of peptide bond by the combination of amino acids"
+        },
+        {
+          "item": "10. Furan and pyrrole are examples of",
+          "match": "non-Benzenoid"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "1. Define the following terms (6 marks)\n  a) Chemical equiliBrium\n  b) Phenol\n  c) Carbohydrate",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) The state of a reversible reaction in which the forward and backward reaction rates are equal, so the concentrations of reactants and products stay constant.\nb) An aromatic compound in which a hydroxyl group (–OH) is attached directly to a benzene ring (C₆H₅OH).\nc) Organic compounds of carbon, hydrogen and oxygen with general formula Cₓ(H₂O)ᵧ – polyhydroxy aldehydes or ketones (sugars, starch, cellulose).",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "2. Write the general formula of: (6 marks)\n  a) Alkynes\n  b) Aldehydes\n  c) Cycloalkanes.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) CₙH₂ₙ₋₂\nb) CₙH₂ₙO (R–CHO)\nc) CₙH₂ₙ",
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "3. Give the IUPAC names of the following structures (6 Marks)\n  a) CH₃-CH₂-O-CH₂-CH₂-CH₃\n  b) CH₃–C(CH₃)=CH–CH(CH₂CH₃)–CH₂–CH₂–CH₃\n  c) CH₃–CH(Br)–CH(CH₃)–CH₂–COOH",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) 1-ethoxypropane (ethyl propyl ether)\nb) 4-ethyl-2-methylhept-2-ene (4-ethyl-2-methyl-2-heptene)\nc) 4-bromo-3-methylpentanoic acid",
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "4. CLassify the following compounds into organic and inorganic (5 marks)\n  a) NaHCO₃  b) C₃H₈  c) NaCl  d) C₂H₅OH  e) C₆H₁₂O₆",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Organic: b) C₃H₈, d) C₂H₅OH, e) C₆H₁₂O₆\nInorganic: a) NaHCO₃, c) NaCl",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "5. Answer the following questions:\n  a. What are the possibilities of the chemical reactions (3 marks)?\n  b. calculate the kc from the following equilibrium concentrations for the reaction HCl(aq) + NaOH(aq) ⇌ NaCl + H₂O(l): (3 Marks)\n     [HCl] = 3.2 M   [NaOH] = 4.3 M   [NaCl] = 6.0 M   [H₂O] = 1 M\n  c. Does this reaction is product favored or reactant favored? (1marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A reaction may: go to completion (forward only); be reversible and reach equilibrium; and at equilibrium be product-favoured (Kc > 1), reactant-favoured (Kc < 1) or have comparable amounts of both (Kc ≈ 1). [Wording of this question is unclear – check against the official key.]\nb. Kc = [NaCl][H₂O] / ([HCl][NaOH]) = (6.0 × 1) / (3.2 × 4.3) = 6.0 / 13.76 ≈ 0.44\nc. Kc < 1, so the reaction is reactant favoured.",
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "6. The table below shows p- Block elements in the periodic table:\n  a. Identify the group in which oxygen (Z=8) belongs to. (2 marks)\n  b. Which element has the most abundant by mass in the earth's crust? (2 marks)\n  c. Write the electronic configuration of sulfur (Z=16). (2 marks)\n  d. Which element is radioactive metal in oxygen family? (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\" width=\"100%\" style=\"max-width:400px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"p-block of the periodic table, groups 13 to 18\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><text x=\"210\" y=\"18\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">P – block elements</text><text x=\"45\" y=\"48\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">13</text><text x=\"105\" y=\"48\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">14</text><text x=\"165\" y=\"48\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">15</text><text x=\"225\" y=\"48\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">16</text><text x=\"285\" y=\"48\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">17</text><text x=\"345\" y=\"28\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">18</text><rect x=\"315\" y=\"35\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"345\" y=\"57\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">He</text><rect x=\"15\" y=\"67\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"45\" y=\"89\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"75\" y=\"67\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"105\" y=\"89\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"135\" y=\"67\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"165\" y=\"89\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">N</text><rect x=\"195\" y=\"67\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"225\" y=\"89\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">O</text><rect x=\"255\" y=\"67\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"285\" y=\"89\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">F</text><rect x=\"315\" y=\"67\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"345\" y=\"89\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Ne</text><rect x=\"15\" y=\"99\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"45\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Al</text><rect x=\"75\" y=\"99\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"105\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Si</text><rect x=\"135\" y=\"99\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"165\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">P</text><rect x=\"195\" y=\"99\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"225\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">S</text><rect x=\"255\" y=\"99\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"285\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Cl</text><rect x=\"315\" y=\"99\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"345\" y=\"121\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Ar</text><rect x=\"15\" y=\"131\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"45\" y=\"153\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Ga</text><rect x=\"75\" y=\"131\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"105\" y=\"153\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Ge</text><rect x=\"135\" y=\"131\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"165\" y=\"153\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">As</text><rect x=\"195\" y=\"131\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"225\" y=\"153\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Se</text><rect x=\"255\" y=\"131\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"285\" y=\"153\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Br</text><rect x=\"315\" y=\"131\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"345\" y=\"153\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Kr</text><rect x=\"15\" y=\"163\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"45\" y=\"185\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">In</text><rect x=\"75\" y=\"163\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"105\" y=\"185\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Sn</text><rect x=\"135\" y=\"163\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"165\" y=\"185\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Sb</text><rect x=\"195\" y=\"163\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"225\" y=\"185\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Te</text><rect x=\"255\" y=\"163\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"285\" y=\"185\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">I</text><rect x=\"315\" y=\"163\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"345\" y=\"185\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Xe</text><rect x=\"15\" y=\"195\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"45\" y=\"217\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Tl</text><rect x=\"75\" y=\"195\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"105\" y=\"217\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Pb</text><rect x=\"135\" y=\"195\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"165\" y=\"217\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Bi</text><rect x=\"195\" y=\"195\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"225\" y=\"217\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Po</text><rect x=\"255\" y=\"195\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"285\" y=\"217\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">At</text><rect x=\"315\" y=\"195\" width=\"60\" height=\"32\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"345\" y=\"217\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Rn</text></svg>",
+        "caption": "p-block of the periodic table, groups 13–18: B C N O F Ne / Al Si P S Cl Ar / Ga Ge As Se Br Kr / In Sn Sb Te I Xe / Tl Pb Bi Po At Rn, with He above group 18."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Group 16 (VIA) – the oxygen family (chalcogens).\nb. Oxygen (about 46% of the earth's crust by mass).\nc. 1s² 2s² 2p⁶ 3s² 3p⁴ (2, 8, 6)\nd. Polonium (Po).",
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "7. Draw the structure of dipeptide formed by the following amino acids:\n  a. H₂N–CH₂–COOH (Glycine) + H₂N–CH(CH₃)–COOH (Alanine) → (4 marks)\n  b. Name the dipeptide formed (2marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. H₂N–CH₂–CO–NH–CH(CH₃)–COOH + H₂O (the –COOH of glycine joins the –NH₂ of alanine, forming a peptide bond –CO–NH– and eliminating water).\nb. Glycylalanine (Gly-Ala).",
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "8. List the factors affecting rate of reactions? (5 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Concentration (or pressure for gases); temperature; surface area (particle size); catalyst; nature of the reactants (also light for some reactions).",
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "9. Answer the following questions which are relevant to the ketones:\n  a. Define ketone? (2 marks)\n  b. What are the products formed when ketones are reduced? (2 marks)\n  c. The simplest ketone is called Dimethyl ketone. describe its other name? (1 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Organic compounds containing a carbonyl group (C=O) bonded to two carbon atoms (R–CO–R′).\nb. Secondary alcohols.\nc. Acetone (propanone).",
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "SECTION D: STRUCTURED QUESTIONS (60 MARKS)",
+      "question": "10. Technetium -99m is an ideal radioisotope for scanning organs it has a half-life of 6.0hours\n  a. How many milligrams of 80.mg of Technetium -99m would remain after 24hours? (3 marks)\n  b. The diagram below shows, the penetrating power of different radioactive decays. (3 marks)\n     Name parts labeled:\n     I. Y\n     II. Z\n     III. X",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 420 190\" width=\"100%\" style=\"max-width:420px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Radiations Y, Z and X directed at paper, aluminium sheet and thick lead sheet\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"150\" y1=\"15\" x2=\"150\" y2=\"140\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"240\" y=\"15\" width=\"10\" height=\"125\" fill=\"#333\"/><rect x=\"330\" y=\"15\" width=\"40\" height=\"125\" fill=\"#333\"/><line x1=\"40\" y1=\"45\" x2=\"148\" y2=\"45\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"40\" y1=\"80\" x2=\"238\" y2=\"80\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"40\" y1=\"115\" x2=\"328\" y2=\"115\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"28\" y=\"50\" font-size=\"15\" text-anchor=\"end\" font-weight=\"bold\">Y</text><text x=\"28\" y=\"85\" font-size=\"15\" text-anchor=\"end\" font-weight=\"bold\">Z</text><text x=\"28\" y=\"120\" font-size=\"15\" text-anchor=\"end\" font-weight=\"bold\">X</text><text x=\"150\" y=\"160\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Paper</text><text x=\"245\" y=\"160\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Aluminum</text><text x=\"245\" y=\"175\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">sheet</text><text x=\"350\" y=\"160\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Thick lead</text><text x=\"350\" y=\"175\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">sheet</text></svg>",
+        "caption": "Three radiations: Y stops at the paper, Z stops at the aluminium sheet and X reaches the thick lead sheet."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. 24 ÷ 6 = 4 half-lives: 80 → 40 → 20 → 10 → 5 mg remain.\nb. I. Y – alpha (stopped by paper)\n   II. Z – beta (stopped by aluminium)\n   III. X – gamma (reaches/is reduced by thick lead)",
+      "matching_pairs": null
+    }
+  ]
+}

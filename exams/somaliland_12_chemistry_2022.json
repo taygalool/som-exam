@@ -1,0 +1,395 @@
+{
+  "title": "Somaliland Form Four Examination 2022 - Chemistry",
+  "exam_id": "somaliland_12_chemistry_2022",
+  "year": 2022,
+  "subject": "Chemistry",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "1. The number of electron in magnesium ion ( mg ²⁺ ) is",
+      "diagram": null,
+      "options": [
+        "a. 10",
+        "b. 12",
+        "c. 11",
+        "d. 24"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Mg has 12 electrons; Mg²⁺ has lost 2 → 10.",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "2. The mass number of atom (A) is - (ᴬ_Z X)",
+      "diagram": null,
+      "options": [
+        "a. Protons and electrons",
+        "b. Protons and neutrons",
+        "c. Protons only",
+        "d. Electrons only"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "3. The electronic Configuration of an atom with atomic number 13 is",
+      "diagram": null,
+      "options": [
+        "a. 1S², 2S², 2P⁶",
+        "b. 1S², 2S², 2P⁶, 3S²",
+        "c. 1S², 2S², 2P³",
+        "d. 1S², 2S², 2P⁶, 3S², 3P¹"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "4. Below is diagram of two atoms: ³⁵₁₇Cl and ³⁷₁₇Cl\n   the above atoms are called :-",
+      "diagram": null,
+      "options": [
+        "a. Isomers",
+        "b. Allotropes",
+        "c. Isotopes",
+        "d. Iso electrons"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "5. The attraction between oppositely charged ions in molecule is called:",
+      "diagram": null,
+      "options": [
+        "a. Ionic bond",
+        "b. Covalent bond",
+        "c. Metallic bond",
+        "d. Polyatomic bond"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "6. A bond formed when two atoms share electrons is called :-",
+      "diagram": null,
+      "options": [
+        "a. Ionic bond",
+        "b. Covalent",
+        "c. Metallic",
+        "d. Polyatomic"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "7. In a double covalent bond atoms share",
+      "diagram": null,
+      "options": [
+        "a. One pair of electrons",
+        "b. 2 pair of electrons",
+        "c. 3 pair of electrons",
+        "d. 3 pair of electrons"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Options c and d are printed identically.",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "8. The relative molecule mass of Oxygen molecule (O₂) is :- { RAM = O=16}",
+      "diagram": null,
+      "options": [
+        "a. 8",
+        "b. 16",
+        "c. 32",
+        "d. 48"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "9. The relative formula mass of (CO₂) is :- { RAM = C= 12 O=16}",
+      "diagram": null,
+      "options": [
+        "a. 42",
+        "b. 45",
+        "c. 44",
+        "d. 46"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "10. Molar mass of hydrogen Chloride (HCl) gas is :- { RAM =H = 1 CL=35.5}",
+      "diagram": null,
+      "options": [
+        "a. 36 g",
+        "b. 35.5 g",
+        "c. 36.5 g",
+        "d. 36.6 g"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "11. Organic compounds containing the functional group –OH is:-",
+      "diagram": null,
+      "options": [
+        "a. Alkalis",
+        "b. Alcohols",
+        "c. Esters",
+        "d. Salts"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "12. Primary alcohol can be oxidized to form",
+      "diagram": null,
+      "options": [
+        "a. Bases",
+        "b. Acids",
+        "c. Esters",
+        "d. Aldehydes"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Primary alcohols oxidise first to aldehydes (and further to carboxylic acids), so (b) is also defensible. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "13. The general formula of alkene homologous series is:-",
+      "diagram": null,
+      "options": [
+        "a. CₙH₂ₙ₊₂",
+        "b. CₙH₂ₙ₊₁",
+        "c. CₙH₂ₙ",
+        "d. CₙH₂ₙ₋₂"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "14. In exothermic process",
+      "diagram": null,
+      "options": [
+        "a. Heat is produced",
+        "b. Catalyst is used",
+        "c. A gas is given off",
+        "d. Heat is obsorbed"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "15. Which one of the following is endothermic process",
+      "diagram": null,
+      "options": [
+        "a. Combustion",
+        "b. Evaporation",
+        "c. Neutralization",
+        "d. Photosynthesis"
+      ],
+      "correct_index": null,
+      "answer_guide": "Both evaporation (b) and photosynthesis (d) are endothermic, so two options are correct. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "16. Burning fuel is an example of",
+      "diagram": null,
+      "options": [
+        "a. Endothermic reaction",
+        "b. Neutrazation reaction",
+        "c. Exothermic reaction",
+        "d. Perception reaction"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "17. Which one of the following properties is base :-",
+      "diagram": null,
+      "options": [
+        "a. Turns litmus red",
+        "b. Turns litmus blue",
+        "c. It has sour taste",
+        "d. React with carbonates to produce Co₂"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "18. The liquid that allows electricity to pass through is :-",
+      "diagram": null,
+      "options": [
+        "a. Electroplating",
+        "b. Electrolysis",
+        "c. Electrolyte",
+        "d. Insulators"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "Part one : Multiple choice (20 x 2 marks = 40 marks) – only 19 questions are printed",
+      "question": "19. When a solvent and solute are soluble they form :-",
+      "diagram": null,
+      "options": [
+        "a. Melting",
+        "b. Freezing",
+        "c. Evaporation",
+        "d. Condensation"
+      ],
+      "correct_index": null,
+      "answer_guide": "They form a solution, which is not among the options.",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "1. The Diagram below shows the gradual change in atomic radius across a Period (Li, Be, B, C, N, O, F – number of protons increases, atomic radius decreases, first ionisation energy increases)\n  a. Define the term atomic radius (1 mark)\n  b. In the above figure what the term 3p, 4p, 5p, represents (2 marks)\n  c. Lithium and fluorine, which one has a higher atomic radius. (1 mark)\n  d. State the reason atomic radius of element decreases across a Period (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Half the distance between the nuclei of two bonded atoms of the same element (the distance from the nucleus to the outermost electrons).\nb. The number of protons in the nucleus (3 protons, 4 protons, 5 protons…) – i.e. the nuclear charge.\nc. Lithium.\nd. Across a period the number of protons (nuclear charge) increases while electrons are added to the same shell, so the outer electrons are pulled closer to the nucleus.",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "2. This table shows symbols of several ions and atoms: A = ²³₁₁N⁺ (Na⁺), B = ¹⁶₈O²⁻, C = ⁴⁰₂₀C (Ca), D = ³⁵₁₇Cl\n  a. Define the following terms:\n     i. Ion\n     ii. Atom\n  b. State the number of electrons in A. (2 marks)\n  c. State the number of electrons in B (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. i. An ion is an atom (or group of atoms) that has gained or lost electrons and so carries an electric charge.\n   ii. An atom is the smallest particle of an element, electrically neutral, with equal numbers of protons and electrons.\nb. A: 11 − 1 = 10 electrons (the symbol printed as N is evidently Na).\nc. B: 8 + 2 = 10 electrons.",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "3. Below is the cross-dot diagram of lithium and fluorine atoms (lithium 2,1 transfers an electron to fluorine 2,7)\n  a. How many electrons are transferred (1 mark)\n  b. Write down the chemical symbols of lithium ion and fluoride ion. (2 marks)\n  c. Name the type of bond formed when lithium and fluorine react (1 marks)\n  d. Write a balanced chemical equation for the above reaction (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. One electron.\nb. Li⁺ and F⁻\nc. Ionic (electrovalent) bond.\nd. 2Li + F₂ → 2LiF",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "4. Below is the cross dot diagram of ammonia molecule:-\n  a. How many electrons are shared? (1 marks)\n  b. Name the type of bond the holds the atoms (2 marks)\n  c. Name the Un-shared pair of electrons. (1 marks)\n  d. State two uses of Ammonia. (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. 6 electrons (3 shared pairs).\nb. Covalent bond (single covalent bonds).\nc. Lone pair (on the nitrogen atom).\nd. Any two: making fertilisers (ammonium nitrate, urea); making nitric acid; cleaning agents; refrigerant; making explosives and dyes.",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "5. Ammonium nitrate (NH₄NO₃) is a compound used as fertilizer\n  a. Define these terms:-\n     i. Formula mass (1 mark)\n     ii. Molar mass (1 mark)\n  b. Calculate the relative formula mass of Ammonia (NH₃) molecule (N=14, H=1) (2 marks)\n  c. Calculate the molar mass of ammonium nitrate NH₄NO₃ (N=14, O=16, H=1) (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. i. The sum of the relative atomic masses of all atoms in the formula of a compound.\n   ii. The mass of one mole of a substance, in grams per mole (g/mol).\nb. 14 + 3(1) = 17\nc. 2(14) + 4(1) + 3(16) = 28 + 4 + 48 = 80 g/mol",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "6. Hydrogen and Oxygen are two common gasses found naturally:- (Avogadro's rule: - 1 mole of nay gas at rtp =24dm³)\n  a. Define the term molar gas volume (2 marks)\n  b. What is the volume occupied by 1 mole of any gas at rtp? (2 marks)\n  c. Calculate the molar gas volume of Oxygen (O₂) molecule at rtp (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The volume occupied by one mole of any gas at a given temperature and pressure.\nb. 24 dm³ (24,000 cm³)\nc. 24 dm³ per mole – the same for every gas (e.g. 32 g of O₂ occupies 24 dm³).",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "7. This is a polymerization reaction of ethane molecules:- (ethene molecules H₂C=CH₂ join to form –CH₂–CH₂–CH₂–… )\n  a. Define the term polymerization (2 marks)\n  b. State the name of the Ethene molecules the joined together (1 mark)\n  c. State the name of the product formed (1 mark)\n  d. is it addition or condensation polymerization? (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The joining together of many small molecules (monomers) to form a very large molecule (polymer).\nb. Monomers.\nc. Poly(ethene) – polyethylene (polythene).\nd. Addition polymerisation (no small molecule is lost; the C=C double bonds open).",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "8. this diagram indicates an enthalpy profile of a reactions: CH₄(g) + 2O₂(g) → CO₂(g) + 2H₂O(g), ΔH = −706 kJ (arrow pointing down)\n  a. define the term, Bond enthalpy (2 marks)\n  b. State the unit used to measure the energy change in a reaction. (2 marks)\n  c. What does the direction of the arrow indicate? (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The energy needed to break one mole of a particular covalent bond in gaseous molecules.\nb. Kilojoules (kJ) or kJ/mol.\nc. Energy is released to the surroundings – the products have less energy than the reactants; the reaction is exothermic (ΔH negative).",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "9. These are first four members of Organic family: CH₄, C₂H₅, C₃H₈, C₄H₁₀\n  a. define the term homologous series (1 mark)\n  b. State the homologous series of the above molecules belong to.\n  c. Name another 2 members of this family (2 marks)\n  d. Are they saturated or unsaturated hydrocarbons (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A family of organic compounds with the same general formula and functional group, similar chemical properties, where each member differs from the next by –CH₂–.\nb. Alkanes (C₂H₅ is a misprint for C₂H₆, ethane).\nc. Any two: pentane C₅H₁₂, hexane C₆H₁₄, heptane C₇H₁₆.\nd. Saturated (only single C–C bonds).",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO STRUCTURE QUESTIONS (10X6=60 marks)",
+      "question": "10. This figure indicates the change of state in water (Solid ⇄ Liquid ⇄ Gas)\n  a. State the change of state from water to gas (1 mark)\n  b. State the change of state from gas to water (1 mark)\n  c. What name is given to the change of state from solid direct to gas? (2 marks)\n  d. What happens to the particles of water when it changes gas to liquid? (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Evaporation (boiling).\nb. Condensation.\nc. Sublimation.\nd. They lose energy, slow down and move closer together as the attractive forces between them increase.",
+      "matching_pairs": null
+    }
+  ]
+}

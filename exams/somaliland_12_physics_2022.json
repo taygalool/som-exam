@@ -1,0 +1,419 @@
+{
+  "title": "Somaliland Form Four Examination 2022 - Physics",
+  "exam_id": "somaliland_12_physics_2022",
+  "year": 2022,
+  "subject": "Physics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "1. Find the accelerations of a car which slows down from 30m/s to 10m/s in 5s",
+      "diagram": null,
+      "options": [
+        "a. 2m/s²",
+        "b. 4m/s²",
+        "c. 5m/s²",
+        "d. 6m/s²"
+      ],
+      "correct_index": 1,
+      "answer_guide": "a = (10 − 30)/5 = −4 m/s² (a deceleration of 4 m/s²).",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "2. A. projectile is thrown, so that its horizontal component of Ux= 12m/s and vertical component Uy= 5m/s the initial velocity (resultant)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 160\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Right triangle: horizontal Ux = 12 m/s, vertical Uy = 5 m/s, hypotenuse C\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M30,130 L250,130 L250,30 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"140\" y=\"150\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Ux = 12 m/s</text><text x=\"258\" y=\"85\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">Uy = 5 m/s</text><text x=\"130\" y=\"70\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">C</text></svg>",
+        "caption": "Velocity triangle: Ux = 12 m/s horizontal, Uy = 5 m/s vertical, resultant C."
+      },
+      "options": [
+        "a. 4m/s",
+        "b. 7m/s",
+        "c. 13m/s",
+        "d. 17m/s"
+      ],
+      "correct_index": 2,
+      "answer_guide": "√(12² + 5²) = 13 m/s",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "3. A ball moves along circular path as shown in the figure at x. if the string breaks in which direction P, Q, R or S will the ball travel?\n   (Figure: ball at point x on a circle; P points towards the centre, S points outward, Q lies along the circle, R points along the tangent)",
+      "diagram": null,
+      "options": [
+        "a. P",
+        "b. Q",
+        "c. R",
+        "d. S"
+      ],
+      "correct_index": 2,
+      "answer_guide": "When the string breaks the ball moves in a straight line along the tangent at x – arrow R. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "4. Power is defined as",
+      "diagram": null,
+      "options": [
+        "a. Distance traveled in unit time",
+        "b. Energy transferred in unit time",
+        "c. Displacement in unit time",
+        "d. Change of velocity per unit time"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "5. An object travels from A through displacement of the object at A is\n   (Figure: rectangle ABCD; the object goes A → B → C → D → back to A)",
+      "diagram": null,
+      "options": [
+        "a. 0m",
+        "b. 6m",
+        "c. 14m",
+        "d. 22m"
+      ],
+      "correct_index": 0,
+      "answer_guide": "It returns to its starting point, so displacement = 0.",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "6. In swimming water is pushed backwards and as a result , the swimmer moves forwards this is an example of newton's",
+      "diagram": null,
+      "options": [
+        "a. First law of motion",
+        "b. Second law of motion",
+        "c. Third law of motion",
+        "d. Law of universal gravitation"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "7. In the nuclear equation shown below, what is the value of x?\n   ²³⁴₉₂U → ˣ₈₂Pb + 5(⁴₂α)",
+      "diagram": null,
+      "options": [
+        "a. 10",
+        "b. 20",
+        "c. 210",
+        "d. 214"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Mass: 234 = x + 20 → x = 214 (atomic numbers: 92 = 82 + 10 ✓)",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "8. The figure below shows a source of nuclear radiation directed into an electric field the letter Z stand for\n   (Figure: three paths – Z bends slightly upward, Y goes straight, X curves sharply downward)",
+      "diagram": null,
+      "options": [
+        "a. Alpha particle",
+        "b. Beta particle",
+        "c. Gamma rays",
+        "d. X-rays"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Y (undeflected) is gamma; X is strongly deflected (light beta); Z is only slightly deflected in the opposite direction (heavy alpha). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "9. Which of the following application of radio-activity is used to estimate the ages of prehistoric events?",
+      "diagram": null,
+      "options": [
+        "a. Sterilization",
+        "b. Carbon dating",
+        "c. Tracers",
+        "d. Radiotherapy"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "10. A transformer steps down mains supply from 240 v to 6v if the primary coil has 1200 turns how many turns are in The secondary coil",
+      "diagram": null,
+      "options": [
+        "a. 15",
+        "b. 30",
+        "c. 60",
+        "d. 120"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Ns = 1200 × 6/240 = 30",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "11. Mutual induction is a process of inducing current by using",
+      "diagram": null,
+      "options": [
+        "a. Two coil placed side by side",
+        "b. A coil moving over stationary magnet",
+        "c. A magnet moving inside stationary coil",
+        "d. A magnet and a coil moving together"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "12. The figure below shown N-pole of magnet pushed into a coil of wire. Which of the following statement is correct?\n   (Figure: coil with ends A and B; N pole of a magnet pushed towards end B; an arrow drawn on the coil)",
+      "diagram": null,
+      "options": [
+        "a. Current flows in the direction Shown by the arrow",
+        "b. End B becomes south pole",
+        "c. The effect is called motor effect",
+        "d. End B attracts the magnet"
+      ],
+      "correct_index": 0,
+      "answer_guide": "By Lenz's law end B becomes a north pole and repels the magnet, so (b) and (d) are false; it is electromagnetic induction, not the motor effect. Hence (a). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "13. In radio transmitter, the function of the modulator is to",
+      "diagram": null,
+      "options": [
+        "a. Add AF signal to RF carrier",
+        "b. Separate RF carrier from Af signal",
+        "c. Amplify the Af Signal",
+        "d. Amplify the RF carrier signal"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "14. Which of the properties belongs to digital signal?",
+      "diagram": null,
+      "options": [
+        "a. Continuous",
+        "b. It consist of high and low (0 and 1) value",
+        "c. Its symbol is",
+        "d. It has only on value"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "15. Which of the following properties of waves is illustrated by the diagram below?\n   (Figure: straight waves pass through a gap and spread out as curved waves)",
+      "diagram": null,
+      "options": [
+        "a. Reflection",
+        "b. Refraction",
+        "c. Diffraction",
+        "d. Polarization"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "16. For the wave shown in the figure, write down what the letter (x) stand for\n   (Figure: displacement–distance wave; x is the height from the centre line to a crest)",
+      "diagram": null,
+      "options": [
+        "a. Wavelength",
+        "b. Period",
+        "c. Amplitude",
+        "d. Frequency"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "17. Refraction of light is defined",
+      "diagram": null,
+      "options": [
+        "a. Bouncing light rays from a barrier",
+        "b. Bending of light rays due to medium",
+        "c. Spreading of light beyond gap in a barrier",
+        "d. Polarizing of light ray"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "18. If a heated in the same way. Water heats up slower than sand. This is because",
+      "diagram": null,
+      "options": [
+        "a. Water is a liquid",
+        "b. Water has high specific heat capacity",
+        "c. Water has low specific heated capacity",
+        "d. Water can be turned into steam"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "19. The figure below shows the magnetic field between two magnets which row stands for the correct poles of the two magnets\n\n   |   | X | Y |\n   | A | N | N |\n   | B | N | S |\n   | C | S | N |\n   | D | S | S |\n\n   (Figure: field lines run from magnet X across to magnet Y, joining them)",
+      "diagram": null,
+      "options": [
+        "a. A",
+        "b. B",
+        "c. C",
+        "d. D"
+      ],
+      "correct_index": 1,
+      "answer_guide": "The lines join X to Y (unlike poles attract); with arrows from X to Y, X is N and Y is S. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE MULTIPLE CHOICE QUESTIONS (40 MARKS)",
+      "question": "20. 20cm is the same as:",
+      "diagram": null,
+      "options": [
+        "a. 0.002m",
+        "b. 0.02m",
+        "c. 0.2m",
+        "d. 2m"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "1. The figure shown below a velocity –time graph of a moving body. Look at it carefully And then answer the following questions\n  a. Describe the motion of the body in Word (2 marks)\n  b. From the graph, calculate the acceleration of the motion in region OA (2 marks)\n  c. Use the area under the graph to calculate the total distance travelled (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 -10 360 225\" width=\"100%\" style=\"max-width:360px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Velocity-time graph: O to A rising to 30 m/s at 5 s, A to B constant until 15 s, B to C falling to zero at 20 s\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"50\" y1=\"180\" x2=\"350\" y2=\"180\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"50\" y1=\"180\" x2=\"50\" y2=\"20\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><path d=\"M50,180 L120,30 L260,30 L330,180\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.5\"/><text x=\"120\" y=\"196\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">5</text><text x=\"190\" y=\"196\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">10</text><text x=\"260\" y=\"196\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">15</text><text x=\"330\" y=\"196\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">20</text><text x=\"40\" y=\"34\" font-size=\"11\" text-anchor=\"end\" font-weight=\"bold\">30</text><line x1=\"50\" y1=\"30\" x2=\"120\" y2=\"30\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"120\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"260\" y=\"22\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"340\" y=\"172\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"40\" y=\"192\" font-size=\"11\" text-anchor=\"end\" font-weight=\"bold\">O</text><text x=\"60\" y=\"14\" font-size=\"11\" text-anchor=\"start\" font-weight=\"bold\">Velocity (m/s)</text><text x=\"340\" y=\"210\" font-size=\"11\" text-anchor=\"end\" font-weight=\"bold\">Time (s)</text></svg>",
+        "caption": "Velocity–time graph O→A (rising to 30 m/s at 5 s), A→B level to 15 s, B→C falling to zero at 20 s."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(Graph read as O(0,0) → A(5 s, 30 m/s) → B(15 s, 30 m/s) → C(20 s, 0); the scan is faint – check the values.)\na. OA: uniform acceleration from rest; AB: constant (uniform) velocity of 30 m/s; BC: uniform deceleration to rest.\nb. a = 30/5 = 6 m/s²\nc. Area of trapezium = ½(10 + 20) × 30 = 450 m",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "2. An object is projected from appoint O with an initial velocity of 30m/s at an angle Of 60⁰ with the horizontal, as in the figure\n   Find\n  a) Horizontal and vertical components of the initial Velocity Ux and Uy (2 marks)\n  b) Time taken to reach to the maximum height (2 marks)\n  c) Maximum height reached by the object (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Ux = 30 cos 60° = 15 m/s; Uy = 30 sin 60° = 15√3 ≈ 26 m/s\nb) t = Uy/g = 26/10 ≈ 2.6 s\nc) H = Uy²/2g = 675/20 ≈ 33.75 m (taking g = 10 m/s²)",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "3. In the figure a ball of mass 2kg slides down and inclined plane it reaches the bottom with a velocity of 12m/s\n  a. At this point B, calculate the kinetic energy Of the ball (2 marks)\n  b. Keeping in mind with the law of conservation of energy. What is the Gravitational potential energy at point A (the top of plane)? (2 marks)\n  c. Use your answer to part (b) to calculate the height h of the slope (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. KE = ½mv² = ½ × 2 × 12² = 144 J\nb. GPE at A = KE at B = 144 J (no friction)\nc. h = GPE/(mg) = 144/(2 × 10) = 7.2 m",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "4. A sound is a type of wave produced by a vibrating object.\n  a) Sound cannot travel through vacuum. This is because sound is (1 marks)\n     Electromagnetic wave [ ]\n     Mechanical wave [ ]\n  b) A ship uses an echo sunder to measure the depth of water underneath\n     i) What is meant by echo sound? (1 mark)\n     ii) A ship sends ultrasound pulses to sea bed and receives the echo after 2s. how deep is the water, if the speed of sound in water is 1500m/s (2 marks)\n  c) Write down one other uses for echo sounder (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Mechanical wave\nb) i) An echo is a reflected sound; echo sounding sends sound pulses and times their reflection to find distance/depth.\n   ii) depth = v × t/2 = 1500 × 2/2 = 1500 m\nc) Any one: locating shoals of fish; detecting submarines/wrecks; mapping the sea bed; medical ultrasound scanning.",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "5. Radioactive decay is a process of disintegration of unstable nuclei. There are Three types of nuclear radiations alpha, beta and gamma\n  a. Which of these radiations (2 marks)\n     i) Is the same as helium nucleus?\n     ii) Is an electromagnetic wave?\n  b. What is the mass number of alpha, shown here by x? (1 mark)\n  c. The diagram shows the different penetrating powers of the radiations (paper, aluminium, lead)\n     Label each type of radiation (3 marks)\n     X=\n     Y=\n     Z=",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. i) Alpha  ii) Gamma\nb. 4 (⁴₂He)\nc. X = alpha (stopped by paper); Y = beta (stopped by aluminium); Z = gamma (passes through, reduced by lead)",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "6.\n  a. Define half-life of radioactive sample? (2 marks)\n  b. The figure shown a decay curve for radioactive sample. Look at it carefully and then answer the questions that follow the half-life of the sample is 10hrs\n     Estimate the activity of the sample after 15hrs (2 marks)\n     (Graph: activity starts at 400 Bq and falls)\n  c. Write down in two radioactive detectors (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The time taken for half of the radioactive nuclei in a sample to decay (or for its activity to fall to half).\nb. 15 h = 1.5 half-lives → 400 × (½)^1.5 ≈ 141 Bq (≈ 140 Bq read from the graph). [Graph scale is printed in seconds – check.]\nc. Any two: Geiger–Müller tube (GM counter), photographic film (film badge), cloud chamber, spark counter, scintillation counter.",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "7. The diagram shows a system of radio telecommunication. (P → AM Modulator ← Q (AF signal); modulator → Amplifier → R)\n  a. The system represent (1 mark)\n     Radio receiver [ ]\n     Radio transmitter [ ]\n  b. Name the parts of the diagram labeled (3 marks)\n     P\n     Q\n     R\n  c. What is the function of the modulator? (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Radio transmitter\nb. P – RF oscillator (carrier wave generator); Q – microphone; R – aerial (transmitting antenna)\nc. It combines (superimposes) the audio-frequency signal onto the radio-frequency carrier wave.",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "8. The diagram shows a transformer used to operate an electric motor (Vp = 240 V; motor 480 V, 2 A)\n  a. Describe the function of a transformer in electric circuits (2 marks)\n  b. What is the turns radio of the transformer (2 marks)\n  c. Work out the resistance of the motor (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. It changes (steps up or down) an alternating voltage from one value to another.\nb. Np : Ns = Vp : Vs = 240 : 480 = 1 : 2 (step-up)\nc. R = V/I = 480/2 = 240 Ω",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "9. Two lamps are arranged in parallel and a voltage of 12v is applied across them. (Main ammeter 4 A; L₁ branch 2.5 A; L₂ branch current x)\n  a. What is the value of the current x flowing Through l₂ (2 marks)\n  b. Which lamp l₁ or l₂ has more resistance and why? (2 marks)\n  c. In the home, lamps are arranged in parallel write down any two advantages Of parallel arrangement (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. x = 4 − 2.5 = 1.5 A\nb. L₂: R₂ = 12/1.5 = 8 Ω vs R₁ = 12/2.5 = 4.8 Ω – it carries less current at the same voltage.\nc. Any two: each lamp gets the full supply voltage; if one lamp fails the others stay on; each lamp can be switched independently.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "Part two: Structured Questions (60 marks)",
+      "question": "10. Pressure is defined as force per unit area. For fixed force , pressure is inversely Proportional to the area.\n  a. Explain why a sharp knife cuts something easily (2 marks)\n  b. Explain why tractors big tires prevent it from sinking in soft sand (2 marks)\n  c. Calculate the pressure on the base exerted by the block. (2 marks)",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 220 200\" width=\"100%\" style=\"max-width:220px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Block of weight 120 N resting on a base of area 3 square metres\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"60\" y=\"20\" width=\"100\" height=\"140\" fill=\"#eee\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"110\" y1=\"50\" x2=\"110\" y2=\"120\" stroke=\"#111\" stroke-width=\"3\" marker-end=\"url(#ah)\"/><text x=\"110\" y=\"145\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">W = 120 N</text><text x=\"110\" y=\"190\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Area = 3 m²</text></svg>",
+        "caption": "Block of weight W = 120 N resting on a base of area 3 m²."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A sharp edge has a very small area, so the same force produces a very large pressure.\nb. Wide tyres spread the weight over a large area, reducing the pressure on the sand.\nc. P = F/A = 120/3 = 40 N/m² (40 Pa)",
+      "matching_pairs": null
+    }
+  ]
+}

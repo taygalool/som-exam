@@ -1,0 +1,481 @@
+{
+  "title": "Federal Republic of Somalia – Form Four National Examinations June 2024 – Math",
+  "exam_id": "somalia_12_mathematics_2024",
+  "year": 2024,
+  "subject": "Mathematics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "1. Which of the following is a measure of dispersion?",
+      "diagram": null,
+      "options": [
+        "a) Mean",
+        "b) Mode",
+        "c) Range",
+        "d) Median"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "2. The point A in fig. 1, represents\n   (Fig. 1: Argand diagram with A plotted 2 units along the real axis and 3 units up the imaginary axis)",
+      "diagram": null,
+      "options": [
+        "a) 3 + 2i",
+        "b) 2 + 3i",
+        "c) 3 + 3i",
+        "d) 2 + 2i"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Read from the grid as (2, 3) → 2 + 3i. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "3. sin x cos y − cos x sin y =",
+      "diagram": null,
+      "options": [
+        "a) sin(x + y)",
+        "b) cos(x − y)",
+        "c) sin(x − y)",
+        "d) cos(x + y)"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "4. If n ! = 720, then the value of n is:",
+      "diagram": null,
+      "options": [
+        "a) 5",
+        "b) 6",
+        "c) 7",
+        "d) 8"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "5. The derivative of πx is",
+      "diagram": null,
+      "options": [
+        "a) πx",
+        "b) −π",
+        "c) π",
+        "d) x"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "6. The ages (in years) of 11 students in grade 3 are: 7,7,6,8,6,6,7,7,9,7 and 6. The middle value (median) is",
+      "diagram": null,
+      "options": [
+        "a) 6",
+        "b) 7",
+        "c) 8",
+        "d) 9"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Only 11 values listed as printed → ordered 6,6,6,6,7,7,7,7,7,8,9 → median 7.",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "7. The intersection set A and B contains\n   (Fig. 2: A only = 5, 6, 7; A∩B = 4, 3; B only = 0, 1, 2)",
+      "diagram": null,
+      "options": [
+        "a) {0,1,2}",
+        "b) {3,4}",
+        "c) {0,1,2,3,4}",
+        "d) {5,6,7}"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "8. P(E) + P(not E) =",
+      "diagram": null,
+      "options": [
+        "a) 0",
+        "b) 1",
+        "c) 2",
+        "d) 3"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "9. d/dx (sin x − cos x) =",
+      "diagram": null,
+      "options": [
+        "a) sin x − cos x",
+        "b) cos x − sin x",
+        "c) cos x + sin x",
+        "d) − cos x − sin x"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "10. Which of the following statements is NOT true?",
+      "diagram": null,
+      "options": [
+        "a) For independent events, P(A and B) = P(A) × P(B)",
+        "b) For dependent events, P(A and B) = P(A) × P(B following A)",
+        "c) For mutually exclusive events P(A or B) = P(A) × P(B)",
+        "d) For non-mutually exclusive events, P(A or B) = P(A) + P(B) − P(A ∩ B)"
+      ],
+      "correct_index": 2,
+      "answer_guide": "For mutually exclusive events P(A or B) = P(A) + P(B).",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "11. The derivative of a function at a stationary point is:",
+      "diagram": null,
+      "options": [
+        "a) −1",
+        "b) 0",
+        "c) 1",
+        "d) −2"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "12. The conjugate of 3 − 2i is",
+      "diagram": null,
+      "options": [
+        "a) 3 − 2i",
+        "b) 3 + 2i",
+        "c) −3 − 2i",
+        "d) −3 + 2i"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "13. The second derivative of y = 4x³ is",
+      "diagram": null,
+      "options": [
+        "a) y″ = 12x²",
+        "b) y″ = 24x",
+        "c) y″ = 12x",
+        "d) y″ = 24"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "14. [r(cos x + i sin x)]ⁿ =",
+      "diagram": null,
+      "options": [
+        "a) rⁿ[cos nx + i sin nx]",
+        "b) r[cos nx + i sin nx]",
+        "c) rⁿ[cos x + i sin x]",
+        "d) cos nx + i sin nx"
+      ],
+      "correct_index": 0,
+      "answer_guide": "De Moivre's theorem.",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "15. ∫₀^π sin x dx =",
+      "diagram": null,
+      "options": [
+        "a) 0",
+        "b) -2",
+        "c) 2",
+        "d) 1"
+      ],
+      "correct_index": 2,
+      "answer_guide": "[−cos x]₀^π = 1 + 1 = 2",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "16. The numBer of students in 5 different public schools in Mogadishu are; 450, 720, 525, 1000, and 1300 students. The average number of students in a school is:",
+      "diagram": null,
+      "options": [
+        "a) 525",
+        "b) 720",
+        "c) 799",
+        "d) 1000"
+      ],
+      "correct_index": 2,
+      "answer_guide": "3995/5 = 799",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "17. If y = √16 then dy/dx =",
+      "diagram": null,
+      "options": [
+        "a) 4",
+        "b) 1/(2√16)",
+        "c) 0",
+        "d) −1/(2√16)"
+      ],
+      "correct_index": 2,
+      "answer_guide": "√16 is a constant.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "18. sin 3x =",
+      "diagram": null,
+      "options": [
+        "a) 3 sin x − 4 sin³x",
+        "b) 3 sin x − 3 sin³x",
+        "c) 4 sin³x − 3 sin x",
+        "d) 4 sin³x + 3 sin x"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "19. i¹⁵⁵ is equal to",
+      "diagram": null,
+      "options": [
+        "a) 1",
+        "b) −i",
+        "c) −1",
+        "d) i"
+      ],
+      "correct_index": 1,
+      "answer_guide": "155 = 4 × 38 + 3 → i³ = −i",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "SECTION I: MULTIPLE CHOICE QUESTIONS (20 × 2 = 40 MARKS)",
+      "question": "20. Which of the folLowing limits does not exist?",
+      "diagram": null,
+      "options": [
+        "a) lim(x→∞) 1/x²",
+        "b) lim(x→∞) e⁻ˣ",
+        "c) lim(x→∞) √(x² + 2) − x",
+        "d) lim(x→−∞) √(x² + 2) − x"
+      ],
+      "correct_index": 3,
+      "answer_guide": "As x → −∞ the expression grows without bound (→ ∞); the others tend to 0.",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "SECTION II: MATCH COLUMN A WITH COLUMN B (10 × 2 = 20 MARKS)",
+      "question": "Match Column A with Column B.\n\nColumn A:\n1. If the mean of the numbers 1,2,3,x,4,5 is 5 find the value of x.\n2. [(2 + 2i)/(2 − 2i)]² =\n3. tan θ × cos θ × cosec θ\n4. If 2 + x i = z − 2i, then x =\n5. ∫ sec²(x + π/4) dx\n6. if y = (x³ + 2x)⁵ then dy/dx =\n7. If ⁿP₂ = 20 , then the value of n is\n8. lim(x→∞) (x² + 2x)/(1 + 2x²)\n9. How many different odd numbers can be formed using 2,3,4, and 9. Assume repetition is not allowed.\n10. Sin 15°\n\nColumn B: 1/2 | 5(3x² + 2)(x³ + 2x)⁴ | tan(x + π/4) + c | 15 | 1 | −1 | −2 | 12 | (√6 − √2)/4 | 5",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "1 → 15 (15 + x = 30)\n2 → −1 ((2+2i)/(2−2i) = i, i² = −1)\n3 → 1\n4 → −2 (reading z as 2: 2 + xi = 2 − 2i) [check]\n5 → tan(x + π/4) + c\n6 → 5(3x² + 2)(x³ + 2x)⁴\n7 → 5 (n(n − 1) = 20)\n8 → 1/2\n9 → 12 (four-digit numbers ending in 3 or 9: 2 × 3! = 12)\n10 → (√6 − √2)/4",
+      "matching_pairs": [
+        {
+          "item": "1. If the mean of the numbers 1,2,3,x,4,5 is 5 find the value of x.",
+          "match": "15"
+        },
+        {
+          "item": "2. [(2 + 2i)/(2 − 2i)]² =",
+          "match": "−1"
+        },
+        {
+          "item": "3. tan θ × cos θ × cosec θ",
+          "match": "1"
+        },
+        {
+          "item": "4. If 2 + x i = z − 2i, then x =",
+          "match": "−2"
+        },
+        {
+          "item": "5. ∫ sec²(x + π/4) dx",
+          "match": "tan(x + π/4) + c"
+        },
+        {
+          "item": "6. if y = (x³ + 2x)⁵ then dy/dx =",
+          "match": "5(3x² + 2)(x³ + 2x)⁴"
+        },
+        {
+          "item": "7. If ⁿP₂ = 20 , then the value of n is",
+          "match": "5"
+        },
+        {
+          "item": "8. lim(x→∞) (x² + 2x)/(1 + 2x²)",
+          "match": "1/2"
+        },
+        {
+          "item": "9. How many different odd numbers can be formed using 2,3,4, and 9. Assume repetition is not allowed.",
+          "match": "12"
+        },
+        {
+          "item": "10. Sin 15°",
+          "match": "(√6 − √2)/4"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "CALCULUS\n1. Show that the function f(x) = { 2x − 2 if x < 1 ; x² − 1 if x ≥ 1 } is not continuous at x = 0. [4marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "As printed the claim is false: near x = 0, f(x) = 2x − 2 is a polynomial, so f is continuous at x = 0 (f(0) = −2 = lim). At the join x = 1: lim(x→1⁻) = 0, lim(x→1⁺) = 0 and f(1) = 0, so f is continuous there too. The function is continuous everywhere; the question appears to contain an error. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "CALCULUS\n2. Evaluate the following limits: lim(x→3) (√x − √3)/(x(x − 3)) [4 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "x − 3 = (√x − √3)(√x + √3) → expression = 1/(x(√x + √3)) → 1/(3 × 2√3) = 1/(6√3) = √3/18 ≈ 0.096",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "CALCULUS\n3. Differentiate the following y = ( x³ + 1)( x² + 3)⁸ [3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "y′ = 3x²(x² + 3)⁸ + (x³ + 1)·8(x² + 3)⁷·2x = (x² + 3)⁷[3x²(x² + 3) + 16x(x³ + 1)] = (x² + 3)⁷(19x⁴ + 9x² + 16x)",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "CALCULUS\n4. Find the first and second derivatives of the following function. y = sin 4x − cos 2x + x³ − 1/x [3marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "y′ = 4 cos 4x + 2 sin 2x + 3x² + 1/x²\ny″ = −16 sin 4x + 4 cos 2x + 6x − 2/x³",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "CALCULUS\n5. Integrate the following with respect to x: ∫₀^(π/2) ( sin x − cos 2x ) dx [4 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "[−cos x − ½ sin 2x]₀^(π/2) = (0 − 0) − (−1 − 0) = 1",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "CALCULUS\n6. Find the area under the curve y = x² + 2 , between x = 1 and x = 3 and above the x - axis. [4marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "∫₁³ (x² + 2) dx = [x³/3 + 2x]₁³ = (9 + 6) − (1/3 + 2) = 38/3 ≈ 12.67 square units",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "COMPLEX NUMBERS\n1. Solve the equation x² − 4x + 5 = 0 [3marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "x = [4 ± √(16 − 20)]/2 = 2 ± i",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "COMPLEX NUMBERS\n2. Use The De Moiré's Theorem to find the value of [ 2(cos20° + i sin 20°) ]³ [3marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "2³(cos 60° + i sin 60°) = 8(½ + (√3/2)i) = 4 + 4√3 i",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "COMPLEX NUMBERS\n3. Let Z₁ = 5 (cos 25° + i sin 25°) and Z₂ = 4 (cos 20° + i sin 20°), find Z₁ · Z₂ [3marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "20(cos 45° + i sin 45°) = 10√2 + 10√2 i",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "STATISTICS AND PROBABILITY\n1. Given the raw data 8, 12, 16, 24, 36, 48 Find\n  (a) Standard deviation [2 marks]\n  (b) Variance [1 mark]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Mean = 144/6 = 24; Σ(x − x̄)² = 256 + 144 + 64 + 0 + 144 + 576 = 1184\n(b) Variance = 1184/6 ≈ 197.3 (sample: 1184/5 = 236.8)\n(a) SD = √197.3 ≈ 14.05 (sample: ≈ 15.39)",
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "STATISTICS AND PROBABILITY\n2. A die with 12 faces numbered 1 to 12 is rolled once. What is the probability of obtaining 2 or 5? [2 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "2/12 = 1/6",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "SECTION III: STRUCTURE QUESTIONS (40 MARKS)",
+      "question": "STATISTICS AND PROBABILITY\n3. If P (A') = 0.6 , P (B') = 0.28, and P (A ∪ B) = 0.71 Find\n  (a) P(A|B) [2marks]\n  (b) P(B|A) [2marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "P(A) = 0.4, P(B) = 0.72 → P(A ∩ B) = 0.4 + 0.72 − 0.71 = 0.41\n(a) P(A|B) = 0.41/0.72 ≈ 0.569\n(b) P(B|A) = 0.41/0.4 = 1.025 – impossible (> 1), because P(A ∩ B) cannot exceed P(A). The data in the question are inconsistent (P(A ∪ B) must be at least 0.72). [Check against the official key.]",
+      "matching_pairs": null
+    }
+  ]
+}

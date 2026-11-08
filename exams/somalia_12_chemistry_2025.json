@@ -1,0 +1,773 @@
+{
+  "title": "Federal Republic of Somalia – Imtixaanka Shahaadiga 2024/2025 – Chemistry",
+  "exam_id": "somalia_12_chemistry_2025",
+  "year": 2025,
+  "subject": "Chemistry",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "1. Which branch of science relates to all branches of science?",
+      "diagram": null,
+      "options": [
+        "a) Physics",
+        "b) Geography",
+        "c) Biology",
+        "d) Chemistry"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Chemistry is called the central science. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "2. Which one of the following compounds has the maximum number of hydrogen atom",
+      "diagram": null,
+      "options": [
+        "a) Butene",
+        "b) Butyl",
+        "c) Butane",
+        "d) Buytne"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Butane C₄H₁₀ (butene C₄H₈, butyne C₄H₆, butyl group C₄H₉).",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "3. Which part of the atmosphere contains the ozone (O₃) layer?",
+      "diagram": null,
+      "options": [
+        "a) Troposphere",
+        "b) Stratosphere",
+        "c) Thermosphere",
+        "d) Mesosphere"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "4. The molar mass of CaCO₃ given atomic mass of ( Ca =40 C=12 O = 16)",
+      "diagram": null,
+      "options": [
+        "a) 98 g/mole",
+        "b) 89 g/mole",
+        "c) 101 g/mole",
+        "d) 100 g/mole"
+      ],
+      "correct_index": 3,
+      "answer_guide": "40 + 12 + 48 = 100 g/mol",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "5. The figure below states a change of state of matter .What process occurs the part labeled at X",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 150\" width=\"100%\" style=\"max-width:460px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Solid, liquid and gas boxes with arrows; the arrow from gas back to liquid is labelled X\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"20\" y=\"60\" width=\"110\" height=\"32\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"75.0\" y=\"81.0\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Solid</text><rect x=\"175\" y=\"60\" width=\"110\" height=\"32\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"230.0\" y=\"81.0\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Liquid</text><rect x=\"330\" y=\"60\" width=\"110\" height=\"32\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"385.0\" y=\"81.0\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Gas</text><path d=\"M75,55 Q150,10 225,55\" fill=\"none\" stroke=\"#111\" stroke-width=\"4\" marker-end=\"url(#ah)\"/><path d=\"M235,55 Q310,10 385,55\" fill=\"none\" stroke=\"#111\" stroke-width=\"4\" marker-end=\"url(#ah)\"/><path d=\"M225,97 Q150,142 75,97\" fill=\"none\" stroke=\"#111\" stroke-width=\"4\" marker-end=\"url(#ah)\"/><path d=\"M385,97 Q310,142 235,97\" fill=\"none\" stroke=\"#111\" stroke-width=\"4\" marker-end=\"url(#ah)\"/><text x=\"312\" y=\"140\" font-size=\"15\" text-anchor=\"middle\" font-weight=\"bold\">X</text></svg>",
+        "caption": "Solid ⇄ liquid ⇄ gas with curved arrows; X marks the arrow from gas to liquid."
+      },
+      "options": [
+        "a) Condensation",
+        "b) Melting",
+        "c) Evaporation",
+        "d) Freezing"
+      ],
+      "correct_index": 0,
+      "answer_guide": "X is the arrow from gas back to liquid – condensation.",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "6. Which of the following does NOT belong to conditions for a reaction to occur?",
+      "diagram": null,
+      "options": [
+        "a) Collision",
+        "b) Power",
+        "c) Energy",
+        "d) Orientation"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "7. The IUPAC name for product formed when CH₃-CH₂-CH₂-O-K + CH₃-CH₂-Br is",
+      "diagram": null,
+      "options": [
+        "a) Ethoxy ethane",
+        "b) Methoxy ethane",
+        "c) Ethoxy propane",
+        "d) Methoxy propane"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Williamson synthesis: propoxide + bromoethane → CH₃CH₂CH₂–O–CH₂CH₃ = 1-ethoxypropane. (Option letters are printed a, b, a, b.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "8. The PH of a solution was determined to be 3.5 , The [H₃O⁺] ion of that solution is:",
+      "diagram": null,
+      "options": [
+        "a) 1.5 × 10⁻⁴ M",
+        "b) 3.2 × 10⁻⁴ M",
+        "c) 5.1 × 10⁻⁴ M",
+        "d) 2.3 × 10⁻⁴ M"
+      ],
+      "correct_index": 1,
+      "answer_guide": "[H₃O⁺] = 10⁻³·⁵ ≈ 3.2 × 10⁻⁴ M",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "9. The horizontal rows of the periodic table",
+      "diagram": null,
+      "options": [
+        "a) Triad",
+        "b) Group",
+        "c) Trends",
+        "d) period"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "10. The figure below represent the structural formula of glucose , it has molecular formula C₆H₁₂O₆, what will be its configuration\n   (Fischer projection: CHO at top; OH on C2 right, C3 left, C4 right, C5 right; CH₂OH at bottom)",
+      "diagram": null,
+      "options": [
+        "a) α −sugar",
+        "b) D- sugar",
+        "c) β −sugar",
+        "d) L-sugar"
+      ],
+      "correct_index": 1,
+      "answer_guide": "The –OH on the last chiral carbon (C5) is on the right → D-glucose.",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "11. The figure below show that the penetrating ability of radioactive emissions by using the detector labeled part at Z is",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 460 150\" width=\"100%\" style=\"max-width:460px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Radiations X, Y and Z aimed at paper, a few mm of aluminium and a few cm of lead before a detector; only Z reaches the detector\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"130\" y1=\"15\" x2=\"130\" y2=\"110\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"200\" y=\"20\" width=\"10\" height=\"85\" fill=\"#bbb\" stroke=\"#111\"/><rect x=\"260\" y=\"20\" width=\"60\" height=\"85\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"350\" y=\"85\" width=\"90\" height=\"30\" fill=\"#555\"/><text x=\"395\" y=\"105\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\" fill=\"#fff\">Detector</text><text x=\"20\" y=\"34\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">X</text><line x1=\"35\" y1=\"30\" x2=\"128\" y2=\"30\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"20\" y=\"69\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">Y</text><line x1=\"35\" y1=\"65\" x2=\"198\" y2=\"65\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"20\" y=\"104\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">Z</text><line x1=\"35\" y1=\"100\" x2=\"348\" y2=\"100\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"130\" y=\"128\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\">Paper</text><text x=\"205\" y=\"128\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\">Few mm of</text><text x=\"205\" y=\"142\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\">aluminium</text><text x=\"290\" y=\"128\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\">Few cm of</text><text x=\"290\" y=\"142\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\">lead</text></svg>",
+        "caption": "X stops at the paper, Y at the aluminium, Z passes the lead and reaches the detector."
+      },
+      "options": [
+        "a) Alpha",
+        "b) Beta",
+        "c) Gamma",
+        "d) Neutron"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Z passes through paper, aluminium and lead to reach the detector – gamma.",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "12. The chemical formula of aluminum sulphate is",
+      "diagram": null,
+      "options": [
+        "a) Al₂ SO₄",
+        "b) Al₃ SO₄",
+        "c) Al₂(SO₄)₃",
+        "d) Al SO₄"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "13. If a nucleotide was obtained to have 30% of adenine nucleotides, how many guanine will have",
+      "diagram": null,
+      "options": [
+        "a) 40%",
+        "b) 10%",
+        "c) 30%",
+        "d) 20%"
+      ],
+      "correct_index": 3,
+      "answer_guide": "A = T = 30% → G + C = 40% → G = 20%",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "14. The quantity of electricity requires to deposit one mole of Magnesium ion",
+      "diagram": null,
+      "options": [
+        "a) 1 F",
+        "b) 2F",
+        "c) 3F",
+        "d) 4F"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Mg²⁺ + 2e⁻ → Mg",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "15. Which one of the following changes will increase the rate of chemical reaction",
+      "diagram": null,
+      "options": [
+        "a) Decrease temperature",
+        "b) Removing of catalyst",
+        "c) Increase temperature",
+        "d) Decreasing amount of reactant"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "16. A Student has balloons filled with three different gases. The symbols for the gas inside are written on each balloon. To which group of the periodic table do the gases belong?\n   (Picture: balloons labelled He, Ar and Ne)",
+      "diagram": null,
+      "options": [
+        "a) Group 5",
+        "b) Group 6",
+        "c) Group 7",
+        "d) Group 8"
+      ],
+      "correct_index": 3,
+      "answer_guide": "He, Ne and Ar are noble gases – Group 8 (VIII / 18).",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "17. By the evaluating the molecular weight of the below alcohols, which alcohol has the highest boiling point",
+      "diagram": null,
+      "options": [
+        "a) Pentanol",
+        "b) butanol",
+        "c) propanol",
+        "d) methanol"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "18. Which carbon allotrope represent by the picture below\n   (Picture: a football-shaped cage of carbon atoms)",
+      "diagram": null,
+      "options": [
+        "a) Diamond",
+        "b) Bucky ball",
+        "c) Graphite",
+        "d) Giant"
+      ],
+      "correct_index": 1,
+      "answer_guide": "C₆₀ buckminsterfullerene.",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "19. The chemical symbol of Tungsten is",
+      "diagram": null,
+      "options": [
+        "a) Tg",
+        "b) Tn",
+        "c) W",
+        "d) M"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "20. The reaction below shows a reaction at equilibrium.\n   HCl(g)+NaOH (aq) ⇆ NaCl(aq)+H₂O(l)\n   Find the equilibrium constant Kc and then analyze the direction which shift the reaction if their concentrations are [HCl]=3.2M [NaOH]=4.3m [NaCl]=6M and [H₂O]=2M",
+      "diagram": null,
+      "options": [
+        "a) 0.22 left",
+        "b) 0.44 right",
+        "c) 0.22right",
+        "d) 0.44 left"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Water is a pure liquid and is left out: Kc = [NaCl]/([HCl][NaOH]) = 6/(3.2 × 4.3) ≈ 0.44. Kc < 1, so reactants are favoured (lies to the left). (Including [H₂O] = 2 would give 0.87, not offered.) [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "21. The structures below states that some organic compounds, which structure illustrates carboxylic acid\n   A: CH₃–CH₃   B: CH₃–C(=O)–O–H   C: CH₂=CH₂ drawn as H₂C=CH₂ with H atoms   D: CH₃–CH₂–O–H",
+      "diagram": null,
+      "options": [
+        "a) Structure A",
+        "b) Structure B",
+        "c) Structure C",
+        "d) Structure D"
+      ],
+      "correct_index": 1,
+      "answer_guide": "B contains –COOH.",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "22. How many electrons are shared to form a double bond?",
+      "diagram": null,
+      "options": [
+        "a) 8",
+        "b) 8",
+        "c) 4",
+        "d) 2"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Two shared pairs = 4 electrons. (Options a and b are both printed as 8.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "23. Calculate the oxidation number of Sulfur in H₂SO₄",
+      "diagram": null,
+      "options": [
+        "a) +6",
+        "b) +8",
+        "c) -8",
+        "d) -6"
+      ],
+      "correct_index": 0,
+      "answer_guide": "2(+1) + S + 4(−2) = 0 → S = +6",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "24. The reaction between carboxylic acid and alcohol is called ......................",
+      "diagram": null,
+      "options": [
+        "a) Neutralization",
+        "b) Radiation",
+        "c) Esterification",
+        "d) Precipitation"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "25. If C₂H₄ reacts with HBr. What is the molecular formula of the product?",
+      "diagram": null,
+      "options": [
+        "a) C₂H₃Br",
+        "b) C₂H₂Br",
+        "c) C₂H₄Br",
+        "d) C₂H₅Br"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Addition: C₂H₄ + HBr → C₂H₅Br (bromoethane).",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "26. When salt is added to water, a solution is formed as shown in the diagram below\n   (Picture: salt + water = salt solution)\n   What term is used to describe the water",
+      "diagram": null,
+      "options": [
+        "a) Solute",
+        "b) Solvent",
+        "c) Salination",
+        "d) Saponificatin"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "27. All are conditions required the chemical reaction to reach the equilibrium state EXCEPT",
+      "diagram": null,
+      "options": [
+        "a) Open system",
+        "b) Closed system",
+        "c) Constant Temperature",
+        "d) Equal rates both directions"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "28. The structure of a common household substance is given below:\n   (Benzene ring with OH at the top, CH₃ at positions 3 and 5, Cl at position 4)",
+      "diagram": null,
+      "options": [
+        "a) C₆H₇Cl",
+        "b) C₈H₈Cl",
+        "c) C₈H₉Cl",
+        "d) C₇H₈Cl"
+      ],
+      "correct_index": null,
+      "answer_guide": "The compound is 4-chloro-3,5-dimethylphenol (chloroxylenol, the antiseptic in Dettol): C₈H₉ClO. None of the options includes the oxygen; (c) C₈H₉Cl is the closest. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "29. What is the valence electron configuration of group 15?",
+      "diagram": null,
+      "options": [
+        "a) ns²np²",
+        "b) ns²np¹",
+        "c) ns²np⁴",
+        "d) ns²np³"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "30. The expression of equilibrium concentrations for a reaction below is :\n   2SO₂ (g) +3O₂(g) ⇆ 2SO₃ (g)\n   (No options are printed for this question.)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Kc = [SO₃]² / ([SO₂]²[O₂]³) as written. (The equation as printed is not balanced; for the balanced reaction 2SO₂ + O₂ ⇆ 2SO₃, Kc = [SO₃]² / ([SO₂]²[O₂]).)",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "31. The table below shows compounds A to E, where R represents a CH3 group and R' represents a C2H5 group.\n   A: R'–C(Cl)₂–R   B: R–CH(OH)–R   C: R–CH(OH)–R'   D: R'–C(=O)–O–H   E: R–C(=O)–O–R\n   Which structures are alcohols",
+      "diagram": null,
+      "options": [
+        "a) Structure B and C",
+        "b) Structure D and E",
+        "c) Structure A and C",
+        "d) Structure C and E"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "32. Organic compounds which contain oxy (- O -) as a functional group.",
+      "diagram": null,
+      "options": [
+        "a) Alcohol",
+        "b) Phenol",
+        "c) Ether",
+        "d) ester"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "33. The splitting of the nucleus of an atom into lighter nucleus",
+      "diagram": null,
+      "options": [
+        "a) Nuclear fusion",
+        "b) Nuclear fission",
+        "c) Decay",
+        "d) Half life"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "34. The number of possible isomers for octane with molecular formula of (C₈H₁₈)",
+      "diagram": null,
+      "options": [
+        "a) 5",
+        "b) 9",
+        "c) 18",
+        "d) 35"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "35. ²³⁵₉₂U + ¹₀n → ˣ₃₀Z + ¹⁶⁰ᵧSn + 4(¹₀n)\n   The value of X in the nuclear equation above is",
+      "diagram": null,
+      "options": [
+        "a) 72",
+        "b) 27",
+        "c) 173",
+        "d) 137"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Mass: 235 + 1 = X + 160 + 4 → X = 72",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "36. Which of the following elements belong to Alkali metal elements",
+      "diagram": null,
+      "options": [
+        "a) Barium",
+        "b) Cesium",
+        "c) Calcium",
+        "d) Radium"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "37. The mechanism of this reaction consists two elementary steps:\n   step 1: 2NO(g) + O₂(g) → N₂O₂(g)\n   step 2: N₂O₂(g) + O₂(g) → 2NO₂(g)\n   The intermediate species that appears in the mechanism of reaction is",
+      "diagram": null,
+      "options": [
+        "a) NO₂",
+        "b) N₂O",
+        "c) NO",
+        "d) N₂O₂"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "38. Which of the following is an example of exothermic reactions?",
+      "diagram": null,
+      "options": [
+        "a) Decomposing of stone",
+        "b) Heating of butter",
+        "c) Explosion",
+        "d) Evaporation"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "39. The isotope shown ²¹⁸₈₄Po determine its number of neutrons",
+      "diagram": null,
+      "options": [
+        "a) 134",
+        "b) 84",
+        "c) 218",
+        "d) 136"
+      ],
+      "correct_index": 0,
+      "answer_guide": "218 − 84 = 134",
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "SECTION A: Circle the Correct Answer (40 Marks)",
+      "question": "40. The diagram below shows a section of periodic table and symbols of first 20 elements\n   Which two elements belongs to group 13 elements",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 630 140\" width=\"100%\" style=\"max-width:630px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Section of the periodic table showing the first 20 elements\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"10\" y=\"10\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"26\" y=\"29\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">H</text><rect x=\"586\" y=\"10\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"602\" y=\"29\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">He</text><rect x=\"10.0\" y=\"50\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"26.0\" y=\"69\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Li</text><rect x=\"42.0\" y=\"50\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"58.0\" y=\"69\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Be</text><rect x=\"394.0\" y=\"50\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"410.0\" y=\"69\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"426.0\" y=\"50\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"442.0\" y=\"69\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"458.0\" y=\"50\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"474.0\" y=\"69\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">N</text><rect x=\"490.0\" y=\"50\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"506.0\" y=\"69\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">O</text><rect x=\"522.0\" y=\"50\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"538.0\" y=\"69\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">F</text><rect x=\"554.0\" y=\"50\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"570.0\" y=\"69\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Ne</text><rect x=\"10.0\" y=\"78\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"26.0\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Na</text><rect x=\"42.0\" y=\"78\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"58.0\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Mg</text><rect x=\"394.0\" y=\"78\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"410.0\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Al</text><rect x=\"426.0\" y=\"78\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"442.0\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Si</text><rect x=\"458.0\" y=\"78\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"474.0\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">P</text><rect x=\"490.0\" y=\"78\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"506.0\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">S</text><rect x=\"522.0\" y=\"78\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"538.0\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Cl</text><rect x=\"554.0\" y=\"78\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"570.0\" y=\"97\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Ar</text><rect x=\"10.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"26.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">K</text><rect x=\"42.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"58.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Ca</text><rect x=\"74.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"90.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"106.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"122.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"138.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"154.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"170.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"186.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"202.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"218.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"234.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"250.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"266.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"282.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"298.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"314.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"330.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"346.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"362.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"378.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"394.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"410.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"426.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"442.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"458.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"474.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"490.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"506.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"522.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"538.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text><rect x=\"554.0\" y=\"106\" width=\"32\" height=\"28\" fill=\"#fff\" stroke=\"#111\"/><text x=\"570.0\" y=\"125\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\"></text></svg>",
+        "caption": "Periodic table section with the first 20 elements, H to Ca."
+      },
+      "options": [
+        "a) Li and Be",
+        "b) B and Al",
+        "c) O and S",
+        "d) K and C"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "41. The diagram shows a reaction sequence. [6 marks ]\n   Name the processes labeled at:\n  a) Y ........ 3 mark\n  b) Z ........ 3 mark",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 620 90\" width=\"100%\" style=\"max-width:620px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Reaction sequence: butane, process X, ethene, process Y, ethanol, process Z, carbon dioxide and water\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><rect x=\"10\" y=\"30\" width=\"100\" height=\"36\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"60.0\" y=\"53.0\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">butane</text><line x1=\"110\" y1=\"48\" x2=\"175\" y2=\"48\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"142\" y=\"38\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">X</text><rect x=\"178\" y=\"30\" width=\"100\" height=\"36\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"228.0\" y=\"53.0\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">ethene</text><line x1=\"278\" y1=\"48\" x2=\"343\" y2=\"48\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"310\" y=\"38\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Y</text><rect x=\"346\" y=\"30\" width=\"100\" height=\"36\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"396.0\" y=\"53.0\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">ethanol</text><line x1=\"446\" y1=\"48\" x2=\"491\" y2=\"48\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><text x=\"468\" y=\"38\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Z</text><rect x=\"494\" y=\"22\" width=\"120\" height=\"52\" fill=\"#e8e8e8\" stroke=\"#111\" stroke-width=\"1.5\"/><text x=\"554.0\" y=\"53.0\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\"></text><text x=\"554\" y=\"44\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">carbon dioxide</text><text x=\"554\" y=\"62\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">and water</text></svg>",
+        "caption": "butane →(X) ethene →(Y) ethanol →(Z) carbon dioxide and water."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Y – hydration of ethene (addition of steam, H₃PO₄ catalyst, ~300 °C, 60–70 atm) [also accept fermentation route not applicable here]\nb) Z – combustion (burning in oxygen)\n(X is cracking.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 42,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "42. Describe the general formula of\n  a) Alkane ........ 1 mark\n  b) Benzene ........ 1 mark",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) CₙH₂ₙ₊₂\nb) C₆H₆ (homologous series of benzene: CₙH₂ₙ₋₆)",
+      "matching_pairs": null
+    },
+    {
+      "id": 43,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "43. A sample gas occupies a volume of 1 liter at a pressure of 1 atm, At what pressure will its volume be 0.5 liter?(assuming temperature is constant) [ 4 marks]\n   (Figure: piston with P = 1 atm, V = 1 L, T = 298 K compressed to V = 0.50 L, T = 298 K, P = ?)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Boyle's law: P₁V₁ = P₂V₂ → P₂ = (1 × 1)/0.5 = 2 atm",
+      "matching_pairs": null
+    },
+    {
+      "id": 44,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "44. The table below which is collected at a set of temperature\n\n   | Experiment | [A]    | [B]     | Rate     |\n   | 1          | 0.20M  | 0.20M   | 0.4 M/s  |\n   | 2          | 0.20 M | 0.040M  | 0.8 M/s  |\n   | 3          | 0.40 M | 0.20M   | 1.6 M/s  |\n\n  a) Determine the rate law? 3 marks\n  b) Calculate the value of rate constant? 3 marks",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Experiment 2's [B] is printed 0.040 M; it is evidently meant to be 0.40 M (doubling [B] doubles the rate).\na) Exp 1→3: [A] doubles, rate ×4 → second order in A. Exp 1→2: [B] doubles, rate ×2 → first order in B. Rate = k[A]²[B]\nb) k = 0.4 / (0.20² × 0.20) = 0.4 / 0.008 = 50 M⁻²s⁻¹ [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 45,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "45. Identify the following elements as metals, non – metals and metalloids. [4 marks]\n   a. Silicon  b. Mercury  c. Carbon  d. Gold",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Silicon – metalloid\nb. Mercury – metal\nc. Carbon – non-metal\nd. Gold – metal",
+      "matching_pairs": null
+    },
+    {
+      "id": 46,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "46. What are types of physical forms of radiation? [ 2 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Particle (corpuscular) radiation – alpha and beta particles (and neutrons); and electromagnetic (wave) radiation – gamma rays, X-rays. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 47,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "47. Reactions can be classified into exothermic and endothermic reaction. In the figure below is reaction profile\n  a) What is type of reaction indicate above reaction profile 2 marks\n  b) Describe the sign of ΔH the reaction you mentioned in :\"a\" 1marks",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 220\" width=\"100%\" style=\"max-width:380px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Energy profile: products higher in energy than reactants, with a peak labelled A and the energy difference labelled delta H\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><line x1=\"40\" y1=\"190\" x2=\"360\" y2=\"190\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"40\" y1=\"190\" x2=\"40\" y2=\"15\" stroke=\"#111\" stroke-width=\"2\" marker-end=\"url(#ah)\"/><line x1=\"40\" y1=\"160\" x2=\"300\" y2=\"160\" stroke=\"#111\" stroke-width=\"1.2\" stroke-dasharray=\"4,3\"/><path d=\"M40,160 L90,160 C130,40 200,30 250,120 L300,120\" fill=\"none\" stroke=\"#111\" stroke-width=\"2.5\"/><text x=\"170\" y=\"35\" font-size=\"18\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"60\" y=\"155\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">Reactants</text><text x=\"255\" y=\"113\" font-size=\"10\" text-anchor=\"start\" font-weight=\"normal\">Products</text><line x1=\"290\" y1=\"125\" x2=\"290\" y2=\"156\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"300\" y=\"145\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">ΔH</text><text x=\"200\" y=\"210\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\">Reaction Progress →</text><text x=\"20\" y=\"100\" font-size=\"11\" text-anchor=\"middle\" transform=\"rotate(-90 20 100)\">Potential Energy</text></svg>",
+        "caption": "Energy profile in which products lie above reactants; the peak is labelled A and the gap ΔH."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Endothermic (products have more energy than reactants).\nb) ΔH is positive (+).",
+      "matching_pairs": null
+    },
+    {
+      "id": 48,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "48. Sodium atom reacts with chlorine molecule gas to forma sodium chloride. Write balanced chemical equation of above reaction ( 4 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "2Na(s) + Cl₂(g) → 2NaCl(s)",
+      "matching_pairs": null
+    },
+    {
+      "id": 49,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "49. Amino acids combine to form proteins ,when four amino acids are linked they form tetra peptides\n   (Figure: H₂N–Cys–His–Glu–Met–COOH, labelled Cytosine (C), Histidine (H), Glutaric acid (E), Methionine (M))\n  a) By using the above figure which amino acid is N-terminal [2mark]\n  b) By using the above figure which is C-terminal [2mark]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Cysteine (C) – it has the free –NH₂ group (the figure misprints it as “Cytosine”).\nb) Methionine (M) – it has the free –COOH group.",
+      "matching_pairs": null
+    },
+    {
+      "id": 50,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "50. Calculate the pH of each of the following\n  a. [OH⁻] = 1.5 × 10⁻⁵ [3 marks]\n  b. [H₃O⁺] = 2.3 × 10⁻² [3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. pOH = −log(1.5 × 10⁻⁵) = 4.82 → pH = 14 − 4.82 = 9.18\nb. pH = −log(2.3 × 10⁻²) = 1.64",
+      "matching_pairs": null
+    },
+    {
+      "id": 51,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "51. What is the equilibrium constant, Kc, if the equilibrium concentrations are as follows: PCl₅ is 0.096 M, PCl₃ is 0.024 M and Cl₂ is 0.024 M. [4 marks]\n   PCl₅(g) ⇆ PCl₃(g) + Cl₂(g)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Kc = [PCl₃][Cl₂]/[PCl₅] = (0.024 × 0.024)/0.096 = 0.006",
+      "matching_pairs": null
+    },
+    {
+      "id": 52,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "52. Salt bridge is U shaped tube filled with a mixture of agar-agar which plays an important roles in Galvanic cell , Name the labeled parts (i) Q and S(ii) By using the figure below\n  i. Q ........ [1 mark]\n  ii. S ........ [1 mark]",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" width=\"100%\" style=\"max-width:400px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Galvanic cell: electrode Q in beaker P, electrode S in beaker R, a voltmeter V and a salt bridge; electrons flow from Q to S\"><defs><marker id=\"ah\" viewBox=\"0 0 10 10\" refX=\"9\" refY=\"5\" markerWidth=\"7\" markerHeight=\"7\" orient=\"auto\"><path d=\"M0,0 L10,5 L0,10 Z\" fill=\"#111\"/></marker></defs><path d=\"M20,110 V200 H150 V110\" fill=\"#dfeaf3\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M250,110 V200 H380 V110\" fill=\"#dfeaf3\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"50\" y=\"60\" width=\"16\" height=\"125\" fill=\"#888\" stroke=\"#111\"/><rect x=\"330\" y=\"60\" width=\"16\" height=\"125\" fill=\"#888\" stroke=\"#111\"/><path d=\"M110,175 V80 H290 V175\" fill=\"none\" stroke=\"#111\" stroke-width=\"10\"/><line x1=\"58\" y1=\"60\" x2=\"58\" y2=\"30\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"58\" y1=\"30\" x2=\"180\" y2=\"30\" stroke=\"#111\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"30\" r=\"18\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"200\" y=\"35\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">V</text><line x1=\"220\" y1=\"30\" x2=\"338\" y2=\"30\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"338\" y1=\"30\" x2=\"338\" y2=\"60\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"80\" y1=\"20\" x2=\"150\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"115\" y=\"14\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">e⁻</text><line x1=\"250\" y1=\"20\" x2=\"320\" y2=\"20\" stroke=\"#111\" stroke-width=\"1.5\" marker-end=\"url(#ah)\"/><text x=\"285\" y=\"14\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"bold\">e⁻</text><text x=\"15\" y=\"95\" font-size=\"14\" text-anchor=\"end\" font-weight=\"bold\">Q</text><line x1=\"18\" y1=\"92\" x2=\"48\" y2=\"92\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"385\" y=\"95\" font-size=\"14\" text-anchor=\"start\" font-weight=\"bold\">S</text><line x1=\"348\" y1=\"92\" x2=\"380\" y2=\"92\" stroke=\"#111\" stroke-width=\"1\"/><text x=\"85\" y=\"190\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">P</text><text x=\"310\" y=\"190\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">R</text></svg>",
+        "caption": "Galvanic cell: electrode Q in beaker P, electrode S in beaker R, joined by a voltmeter V and a salt bridge; electrons flow from Q to S."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Electrons flow from Q to S through the external wire:\ni. Q – anode (negative electrode, where oxidation occurs)\nii. S – cathode (positive electrode, where reduction occurs) [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 53,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "53. The following table shows the boiling points of alkanes, aldehydes, ketones and alcohols.\n\n   | Name      | Structure       | Boiling point (°C) |\n   | Pentane   | CH₃CH₂CH₂CH₂CH₃ | 36  |\n   | Butanal   | CH₃CH₂CH₂CHO    | 76  |\n   | 2-butane  | CH₃CH₂COCH₃     | 80  |\n   | 1-butanol | CH₃CH₂CH₂CHOH   | 118 |\n\n  a. Explain why aldehydes and ketones have lower boiling points than alcohols? 2 marks\n  b. Predict which one has a higher boiling point pentane or butanal? Justify your answer. ? 2 marks",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Alcohols form hydrogen bonds between molecules (O–H group); aldehydes and ketones cannot hydrogen-bond with each other and have only weaker dipole–dipole forces, so less energy is needed to boil them.\nb. Butanal (76 °C) – its polar C=O group gives dipole–dipole attractions, which are stronger than the weak London (van der Waals) forces in non-polar pentane (36 °C).",
+      "matching_pairs": null
+    },
+    {
+      "id": 54,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "54. Indicate whether the reaction rate increase or decrease 4mark\n  a. Adding of catalyst in reaction\n  b. Decreasing temperature\n  c. Decreasing the concentration of reactant\n  d. Reducing size of solid reactant",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Increase\nb. Decrease\nc. Decrease\nd. Increase (smaller particles = larger surface area)",
+      "matching_pairs": null
+    },
+    {
+      "id": 55,
+      "section": "SECTION B: Structured Questions (60 Marks)",
+      "question": "55. The half life of the polonium - 210 is 138.4 days. How many milligrams of polonium -210 remains after 692 days if the starting with 8mg of isotope? 5marks",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Number of half-lives = 692 / 138.4 = 5\nRemaining = 8 × (½)⁵ = 8/32 = 0.25 mg",
+      "matching_pairs": null
+    }
+  ]
+}

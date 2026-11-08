@@ -1,0 +1,521 @@
+{
+  "title": "Federal Republic of Somalia – Form Four National Examinations June 2024 – Physics",
+  "exam_id": "somalia_12_physics_2024",
+  "year": 2024,
+  "subject": "Physics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "1. The SI-unit of frequency is:",
+      "diagram": null,
+      "options": [
+        "a) Second",
+        "b) Meter",
+        "c) Hertz",
+        "d) meter per second"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "2. A Lens which is always used as magnifying glass is",
+      "diagram": null,
+      "options": [
+        "a) Convex",
+        "b) Concave",
+        "c) combination of a and b",
+        "d) double concave"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "3. A light of wavelength 500nm in air passes through any other medium which has a wavelength of 400nm, the refractive index of the medium is",
+      "diagram": null,
+      "options": [
+        "a) 0.8",
+        "b) 1",
+        "c) 1.25",
+        "d) 1.5"
+      ],
+      "correct_index": 2,
+      "answer_guide": "n = 500/400 = 1.25",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "4. The number of anti-nodes in the diagram below are\n   (Figure: stationary wave on a string with 4 nodes, including both ends)",
+      "diagram": null,
+      "options": [
+        "a) 5 Anti nodes",
+        "b) 7 Anti nodes",
+        "c) 3 Anti nodes",
+        "d) 4 Anti node"
+      ],
+      "correct_index": 2,
+      "answer_guide": "4 nodes → 3 loops → 3 antinodes.",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "5. If a simple pendulum is transported to the moon it will go",
+      "diagram": null,
+      "options": [
+        "a) Faster",
+        "b) Slower",
+        "c) Remains the same",
+        "d) stationary"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Lower g → longer period.",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "6. When a green light is incident on a red opaque object the red pigment appears.",
+      "diagram": null,
+      "options": [
+        "a) Green",
+        "b) blue green",
+        "c) red and green",
+        "d) Dark"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "7. The maximum voltage of an alternating current is 75V, the instantaneous voltage that has an angle of 35⁰ is:",
+      "diagram": null,
+      "options": [
+        "a) 34V",
+        "b) 43V",
+        "c) 340V",
+        "d) 0.46V"
+      ],
+      "correct_index": 1,
+      "answer_guide": "75 × sin 35° ≈ 43 V",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "8. A transistor has .................. Pn junction(s):",
+      "diagram": null,
+      "options": [
+        "a) One",
+        "b) Two",
+        "c) Three",
+        "d) Four"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "9. The figure Below shows refraction through glass slab. This type of refraction is called:",
+      "diagram": null,
+      "options": [
+        "a) Lateral displacement",
+        "b) Total internal reflection",
+        "c) irregular reflection",
+        "d) diffuse reflection"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "10. There is a Law which dictates how a changing magnetic flux through loop induces an electromotive force in the loop this law is called",
+      "diagram": null,
+      "options": [
+        "a) Faraday's law",
+        "b) Lenz's law",
+        "c) Hooke's law",
+        "d) Snell's law"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "11. The two most frequently used semiconductor materials are",
+      "diagram": null,
+      "options": [
+        "a) Germanium and silicon",
+        "b) Arsenic and gallium",
+        "c) Copper and carbon",
+        "d) Glass and nichrome"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "12. Rainbow is formed due to:",
+      "diagram": null,
+      "options": [
+        "a) Refraction of light",
+        "b) Reflection of light",
+        "c) Dispersion of light",
+        "d) Diffraction of light"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "13. Plane mirror always produces a virtual image of the............... as the object:",
+      "diagram": null,
+      "options": [
+        "a) Large size",
+        "b) Small size",
+        "c) Same size",
+        "d) zero size"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "14. A student stands 4m away from a plane mirror. The distance between the student and his image is:",
+      "diagram": null,
+      "options": [
+        "a) 2 m",
+        "b) 4m",
+        "c) 8m",
+        "d) 16m"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "15. Which one of the following electromagnetic spectrum has the least frequency?",
+      "diagram": null,
+      "options": [
+        "a) Microwave",
+        "b) infrared",
+        "c) ultraviolet",
+        "d) Gamma rays"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "16. The frequency of the following figure is:\n   (Figure: wave with period marked from 0 to 4 s on the time axis)",
+      "diagram": null,
+      "options": [
+        "a) 0.25 Hz",
+        "b) 4 Hz",
+        "c) 8 Hz",
+        "d) 0.5 Hz"
+      ],
+      "correct_index": 0,
+      "answer_guide": "T = 4 s → f = 1/4 = 0.25 Hz",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "17. The nucleus of certain element contains 6 protons and 8 neutrons the atomic number of that element is",
+      "diagram": null,
+      "options": [
+        "a) 6",
+        "b) 8",
+        "c) 2",
+        "d) 14"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "18. Which one of the following frequencies is an Ultrasonic viBration?",
+      "diagram": null,
+      "options": [
+        "a) Below 20Hz",
+        "b) 20Hz – 20KHz",
+        "c) Above 20Khz",
+        "d) 10MHz"
+      ],
+      "correct_index": 2,
+      "answer_guide": "(10 MHz is also ultrasonic; c is the general definition.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "19. If the velocity of air at 0⁰ is 330m/s. The velocity of sound in air at 30⁰ Will be",
+      "diagram": null,
+      "options": [
+        "a) 360 m/s",
+        "b) 350 m/s",
+        "c) 348 m/s",
+        "d) 330 m/s"
+      ],
+      "correct_index": 2,
+      "answer_guide": "v = 330 + 0.6 × 30 = 348 m/s",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE : CHOOSE THE CORRECT ANSWER (40 MARKS)",
+      "question": "20. The audible reflection of sound is known as:",
+      "diagram": null,
+      "options": [
+        "a) Pitch",
+        "b) harmonics",
+        "c) Echo",
+        "d) frequency"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "Part Two: Match the FalLowing Questions ( 10 marks )",
+      "question": "Match Column A with Column B.\n\nColumn A:\n1. Waves that propagate through material medium\n2. Time taken to make one complete cycle\n3. A lens which has ability to converge rays of light\n4. The value of Planks constant (h)\n5. The speed of light in air (c) is equal to\n6. Bending of light rays is considered as\n7. If the power of the lens is negative then it is considered as\n8. Angle of incidence is always equal to the angle of\n9. Alpha particle emission is similar to\n10. Sounds are produced by\n\nColumn B: a) Helium nuclei b) Vibrating material c) Concave d) Reflection e) Convex f) Period g) Mechanical h) 3× 10⁸ m/s i) 6.63 × 10⁻³⁴ Js j) Refraction",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "1-g, 2-f, 3-e, 4-i, 5-h, 6-j, 7-c, 8-d, 9-a, 10-b",
+      "matching_pairs": [
+        {
+          "item": "1. Waves that propagate through material medium",
+          "match": "g) Mechanical"
+        },
+        {
+          "item": "2. Time taken to make one complete cycle",
+          "match": "f) Period"
+        },
+        {
+          "item": "3. A lens which has ability to converge rays of light",
+          "match": "e) Convex"
+        },
+        {
+          "item": "4. The value of Planks constant (h)",
+          "match": "i) 6.63 × 10⁻³⁴ Js"
+        },
+        {
+          "item": "5. The speed of light in air (c) is equal to",
+          "match": "h) 3× 10⁸ m/s"
+        },
+        {
+          "item": "6. Bending of light rays is considered as",
+          "match": "j) Refraction"
+        },
+        {
+          "item": "7. If the power of the lens is negative then it is considered as",
+          "match": "c) Concave"
+        },
+        {
+          "item": "8. Angle of incidence is always equal to the angle of",
+          "match": "d) Reflection"
+        },
+        {
+          "item": "9. Alpha particle emission is similar to",
+          "match": "a) Helium nuclei"
+        },
+        {
+          "item": "10. Sounds are produced by",
+          "match": "b) Vibrating material"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section One: Oscillatory motion\n1. Define Amplitude and state its SI-Unit. [ 2 marks ]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Amplitude is the maximum displacement of a vibrating particle from its rest (equilibrium) position. SI unit: metre (m).",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section One: Oscillatory motion\n2. A 5kg mass is connected to a spring produces a displacement of 20 cm as shown in the figure below. Calculate the spring constant. ( Use g = 9.8 m/s²) [3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "F = mg = 5 × 9.8 = 49 N; x = 0.20 m\nk = F/x = 49/0.20 = 245 N/m",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Two: Wave motion\n1. Differentiate Between Mechanical wave and electromagnetic wave. [ 2 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Mechanical waves need a material medium to travel (e.g. sound, water waves); electromagnetic waves do not need a medium and can travel through a vacuum at 3 × 10⁸ m/s (e.g. light, radio waves).",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Two: Wave motion\n2. Somali National Television (SN.TV) produces signal waves of frequency 200,000 HZ and wavelength of 1500m. Calculate the speed of the waves [3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "v = fλ = 200,000 × 1500 = 3 × 10⁸ m/s",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Three: Sound Waves\n1. Can Sound Travel through a vacuum (empty space)? Explain your answer [ 3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "No. Sound is a mechanical (longitudinal) wave that needs particles of a medium to vibrate and pass on the energy; a vacuum has no particles.",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Three: Sound Waves\n2. Ali stands between two parallel tall buildings A and B and fires a gun. He hears two successive echoes after 0.6sec and 2.4 sec (v = 340 m/s).\n  a) What is the distance between Ali and building A? [3 Marks]\n  b) What is the distance between Ali and building B? [3 Marks]\n  c) What is the distance between building A and building B? [2 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) d = vt/2 = 340 × 0.6/2 = 102 m\nb) d = 340 × 2.4/2 = 408 m\nc) 102 + 408 = 510 m",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Four: Reflection of light\n1. An object 5cm high is placed at a distance of 10cm from a convex mirror of radius 30cm. find:\n  a) The position of the image [ 3 marks]\n  b) The nature of the image [ 1 mark]\n  c) Size of the image [2 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "f = −R/2 = −15 cm (convex); 1/v = 1/f − 1/u = −1/15 − 1/10 = −1/6 → v = −6 cm (6 cm behind the mirror)\nb) Virtual, upright (erect) and diminished.\nc) m = |v|/u = 6/10 = 0.6 → image height = 0.6 × 5 = 3 cm",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Five: Refraction of Light\n1. State Snell's law of refraction [ 3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "For two given media, the ratio of the sine of the angle of incidence to the sine of the angle of refraction is constant: sin i / sin r = n (refractive index). The incident ray, refracted ray and normal all lie in the same plane.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Five: Refraction of Light\n2. An eye specialist prescribes a lens of focal length 25cm to a person for his glass. What is the power of the lens [3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "P = 1/f (m) = 1/0.25 = +4 D (dioptres)",
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Six: Dispersion of Light\n1. If you look at the sky in a day without clouds, you can see it as blue in color, so why the sky is Blue? [3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Sunlight is scattered by gas molecules in the atmosphere; short-wavelength blue light is scattered much more than longer wavelengths (Rayleigh scattering), so blue light reaches our eyes from all directions of the sky.",
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Six: Dispersion of Light\n2. The diagram below represents three overlapping circles of additive colors (Red, Blue, Green; A = red∩blue, B = red∩green, C = blue∩green, D = centre) [2 marks]\n  a) What color would region C be\n  b) What color would region D be",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Cyan (blue + green)\nb) White (red + green + blue)",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Eight: Alternating current\n1. The primary coil of a transformer is 10A. If the primary coil has 550 turns and the secondary has 2500 turns what current flows in the secondary coil [ 3 marks]\n   (Note: there is no Section Seven on the paper.)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Iₛ = Iₚ × Nₚ/Nₛ = 10 × 550/2500 = 2.2 A",
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Nine: Basic electronics\n1. List the types of transistors [ 2 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "NPN and PNP (bipolar junction transistors); also field-effect transistors (FET).",
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Nine: Basic electronics\n2. Differentiate between extrinsic and intrinsic semiconductors [ 2 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "An intrinsic semiconductor is a pure semiconductor (e.g. pure silicon or germanium). An extrinsic semiconductor has been doped with impurities to increase conductivity (n-type or p-type).",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section Ten: Modern physics\n1. Blue light has a wavelength of 7.7 × 10¹⁴HZ and Planck's constant is 6.63 × 10⁻³⁴ js. Calculate the energy of the light. [ 3 marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "(The value given is a frequency, f = 7.7 × 10¹⁴ Hz.)\nE = hf = 6.63 × 10⁻³⁴ × 7.7 × 10¹⁴ ≈ 5.1 × 10⁻¹⁹ J",
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "Part three: Direct questions and problems [ 50 marks ]",
+      "question": "Section ELeven: Nuclear Physics\n1. Find the half-life of ¹³₇N if its decay constant is 1.16 × 10⁻³ decay/second [ 2 marks].",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "T½ = 0.693/λ = 0.693/1.16 × 10⁻³ ≈ 597 s (≈ 10 minutes)",
+      "matching_pairs": null
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "title": "Somaliland Form Four Examination 2022 - Mathematics Paper Two",
+  "exam_id": "somaliland_12_mathematics_p2_2022",
+  "year": 2022,
+  "subject": "Mathematics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "1. Convert 240⁰ to π radian answer is :",
+      "diagram": null,
+      "options": [
+        "A. 3/4 π",
+        "B. 4/3 π",
+        "C. 5/4 π",
+        "D. 5/6 π"
+      ],
+      "correct_index": 1,
+      "answer_guide": "240 × π/180 = 4π/3",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "2. − 4 π converted to degrees is :",
+      "diagram": null,
+      "options": [
+        "A. -720⁰",
+        "B. 720⁰",
+        "C. 1440⁰",
+        "D. 440⁰"
+      ],
+      "correct_index": 0,
+      "answer_guide": "−4 × 180° = −720°",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "3. The length of an arc of a circle with radius 4 cm is 7 cm. The angle this arc makes at the centre in radians is :",
+      "diagram": null,
+      "options": [
+        "A. 1,75 rad.",
+        "B. 1.82 rad",
+        "C. 1.69 rad",
+        "D. 1.57 rad"
+      ],
+      "correct_index": 0,
+      "answer_guide": "θ = s/r = 7/4 = 1.75 rad",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "4. The area of a sector with central angle 60⁰ from a circle of radius 9 cm is :",
+      "diagram": null,
+      "options": [
+        "A. 21/2 π cm²",
+        "B. 23/2 π cm²",
+        "C. 27/6 π cm²",
+        "D. 29/6 π cm²"
+      ],
+      "correct_index": null,
+      "answer_guide": "A = (60/360) × π × 9² = 81π/6 = 27π/2 cm². None of the printed options is correct (C, 27/6 π, is likely a misprint for 27/2 π).",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "5. lim(x→4) ((x³ + 4x² − 16x − 64)/(x − 4)) is :",
+      "diagram": null,
+      "options": [
+        "A. 0",
+        "B. 64",
+        "C. -16",
+        "D. 48"
+      ],
+      "correct_index": 1,
+      "answer_guide": "x³ + 4x² − 16x − 64 = (x + 4)²(x − 4) → limit = (4 + 4)² = 64",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "6. lim(x→∞) ((4x³ + 2x² + 1)/(x² − 2x)) is :",
+      "diagram": null,
+      "options": [
+        "A. 0",
+        "B. 4",
+        "C. ∞",
+        "D. 2"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Degree of numerator (3) > degree of denominator (2) → ∞",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "7. The gradient of the curve y = 1/(2√x⁵) at x = 1 is:",
+      "diagram": null,
+      "options": [
+        "A. 1/(2√7)",
+        "B. 1/(2√x7)",
+        "C. 1/(2√2)",
+        "D. 1/2"
+      ],
+      "correct_index": null,
+      "answer_guide": "y = ½x^(−5/2) → y′ = −(5/4)x^(−7/2) → at x = 1, gradient = −5/4. None of the printed options is correct.",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "8. The derivative of y = √x (x³ − 1) is :",
+      "diagram": null,
+      "options": [
+        "A. 7/2 √x⁶ − 1/(2√x)",
+        "B. 7/2 √x⁵ − √x³/2",
+        "C. 7/2 √x⁵ − 1/(2x)",
+        "D. 7/2 √x⁷ − 1/(2√x)"
+      ],
+      "correct_index": null,
+      "answer_guide": "y = x^(7/2) − x^(1/2) → y′ = (7/2)√x⁵ − 1/(2√x). No option matches exactly (C has 1/(2x) instead of 1/(2√x)) – likely a misprint in C.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "9. The coordinate of the stationary point on the curve y = x² − 8x + 10 is",
+      "diagram": null,
+      "options": [
+        "A. ( -6, 4 )",
+        "B. ( 4, 6)",
+        "C. (4, -6 )",
+        "D. ( -6, -4)"
+      ],
+      "correct_index": 2,
+      "answer_guide": "y′ = 2x − 8 = 0 → x = 4, y = 16 − 32 + 10 = −6",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "10. The variance of 1, 2, 3, 4, 5 is :",
+      "diagram": null,
+      "options": [
+        "A. 1.9",
+        "B. 2.9",
+        "C. 3 .6",
+        "D. 4. 5"
+      ],
+      "correct_index": null,
+      "answer_guide": "Mean = 3; population variance = 10/5 = 2 (sample variance = 10/4 = 2.5). None of the printed options is correct.",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "11. The IQR of 8, 11, 13, 15, 18, 26, 29, 31, 33, 36 is",
+      "diagram": null,
+      "options": [
+        "A. 18",
+        "B. 20",
+        "C. 16",
+        "D. 17.5"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Lower half 8, 11, 13, 15, 18 → Q₁ = 13; upper half 26, 29, 31, 33, 36 → Q₃ = 31; IQR = 18",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "12. The 70ᵗʰ percentile of the data in Q.11 above is :",
+      "diagram": null,
+      "options": [
+        "A. 26",
+        "B. 27",
+        "C. 30",
+        "D. 32"
+      ],
+      "correct_index": 2,
+      "answer_guide": "0.7 × 10 = 7 → average of 7th and 8th values = (29 + 31)/2 = 30",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "13. Twenty cards are numbered from 1 to 20. A card is chosen at random what is the probability that it is composite",
+      "diagram": null,
+      "options": [
+        "A. 9/10",
+        "B. 10/19",
+        "C. 11/20",
+        "D. 12/19"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Composites: 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20 = 11 → 11/20",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "14. A card is chosen from a complete deck of card. What is the probability that it is either a face card or black?",
+      "diagram": null,
+      "options": [
+        "A. 12/13",
+        "B. 19/26",
+        "C. 33/52",
+        "D. 25/52"
+      ],
+      "correct_index": null,
+      "answer_guide": "P = 12/52 + 26/52 − 6/52 = 32/52 = 8/13. None of the printed options is correct.",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "15. The value of ₇P₅ is equivalent to :",
+      "diagram": null,
+      "options": [
+        "A. ₇P₂",
+        "B. ₅P₂",
+        "C. 40",
+        "D. 38"
+      ],
+      "correct_index": null,
+      "answer_guide": "₇P₅ = 7!/2! = 2520; ₇P₂ = 42, ₅P₂ = 20. None of the printed options is equal. (₇C₅ = ₇C₂ would be the intended identity.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "16. The value ( ₆P₃ − ₅P₂ ) is",
+      "diagram": null,
+      "options": [
+        "A. 70",
+        "B. 80",
+        "C. 90",
+        "D. 100"
+      ],
+      "correct_index": 3,
+      "answer_guide": "120 − 20 = 100",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "17. The combination ₁₃C₁ added 4 times is equal to :",
+      "diagram": null,
+      "options": [
+        "A. 4 x 13 C₁",
+        "B. 13⁴",
+        "C. 13 C₄",
+        "D. 4 x 13"
+      ],
+      "correct_index": 0,
+      "answer_guide": "4 × ₁₃C₁ = 52; option D (4 × 13 = 52) is numerically equal too.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "18. The simplified value of (4 − 3i)/(12 + 5i)",
+      "diagram": null,
+      "options": [
+        "A. 56/169 − 33i/169",
+        "B. 33/169 − 56i/169",
+        "C. 89i/169",
+        "D. 23i/169"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Multiply by (12 − 5i): (48 − 20i − 36i + 15i²)/169 = (33 − 56i)/169",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "19. The values of x and y that make 3x − 5yi = 12 + 20 true are :\n   (read as 12 + 20i)",
+      "diagram": null,
+      "options": [
+        "A. ( 4, 4)",
+        "B. ( 4, - 4 )",
+        "C. ( -4 , -4 )",
+        "D. ( -4, 4)"
+      ],
+      "correct_index": 1,
+      "answer_guide": "3x = 12 → x = 4; −5y = 20 → y = −4",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART 1: Multiple choice Questions (40 marks) – Circle the correct answer, each question carries 2 marks.",
+      "question": "20. The value of r and θ that make 2√3 − 2 I true are :\n   (read as 2√3 − 2i = r cis θ)",
+      "diagram": null,
+      "options": [
+        "A. ( 4 , −π/2 )",
+        "B. ( 4 , 5π/3 )",
+        "C. ( − 4 , −π/3 )",
+        "D. ( 4 , π/3 )"
+      ],
+      "correct_index": null,
+      "answer_guide": "r = √(12 + 4) = 4; tan θ = −2/(2√3) → θ = −π/6 (or 11π/6). None of the printed options is correct.",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "1.\n  a). Write the complex number Z₁ = - 2 - 2√3 i in polar form. ( 4 marks)\n  b) Multiply Z₁ ( above ) by Z₂ = √8 [ cos(−π/3) + i sin(−π/3) ] ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) r = √(4 + 12) = 4; third quadrant, reference angle 60° → θ = 240° (4π/3)\n   Z₁ = 4(cos 240° + i sin 240°) = 4 cis(4π/3)\nb) Z₁Z₂ = 4√8 cis(4π/3 − π/3) = 8√2 cis π = −8√2",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "2. Given Z₁ = 24 [ cos 300⁰ + isin 300⁰ ] and Z₂ = 8 [ cos 75⁰ + isin 75⁰ ]\n   Find :\n  a) Z₁ / Z₂ = ( 3 MARKS)\n  b) The cubic root of Z₃ = 8 [ cos 135⁰ + isin 135⁰ ] ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Z₁/Z₂ = 3 cis(300° − 75°) = 3 cis 225° = 3(−√2/2 − (√2/2)i) = −3√2/2 − (3√2/2)i\nb) ∛Z₃ = 2 cis((135° + 360°k)/3), k = 0, 1, 2 → 2 cis 45°, 2 cis 165°, 2 cis 285°\n   (principal root 2 cis 45° = √2 + √2 i)",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "3. Evaluate\n  a) Sin 105⁰ ( 2 marks)\n  b) Cos 945⁰ ( 2 marks)\n  c) Tan 285⁰ ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) sin 105° = sin(60° + 45°) = (√3/2)(√2/2) + (1/2)(√2/2) = (√6 + √2)/4\nb) 945° − 720° = 225° → cos 225° = −√2/2\nc) tan 285° = tan(285° − 360°) = tan(−75°) = −tan 75° = −(2 + √3)",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "4.\n  a) Find sin ( A+B ) if sin A = −4/5 and cos B = 15/17\n     A and B are in Quadrant IV. Also state Quadrant of ( A + B) ( 4 marks)\n  b) Prove that csc ( π + x) = − csc x ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Quadrant IV: cos A = 3/5, sin B = −8/17\n   sin(A + B) = sinA cosB + cosA sinB = (−4/5)(15/17) + (3/5)(−8/17) = −60/85 − 24/85 = −84/85\n   cos(A + B) = cosA cosB − sinA sinB = 45/85 − 32/85 = 13/85 > 0 → (A + B) is in Quadrant IV\nb) csc(π + x) = 1/sin(π + x) = 1/(sin π cos x + cos π sin x) = 1/(−sin x) = −csc x ∎",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "5.\n  a) Verify that sin C + sin D = 2 sin((C + D)/2) cos((C − D)/2) ( 4 MARKS)\n  b.) verify that sin∝ cos B = ½ [ sin(∝ + B) + sin(∝ − B) ] ( 2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Let A = (C + D)/2, B = (C − D)/2, so C = A + B and D = A − B.\n   sin(A + B) + sin(A − B) = (sinA cosB + cosA sinB) + (sinA cosB − cosA sinB) = 2 sinA cosB\n   → sin C + sin D = 2 sin((C + D)/2) cos((C − D)/2) ∎\nb) RHS = ½[(sin∝ cosB + cos∝ sinB) + (sin∝ cosB − cos∝ sinB)] = ½(2 sin∝ cosB) = sin∝ cosB = LHS ∎",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "6.\n  a) Convert y² = 4x into a polar coordinate ( 3 marks)\n  b.) Convert r² + 4 r cos θ - 8 r sin θ = -4 to Cartesian equation ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) x = r cos θ, y = r sin θ: r² sin²θ = 4r cos θ → r = 4 cos θ / sin²θ = 4 cot θ csc θ\nb) x² + y² + 4x − 8y = −4 → (x + 2)² + (y − 4)² = 16 (circle, centre (−2, 4), radius 4)",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "7.\n  a) Given u = √x , v = ( 2x − 3 ) find the derivative of y = u.v ( 3 marks)\n  b.) Given u = 1+3x and v = x² +1 find dy/dx when y = u/v ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) y′ = u′v + uv′ = (1/(2√x))(2x − 3) + 2√x = (2x − 3)/(2√x) + 2√x = (6x − 3)/(2√x)\nb) y′ = (u′v − uv′)/v² = [3(x² + 1) − (1 + 3x)(2x)]/(x² + 1)² = (−3x² − 2x + 3)/(x² + 1)²",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "8.\n  a) Find the equation of the tangent to the curve y = x² at the point ( 3, 9) ( 3 marks)\n  b.) Find the equation of the normal y = 8/√x to at the point x = 4 ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) dy/dx = 2x = 6 at x = 3 → y − 9 = 6(x − 3) → y = 6x − 9\nb) At x = 4: y = 8/2 = 4. dy/dx = −4x^(−3/2) = −4/8 = −1/2 → normal gradient = 2\n   y − 4 = 2(x − 4) → y = 2x − 4",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "9.\n  a.) Determine the nature of the curve y = x³ + 3x² − 9x +5 ( 3 marks)\n  b) Find the volume of the solid formed by y = √x for 0 ≤ x ≤ 3 is revolved about the x - axis . ( use) V = π ∫₀³ (√x)² dx ( 3 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) y′ = 3x² + 6x − 9 = 3(x + 3)(x − 1) = 0 → x = −3 or x = 1\n   x = −3: y = −27 + 27 + 27 + 5 = 32; x = 1: y = 1 + 3 − 9 + 5 = 0\n   y″ = 6x + 6: at x = −3, y″ = −12 < 0 → maximum (−3, 32); at x = 1, y″ = 12 > 0 → minimum (1, 0)\nb) V = π ∫₀³ x dx = π [x²/2]₀³ = 9π/2 ≈ 14.14 cubic units",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART 2: ANSWER ALL QUESTIONS. (60 MARKS)",
+      "question": "10.\n  a) Find the std deviation of 1, 2, 3, 4, 5. (2 marks)\n  b) Given\n\n     | Mass | 10-20 | 20-30 | 30-40 | 40-50 | 50-60 | 60-70 | 70-80 | 80-90 |\n     | Freq | 3     | 6     | 7     | 8     | 10    | 7     | 6     | 3     |\n\n     Find: i) Lower quartile L = 30, cf = 9, f = 7, c = 10, n = 50 ( 4 marks)\n           ii) L = 50, cf = 24, f = 10, c = 10 , n = 50",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Mean = 3; Σ(x − x̄)² = 4 + 1 + 0 + 1 + 4 = 10; σ = √(10/5) = √2 ≈ 1.41 (sample s = √2.5 ≈ 1.58)\nb) i) Q₁ = L + ((n/4 − cf)/f) × c = 30 + ((12.5 − 9)/7) × 10 = 30 + 5 = 35\n   ii) (median) Q₂ = 50 + ((n/2 − cf)/f) × c = 50 + ((25 − 24)/10) × 10 = 51",
+      "matching_pairs": null
+    }
+  ]
+}

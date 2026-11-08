@@ -1,0 +1,406 @@
+{
+  "title": "Somaliland Form Four Examination 2022 - Core Mathematics Paper One",
+  "exam_id": "somaliland_12_mathematics_p1_2022",
+  "year": 2022,
+  "subject": "Mathematics",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "1. Convert 4/3 π to degrees:",
+      "diagram": null,
+      "options": [
+        "A. 120 ⁰",
+        "B. 60 ⁰",
+        "C. 240 ⁰",
+        "D. 300 ⁰"
+      ],
+      "correct_index": 2,
+      "answer_guide": "4/3 × 180° = 240°",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "2. The marks obtained by a class of 26 students In a maths test are shown below what is the mode",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 210\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Bar chart of grades: A 4, B 6, C 8, D 6, E 2, F 0\"><line x1=\"40\" y1=\"190\" x2=\"330\" y2=\"190\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"40\" y1=\"190\" x2=\"40\" y2=\"20\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"40\" y1=\"150\" x2=\"330\" y2=\"150\" stroke=\"#bbb\" stroke-dasharray=\"3,3\"/><text x=\"34\" y=\"154\" font-size=\"11\" text-anchor=\"end\">2</text><line x1=\"40\" y1=\"110\" x2=\"330\" y2=\"110\" stroke=\"#bbb\" stroke-dasharray=\"3,3\"/><text x=\"34\" y=\"114\" font-size=\"11\" text-anchor=\"end\">4</text><line x1=\"40\" y1=\"70\" x2=\"330\" y2=\"70\" stroke=\"#bbb\" stroke-dasharray=\"3,3\"/><text x=\"34\" y=\"74\" font-size=\"11\" text-anchor=\"end\">6</text><line x1=\"40\" y1=\"30\" x2=\"330\" y2=\"30\" stroke=\"#bbb\" stroke-dasharray=\"3,3\"/><text x=\"34\" y=\"34\" font-size=\"11\" text-anchor=\"end\">8</text><rect x=\"50\" y=\"110\" width=\"32\" height=\"80\" fill=\"#555\"/><text x=\"66\" y=\"205\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"97\" y=\"70\" width=\"32\" height=\"120\" fill=\"#555\"/><text x=\"113\" y=\"205\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">B</text><rect x=\"144\" y=\"30\" width=\"32\" height=\"160\" fill=\"#555\"/><text x=\"160\" y=\"205\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">C</text><rect x=\"191\" y=\"70\" width=\"32\" height=\"120\" fill=\"#555\"/><text x=\"207\" y=\"205\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">D</text><rect x=\"238\" y=\"150\" width=\"32\" height=\"40\" fill=\"#555\"/><text x=\"254\" y=\"205\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">E</text><text x=\"301\" y=\"205\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">F</text><text x=\"40\" y=\"14\" font-size=\"11\">Freq</text></svg>",
+        "caption": "Bar chart of grades: A 4, B 6, C 8, D 6, E 2, F 0."
+      },
+      "options": [
+        "A. B",
+        "B. F",
+        "C. A",
+        "D. C"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Grade C has the tallest bar (8).",
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "3. The derivative of sinx is",
+      "diagram": null,
+      "options": [
+        "A. Cos x",
+        "B. –cos x",
+        "C. Sec x",
+        "D. Tan x"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "4. Evaluate ₆C₄ :",
+      "diagram": null,
+      "options": [
+        "A. 120",
+        "B. 60",
+        "C. 30",
+        "D. 15"
+      ],
+      "correct_index": 3,
+      "answer_guide": "6!/(4!2!) = 15",
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "5. What is the conjugate of -3i + 4 ?",
+      "diagram": null,
+      "options": [
+        "A. 3i – 4",
+        "B. -3i – 4",
+        "C. 4 + 3i",
+        "D. 4 – 3i"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "6. If the equation of the curve y = 4x − x³/3 , calculate the gradient of the curve at x=3:",
+      "diagram": null,
+      "options": [
+        "A. -5",
+        "B. 5",
+        "C. 9",
+        "D. -9"
+      ],
+      "correct_index": 0,
+      "answer_guide": "dy/dx = 4 − x² = 4 − 9 = −5",
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "7. An ordinary die is thrown once what is the probability of getting even number ?",
+      "diagram": null,
+      "options": [
+        "A. 1/6",
+        "B. 1/2",
+        "C. 2/3",
+        "D. 1/3"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "8. Evaluate the lim(x→∞) (4x³ − 1)/(5x²)",
+      "diagram": null,
+      "options": [
+        "A. 5/4",
+        "B. -4/5",
+        "C. 3/5",
+        "D. 4/5"
+      ],
+      "correct_index": null,
+      "answer_guide": "Numerator degree 3 > denominator degree 2, so the limit is ∞. None of the options is correct (4/5 would be right if the denominator were 5x³).",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "9. if 2sin²x – sinx= 0 solve x for the range of 0⁰ < x < 180⁰ :",
+      "diagram": null,
+      "options": [
+        "A. 0⁰ , 30⁰",
+        "B. 30⁰ , 150⁰",
+        "C. 0⁰ , 180⁰",
+        "D. 180⁰ , 360⁰"
+      ],
+      "correct_index": 1,
+      "answer_guide": "sin x(2 sin x − 1) = 0 → sin x = ½ gives 30°, 150° (sin x = 0 gives 0°, 180°, excluded by the strict range).",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "10. Integrate ∫(3x² + 4x − 5) dx",
+      "diagram": null,
+      "options": [
+        "A. X³ + 2x² -5x + c",
+        "B. X³ + 2x² -5x + c",
+        "C. X³ + 2x² -5x + c",
+        "D. X³ + 2x² -5x + c"
+      ],
+      "correct_index": 0,
+      "answer_guide": "All four options are printed identically (x³ + 2x² − 5x + c), which is correct.",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "11. Which one of the following expressions is the same as cos2A >",
+      "diagram": null,
+      "options": [
+        "A. Cos² + sin² A",
+        "B. 1",
+        "C. 2cos² A + 1",
+        "D. 2cos² A + 1"
+      ],
+      "correct_index": null,
+      "answer_guide": "cos 2A = 2cos²A − 1 (or cos²A − sin²A). Options C and D are both printed as 2cos²A + 1 (sign misprint), so no option is correct.",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "12. Compute the interquartile range for the data set 6 , 12 , 13 , 9 , 3 , 10 and 4",
+      "diagram": null,
+      "options": [
+        "A. 6",
+        "B. 4",
+        "C. 8",
+        "D. 16"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Ordered: 3, 4, 6, 9, 10, 12, 13 → Q₁ = 4, Q₃ = 12, IQR = 8",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "13. Find the value of X and Y that makes the equation 5x + 3y i = 10 – 9i true",
+      "diagram": null,
+      "options": [
+        "A. (-2 , -3)",
+        "B. (-2 , 3)",
+        "C. (-3, 2)",
+        "D. (-2 , -3)"
+      ],
+      "correct_index": null,
+      "answer_guide": "5x = 10 → x = 2; 3y = −9 → y = −3, so (2, −3). No option matches (A and D print (−2, −3)).",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "14. Given the sin A = 3/5 and A is an acute angle , calculate sec A ?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 240 180\" width=\"100%\" style=\"max-width:240px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Right triangle with hypotenuse 5 and base 3, angle x at the top\"><path d=\"M20,160 L200,160 L200,20 Z\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M188,160 v-12 h12\" fill=\"none\" stroke=\"#111\"/><text x=\"100\" y=\"80\" font-size=\"14\" font-weight=\"bold\">5</text><text x=\"110\" y=\"176\" font-size=\"14\" font-weight=\"bold\">3</text><text x=\"185\" y=\"55\" font-size=\"14\" font-weight=\"bold\">x</text></svg>",
+        "caption": "Right triangle with hypotenuse 5 and side 3; angle x at the top."
+      },
+      "options": [
+        "A. −3/4",
+        "B. 4/5",
+        "C. 5/3",
+        "D. 5/4"
+      ],
+      "correct_index": 3,
+      "answer_guide": "cos A = 4/5 → sec A = 5/4",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "15. The ages of 10 pupils on a primary class is given below : 12 , 8 , 10 , 8, 9 , 10 , 11 , 9 , 8 , 9 what is the mean age of pupils",
+      "diagram": null,
+      "options": [
+        "A. 11",
+        "B. 10",
+        "C. 12",
+        "D. 8"
+      ],
+      "correct_index": null,
+      "answer_guide": "Sum = 94 → mean = 9.4 years. None of the options is correct.",
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "16. Change 540⁰ to π radians",
+      "diagram": null,
+      "options": [
+        "A. 3 π",
+        "B. 4 π",
+        "C. 3/2 π",
+        "D. 3/4 π"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "17. If 8 people can clean the school in 6v hours how many people are needed to clean the school in 4 hours",
+      "diagram": null,
+      "options": [
+        "A. 5",
+        "B. 3",
+        "C. 12",
+        "D. 8"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Reading “6v” as 6 hours: 8 × 6 = 48 person-hours → 48/4 = 12 people.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "18. Find the equation of the circle shown below\n   (The figure is not printed in this scan.)",
+      "diagram": null,
+      "options": [
+        "A. X² + Y² = 15",
+        "B. X² + Y² = 25",
+        "C. X² + Y² = 5",
+        "D. X² + Y² = 125"
+      ],
+      "correct_index": null,
+      "answer_guide": "The circle figure is missing from the paper, so the radius cannot be read.",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "19. Evaluate log₂ (1/8)",
+      "diagram": null,
+      "options": [
+        "A. -2",
+        "B. +2",
+        "C. +3",
+        "D. -3"
+      ],
+      "correct_index": 3,
+      "answer_guide": "2⁻³ = 1/8",
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART ONE: Multiple choice – Choose the correct answer. Answer ALL the questions. Each question carries 2 marks.",
+      "question": "20. Calculate the area of parallelogram ABCD shown below given that AB=CD\n   (The figure is not printed in this scan.)",
+      "diagram": null,
+      "options": [
+        "A. 205cm²",
+        "B. 250cm²",
+        "C. 200cm²",
+        "D. 125cm²"
+      ],
+      "correct_index": null,
+      "answer_guide": "The parallelogram figure with its dimensions is missing from the paper.",
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "1. Evaluate the following\n  a) lim(x→2) 3x + 9 ( 2 marks)\n  b) lim(x→5) (x² − 25)/(x + 5)\n  c) ∫₁³ (3x² − 4x + 5) dx",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) 3(2) + 9 = 15\nb) (x² − 25)/(x + 5) = x − 5 → 5 − 5 = 0\nc) [x³ − 2x² + 5x]₁³ = (27 − 18 + 15) − (1 − 2 + 5) = 24 − 4 = 20",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "2. Convert each of the following radiant to degrees\n  a) 3/4 π (2 mark)\n  b) 5/3 π (2 mark)\n  c) π/6 (2 mark)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) 135°\nb) 300°\nc) 30°",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "3. A box contain 3 red, 2 blue and 5 white marbles. A marble is drown at random from the box what is the probability of getting :\n  a) A red marble\n  b) A blue marble\n  c) A red or blue marble\n  d) Neither blue or red marble",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Total = 10\na) 3/10\nb) 2/10 = 1/5\nc) 5/10 = 1/2\nd) 5/10 = 1/2 (white)",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "4. Integrate each of the following\n  a) ∫ 2x dx\n  b) ∫ sin 4x dx\n  c) ∫ − 3/x²",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) x² + c\nb) −(1/4) cos 4x + c\nc) ∫ −3x⁻² dx = 3/x + c",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "5. Simplify each of the following\n  a) √109 (2 mark)\n  b) (-8 + 5i ) + (6 – 3i)\n  c) (3 + 2i) ( 3 - 2i )",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) 109 is prime, so √109 cannot be simplified further (≈ 10.44)\nb) −2 + 2i\nc) 9 − 4i² = 9 + 4 = 13",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "6. Table below shows the marks obtained by 30 students in class\n\n   | score | Mid – mark (x) | Freq (f) | fx  |\n   | 0-9   |                | 4        | 18  |\n   | 10–19 | 4.5            | 6        |     |\n   | 20–29 |                | 10       |     |\n   | 30–39 | 34.5           | 8        | 276 |\n   | 40-49 |                | 2        |     |\n   | Total |                | Σf = 30  | Σfx = |\n\n  a) Complete the table (3 mark)\n  b) Calculate the estimate mean mark (3 mark)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Mid-marks: 4.5, 14.5, 24.5, 34.5, 44.5 (the 4.5 printed for 10–19 is a misprint for 14.5)\n   fx: 18, 87, 245, 276, 89; Σfx = 715\nb) Mean = Σfx/Σf = 715/30 ≈ 23.8",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "7. Find the derivative of the following\n  a) Y = x³ + x² - 1\n  b) Y = x² ( x³ – 1)\n  c) y= tan x",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) 3x² + 2x\nb) y = x⁵ − x² → 5x⁴ − 2x\nc) sec² x",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "8. prove the following identities\n  a) sin 2x / (1 − cos 2x) = cot x (3 mark)\n  b) Sec⁴ ∅ - sec² ∅ = tan⁴ ∅ + tan² ∅",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) LHS = 2 sin x cos x / (1 − (1 − 2sin²x)) = 2 sin x cos x / (2 sin²x) = cos x / sin x = cot x ∎\nb) LHS = sec²∅(sec²∅ − 1) = (1 + tan²∅)(tan²∅) = tan²∅ + tan⁴∅ = RHS ∎",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "Part Two: Structured Questions (60 marks)",
+      "question": "9. If f(X) = 3x+1 and g(x) 2x-1 find\n  a) f(2)\n  b) g( - 3 )\n  c) f(2) - f(-3)\n  d) g⁻¹ (x)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) 7\nb) 2(−3) − 1 = −7\nc) 7 − (−8) = 15\nd) y = 2x − 1 → g⁻¹(x) = (x + 1)/2",
+      "matching_pairs": null
+    }
+  ]
+}

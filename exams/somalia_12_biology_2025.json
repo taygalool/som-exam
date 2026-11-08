@@ -1,0 +1,766 @@
+{
+  "title": "Federal Republic of Somalia – Imtixaanka Shahaadiga 2024/2025 – Biology",
+  "exam_id": "somalia_12_biology_2025",
+  "year": 2025,
+  "subject": "Biology",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "1. The peripheral nervous system consists of:",
+      "diagram": null,
+      "options": [
+        "A. Brain and spinal cord",
+        "B. Cranial and spinal nerves",
+        "C. Spinal cord and spinal nerves",
+        "D. Cranial nerves and spinal cord"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "2. The point at which the nerve impulse passes from the pre-synaptic neuron to the post-synaptic neuron is known as:",
+      "diagram": null,
+      "options": [
+        "A. Synaptic knob",
+        "B. Synaptic vesicles",
+        "C. Synaptic cleft",
+        "D. Synaptic terminal"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "3. When you sleep your special room in your house, which part of nervous system works?",
+      "diagram": null,
+      "options": [
+        "A. Parasympathetic",
+        "B. Sympathetic",
+        "C. Somatic",
+        "D. Autonomic"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Rest-and-digest = parasympathetic.",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "4. Suppose a person holding a very hot object and does not feel a burning pain in his hand. Which of the following neurons are probably damaged in his hand?",
+      "diagram": null,
+      "options": [
+        "A. Connectors",
+        "B. Sensory",
+        "C. Motor",
+        "D. Neuron"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "5. Ali has eaten bread as breakfast; His blood glucose level will decrease after two hours. which hormone regulates blood sugar level;",
+      "diagram": null,
+      "options": [
+        "A. Insulin",
+        "B. Thyroxin",
+        "C. Calcitonin",
+        "D. Melatonin"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "6. The gland which enlarges into a goiter as a result of iodine deficiency is:",
+      "diagram": null,
+      "options": [
+        "A. Adrenal",
+        "B. Parathyroid",
+        "C. Pineal",
+        "D. Thyroid"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "7. The number of true ribs in the human body are:",
+      "diagram": null,
+      "options": [
+        "A. 12 Ribs",
+        "B. 14 Ribs",
+        "C. 16 Ribs",
+        "D. 18 Ribs"
+      ],
+      "correct_index": 1,
+      "answer_guide": "7 pairs of true ribs = 14 ribs.",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "8. The diagram below shows layers and associated structures of the skin. Which tissue type is responsible for standing the hair upright?\n   (Diagram: section of skin with hair follicles; labels A (near the hair follicle), B (top layer), C (dermis bracket), D (lower layer))",
+      "diagram": null,
+      "options": [
+        "A. A",
+        "B. B",
+        "C. C",
+        "D. D"
+      ],
+      "correct_index": 0,
+      "answer_guide": "The arrector pili muscle (smooth muscle attached to the hair follicle) raises the hair; in the figure it is labelled A. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "9. An injection is administrated through the skin using a hypodermic needle. Identify the integumentary structure through which the needle will pass:",
+      "diagram": null,
+      "options": [
+        "A. Epidermis",
+        "B. Dermis",
+        "C. Reticular layer",
+        "D. Papillary layer"
+      ],
+      "correct_index": 1,
+      "answer_guide": "A hypodermic needle passes through the epidermis and dermis into the subcutaneous layer; the dermis is the main layer it goes through. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "10. The diagram below shows the human skeleton, What is the total number of bones in the lower limbs?\n   (Diagram: full human skeleton)",
+      "diagram": null,
+      "options": [
+        "A. 30",
+        "B. 60",
+        "C. 40",
+        "D. 80"
+      ],
+      "correct_index": 1,
+      "answer_guide": "30 bones in each lower limb → 60 in total.",
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "11. The process by which the genetic instructions in specific gene are rewritten into RNA molecule is known as:",
+      "diagram": null,
+      "options": [
+        "A. Translation",
+        "B. Termination",
+        "C. Transcription",
+        "D. Trasnlocation"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "12. A template strand of DNA has the following sequence. What is the complementary codon of mRNA?\n   (No DNA sequence is printed on the paper.)",
+      "diagram": null,
+      "options": [
+        "A. UGG",
+        "B. GGC",
+        "C. UCG",
+        "D. GCU"
+      ],
+      "correct_index": null,
+      "answer_guide": "The DNA template sequence is missing from the printed question, so it cannot be answered.",
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "13. A genetic disease caused by a recessive gene mutation on chromosome number 14 is called:",
+      "diagram": null,
+      "options": [
+        "A. Phenylketonuria",
+        "B. Krabbe disease",
+        "C. Color blindness",
+        "D. Hemophilia"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Krabbe disease is caused by mutation of the GALC gene on chromosome 14 (PKU is on chromosome 12).",
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "14. What determines gender in human?",
+      "diagram": null,
+      "options": [
+        "A. The X chromosome",
+        "B. The Y chromosome",
+        "C. The X and Y chromosomes",
+        "D. Chromosome 21"
+      ],
+      "correct_index": 1,
+      "answer_guide": "The presence of the Y chromosome (from the father) makes a male; sex chromosomes X and Y together are also accepted in some keys. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "15. As a donor, the blood group A is incompatible with blood group B and O Because both makes:",
+      "diagram": null,
+      "options": [
+        "A. Anti-B antibodies",
+        "B. Anti-A antibodies",
+        "C. Anti- A antigens",
+        "D. Anti-B antigens"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "16. What is the basis of separation of different DNA fragments by gel electrophoresis?",
+      "diagram": null,
+      "options": [
+        "A. Size of the DNA fragments",
+        "B. The presence of a dye",
+        "C. The sequence of the fragments",
+        "D. The positive charge on DNA"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "17. The diagram below is a machine used in the amplification of DNA. Identify the name of the machine\n   (Picture: a laboratory thermal cycler)",
+      "diagram": null,
+      "options": [
+        "A. PCR machine",
+        "B. Sequencing machine",
+        "C. Gel electrophoresis",
+        "D. CRP machine"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "18. Which of the following is a major threat of biodiversity?",
+      "diagram": null,
+      "options": [
+        "A. Pollution",
+        "B. Genetic diversity",
+        "C. Seed dispersal",
+        "D. Habitat destruction"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Habitat destruction is the greatest threat (pollution is also a threat). [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "19. Which term best describes what the two caws in the photo below demonstrates?\n   (Photo: two cows of the same species but different breeds/appearance)",
+      "diagram": null,
+      "options": [
+        "A. Ecosystem diversity",
+        "B. Genetic Diversity",
+        "C. Species diversity",
+        "D. Species richness"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "20. Which one the following diseases can result from water pollution?",
+      "diagram": null,
+      "options": [
+        "A. Cholera",
+        "B. Measles",
+        "C. Malaria",
+        "D. Mumps"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "21. A person's heart rate increases rapidly after a frightening experience. Which part of the nervous system is responsible for this reaction?",
+      "diagram": null,
+      "options": [
+        "A. Sympathetic nervous system",
+        "B. Parasympathetic nervous system",
+        "C. Somatic nervous system",
+        "D. Central nervous system"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "22. A patient with diabetes is given insulin injection regularly. What is the main function of insulin in the body?",
+      "diagram": null,
+      "options": [
+        "A. Break down proteins",
+        "B. Lowers blood glucose level",
+        "C. Increases fat storage",
+        "D. Stimulates muscle growth"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "23. It is known that the total amount of DNA in a cell contains 300 nucleotides and Adenine contrib 80 of these. How many nucleotides go to Guanine?",
+      "diagram": null,
+      "options": [
+        "A. 70",
+        "B. 80",
+        "C. 120",
+        "D. 140"
+      ],
+      "correct_index": 0,
+      "answer_guide": "A = T = 80 → G + C = 300 − 160 = 140 → G = 70",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "24. If a homozygous dominant parent (TT) crosses with a homozygous recessive (tt). What will genotype of the offspring be?",
+      "diagram": null,
+      "options": [
+        "A. TT",
+        "B. Tt",
+        "C. tt",
+        "D. tT"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "25. An athlete consumes sports drinks containing glucose. What is the primary function of Carbohydrates in the body:",
+      "diagram": null,
+      "options": [
+        "A. Protein synthesis",
+        "B. DNA replication",
+        "C. Energy production",
+        "D. Fat storage"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "26. What are the building blocks of proteins;",
+      "diagram": null,
+      "options": [
+        "A. Organic acids",
+        "B. Nucleic acids",
+        "C. Fatty Acids",
+        "D. Amino acids"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "27. In human, fertilization occurs in the ------------------",
+      "diagram": null,
+      "options": [
+        "A. Oviduct",
+        "B. Uterus",
+        "C. Vagina",
+        "D. Cervix"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "28. -------------- is an X linked recessive disorder defined by the absence of one or more of the proteins required for blood clotting.",
+      "diagram": null,
+      "options": [
+        "A. Color blindness",
+        "B. Albinism",
+        "C. Hemophilia",
+        "D. Cystic Fibrosis"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "29. Which of the following classes of vertebrates is characterized by feathers and the ability to fly?",
+      "diagram": null,
+      "options": [
+        "A. Birds",
+        "B. Reptiles",
+        "C. Amphibians",
+        "D. Mammals"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "30. How can you help flowers in your garden get pollinated?",
+      "diagram": null,
+      "options": [
+        "A. By watering them daily",
+        "B. By planting flowers that attract pollinators",
+        "C. By using chemical pesticides",
+        "D. By keeping them indoors."
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "31. What is the main difference between identical twins and non-identical twins?",
+      "diagram": null,
+      "options": [
+        "A. Identical twins share the same birthday",
+        "B. Non-identical twins come from one egg",
+        "C. Identical twins come from one egg that splits.",
+        "D. Non-identical twins are always the same Gender."
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "32. Color blindness is due to an X-linked recessive gene. Suppose a heterozygous woman for colorblindness marries a normal man. What proportion of their children will be color blind?",
+      "diagram": null,
+      "options": [
+        "A. All the daughters",
+        "B. All the sons",
+        "C. Half the daughters",
+        "D. Half the sons"
+      ],
+      "correct_index": 3,
+      "answer_guide": "XᶜX × XY → sons: ½ XᶜY (colour-blind); daughters: none affected (½ carriers).",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "33. Which of the following fungi can help fermentation of the bread?",
+      "diagram": null,
+      "options": [
+        "A. Yeast",
+        "B. Mushroom",
+        "C. Penicillium",
+        "D. Morella"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "34. Amino acids of a protein are joined together by a particular bond known as:",
+      "diagram": null,
+      "options": [
+        "A. Peptide bond",
+        "B. Hydrogen bond",
+        "C. Phosphodiester bond",
+        "D. Covalent bond"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "35. The diagram below shows the human heart with four chambers and four blood vessels labeled. Which chamber pumps oxygenated blood away from the heart?",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 300\" width=\"100%\" style=\"max-width:340px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Heart with chambers S, T, Y, Z and vessels U, V, W, X\"><path d=\"M80,110 C60,180 110,280 170,290 C230,280 280,180 260,110 Z\" fill=\"#fbecec\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M170,120 V280\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"80\" y1=\"175\" x2=\"260\" y2=\"175\" stroke=\"#111\" stroke-width=\"1.5\"/><path d=\"M140,110 V30 M155,110 V30 M180,110 L195,25 M195,110 L212,30 M90,95 L60,80 M90,110 L60,95 M250,95 L285,80 M250,110 L285,95\" stroke=\"#111\" stroke-width=\"2\" fill=\"none\"/><text x=\"120\" y=\"150\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">T</text><text x=\"225\" y=\"150\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Y</text><text x=\"120\" y=\"235\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"225\" y=\"235\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">Z</text><text x=\"147\" y=\"18\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">V</text><text x=\"205\" y=\"18\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">W</text><text x=\"45\" y=\"92\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">U</text><text x=\"300\" y=\"92\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">X</text><text x=\"170\" y=\"298\" font-size=\"10\" text-anchor=\"middle\">(viewed from the front: left side of the heart on the right of the picture)</text></svg>",
+        "caption": "Heart with atria T and Y, ventricles S and Z, and blood vessels U, V, W and X."
+      },
+      "options": [
+        "A. S",
+        "B. T",
+        "C. Y",
+        "D. Z"
+      ],
+      "correct_index": 3,
+      "answer_guide": "The left ventricle pumps oxygenated blood into the aorta; in the standard front view the left ventricle is the lower chamber on the right of the picture, labelled Z.",
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "36. Which component of circulatory system is responsible for carrying deoxygenated blood towards the heart?",
+      "diagram": null,
+      "options": [
+        "A. Veins",
+        "B. Capillaries",
+        "C. Arteries",
+        "D. Atriums"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "37. Which scenario best illustrates the importance of studying biology in the medical field?",
+      "diagram": null,
+      "options": [
+        "A. Understanding patient behavior",
+        "B. Understanding human anatomy and disease mechanisms",
+        "C. Studying medical ethics",
+        "D. Studying Agriculture."
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "38. Which of the following is NOT a type of plant tissue?",
+      "diagram": null,
+      "options": [
+        "A. Parenchyma",
+        "B. Xylem",
+        "C. Cartilage",
+        "D. Phloem"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "39. Which level of biological organization comes directly after tissue?",
+      "diagram": null,
+      "options": [
+        "A. Cell",
+        "B. Organ",
+        "C. Organ system",
+        "D. Organism"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "Section A: Multiple choice questions [40 Marks]",
+      "question": "40. Why viruses are considered non-living by many scientists?",
+      "diagram": null,
+      "options": [
+        "A. Because they are two small",
+        "B. Because they do not reproduce on their own",
+        "C. Because they not have a nucleus",
+        "D. Because they lack of cytoplasm"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "41. Define Biodiversity and list factors that threaten biodiversity. [2 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Biodiversity is the variety of living organisms (genes, species and ecosystems) in an area or on Earth.\nThreats: habitat destruction (deforestation, urbanization), pollution, overexploitation (overhunting, overfishing), invasive species, climate change, disease.",
+      "matching_pairs": null
+    },
+    {
+      "id": 42,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "42. Describe the uses of the following tools in genetic engineering: ......[4 Marks]\n  a. Restriction enzyme\n  b. Gene cloning",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Restriction enzymes act as “molecular scissors”: they cut DNA at specific base sequences so a desired gene can be removed or a vector opened.\nb. Gene cloning makes many identical copies of a gene (e.g. inserted into a plasmid and multiplied in bacteria), used to produce proteins such as insulin and for research.",
+      "matching_pairs": null
+    },
+    {
+      "id": 43,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "43. The diagram below shows part of human skeleton viewed from behind:\n   (Diagram: skull at the top labelled D, vertebral column with ribs labelled E, shoulder region with labels C and B, and the arm bone labelled A)\n  a. Name the parts labeled A, B,C,D and E.......[2 Marks]\n  b. Name the type of joints found at the shoulder.....[2 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A – humerus; B – scapula (shoulder blade); C – clavicle (collar bone); D – skull (cranium); E – vertebral column / ribs\nb. Ball-and-socket joint. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 44,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "44. Explain briefly the difference between fast-twitch and slow twitch muscles? ..... [4 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Slow-twitch fibres contract slowly, use aerobic respiration, have many mitochondria and myoglobin (red), and resist fatigue – used for endurance (e.g. long-distance running).\nFast-twitch fibres contract quickly and powerfully, rely mainly on anaerobic respiration, have fewer mitochondria (white) and tire quickly – used for short bursts (e.g. sprinting, lifting).",
+      "matching_pairs": null
+    },
+    {
+      "id": 45,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "45. Look at this figure and then answer the questions that flow:\n   (Figure: human endocrine glands – pineal, pituitary, parathyroid, thyroid, adrenal, pancreas, ovary, testis)\n  a. Name the gland which produces estrogen.......[2 Marks]\n  b. Name three hormones produced from thyroid gland....... [2 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. The ovary.\nb. Thyroxine (T₄), triiodothyronine (T₃) and calcitonin.",
+      "matching_pairs": null
+    },
+    {
+      "id": 46,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "46. A student fell while playing football and broken his leg. Describe the process that body undergoes to repair the broken bone? .......... [4 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "1. Haematoma (blood clot) forms at the break.\n2. A soft callus of fibrocartilage forms to bridge the gap.\n3. Osteoblasts replace it with a hard bony callus.\n4. Remodelling by osteoclasts and osteoblasts restores the original bone shape.",
+      "matching_pairs": null
+    },
+    {
+      "id": 47,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "47. Compare the structure of DNA and RNA, highlighting their similarities and differences..... [4 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Similarities: both are nucleic acids made of nucleotides (sugar, phosphate, base); both contain A, G and C; both carry genetic information.\nDifferences: DNA is double-stranded, RNA single-stranded; DNA has deoxyribose sugar, RNA ribose; DNA has thymine, RNA has uracil; DNA is mainly in the nucleus, RNA also in the cytoplasm.",
+      "matching_pairs": null
+    },
+    {
+      "id": 48,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "48. A man with type AB blood is married to a woman with type O blood. They have two natural children and one adopted child. Ahmed has type A blood, Ali has type B blood and Aisha has type O. Which child was adopted? ......[4 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "AB (Iᴬ Iᴮ) × O (ii) → children can only be Iᴬi (type A) or Iᴮi (type B). A type O child is impossible, so Aisha was adopted.",
+      "matching_pairs": null
+    },
+    {
+      "id": 49,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "49. The diagram below shows the structure of the neuron.\n   (Diagram: neuron with labels 1–6 – cell body, dendrites, axon, myelin sheath, node, axon terminals)\n  a. Name the parts of neurons labeled 1, 2,3 and 5 ? .[2 Marks]\n  b. Describe the function of the parts 2 and 3 ......[2 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. 1 – cell body (with nucleus); 2 – dendrites; 3 – axon; 5 – myelin sheath / node of Ranvier (6 – axon terminals)\nb. Dendrites (2) receive impulses from other neurons and carry them to the cell body; the axon (3) carries impulses away from the cell body to other cells. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 50,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "50. Briefly explain the difference between lichens and mychorrhiza........[4 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A lichen is a mutualistic association between a fungus and an alga (or cyanobacterium): the alga makes food by photosynthesis and the fungus provides shelter, water and minerals.\nMycorrhiza is a mutualistic association between a fungus and the roots of a plant: the fungus helps the roots absorb water and minerals and receives sugars from the plant.",
+      "matching_pairs": null
+    },
+    {
+      "id": 51,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "51. The diagram below shows the structure of a flower:\n  a. Where are the male gametes produced?....... [2 Marks]\n  b. Which part develops into fruit after fertilization?........... [2 Marks]",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"-10 0 380 200\" width=\"100%\" style=\"max-width:380px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Section through a flower with stigma A, anther B, ovary C and ovule D\"><path d=\"M110,40 C80,80 100,150 170,180 C240,150 260,80 230,40\" fill=\"none\" stroke=\"#111\" stroke-width=\"2\"/><path d=\"M150,180 C140,130 150,110 160,60 L180,60 C190,110 200,130 190,180 Z\" fill=\"#eef3ea\" stroke=\"#111\" stroke-width=\"2\"/><ellipse cx=\"170\" cy=\"145\" rx=\"16\" ry=\"28\" fill=\"#fff\" stroke=\"#111\"/><circle cx=\"170\" cy=\"128\" r=\"4\" fill=\"#555\"/><circle cx=\"170\" cy=\"140\" r=\"4\" fill=\"#555\"/><circle cx=\"170\" cy=\"152\" r=\"4\" fill=\"#555\"/><circle cx=\"170\" cy=\"164\" r=\"4\" fill=\"#555\"/><ellipse cx=\"170\" cy=\"52\" rx=\"16\" ry=\"8\" fill=\"#ccc\" stroke=\"#111\"/><line x1=\"130\" y1=\"170\" x2=\"130\" y2=\"70\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"210\" y1=\"170\" x2=\"210\" y2=\"70\" stroke=\"#111\" stroke-width=\"2\"/><rect x=\"122\" y=\"58\" width=\"16\" height=\"22\" fill=\"#ddd\" stroke=\"#111\"/><rect x=\"202\" y=\"58\" width=\"16\" height=\"22\" fill=\"#ddd\" stroke=\"#111\"/><line x1=\"60\" y1=\"40\" x2=\"155\" y2=\"52\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"55\" y=\"40\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\">A- Stigma</text><line x1=\"290\" y1=\"40\" x2=\"218\" y2=\"65\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"295\" y=\"40\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">B- Anther</text><line x1=\"290\" y1=\"160\" x2=\"186\" y2=\"150\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"295\" y=\"164\" font-size=\"12\" text-anchor=\"start\" font-weight=\"bold\">C- Ovary</text><line x1=\"60\" y1=\"160\" x2=\"166\" y2=\"152\" stroke=\"#111\" stroke-width=\"1.2\"/><text x=\"55\" y=\"164\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\">D- Ovule</text></svg>",
+        "caption": "Section of a flower: A stigma, B anther, C ovary, D ovule."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. In the anther (B) – inside the pollen grains.\nb. The ovary (C) develops into the fruit (the ovules become seeds).",
+      "matching_pairs": null
+    },
+    {
+      "id": 52,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "52. Hemophilia is caused by an X-linked recessive gene. If a hemophiliac man marries a carrier woman:\n  a. What is the probability that their son will have hemophilia? ........ [2 marks]\n  b. What is the probability that their daughter will have hemophilia?...[2 Marks ]\n  c. What is the probability that their daughter will be carrier? .......[2 Marks ]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "XʰY × XᴴXʰ\nSons: XᴴY or XʰY → a. ½ (50%)\nDaughters: XᴴXʰ or XʰXʰ → b. ½ (50%) haemophiliac; c. ½ (50%) carriers",
+      "matching_pairs": null
+    },
+    {
+      "id": 53,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "53. Explain how intracellular enzymes differ from extracellular enzymes........ [4 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Intracellular enzymes work inside the cell where they are made (e.g. respiratory enzymes, catalase). Extracellular enzymes are secreted out of the cell and work outside it (e.g. digestive enzymes such as amylase and pepsin in the gut).",
+      "matching_pairs": null
+    },
+    {
+      "id": 54,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "54. The diagram below shows the human digestive system.\n   (Diagram: digestive tract with labels A–E)\n  a. Name the parts labeled A, B, C,D and E. ..........[2 Marks]\n  b. State the function of the part labeled D in the digestive system..........[2 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Likely: A – liver; B – small intestine; C – large intestine (colon); D – oesophagus/stomach; E – stomach/pancreas (labels are hard to read in the scan).\nb. If D is the oesophagus: carries food from the mouth to the stomach by peristalsis. If D is the stomach: stores and churns food and begins protein digestion with pepsin and hydrochloric acid. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 55,
+      "section": "Section B: Structural Questions [60 Marks]",
+      "question": "55. Briefly explain the importance of protista....... [4 Marks]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Algae (protists) produce much of the world's oxygen by photosynthesis; they form the base of aquatic food chains (plankton); some decompose dead matter and recycle nutrients; some are used in industry (agar, diatomite) and research; some cause diseases (malaria, amoebic dysentery), so studying them helps medicine.",
+      "matching_pairs": null
+    }
+  ]
+}

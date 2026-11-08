@@ -1,0 +1,410 @@
+{
+  "title": "Somaliland Form Four Examination 2022 - Biology",
+  "exam_id": "somaliland_12_biology_2022",
+  "year": 2022,
+  "subject": "Biology",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "1. Tuberculisis is an example of",
+      "diagram": null,
+      "options": [
+        "a. Social diseases",
+        "b. Infectious diseases",
+        "c. Inherited diseases",
+        "d. Physical diseases"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "2. Infection of the skin including athlete's foot , jock itch and ringworm are counted as",
+      "diagram": null,
+      "options": [
+        "a. Fungal diseases",
+        "b. Viral diseases",
+        "c. Bacterial diseases",
+        "d. Protozoal diseases"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "3. ________ Is the state of the body where by all organs and systems function normaly",
+      "diagram": null,
+      "options": [
+        "a. Viral diseases",
+        "b. Bacteria diseases",
+        "c. Health",
+        "d. Diseases"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "4. Which of the following does not belong to general methods of diseases control in livestock ?",
+      "diagram": null,
+      "options": [
+        "a. Sanitation",
+        "b. Improper feeding",
+        "c. Culling",
+        "d. Control of parasite"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "5. The process by which defense cells are attracted to the bacteria is known as",
+      "diagram": null,
+      "options": [
+        "a. Endocytosis",
+        "b. Chemotaxis",
+        "c. Attachment",
+        "d. Vacuole formation"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "6. anti body are produced by",
+      "diagram": null,
+      "options": [
+        "a. Plasma cells of B cells",
+        "b. T cells",
+        "c. Phagocycles",
+        "d. All"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "7. All of the following are symptoms of parasite infection except",
+      "diagram": null,
+      "options": [
+        "a. Anemia",
+        "b. Diarrhea",
+        "c. Swelling in the jaw or other areas",
+        "d. Hair loss"
+      ],
+      "correct_index": null,
+      "answer_guide": "All four can occur with parasite infestations (anaemia, diarrhoea, bottle-jaw swelling in livestock, hair loss with mites/lice); the intended answer is unclear. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "8. which one of the following parasite causes blockage of intestine and rough coat in livestock ?",
+      "diagram": null,
+      "options": [
+        "a. Liver flukes",
+        "b. Round worms",
+        "c. Tape worms",
+        "d. Lice"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "9. which of the following niteragenous bases pairs in nucleic acid is NOT correct ?",
+      "diagram": null,
+      "options": [
+        "a. Adenine to adenine",
+        "b. Cytosine to guanine",
+        "c. Adenine to thymine",
+        "d. Adenine to uracil"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "10. which one of the following is NOT function of DNA ?",
+      "diagram": null,
+      "options": [
+        "a. Controlling all cell activities",
+        "b. Coding of proteins",
+        "c. Controlling the development reproduction and characteristics of organism",
+        "d. Producing proteins without transcription"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "11. Below diagram shows you several types of mutations. Identify delectation mutation\n   (original → mutated)",
+      "diagram": null,
+      "options": [
+        "a. A-B-C-D-E → A-B-D-E",
+        "b. A-B-C-D-E → A-B-B-C-D-E",
+        "c. A-B-C-D-E → E-B-C-D-A",
+        "d. A-B-C-D-E → A-B-C-D-E"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Segment C is missing – deletion.",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "12. Which one of the following is NOT true about the reasons for making livestock breeding ?",
+      "diagram": null,
+      "options": [
+        "a. To bread animals for economic purpose",
+        "b. To certify consumer taster",
+        "c. To decrease the number of offspring",
+        "d. To expand the inherited potential of animal"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "13. the part labeled by A is\n   (Figure: cell membrane diagram with A pointing to the bilayer)",
+      "diagram": null,
+      "options": [
+        "a. The nucleus",
+        "b. The lipid bilayer",
+        "c. Mitochondria",
+        "d. Golgi apparatus"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "14. support movement and giving shape to the cells are function of",
+      "diagram": null,
+      "options": [
+        "a. Cytoskeleton",
+        "b. Plasma membrane",
+        "c. Nuclease",
+        "d. Ribosomes"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "15. The part of tooth that us visible above gum is called",
+      "diagram": null,
+      "options": [
+        "a. Crown",
+        "b. Root",
+        "c. Cement",
+        "d. Pulp cavity"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "16. Which one of the following does NOT belong to the various ways in which light affects the rate of photosynthesis?",
+      "diagram": null,
+      "options": [
+        "a. Light intensity",
+        "b. Day length",
+        "c. Light quality",
+        "d. Science of light"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "17. A health person at rest breaths in and out about ________of air",
+      "diagram": null,
+      "options": [
+        "a. 200 ml",
+        "b. 1000 ml",
+        "c. 500 ml",
+        "d. 900 ml"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Tidal volume ≈ 500 ml.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "18. People of blood group ________ are called universal donors",
+      "diagram": null,
+      "options": [
+        "a. A",
+        "b. B",
+        "c. AB",
+        "d. O"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "19. The method of fertilizer application in which the fertilizer is first dissolved in water and gradually released in solution form is known as",
+      "diagram": null,
+      "options": [
+        "a. Side dressing",
+        "b. Drip method",
+        "c. Band placement",
+        "d. Ring placement"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "PART1: MULTIPLE CHOICE QUESTION, THE CIRCLE THE CORRECT ANSWER (40 Marks)",
+      "question": "20. Which of the following practices produced vegetables.",
+      "diagram": null,
+      "options": [
+        "a. Horticulture",
+        "b. Bee keeping",
+        "c. Fish farming",
+        "d. Poultry farming"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "1. There are many categories of diseases recognized\n  a) Describe physical disease. (2 Marks)\n  b) What is the other name for communicable diseases? (2 Marks)\n  c) Explain the main difference between acute diseases and chronic diseases (2 marks)\n  d) Give one example of pandemic diseases (2 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Diseases/disorders caused by physical damage to the body, e.g. injuries, fractures, burns, or damage to organs.\nb) Infectious (contagious) diseases.\nc) Acute diseases start suddenly and last a short time (e.g. flu, cholera); chronic diseases develop slowly and last a long time (e.g. diabetes, TB, cancer).\nd) COVID-19 (also influenza 1918, HIV/AIDS).",
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "2. Causes of livestock diseases are grouped into several groups\n  a) Identify two living organisms that cause diseases to livestock ( 2 Marks)\n  b) Why is cattle dehorned?? ( 1Marks)\n  c) Explain the advantages of carbonization. (3 Marks)\n  d) Why hoof is trimmed from livestock? (1 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Any two: bacteria, viruses, protozoa, fungi, parasites (worms, ticks).\nb) To prevent injury to other animals and handlers and to make handling easier.\nc) (read as castration) Makes males docile and easy to handle; prevents unwanted breeding; improves meat quality and fattening. [Check: “carbonization” is a misprint.]\nd) Overgrown hooves cause lameness and difficulty walking; trimming prevents foot problems.",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "3. Consider the following diagram on types of immunity to answer the related Questions (Immunity → Innate immunity and [box] → Natural (Passive maternal, Active infection) and [box] (Passive antibody transfer, Active immunization))\n  a. Fill the empty boxes (2 Marks)\n  b. Distinguish between active Immunity and passive immunity ( 1 marks)\n  c. Is immunization artificial passive immunity or artificial active immunity explain why ( 1 marks)\n  d. Exposure to an infectious agent is a natural active immunity. Explain why",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Box 1: Acquired (adaptive) immunity; Box 2: Artificial.\nb. Active immunity: the body makes its own antibodies (long-lasting). Passive immunity: ready-made antibodies are received from outside (short-lived).\nc. Artificial active immunity – the vaccine stimulates the body to produce its own antibodies and memory cells.\nd. It happens naturally through infection, and the body's own immune system makes the antibodies.",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "4. A parasite is an organism which obtain it is live hood from another organism (host) that suffer damage\n  a. Identify any two effects of parasite\n  b. Arrange the following stages of the live cycle of ticks: Larva → egg → larva Molts → Nymphy moults Into adult → Nymph\n  c. how do external and internal parasites differ from each other (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Any two: anaemia/loss of blood; weight loss and poor growth; transmission of diseases; skin damage and irritation; reduced milk/meat production.\nb. Egg → Larva → Larva moults → Nymph → Nymph moults into adult → Adult\nc. External (ecto-) parasites live on the outside of the host (ticks, lice, fleas); internal (endo-) parasites live inside the host's body (worms, liver flukes).",
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "5. heterozygous tall Man is married with a homozygous short woman\n  b. How many phenotypes are there ? (1 Marks)\n  c. What is the phenotypic ratio ? (1Marks)\n  d. How many genotypes are there (2Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Tt × tt → Tt, Tt, tt, tt\nb. 2 phenotypes (tall and short).\nc. 1 tall : 1 short.\nd. 2 genotypes (Tt and tt).",
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "6. cell division is process of producing two or more cells from a single parent cell\n  a) Compare between mitosis and meises according to the types of cells they occur in (3marks)\n  b) in which stage do soindle fibers attach to the centromere of each chromosome (1Marks)\n  c) which type of division produces identical cells (1Marks)\n  d) Describe cytokinesis (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Mitosis occurs in body (somatic) cells for growth and repair; meiosis occurs in reproductive cells (testes and ovaries) to form gametes.\nb) Metaphase.\nc) Mitosis.\nd) Cytokinesis is the division of the cytoplasm into two daughter cells at the end of cell division (cleavage furrow in animals; cell plate in plants).",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "7. plasma membrane must carry out several functions\n  a. state function of plasma membrane (2 Marks)\n  b. mention any two membrane proteins (2 marks )\n  c. I which organelle does cellular respiration take place? ( 1 Marks)\n  d. Describe composition of cytoplasm (1 Marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. Controls what enters and leaves the cell (selectively permeable); protects the cell; cell recognition and communication.\nb. Integral (transmembrane) proteins and peripheral proteins (also channel, carrier, receptor proteins).\nc. Mitochondria.\nd. A jelly-like fluid (cytosol – mainly water with dissolved salts, sugars, proteins) containing the organelles.",
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "8. Nutrition is process by which organisms obtain food from consumption use in the body\n  a. Why do organism require food? ( 1 marks)\n  b. Name the two major types of nutrition (2 marks)\n  C. Explain autotrophic nutrition\n  d. Sometimes energy for food synthesis comes from chemicals and not from the sun. this process is referred to as :",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. For energy, growth and repair of tissues and to stay healthy.\nb. Autotrophic and heterotrophic nutrition.\nC. Organisms make their own food from simple inorganic substances (CO₂ and water) using energy from sunlight (photosynthesis) or chemicals.\nd. Chemosynthesis.",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "9. Ventilation refers to the mechanism involved in bringing in fresh air to the lungs and removing used air\n  a. Label the below respiratory diagram A. B, C. and D (2 Marks)\n  b. Put the respiratory structure ( trachea , larynx , nasal , cavity bronchioles , pharynx and bronchi) in the correct pathway order taken by the inspired air\n  c. Cigarettes smoke inhibits the action of cilia in the respiratory tract what effect results in from this in habitation",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a. A – trachea; B – (left main) bronchus; C – bronchioles; D – diaphragm. [Labels read from the figure – check.]\nb. Nasal cavity → pharynx → larynx → trachea → bronchi → bronchioles\nc. Mucus, dust and germs are not swept out of the airways, so they build up – causing coughing, infections (bronchitis) and lung damage.",
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "PART TWO: STRUCTURED QUESTIONS: (60 Marks)",
+      "question": "10. There are three types of organic manure , green manure , farm manure and composite manure\n  a) Describe composite manure (2 Marks)\n  b) In organic fertilizers can be classified into four different ways . Name any two of them (2Mark)\n  c) Explain mixing farming (2 marks)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "a) Compost manure is made by piling and decomposing plant and animal remains (leaves, crop residues, dung) until they rot into a rich organic fertiliser.\nb) Any two: straight and compound fertilisers; nitrogenous, phosphatic and potassic fertilisers; by physical form (solid/liquid); by reaction (acidic/basic). [Check against the textbook.]\nc) Mixed farming is growing crops and rearing livestock on the same farm.",
+      "matching_pairs": null
+    }
+  ]
+}

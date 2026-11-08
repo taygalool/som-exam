@@ -1,0 +1,766 @@
+{
+  "title": "Federal Republic of Somalia – Imtixaanka Shahaadiga 2024/2025 – Business",
+  "exam_id": "somalia_12_business_2025",
+  "year": 2025,
+  "subject": "Business",
+  "grade": 12,
+  "total_marks": 100,
+  "questions": [
+    {
+      "id": 1,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "1. The kind of business activity labeled in the given picture is?\n   (Picture: people working in a field / on the land)",
+      "diagram": null,
+      "options": [
+        "A. Extraction",
+        "B. Processing",
+        "C. Manufacturing",
+        "D. Construction"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Farming/working the land is an extractive (primary) activity. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 2,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "2. The fundamental economic problem is that resources are limited but economic wants are insatiable. What terms best describe this problem?",
+      "diagram": null,
+      "options": [
+        "A. Trade –off.",
+        "B. Productivity.",
+        "C. Demand.",
+        "D. Scarcity."
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 3,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "3. The information was obtained from the book of kamil LTD.\n\n   | Detail    | So.sh |\n   | Capital   | 24000 |\n   | Stock     | 1500  |\n   | Debtor    | 2000  |\n   | Machinery | 20000 |\n   | Cash      | 4000  |\n\n   Determine the total liability",
+      "diagram": null,
+      "options": [
+        "A 3500",
+        "C 515000",
+        "B 27500",
+        "D 1500"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Assets = 1500 + 2000 + 20000 + 4000 = 27,500. Liabilities = Assets − Capital = 27,500 − 24,000 = 3,500. (Option letters are printed in the order A, C, B, D.)",
+      "matching_pairs": null
+    },
+    {
+      "id": 4,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "4. The following are characteristics of an entrepreneur EXCEPT?",
+      "diagram": null,
+      "options": [
+        "A. Optimistic",
+        "B. Resourceful",
+        "C. Advocacy",
+        "D. Motivated"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 5,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "5. The increase of olive oil price in the Somalia market by 20% led to a rise in the quantities offered by 5%. Calculate the bid elasticity.",
+      "diagram": null,
+      "options": [
+        "A. 1",
+        "B. 1.5",
+        "C. 0.25",
+        "D. 2.5"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Elasticity of supply = % change in quantity supplied ÷ % change in price = 5 ÷ 20 = 0.25",
+      "matching_pairs": null
+    },
+    {
+      "id": 6,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "6. Planning, organizing, command, coordination and control are sub activities of:",
+      "diagram": null,
+      "options": [
+        "A. Commercial activities",
+        "B. Accounting activities",
+        "C. Financial activities",
+        "D. Managerial activities"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 7,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "7. How does a team make decision in business project?",
+      "diagram": null,
+      "options": [
+        "A. By approval",
+        "B. By Majority",
+        "C. Weighted",
+        "D. Unanimously"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Teams usually decide by majority vote; some texts expect consensus/unanimity. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 8,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "8. The graph below shows the supply curve for coffee.\n   Using the information provided, the following factors cause the shift of supply curve to right. Which one is NOT:",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 270\" width=\"100%\" style=\"max-width:380px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Supply curve for coffee shifting right from S1 to S2; point A at 25 moves to A prime at 35 at a price of 6\"><line x1=\"80\" y1=\"230\" x2=\"80\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"110\" y1=\"230\" x2=\"110\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"140\" y1=\"230\" x2=\"140\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"170\" y1=\"230\" x2=\"170\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"200\" y1=\"230\" x2=\"200\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"230\" y1=\"230\" x2=\"230\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"260\" y1=\"230\" x2=\"260\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"290\" y1=\"230\" x2=\"290\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"320\" y1=\"230\" x2=\"320\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"350\" y1=\"230\" x2=\"350\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"206\" x2=\"350\" y2=\"206\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"182\" x2=\"350\" y2=\"182\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"158\" x2=\"350\" y2=\"158\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"134\" x2=\"350\" y2=\"134\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"110\" x2=\"350\" y2=\"110\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"86\" x2=\"350\" y2=\"86\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"62\" x2=\"350\" y2=\"62\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"38\" x2=\"350\" y2=\"38\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"14\" x2=\"350\" y2=\"14\" stroke=\"#111\" stroke-width=\"0.6\"/><line x1=\"50\" y1=\"230\" x2=\"362\" y2=\"230\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"50\" y1=\"230\" x2=\"50\" y2=\"2.0\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"80\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">5</text><text x=\"110\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">10</text><text x=\"140\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">15</text><text x=\"170\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">20</text><text x=\"200\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">25</text><text x=\"230\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">30</text><text x=\"260\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">35</text><text x=\"290\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">40</text><text x=\"320\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">45</text><text x=\"350\" y=\"245\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">50</text><text x=\"42\" y=\"210\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">1</text><text x=\"42\" y=\"186\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">2</text><text x=\"42\" y=\"162\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">3</text><text x=\"42\" y=\"138\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">4</text><text x=\"42\" y=\"114\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">5</text><text x=\"42\" y=\"90\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">6</text><text x=\"42\" y=\"66\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">7</text><text x=\"42\" y=\"42\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">8</text><text x=\"42\" y=\"18\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">$9</text><line x1=\"140\" y1=\"134\" x2=\"290\" y2=\"14\" stroke=\"#111\" stroke-width=\"2.5\"/><line x1=\"200\" y1=\"134\" x2=\"350\" y2=\"14\" stroke=\"#111\" stroke-width=\"2.5\"/><circle cx=\"200\" cy=\"86\" r=\"4\" fill=\"#111\"/><circle cx=\"260\" cy=\"86\" r=\"4\" fill=\"#111\"/><text x=\"194\" y=\"76.39999999999998\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\">A</text><text x=\"254\" y=\"76.39999999999998\" font-size=\"12\" text-anchor=\"end\" font-weight=\"bold\">A′</text><text x=\"266\" y=\"33.20000000000002\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">S₁</text><text x=\"332\" y=\"40.39999999999998\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">S₂</text><text x=\"200\" y=\"262\" font-size=\"11\" text-anchor=\"middle\" font-weight=\"normal\">Quantity (millions of pounds of coffee per month)</text><text x=\"16\" y=\"122.0\" font-size=\"11\" text-anchor=\"middle\" transform=\"rotate(-90 16 122.0)\">Price per pound</text></svg>",
+        "caption": "Coffee supply curve shifts right from S₁ to S₂; at a price of $6 the quantity rises from 25 (A) to 35 (A′) million pounds."
+      },
+      "options": [
+        "A. Consumer's tastes",
+        "B. Number of sellers",
+        "C. Technology",
+        "D. Taxes and subsidies"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Consumer tastes shift demand, not supply.",
+      "matching_pairs": null
+    },
+    {
+      "id": 9,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "9. The following are characteristics of money which one is NOT?",
+      "diagram": null,
+      "options": [
+        "A. Convenient.",
+        "B. Durable.",
+        "C. Scarce.",
+        "D. Accepted."
+      ],
+      "correct_index": null,
+      "answer_guide": "Standard characteristics of money include durability, acceptability, portability (convenience) and scarcity (limited supply), so all four options can be argued to be characteristics; the question is ambiguous. Many keys expect “Scarce” if they treat money as needing to be plentiful, or “Convenient” if they list “portable” instead. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 10,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "10. This figure is well known mail-handling equipment used in the office. It is known as?\n   (Picture: a stapler)",
+      "diagram": null,
+      "options": [
+        "A. Envelope",
+        "B. A4 letter",
+        "C. Stapler",
+        "D. Scissor"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 11,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "11. Misuse of punctuations can affect communication. Which part of it?",
+      "diagram": null,
+      "options": [
+        "A. Distractions",
+        "B. Cultural",
+        "C. Status",
+        "D. Language"
+      ],
+      "correct_index": 3,
+      "answer_guide": "Punctuation misuse is a language (semantic) barrier.",
+      "matching_pairs": null
+    },
+    {
+      "id": 12,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "12. To run an effective filing system, You should:",
+      "diagram": null,
+      "options": [
+        "A. Avoid saving unnecessary documents",
+        "B. Keep all filing in closed cabinet",
+        "C. Drink a lot of coffee when filing.",
+        "D. Make sure all cables are hidden."
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 13,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "13. The branch of economics that assesses the government revenue and expenditure is:",
+      "diagram": null,
+      "options": [
+        "A. Public issue",
+        "B. Public debts",
+        "C. Public Finance",
+        "D. Public Policy"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 14,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "14. The earliest business made by the people was barter trade. Which type of money was used?",
+      "diagram": null,
+      "options": [
+        "A. Bank money",
+        "B. Paper money",
+        "C. Metallic money",
+        "D. Commodity money"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 15,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "15. An international trade carried out between two countries is referred to as:",
+      "diagram": null,
+      "options": [
+        "A. Multilateral trade",
+        "B. Retail Trade",
+        "C. Wholesale Trade",
+        "D. Bilateral trade"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 16,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "16. Which of the following is NOT electronic marketing mix?",
+      "diagram": null,
+      "options": [
+        "A. E-product",
+        "B. E-pricing",
+        "C. E-promotion",
+        "D. E-Packaging"
+      ],
+      "correct_index": 3,
+      "answer_guide": "The e-marketing mix: e-product, e-price, e-place, e-promotion.",
+      "matching_pairs": null
+    },
+    {
+      "id": 17,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "17. Which of the following is NOT a major function of a warehouse?",
+      "diagram": null,
+      "options": [
+        "A. Inventory Manufacturing",
+        "C. Storage of goods",
+        "B. Grading and branding",
+        "D. Protection of Goods"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Option letters are printed A, C, B, D.",
+      "matching_pairs": null
+    },
+    {
+      "id": 18,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "18. The electronic technology through which the seller and buyer meet to exchange products is called:",
+      "diagram": null,
+      "options": [
+        "A. Electronic business",
+        "B. The electronic market",
+        "C. E-commerce",
+        "D. Digital marketing"
+      ],
+      "correct_index": 2,
+      "answer_guide": "E-commerce: buying and selling over electronic networks. (“Electronic market” is also arguable.) [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 19,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "19. The other name of “Income Statement” is?",
+      "diagram": null,
+      "options": [
+        "A. Profit and loss statement",
+        "B. Profit and Revenue Statement",
+        "C. Cash flow statement",
+        "D. Balance Sheet Statement"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 20,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "20. When trade happens within the boundaries of a country, it is known as:",
+      "diagram": null,
+      "options": [
+        "A. Home trade",
+        "B. International trade",
+        "C. Import Trade",
+        "D. Wholesale Trade"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 21,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "21. A start-up wants to enter the market with limited budget. What promotional method is most affordable to this business?",
+      "diagram": null,
+      "options": [
+        "A. National T.V advertising",
+        "B. Hiring a celebrity",
+        "C. Social media marketing",
+        "D. Roadside in rural area"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 22,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "22. A customer switches brands after a negative experience. What does this indicate?",
+      "diagram": null,
+      "options": [
+        "A. Cultural influence",
+        "C. Customer loyalty",
+        "B. Post-purchase behavior",
+        "D. Habitual buying"
+      ],
+      "correct_index": 2,
+      "answer_guide": "Option letters are printed A, C, B, D.",
+      "matching_pairs": null
+    },
+    {
+      "id": 23,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "23. When goods are sent through ships, which document is used?",
+      "diagram": null,
+      "options": [
+        "A. Airway bill",
+        "B. Bill of landing",
+        "C. Price list",
+        "D. Debit note"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Bill of lading (printed “landing”).",
+      "matching_pairs": null
+    },
+    {
+      "id": 24,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "24. A trader is looking for a loan to invest in his/her business. Which type of bank provides this service?",
+      "diagram": null,
+      "options": [
+        "A. Central Bank",
+        "B. Commercial bank",
+        "C. Credit Union Bank",
+        "D. Cooperative bank"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 25,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "25. Most of the companies provide goods and services using a medium of exchange that can be measured in the market value. This medium is known as:",
+      "diagram": null,
+      "options": [
+        "A. Spend",
+        "B. Income",
+        "C. Insurance",
+        "D. Currency"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 26,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "26. In what stage of marketing is the customer free to communicate all around time?",
+      "diagram": null,
+      "options": [
+        "A. Social network marketing",
+        "B. Department of marketing",
+        "C. Marketing Company",
+        "D. Marketing relationship"
+      ],
+      "correct_index": 0,
+      "answer_guide": "[Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 27,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "27. The following are objectives of fiscal policy EXCEPT?",
+      "diagram": null,
+      "options": [
+        "A. Employment",
+        "B. Adequate distribution of wealth",
+        "C. Economic development",
+        "D. Economic recession"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 28,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "28. It is the latest currency which people make business transaction with. Which type of money is it?",
+      "diagram": null,
+      "options": [
+        "A. Bank money",
+        "B. Plastic money",
+        "C. Metallic money",
+        "D. Commodity money"
+      ],
+      "correct_index": 1,
+      "answer_guide": "Plastic money (cards) is the most recent form listed; electronic/mobile money is newer still.",
+      "matching_pairs": null
+    },
+    {
+      "id": 29,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "29. What is Income?",
+      "diagram": null,
+      "options": [
+        "A. To pay out money",
+        "B. To get money from work or sales",
+        "C. To set money aside for future use or sales",
+        "D. To divide and share out or apportion"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 30,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "30. Which of the following is NOT suitable example of a fully digital Product?",
+      "diagram": null,
+      "options": [
+        "A. The Films",
+        "B. Consultant Service",
+        "C. The songs",
+        "D. Fast Foods"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 31,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "31. The successful entry strategy which means ‘doing something new’ is called:",
+      "diagram": null,
+      "options": [
+        "A. Market gap",
+        "B. Product offer",
+        "C. Being unique",
+        "D. Innovation"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 32,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "32. Calculate the net income of:\n   Consulting Company – Income statement – For the end of May 31 2025\n   Revenue: Service Revenue 5,500\n   Expenses: Salary 1200, Supply 500, Depreciation 350, Miscellaneous 100 – Total expenses 2150\n   Net Income = ?",
+      "diagram": null,
+      "options": [
+        "A. 6650",
+        "B. 9000",
+        "C. 2350",
+        "D. 4300"
+      ],
+      "correct_index": null,
+      "answer_guide": "Net income = 5,500 − 2,150 = 3,350. None of the printed options is correct (2,350 may be a misprint for 3,350).",
+      "matching_pairs": null
+    },
+    {
+      "id": 33,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "33. Which type of control is concerned with treating errors after their occurrence?",
+      "diagram": null,
+      "options": [
+        "A. Preventive Control",
+        "B. Concurrent Control",
+        "C. Internal Control",
+        "D. External Control"
+      ],
+      "correct_index": null,
+      "answer_guide": "Correcting errors after they occur is feedback (corrective/detective) control, which is not among the options. Preventive acts before, concurrent during. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 34,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "34. What is the first stage of managing or Protecting against risk?",
+      "diagram": null,
+      "options": [
+        "A. Transferring the risk",
+        "B. Accepting the risk",
+        "C. Avoiding the risk",
+        "D. Reducing the risk"
+      ],
+      "correct_index": 2,
+      "answer_guide": "The first option in risk management is to avoid the risk where possible. [Check against the official key.]",
+      "matching_pairs": null
+    },
+    {
+      "id": 35,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "35. The simple form of businesses owned by an individual is known as:",
+      "diagram": null,
+      "options": [
+        "A. Corporation",
+        "B. Partnership",
+        "C. Cooperative",
+        "D. Proprietorship"
+      ],
+      "correct_index": 3,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 36,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "36. Accounting time periods are generally a month, a quarter or year. The use of one year period in accounting is called?",
+      "diagram": null,
+      "options": [
+        "A. Internal year",
+        "B. General period",
+        "C. Fiscal year",
+        "D. Fiscal policy"
+      ],
+      "correct_index": 2,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 37,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "37. A trader transports perishable goods over a long distance. Describe the mode of transport system convenient to his business?",
+      "diagram": null,
+      "options": [
+        "A. Air Transportation",
+        "B. Road Transportation",
+        "C. Maritime Transportation",
+        "D. Rail Transportation"
+      ],
+      "correct_index": 0,
+      "answer_guide": "Air transport is fastest, suited to perishable goods over long distances.",
+      "matching_pairs": null
+    },
+    {
+      "id": 38,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "38. Which types of warehouses owned by government are made available to private firms to store goods on payment of rent?",
+      "diagram": null,
+      "options": [
+        "A. Private warehouses",
+        "B. Public warehouses",
+        "C. Co-operative warehouses",
+        "D. Value adding warehouses"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 39,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "39. The international trade that takes place among many countries is known as:",
+      "diagram": null,
+      "options": [
+        "A. Multilateral trade",
+        "B. Retail Trade",
+        "C. Wholesale Trade",
+        "D. Bilateral trade"
+      ],
+      "correct_index": 0,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 40,
+      "section": "A. CIRCLE THE CORRECT ANSWER (40 POINT)",
+      "question": "40. Identify the term for an individual that brings together the other economic resource necessary for production?",
+      "diagram": null,
+      "options": [
+        "A. The managerial elite",
+        "B. An entrepreneur",
+        "C. government Units",
+        "D. the corporate Stakeholders"
+      ],
+      "correct_index": 1,
+      "answer_guide": null,
+      "matching_pairs": null
+    },
+    {
+      "id": 41,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "41. Explain 2 characteristics of human wants? (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any two: human wants are unlimited (insatiable); they are recurrent (repeat, e.g. hunger); they are complementary (one want leads to another, e.g. car and fuel); they are competitive (compete for limited income); they vary with time, place and person; some become habits.",
+      "matching_pairs": null
+    },
+    {
+      "id": 42,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "42. Demonstrate the importance of business studies in the society? (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "It equips people with knowledge and skills to start and run businesses; creates entrepreneurs and jobs; helps people manage personal finances and make good consumer decisions; promotes understanding of trade, banking and the economy; encourages self-reliance and national development.",
+      "matching_pairs": null
+    },
+    {
+      "id": 43,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "43. Identify four typical users of accounting information? (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any four: owners/shareholders, managers, investors, creditors/lenders (banks), suppliers, employees, customers, government/tax authorities, competitors.",
+      "matching_pairs": null
+    },
+    {
+      "id": 44,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "44. Draw Equilibrium curve using the table below? (4 mark).\n\n   | Price | Quantity Demand | Quantity Supplied |\n   | 1     | 12              | 2                 |\n   | 2     | 9               | 4                 |\n   | 3     | 6               | 6                 |\n   | 4     | 3               | 8                 |",
+      "diagram": {
+        "svg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" width=\"100%\" style=\"max-width:360px\" font-family=\"Arial,Helvetica,sans-serif\" role=\"img\" aria-label=\"Demand and supply curves crossing at price 3 and quantity 6\"><line x1=\"50\" y1=\"200\" x2=\"347.0\" y2=\"200\" stroke=\"#111\" stroke-width=\"2\"/><line x1=\"50\" y1=\"200\" x2=\"50\" y2=\"16.0\" stroke=\"#111\" stroke-width=\"2\"/><text x=\"50\" y=\"215\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">0</text><text x=\"94\" y=\"215\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">2</text><text x=\"138\" y=\"215\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">4</text><text x=\"182\" y=\"215\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">6</text><text x=\"226\" y=\"215\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">8</text><text x=\"270\" y=\"215\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">10</text><text x=\"314\" y=\"215\" font-size=\"10\" text-anchor=\"middle\" font-weight=\"normal\">12</text><text x=\"42\" y=\"164\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">1</text><text x=\"42\" y=\"124\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">2</text><text x=\"42\" y=\"84\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">3</text><text x=\"42\" y=\"44\" font-size=\"10\" text-anchor=\"end\" font-weight=\"normal\">4</text><polyline points=\"314,160 248,120 182,80 116,40\" fill=\"none\" stroke=\"#1f5fa8\" stroke-width=\"2.5\"/><polyline points=\"94,160 138,120 182,80 226,40\" fill=\"none\" stroke=\"#b5462b\" stroke-width=\"2.5\"/><circle cx=\"182\" cy=\"80\" r=\"5\" fill=\"#111\"/><line x1=\"50\" y1=\"80\" x2=\"182\" y2=\"80\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><line x1=\"182\" y1=\"80\" x2=\"182\" y2=\"200\" stroke=\"#111\" stroke-width=\"1\" stroke-dasharray=\"4,3\"/><text x=\"112\" y=\"34\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">D</text><text x=\"230\" y=\"34\" font-size=\"13\" text-anchor=\"middle\" font-weight=\"bold\">S</text><text x=\"190\" y=\"72\" font-size=\"11\" text-anchor=\"start\" font-weight=\"bold\">E (6, 3)</text><text x=\"204\" y=\"232\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"normal\">Quantity</text><text x=\"16\" y=\"100.0\" font-size=\"11\" text-anchor=\"middle\" transform=\"rotate(-90 16 100.0)\">Price</text></svg>",
+        "caption": "Demand (D) and supply (S) curves from the table, intersecting at equilibrium E: price 3, quantity 6."
+      },
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Plot price on the vertical axis and quantity on the horizontal axis. The demand curve slopes downward (12, 9, 6, 3) and the supply curve slopes upward (2, 4, 6, 8). They intersect at the equilibrium point: price = 3, quantity = 6.",
+      "matching_pairs": null
+    },
+    {
+      "id": 45,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "44. State four characteristics of good business idea? (4 mark).\n   (Note: the paper numbers this question 44 a second time.)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any four: meets a real need/solves a problem; has a market (enough customers); is profitable; is affordable/feasible with available resources and skills; is unique or innovative; is legal and ethical; is sustainable.",
+      "matching_pairs": null
+    },
+    {
+      "id": 46,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "45. Highlight 4 Ps of marketing mix? (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Product, Price, Place (distribution), Promotion.",
+      "matching_pairs": null
+    },
+    {
+      "id": 47,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "46. Give Two differences between business idea and business opportunities? (4 mark).\n   (Note: question 47 is not printed on the paper.)",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "A business idea is just a thought or concept for a product/service; a business opportunity is an idea that has been tested and shown to be attractive, viable and profitable in the market.\nA business idea may not have a market or resources yet; an opportunity has demand, timing and resources available to exploit it.",
+      "matching_pairs": null
+    },
+    {
+      "id": 48,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "48. Journalize the following adjustments of Air & Sea Travel, Inc., at April 30. (4 mark).\n   I. Depreciation on furniture, $275.\n   II. Accrued income tax expense, $540.\n   III. Prepaid rent expired, $1.000.\n   IV. Supplies used $300.",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "I. Dr Depreciation Expense – Furniture $275; Cr Accumulated Depreciation – Furniture $275\nII. Dr Income Tax Expense $540; Cr Income Tax Payable $540\nIII. Dr Rent Expense $1,000; Cr Prepaid Rent $1,000\nIV. Dr Supplies Expense $300; Cr Supplies $300",
+      "matching_pairs": null
+    },
+    {
+      "id": 49,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "49. List four disadvantages of partitioned office. (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any four: costly to build and maintain partitions; wastes floor space; difficult supervision of staff; poor communication between workers; harder to share equipment; more lighting, heating/cooling costs; difficult to rearrange.",
+      "matching_pairs": null
+    },
+    {
+      "id": 50,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "50. Give four example services, provided by commercial banks. (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any four: accepting deposits (current, savings, fixed accounts); giving loans and overdrafts; money transfers and remittances; issuing cheques, debit/credit cards; foreign exchange; safe custody of valuables; mobile/online banking; letters of credit.",
+      "matching_pairs": null
+    },
+    {
+      "id": 51,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "51. Enumerate four factors affecting communication. (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Any four: language barriers; noise/distractions; cultural differences; status and attitude differences; poor medium/channel; emotions; physical distance; lack of feedback; poor listening.",
+      "matching_pairs": null
+    },
+    {
+      "id": 52,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "52. Rearrange the steps for purchasing decisions illustrated bellow: (4 mark).\n   [Evaluate alternative] [Realizing the need] [Decision evaluation] [Search for information] [Purchase decision]",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "1. Realizing the need → 2. Search for information → 3. Evaluate alternatives → 4. Purchase decision → 5. Decision (post-purchase) evaluation",
+      "matching_pairs": null
+    },
+    {
+      "id": 53,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "53. Ahmed decided to take an insurance coverage for a car against theft From Tayo Insurance Ltd .It was valued at a So.sh 24000 and was required to make payment of So.sh 6000 per month. Categorize the terms of insurance below: (4 mark).\n   I. Ahmed\n   II. Theft\n   III. So.sh 6000\n   IV. Tayo Insurance Ltd",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "I. Ahmed – insured (policyholder)\nII. Theft – risk (peril insured against)\nIII. So.sh 6000 – premium\nIV. Tayo Insurance Ltd – insurer",
+      "matching_pairs": null
+    },
+    {
+      "id": 54,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "54. Distinguish between Private and Public Organizations. (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Private organizations are owned and controlled by individuals or groups of private persons, aim mainly at profit and are financed by owners/shareholders. Public organizations are owned and controlled by the government, aim mainly to provide services to the public, and are financed by public funds (taxes).",
+      "matching_pairs": null
+    },
+    {
+      "id": 55,
+      "section": "SECTION 2: DIRECT QUESTIONS – ANSWER ALL QUESTIONS (60 POINTS)",
+      "question": "55. Compare between strategic planning and tactical planning in terms of time. (4 mark).",
+      "diagram": null,
+      "options": null,
+      "correct_index": null,
+      "answer_guide": "Strategic planning is long-term (usually 3–5 years or more), done by top management for the whole organization. Tactical planning is short- to medium-term (usually up to 1–2 years), done by middle management to carry out parts of the strategic plan.",
+      "matching_pairs": null
+    }
+  ]
+}
